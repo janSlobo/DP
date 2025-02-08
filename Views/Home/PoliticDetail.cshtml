@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "PoliticDetail";
+}
+
+<h1>Detail politika</h1>
+
+
+
+         @{  
+        var politician=ViewBag.politician;
+        var sortedMentions = ViewBag.mentions;
+       }
+               
+        <h2> @politician </h2>
+
+
+    <table style="width:35%" class="table table-striped">
+        <tbody>
+            <tr>
+                <td ><b>Počet příspěvků</b></td>
+                <td>4017</td>
+            </tr>
+            <tr>
+                <td><b>Průměrný počet slov</b></td>
+                <td>@ViewBag.avgwords</td>
+            </tr>
+            <tr>
+                <td ><b>Počet zmínek ostatními politiky</b></td>
+                @{
+                    var count = ViewBag.mention_count;
+                }
+                <td>@count</td>
+            </tr>
+            <tr>
+                <td ><b>Celkový počet slov</b></td>
+                <td>@ViewBag.sumwords</td>
+            </tr>
+            <tr>
+                <td ><b>Průměrný počet zmínek za vyjádření</b></td>
+                <td>@ViewBag.avgmentions</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+        <h4>Zmínění politici:</h4>
+        <ul>
+            @foreach (var mentionedPolitician in sortedMentions)
+    {
+                <li>@mentionedPolitician.Key: @mentionedPolitician.Value zmínek</li>
+    }
+        </ul>
+    

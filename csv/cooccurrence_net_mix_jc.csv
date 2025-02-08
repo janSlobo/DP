@@ -1,0 +1,2264 @@
+Source;Target;Weight
+EU;Evropská komise;0.053206997084548104
+SPD;Evropský parlament;0.08258928571428571
+ANO;TOP 09;0.054945054945054944
+ČSSD;TOP 09;0.05337519623233909
+ČSSD;KDU ČSL;0.061191626409017714
+Evropský parlament;Svobodní;0.05115089514066496
+Evropský parlament;Bruselská elita;0.05026455026455026
+Evropská unie;Evropská komise;0.06958250497017893
+Evropská unie;Salvini;0.07932011331444759
+Evropská unie;Bruselská elita;0.06020066889632107
+ODS;TOP 09;0.11485148514851486
+ODS;KDU ČSL;0.05961538461538462
+ODS;STAN;0.06588235294117648
+Evropská komise;Juncker;0.055762081784386616
+Evropská komise;von der Leyen;0.08235294117647059
+Piráti;KDU ČSL;0.06281407035175879
+KSČM;KDU ČSL;0.05596107055961071
+TOP 09;KDU ČSL;0.11171662125340599
+TOP 09;STAN;0.2109375
+TOP 09;Kalousek;0.06349206349206349
+KDU ČSL;STAN;0.11194029850746269
+Schillerová;Havlíček;0.061946902654867256
+Schillerová;Kreml;0.0718562874251497
+Schillerová;Dostálová;0.07647058823529412
+Okamura;Le Pen;0.06417112299465241
+Okamura;Bruselská elita;0.05263157894736842
+Havlíček;Evropská rada;0.08205128205128205
+Havlíček;Vojtěch;0.0916030534351145
+Havlíček;Ministerstvo financí;0.055944055944055944
+Havlíček;Kreml;0.112
+Havlíček;Dostálová;0.051470588235294115
+Havlíček;Benešová;0.05185185185185185
+Havlíček;ČEZ;0.05384615384615385
+Havlíček;Dzurilla;0.07142857142857142
+Havlíček;Škoda Auto;0.05357142857142857
+Havlíček;Rada pro výzkum vývoj a inovace;0.11650485436893204
+Havlíček;Bezpečnostní rada státu;0.0673076923076923
+Evropská rada;Vojtěch;0.0547945205479452
+Evropská rada;Tusk;0.05982905982905983
+komise;Jourová;0.05806451612903226
+Salvini;Le Pen;0.42424242424242425
+Salvini;Orbán;0.128
+Salvini;Soros;0.102803738317757
+Salvini;Svobodní;0.2608695652173913
+Salvini;Wilderse;0.2696629213483146
+Salvini;Svoboda;0.09090909090909091
+Salvini;Hrnčíř;0.061855670103092786
+Salvini;Bruselská elita;0.2
+Salvini;ENF;0.10989010989010989
+Salvini;Evropa národů a svobody;0.13636363636363635
+Salvini;Armáda ČR;0.06382978723404255
+Salvini;Novotný;0.06382978723404255
+Salvini;Národní sdružení;0.06741573033707865
+Salvini;PS PČR;0.06593406593406594
+Salvini;Wilder;0.10465116279069768
+Salvini;Doležal;0.06818181818181818
+Salvini;Horák;0.06818181818181818
+Salvini;MBA;0.06976744186046512
+Salvini;Schubert;0.06976744186046512
+Salvini;Úřad práce ČR;0.06976744186046512
+Salvini;FPÖ;0.08235294117647059
+Salvini;Pupavová;0.07058823529411765
+Salvini;DICKFELD;0.07058823529411765
+Salvini;Lukeš;0.07058823529411765
+Salvini;Pošarová;0.07058823529411765
+Salvini;Dopita;0.07142857142857142
+Salvini;Běrsko;0.07142857142857142
+Salvini;Hahnová;0.07142857142857142
+Salvini;Henner;0.07142857142857142
+Salvini;Městská část Praha 11;0.07142857142857142
+Salvini;Paul;0.07142857142857142
+Salvini;SPD 10 Bc;0.07142857142857142
+Salvini;Vašíček;0.07142857142857142
+Salvini;Vostenak;0.07142857142857142
+Salvini;gšt;0.07142857142857142
+Salvini;Mitterwald;0.07142857142857142
+Salvini;NOS;0.07142857142857142
+Salvini;Schmeidler;0.07142857142857142
+Havel;Letiště Václava Havla;0.06896551724137931
+Trump;Erdogan;0.06521739130434782
+EK;OZE;0.06666666666666667
+Ústavní soud;Rychetský;0.08
+OSN;Valné shromáždění OSN;0.11594202898550725
+Le Pen;Soros;0.06896551724137931
+Le Pen;Svobodní;0.2638888888888889
+Le Pen;Wilderse;0.4666666666666667
+Le Pen;Svoboda;0.12162162162162163
+Le Pen;Hrnčíř;0.08333333333333333
+Le Pen;Bruselská elita;0.2833333333333333
+Le Pen;ENF;0.07042253521126761
+Le Pen;Evropa národů a svobody;0.056338028169014086
+Le Pen;Armáda ČR;0.08695652173913043
+Le Pen;Novotný;0.08695652173913043
+Le Pen;Národní sdružení;0.20689655172413793
+Le Pen;PS PČR;0.09090909090909091
+Le Pen;Wilder;0.1864406779661017
+Le Pen;ID;0.06060606060606061
+Le Pen;Doležal;0.09523809523809523
+Le Pen;Horák;0.09523809523809523
+Le Pen;Lega;0.13333333333333333
+Le Pen;Identita a demokracie;0.0625
+Le Pen;MBA;0.09836065573770492
+Le Pen;Schubert;0.09836065573770492
+Le Pen;Úřad práce ČR;0.09836065573770492
+Le Pen;FPÖ;0.08064516129032258
+Le Pen;Pupavová;0.1
+Le Pen;DICKFELD;0.1
+Le Pen;Lukeš;0.1
+Le Pen;Pošarová;0.1
+Le Pen;Dopita;0.1016949152542373
+Le Pen;Běrsko;0.1016949152542373
+Le Pen;Hahnová;0.1016949152542373
+Le Pen;Henner;0.1016949152542373
+Le Pen;Městská část Praha 11;0.1016949152542373
+Le Pen;Paul;0.1016949152542373
+Le Pen;SPD 10 Bc;0.1016949152542373
+Le Pen;Vašíček;0.1016949152542373
+Le Pen;Vostenak;0.1016949152542373
+Le Pen;gšt;0.1016949152542373
+Le Pen;Mitterwald;0.1016949152542373
+Le Pen;NOS;0.1016949152542373
+Le Pen;Schmeidler;0.1016949152542373
+Merkelová;Soros;0.1511627906976744
+Merkelová;Svobodní;0.07777777777777778
+Agrofert;Agrofertu;0.11224489795918367
+Orbán;Wilderse;0.060240963855421686
+Orbán;Pellegrini;0.10666666666666667
+Orbán;Morawiecki;0.0945945945945946
+Kalousek;Bartoš;0.06329113924050633
+Brabec;Vojtěch;0.07954545454545454
+Brabec;Ministerstvo financí;0.05102040816326531
+Brabec;CO2;0.05319148936170213
+Brabec;Úřad vlády;0.07792207792207792
+Brabec;Ministerstvo zdravotnictví;0.05128205128205128
+Brabec;Bezpečnostní rada státu;0.06779661016949153
+Brabec;Airbnb;0.05084745762711865
+Brabec;Ministerstvo školství;0.05454545454545454
+Brabec;Akademií věd;0.05454545454545454
+Vojtěch;Kreml;0.05128205128205128
+Vojtěch;Dostálová;0.06172839506172839
+Vojtěch;von der Leyen;0.05333333333333334
+Vojtěch;Ministerstvo životního prostředí;0.06666666666666667
+Vojtěch;Dzurilla;0.08620689655172414
+Vojtěch;Škoda Auto;0.05172413793103448
+Vojtěch;Rada pro výzkum vývoj a inovace;0.05454545454545454
+Vojtěch;Nacher;0.05660377358490566
+Vojtěch;Univerzity Karlovy;0.05660377358490566
+Vojtěch;Akademie věd;0.05660377358490566
+Vojtěch;Úřad pro zastupování státu ve věcech majetkových;0.08163265306122448
+Vojtěch;Bezpečnostní rada státu;0.10204081632653061
+Vojtěch;Cook;0.06382978723404255
+Vojtěch;Českých drah;0.061224489795918366
+Vojtěch;Arajma;0.061224489795918366
+Vojtěch;král;0.0851063829787234
+Vojtěch;Akademii věd;0.06521739130434782
+ŘSD;Ministerstvo dopravy;0.07692307692307693
+ŘSD;BESIP;0.05084745762711865
+Ministerstvo financí;Česká pošta;0.0625
+Ministerstvo financí;České pošty;0.06666666666666667
+Ministerstvo financí;Bezpečnostní rada státu;0.08771929824561403
+Johnson;Farage;0.05454545454545454
+Johnson;Konzervativní strana;0.07692307692307693
+Macron;Juncker;0.23376623376623376
+Macron;Soros;0.10256410256410256
+Macron;Brusel;0.06944444444444445
+MPO;ČVUT;0.08064516129032258
+Masaryk;Nacher;0.05084745762711865
+Ředitelství silnic a dálnic;Ministerstvo dopravy;0.05952380952380952
+Ředitelství silnic a dálnic;Dostálová;0.058823529411764705
+Ředitelství silnic a dálnic;Bezpečnostní rada státu;0.05454545454545454
+Ředitelství silnic a dálnic;Státní fond dopravní infrastruktury;0.057692307692307696
+Fiala;Bartoš;0.07246376811594203
+Fiala;Stanjura;0.07547169811320754
+Fiala;Gazdík;0.058823529411764705
+Toman;MZe;0.05172413793103448
+Toman;Bezpečnostní rada státu;0.09433962264150944
+Hřib;Úřad pro zastupování státu ve věcech majetkových;0.057692307692307696
+České televize;NKÚ;0.05813953488372093
+Juncker;Soros;0.19696969696969696
+Juncker;Svobodní;0.1
+Juncker;FPÖ;0.06
+Ministerstvo dopravy;Kreml;0.08
+Ministerstvo dopravy;Plaga;0.057971014492753624
+Ministerstvo dopravy;Ministerstvo životního prostředí;0.06779661016949153
+Ministerstvo dopravy;Ministerstvo pro místní rozvoj;0.06666666666666667
+Ministerstvo dopravy;Dzurilla;0.05084745762711865
+Ministerstvo dopravy;Národní rozvojový fond;0.061224489795918366
+Kreml;Dostálová;0.06493506493506493
+Kreml;Benešová;0.0945945945945946
+Kreml;Ministerstvo pro místní rozvoj;0.07017543859649122
+Kreml;Metnar;0.0625
+Kreml;Úřad pro zastupování státu ve věcech majetkových;0.06521739130434782
+Kreml;Bezpečnostní rada státu;0.06382978723404255
+Kreml;Český statistický úřad;0.06521739130434782
+Kreml;IKEM;0.06521739130434782
+Kreml;CzechInvest;0.06818181818181818
+Dostálová;Plaga;0.08823529411764706
+Dostálová;Dzurilla;0.06779661016949153
+Dostálová;MMR;0.07017543859649122
+Dostálová;Česká pošta;0.05263157894736842
+Dostálová;Metnar;0.057692307692307696
+Dostálová;Bezpečnostní rada státu;0.058823529411764705
+Dostálová;ÚZSVM;0.061224489795918366
+Benešová;Úřad vlády;0.057971014492753624
+Benešová;Ministerstvo životního prostředí;0.06779661016949153
+Benešová;Ministerstvo spravedlnosti;0.08333333333333333
+NKÚ;Nejvyšší kontrolní úřad;0.22950819672131148
+von der Leyen;Ministerstvo životního prostředí;0.05555555555555555
+Kubera;Vondráček;0.05263157894736842
+Kubera;Senát PČR;0.0625
+Plaga;Dzurilla;0.0625
+Plaga;Rada pro výzkum vývoj a inovace;0.06976744186046512
+Plaga;Úřad pro zastupování státu ve věcech majetkových;0.05128205128205128
+Plaga;Airbnb;0.05128205128205128
+Plaga;Státní fond dopravní infrastruktury;0.05405405405405406
+Plaga;Arajma;0.05263157894736842
+Plaga;ÚZSVM;0.05263157894736842
+Soros;Svobodní;0.0967741935483871
+Soros;Telička;0.0975609756097561
+Soros;Szijjártó;0.07692307692307693
+ČEZ;České dráhy;0.10869565217391304
+ČEZ;ČEZu;0.06818181818181818
+ČEZ;Národní rozvojový fond;0.06818181818181818
+ČEZ;ČEPS;0.09523809523809523
+Ťok;Bárta;0.05128205128205128
+David;Svobodní;0.09836065573770492
+David;Wilderse;0.10344827586206896
+David;Svoboda;0.11320754716981132
+David;Hrnčíř;0.14893617021276595
+David;Blaško;0.20930232558139536
+David;Evropa národů a svobody;0.13333333333333333
+David;Armáda ČR;0.1590909090909091
+David;Novotný;0.1590909090909091
+David;Národní sdružení;0.15
+David;PS PČR;0.17073170731707318
+David;ID;0.09523809523809523
+David;Doležal;0.18421052631578946
+David;Horák;0.18421052631578946
+David;Lega;0.15789473684210525
+David;Identita a demokracie;0.1282051282051282
+David;MBA;0.19444444444444445
+David;Schubert;0.19444444444444445
+David;Úřad práce ČR;0.19444444444444445
+David;Pupavová;0.2
+David;DICKFELD;0.2
+David;Lukeš;0.2
+David;Pošarová;0.2
+David;Kolaja;0.07692307692307693
+David;Dopita;0.20588235294117646
+David;Běrsko;0.20588235294117646
+David;Hahnová;0.20588235294117646
+David;Henner;0.20588235294117646
+David;Městská část Praha 11;0.20588235294117646
+David;Paul;0.20588235294117646
+David;SPD 10 Bc;0.20588235294117646
+David;Vašíček;0.20588235294117646
+David;Vostenak;0.20588235294117646
+David;gšt;0.20588235294117646
+David;Mitterwald;0.20588235294117646
+David;NOS;0.20588235294117646
+David;Schmeidler;0.20588235294117646
+Soukup;TV Barrandov;0.0847457627118644
+Soukup;Semín;0.05405405405405406
+Moravec;Nejvyšší kontrolní úřad;0.06557377049180328
+Nejvyšší kontrolní úřad;Úřad vlády;0.06666666666666667
+Nejvyšší kontrolní úřad;Pellegrini;0.05454545454545454
+Nejvyšší kontrolní úřad;Ministerstvo vnitra;0.057692307692307696
+Svobodní;Wilderse;0.08620689655172414
+Svobodní;Policie ČR;0.05263157894736842
+Svobodní;Svoboda;0.1836734693877551
+Svobodní;Hrnčíř;0.1276595744680851
+Svobodní;Bruselská elita;0.4444444444444444
+Svobodní;ENF;0.3076923076923077
+Svobodní;Blaško;0.13333333333333333
+Svobodní;Evropa národů a svobody;0.35135135135135137
+Svobodní;Armáda ČR;0.13636363636363635
+Svobodní;Novotný;0.13636363636363635
+Svobodní;Národní sdružení;0.2857142857142857
+Svobodní;PS PČR;0.14634146341463414
+Svobodní;Wilder;0.07142857142857142
+Svobodní;Doležal;0.15789473684210525
+Svobodní;Horák;0.15789473684210525
+Svobodní;Lega;0.22857142857142856
+Svobodní;MBA;0.16666666666666666
+Svobodní;Schubert;0.16666666666666666
+Svobodní;Úřad práce ČR;0.16666666666666666
+Svobodní;FPÖ;0.16666666666666666
+Svobodní;Pupavová;0.17142857142857143
+Svobodní;DICKFELD;0.17142857142857143
+Svobodní;Lukeš;0.17142857142857143
+Svobodní;Pošarová;0.17142857142857143
+Svobodní;Liga;0.05128205128205128
+Svobodní;Dopita;0.17647058823529413
+Svobodní;Běrsko;0.17647058823529413
+Svobodní;Hahnová;0.17647058823529413
+Svobodní;Henner;0.17647058823529413
+Svobodní;Městská část Praha 11;0.17647058823529413
+Svobodní;Paul;0.17647058823529413
+Svobodní;SPD 10 Bc;0.17647058823529413
+Svobodní;Vašíček;0.17647058823529413
+Svobodní;Vostenak;0.17647058823529413
+Svobodní;gšt;0.17647058823529413
+Svobodní;Mitterwald;0.17647058823529413
+Svobodní;NOS;0.17647058823529413
+Svobodní;Schmeidler;0.17647058823529413
+Úřad vlády;Ministerstvo zdravotnictví;0.05172413793103448
+Úřad vlády;Ministerstvo vnitra;0.06
+Úřad vlády;Dzurilla;0.10869565217391304
+Úřad vlády;Nacher;0.07317073170731707
+Úřad vlády;Svaz průmyslu a dopravy;0.05128205128205128
+Úřad vlády;Národní sportovní agentura;0.07692307692307693
+Úřad vlády;ČEZu;0.05128205128205128
+Úřad vlády;Ministerstvo spravedlnosti;0.05128205128205128
+Úřad vlády;Kněžínek;0.07894736842105263
+Úřad vlády;Infocz;0.05555555555555555
+Úřad vlády;Bartha;0.1875
+Staněk;Staňka;0.09803921568627451
+Ministerstvo zdravotnictví;Ministerstvo životního prostředí;0.0625
+Ministerstvo zdravotnictví;Světová zdravotnická organizace;0.05128205128205128
+Ministerstvo zdravotnictví;Svaz průmyslu a dopravy;0.05263157894736842
+Ministerstvo zdravotnictví;Úřad pro zastupování státu ve věcech majetkových;0.05263157894736842
+Ministerstvo zdravotnictví;Ministerstvo spravedlnosti;0.05263157894736842
+Ministerstvo zdravotnictví;Národní rozvojový fond;0.08108108108108109
+Ministerstvo zdravotnictví;Mátl;0.05405405405405406
+Ministerstvo zdravotnictví;Arajma;0.05405405405405406
+Ministerstvo zdravotnictví;Bartha;0.05714285714285714
+Ministerstvo zdravotnictví;Ministerstvo školství;0.058823529411764705
+Ministerstvo zdravotnictví;Zažímalová;0.058823529411764705
+Ministerstvo zdravotnictví;Správa železniční dopravní cesty;0.06060606060606061
+Ministerstvo zdravotnictví;Českého zahrádkářského svazu;0.058823529411764705
+Nováková;Sputnik;0.07894736842105263
+Islámský stát;Erdogan;0.10869565217391304
+Islámský stát;ID;0.05128205128205128
+Islámský stát;Identita a demokracie;0.05405405405405406
+Islámský stát;ISIS;0.058823529411764705
+OECD;WHO;0.11538461538461539
+Wilderse;Policie ČR;0.05555555555555555
+Wilderse;Svoboda;0.057692307692307696
+Wilderse;Hrnčíř;0.13636363636363635
+Wilderse;Bruselská elita;0.48484848484848486
+Wilderse;Blaško;0.14285714285714285
+Wilderse;Armáda ČR;0.14634146341463414
+Wilderse;Novotný;0.14634146341463414
+Wilderse;PS PČR;0.15789473684210525
+Wilderse;Doležal;0.17142857142857143
+Wilderse;Horák;0.17142857142857143
+Wilderse;Lega;0.05263157894736842
+Wilderse;MBA;0.18181818181818182
+Wilderse;Schubert;0.18181818181818182
+Wilderse;Úřad práce ČR;0.18181818181818182
+Wilderse;FPÖ;0.05405405405405406
+Wilderse;Pupavová;0.1875
+Wilderse;DICKFELD;0.1875
+Wilderse;Lukeš;0.1875
+Wilderse;Pošarová;0.1875
+Wilderse;Dopita;0.1935483870967742
+Wilderse;Běrsko;0.1935483870967742
+Wilderse;Hahnová;0.1935483870967742
+Wilderse;Henner;0.1935483870967742
+Wilderse;Městská část Praha 11;0.1935483870967742
+Wilderse;Paul;0.1935483870967742
+Wilderse;SPD 10 Bc;0.1935483870967742
+Wilderse;Vašíček;0.1935483870967742
+Wilderse;Vostenak;0.1935483870967742
+Wilderse;gšt;0.1935483870967742
+Wilderse;Mitterwald;0.1935483870967742
+Wilderse;NOS;0.1935483870967742
+Wilderse;Schmeidler;0.1935483870967742
+Sobotka;Bezpečnostní rada státu;0.05128205128205128
+Sobotka;Ministerstvo zemědělství;0.05555555555555555
+Sobotka;Nečas;0.05714285714285714
+Huawei;Navrátil;0.058823529411764705
+BIS;Právo;0.05128205128205128
+BIS;Koudelka;0.14705882352941177
+Brusel;Liga;0.0625
+Brusel;Brežněv;0.10344827586206896
+Zahradil;Svoboda;0.06
+Zahradil;Charanzová;0.0851063829787234
+Zahradil;Šojdrová;0.08888888888888889
+Zahradil;Dlabajová;0.06521739130434782
+Zahradil;Zdechovský;0.06818181818181818
+Zahradil;Polčák;0.1
+Zahradil;Pospíšil;0.10526315789473684
+Zahradil;Niedermayer;0.07894736842105263
+Zahradil;Telička;0.08571428571428572
+Zahradil;Sehnalová;0.08823529411764706
+Zahradil;Tošenovský;0.125
+Zahradil;Ježek;0.09090909090909091
+Zahradil;Infocz;0.06060606060606061
+Zahradil;Poche;0.09375
+Zahradil;Konečná;0.09375
+Michálek;Peksa;0.06060606060606061
+Michálek;Němec;0.06451612903225806
+Michálek;Novinkycz;0.06666666666666667
+Čapí hnízdo;NSZ;0.24242424242424243
+Stb;Akademií věd;0.06451612903225806
+Policie ČR;Bruselská elita;0.06976744186046512
+Policie ČR;Národní sdružení;0.08333333333333333
+Policie ČR;PS PČR;0.05128205128205128
+Policie ČR;Wilder;0.08333333333333333
+Policie ČR;Doležal;0.05555555555555555
+Policie ČR;Horák;0.05555555555555555
+Policie ČR;Lega;0.05714285714285714
+Policie ČR;MBA;0.058823529411764705
+Policie ČR;Schubert;0.058823529411764705
+Policie ČR;Úřad práce ČR;0.058823529411764705
+Policie ČR;Pupavová;0.06060606060606061
+Policie ČR;DICKFELD;0.06060606060606061
+Policie ČR;Lukeš;0.06060606060606061
+Policie ČR;Pošarová;0.06060606060606061
+Policie ČR;Čermák;0.06060606060606061
+Policie ČR;Dopita;0.0625
+Policie ČR;Běrsko;0.0625
+Policie ČR;Hahnová;0.0625
+Policie ČR;Henner;0.0625
+Policie ČR;Městská část Praha 11;0.0625
+Policie ČR;Paul;0.0625
+Policie ČR;SPD 10 Bc;0.0625
+Policie ČR;Vašíček;0.0625
+Policie ČR;Vostenak;0.0625
+Policie ČR;gšt;0.0625
+Policie ČR;Mitterwald;0.0625
+Policie ČR;NOS;0.0625
+Policie ČR;Schmeidler;0.0625
+ČNB;Svoboda a přímá demokracie;0.05405405405405406
+ČNB;Kovanda;0.09090909090909091
+ČNB;eurozóna;0.058823529411764705
+Bartoš;Gazdík;0.10344827586206896
+WHO;Světová zdravotnická organizace;0.15625
+Svoboda;Charanzová;0.06666666666666667
+Svoboda;Šojdrová;0.15
+Svoboda;Dlabajová;0.06976744186046512
+Svoboda;Hrnčíř;0.15384615384615385
+Svoboda;Bruselská elita;0.2222222222222222
+Svoboda;Zdechovský;0.1282051282051282
+Svoboda;ENF;0.22857142857142856
+Svoboda;Blaško;0.16216216216216217
+Svoboda;Evropa národů a svobody;0.23529411764705882
+Svoboda;Armáda ČR;0.16666666666666666
+Svoboda;Novotný;0.16666666666666666
+Svoboda;Polčák;0.07894736842105263
+Svoboda;Národní sdružení;0.32142857142857145
+Svoboda;Pospíšil;0.08333333333333333
+Svoboda;PS PČR;0.18181818181818182
+Svoboda;Niedermayer;0.05555555555555555
+Svoboda;Wilder;0.05714285714285714
+Svoboda;Národní galerie;0.05714285714285714
+Svoboda;Doležal;0.2
+Svoboda;Horák;0.2
+Svoboda;Telička;0.09375
+Svoboda;Sehnalová;0.0967741935483871
+Svoboda;MBA;0.21428571428571427
+Svoboda;Schubert;0.21428571428571427
+Svoboda;Úřad práce ČR;0.21428571428571427
+Svoboda;FPÖ;0.0625
+Svoboda;Tošenovský;0.1
+Svoboda;Pupavová;0.2222222222222222
+Svoboda;DICKFELD;0.2222222222222222
+Svoboda;Lukeš;0.2222222222222222
+Svoboda;Pošarová;0.2222222222222222
+Svoboda;Ježek;0.1
+Svoboda;Liga;0.06451612903225806
+Svoboda;Infocz;0.06666666666666667
+Svoboda;Poche;0.10344827586206896
+Svoboda;Dopita;0.23076923076923078
+Svoboda;Běrsko;0.23076923076923078
+Svoboda;Hahnová;0.23076923076923078
+Svoboda;Henner;0.23076923076923078
+Svoboda;Městská část Praha 11;0.23076923076923078
+Svoboda;Paul;0.23076923076923078
+Svoboda;SPD 10 Bc;0.23076923076923078
+Svoboda;Vašíček;0.23076923076923078
+Svoboda;Vostenak;0.23076923076923078
+Svoboda;gšt;0.23076923076923078
+Svoboda;Mitterwald;0.23076923076923078
+Svoboda;NOS;0.23076923076923078
+Svoboda;Schmeidler;0.23076923076923078
+Svoboda;Konečná;0.14285714285714285
+Hitler;Stalin;0.0625
+Hitler;Třetí říše;0.13793103448275862
+Pellegrini;Morawiecki;0.23076923076923078
+Pellegrini;Metnar;0.05714285714285714
+Pellegrini;Ministerstvo práce a sociálních věcí;0.05405405405405406
+Pellegrini;ČEZu;0.06060606060606061
+Pellegrini;Bárta;0.0625
+Pellegrini;Schäuble;0.06896551724137931
+Ministerstvo životního prostředí;Ministerstvo pro místní rozvoj;0.075
+Ministerstvo životního prostředí;Dzurilla;0.1388888888888889
+Ministerstvo životního prostředí;Nejvyšší soud;0.05555555555555555
+Ministerstvo životního prostředí;NÚKIB;0.06451612903225806
+Ministerstvo životního prostředí;Bezpečnostní rada státu;0.10344827586206896
+Ministerstvo životního prostředí;CzechInvest;0.07407407407407407
+Ministerstvo životního prostředí;Ministerstvo obrany;0.07407407407407407
+Ministerstvo životního prostředí;Ministerstvo zemědělství;0.07407407407407407
+Ministerstvo životního prostředí;Infocz;0.07692307692307693
+Ministerstvo životního prostředí;Thermal;0.07692307692307693
+Ministerstvo životního prostředí;Ministerstvo školství;0.08
+Dvořák;Rada pro výzkum vývoj a inovace;0.05555555555555555
+Dvořák;IT;0.06451612903225806
+Dvořák;MfD;0.1111111111111111
+Vondráček;Němcová;0.05714285714285714
+Morawiecki;Varšavská smlouva;0.075
+Morawiecki;Rada pro výzkum vývoj a inovace;0.05555555555555555
+Morawiecki;Ministerstvo práce a sociálních věcí;0.05714285714285714
+Morawiecki;Schäuble;0.11538461538461539
+Beneš;Národní rozvojový fond;0.06451612903225806
+Beneš;IT;0.06451612903225806
+Beneš;Thomayerovy nemocnice;0.07142857142857142
+Novák;Hnilička;0.09090909090909091
+Novák;Sáblíková;0.11538461538461539
+Novák;Letiště Václava Havla;0.07692307692307693
+Česká televize;Český rozhlas;0.05128205128205128
+Česká televize;Českou televizi;0.06666666666666667
+Ministerstvo vnitra;Rada pro výzkum vývoj a inovace;0.05714285714285714
+Ministerstvo vnitra;NÚKIB;0.0625
+Ministerstvo vnitra;Národní sportovní agentura;0.06451612903225806
+Ministerstvo vnitra;Bezpečnostní rada státu;0.1
+Ministerstvo vnitra;Ministerstvo spravedlnosti;0.06666666666666667
+Ministerstvo vnitra;Ministerstvo školství;0.07692307692307693
+Charanzová;Dlabajová;0.5714285714285714
+Charanzová;Hlaváček;0.075
+Charanzová;Zdechovský;0.07692307692307693
+Charanzová;Polčák;0.11428571428571428
+Charanzová;Pospíšil;0.12121212121212122
+Charanzová;Niedermayer;0.09090909090909091
+Charanzová;Tusk;0.058823529411764705
+Charanzová;Národní galerie;0.06060606060606061
+Charanzová;ALDE;0.13333333333333333
+Charanzová;Bezpečnostní rada státu;0.0625
+Charanzová;Telička;0.2692307692307692
+Charanzová;Tošenovský;0.14814814814814814
+Charanzová;Ježek;0.2916666666666667
+Charanzová;Poche;0.1111111111111111
+Charanzová;Szijjártó;0.1111111111111111
+Charanzová;Konečná;0.1111111111111111
+Faltýnek;Mynář;0.06060606060606061
+Ministerstvo pro místní rozvoj;Česká pošta;0.05405405405405406
+Ministerstvo pro místní rozvoj;Metnar;0.0967741935483871
+Ministerstvo pro místní rozvoj;Nacher;0.06060606060606061
+Ministerstvo pro místní rozvoj;Svaz průmyslu a dopravy;0.06666666666666667
+Ministerstvo pro místní rozvoj;Apple Store;0.06666666666666667
+Ministerstvo pro místní rozvoj;Cook;0.07407407407407407
+Ministerstvo pro místní rozvoj;Ministerstvo spravedlnosti;0.06666666666666667
+Ministerstvo pro místní rozvoj;Airbnb;0.06666666666666667
+Ministerstvo pro místní rozvoj;Bárta;0.06896551724137931
+Ministerstvo pro místní rozvoj;Ministerstvo obrany;0.07142857142857142
+Ministerstvo pro místní rozvoj;Bartha;0.07407407407407407
+Feri;Jaklo;0.08571428571428572
+Šojdrová;Zdechovský;0.25
+Šojdrová;Polčák;0.12121212121212122
+Šojdrová;Pospíšil;0.12903225806451613
+Šojdrová;Niedermayer;0.0967741935483871
+Šojdrová;Telička;0.10714285714285714
+Šojdrová;Sehnalová;0.1111111111111111
+Šojdrová;Tošenovský;0.16
+Šojdrová;Ježek;0.11538461538461539
+Šojdrová;Poche;0.12
+Šojdrová;Konečná;0.12
+Schwarzenberg;Sudetoněmecký landsmanšaft;0.08
+Dzurilla;Makron;0.05405405405405406
+Dzurilla;Baťa;0.05405405405405406
+Dzurilla;Rada pro výzkum vývoj a inovace;0.06060606060606061
+Dzurilla;Pospíšil;0.0625
+Dzurilla;Metnar;0.06666666666666667
+Dzurilla;Nacher;0.06451612903225806
+Dzurilla;Centre Pompidou;0.1
+Dzurilla;Akademie věd;0.06451612903225806
+Dzurilla;Tusk;0.06451612903225806
+Dzurilla;Národní galerie;0.14285714285714285
+Dzurilla;Němec;0.07142857142857142
+Dzurilla;Úřad pro zastupování státu ve věcech majetkových;0.07142857142857142
+Dzurilla;Jerman;0.06896551724137931
+Dzurilla;Bezpečnostní rada státu;0.06896551724137931
+Dzurilla;Lasvignes;0.07407407407407407
+Dzurilla;Apple Store;0.1111111111111111
+Dzurilla;Cook;0.17391304347826086
+Dzurilla;ČEZu;0.07142857142857142
+Dzurilla;Národní rozvojový fond;0.07142857142857142
+Dzurilla;IT;0.2
+Dzurilla;Airbnb;0.07142857142857142
+Dzurilla;Českých drah;0.07407407407407407
+Dzurilla;Apple;0.07407407407407407
+Dzurilla;Arajma;0.07407407407407407
+Dzurilla;Infocz;0.08
+Dzurilla;Ministerstvo školství;0.08333333333333333
+Dlabajová;Hlaváček;0.05128205128205128
+Dlabajová;Zdechovský;0.05263157894736842
+Dlabajová;Polčák;0.08823529411764706
+Dlabajová;Pospíšil;0.09375
+Dlabajová;Niedermayer;0.0625
+Dlabajová;ALDE;0.10344827586206896
+Dlabajová;Bezpečnostní rada státu;0.06666666666666667
+Dlabajová;Telička;0.2916666666666667
+Dlabajová;Tošenovský;0.11538461538461539
+Dlabajová;Ježek;0.3181818181818182
+Dlabajová;Infocz;0.07692307692307693
+Dlabajová;Poche;0.12
+Dlabajová;Szijjártó;0.12
+Dlabajová;Konečná;0.12
+OKD;Liberty Ostrava;0.08
+ČTK;Rada ČTK;0.3076923076923077
+ČTK;Semín;0.21739130434782608
+Strakově akademii;Bezpečnostní rada státu;0.06896551724137931
+Scheinherr;Hlaváček;0.1111111111111111
+Scheinherr;Hlubuček;0.07142857142857142
+Scheinherr;Správa železniční dopravní cesty s o;0.07142857142857142
+Scheinherr;Trestík;0.08
+Hrnčíř;ENF;0.1875
+Hrnčíř;Evropa národů a svobody;0.1935483870967742
+Hrnčíř;Novotný;0.23333333333333334
+Hrnčíř;Národní sdružení;0.23076923076923078
+Hrnčíř;PS PČR;0.25925925925925924
+Hrnčíř;Wilder;0.06666666666666667
+Hrnčíř;Doležal;0.2916666666666667
+Hrnčíř;Horák;0.2916666666666667
+Hrnčíř;Lega;0.25
+Hrnčíř;MBA;0.38095238095238093
+Hrnčíř;Schubert;0.3181818181818182
+Hrnčíř;Úřad práce ČR;0.3181818181818182
+Hrnčíř;Pupavová;0.3333333333333333
+Hrnčíř;DICKFELD;0.3333333333333333
+Hrnčíř;Lukeš;0.3333333333333333
+Hrnčíř;Pošarová;0.3333333333333333
+Hrnčíř;Henner;0.35
+Hrnčíř;Městská část Praha 11;0.35
+Hrnčíř;Paul;0.35
+Hrnčíř;SPD 10 Bc;0.35
+Hrnčíř;Vašíček;0.35
+Hrnčíř;Vostenak;0.35
+Hrnčíř;gšt;0.35
+Hrnčíř;Mitterwald;0.35
+Hrnčíř;NOS;0.35
+Hrnčíř;Schmeidler;0.35
+Hlaváček;Správa železniční dopravní cesty s o;0.07142857142857142
+Hlaváček;Sehnalová;0.07407407407407407
+MŽP;Ministerstvo zemědělství;0.07692307692307693
+MŽP;EIA;0.17391304347826086
+Makron;Blaško;0.05714285714285714
+Makron;Nacher;0.06666666666666667
+Makron;Centre Pompidou;0.06666666666666667
+Makron;FPÖ;0.07692307692307693
+Bruselská elita;ENF;0.48
+Bruselská elita;Evropa národů a svobody;0.5
+Bruselská elita;Národní sdružení;0.4090909090909091
+Bruselská elita;Wilder;0.10714285714285714
+Bruselská elita;Lega;0.38095238095238093
+Bruselská elita;Čermák;0.08
+Zdechovský;Polčák;0.09375
+Zdechovský;Pospíšil;0.1
+Zdechovský;Niedermayer;0.10344827586206896
+Zdechovský;Telička;0.07407407407407407
+Zdechovský;Sehnalová;0.07692307692307693
+Zdechovský;Tošenovský;0.125
+Zdechovský;Ježek;0.08
+Zdechovský;Poche;0.08333333333333333
+Zdechovský;Konečná;0.08333333333333333
+Baťa;Škoda;0.07142857142857142
+Volný;Parlamentní listy;0.06896551724137931
+Klaus ml;Thunberg;0.07142857142857142
+MMR;Svaz měst a obcí ČR;0.06896551724137931
+MMR;Svaz měst a obcí;0.07142857142857142
+ENF;Evropa národů a svobody;0.75
+ENF;Armáda ČR;0.20689655172413793
+ENF;Novotný;0.20689655172413793
+ENF;Národní sdružení;0.07142857142857142
+ENF;PS PČR;0.23076923076923078
+ENF;Svoboda a přímá demokracie;0.06896551724137931
+ENF;Wilder;0.07142857142857142
+ENF;Doležal;0.2608695652173913
+ENF;Horák;0.2608695652173913
+ENF;MBA;0.2857142857142857
+ENF;Schubert;0.2857142857142857
+ENF;Úřad práce ČR;0.2857142857142857
+ENF;Pupavová;0.3
+ENF;DICKFELD;0.3
+ENF;Lukeš;0.3
+ENF;Pošarová;0.3
+ENF;Liga;0.08333333333333333
+ENF;Dopita;0.3157894736842105
+ENF;Běrsko;0.3157894736842105
+ENF;Hahnová;0.3157894736842105
+ENF;Henner;0.3157894736842105
+ENF;Městská část Praha 11;0.3157894736842105
+ENF;Paul;0.3157894736842105
+ENF;SPD 10 Bc;0.3157894736842105
+ENF;Vašíček;0.3157894736842105
+ENF;Vostenak;0.3157894736842105
+ENF;gšt;0.3157894736842105
+ENF;Mitterwald;0.3157894736842105
+ENF;NOS;0.3157894736842105
+ENF;Schmeidler;0.3157894736842105
+Blaško;Evropa národů a svobody;0.20689655172413793
+Blaško;Armáda ČR;0.25
+Blaško;Novotný;0.25
+Blaško;Polčák;0.0625
+Blaško;Národní sdružení;0.25
+Blaško;Wilder;0.07142857142857142
+Blaško;ID;0.1111111111111111
+Blaško;Peksa;0.07142857142857142
+Blaško;Doležal;0.3181818181818182
+Blaško;Horák;0.3181818181818182
+Blaško;Lega;0.2727272727272727
+Blaško;Identita a demokracie;0.12
+Blaško;MBA;0.08
+Blaško;Schubert;0.35
+Blaško;Úřad práce ČR;0.35
+Blaško;DICKFELD;0.3684210526315789
+Blaško;Lukeš;0.3684210526315789
+Blaško;Pošarová;0.4444444444444444
+Blaško;Kolaja;0.08333333333333333
+Blaško;Dopita;0.08695652173913043
+Blaško;Běrsko;0.3888888888888889
+Blaško;Hahnová;0.3888888888888889
+Blaško;Henner;0.3888888888888889
+Blaško;Městská část Praha 11;0.3888888888888889
+Blaško;Paul;0.3888888888888889
+Blaško;SPD 10 Bc;0.3888888888888889
+Blaško;Vašíček;0.3888888888888889
+Blaško;Vostenak;0.3888888888888889
+Blaško;gšt;0.3888888888888889
+Blaško;Mitterwald;0.3888888888888889
+Blaško;NOS;0.3888888888888889
+Blaško;Schmeidler;0.3888888888888889
+Nejvyšší soud;Česká pošta;0.0625
+Nejvyšší soud;Armáda ČR;0.0625
+Nejvyšší soud;České dráhy;0.06896551724137931
+Nejvyšší soud;Nacher;0.07142857142857142
+Škoda Auto;Metnar;0.07142857142857142
+Škoda Auto;Českého rozhlasu;0.06896551724137931
+Škoda Auto;Bezpečnostní rada státu;0.07407407407407407
+Škoda Auto;Dukovan;0.08333333333333333
+Český rozhlas;Českého rozhlasu;0.10714285714285714
+Český rozhlas;Deník N;0.08333333333333333
+Česká pošta;Armáda ČR;0.0625
+Česká pošta;České dráhy;0.06896551724137931
+Česká pošta;Hnilička;0.06896551724137931
+Česká pošta;České pošty;0.2
+Česká pošta;Ministerstvo spravedlnosti;0.08
+Česká pošta;Český statistický úřad;0.08
+Česká pošta;Thermal;0.09090909090909091
+Jaklo;RRTV;0.35
+Jaklo;Jakl;0.09090909090909091
+Evropa národů a svobody;Armáda ČR;0.21428571428571427
+Evropa národů a svobody;Novotný;0.21428571428571427
+Evropa národů a svobody;Národní sdružení;0.07407407407407407
+Evropa národů a svobody;PS PČR;0.24
+Evropa národů a svobody;Doležal;0.2727272727272727
+Evropa národů a svobody;Horák;0.2727272727272727
+Evropa národů a svobody;MBA;0.3
+Evropa národů a svobody;Schubert;0.3
+Evropa národů a svobody;Úřad práce ČR;0.3
+Evropa národů a svobody;FPÖ;0.08333333333333333
+Evropa národů a svobody;Pupavová;0.3157894736842105
+Evropa národů a svobody;DICKFELD;0.3157894736842105
+Evropa národů a svobody;Lukeš;0.3157894736842105
+Evropa národů a svobody;Pošarová;0.3157894736842105
+Evropa národů a svobody;Liga;0.08695652173913043
+Evropa národů a svobody;Dopita;0.3333333333333333
+Evropa národů a svobody;Běrsko;0.3333333333333333
+Evropa národů a svobody;Hahnová;0.3333333333333333
+Evropa národů a svobody;Henner;0.3333333333333333
+Evropa národů a svobody;Městská část Praha 11;0.3333333333333333
+Evropa národů a svobody;Paul;0.3333333333333333
+Evropa národů a svobody;SPD 10 Bc;0.3333333333333333
+Evropa národů a svobody;Vašíček;0.3333333333333333
+Evropa národů a svobody;Vostenak;0.3333333333333333
+Evropa národů a svobody;gšt;0.3333333333333333
+Evropa národů a svobody;Mitterwald;0.3333333333333333
+Evropa národů a svobody;NOS;0.3333333333333333
+Evropa národů a svobody;Schmeidler;0.3333333333333333
+Armáda ČR;Novotný;0.25925925925925924
+Armáda ČR;Národní sdružení;0.2608695652173913
+Armáda ČR;České dráhy;0.06896551724137931
+Armáda ČR;Hnilička;0.06896551724137931
+Armáda ČR;Wilder;0.07407407407407407
+Armáda ČR;Doležal;0.3333333333333333
+Armáda ČR;Horák;0.3333333333333333
+Armáda ČR;Lega;0.2857142857142857
+Armáda ČR;MBA;0.08333333333333333
+Armáda ČR;Schubert;0.3684210526315789
+Armáda ČR;Úřad práce ČR;0.3684210526315789
+Armáda ČR;DICKFELD;0.3888888888888889
+Armáda ČR;Lukeš;0.3888888888888889
+Armáda ČR;Pošarová;0.3888888888888889
+Armáda ČR;Thermal;0.09090909090909091
+Armáda ČR;Dopita;0.09090909090909091
+Armáda ČR;Běrsko;0.4117647058823529
+Armáda ČR;Hahnová;0.4117647058823529
+Armáda ČR;Henner;0.4117647058823529
+Armáda ČR;Městská část Praha 11;0.4117647058823529
+Armáda ČR;Paul;0.4117647058823529
+Armáda ČR;SPD 10 Bc;0.4117647058823529
+Armáda ČR;Vašíček;0.4117647058823529
+Armáda ČR;Vostenak;0.4117647058823529
+Armáda ČR;gšt;0.4117647058823529
+Armáda ČR;Mitterwald;0.4117647058823529
+Armáda ČR;NOS;0.4117647058823529
+Armáda ČR;Schmeidler;0.4117647058823529
+Novotný;Národní sdružení;0.2608695652173913
+Novotný;Wilder;0.07407407407407407
+Novotný;Doležal;0.3333333333333333
+Novotný;Horák;0.3333333333333333
+Novotný;Lega;0.2857142857142857
+Novotný;MBA;0.3684210526315789
+Novotný;Schubert;0.3684210526315789
+Novotný;Úřad práce ČR;0.3684210526315789
+Novotný;DICKFELD;0.08695652173913043
+Novotný;Pošarová;0.3888888888888889
+Novotný;Dopita;0.4117647058823529
+Novotný;Běrsko;0.4117647058823529
+Novotný;Hahnová;0.4117647058823529
+Novotný;Městská část Praha 11;0.4117647058823529
+Novotný;Paul;0.4117647058823529
+Novotný;SPD 10 Bc;0.4117647058823529
+Novotný;Vašíček;0.4117647058823529
+Novotný;Vostenak;0.4117647058823529
+Novotný;gšt;0.4117647058823529
+Novotný;Mitterwald;0.4117647058823529
+Novotný;NOS;0.4117647058823529
+Novotný;Schmeidler;0.4117647058823529
+Rada Evropy;Kobza;0.08333333333333333
+Google;Facebook;0.36363636363636365
+Google;Bloomberg;0.11538461538461539
+Google;Twitter;0.12
+Google;Apple;0.13043478260869565
+Skopeček;Nečas;0.09090909090909091
+Polčák;Pospíšil;0.15384615384615385
+Polčák;Niedermayer;0.11538461538461539
+Polčák;Telička;0.13043478260869565
+Polčák;Tošenovský;0.2
+Polčák;Ježek;0.14285714285714285
+Polčák;Poche;0.15
+Polčák;Konečná;0.15
+EPP;Evropská lidová strana;0.13043478260869565
+EPP;Weber;0.08695652173913043
+AfD;FPÖ;0.08695652173913043
+TV Prima;Telička;0.08333333333333333
+TV Prima;Szijjártó;0.09523809523809523
+Rada pro výzkum vývoj a inovace;ČVUT;0.07142857142857142
+Rada pro výzkum vývoj a inovace;Hnilička;0.07407407407407407
+Rada pro výzkum vývoj a inovace;Univerzity Karlovy;0.07692307692307693
+Rada pro výzkum vývoj a inovace;RVVI;0.08333333333333333
+Rada pro výzkum vývoj a inovace;Jerman;0.08333333333333333
+Rada pro výzkum vývoj a inovace;Bezpečnostní rada státu;0.08333333333333333
+Rada pro výzkum vývoj a inovace;Bartha;0.1
+Rada pro výzkum vývoj a inovace;Ministerstvo školství;0.23529411764705882
+Rada pro výzkum vývoj a inovace;Akademii věd;0.16666666666666666
+Rada pro výzkum vývoj a inovace;University of Maryland;0.10526315789473684
+Rada pro výzkum vývoj a inovace;Akademií věd;0.10526315789473684
+SFDI;Státní fond dopravní infrastruktury;0.15
+Válková;Úřad pro zastupování státu ve věcech majetkových;0.09090909090909091
+Válková;Arajma;0.09523809523809523
+Válková;ÚZSVM;0.09523809523809523
+Válková;Správa železniční dopravní cesty;0.05555555555555555
+Válková;Plenković;0.05263157894736842
+Národní sdružení;PS PČR;0.3
+Národní sdružení;Doležal;0.35294117647058826
+Národní sdružení;Horák;0.35294117647058826
+Národní sdružení;Lega;0.1
+Národní sdružení;MBA;0.4
+Národní sdružení;Schubert;0.4
+Národní sdružení;Úřad práce ČR;0.4
+Národní sdružení;FPÖ;0.10526315789473684
+Národní sdružení;TV Nova;0.05263157894736842
+Národní sdružení;Pupavová;0.42857142857142855
+Národní sdružení;DICKFELD;0.42857142857142855
+Národní sdružení;Lukeš;0.42857142857142855
+Národní sdružení;Pošarová;0.42857142857142855
+Národní sdružení;Čermák;0.05263157894736842
+Národní sdružení;Liga;0.05263157894736842
+Národní sdružení;Dopita;0.46153846153846156
+Národní sdružení;Běrsko;0.46153846153846156
+Národní sdružení;Hahnová;0.46153846153846156
+Národní sdružení;Henner;0.46153846153846156
+Národní sdružení;Městská část Praha 11;0.46153846153846156
+Národní sdružení;Paul;0.46153846153846156
+Národní sdružení;SPD 10 Bc;0.46153846153846156
+Národní sdružení;Vašíček;0.46153846153846156
+Národní sdružení;Vostenak;0.46153846153846156
+Národní sdružení;gšt;0.46153846153846156
+Národní sdružení;Mitterwald;0.46153846153846156
+Národní sdružení;NOS;0.46153846153846156
+Národní sdružení;Schmeidler;0.46153846153846156
+Národní sdružení;Konečná;0.05555555555555555
+Pospíšil;Niedermayer;0.125
+Pospíšil;Telička;0.14285714285714285
+Pospíšil;Tošenovský;0.2222222222222222
+Pospíšil;Ježek;0.15789473684210525
+Pospíšil;Poche;0.16666666666666666
+Pospíšil;Konečná;0.16666666666666666
+Pospíšil;Akademii věd;0.05263157894736842
+Pospíšil;Akademií věd;0.05263157894736842
+Pospíšil;Farský;0.05263157894736842
+Metnar;Opat;0.1
+Metnar;Cook;0.05555555555555555
+Metnar;Národní rozvojový fond;0.1
+Metnar;Airbnb;0.1
+Metnar;Bárta;0.10526315789473684
+Metnar;Státní fond dopravní infrastruktury;0.05263157894736842
+Metnar;CzechInvest;0.05263157894736842
+Metnar;Centrum porodní asistence;0.05263157894736842
+Metnar;Ministerstvo obrany;0.1111111111111111
+Metnar;král;0.05263157894736842
+Metnar;Hospodářská komora;0.05555555555555555
+Metnar;Dukovan;0.1111111111111111
+Metnar;Infocz;0.05555555555555555
+Metnar;Thermal;0.05555555555555555
+Metnar;Ministerstvo školství;0.125
+Metnar;Státní tiskárny cenin;0.05555555555555555
+Metnar;Zelenský;0.05555555555555555
+Metnar;Lesy ČR;0.058823529411764705
+Metnar;Českého zahrádkářského svazu;0.058823529411764705
+Rada ČTK;Semín;0.4666666666666667
+NSZ;Šarocha;0.05263157894736842
+NSZ;OLAF;0.05263157894736842
+Aktuálně;Bakala;0.10526315789473684
+Timmermans;Weber;0.09523809523809523
+České dráhy;Hnilička;0.07692307692307693
+České dráhy;ČEPS;0.15
+České dráhy;Thermal;0.10526315789473684
+České dráhy;Ministerstvo školství;0.05263157894736842
+České dráhy;Správa železniční dopravní cesty;0.05555555555555555
+České dráhy;Blesku;0.05263157894736842
+Hnilička;Národní sportovní agentura;0.08695652173913043
+Hnilička;Thermal;0.10526315789473684
+Hnilička;Sáblíková;0.10526315789473684
+Hnilička;Ministerstvo školství;0.05263157894736842
+Hnilička;Blesku;0.05263157894736842
+Hnilička;Letiště Václava Havla;0.05263157894736842
+Hnilička;Zikmund;0.05263157894736842
+PS PČR;Wilder;0.08333333333333333
+PS PČR;Doležal;0.3888888888888889
+PS PČR;Horák;0.3888888888888889
+PS PČR;Lega;0.3333333333333333
+PS PČR;Schubert;0.4375
+PS PČR;Úřad práce ČR;0.4375
+PS PČR;Pupavová;0.4666666666666667
+PS PČR;DICKFELD;0.4666666666666667
+PS PČR;Lukeš;0.4666666666666667
+PS PČR;Pošarová;0.4666666666666667
+PS PČR;Henner;0.5
+PS PČR;Paul;0.5
+PS PČR;SPD 10 Bc;0.5
+PS PČR;Vašíček;0.5
+PS PČR;Vostenak;0.5
+PS PČR;gšt;0.5
+PS PČR;Mitterwald;0.5
+PS PČR;NOS;0.5
+PS PČR;Schmeidler;0.5
+Ministerstvo práce a sociálních věcí;IT;0.09090909090909091
+Ministerstvo práce a sociálních věcí;Špidla;0.05263157894736842
+Ministerstvo práce a sociálních věcí;Schäuble;0.1111111111111111
+Ministerstvo práce a sociálních věcí;Energetický regulační úřad;0.05555555555555555
+Ministerstvo práce a sociálních věcí;BESIP;0.05263157894736842
+Ministerstvo práce a sociálních věcí;Bílém domě;0.05263157894736842
+Němcová;Plenković;0.05263157894736842
+Němcová;Šarocha;0.05263157894736842
+Němcová;Gazdík;0.05263157894736842
+Nacher;Centre Pompidou;0.08333333333333333
+Nacher;Národní galerie;0.08695652173913043
+Nacher;Bakala;0.05263157894736842
+Nacher;Národní sportovní agentura;0.09090909090909091
+Nacher;Úřad pro zastupování státu ve věcech majetkových;0.09523809523809523
+Nacher;Bezpečnostní rada státu;0.14285714285714285
+Nacher;Lasvignes;0.1
+Nacher;Cook;0.05263157894736842
+Nacher;Ministerstvo spravedlnosti;0.09523809523809523
+Nacher;Airbnb;0.09523809523809523
+Nacher;Thermal;0.1111111111111111
+Nacher;Bartha;0.05263157894736842
+Nacher;Ministerstvo školství;0.05555555555555555
+Nacher;Národní muzeum;0.05263157894736842
+Nacher;EIA;0.05263157894736842
+Nacher;Správa železniční dopravní cesty;0.058823529411764705
+Nacher;Blesku;0.05555555555555555
+Rakušan;Praha Sobě;0.05263157894736842
+Rakušan;Gazdík;0.058823529411764705
+Centre Pompidou;Národní galerie;0.3157894736842105
+Centre Pompidou;Lasvignes;0.5714285714285714
+Centre Pompidou;CzechInvest;0.10526315789473684
+Centre Pompidou;Infocz;0.05263157894736842
+Centre Pompidou;Národní galerie Praha;0.25
+Centre Pompidou;Visegrádská čtyřka;0.05263157894736842
+Centre Pompidou;Národní muzeum;0.05263157894736842
+Niedermayer;Telička;0.09523809523809523
+Niedermayer;Sehnalová;0.1
+Niedermayer;Tošenovský;0.16666666666666666
+Niedermayer;Ježek;0.10526315789473684
+Niedermayer;Poche;0.1111111111111111
+Niedermayer;Konečná;0.1111111111111111
+České pošty;Ministerstvo spravedlnosti;0.09523809523809523
+České pošty;Český statistický úřad;0.09523809523809523
+České pošty;Thermal;0.05263157894736842
+České pošty;Univerzita Karlova;0.05263157894736842
+České pošty;Ministerstvo školství;0.05555555555555555
+České pošty;Thomayerovy nemocnice;0.05263157894736842
+České pošty;Akademii věd;0.05555555555555555
+České pošty;IBM;0.05555555555555555
+České pošty;Schäuble;0.05555555555555555
+České pošty;Letiště Václava Havla;0.05555555555555555
+České pošty;Lukl;0.05555555555555555
+Svaz měst a obcí ČR;Svaz měst a obcí;0.08695652173913043
+Svaz měst a obcí ČR;Lukl;0.26666666666666666
+Svoboda a přímá demokracie;Kovanda;0.09523809523809523
+Svoboda a přímá demokracie;eurozóna;0.09523809523809523
+Svoboda a přímá demokracie;Dopita;0.05263157894736842
+Svoboda a přímá demokracie;Běrsko;0.05263157894736842
+Svoboda a přímá demokracie;Hahnová;0.05263157894736842
+Svoboda a přímá demokracie;Henner;0.05263157894736842
+Svoboda a přímá demokracie;Městská část Praha 11;0.05263157894736842
+Svoboda a přímá demokracie;Paul;0.05263157894736842
+Svoboda a přímá demokracie;SPD 10 Bc;0.05263157894736842
+Svoboda a přímá demokracie;Vašíček;0.05263157894736842
+Svoboda a přímá demokracie;Vostenak;0.05263157894736842
+Svoboda a přímá demokracie;gšt;0.05263157894736842
+Svoboda a přímá demokracie;Mitterwald;0.05263157894736842
+Svoboda a přímá demokracie;NOS;0.05263157894736842
+Svoboda a přímá demokracie;Schmeidler;0.05263157894736842
+Svoboda a přímá demokracie;Sudetoněmecký landsmanšaft;0.05263157894736842
+Svoboda a přímá demokracie;Aeronet;0.05555555555555555
+Svoboda a přímá demokracie;Svobodném rádiu;0.05555555555555555
+Univerzity Karlovy;VFN;0.09090909090909091
+Univerzity Karlovy;Zima;0.10526315789473684
+Univerzity Karlovy;Finanční správa;0.05263157894736842
+Univerzity Karlovy;Bělobrádek;0.05263157894736842
+Univerzity Karlovy;Bartha;0.1111111111111111
+Univerzity Karlovy;Univerzita Karlova;0.05263157894736842
+Univerzity Karlovy;Sáblíková;0.05263157894736842
+Univerzity Karlovy;Zažímalová;0.05555555555555555
+Univerzity Karlovy;Národní muzeum;0.05263157894736842
+Univerzity Karlovy;Akademii věd;0.05555555555555555
+Univerzity Karlovy;Schäuble;0.05555555555555555
+Univerzity Karlovy;BESIP;0.05555555555555555
+Univerzity Karlovy;Akademií věd;0.05555555555555555
+Univerzity Karlovy;Bílém domě;0.05555555555555555
+Univerzity Karlovy;Letiště Václava Havla;0.05555555555555555
+Univerzity Karlovy;Zikmund;0.05555555555555555
+Čižinský;Praha Sobě;0.1111111111111111
+Čižinský;Jakl;0.05555555555555555
+M;B;0.2
+M;a;0.1
+M;Univerzita Karlova;0.05263157894736842
+M;Thomayerovy nemocnice;0.05263157894736842
+M;Akademii věd;0.05555555555555555
+M;Letiště Václava Havla;0.05555555555555555
+M;Lukl;0.05555555555555555
+ministerstvo průmyslu a obchodu;Finanční správa;0.05263157894736842
+ministerstvo průmyslu a obchodu;Bartha;0.05263157894736842
+ministerstvo průmyslu a obchodu;Ministerstvo školství;0.05555555555555555
+ministerstvo průmyslu a obchodu;Zažímalová;0.05555555555555555
+ministerstvo průmyslu a obchodu;Zelenský;0.05263157894736842
+ministerstvo průmyslu a obchodu;MIT;0.05263157894736842
+ministerstvo průmyslu a obchodu;Akademií věd;0.05555555555555555
+Akademie věd;Bakala;0.05263157894736842
+Akademie věd;Cook;0.05263157894736842
+Akademie věd;Národní rozvojový fond;0.09523809523809523
+Akademie věd;Finanční správa;0.05263157894736842
+Akademie věd;POLICIE;0.05263157894736842
+Akademie věd;Liberty Ostrava;0.05263157894736842
+Akademie věd;Bartha;0.05263157894736842
+Akademie věd;Ministerstvo školství;0.05555555555555555
+Akademie věd;Zažímalová;0.1875
+Akademie věd;Člověka v tísni;0.05555555555555555
+Akademie věd;Akademii věd;0.05555555555555555
+Akademie věd;IBM;0.05555555555555555
+Akademie věd;Akademií věd;0.05555555555555555
+Tusk;Národní galerie;0.08695652173913043
+Tusk;Infocz;0.05263157894736842
+Tusk;Poche;0.05263157894736842
+Tusk;Bartha;0.05263157894736842
+Tusk;Konečná;0.05263157894736842
+Tusk;Albright;0.05555555555555555
+Facebook;Bloomberg;0.13636363636363635
+Facebook;Twitter;0.2
+Facebook;Cook;0.05263157894736842
+Facebook;Ministerstvo školství;0.05555555555555555
+Facebook;Zelenský;0.05263157894736842
+Facebook;MIT;0.05263157894736842
+Facebook;AT amp T;0.05555555555555555
+Facebook;Českého zahrádkářského svazu;0.05555555555555555
+Českého rozhlasu;Volkswagen;0.09523809523809523
+Gajdůšková;Rath;0.05263157894736842
+Gajdůšková;Paroubek;0.05555555555555555
+DVTV;Bakala;0.05555555555555555
+DVTV;Jakl;0.05555555555555555
+Lidové noviny;Bakala;0.05555555555555555
+Lidové noviny;ANO 2011;0.05555555555555555
+Lidové noviny;MF Dnes;0.05555555555555555
+MŠMT;Člověka v tísni;0.058823529411764705
+MŠMT;AV ČR;0.058823529411764705
+Dostál;Státní fond dopravní infrastruktury;0.05263157894736842
+Dostál;Ministerstvo obrany;0.05263157894736842
+Dostál;Ministerstvo školství;0.058823529411764705
+Bloomberg;Twitter;0.15
+Bloomberg;Cook;0.05555555555555555
+Bloomberg;Bartha;0.05555555555555555
+Bloomberg;Ministerstvo školství;0.058823529411764705
+Bloomberg;Zelenský;0.05555555555555555
+Bloomberg;MIT;0.05555555555555555
+Bloomberg;Českého zahrádkářského svazu;0.058823529411764705
+Právo;Koudelka;0.1
+Právo;král;0.05263157894736842
+Právo;Sudetoněmecký landsmanšaft;0.05555555555555555
+Wilder;Doležal;0.09523809523809523
+Wilder;Horák;0.09523809523809523
+Wilder;Lega;0.1
+Wilder;MBA;0.10526315789473684
+Wilder;Schubert;0.10526315789473684
+Wilder;Úřad práce ČR;0.10526315789473684
+Wilder;Pupavová;0.1111111111111111
+Wilder;DICKFELD;0.1111111111111111
+Wilder;Lukeš;0.1111111111111111
+Wilder;Pošarová;0.1111111111111111
+Wilder;Čermák;0.1111111111111111
+Wilder;Třetí říše;0.05263157894736842
+Wilder;Dopita;0.11764705882352941
+Wilder;Běrsko;0.11764705882352941
+Wilder;Hahnová;0.11764705882352941
+Wilder;Henner;0.11764705882352941
+Wilder;Městská část Praha 11;0.11764705882352941
+Wilder;Paul;0.11764705882352941
+Wilder;SPD 10 Bc;0.11764705882352941
+Wilder;Vašíček;0.11764705882352941
+Wilder;Vostenak;0.11764705882352941
+Wilder;gšt;0.11764705882352941
+Wilder;Mitterwald;0.11764705882352941
+Wilder;NOS;0.11764705882352941
+Wilder;Schmeidler;0.11764705882352941
+Svaz měst a obcí;Cook;0.05555555555555555
+Svaz měst a obcí;Zima;0.1111111111111111
+Svaz měst a obcí;Bartha;0.05555555555555555
+Svaz měst a obcí;Univerzita Karlova;0.11764705882352941
+Svaz měst a obcí;Sáblíková;0.05555555555555555
+Svaz měst a obcí;Thomayerovy nemocnice;0.05555555555555555
+Svaz měst a obcí;Zelenský;0.05555555555555555
+Svaz měst a obcí;Akademii věd;0.058823529411764705
+Svaz měst a obcí;Letiště Václava Havla;0.125
+Svaz měst a obcí;Zikmund;0.058823529411764705
+Svaz měst a obcí;Lukl;0.2
+Svaz měst a obcí;Českého zahrádkářského svazu;0.058823529411764705
+NÚKIB;Bezpečnostní rada státu;0.09523809523809523
+NÚKIB;Státní fond dopravní infrastruktury;0.05263157894736842
+NÚKIB;š;0.05263157894736842
+NÚKIB;Ministerstvo obrany;0.05263157894736842
+NÚKIB;Ústava;0.05263157894736842
+NÚKIB;Ministerstvo zemědělství;0.05263157894736842
+NÚKIB;Ministerstvo školství;0.058823529411764705
+NÚKIB;IBM;0.058823529411764705
+ID;Identita a demokracie;0.6923076923076923
+ID;Valné shromáždění OSN;0.05263157894736842
+ID;Gregorová;0.05555555555555555
+Peksa;Bakala;0.05555555555555555
+Peksa;Novinkycz;0.10526315789473684
+Peksa;Tošenovský;0.05263157894736842
+Peksa;ČR;0.05263157894736842
+Peksa;Kolaja;0.1111111111111111
+Peksa;Gregorová;0.05555555555555555
+Národní galerie;Lasvignes;0.16666666666666666
+Národní galerie;CzechInvest;0.1111111111111111
+Národní galerie;Tošenovský;0.05263157894736842
+Národní galerie;Ježek;0.05263157894736842
+Národní galerie;Infocz;0.11764705882352941
+Národní galerie;Poche;0.05555555555555555
+Národní galerie;Visegrádská čtyřka;0.05555555555555555
+Národní galerie;Bartha;0.05555555555555555
+Národní galerie;Národní muzeum;0.05555555555555555
+Národní galerie;Konečná;0.05555555555555555
+Foldyna;Albright;0.0625
+Světová zdravotnická organizace;Bakala;0.058823529411764705
+Světová zdravotnická organizace;Kramářově vile;0.05263157894736842
+Světová zdravotnická organizace;VZP;0.05263157894736842
+Světová zdravotnická organizace;Mátl;0.05263157894736842
+Světová zdravotnická organizace;Státní fond dopravní infrastruktury;0.05555555555555555
+Světová zdravotnická organizace;Arajma;0.05263157894736842
+Světová zdravotnická organizace;ÚZSVM;0.05263157894736842
+Světová zdravotnická organizace;Dukovan;0.05555555555555555
+Světová zdravotnická organizace;POLICIE;0.058823529411764705
+Světová zdravotnická organizace;Liberty Ostrava;0.058823529411764705
+Světová zdravotnická organizace;Zažímalová;0.0625
+Světová zdravotnická organizace;Správa železniční dopravní cesty;0.06666666666666667
+Světová zdravotnická organizace;Akademii věd;0.0625
+Světová zdravotnická organizace;Schäuble;0.0625
+Bakala;Němec;0.0625
+Bakala;Respektu;0.125
+Bakala;Bezpečnostní rada státu;0.058823529411764705
+Bakala;Ministerstvo spravedlnosti;0.0625
+Bakala;Národní rozvojový fond;0.0625
+Bakala;Kramářově vile;0.06666666666666667
+Bakala;CVVM;0.14285714285714285
+Bakala;Novinkycz;0.06666666666666667
+Bakala;Mátl;0.06666666666666667
+Bakala;Ministerstvo zemědělství;0.07142857142857142
+Bakala;POLICIE;0.07692307692307693
+Bakala;Liberty Ostrava;0.07692307692307693
+Bakala;Zažímalová;0.08333333333333333
+Bakala;EIA;0.07692307692307693
+Bakala;Akademii věd;0.08333333333333333
+Opat;Úřad pro zastupování státu ve věcech majetkových;0.05263157894736842
+Opat;Apple Store;0.05263157894736842
+Opat;Cook;0.0625
+Opat;Národní rozvojový fond;0.05263157894736842
+Opat;IT;0.05263157894736842
+Opat;Bárta;0.05555555555555555
+Opat;ÚZSVM;0.05555555555555555
+Opat;Severoatlantická aliance;0.058823529411764705
+Opat;Ministerstvo obrany;0.058823529411764705
+Opat;Zelenský;0.0625
+Opat;Albright;0.06666666666666667
+Opat;Českého zahrádkářského svazu;0.06666666666666667
+ČSÚ;Ministerstvo průmyslu a obchodu;0.05555555555555555
+ČSÚ;Špidla;0.0625
+Svaz průmyslu a dopravy;Ministerstvo spravedlnosti;0.05263157894736842
+Svaz průmyslu a dopravy;Národní rozvojový fond;0.05263157894736842
+Svaz průmyslu a dopravy;Stanjura;0.05555555555555555
+Svaz průmyslu a dopravy;FN Plzeň;0.05555555555555555
+Svaz průmyslu a dopravy;Bárta;0.05555555555555555
+Svaz průmyslu a dopravy;Českou televizi;0.05555555555555555
+Svaz průmyslu a dopravy;PPF;0.058823529411764705
+Svaz průmyslu a dopravy;král;0.058823529411764705
+Svaz průmyslu a dopravy;Hospodářská komora;0.0625
+Svaz průmyslu a dopravy;Dukovan;0.058823529411764705
+Svaz průmyslu a dopravy;Finanční správa;0.0625
+Svaz průmyslu a dopravy;Bartha;0.13333333333333333
+Svaz průmyslu a dopravy;Ministerstvo školství;0.06666666666666667
+Svaz průmyslu a dopravy;Zažímalová;0.06666666666666667
+Svaz průmyslu a dopravy;Akademii věd;0.06666666666666667
+Svaz průmyslu a dopravy;Akademií věd;0.14285714285714285
+Svaz průmyslu a dopravy;Českého zahrádkářského svazu;0.06666666666666667
+Svaz průmyslu a dopravy;Kovář;0.06666666666666667
+Svaz průmyslu a dopravy;Rady seniorů;0.06666666666666667
+Jágr;Cook;0.058823529411764705
+Jágr;Českých drah;0.05263157894736842
+Jágr;Apple;0.05263157894736842
+Jágr;Benda;0.05263157894736842
+Jágr;Pavel;0.05555555555555555
+Jágr;CzechInvest;0.05555555555555555
+Jágr;Liga;0.05555555555555555
+Jágr;Kongres;0.058823529411764705
+Jágr;US;0.0625
+Jágr;University of Maryland;0.0625
+Občanská demokratická strana;Stanjura;0.05263157894736842
+VFN;FN Plzeň;0.05263157894736842
+VFN;Bárta;0.05263157894736842
+VFN;Českou televizi;0.05263157894736842
+VFN;Thomayerova nemocnice;0.05555555555555555
+VFN;Finanční správa;0.058823529411764705
+VFN;Bartha;0.058823529411764705
+VFN;Zažímalová;0.0625
+VFN;Akademií věd;0.0625
+Stalin;Českou televizi;0.058823529411764705
+Doležal;Horák;0.4666666666666667
+Doležal;Lega;0.4
+Doležal;MBA;0.5384615384615384
+Doležal;Schubert;0.1111111111111111
+Doležal;Úřad práce ČR;0.5384615384615384
+Doležal;TV Nova;0.05555555555555555
+Doležal;Pupavová;0.5833333333333334
+Doležal;DICKFELD;0.5833333333333334
+Doležal;Lukeš;0.05555555555555555
+Doležal;Pošarová;0.5833333333333334
+Doležal;Čermák;0.05555555555555555
+Doležal;Dopita;0.6363636363636364
+Doležal;Běrsko;0.6363636363636364
+Doležal;Hahnová;0.6363636363636364
+Doležal;Henner;0.058823529411764705
+Doležal;Městská část Praha 11;0.6363636363636364
+Doležal;Paul;0.2
+Doležal;SPD 10 Bc;0.6363636363636364
+Doležal;Vašíček;0.6363636363636364
+Doležal;Vostenak;0.6363636363636364
+Doležal;gšt;0.058823529411764705
+Doležal;Mitterwald;0.6363636363636364
+Doležal;NOS;0.6363636363636364
+Doležal;Schmeidler;0.6363636363636364
+Doležal;Konečná;0.058823529411764705
+Horák;Lega;0.4
+Horák;MBA;0.5384615384615384
+Horák;Schubert;0.1111111111111111
+Horák;Úřad práce ČR;0.5384615384615384
+Horák;TV Nova;0.05555555555555555
+Horák;Pupavová;0.5833333333333334
+Horák;DICKFELD;0.5833333333333334
+Horák;Lukeš;0.05555555555555555
+Horák;Pošarová;0.5833333333333334
+Horák;Čermák;0.05555555555555555
+Horák;Dopita;0.6363636363636364
+Horák;Běrsko;0.6363636363636364
+Horák;Hahnová;0.6363636363636364
+Horák;Henner;0.6363636363636364
+Horák;Městská část Praha 11;0.6363636363636364
+Horák;Paul;0.2
+Horák;SPD 10 Bc;0.6363636363636364
+Horák;Vašíček;0.6363636363636364
+Horák;Vostenak;0.6363636363636364
+Horák;gšt;0.058823529411764705
+Horák;Mitterwald;0.6363636363636364
+Horák;NOS;0.6363636363636364
+Horák;Schmeidler;0.6363636363636364
+Horák;Konečná;0.058823529411764705
+B;a;0.05263157894736842
+B;Arajma;0.05263157894736842
+B;Zima;0.05555555555555555
+B;Univerzita Karlova;0.058823529411764705
+B;Thomayerovy nemocnice;0.058823529411764705
+B;Akademii věd;0.0625
+B;Farský;0.0625
+B;Letiště Václava Havla;0.0625
+B;Lukl;0.0625
+Němec;Úřad pro zastupování státu ve věcech majetkových;0.05263157894736842
+Němec;Lasvignes;0.05555555555555555
+Němec;Kramářově vile;0.05555555555555555
+Němec;Novinkycz;0.05555555555555555
+Němec;CzechInvest;0.058823529411764705
+Němec;ČR;0.058823529411764705
+Škoda;Cook;0.058823529411764705
+Škoda;Apple;0.05263157894736842
+Škoda;Arajma;0.05263157894736842
+Škoda;Ministerstvo průmyslu a obchodu;0.05555555555555555
+Škoda;Ministerstvo školství;0.0625
+Škoda;Zažímalová;0.0625
+Škoda;Člověka v tísni;0.0625
+Škoda;Aeronet;0.0625
+Škoda;IBM;0.0625
+Respektu;CVVM;0.1111111111111111
+Respektu;Aeronet;0.0625
+Respektu;Svobodném rádiu;0.0625
+Národní sportovní agentura;Cook;0.058823529411764705
+Národní sportovní agentura;Stanjura;0.05263157894736842
+Národní sportovní agentura;Kramářově vile;0.05263157894736842
+Národní sportovní agentura;Thermal;0.058823529411764705
+Národní sportovní agentura;Bartha;0.058823529411764705
+Národní sportovní agentura;Ministerstvo školství;0.0625
+Národní sportovní agentura;Zelenský;0.058823529411764705
+Národní sportovní agentura;MIT;0.058823529411764705
+Národní sportovní agentura;Akademii věd;0.0625
+Národní sportovní agentura;Akademií věd;0.0625
+Národní sportovní agentura;Blesku;0.0625
+Národní sportovní agentura;Českého zahrádkářského svazu;0.0625
+Národní sportovní agentura;Kovář;0.0625
+Národní sportovní agentura;Rady seniorů;0.0625
+ALDE;Telička;0.16666666666666666
+ALDE;Sehnalová;0.05263157894736842
+ALDE;Bettel;0.05263157894736842
+ALDE;Tošenovský;0.05555555555555555
+ALDE;Zima;0.05555555555555555
+ALDE;Ježek;0.1875
+ALDE;Infocz;0.058823529411764705
+ALDE;Poche;0.058823529411764705
+ALDE;Bartha;0.058823529411764705
+ALDE;Szijjártó;0.125
+ALDE;Univerzita Karlova;0.058823529411764705
+ALDE;Sáblíková;0.058823529411764705
+ALDE;Konečná;0.058823529411764705
+ALDE;Letiště Václava Havla;0.0625
+ALDE;Zikmund;0.0625
+Veselý;Sehnalová;0.05263157894736842
+Veselý;Parlament ČR;0.05263157894736842
+Veselý;Zima;0.05555555555555555
+Veselý;Bartha;0.058823529411764705
+Veselý;Univerzita Karlova;0.058823529411764705
+Veselý;Sáblíková;0.058823529411764705
+Veselý;Farský;0.0625
+Veselý;Letiště Václava Havla;0.0625
+Veselý;Zikmund;0.0625
+RVVI;VZP;0.05263157894736842
+RVVI;Bělobrádek;0.058823529411764705
+RVVI;Akademii věd;0.0625
+RVVI;Schäuble;0.0625
+RVVI;BESIP;0.0625
+RVVI;Bílém domě;0.0625
+Soudní dvůr;Farage;0.05263157894736842
+Úřad pro zastupování státu ve věcech majetkových;Lasvignes;0.05555555555555555
+Úřad pro zastupování státu ve věcech majetkových;Apple Store;0.1111111111111111
+Úřad pro zastupování státu ve věcech majetkových;Cook;0.13333333333333333
+Úřad pro zastupování státu ve věcech majetkových;Moodys;0.1111111111111111
+Úřad pro zastupování státu ve věcech majetkových;Národní rozvojový fond;0.1111111111111111
+Úřad pro zastupování státu ve věcech majetkových;IT;0.05263157894736842
+Úřad pro zastupování státu ve věcech majetkových;Český statistický úřad;0.05263157894736842
+Úřad pro zastupování státu ve věcech majetkových;IKEM;0.1111111111111111
+Úřad pro zastupování státu ve věcech majetkových;Českých drah;0.05555555555555555
+Úřad pro zastupování státu ve věcech majetkových;Apple;0.05555555555555555
+Úřad pro zastupování státu ve věcech majetkových;Bettel;0.05555555555555555
+Úřad pro zastupování státu ve věcech majetkových;Bárta;0.05555555555555555
+Úřad pro zastupování státu ve věcech majetkových;Státní fond dopravní infrastruktury;0.058823529411764705
+Úřad pro zastupování státu ve věcech majetkových;Arajma;0.35714285714285715
+Úřad pro zastupování státu ve věcech majetkových;ÚZSVM;0.11764705882352941
+Úřad pro zastupování státu ve věcech majetkových;CzechInvest;0.058823529411764705
+Úřad pro zastupování státu ve věcech majetkových;Ministerstvo průmyslu a obchodu;0.058823529411764705
+Úřad pro zastupování státu ve věcech majetkových;Zima;0.058823529411764705
+Úřad pro zastupování státu ve věcech majetkových;Univerzita Karlova;0.0625
+Úřad pro zastupování státu ve věcech majetkových;Ministerstvo školství;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Zažímalová;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Thomayerovy nemocnice;0.0625
+Úřad pro zastupování státu ve věcech majetkových;Zelenský;0.0625
+Úřad pro zastupování státu ve věcech majetkových;Člověka v tísni;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Správa železniční dopravní cesty;0.07142857142857142
+Úřad pro zastupování státu ve věcech majetkových;Akademii věd;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Plenković;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;IBM;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Letiště Václava Havla;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Lukl;0.06666666666666667
+Úřad pro zastupování státu ve věcech majetkových;Českého zahrádkářského svazu;0.06666666666666667
+Jerman;Cook;0.058823529411764705
+Jerman;Apple;0.05263157894736842
+Jerman;Státní fond dopravní infrastruktury;0.05555555555555555
+Jerman;Arajma;0.05263157894736842
+Jerman;Ministerstvo průmyslu a obchodu;0.05555555555555555
+Jerman;Ministerstvo obrany;0.05555555555555555
+Jerman;Ministerstvo školství;0.13333333333333333
+Jerman;Zažímalová;0.0625
+Jerman;Člověka v tísni;0.0625
+Jerman;IBM;0.0625
+Jerman;MV;0.0625
+Bezpečnostní rada státu;Kramářově vile;0.05263157894736842
+Bezpečnostní rada státu;Státní fond dopravní infrastruktury;0.05555555555555555
+Bezpečnostní rada státu;TV Nova;0.05555555555555555
+Bezpečnostní rada státu;Centrum porodní asistence;0.05555555555555555
+Bezpečnostní rada státu;Ministerstvo obrany;0.05555555555555555
+Bezpečnostní rada státu;král;0.05555555555555555
+Bezpečnostní rada státu;Hospodářská komora;0.058823529411764705
+Bezpečnostní rada státu;Dukovan;0.05555555555555555
+Bezpečnostní rada státu;Ústava;0.05555555555555555
+Bezpečnostní rada státu;Ministerstvo zemědělství;0.11764705882352941
+Bezpečnostní rada státu;Sáblíková;0.058823529411764705
+Bezpečnostní rada státu;Ministerstvo školství;0.0625
+Bezpečnostní rada státu;EIA;0.058823529411764705
+Bezpečnostní rada státu;IBM;0.0625
+Bezpečnostní rada státu;Schäuble;0.0625
+Bezpečnostní rada státu;Blesku;0.0625
+Twitter;Cook;0.058823529411764705
+Twitter;Kramářově vile;0.05263157894736842
+Twitter;Bárta;0.05263157894736842
+Twitter;ÚZSVM;0.05263157894736842
+Twitter;Ministerstvo školství;0.0625
+Twitter;Zelenský;0.058823529411764705
+Twitter;MIT;0.058823529411764705
+Twitter;Českého zahrádkářského svazu;0.0625
+Lasvignes;IT;0.05555555555555555
+Lasvignes;CzechInvest;0.0625
+Lasvignes;Národní galerie Praha;0.23076923076923078
+Lasvignes;Národní muzeum;0.06666666666666667
+Lega;MBA;0.46153846153846156
+Lega;Schubert;0.46153846153846156
+Lega;Úřad práce ČR;0.46153846153846156
+Lega;FPÖ;0.05555555555555555
+Lega;TV Nova;0.058823529411764705
+Lega;Pupavová;0.5
+Lega;DICKFELD;0.5
+Lega;Lukeš;0.5
+Lega;Pošarová;0.5
+Lega;Čermák;0.058823529411764705
+Lega;Liga;0.058823529411764705
+Lega;Dopita;0.5454545454545454
+Lega;Běrsko;0.5454545454545454
+Lega;Hahnová;0.5454545454545454
+Lega;Henner;0.5454545454545454
+Lega;Městská část Praha 11;0.5454545454545454
+Lega;Paul;0.5454545454545454
+Lega;SPD 10 Bc;0.5454545454545454
+Lega;Vašíček;0.5454545454545454
+Lega;Vostenak;0.5454545454545454
+Lega;gšt;0.5454545454545454
+Lega;Mitterwald;0.5454545454545454
+Lega;NOS;0.5454545454545454
+Lega;Schmeidler;0.5454545454545454
+Lega;Konečná;0.0625
+Apple Store;Cook;0.4166666666666667
+Apple Store;ČEZu;0.05263157894736842
+Apple Store;Národní rozvojový fond;0.05263157894736842
+Apple Store;IT;0.1111111111111111
+Apple Store;Českých drah;0.05555555555555555
+Apple Store;Apple;0.26666666666666666
+Apple Store;Bárta;0.05555555555555555
+Apple Store;Arajma;0.05555555555555555
+Apple Store;ÚZSVM;0.05555555555555555
+Apple Store;CzechInvest;0.058823529411764705
+Apple Store;Ministerstvo průmyslu a obchodu;0.058823529411764705
+Apple Store;Kongres;0.0625
+Apple Store;Ministerstvo školství;0.06666666666666667
+Apple Store;Zažímalová;0.06666666666666667
+Apple Store;Zelenský;0.0625
+Apple Store;Člověka v tísni;0.06666666666666667
+Apple Store;US;0.06666666666666667
+Apple Store;University of Maryland;0.06666666666666667
+Apple Store;IBM;0.06666666666666667
+Apple Store;Českého zahrádkářského svazu;0.06666666666666667
+Cook;ČEZu;0.13333333333333333
+Cook;Národní rozvojový fond;0.0625
+Cook;IT;0.13333333333333333
+Cook;Kněžínek;0.0625
+Cook;Českých drah;0.06666666666666667
+Cook;Apple;0.3333333333333333
+Cook;Bárta;0.06666666666666667
+Cook;Arajma;0.06666666666666667
+Cook;ÚZSVM;0.06666666666666667
+Cook;CzechInvest;0.07142857142857142
+Cook;Ministerstvo průmyslu a obchodu;0.07142857142857142
+Cook;Kongres;0.07692307692307693
+Cook;Thermal;0.07692307692307693
+Cook;Ministerstvo školství;0.08333333333333333
+Cook;Zažímalová;0.08333333333333333
+Cook;Zelenský;0.07692307692307693
+Cook;Člověka v tísni;0.08333333333333333
+Cook;US;0.08333333333333333
+Cook;University of Maryland;0.08333333333333333
+Cook;IBM;0.08333333333333333
+Cook;Blesku;0.08333333333333333
+Cook;Českého zahrádkářského svazu;0.08333333333333333
+ČEZu;Kněžínek;0.05263157894736842
+ČEZu;Českých drah;0.05555555555555555
+ČEZu;Apple;0.05555555555555555
+ČEZu;Bárta;0.05555555555555555
+ČEZu;CzechInvest;0.058823529411764705
+ČEZu;Senát parlamentu;0.058823529411764705
+ČEZu;Kongres;0.0625
+ČEZu;Infocz;0.0625
+ČEZu;Thermal;0.0625
+ČEZu;EIA;0.0625
+ČEZu;US;0.06666666666666667
+ČEZu;University of Maryland;0.06666666666666667
+ČEZu;Blesku;0.06666666666666667
+Hlubuček;Ministerstvo školství;0.06666666666666667
+Hlubuček;Zelenský;0.0625
+Hlubuček;MIT;0.0625
+RRTV;FPÖ;0.05555555555555555
+RRTV;Jakl;0.13333333333333333
+ÚOHS;Správa železniční dopravní cesty s o;0.05263157894736842
+ÚOHS;Státní fond dopravní infrastruktury;0.058823529411764705
+Kovanda;eurozóna;0.1111111111111111
+Moodys;Národní rozvojový fond;0.05263157894736842
+Moodys;Český statistický úřad;0.05263157894736842
+Moodys;IKEM;0.05263157894736842
+Moodys;Státní fond dopravní infrastruktury;0.058823529411764705
+Moodys;Arajma;0.11764705882352941
+Moodys;ÚZSVM;0.05555555555555555
+Moodys;Zima;0.058823529411764705
+Moodys;Univerzita Karlova;0.0625
+Moodys;Thomayerovy nemocnice;0.0625
+Moodys;Správa železniční dopravní cesty;0.07142857142857142
+Moodys;Akademii věd;0.06666666666666667
+Moodys;Letiště Václava Havla;0.06666666666666667
+Moodys;Lukl;0.06666666666666667
+Evropská lidová strana;Weber;0.11764705882352941
+Farage;FPÖ;0.05555555555555555
+Farage;Konzervativní strana;0.058823529411764705
+Farage;Jakl;0.0625
+Kobza;Opletal;0.0625
+Kobza;ČSBS;0.0625
+Ministerstvo spravedlnosti;Koudelka;0.05263157894736842
+Ministerstvo spravedlnosti;Kněžínek;0.05263157894736842
+Ministerstvo spravedlnosti;Telička;0.05263157894736842
+Ministerstvo spravedlnosti;Stanjura;0.05555555555555555
+Ministerstvo spravedlnosti;Sehnalová;0.05555555555555555
+Ministerstvo spravedlnosti;Mátl;0.05555555555555555
+Ministerstvo spravedlnosti;Tošenovský;0.058823529411764705
+Ministerstvo spravedlnosti;Ministerstvo obrany;0.058823529411764705
+Ministerstvo spravedlnosti;Ježek;0.058823529411764705
+Ministerstvo spravedlnosti;Dukovan;0.058823529411764705
+Ministerstvo spravedlnosti;Ministerstvo zemědělství;0.058823529411764705
+Ministerstvo spravedlnosti;Infocz;0.0625
+Ministerstvo spravedlnosti;Thermal;0.0625
+Ministerstvo spravedlnosti;Poche;0.0625
+Ministerstvo spravedlnosti;Bartha;0.13333333333333333
+Ministerstvo spravedlnosti;Ministerstvo školství;0.14285714285714285
+Ministerstvo spravedlnosti;EIA;0.0625
+Ministerstvo spravedlnosti;Konečná;0.0625
+Ministerstvo spravedlnosti;Akademii věd;0.06666666666666667
+Ministerstvo spravedlnosti;Akademií věd;0.06666666666666667
+Ministerstvo spravedlnosti;Českého zahrádkářského svazu;0.06666666666666667
+Ministerstvo spravedlnosti;Kovář;0.06666666666666667
+Ministerstvo spravedlnosti;Rady seniorů;0.06666666666666667
+Národní rozvojový fond;IT;0.05263157894736842
+Národní rozvojový fond;Airbnb;0.05263157894736842
+Národní rozvojový fond;Český statistický úřad;0.05263157894736842
+Národní rozvojový fond;IKEM;0.05263157894736842
+Národní rozvojový fond;Kramářově vile;0.05555555555555555
+Národní rozvojový fond;Mátl;0.05555555555555555
+Národní rozvojový fond;FN Plzeň;0.05555555555555555
+Národní rozvojový fond;Bárta;0.11764705882352941
+Národní rozvojový fond;Státní fond dopravní infrastruktury;0.058823529411764705
+Národní rozvojový fond;Arajma;0.05555555555555555
+Národní rozvojový fond;Českou televizi;0.05555555555555555
+Národní rozvojový fond;ÚZSVM;0.05555555555555555
+Národní rozvojový fond;Zima;0.058823529411764705
+Národní rozvojový fond;Ministerstvo obrany;0.058823529411764705
+Národní rozvojový fond;Evropská investiční banka;0.0625
+Národní rozvojový fond;Finanční správa;0.0625
+Národní rozvojový fond;POLICIE;0.0625
+Národní rozvojový fond;Liberty Ostrava;0.0625
+Národní rozvojový fond;Bartha;0.0625
+Národní rozvojový fond;Univerzita Karlova;0.0625
+Národní rozvojový fond;Ministerstvo školství;0.06666666666666667
+Národní rozvojový fond;Zažímalová;0.14285714285714285
+Národní rozvojový fond;Thomayerovy nemocnice;0.0625
+Národní rozvojový fond;Zelenský;0.0625
+Národní rozvojový fond;Akademii věd;0.14285714285714285
+Národní rozvojový fond;Akademií věd;0.06666666666666667
+Národní rozvojový fond;Letiště Václava Havla;0.06666666666666667
+Národní rozvojový fond;Lukl;0.06666666666666667
+Národní rozvojový fond;Českého zahrádkářského svazu;0.06666666666666667
+IT;Airbnb;0.05263157894736842
+IT;Středula;0.05263157894736842
+IT;Kněžínek;0.05263157894736842
+IT;Českých drah;0.05555555555555555
+IT;Apple;0.05555555555555555
+IT;Bettel;0.05555555555555555
+IT;Bárta;0.05555555555555555
+IT;Arajma;0.05555555555555555
+IT;ÚZSVM;0.05555555555555555
+IT;CzechInvest;0.058823529411764705
+IT;Ministerstvo průmyslu a obchodu;0.058823529411764705
+IT;Zima;0.058823529411764705
+IT;Centrum porodní asistence;0.058823529411764705
+IT;Bartha;0.0625
+IT;Ministerstvo školství;0.06666666666666667
+IT;Zažímalová;0.06666666666666667
+IT;Thomayerovy nemocnice;0.0625
+IT;Národní muzeum;0.0625
+IT;Zelenský;0.0625
+IT;Člověka v tísni;0.06666666666666667
+IT;Plenković;0.06666666666666667
+IT;IBM;0.06666666666666667
+IT;Na Bulovce;0.06666666666666667
+IT;Českého zahrádkářského svazu;0.06666666666666667
+Správa železniční dopravní cesty s o;Mátl;0.05555555555555555
+Správa železniční dopravní cesty s o;Státní fond dopravní infrastruktury;0.058823529411764705
+Správa železniční dopravní cesty s o;Gottem;0.05555555555555555
+Správa železniční dopravní cesty s o;Visegrádská skupina;0.0625
+Správa železniční dopravní cesty s o;Lukl;0.06666666666666667
+Heydrich;Třetí říše;0.058823529411764705
+Heydrich;Stehlík;0.06666666666666667
+Koudelka;Kněžínek;0.05263157894736842
+Identita a demokracie;Valné shromáždění OSN;0.058823529411764705
+Airbnb;Český statistický úřad;0.05263157894736842
+Airbnb;Kněžínek;0.1111111111111111
+Airbnb;IKEM;0.05263157894736842
+Airbnb;Apple;0.05555555555555555
+Airbnb;Státní fond dopravní infrastruktury;0.058823529411764705
+Airbnb;Centrum porodní asistence;0.058823529411764705
+Airbnb;Ministerstvo obrany;0.058823529411764705
+Airbnb;Hospodářská komora;0.0625
+Airbnb;Bartha;0.0625
+Airbnb;Ministerstvo školství;0.06666666666666667
+Airbnb;Státní tiskárny cenin;0.0625
+Airbnb;Akademii věd;0.06666666666666667
+Airbnb;Lesy ČR;0.06666666666666667
+Airbnb;Akademií věd;0.06666666666666667
+Český statistický úřad;Středula;0.05263157894736842
+Český statistický úřad;IKEM;0.05263157894736842
+Český statistický úřad;Arajma;0.05555555555555555
+Český statistický úřad;Zima;0.058823529411764705
+Český statistický úřad;Centrum porodní asistence;0.058823529411764705
+Český statistický úřad;Hospodářská komora;0.0625
+Český statistický úřad;Ústava;0.058823529411764705
+Český statistický úřad;Ministerstvo zemědělství;0.058823529411764705
+Český statistický úřad;Univerzita Karlova;0.0625
+Český statistický úřad;Státní tiskárny cenin;0.0625
+Český statistický úřad;Thomayerovy nemocnice;0.0625
+Český statistický úřad;Špidla;0.06666666666666667
+Český statistický úřad;Akademii věd;0.06666666666666667
+Český statistický úřad;IBM;0.06666666666666667
+Český statistický úřad;Lesy ČR;0.06666666666666667
+Český statistický úřad;Letiště Václava Havla;0.06666666666666667
+Český statistický úřad;Lukl;0.06666666666666667
+Středula;ČMKOS;0.11764705882352941
+Středula;CzechInvest;0.058823529411764705
+Středula;Zima;0.058823529411764705
+Středula;Ústava;0.058823529411764705
+Středula;Ministerstvo zemědělství;0.058823529411764705
+Středula;IBM;0.06666666666666667
+Kněžínek;Thermal;0.0625
+Kněžínek;Bartha;0.0625
+Kněžínek;Rath;0.0625
+Kněžínek;Akademii věd;0.06666666666666667
+Kněžínek;Akademií věd;0.06666666666666667
+Kněžínek;Blesku;0.06666666666666667
+IKEM;Státní fond dopravní infrastruktury;0.058823529411764705
+IKEM;Arajma;0.11764705882352941
+IKEM;ÚZSVM;0.05555555555555555
+IKEM;Zima;0.058823529411764705
+IKEM;Centrum porodní asistence;0.058823529411764705
+IKEM;Hospodářská komora;0.0625
+IKEM;Univerzita Karlova;0.0625
+IKEM;Státní tiskárny cenin;0.0625
+IKEM;Thomayerovy nemocnice;0.0625
+IKEM;Správa železniční dopravní cesty;0.07142857142857142
+IKEM;Akademii věd;0.06666666666666667
+IKEM;Lesy ČR;0.06666666666666667
+IKEM;Letiště Václava Havla;0.06666666666666667
+IKEM;Lukl;0.06666666666666667
+P;Adamowicz;0.0625
+P;Farský;0.06666666666666667
+Telička;Sehnalová;0.1875
+Telička;Tošenovský;0.2
+Telička;Ježek;0.6363636363636364
+Telička;Rychetský;0.058823529411764705
+Telička;Infocz;0.0625
+Telička;Poche;0.21428571428571427
+Telička;Bartha;0.0625
+Telička;Szijjártó;0.13333333333333333
+Telička;Konečná;0.21428571428571427
+Telička;Špidla;0.06666666666666667
+Českých drah;Apple;0.058823529411764705
+Českých drah;Bettel;0.058823529411764705
+Českých drah;Arajma;0.058823529411764705
+Českých drah;ÚZSVM;0.058823529411764705
+Českých drah;CzechInvest;0.0625
+Českých drah;Ministerstvo obrany;0.0625
+Českých drah;Kongres;0.06666666666666667
+Českých drah;US;0.07142857142857142
+Českých drah;University of Maryland;0.07142857142857142
+Českých drah;Plenković;0.07142857142857142
+Stanjura;Baxa;0.058823529411764705
+Stanjura;Semín;0.0625
+Stanjura;PL;0.06666666666666667
+Stanjura;Nečas;0.06666666666666667
+Stanjura;Bartha;0.06666666666666667
+Stanjura;Ministerstvo školství;0.07142857142857142
+Stanjura;Akademii věd;0.07142857142857142
+Stanjura;Akademií věd;0.07142857142857142
+Stanjura;Českého zahrádkářského svazu;0.07142857142857142
+Stanjura;Kovář;0.07142857142857142
+Stanjura;Rady seniorů;0.07142857142857142
+Sehnalová;Parlament ČR;0.058823529411764705
+Sehnalová;Tošenovský;0.21428571428571427
+Sehnalová;Ježek;0.0625
+Sehnalová;Infocz;0.06666666666666667
+Sehnalová;Poche;0.06666666666666667
+Sehnalová;Bartha;0.06666666666666667
+Sehnalová;Konečná;0.06666666666666667
+Kramářově vile;Mátl;0.058823529411764705
+Kramářově vile;POLICIE;0.06666666666666667
+Kramářově vile;Liberty Ostrava;0.06666666666666667
+Kramářově vile;Zažímalová;0.07142857142857142
+Kramářově vile;Akademii věd;0.07142857142857142
+Apple;Arajma;0.058823529411764705
+Apple;CzechInvest;0.0625
+Apple;Ministerstvo průmyslu a obchodu;0.0625
+Apple;Kongres;0.06666666666666667
+Apple;Ministerstvo školství;0.07142857142857142
+Apple;Zažímalová;0.07142857142857142
+Apple;Člověka v tísni;0.07142857142857142
+Apple;US;0.07142857142857142
+Apple;University of Maryland;0.07142857142857142
+Apple;IBM;0.07142857142857142
+VZP;Bělobrádek;0.06666666666666667
+VZP;Schäuble;0.07142857142857142
+VZP;BESIP;0.07142857142857142
+VZP;Bílém domě;0.07142857142857142
+MBA;Schubert;0.6363636363636364
+MBA;Úřad práce ČR;0.6363636363636364
+MBA;TV Nova;0.0625
+MBA;Pupavová;0.0625
+MBA;DICKFELD;0.7
+MBA;Lukeš;0.0625
+MBA;Pošarová;0.7
+MBA;Čermák;0.0625
+MBA;Dopita;0.7777777777777778
+MBA;Běrsko;0.14285714285714285
+MBA;Hahnová;0.14285714285714285
+MBA;Henner;0.06666666666666667
+MBA;Městská část Praha 11;0.7777777777777778
+MBA;Paul;0.7777777777777778
+MBA;SPD 10 Bc;0.7777777777777778
+MBA;Vašíček;0.7777777777777778
+MBA;Vostenak;0.7777777777777778
+MBA;gšt;0.7777777777777778
+MBA;Mitterwald;0.7777777777777778
+MBA;NOS;0.7777777777777778
+MBA;Schmeidler;0.7777777777777778
+MBA;Konečná;0.06666666666666667
+Schubert;Úřad práce ČR;0.125
+Schubert;TV Nova;0.0625
+Schubert;Pupavová;0.7
+Schubert;DICKFELD;0.8888888888888888
+Schubert;Lukeš;0.7
+Schubert;Pošarová;0.13333333333333333
+Schubert;Čermák;0.0625
+Schubert;Dopita;0.7777777777777778
+Schubert;Běrsko;0.7777777777777778
+Schubert;Hahnová;0.7777777777777778
+Schubert;Henner;0.7777777777777778
+Schubert;Městská část Praha 11;0.7777777777777778
+Schubert;Paul;0.06666666666666667
+Schubert;SPD 10 Bc;0.14285714285714285
+Schubert;Vašíček;0.14285714285714285
+Schubert;Vostenak;0.14285714285714285
+Schubert;gšt;0.06666666666666667
+Schubert;Mitterwald;0.14285714285714285
+Schubert;NOS;0.14285714285714285
+Schubert;Schmeidler;0.06666666666666667
+Schubert;Konečná;0.06666666666666667
+Úřad práce ČR;TV Nova;0.0625
+Úřad práce ČR;Pupavová;0.7
+Úřad práce ČR;DICKFELD;0.13333333333333333
+Úřad práce ČR;Lukeš;0.0625
+Úřad práce ČR;Pošarová;0.7
+Úřad práce ČR;Čermák;0.0625
+Úřad práce ČR;ANO 2011;0.06666666666666667
+Úřad práce ČR;Dopita;0.7777777777777778
+Úřad práce ČR;Běrsko;0.7777777777777778
+Úřad práce ČR;Hahnová;0.7777777777777778
+Úřad práce ČR;Henner;0.06666666666666667
+Úřad práce ČR;Městská část Praha 11;0.7777777777777778
+Úřad práce ČR;Paul;0.23076923076923078
+Úřad práce ČR;SPD 10 Bc;0.7777777777777778
+Úřad práce ČR;Vašíček;0.7777777777777778
+Úřad práce ČR;Vostenak;0.7777777777777778
+Úřad práce ČR;gšt;0.06666666666666667
+Úřad práce ČR;Mitterwald;0.7777777777777778
+Úřad práce ČR;NOS;0.7777777777777778
+Úřad práce ČR;Schmeidler;0.7777777777777778
+Úřad práce ČR;Konečná;0.06666666666666667
+Bettel;Arajma;0.058823529411764705
+Bettel;ÚZSVM;0.058823529411764705
+Bettel;Evropská investiční banka;0.06666666666666667
+Bettel;Plenković;0.07142857142857142
+Novinkycz;Praha Sobě;0.0625
+Novinkycz;ČR;0.0625
+Výborný;Sudetoněmecký landsmanšaft;0.06666666666666667
+Mátl;Ministerstvo obrany;0.0625
+Mátl;Dukovan;0.0625
+Mátl;POLICIE;0.06666666666666667
+Mátl;Thermal;0.06666666666666667
+Mátl;Liberty Ostrava;0.06666666666666667
+Mátl;Ministerstvo školství;0.07142857142857142
+Mátl;Zažímalová;0.07142857142857142
+Mátl;Akademii věd;0.07142857142857142
+Mátl;Lukl;0.07142857142857142
+Akademie věd České republiky;Parlament ČR;0.058823529411764705
+Akademie věd České republiky;Akademií věd;0.07142857142857142
+Akademie věd České republiky;AV ČR;0.07142857142857142
+FN Plzeň;Bárta;0.058823529411764705
+FN Plzeň;Českou televizi;0.058823529411764705
+FN Plzeň;Finanční správa;0.06666666666666667
+FN Plzeň;Bartha;0.06666666666666667
+FN Plzeň;Zažímalová;0.07142857142857142
+FN Plzeň;Akademií věd;0.07142857142857142
+Bárta;Českou televizi;0.058823529411764705
+Bárta;ÚZSVM;0.058823529411764705
+Bárta;CzechInvest;0.0625
+Bárta;Finanční správa;0.06666666666666667
+Bárta;Infocz;0.06666666666666667
+Bárta;Bartha;0.06666666666666667
+Bárta;Zažímalová;0.07142857142857142
+Bárta;Zelenský;0.06666666666666667
+Bárta;Akademií věd;0.07142857142857142
+Bárta;Českého zahrádkářského svazu;0.07142857142857142
+Parlament ČR;AV ČR;0.07142857142857142
+Baxa;US;0.07142857142857142
+Státní fond dopravní infrastruktury;Arajma;0.0625
+Státní fond dopravní infrastruktury;ÚZSVM;0.0625
+Státní fond dopravní infrastruktury;Ministerstvo obrany;0.14285714285714285
+Státní fond dopravní infrastruktury;Ministerstvo školství;0.07692307692307693
+Státní fond dopravní infrastruktury;Správa železniční dopravní cesty;0.08333333333333333
+Gottem;Visegrádská skupina;0.06666666666666667
+Gottem;Úřad vlády ČR;0.06666666666666667
+Arajma;ÚZSVM;0.5
+Arajma;Ministerstvo průmyslu a obchodu;0.0625
+Arajma;Zima;0.0625
+Arajma;Univerzita Karlova;0.06666666666666667
+Arajma;Ministerstvo školství;0.07142857142857142
+Arajma;Zažímalová;0.07142857142857142
+Arajma;Thomayerovy nemocnice;0.06666666666666667
+Arajma;Člověka v tísni;0.07142857142857142
+Arajma;Správa železniční dopravní cesty;0.07692307692307693
+Arajma;Akademii věd;0.07142857142857142
+Arajma;Plenković;0.07142857142857142
+Arajma;IBM;0.07142857142857142
+Arajma;Letiště Václava Havla;0.07142857142857142
+Arajma;Lukl;0.07142857142857142
+Benda;Pavel;0.0625
+Benda;Liga;0.0625
+Českou televizi;Deník N;0.0625
+Českou televizi;Deníku N;0.0625
+Českou televizi;Finanční správa;0.06666666666666667
+Českou televizi;Bartha;0.06666666666666667
+Českou televizi;Zažímalová;0.07142857142857142
+Českou televizi;Akademií věd;0.07142857142857142
+May;Konzervativní strana;0.13333333333333333
+ČMKOS;Nečas;0.06666666666666667
+Pavel;Liga;0.06666666666666667
+ÚZSVM;Zelenský;0.06666666666666667
+ÚZSVM;Správa železniční dopravní cesty;0.07692307692307693
+ÚZSVM;Plenković;0.07142857142857142
+ÚZSVM;Českého zahrádkářského svazu;0.07142857142857142
+FPÖ;Konzervativní strana;0.0625
+FPÖ;Liga;0.13333333333333333
+PPF;MfD;0.07142857142857142
+CzechInvest;Thomayerova nemocnice;0.06666666666666667
+CzechInvest;Zima;0.06666666666666667
+CzechInvest;král;0.06666666666666667
+CzechInvest;Kongres;0.07142857142857142
+CzechInvest;Infocz;0.07142857142857142
+CzechInvest;Správa železniční dopravní cesty;0.08333333333333333
+CzechInvest;US;0.07692307692307693
+CzechInvest;University of Maryland;0.07692307692307693
+CzechInvest;Akademií věd;0.07692307692307693
+CzechInvest;Českého zahrádkářského svazu;0.07692307692307693
+Tošenovský;ČR;0.06666666666666667
+Tošenovský;Ježek;0.23076923076923078
+Tošenovský;Kolaja;0.06666666666666667
+Tošenovský;Infocz;0.07142857142857142
+Tošenovský;Poche;0.25
+Tošenovský;Bartha;0.07142857142857142
+Tošenovský;Konečná;0.25
+TV Nova;Pupavová;0.06666666666666667
+TV Nova;DICKFELD;0.06666666666666667
+TV Nova;Lukeš;0.06666666666666667
+TV Nova;Pošarová;0.06666666666666667
+TV Nova;Čermák;0.06666666666666667
+TV Nova;Centrum porodní asistence;0.06666666666666667
+TV Nova;Dopita;0.07142857142857142
+TV Nova;Běrsko;0.07142857142857142
+TV Nova;Hahnová;0.07142857142857142
+TV Nova;Henner;0.07142857142857142
+TV Nova;Městská část Praha 11;0.07142857142857142
+TV Nova;Paul;0.07142857142857142
+TV Nova;SPD 10 Bc;0.07142857142857142
+TV Nova;Vašíček;0.07142857142857142
+TV Nova;Vostenak;0.07142857142857142
+TV Nova;gšt;0.07142857142857142
+TV Nova;Mitterwald;0.07142857142857142
+TV Nova;NOS;0.07142857142857142
+TV Nova;Schmeidler;0.07142857142857142
+TV Nova;Sáblíková;0.07142857142857142
+TV Nova;Blesku;0.07692307692307693
+ERÚ;POLICIE;0.07142857142857142
+ERÚ;Špidla;0.07692307692307693
+ERÚ;Energetický regulační úřad;0.3
+Pupavová;DICKFELD;0.7777777777777778
+Pupavová;Lukeš;0.7777777777777778
+Pupavová;Pošarová;0.7777777777777778
+Pupavová;Čermák;0.06666666666666667
+Pupavová;Dopita;0.07142857142857142
+Pupavová;Běrsko;0.07142857142857142
+Pupavová;Hahnová;0.07142857142857142
+Pupavová;Henner;0.875
+Pupavová;Městská část Praha 11;0.07142857142857142
+Pupavová;Paul;0.875
+Pupavová;SPD 10 Bc;0.875
+Pupavová;Vašíček;0.875
+Pupavová;Vostenak;0.875
+Pupavová;gšt;0.875
+Pupavová;Mitterwald;0.875
+Pupavová;NOS;0.875
+Pupavová;Schmeidler;0.875
+Pupavová;Konečná;0.07142857142857142
+DICKFELD;Lukeš;0.06666666666666667
+DICKFELD;Pošarová;0.7777777777777778
+DICKFELD;Čermák;0.06666666666666667
+DICKFELD;Dopita;0.875
+DICKFELD;Běrsko;0.875
+DICKFELD;Hahnová;0.15384615384615385
+DICKFELD;Henner;0.07142857142857142
+DICKFELD;Městská část Praha 11;0.15384615384615385
+DICKFELD;Paul;0.875
+DICKFELD;SPD 10 Bc;0.15384615384615385
+DICKFELD;Vašíček;0.15384615384615385
+DICKFELD;Vostenak;0.15384615384615385
+DICKFELD;gšt;0.07142857142857142
+DICKFELD;Mitterwald;0.875
+DICKFELD;NOS;0.875
+DICKFELD;Schmeidler;0.875
+DICKFELD;Konečná;0.07142857142857142
+Lukeš;Pošarová;0.7777777777777778
+Lukeš;Čermák;0.06666666666666667
+Lukeš;Dopita;0.875
+Lukeš;Běrsko;0.875
+Lukeš;Hahnová;0.875
+Lukeš;Henner;0.875
+Lukeš;Městská část Praha 11;0.07142857142857142
+Lukeš;Paul;0.875
+Lukeš;SPD 10 Bc;0.07142857142857142
+Lukeš;Vašíček;0.07142857142857142
+Lukeš;Vostenak;0.07142857142857142
+Lukeš;gšt;0.875
+Lukeš;Mitterwald;0.875
+Lukeš;NOS;0.875
+Lukeš;Schmeidler;0.875
+Lukeš;Konečná;0.07142857142857142
+Pošarová;Čermák;0.06666666666666667
+Pošarová;Dopita;0.875
+Pošarová;Běrsko;0.875
+Pošarová;Hahnová;0.875
+Pošarová;Henner;0.875
+Pošarová;Městská část Praha 11;0.875
+Pošarová;Paul;0.875
+Pošarová;SPD 10 Bc;0.875
+Pošarová;Vašíček;0.875
+Pošarová;Vostenak;0.875
+Pošarová;gšt;0.07142857142857142
+Pošarová;Mitterwald;0.875
+Pošarová;NOS;0.875
+Pošarová;Schmeidler;0.875
+Pošarová;Konečná;0.07142857142857142
+Čermák;Dopita;0.07142857142857142
+Čermák;Běrsko;0.07142857142857142
+Čermák;Hahnová;0.07142857142857142
+Čermák;Henner;0.07142857142857142
+Čermák;Městská část Praha 11;0.07142857142857142
+Čermák;Paul;0.07142857142857142
+Čermák;SPD 10 Bc;0.07142857142857142
+Čermák;Vašíček;0.07142857142857142
+Čermák;Vostenak;0.07142857142857142
+Čermák;gšt;0.07142857142857142
+Čermák;Mitterwald;0.07142857142857142
+Čermák;NOS;0.07142857142857142
+Čermák;Schmeidler;0.15384615384615385
+Čermák;Konečná;0.07142857142857142
+Thomayerova nemocnice;král;0.14285714285714285
+Thomayerova nemocnice;Správa železniční dopravní cesty;0.08333333333333333
+Thomayerova nemocnice;Akademií věd;0.07692307692307693
+Thomayerova nemocnice;Českého zahrádkářského svazu;0.07692307692307693
+Ministerstvo průmyslu a obchodu;Ministerstvo školství;0.07692307692307693
+Ministerstvo průmyslu a obchodu;Zažímalová;0.07692307692307693
+Ministerstvo průmyslu a obchodu;Člověka v tísni;0.07692307692307693
+Ministerstvo průmyslu a obchodu;IBM;0.07692307692307693
+Senát parlamentu;EIA;0.07142857142857142
+Senát parlamentu;Letiště Václava Havla;0.07692307692307693
+Severoatlantická aliance;Albright;0.16666666666666666
+Zima;Bartha;0.07142857142857142
+Zima;Univerzita Karlova;0.5
+Zima;Sáblíková;0.07142857142857142
+Zima;Thomayerovy nemocnice;0.07142857142857142
+Zima;Akademii věd;0.07692307692307693
+Zima;Letiště Václava Havla;0.07692307692307693
+Zima;Zikmund;0.07692307692307693
+Zima;Lukl;0.07692307692307693
+Třetí říše;Liga;0.06666666666666667
+Deník N;Deníku N;0.06666666666666667
+Deník N;ČRo;0.07142857142857142
+Deník N;Paroubek;0.07692307692307693
+Deníku N;ČRo;0.07142857142857142
+Deníku N;Paroubek;0.07692307692307693
+Centrum porodní asistence;Hospodářská komora;0.07142857142857142
+Centrum porodní asistence;Sáblíková;0.07142857142857142
+Centrum porodní asistence;Státní tiskárny cenin;0.07142857142857142
+Centrum porodní asistence;Thomayerovy nemocnice;0.07142857142857142
+Centrum porodní asistence;Lesy ČR;0.07692307692307693
+Centrum porodní asistence;Blesku;0.07692307692307693
+Centrum porodní asistence;Na Bulovce;0.2727272727272727
+ČR;Kolaja;0.06666666666666667
+Ministerstvo obrany;Dukovan;0.06666666666666667
+Ministerstvo obrany;Thermal;0.07142857142857142
+Ministerstvo obrany;Ministerstvo školství;0.16666666666666666
+u2066 u2069;Bělobrádek;0.07142857142857142
+Semín;PL;0.07142857142857142
+král;Hospodářská komora;0.07142857142857142
+král;Dukovan;0.06666666666666667
+král;Správa železniční dopravní cesty;0.08333333333333333
+král;Akademií věd;0.07692307692307693
+král;Českého zahrádkářského svazu;0.07692307692307693
+Ježek;Infocz;0.07142857142857142
+Ježek;Poche;0.07142857142857142
+Ježek;Bartha;0.07142857142857142
+Ježek;Szijjártó;0.25
+Ježek;Konečná;0.07142857142857142
+Liga;Brežněv;0.07692307692307693
+Hospodářská komora;Dukovan;0.07142857142857142
+Hospodářská komora;Státní tiskárny cenin;0.07692307692307693
+Hospodářská komora;Lesy ČR;0.08333333333333333
+Dukovan;Thermal;0.07142857142857142
+Dukovan;Ministerstvo školství;0.07692307692307693
+Dukovan;Schäuble;0.07692307692307693
+Ústava;Ministerstvo zemědělství;0.06666666666666667
+Ústava;IBM;0.07692307692307693
+Ministerstvo zemědělství;EIA;0.07142857142857142
+Ministerstvo zemědělství;IBM;0.07692307692307693
+Ministerstvo zemědělství;Farský;0.07692307692307693
+Kolaja;Gregorová;0.15384615384615385
+Finanční správa;Bartha;0.07692307692307693
+Finanční správa;Zažímalová;0.08333333333333333
+Finanční správa;Akademií věd;0.08333333333333333
+ANO 2011;MF Dnes;0.07692307692307693
+POLICIE;Liberty Ostrava;0.07692307692307693
+POLICIE;Zažímalová;0.08333333333333333
+POLICIE;Špidla;0.08333333333333333
+POLICIE;Akademii věd;0.08333333333333333
+POLICIE;Energetický regulační úřad;0.09090909090909091
+Bělobrádek;Sudetoněmecký landsmanšaft;0.07692307692307693
+Bělobrádek;Schäuble;0.08333333333333333
+Bělobrádek;BESIP;0.08333333333333333
+Bělobrádek;Bílém domě;0.08333333333333333
+Kongres;US;0.08333333333333333
+Kongres;University of Maryland;0.08333333333333333
+Infocz;Poche;0.07692307692307693
+Infocz;Bartha;0.07692307692307693
+Infocz;Konečná;0.07692307692307693
+Thermal;Ministerstvo školství;0.08333333333333333
+Thermal;Blesku;0.08333333333333333
+Poche;Bartha;0.07692307692307693
+Poche;Konečná;0.2727272727272727
+Liberty Ostrava;Zažímalová;0.08333333333333333
+Liberty Ostrava;Akademii věd;0.08333333333333333
+Dopita;Běrsko;0.16666666666666666
+Dopita;Hahnová;1
+Dopita;Henner;1
+Dopita;Městská část Praha 11;1
+Dopita;Paul;1
+Dopita;SPD 10 Bc;1
+Dopita;Vašíček;1
+Dopita;Vostenak;1
+Dopita;gšt;1
+Dopita;Mitterwald;1
+Dopita;NOS;1
+Dopita;Schmeidler;1
+Dopita;Konečná;0.07692307692307693
+Běrsko;Hahnová;1
+Běrsko;Henner;1
+Běrsko;Městská část Praha 11;1
+Běrsko;Paul;1
+Běrsko;SPD 10 Bc;1
+Běrsko;Vašíček;1
+Běrsko;Vostenak;1
+Běrsko;gšt;1
+Běrsko;Mitterwald;1
+Běrsko;NOS;1
+Běrsko;Schmeidler;1
+Běrsko;Konečná;0.07692307692307693
+Hahnová;Henner;1
+Hahnová;Městská část Praha 11;1
+Hahnová;Paul;1
+Hahnová;SPD 10 Bc;1
+Hahnová;Vašíček;1
+Hahnová;Vostenak;1
+Hahnová;gšt;1
+Hahnová;Mitterwald;1
+Hahnová;NOS;1
+Hahnová;Schmeidler;1
+Hahnová;Konečná;0.07692307692307693
+Henner;Městská část Praha 11;0.07692307692307693
+Henner;Paul;1
+Henner;SPD 10 Bc;0.07692307692307693
+Henner;Vašíček;0.07692307692307693
+Henner;Vostenak;0.07692307692307693
+Henner;gšt;1
+Henner;Mitterwald;1
+Henner;NOS;1
+Henner;Schmeidler;1
+Henner;Konečná;0.07692307692307693
+Městská část Praha 11;Paul;1
+Městská část Praha 11;SPD 10 Bc;1
+Městská část Praha 11;Vašíček;1
+Městská část Praha 11;Vostenak;1
+Městská část Praha 11;gšt;1
+Městská část Praha 11;Mitterwald;1
+Městská část Praha 11;NOS;1
+Městská část Praha 11;Schmeidler;1
+Městská část Praha 11;Konečná;0.07692307692307693
+Paul;SPD 10 Bc;0.2727272727272727
+Paul;Vašíček;0.2727272727272727
+Paul;Vostenak;0.2727272727272727
+Paul;gšt;0.16666666666666666
+Paul;Mitterwald;0.2727272727272727
+Paul;NOS;0.2727272727272727
+Paul;Schmeidler;1
+Paul;Konečná;0.07692307692307693
+SPD 10 Bc;Vašíček;1
+SPD 10 Bc;Vostenak;1
+SPD 10 Bc;gšt;1
+SPD 10 Bc;Mitterwald;1
+SPD 10 Bc;NOS;1
+SPD 10 Bc;Schmeidler;1
+SPD 10 Bc;Konečná;0.07692307692307693
+Vašíček;Vostenak;1
+Vašíček;gšt;1
+Vašíček;Mitterwald;1
+Vašíček;NOS;1
+Vašíček;Schmeidler;1
+Vašíček;Konečná;0.07692307692307693
+Vostenak;gšt;1
+Vostenak;Mitterwald;1
+Vostenak;NOS;1
+Vostenak;Schmeidler;1
+Vostenak;Konečná;0.07692307692307693
+gšt;Mitterwald;0.07692307692307693
+gšt;NOS;0.07692307692307693
+gšt;Schmeidler;1
+gšt;Konečná;0.07692307692307693
+Mitterwald;NOS;1
+Mitterwald;Schmeidler;1
+Mitterwald;Konečná;0.07692307692307693
+NOS;Schmeidler;1
+NOS;Konečná;0.07692307692307693
+Schmeidler;Konečná;0.07692307692307693
+Bartha;Univerzita Karlova;0.07692307692307693
+Bartha;Sáblíková;0.07692307692307693
+Bartha;Ministerstvo školství;0.08333333333333333
+Bartha;Zažímalová;0.08333333333333333
+Bartha;Konečná;0.07692307692307693
+Bartha;Akademii věd;0.08333333333333333
+Bartha;Akademií věd;0.18181818181818182
+Bartha;Letiště Václava Havla;0.08333333333333333
+Bartha;Zikmund;0.08333333333333333
+Bartha;Českého zahrádkářského svazu;0.08333333333333333
+Bartha;Kovář;0.08333333333333333
+Bartha;Rady seniorů;0.08333333333333333
+Gregorová;Aeronet;0.08333333333333333
+Gregorová;Balda;0.08333333333333333
+Hilšer;Farský;0.08333333333333333
+Univerzita Karlova;Sáblíková;0.07692307692307693
+Univerzita Karlova;Thomayerovy nemocnice;0.07692307692307693
+Univerzita Karlova;MIT;0.07692307692307693
+Univerzita Karlova;Akademii věd;0.08333333333333333
+Univerzita Karlova;Letiště Václava Havla;0.18181818181818182
+Univerzita Karlova;Zikmund;0.08333333333333333
+Univerzita Karlova;Lukl;0.08333333333333333
+Sáblíková;Blesku;0.08333333333333333
+Sáblíková;Letiště Václava Havla;0.08333333333333333
+Sáblíková;Zikmund;0.08333333333333333
+Ministerstvo školství;Zažímalová;0.09090909090909091
+Ministerstvo školství;Zelenský;0.08333333333333333
+Ministerstvo školství;MIT;0.08333333333333333
+Ministerstvo školství;Člověka v tísni;0.09090909090909091
+Ministerstvo školství;Akademii věd;0.09090909090909091
+Ministerstvo školství;IBM;0.09090909090909091
+Ministerstvo školství;Akademií věd;0.09090909090909091
+Ministerstvo školství;Českého zahrádkářského svazu;0.09090909090909091
+Ministerstvo školství;Kovář;0.09090909090909091
+Ministerstvo školství;Rady seniorů;0.09090909090909091
+ČRo;Kuciak;0.09090909090909091
+ČRo;Paroubek;0.08333333333333333
+Zažímalová;Člověka v tísni;0.09090909090909091
+Zažímalová;Akademii věd;0.09090909090909091
+Zažímalová;IBM;0.09090909090909091
+Zažímalová;Akademií věd;0.09090909090909091
+Státní tiskárny cenin;Lesy ČR;0.08333333333333333
+Thomayerovy nemocnice;Akademii věd;0.08333333333333333
+Thomayerovy nemocnice;Letiště Václava Havla;0.08333333333333333
+Thomayerovy nemocnice;Lukl;0.08333333333333333
+Thomayerovy nemocnice;Na Bulovce;0.08333333333333333
+Rath;Paroubek;0.08333333333333333
+Zelenský;MIT;0.07692307692307693
+Zelenský;Českého zahrádkářského svazu;0.08333333333333333
+MIT;AV ČR;0.08333333333333333
+Člověka v tísni;IBM;0.09090909090909091
+Správa železniční dopravní cesty;Akademií věd;0.1
+Správa železniční dopravní cesty;Českého zahrádkářského svazu;0.1
+Špidla;Energetický regulační úřad;0.1
+Akademii věd;Akademií věd;0.2
+Akademii věd;Bílém domě;0.09090909090909091
+Akademii věd;Letiště Václava Havla;0.09090909090909091
+Akademii věd;Lukl;0.09090909090909091
+Akademii věd;Českého zahrádkářského svazu;0.09090909090909091
+Akademii věd;Kovář;0.09090909090909091
+Akademii věd;Rady seniorů;0.09090909090909091
+Aeronet;Balda;0.09090909090909091
+Aeronet;Svobodném rádiu;0.09090909090909091
+US;University of Maryland;0.09090909090909091
+IBM;NHL;0.09090909090909091
+Schäuble;BESIP;0.09090909090909091
+Schäuble;Bílém domě;0.09090909090909091
+Šarocha;OLAF;0.09090909090909091
+BESIP;Bílém domě;0.09090909090909091
+Akademií věd;Českého zahrádkářského svazu;0.2
+Akademií věd;Kovář;0.09090909090909091
+Akademií věd;Rady seniorů;0.09090909090909091
+Letiště Václava Havla;Zikmund;0.09090909090909091
+Letiště Václava Havla;Lukl;0.09090909090909091
+Českého zahrádkářského svazu;Kovář;0.09090909090909091
+Českého zahrádkářského svazu;Rady seniorů;0.09090909090909091
+Kovář;Rady seniorů;0.09090909090909091

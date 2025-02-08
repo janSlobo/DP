@@ -1,0 +1,236 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Mezera mezi grafy */
+    justify-content: center; /* Zarovnání na støed */
+}
+
+.chart-item {
+    flex: 1 1 calc(50% - 5px); /* 2 grafy na øádku */
+    box-sizing: border-box;
+    min-width: 400px; /* Minimální šíøka grafu */
+    max-width: 600px; /* Maximální šíøka grafu */
+}
+
+    .chart-item h3 {
+        text-align: center; /* Nadpis grafu na støed */
+    }
+
+#polaritybar, #polaritybarM {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.active1 {
+    background-color: gray;
+}
+
+th.sortable {
+    cursor: pointer;
+}
+
+
+
+.switch-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    .switch-button.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+.table-container {
+    display: none;
+}
+
+    .table-container.active {
+        display: block;
+    }
+
+
+.container_time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dropdown_time {
+    margin-bottom: 20px;
+}
+
+#politician-list-er {
+    width: 200px;
+    height: 300px; /* Pevná vıška seznamu */
+    overflow-y: auto; /* Povolit svislı scroll */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.table-row {
+    display: none; /* Skryté øádky */
+}
+
+.graphbar {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.entity-table {
+    width: 100%;
+    table-layout: fixed; /* Zabraòuje roztaení tabulky */
+    border-collapse: collapse; /* Spojuje okraje bunìk */
+}
+
+    .entity-table th, .entity-table td {
+        padding: 12px 15px; /* Vìtší odsazení pro lepší èitelnost */
+        text-align: left;
+        border: 1px solid #ddd; /* Svìtle šedı okraj */
+    }
+
+    .entity-table th {
+        background-color: #f4f4f9; /* Svìtle šedé pozadí pro hlavièky */
+        font-weight: bold;
+        color: #333;
+    }
+
+    .entity-table tr:nth-child(even) {
+        background-color: #f9f9f9; /* Støídavé pozadí pro øádky */
+    }
+
+    .entity-table tr:hover {
+        background-color: #f1f1f1; /* Zmìna pozadí pøi najetí myší */
+    }
+
+    .entity-table td {
+        word-wrap: break-word; /* Dlouhı text se zalomí */
+    }
+
+    .entity-table .no-data {
+        text-align: center;
+        color: #888;
+    }
+
+/* Styl pro tabulku s typy entit */
+.grouped-entity-table {
+    width: 100%;
+    table-layout: fixed; /* Zabraòuje roztaení tabulky */
+    border-collapse: collapse; /* Spojuje okraje bunìk */
+}
+
+    .grouped-entity-table th, .grouped-entity-table td {
+        padding: 12px 15px; /* Vìtší odsazení pro lepší èitelnost */
+        text-align: left;
+        border: 1px solid #ddd; /* Svìtle šedı okraj */
+    }
+
+    .grouped-entity-table th {
+        background-color: #f4f4f9; /* Svìtle šedé pozadí pro hlavièky */
+        font-weight: bold;
+        color: #333;
+    }
+
+    .grouped-entity-table tr:nth-child(even) {
+        background-color: #f9f9f9; /* Støídavé pozadí pro øádky */
+    }
+
+    .grouped-entity-table tr:hover {
+        background-color: #f1f1f1; /* Zmìna pozadí pøi najetí myší */
+    }
+
+    .grouped-entity-table td {
+        word-wrap: break-word; /* Dlouhı text se zalomí */
+    }
+
+    .grouped-entity-table .no-data {
+        text-align: center;
+        color: #888;
+    }
+
+.cluster-container {
+   
+    
+    padding: 0px;
+   
+    margin-bottom: 20px;
+}
+
+    .cluster-container h3 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+.cluster-content {
+    display: flex;
+   
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.cluster-boxplot, .cluster-entity, .cluster-topic {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+    box-shadow: 2px 2px 1px 1px #888888;
+    flex: 1 1 30%; /* Zmìnìná velikost pro lepší pøizpùsobení */
+}
+
+
+.cluster-boxplot {
+    min-width: 250px;
+    flex: 1 1 32%; /* Zajišuje, e všechny boxploty se vejdou do tøí sloupcù */
+}
+
+.cluster-entity, .cluster-topic {
+    flex: 1 1 32%; /* Entity a Topic zabírají 32% šíøky */
+   
+}
+
+.graph-container {
+   
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+h3 {
+    text-align: center;
+    
+    margin-bottom: 15px;
+}
+
+h4 {
+    text-align: center;
+    
+    margin-bottom: 15px;
+}
