@@ -587,7 +587,7 @@ namespace PoliticStatements
         
         public async Task SaveSentimentToDB()
         {
-            List<SentimentRecord> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/texts_with_sentiment_babis_zbytek.csv");
+            List<SentimentRecord> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/output_sentiment_mix_11.csv");
 
             
 

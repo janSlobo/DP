@@ -45,7 +45,7 @@ namespace PoliticStatements.Models
         public double populism { get; set; }
 
         public int cluster { get; set; }
-
+        public List<EmotionData> emotions = new List<EmotionData>();
         public List<string> topics { get; set; } = new List<string>();
         public List<EntityData> Entities { get; set; } = new List<EntityData>();
         public Statement()
@@ -77,7 +77,11 @@ namespace PoliticStatements.Models
         public string EntityText { get; set; }
         public string Type { get; set; }
     }
-
+    public class EmotionData
+    {
+        public string emotion { get; set; }
+        public double score { get; set; }
+    }
     public class StatementNER
     {
         public string StatementId { get; set; }
@@ -91,4 +95,14 @@ public class EntitySentimentData
     public double AverageSentiment { get; set; }
 
     public List<double> Sentiments { get; set; }
+}
+public class EntityFrequency
+{
+    public string EntityText { get; set; }
+    public int Frequency { get; set; }
+}
+public class EmotionDistribution
+{
+    public string Emotion { get; set; }
+    public int Count { get; set; }
 }

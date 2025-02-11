@@ -13,13 +13,13 @@ namespace PoliticStatements
     public class StatementData
     {
 
-        public async Task<List<Statement>> GetDataFromAPI()
+        public async Task<List<Statement>> GetDataFromAPI(string start,string end,string politician)
         {
             List<Statement> allData = new List<Statement>();
             int page = 1;
             bool set = true;
-            string datum_start = "2020-01-02";
-            string datum_end= "2023-12-31";
+            string datum_start = start;
+            string datum_end = end;
             string origid = "";
             string apiUrl = "";
             using (HttpClient client = new HttpClient())
@@ -30,12 +30,12 @@ namespace PoliticStatements
                     {
                         if (origid != "")
                         {
-                             apiUrl = $"https://api.hlidacstatu.cz/api/v2/datasety/vyjadreni-politiku/hledat?dotaz=osobaid%3Atomio-okamura%20AND%20datum%3A%5B{datum_start}%20TO%20{datum_end}%5D%20AND%20%28server%3ATwitter%20OR%20server%3AFacebook%29%20AND%20origid%3A%3E{origid}&strana={page}&sort=origid&desc=0";
+                             apiUrl = $"https://api.hlidacstatu.cz/api/v2/datasety/vyjadreni-politiku/hledat?dotaz=osobaid%3A{politician}%2A%20AND%20datum%3A%5B{datum_start}%20TO%20{datum_end}%5D%20AND%20%28server%3ATwitter%20OR%20server%3AFacebook%29%20AND%20origid%3A%3E{origid}&strana={page}&sort=origid&desc=0";
 
                         }
                         else
                         {
-                             apiUrl = $"https://api.hlidacstatu.cz/api/v2/datasety/vyjadreni-politiku/hledat?dotaz=osobaid%3Atomio-okamura%20AND%20datum%3A%5B{datum_start}%20TO%20{datum_end}%5D%20AND%20%28server%3ATwitter%20OR%20server%3AFacebook%29&strana={page}&sort=origid&desc=0";
+                             apiUrl = $"https://api.hlidacstatu.cz/api/v2/datasety/vyjadreni-politiku/hledat?dotaz=osobaid%3A{politician}%2A%20AND%20datum%3A%5B{datum_start}%20TO%20{datum_end}%5D%20AND%20%28server%3ATwitter%20OR%20server%3AFacebook%29&strana={page}&sort=origid&desc=0";
 
                         }
                         if (set)
@@ -127,7 +127,7 @@ namespace PoliticStatements
             {
                 await conn.OpenAsync();
 
-                using (SqlCommand cmd = new SqlCommand("select * from Statement where  jazyk='cs'  ", conn))
+                using (SqlCommand cmd = new SqlCommand("select * from Statement where politic_id IN ('andrej-babis','karel-havlicek', 'lubomir-volny','alena-schillerova','tomio-okamura','petr-fiala','adam-vojtech','milos-zeman','pavel-belobradek','miroslav-kalousek') and jazyk='cs' and RT=0 and pocetSlov>5 and Sentiment!=666 ", conn))
                 using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
@@ -262,19 +262,23 @@ namespace PoliticStatements
                 for (int i = 0; i < allData.Count; i++)
                 {
                     string osobaid = allData[i].osobaid.ToLower();
-                    /*
-                    if (!ids.Contains(osobaid))
-                    {
-                        ids.Add(osobaid);
 
-                        using (SqlCommand cmd = new SqlCommand())
+
+                    using (SqlCommand checkCmd = new SqlCommand("SELECT COUNT(*) FROM Politic WHERE politic_id = @id", conn))
+                    {
+                        checkCmd.Parameters.AddWithValue("@id", allData[i].osobaid);
+                        int count = (int)await checkCmd.ExecuteScalarAsync();
+
+                        if (count == 0)
                         {
-                            cmd.CommandText = "INSERT INTO Politic(politic_id) VALUES(@id)";
-                            cmd.Parameters.AddWithValue("@id", allData[i].osobaid);
-                            cmd.Connection = conn;
-                            await cmd.ExecuteNonQueryAsync();
+                            using (SqlCommand cmd = new SqlCommand("INSERT INTO Politic(politic_id) VALUES(@id)", conn))
+                            {
+                                cmd.Parameters.AddWithValue("@id", allData[i].osobaid);
+                                await cmd.ExecuteNonQueryAsync();
+                            }
                         }
-                    }*/
+                    }
+
 
 
                     using (SqlCommand cmd = new SqlCommand())

@@ -6,7 +6,10 @@ using System.Linq;
 using CsvHelper;
 using CsvHelper.Configuration;
 using System.Globalization;
+using System.Text.Json;
+
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 namespace PoliticStatements
 {
     public class SentimentAnalysis
@@ -60,6 +63,99 @@ namespace PoliticStatements
             public double PositiveRatio { get; set; }
             public double NegativeRatio { get; set; }
         }
+        static List<(string, float)> ParseToList(string input)
+        {
+            var result = new List<(string, float)>();
+
+
+            var regex = new Regex(@"\('([^']+)',\s*(-?\d+(\.\d+)?)\)");
+
+            foreach (Match match in regex.Matches(input))
+            {
+                string word = match.Groups[1].Value; 
+                string numberStr = match.Groups[2].Value; 
+                float number;
+
+
+                if (float.TryParse(numberStr, NumberStyles.Float, CultureInfo.InvariantCulture, out number))
+                {
+                    result.Add((word, number));
+                }
+                else
+                {
+                    
+                    Console.WriteLine($"Chyba při převodu čísla: {numberStr}");
+                }
+            }
+
+            return result;
+        }
+        public void InsertEmotionsFromFile(string filePath)
+        {
+            List<string> check = new List<string>();
+            using (SqlConnection conn = new SqlConnection(GlobalConfig.connstring))
+            {
+                conn.Open();
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    string line;
+                    reader.ReadLine(); 
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        var parts = line.Split(",", 2);
+                        if (parts.Length < 2) continue;
+
+                        string statementId = parts[0].Trim('"');
+                        string jsonPart = parts[1].Trim('"');
+                        var emotions = ParseToList(jsonPart);
+                        if (check.Contains(statementId))
+                        {
+                            var error = 1;
+                        }
+                        check.Add(statementId);
+                        foreach (var emotion in emotions)
+                        {
+                            InsertEmotion(conn, statementId, emotion.Item1, emotion.Item2);
+                        }
+                    }
+                }
+            }
+        }
+
+        static void InsertEmotion(SqlConnection conn, string statementId, string emotion, float score)
+        {
+            string query = "INSERT INTO Emotion (StatementID, Emotion, Score) VALUES (@StatementID, @Emotion, @Score)";
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                cmd.Parameters.AddWithValue("@StatementID", statementId);
+                cmd.Parameters.AddWithValue("@Emotion", emotion);
+                cmd.Parameters.AddWithValue("@Score", score);
+                cmd.ExecuteNonQuery();
+            }
+        }
+        public Dictionary<string, int> PrepareSentimentHistogram(List<Statement> statements)
+        {
+            Dictionary<string, int> histogram = new Dictionary<string, int>();
+
+            // Vytvoření intervalů od -1.0 do 1.0 s krokem 0.2
+            for (double i = -1.0; i < 1.0; i += 0.2)
+            {
+                string rangeKey = $"[{i.ToString("F1", CultureInfo.InvariantCulture)}, {(i + 0.2).ToString("F1", CultureInfo.InvariantCulture)})";
+                histogram[rangeKey] = 0;
+            }
+
+            // Zařazení hodnot do správných intervalů
+             foreach (var statement in statements)
+            {
+                double sentiment = Math.Clamp(statement.Sentiment, -1.0, 0.9999); // Ochrana proti 1.0
+                double lowerBound = Math.Floor((sentiment + 1) / 0.2) * 0.2 - 1.0; // Výpočet dolní hranice intervalu
+                string rangeKey = $"[{lowerBound.ToString("F1", CultureInfo.InvariantCulture)}, {(lowerBound + 0.2).ToString("F1", CultureInfo.InvariantCulture)})";
+                histogram[rangeKey]++;
+            }
+
+            return histogram;
+        }
+
 
         public Dictionary<string, ExtremeSentiment> CalculateSentimentRatios(List<Statement> statements)
         {

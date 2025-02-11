@@ -1738,3 +1738,4 @@ C:\Users\HONZA\Desktop\PoliticStatements\PoliticStatements\PoliticStatements\Pol
 C:\Users\HONZA\Desktop\PoliticStatements\PoliticStatements\PoliticStatements\PoliticStatements\bin\Debug\net6.0\Accord.Math.Core.dll
 C:\Users\HONZA\Desktop\PoliticStatements\PoliticStatements\PoliticStatements\PoliticStatements\bin\Debug\net6.0\Accord.Math.dll
 C:\Users\HONZA\Desktop\PoliticStatements\PoliticStatements\PoliticStatements\PoliticStatements\bin\Debug\net6.0\Accord.Statistics.dll
+C:\Users\HONZA\Desktop\PoliticStatements\PoliticStatements\PoliticStatements\PoliticStatements\obj\Debug\net6.0\PoliticStatements.sourcelink.json

@@ -13,7 +13,8 @@ builder.Services.AddScoped<AssociationRulesGenerator>();
 builder.Services.AddScoped<NetworkAnalysis>(); 
 builder.Services.AddScoped<RhetoricAnalysis>();
 builder.Services.AddScoped<TopicAnalysis>(); 
-builder.Services.AddScoped<ClusterAnalysis>();
+builder.Services.AddScoped<ClusterAnalysis>(); 
+builder.Services.AddScoped<EmotionAnalysis>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

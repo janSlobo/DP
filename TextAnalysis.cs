@@ -26,8 +26,7 @@ namespace PoliticStatements
         {
             
 
-            //Shuffle(statements);
-            /*statements = statements.Take(30000).ToList();*/
+            
             List<string> rows = new List<string>();
 
             foreach (var statement in statements)
@@ -36,15 +35,14 @@ namespace PoliticStatements
                     string text = statement.text;
 
                     
-                    text = text.Replace("\"", "\"\"");
+                    text = text.Replace("\"", " ");
                     text = text.Replace("\n", " ");    
                     text = text.Replace("\r", " ");   
 
                     
-                    if (text.Contains(",") || text.Contains("\"") || text.Contains("\n") || text.Contains("\r"))
-                    {
-                        text = $"\"{text}\"";
-                    }
+                    
+                    text = $"\"{text}\"";
+                    
 
                     
                     rows.Add($"{statement.id},{text}");
@@ -66,5 +64,8 @@ namespace PoliticStatements
 
             Console.WriteLine($"CSV file saved to {filePath}");
         }
+
+        
+
     }
 }

@@ -1,8 +1,155 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@using PoliticStatements.Models
+<script>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    
+
+    function drawPieChart(politicId, entity, data) {
+      
+        var chartId = 'chart-' + politicId + '-' + entity;
+
+        var chartData = {
+            labels: data.map(function (e) { return e.entityText; }),
+            values: data.map(function (e) { return e.frequency; }),
+            type: 'pie',
+            marker: {
+                colors: ['#FF5733', '#33FF57', '#3357FF', '#FF33A8', '#FFFF33']
+            }
+
+        };
+
+        var layout = {
+            title: "",
+            margin: { t: 3, r: 10, b: 3, l: 10 }, 
+            showlegend: true, 
+            legend: {
+                x: 1, 
+                y: 0.5, 
+                font: { size: 12 } 
+            },
+            height: 400, 
+            width: 450,  
+        };
+
+
+        Plotly.newPlot(chartId, [chartData], layout);
+    }
+
+    var allPieChartData = @Html.Raw(Json.Serialize(ViewBag.allpiecharts));
+    var sentHist = @Html.Raw(Json.Serialize(ViewBag.sentHist));
+    var emotionData = @Html.Raw(Json.Serialize(ViewBag.emotionData));
+
+    console.log(emotionData['tomio-okamura'])
+    console.log(sentHist['tomio-okamura'])
+    function drawHistogram(politicId, entity, data) {
+        
+        var chartId = 'hist-' + politicId + '-' + entity;
+        var histogramData =data
+        console.log(histogramData)
+        var trace = {
+            x: histogramData,
+            type: 'histogram',
+            xbins: { size: 0.2 }, 
+            marker: { color: 'rgba(54, 162, 235, 0.6)' }
+        };
+
+        var layout = {
+            title: 'Rozložení sentimentu',
+            xaxis: { title: '', range: [-1, 1] },
+            width:450,
+            height:400
+        };
+
+
+        Plotly.newPlot(chartId, [trace], layout);
+       
+
+      
+    }
+    function drawEmotionDist(politicId, entity, data) {
+
+        var emotionData = data;
+        var chartId = 'emotion-' + politicId + '-' + entity;
+        
+        var emotions = emotionData.map(function (item) { return item.emotion; });
+        var counts = emotionData.map(function (item) { return item.count; });
+
+        
+        var data = [{
+            x: emotions,
+            y: counts,
+            type: 'bar'
+        }];
+
+        var layout = {
+            title: 'Distribuce emocí ve vyjádřeních',
+           
+            width: 450,
+            height: 400
+        };
+
+        
+        Plotly.newPlot(chartId, data, layout);
+
+
+
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        for (var politicId in allPieChartData) {
+            if (allPieChartData.hasOwnProperty(politicId)) {
+                var entities = allPieChartData[politicId];
+
+                for (var entity in entities) {
+                    if (entities.hasOwnProperty(entity)) {
+                        var data = entities[entity];
+                        drawPieChart(politicId, entity, data);
+                    }
+                    var histData=sentHist[politicId][entity]
+                    drawHistogram(politicId, entity, histData);
+                    var eData = emotionData[politicId][entity]
+                    drawEmotionDist(politicId, entity, eData)
+
+                }
+            }
+        }
+
+
+    });
+    
+</script>
+
+<div id="charts-container">
+    @foreach (var politic_segment in ViewBag.allpiecharts as Dictionary<string, Dictionary<string, List<EntityFrequency>>>)
+    {
+        string politicId = politic_segment.Key;
+        <h3>@politicId</h3>
+        <div class="entity-charts">
+            @foreach (var entity in ViewBag.allpiecharts[politicId].Keys)
+            {
+                <div class="entity-card">
+                    <div class="entity-header">
+                        <span class="entity-title">@entity</span>
+                    </div>
+                    <div class="entity-body">
+                        <div class="chart-container" id="hist-@politicId-@entity"></div>
+                        <div class="chart-container" id="chart-@politicId-@entity"></div>
+                        <div class="chart-container" id="emotion-@politicId-@entity"></div>
+                    </div>
+                </div>
+
+            }
+        </div>
+    }
 </div>
+
+
+
+
+
+
+
+

@@ -13,14 +13,71 @@ namespace PoliticStatements
 
         public Dictionary<string, string> entity_mapping { get; set; }
 
+       
 
+        public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st,string currentEntity)
+        {
+            var entityFrequency = new Dictionary<string, int>();
+
+           
+            foreach (var statement in st)
+            {
+                foreach (var entity in statement.Entities)
+                {
+                    if (entity.EntityText == currentEntity) continue;
+                    if (entity.Type == "ps") continue;
+                    if (entityFrequency.ContainsKey(entity.EntityText))
+                    {
+                        entityFrequency[entity.EntityText]++;
+                    }
+                    else
+                    {
+                        
+                        entityFrequency.Add(entity.EntityText, 1);
+                    }
+                }
+            }
+
+
+            List<EntityFrequency> pieChartData = entityFrequency
+                .Select(e => new EntityFrequency { EntityText = e.Key, Frequency = e.Value })
+                .OrderByDescending(e => e.Frequency).Take(15)
+                .ToList();
+
+            return pieChartData;
+        }
+
+
+        public  Dictionary<string, List<string>> GetTopEntitiesPerPerson(List<Statement> statements)
+        {
+            return statements
+                .Where(s => s.Entities != null) 
+                .SelectMany(s => s.Entities.Where(e=>e.Type=="ps").Select(e => new { s.osobaid, e.EntityText }))
+                .GroupBy(x => new { x.osobaid, x.EntityText })
+                .Select(g => new { g.Key.osobaid, g.Key.EntityText, Count = g.Count() })
+                .OrderByDescending(x => x.Count)
+                .GroupBy(x => x.osobaid)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.Take(10).Select(x => x.EntityText).ToList()
+                );
+        }
+        public  Dictionary<string, List<List<Statement>>> GetStatementsPerTopEntity(List<Statement> statements, Dictionary<string, List<string>> topEntities)
+        {
+            return topEntities.ToDictionary(
+                kvp => kvp.Key,
+                kvp => kvp.Value.Select(entity => statements.Where(s => s.Entities.Any(e => e.EntityText == entity)).ToList()).ToList()
+            );
+        }
+
+        
         public async Task UpdateNER()
         {
             using (SqlConnection connection = new SqlConnection(GlobalConfig.connstring))
             {
                 connection.Open();
 
-                foreach (string line in File.ReadLines("C:/Users/HONZA/Desktop/diplomka/lemma_entities.txt"))
+                foreach (string line in File.ReadLines("C:/Users/HONZA/Desktop/diplomka/lemma_entities_1.txt"))
                 {
                     var parts = line.Split(',');
                     if (parts.Length == 2)
@@ -73,7 +130,7 @@ namespace PoliticStatements
         {
             var statements = new List<StatementNER>();
 
-            foreach (var line in File.ReadLines("C:/Users/HONZA/Desktop/diplomka/NER_all.csv"))
+            foreach (var line in File.ReadLines("C:/Users/HONZA/Desktop/diplomka/NER_mix.csv"))
             {
 
                 var parts = line.Split(';');
@@ -139,6 +196,34 @@ namespace PoliticStatements
             }
 
         }
+
+
+        public async Task DELETENERToDB()
+        {
+            List<StatementNER> statementNERs = LoadNERCsv();
+            using (SqlConnection conn = new SqlConnection(GlobalConfig.connstring))
+            {
+                await conn.OpenAsync();
+
+                foreach (var st in statementNERs)
+                {
+                    string query = "DELETE FROM Entity where StatementID=@id ";
+                                      
+
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                       
+                        cmd.Parameters.AddWithValue("@id", st.StatementId);
+
+
+                        await cmd.ExecuteNonQueryAsync();
+                    }
+                   
+                }
+            }
+
+        }
         public async Task LoadNERFromDB(List<Statement> st)
         {
             // Vytvoření slovníku pro rychlý přístup k Statement podle ID
@@ -152,7 +237,7 @@ namespace PoliticStatements
                                "FROM Entity e " +
                                "INNER JOIN Statement s ON s.id = e.StatementID " +
                                "WHERE s.jazyk LIKE 'cs' " +
-                               "AND e.EntityType IN ('ps','io','if','ic','mn','ms','o_','oa','p_')";
+                               "AND e.EntityType IN ('ps','io','if','ic','mn','ms','o_','oa')";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {

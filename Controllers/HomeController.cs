@@ -11,6 +11,7 @@ using System.Web.Mvc.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 using System.Reflection.Emit;
+using static PoliticStatements.NERAnalysis;
 
 namespace PoliticStatements.Controllers
 {
@@ -25,16 +26,77 @@ namespace PoliticStatements.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index([FromServices] TopicAnalysis topicAnalysis,[FromServices] StatementData statementData, [FromServices] NetworkAnalysis networkAnalysis, [FromServices] TextAnalysis textAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] StatementDataDB statementDataDB)
+        public async Task<IActionResult> Index([FromServices] EmotionAnalysis emotionAnalysis,[FromServices] SentimentAnalysis sentimentAnalysis,[FromServices] TopicAnalysis topicAnalysis,[FromServices] StatementData statementData, [FromServices] NetworkAnalysis networkAnalysis, [FromServices] TextAnalysis textAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] StatementDataDB statementDataDB)
         {
 
-            var data=await statementData.GetDataFromAPI();
-            await statementData.StoreToDatabase(data);
-            var i = 1;
-            /* List<Statement> st = await statementData.LoadFromDatabase();
+            //sentimentAnalysis.InsertEmotionsFromFile("C:/Users/HONZA/Desktop/diplomka/bert_results.csv");
+            //await nerAnalysis.UpdateNER();
+            List<Statement> st = await statementData.LoadFromDatabase();
+            await emotionAnalysis.LoadEmotionFromDB(st);
+
+           
+            
              await nerAnalysis.LoadNERFromDB(st);
-             await topicAnalysis.LoadTopics(st);
-            statementDataDB.UpdateClustersFromCsv("C:/Users/HONZA/Desktop/diplomka/clusters.csv",st);*/
+              st = st.Where(x => x.osobaid == "alena-schillerova").ToList();
+              var topentities=nerAnalysis.GetTopEntitiesPerPerson(st);
+              var statementsPerEntity = nerAnalysis.GetStatementsPerTopEntity(st, topentities);
+
+              var allPieChartData = new Dictionary<string, Dictionary<string,List<EntityFrequency>>>();
+              var sentimentHist = new Dictionary<string, Dictionary<string, double[]>>();
+              var emotionData = new Dictionary<string, Dictionary<string, List<EmotionDistribution>>>();
+
+            foreach (var kvp in statementsPerEntity)
+              {
+                  if (!allPieChartData.ContainsKey(kvp.Key))
+                  {
+                      allPieChartData[kvp.Key] = new Dictionary<string, List<EntityFrequency>>();
+                  }
+                  if (!sentimentHist.ContainsKey(kvp.Key))
+                  {
+                      sentimentHist[kvp.Key] = new Dictionary<string, double[]>();
+                  }
+                if (!emotionData.ContainsKey(kvp.Key))
+                {
+                    emotionData[kvp.Key] = new Dictionary<string, List<EmotionDistribution>>();
+                }
+                for (int i = 0; i < kvp.Value.Count; i++)
+                  {
+                      //string fileName = $"{kvp.Key}_{topentities[kvp.Key][i]}.csv";
+                      //textAnalysis.ExportTexts(kvp.Value[i], fileName);
+
+                      var res=nerAnalysis.PoliticEntityPieChart(kvp.Value[i], topentities[kvp.Key][i]);
+                      allPieChartData[kvp.Key][topentities[kvp.Key][i]] = res;
+
+                      
+                      sentimentHist[kvp.Key][topentities[kvp.Key][i]] = kvp.Value[i].Select(s=>s.Sentiment).ToArray();
+
+                      var emotionDistribution = emotionAnalysis.PrepareEmotionDistribution(kvp.Value[i]);
+                      emotionData[kvp.Key][topentities[kvp.Key][i]] = emotionDistribution;
+                }
+              }
+
+              ViewBag.allpiecharts = allPieChartData;
+
+              ViewBag.sentHist = sentimentHist;
+              ViewBag.emotionData = emotionData;
+              //await statementDataDB.SaveSentimentToDB();
+              //await nerAnalysis.SaveNERToDB();
+            /*List<string> pol = new List<string> {"karel-havlicek", "lubomir-volny"};
+            foreach(var p in pol)
+            {
+                var data1 = await statementData.GetDataFromAPI("2016-01-01","2018-12-31",p);
+                var data2 = await statementData.GetDataFromAPI("2020-01-02", "2023-12-31", p);
+                data1.AddRange(data2);
+                await statementData.StoreToDatabase(data1);
+            }
+
+            var i = 1;*/
+            /*List<Statement> st = await statementData.LoadFromDatabase();
+           /*textAnalysis.ExportTexts(st, "sentiment_mix.csv");
+           //await statementDataDB.RemoveDuplicateMentions(st);
+           /* await nerAnalysis.LoadNERFromDB(st);
+            await topicAnalysis.LoadTopics(st);
+           statementDataDB.UpdateClustersFromCsv("C:/Users/HONZA/Desktop/diplomka/clusters.csv",st);*/
 
             /*
             string filePath = "statements_vectors.csv";
@@ -77,7 +139,7 @@ namespace PoliticStatements.Controllers
             //await statementDataDB.SaveSentimentToDB();
             /*List<Statement> st = await statementData.GetDataFromAPI();
             await statementData.StoreToDatabase(st);*/
-            //await statementData.UpdateLanguageForIds("C:/Users/HONZA/Desktop/diplomka/detections.txt");
+            //await statementData.UpdateLanguageForIds("C:/Users/HONZA/Desktop/diplomka/english_ids.csv");
 
 
             //await nerAnalysis.UpdateNER();
