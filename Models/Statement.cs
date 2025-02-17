@@ -71,6 +71,11 @@ namespace PoliticStatements.Models
         public int count { get; set; }
         public int count_m { get; set; }
     }
+    public class Similar
+    {
+        public string Name { get; set; }
+        public double Similarity { get; set; }
+    }
 
     public class EntityData
     {
@@ -105,4 +110,17 @@ public class EmotionDistribution
 {
     public string Emotion { get; set; }
     public int Count { get; set; }
+}
+
+public class AvgSentence
+{
+    public string Name { get; set; }
+    public double AvgLength { get; set; }
+}
+public class ChartData
+{
+    public int Facebook { get; set; }
+    public int Twitter { get; set; }
+    public int Retweets { get; set; }
+    public int NormalTweets { get; set; }
 }

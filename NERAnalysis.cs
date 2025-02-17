@@ -15,7 +15,7 @@ namespace PoliticStatements
 
        
 
-        public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st,string currentEntity)
+        public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st,List<string> nertypes, string  currentEntity="")
         {
             var entityFrequency = new Dictionary<string, int>();
 
@@ -25,7 +25,7 @@ namespace PoliticStatements
                 foreach (var entity in statement.Entities)
                 {
                     if (entity.EntityText == currentEntity) continue;
-                    if (entity.Type == "ps") continue;
+                    if (!nertypes.Contains(entity.Type)) continue;
                     if (entityFrequency.ContainsKey(entity.EntityText))
                     {
                         entityFrequency[entity.EntityText]++;

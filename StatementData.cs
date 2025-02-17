@@ -7,12 +7,27 @@ using System.Data.SqlClient;
 using System.Text;
 using CsvHelper;
 using System.Globalization;
+using static Plotly.NET.GenericChart;
 
 namespace PoliticStatements
 {
     public class StatementData
     {
+        public ChartData GetChartData(List<Statement> statements)
+        {
+            var facebookCount = statements.Count(s => s.server == "Facebook");
+            var twitterCount = statements.Count(s => s.server == "Twitter");
+            var retweetCount = statements.Count(s => s.server == "Twitter" && s.RT == true);
+            var normalTweetCount = statements.Count(s => s.server == "Twitter" && s.RT == false);
 
+            return new ChartData
+            {
+                Facebook = facebookCount,
+                Twitter = twitterCount,
+                Retweets = retweetCount,
+                NormalTweets = normalTweetCount
+            };
+        }
         public async Task<List<Statement>> GetDataFromAPI(string start,string end,string politician)
         {
             List<Statement> allData = new List<Statement>();
@@ -127,7 +142,7 @@ namespace PoliticStatements
             {
                 await conn.OpenAsync();
 
-                using (SqlCommand cmd = new SqlCommand("select * from Statement where politic_id IN ('andrej-babis','karel-havlicek', 'lubomir-volny','alena-schillerova','tomio-okamura','petr-fiala','adam-vojtech','milos-zeman','pavel-belobradek','miroslav-kalousek') and jazyk='cs' and RT=0 and pocetSlov>5 and Sentiment!=666 ", conn))
+                using (SqlCommand cmd = new SqlCommand("select * from Statement where politic_id IN ('andrej-babis','karel-havlicek', 'lubomir-volny','alena-schillerova','tomio-okamura','petr-fiala','adam-vojtech','milos-zeman','pavel-belobradek','miroslav-kalousek') and jazyk='cs' and pocetSlov>5 and Sentiment!=666 ", conn))
                 using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())

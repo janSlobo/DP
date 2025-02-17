@@ -15,6 +15,7 @@ builder.Services.AddScoped<RhetoricAnalysis>();
 builder.Services.AddScoped<TopicAnalysis>(); 
 builder.Services.AddScoped<ClusterAnalysis>(); 
 builder.Services.AddScoped<EmotionAnalysis>();
+builder.Services.AddScoped<StylometryAnalysis>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

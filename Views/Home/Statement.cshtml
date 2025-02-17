@@ -55,6 +55,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="showClusters()">Shluky</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="showStylometry()">Stylometrie</a>
+            </li>
             </ul>
         </div>
     </nav>
@@ -116,6 +119,7 @@
         showNerGraphs();
         showRhetoricsGraphs();
         showClusterGraphs();
+        showStylometryGraphs();
     }
     function showMore(tableId, button) {
 
@@ -169,6 +173,7 @@
         document.getElementById('ner').style.display = 'none';
         document.getElementById('rhetorics').style.display = 'none';
         document.getElementById('clusters').style.display = 'none';
+        document.getElementById('stylometry').style.display = 'none';
     }
 
     function showHistogramStFrequency() {
@@ -1708,7 +1713,64 @@
         //showRhetoricsGraphs();
         document.getElementById('rhetorics').style.display = 'block';
    }
-    $(document).ready(function () {
+    
+   function showStylometry() {
+        hideAllPlots();
+       
+        document.getElementById('stylometry').style.display = 'block';
+    }
+
+   function showStylometryGraphs() {
+
+       //barplot avg sentence politici
+        var data = @Html.Raw(Json.Serialize(ViewBag.avg_sentence));    
+        var names = data.map(politician => politician.name);
+        var avgLengths = data.map(politician => politician.avgLength);
+
+      
+        var trace = {
+            x: names,
+            y: avgLengths,
+            type: 'bar'
+        };
+
+        var layout = {
+            title: 'Průměrná délka věty politiků',
+            xaxis: {
+                title: ''
+            },
+            yaxis: {
+                title: ''
+            }
+        }; 
+        Plotly.newPlot('avg_sentence_length', [trace], layout);
+
+
+        //bar plot avg sentence emoce
+        var data = @Html.Raw(Json.Serialize(ViewBag.avg_sentence_emoce));
+        var names = data.map(politician => politician.name);
+        var avgLengths = data.map(politician => politician.avgLength);
+
+
+        var trace = {
+            x: names,
+            y: avgLengths,
+            type: 'bar'
+        };
+
+        var layout = {
+            title: 'Průměrná délka věty v emocích',
+            xaxis: {
+                title: ''
+            },
+            yaxis: {
+                title: ''
+            }
+        };
+        Plotly.newPlot('avg_sentence_length_emoce', [trace], layout);
+
+    }
+   $(document).ready(function () {
         
         $('.sortable th').click(function () {
             
@@ -1741,6 +1803,7 @@
         $('#showTable').removeClass('active');
     });
     });
+
     function sortTable(table, columnIndex, isAscending) {
         var rows = table.find('tbody tr').get();
         rows.sort(function (rowA, rowB) {
@@ -1799,7 +1862,11 @@
     </div>
 
 </div>
+<div id="stylometry">
 
+     <div id="avg_sentence_length"></div>
+    <div id="avg_sentence_length_emoce"></div>
+</div>
 
 <div id="rhetorics">
     <div id="rh_hist" style="width: 100%; height: 500px;"></div>

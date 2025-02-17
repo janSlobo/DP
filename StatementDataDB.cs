@@ -587,7 +587,7 @@ namespace PoliticStatements
         
         public async Task SaveSentimentToDB()
         {
-            List<SentimentRecord> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/output_sentiment_mix_11.csv");
+            List<SentimentRecordBert> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/bert_sentiment.csv");
 
             
 
@@ -599,11 +599,11 @@ namespace PoliticStatements
                     {
                        
 
-                            string query = "UPDATE Statement SET Sentiment=@Sentiment,pos=@pos,neg=@neg,neu=@neu WHERE id=@id";
+                            string query = "UPDATE Statement SET SentimentBert=@Sentiment,posBert=@pos,negBert=@neg,neuBert=@neu WHERE id=@id";
 
                             using (SqlCommand cmd = new SqlCommand(query, conn))
                             {
-                                cmd.Parameters.AddWithValue("@Sentiment", s.Sentiment);
+                                cmd.Parameters.AddWithValue("@Sentiment", s.pos-s.neg);
                                 cmd.Parameters.AddWithValue("@pos", s.pos);
                                 cmd.Parameters.AddWithValue("@neu", s.neu);
                                 cmd.Parameters.AddWithValue("@neg", s.neg);

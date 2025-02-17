@@ -24,7 +24,14 @@ namespace PoliticStatements
             public double neu { get; set; }
             public double pos { get; set; }
         }
-
+        public class SentimentRecordBert
+        {
+            public string StatementId { get; set; }
+            
+            public double neg { get; set; }
+            public double neu { get; set; }
+            public double pos { get; set; }
+        }
         public class PoliticianSentiment
         {
             public string OsobaID { get; set; }
@@ -254,22 +261,22 @@ namespace PoliticStatements
         }
 
 
-        public static List<SentimentRecord> LoadSentimentsFromCsv(string filePath)
+        public static List<SentimentRecordBert> LoadSentimentsFromCsv(string filePath)
         {
-            var sentimentRecords = new List<SentimentRecord>();
+            var sentimentRecords = new List<SentimentRecordBert>();
 
             using (var reader = new StreamReader(filePath))
             using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
             {
-                sentimentRecords = csv.GetRecords<SentimentRecord>().ToList();
+                sentimentRecords = csv.GetRecords<SentimentRecordBert>().ToList();
             }
 
             return sentimentRecords;
         }
         
-        public List<Statement> GetUpdatedStatements(List<Statement> st)
+       /* public List<Statement> GetUpdatedStatements(List<Statement> st)
         {
-            List<SentimentRecord> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/texts_with_sentiment2.csv");
+           // List<SentimentRecord> sentimentRecords = LoadSentimentsFromCsv("C:/Users/HONZA/Desktop/diplomka/texts_with_sentiment2.csv");
             List<Statement> updatedStatements = new List<Statement>();
             foreach (var i in sentimentRecords)
             {
@@ -285,7 +292,7 @@ namespace PoliticStatements
             }
 
             return updatedStatements;
-        }
+        }*/
 
         public Tuple<double, double> RT_sentiment(List<Statement> st)
         {
