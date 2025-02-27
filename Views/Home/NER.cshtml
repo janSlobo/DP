@@ -1,0 +1,297 @@
+﻿
+@{
+    ViewData["Title"] = "NER";
+    var alltypes = ViewBag.Alltypes as List<string>;
+    
+   
+}
+<script>
+    function showNerGraphs() {
+        var data_er = @Html.Raw(Json.Serialize(ViewBag.PoliticianRatios));
+
+        var politicians = Object.keys(data_er);
+        var ratios = Object.values(data_er);
+
+        var listDiv = document.getElementById('politician-list-er');
+
+
+        function updateChartER() {
+            var selectedPoliticians = [];
+            var selectedRatios = [];
+
+            politicians.forEach((politician, index) => {
+                var checkbox = document.getElementById('cb_' + index);
+                if (checkbox.checked) {
+                    console.log(politician)
+                    console.log(data_er[politician])
+                    selectedPoliticians.push(politician);
+                    selectedRatios.push(data_er[politician]);
+                }
+            });
+
+            Plotly.newPlot('entity_ratio', [{
+                x: selectedPoliticians,
+                y: selectedRatios,
+                type: 'bar'
+            }], {
+                title: 'Politician Entity-to-Word Ratio',
+                xaxis: { title: 'Politician' },
+                yaxis: { title: 'Entity-to-Word Ratio' }
+            });
+        }
+
+
+        politicians.forEach((politician, index) => {
+            var div = document.createElement('div');
+            var checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = politician;
+            checkbox.checked = false;
+            checkbox.id = 'cb_' + index;
+            checkbox.addEventListener('change', updateChartER);
+
+            var label = document.createElement('label');
+            label.htmlFor = 'cb_' + index;
+            label.textContent = politician;
+
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            listDiv.appendChild(div);
+        });
+
+
+        updateChartER();
+
+       
+        //barplot1-nejčastější typy
+        var entityTypes = @Html.Raw(Json.Serialize(ViewBag.entityTypes));
+        var typeCounts = @Html.Raw(Json.Serialize(ViewBag.typeCounts));
+
+
+        var data = [{
+            x: entityTypes,
+            y: typeCounts,
+            type: 'bar'
+        }];
+
+        var layout = {
+            title: 'Nejčastější typy entit',
+            xaxis: { title: 'Typ' },
+            yaxis: { title: 'Počet výskytů' },
+            width:800,height:500
+        };
+
+        Plotly.newPlot('entitytype_bar', data, layout);
+
+        //barplot_sentiment
+        var entitySentiments = @Html.Raw(Json.Serialize(ViewBag.EntitySentiments));
+        console.log("Data:", entitySentiments);
+
+        function updateChart() {
+            var selectedEntityType = document.getElementById('entityTypeSelect').value;
+
+
+            var filteredData = entitySentiments.filter(function (item) {
+                return item.entityType === selectedEntityType;
+            });
+
+            filteredData.sort(function (a, b) {
+                return a.averageSentiment - b.averageSentiment;
+            });
+
+            var entityNames = filteredData.map(function (item) { return item.entityName; });
+            var averageSentiments = filteredData.map(function (item) { return item.averageSentiment; });
+
+
+            var trace = {
+                x: entityNames,
+                y: averageSentiments,
+                type: 'bar'
+            };
+
+            var layout = {
+                title: 'Průměrný sentiment nejzmiňovanějších entit',
+                xaxis: { title: 'Název entity' },
+                yaxis: { title: 'Average Sentiment' },
+                width: 800, height: 500
+            };
+
+            Plotly.newPlot('sentimentBarplot', [trace], layout);
+
+            //boxplot
+
+
+            var boxTraces = filteredData.map(function (item) {
+                return {
+                    y: item.sentiments,
+                    type: 'box',
+                    name: item.entityName
+                };
+            });
+
+            var boxLayout = {
+                title: 'Rozsah sentimentu příspěvků s entitami',
+                xaxis: { title: 'Název entity' },
+                yaxis: { title: 'Sentiment' },
+                width: 800, height: 500
+            };
+
+            Plotly.newPlot('sentimentboxEntity', boxTraces, boxLayout);
+
+        }
+
+
+        document.getElementById('entityTypeSelect').value = document.getElementById('entityTypeSelect').options[0].value;
+        updateChart();
+
+
+        document.getElementById('entityTypeSelect').addEventListener('change', function () {
+            updateChart();
+        });
+
+        
+
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        showNerGraphs()
+
+
+    });
+</script>
+<h1>Analýza výskytu entit ve vyjádřeních</h1>
+
+<div id="ner">
+
+
+
+    <div style="display: flex;">
+
+        <div style="width: 200px; padding-right: 20px;">
+            <h3>Vyberte politiky:</h3>
+            <div id="politician-list-er"></div>
+        </div>
+
+
+        <div id="entity_ratio" style="width: 600px;"></div>
+    </div>
+
+    
+
+    <div id="entitytype_bar" style="width: 100%; height: 500px;"></div>
+
+
+
+
+    <label for="entityTypeSelect">Vyberte typ:</label>
+    <select id="entityTypeSelect" onchange="updateChart()">
+
+        @foreach (var type in alltypes)
+        {
+            <option value="@type">@type</option>
+        }
+    </select>
+
+
+    <div id="sentimentBarplot" style="width: 100%; height: 500px;"></div>
+    <div id="sentimentboxEntity" style="width: 100%; height: 500px;"></div>
+    
+    <!--
+    <table class="table table-bordered table-sm entity-table">
+        <thead>
+            <tr>
+                <th>Název entity</th>
+                <th>Počet výskytů</th>
+                <th>Average Sentiment</th>
+            </tr>
+        </thead>
+        <tbody>
+    @if (ViewBag.ner_counts != null && ((List<KeyValuePair<string, int>>)ViewBag.ner_counts).Any())
+    {
+        var sentiments = ViewBag.ner_sentiment as Dictionary<string, double>;
+
+        foreach (var entity in (List<KeyValuePair<string, int>>)ViewBag.ner_counts)
+        {
+                            <tr>
+                                <td>@entity.Key</td>
+                                <td>@entity.Value</td>
+                                <td>
+                    @if (sentiments != null && sentiments.ContainsKey(entity.Key))
+                    {
+                        @sentiments[entity.Key].ToString("F2")
+                    }
+                    else
+                    {
+                                            <span class="text-muted">N/A</span>
+                    }
+                                </td>
+                            </tr>
+        }
+    }
+    else
+    {
+                    <tr>
+                        <td colspan="3" class="text-center text-muted no-data">No data available</td>
+                    </tr>
+    }
+        </tbody>
+    </table>
+    -->
+    @{
+        var groupedEntities = ViewBag.nercounts_types as Dictionary<string, List<KeyValuePair<string, int>>>;
+        var entitySentiments = ViewBag.EntitySentiments as List<EntitySentimentData>;
+    }
+
+    <table class="table table-bordered grouped-entity-table">
+        <thead>
+            <tr>
+                @foreach (var entityType in groupedEntities.Keys)
+                {
+                    <th>@entityType</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @if (groupedEntities != null)
+            {
+
+                var maxEntitiesCount = groupedEntities.Max(g => g.Value.Count);
+
+
+                for (int i = 0; i < maxEntitiesCount; i++)
+                {
+                    <tr>
+                        @foreach (var entityType in groupedEntities.Keys)
+                        {
+                            var entity = groupedEntities[entityType].ElementAtOrDefault(i);
+                            var sentiment = entitySentiments.Where(x => x.EntityName == entity.Key && x.EntityType == entityType).Select(x => x.AverageSentiment).FirstOrDefault();
+                            sentiment = Math.Round(sentiment, 2);
+                            <td>
+                                @if (entity.Key != null)
+                                {
+                                    <text>
+                                        <strong>@entity.Key</strong>:
+                                        <p>Počet výskytů: @entity.Value </p>
+                                        <p>Prům. sentiment: @sentiment</p>
+                                    </text>
+                                }
+                                else
+                                {
+                                    @("-")
+                                }
+                            </td>
+                        }
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="100%" class="text-center no-data">No data available</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

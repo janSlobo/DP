@@ -1,0 +1,1501 @@
+{
+    "nodes": [
+        {
+            "id": "alena-gajduskova"
+        },
+        {
+            "id": "milos-vystrcil"
+        },
+        {
+            "id": "lukas-wagenknecht"
+        },
+        {
+            "id": "petr-hlubucek"
+        },
+        {
+            "id": "sarka-jelinkova"
+        },
+        {
+            "id": "vit-rakusan"
+        },
+        {
+            "id": "jiri-drahos"
+        },
+        {
+            "id": "tomio-okamura"
+        },
+        {
+            "id": "tomas-prouza"
+        },
+        {
+            "id": "vaclav-klaus"
+        },
+        {
+            "id": "adam-vojtech"
+        },
+        {
+            "id": "vaclav-laska"
+        },
+        {
+            "id": "jan-cizinsky"
+        },
+        {
+            "id": "andrej-babis"
+        },
+        {
+            "id": "petr-gazdik"
+        },
+        {
+            "id": "martina-dlabajova"
+        },
+        {
+            "id": "jan-bartosek"
+        },
+        {
+            "id": "jan-kobza"
+        },
+        {
+            "id": "martin-kolovratnik"
+        },
+        {
+            "id": "jana-cernochova"
+        },
+        {
+            "id": "lubomir-volny"
+        },
+        {
+            "id": "tomas-martinek"
+        },
+        {
+            "id": "petr-fiala"
+        },
+        {
+            "id": "jiri-pospisil"
+        },
+        {
+            "id": "mikulas-ferjencik"
+        },
+        {
+            "id": "alena-schillerova"
+        },
+        {
+            "id": "ivan-bartos"
+        },
+        {
+            "id": "marketa-adamova"
+        },
+        {
+            "id": "jiri-dolejs"
+        },
+        {
+            "id": "tomas-zdechovsky"
+        },
+        {
+            "id": "jan-skopecek"
+        },
+        {
+            "id": "vladimir-kremlik"
+        },
+        {
+            "id": "patrik-nacher"
+        },
+        {
+            "id": "tomas-golan"
+        },
+        {
+            "id": "pavel-belobradek"
+        },
+        {
+            "id": "pavel-fischer"
+        },
+        {
+            "id": "ondrej-profant"
+        },
+        {
+            "id": "barbora-koranova"
+        },
+        {
+            "id": "dominik-feri"
+        },
+        {
+            "id": "mikulas-peksa"
+        },
+        {
+            "id": "tomas-macura"
+        },
+        {
+            "id": "miroslav-antl"
+        },
+        {
+            "id": "marek-vyborny"
+        },
+        {
+            "id": "karel-havlicek"
+        },
+        {
+            "id": "radim-fiala"
+        },
+        {
+            "id": "marek-zenisek"
+        },
+        {
+            "id": "pavel-poc"
+        },
+        {
+            "id": "radek-vondracek"
+        },
+        {
+            "id": "stanislav-blaha"
+        },
+        {
+            "id": "jan-lipavsky"
+        },
+        {
+            "id": "miroslav-kalousek"
+        },
+        {
+            "id": "zuzana-majerova-zahradnikova"
+        },
+        {
+            "id": "jan-hamacek"
+        },
+        {
+            "id": "michaela-sojdrova"
+        },
+        {
+            "id": "milos-zeman"
+        },
+        {
+            "id": "olga-richterova"
+        },
+        {
+            "id": "katerina-valachova"
+        },
+        {
+            "id": "ludek-niedermayer"
+        },
+        {
+            "id": "jan-hrncir"
+        },
+        {
+            "id": "michal-kucera"
+        },
+        {
+            "id": "jan-zahradil"
+        },
+        {
+            "id": "marian-jurecka"
+        },
+        {
+            "id": "zdenek-hrib"
+        },
+        {
+            "id": "alexandra-udzenija"
+        },
+        {
+            "id": "helena-langsadlova"
+        }
+    ],
+    "links": [
+        {
+            "source": "adam-vojtech",
+            "target": "andrej-babis",
+            "weight": 0.0403
+        },
+        {
+            "source": "adam-vojtech",
+            "target": "alena-schillerova",
+            "weight": 0.0395
+        },
+        {
+            "source": "adam-vojtech",
+            "target": "vladimir-kremlik",
+            "weight": 0.0311
+        },
+        {
+            "source": "adam-vojtech",
+            "target": "sarka-jelinkova",
+            "weight": 0.0305
+        },
+        {
+            "source": "alena-gajduskova",
+            "target": "jan-hamacek",
+            "weight": 0.0707
+        },
+        {
+            "source": "alena-gajduskova",
+            "target": "marek-vyborny",
+            "weight": 0.0514
+        },
+        {
+            "source": "alena-gajduskova",
+            "target": "katerina-valachova",
+            "weight": 0.0488
+        },
+        {
+            "source": "alena-gajduskova",
+            "target": "miroslav-kalousek",
+            "weight": 0.0351
+        },
+        {
+            "source": "alena-schillerova",
+            "target": "andrej-babis",
+            "weight": 0.0643
+        },
+        {
+            "source": "alena-schillerova",
+            "target": "jan-skopecek",
+            "weight": 0.0451
+        },
+        {
+            "source": "alena-schillerova",
+            "target": "petr-fiala",
+            "weight": 0.0408
+        },
+        {
+            "source": "alena-schillerova",
+            "target": "adam-vojtech",
+            "weight": 0.0395
+        },
+        {
+            "source": "alexandra-udzenija",
+            "target": "ludek-niedermayer",
+            "weight": 0.033
+        },
+        {
+            "source": "alexandra-udzenija",
+            "target": "petr-fiala",
+            "weight": 0.0279
+        },
+        {
+            "source": "alexandra-udzenija",
+            "target": "zuzana-majerova-zahradnikova",
+            "weight": 0.021
+        },
+        {
+            "source": "alexandra-udzenija",
+            "target": "marek-vyborny",
+            "weight": 0.0208
+        },
+        {
+            "source": "andrej-babis",
+            "target": "alena-schillerova",
+            "weight": 0.0643
+        },
+        {
+            "source": "andrej-babis",
+            "target": "petr-fiala",
+            "weight": 0.0504
+        },
+        {
+            "source": "andrej-babis",
+            "target": "vit-rakusan",
+            "weight": 0.0422
+        },
+        {
+            "source": "andrej-babis",
+            "target": "ludek-niedermayer",
+            "weight": 0.0422
+        },
+        {
+            "source": "barbora-koranova",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0571
+        },
+        {
+            "source": "barbora-koranova",
+            "target": "ondrej-profant",
+            "weight": 0.0502
+        },
+        {
+            "source": "barbora-koranova",
+            "target": "vit-rakusan",
+            "weight": 0.047
+        },
+        {
+            "source": "barbora-koranova",
+            "target": "miroslav-kalousek",
+            "weight": 0.0447
+        },
+        {
+            "source": "dominik-feri",
+            "target": "jiri-pospisil",
+            "weight": 0.0379
+        },
+        {
+            "source": "dominik-feri",
+            "target": "miroslav-kalousek",
+            "weight": 0.0339
+        },
+        {
+            "source": "dominik-feri",
+            "target": "marketa-adamova",
+            "weight": 0.032
+        },
+        {
+            "source": "dominik-feri",
+            "target": "mikulas-ferjencik",
+            "weight": 0.0271
+        },
+        {
+            "source": "helena-langsadlova",
+            "target": "petr-fiala",
+            "weight": 0.0221
+        },
+        {
+            "source": "helena-langsadlova",
+            "target": "ludek-niedermayer",
+            "weight": 0.0204
+        },
+        {
+            "source": "helena-langsadlova",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "helena-langsadlova",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "ivan-bartos",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0607
+        },
+        {
+            "source": "ivan-bartos",
+            "target": "mikulas-peksa",
+            "weight": 0.0349
+        },
+        {
+            "source": "ivan-bartos",
+            "target": "vit-rakusan",
+            "weight": 0.034
+        },
+        {
+            "source": "ivan-bartos",
+            "target": "petr-fiala",
+            "weight": 0.0305
+        },
+        {
+            "source": "jan-bartosek",
+            "target": "vit-rakusan",
+            "weight": 0.0519
+        },
+        {
+            "source": "jan-bartosek",
+            "target": "marek-vyborny",
+            "weight": 0.0443
+        },
+        {
+            "source": "jan-bartosek",
+            "target": "petr-fiala",
+            "weight": 0.041
+        },
+        {
+            "source": "jan-bartosek",
+            "target": "jiri-drahos",
+            "weight": 0.0378
+        },
+        {
+            "source": "jan-cizinsky",
+            "target": "ludek-niedermayer",
+            "weight": 0.0408
+        },
+        {
+            "source": "jan-cizinsky",
+            "target": "vit-rakusan",
+            "weight": 0.0346
+        },
+        {
+            "source": "jan-cizinsky",
+            "target": "marketa-adamova",
+            "weight": 0.0333
+        },
+        {
+            "source": "jan-cizinsky",
+            "target": "petr-fiala",
+            "weight": 0.0332
+        },
+        {
+            "source": "jan-hamacek",
+            "target": "alena-gajduskova",
+            "weight": 0.0707
+        },
+        {
+            "source": "jan-hamacek",
+            "target": "vit-rakusan",
+            "weight": 0.0546
+        },
+        {
+            "source": "jan-hamacek",
+            "target": "petr-fiala",
+            "weight": 0.0458
+        },
+        {
+            "source": "jan-hamacek",
+            "target": "katerina-valachova",
+            "weight": 0.0372
+        },
+        {
+            "source": "jan-hrncir",
+            "target": "radim-fiala",
+            "weight": 0.1182
+        },
+        {
+            "source": "jan-hrncir",
+            "target": "tomio-okamura",
+            "weight": 0.1149
+        },
+        {
+            "source": "jan-hrncir",
+            "target": "petr-fiala",
+            "weight": 0.0416
+        },
+        {
+            "source": "jan-hrncir",
+            "target": "michaela-sojdrova",
+            "weight": 0.0375
+        },
+        {
+            "source": "jan-kobza",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "jan-kobza",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "jan-kobza",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "jan-kobza",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "jan-lipavsky",
+            "target": "miroslav-kalousek",
+            "weight": 0.035
+        },
+        {
+            "source": "jan-lipavsky",
+            "target": "marketa-adamova",
+            "weight": 0.0291
+        },
+        {
+            "source": "jan-lipavsky",
+            "target": "jiri-drahos",
+            "weight": 0.0271
+        },
+        {
+            "source": "jan-lipavsky",
+            "target": "vit-rakusan",
+            "weight": 0.023
+        },
+        {
+            "source": "jan-skopecek",
+            "target": "petr-fiala",
+            "weight": 0.0586
+        },
+        {
+            "source": "jan-skopecek",
+            "target": "alena-schillerova",
+            "weight": 0.0451
+        },
+        {
+            "source": "jan-skopecek",
+            "target": "miroslav-kalousek",
+            "weight": 0.0432
+        },
+        {
+            "source": "jan-skopecek",
+            "target": "marketa-adamova",
+            "weight": 0.0425
+        },
+        {
+            "source": "jan-zahradil",
+            "target": "mikulas-peksa",
+            "weight": 0.0309
+        },
+        {
+            "source": "jan-zahradil",
+            "target": "michaela-sojdrova",
+            "weight": 0.0275
+        },
+        {
+            "source": "jan-zahradil",
+            "target": "marek-zenisek",
+            "weight": 0.0269
+        },
+        {
+            "source": "jan-zahradil",
+            "target": "ludek-niedermayer",
+            "weight": 0.0265
+        },
+        {
+            "source": "jana-cernochova",
+            "target": "vit-rakusan",
+            "weight": 0.0226
+        },
+        {
+            "source": "jana-cernochova",
+            "target": "petr-fiala",
+            "weight": 0.0218
+        },
+        {
+            "source": "jana-cernochova",
+            "target": "barbora-koranova",
+            "weight": 0.0202
+        },
+        {
+            "source": "jana-cernochova",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "jiri-dolejs",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "jiri-dolejs",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "jiri-dolejs",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "jiri-dolejs",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "jiri-drahos",
+            "target": "jiri-pospisil",
+            "weight": 0.0434
+        },
+        {
+            "source": "jiri-drahos",
+            "target": "petr-fiala",
+            "weight": 0.0423
+        },
+        {
+            "source": "jiri-drahos",
+            "target": "vit-rakusan",
+            "weight": 0.0415
+        },
+        {
+            "source": "jiri-drahos",
+            "target": "jan-bartosek",
+            "weight": 0.0378
+        },
+        {
+            "source": "jiri-pospisil",
+            "target": "petr-fiala",
+            "weight": 0.0702
+        },
+        {
+            "source": "jiri-pospisil",
+            "target": "marketa-adamova",
+            "weight": 0.0618
+        },
+        {
+            "source": "jiri-pospisil",
+            "target": "vit-rakusan",
+            "weight": 0.0578
+        },
+        {
+            "source": "jiri-pospisil",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0534
+        },
+        {
+            "source": "karel-havlicek",
+            "target": "andrej-babis",
+            "weight": 0.0309
+        },
+        {
+            "source": "karel-havlicek",
+            "target": "alena-schillerova",
+            "weight": 0.0206
+        },
+        {
+            "source": "karel-havlicek",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "karel-havlicek",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "katerina-valachova",
+            "target": "alena-gajduskova",
+            "weight": 0.0488
+        },
+        {
+            "source": "katerina-valachova",
+            "target": "jan-hamacek",
+            "weight": 0.0372
+        },
+        {
+            "source": "katerina-valachova",
+            "target": "marek-vyborny",
+            "weight": 0.0356
+        },
+        {
+            "source": "katerina-valachova",
+            "target": "alena-schillerova",
+            "weight": 0.0348
+        },
+        {
+            "source": "lubomir-volny",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "lubomir-volny",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "lubomir-volny",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "lubomir-volny",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "ludek-niedermayer",
+            "target": "vit-rakusan",
+            "weight": 0.0743
+        },
+        {
+            "source": "ludek-niedermayer",
+            "target": "petr-fiala",
+            "weight": 0.0646
+        },
+        {
+            "source": "ludek-niedermayer",
+            "target": "marek-zenisek",
+            "weight": 0.0592
+        },
+        {
+            "source": "ludek-niedermayer",
+            "target": "miroslav-kalousek",
+            "weight": 0.058
+        },
+        {
+            "source": "lukas-wagenknecht",
+            "target": "ivan-bartos",
+            "weight": 0.0607
+        },
+        {
+            "source": "lukas-wagenknecht",
+            "target": "tomas-golan",
+            "weight": 0.0575
+        },
+        {
+            "source": "lukas-wagenknecht",
+            "target": "barbora-koranova",
+            "weight": 0.0571
+        },
+        {
+            "source": "lukas-wagenknecht",
+            "target": "marketa-adamova",
+            "weight": 0.0556
+        },
+        {
+            "source": "marek-vyborny",
+            "target": "sarka-jelinkova",
+            "weight": 0.0636
+        },
+        {
+            "source": "marek-vyborny",
+            "target": "alena-gajduskova",
+            "weight": 0.0514
+        },
+        {
+            "source": "marek-vyborny",
+            "target": "jan-bartosek",
+            "weight": 0.0443
+        },
+        {
+            "source": "marek-vyborny",
+            "target": "vit-rakusan",
+            "weight": 0.0428
+        },
+        {
+            "source": "marek-zenisek",
+            "target": "miroslav-kalousek",
+            "weight": 0.0775
+        },
+        {
+            "source": "marek-zenisek",
+            "target": "marketa-adamova",
+            "weight": 0.0599
+        },
+        {
+            "source": "marek-zenisek",
+            "target": "ludek-niedermayer",
+            "weight": 0.0592
+        },
+        {
+            "source": "marek-zenisek",
+            "target": "vit-rakusan",
+            "weight": 0.0585
+        },
+        {
+            "source": "marian-jurecka",
+            "target": "petr-fiala",
+            "weight": 0.0443
+        },
+        {
+            "source": "marian-jurecka",
+            "target": "jan-skopecek",
+            "weight": 0.042
+        },
+        {
+            "source": "marian-jurecka",
+            "target": "ludek-niedermayer",
+            "weight": 0.0414
+        },
+        {
+            "source": "marian-jurecka",
+            "target": "marketa-adamova",
+            "weight": 0.0411
+        },
+        {
+            "source": "marketa-adamova",
+            "target": "miroslav-kalousek",
+            "weight": 0.1054
+        },
+        {
+            "source": "marketa-adamova",
+            "target": "vit-rakusan",
+            "weight": 0.0723
+        },
+        {
+            "source": "marketa-adamova",
+            "target": "petr-fiala",
+            "weight": 0.0676
+        },
+        {
+            "source": "marketa-adamova",
+            "target": "jiri-pospisil",
+            "weight": 0.0618
+        },
+        {
+            "source": "martin-kolovratnik",
+            "target": "vladimir-kremlik",
+            "weight": 0.0694
+        },
+        {
+            "source": "martin-kolovratnik",
+            "target": "andrej-babis",
+            "weight": 0.0363
+        },
+        {
+            "source": "martin-kolovratnik",
+            "target": "adam-vojtech",
+            "weight": 0.0292
+        },
+        {
+            "source": "martin-kolovratnik",
+            "target": "alena-schillerova",
+            "weight": 0.029
+        },
+        {
+            "source": "martina-dlabajova",
+            "target": "mikulas-peksa",
+            "weight": 0.0297
+        },
+        {
+            "source": "martina-dlabajova",
+            "target": "ludek-niedermayer",
+            "weight": 0.0236
+        },
+        {
+            "source": "martina-dlabajova",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "martina-dlabajova",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "michaela-sojdrova",
+            "target": "mikulas-peksa",
+            "weight": 0.0616
+        },
+        {
+            "source": "michaela-sojdrova",
+            "target": "petr-fiala",
+            "weight": 0.0415
+        },
+        {
+            "source": "michaela-sojdrova",
+            "target": "ludek-niedermayer",
+            "weight": 0.04
+        },
+        {
+            "source": "michaela-sojdrova",
+            "target": "tomio-okamura",
+            "weight": 0.0384
+        },
+        {
+            "source": "michal-kucera",
+            "target": "miroslav-kalousek",
+            "weight": 0.0352
+        },
+        {
+            "source": "michal-kucera",
+            "target": "petr-fiala",
+            "weight": 0.0275
+        },
+        {
+            "source": "michal-kucera",
+            "target": "ludek-niedermayer",
+            "weight": 0.0272
+        },
+        {
+            "source": "michal-kucera",
+            "target": "vit-rakusan",
+            "weight": 0.0259
+        },
+        {
+            "source": "mikulas-ferjencik",
+            "target": "petr-fiala",
+            "weight": 0.0313
+        },
+        {
+            "source": "mikulas-ferjencik",
+            "target": "marketa-adamova",
+            "weight": 0.0312
+        },
+        {
+            "source": "mikulas-ferjencik",
+            "target": "marek-vyborny",
+            "weight": 0.0306
+        },
+        {
+            "source": "mikulas-ferjencik",
+            "target": "dominik-feri",
+            "weight": 0.0271
+        },
+        {
+            "source": "mikulas-peksa",
+            "target": "michaela-sojdrova",
+            "weight": 0.0616
+        },
+        {
+            "source": "mikulas-peksa",
+            "target": "jiri-pospisil",
+            "weight": 0.0496
+        },
+        {
+            "source": "mikulas-peksa",
+            "target": "vit-rakusan",
+            "weight": 0.0482
+        },
+        {
+            "source": "mikulas-peksa",
+            "target": "petr-fiala",
+            "weight": 0.0471
+        },
+        {
+            "source": "milos-vystrcil",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0329
+        },
+        {
+            "source": "milos-vystrcil",
+            "target": "tomas-golan",
+            "weight": 0.0273
+        },
+        {
+            "source": "milos-vystrcil",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "milos-vystrcil",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "milos-zeman",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "milos-zeman",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "milos-zeman",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "milos-zeman",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "miroslav-antl",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "miroslav-antl",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "miroslav-antl",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "miroslav-antl",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "miroslav-kalousek",
+            "target": "marketa-adamova",
+            "weight": 0.1054
+        },
+        {
+            "source": "miroslav-kalousek",
+            "target": "marek-zenisek",
+            "weight": 0.0775
+        },
+        {
+            "source": "miroslav-kalousek",
+            "target": "vit-rakusan",
+            "weight": 0.0755
+        },
+        {
+            "source": "miroslav-kalousek",
+            "target": "petr-fiala",
+            "weight": 0.0623
+        },
+        {
+            "source": "olga-richterova",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "olga-richterova",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "olga-richterova",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "olga-richterova",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "ondrej-profant",
+            "target": "barbora-koranova",
+            "weight": 0.0502
+        },
+        {
+            "source": "ondrej-profant",
+            "target": "miroslav-kalousek",
+            "weight": 0.0259
+        },
+        {
+            "source": "ondrej-profant",
+            "target": "ludek-niedermayer",
+            "weight": 0.0212
+        },
+        {
+            "source": "ondrej-profant",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "patrik-nacher",
+            "target": "katerina-valachova",
+            "weight": 0.0201
+        },
+        {
+            "source": "patrik-nacher",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "patrik-nacher",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "patrik-nacher",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "pavel-belobradek",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "pavel-belobradek",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "pavel-belobradek",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "pavel-belobradek",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "pavel-fischer",
+            "target": "marketa-adamova",
+            "weight": 0.0342
+        },
+        {
+            "source": "pavel-fischer",
+            "target": "vit-rakusan",
+            "weight": 0.0316
+        },
+        {
+            "source": "pavel-fischer",
+            "target": "jiri-pospisil",
+            "weight": 0.0303
+        },
+        {
+            "source": "pavel-fischer",
+            "target": "petr-fiala",
+            "weight": 0.0294
+        },
+        {
+            "source": "pavel-poc",
+            "target": "tomas-prouza",
+            "weight": 0.0274
+        },
+        {
+            "source": "pavel-poc",
+            "target": "jan-hamacek",
+            "weight": 0.0225
+        },
+        {
+            "source": "pavel-poc",
+            "target": "michaela-sojdrova",
+            "weight": 0.0206
+        },
+        {
+            "source": "pavel-poc",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-fiala",
+            "target": "vit-rakusan",
+            "weight": 0.0827
+        },
+        {
+            "source": "petr-fiala",
+            "target": "jiri-pospisil",
+            "weight": 0.0702
+        },
+        {
+            "source": "petr-fiala",
+            "target": "marketa-adamova",
+            "weight": 0.0676
+        },
+        {
+            "source": "petr-fiala",
+            "target": "ludek-niedermayer",
+            "weight": 0.0646
+        },
+        {
+            "source": "petr-gazdik",
+            "target": "vit-rakusan",
+            "weight": 0.0229
+        },
+        {
+            "source": "petr-gazdik",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-gazdik",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-gazdik",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-hlubucek",
+            "target": "zdenek-hrib",
+            "weight": 0.0251
+        },
+        {
+            "source": "petr-hlubucek",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-hlubucek",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "petr-hlubucek",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "radek-vondracek",
+            "target": "zuzana-majerova-zahradnikova",
+            "weight": 0.0393
+        },
+        {
+            "source": "radek-vondracek",
+            "target": "tomas-golan",
+            "weight": 0.0306
+        },
+        {
+            "source": "radek-vondracek",
+            "target": "vit-rakusan",
+            "weight": 0.0283
+        },
+        {
+            "source": "radek-vondracek",
+            "target": "andrej-babis",
+            "weight": 0.0277
+        },
+        {
+            "source": "radim-fiala",
+            "target": "jan-hrncir",
+            "weight": 0.1182
+        },
+        {
+            "source": "radim-fiala",
+            "target": "tomio-okamura",
+            "weight": 0.1114
+        },
+        {
+            "source": "radim-fiala",
+            "target": "petr-fiala",
+            "weight": 0.0364
+        },
+        {
+            "source": "radim-fiala",
+            "target": "ludek-niedermayer",
+            "weight": 0.0296
+        },
+        {
+            "source": "sarka-jelinkova",
+            "target": "marek-vyborny",
+            "weight": 0.0636
+        },
+        {
+            "source": "sarka-jelinkova",
+            "target": "alena-gajduskova",
+            "weight": 0.0321
+        },
+        {
+            "source": "sarka-jelinkova",
+            "target": "adam-vojtech",
+            "weight": 0.0305
+        },
+        {
+            "source": "sarka-jelinkova",
+            "target": "jan-bartosek",
+            "weight": 0.0257
+        },
+        {
+            "source": "stanislav-blaha",
+            "target": "ludek-niedermayer",
+            "weight": 0.0215
+        },
+        {
+            "source": "stanislav-blaha",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "stanislav-blaha",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "stanislav-blaha",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-golan",
+            "target": "petr-fiala",
+            "weight": 0.0616
+        },
+        {
+            "source": "tomas-golan",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0575
+        },
+        {
+            "source": "tomas-golan",
+            "target": "jiri-pospisil",
+            "weight": 0.0517
+        },
+        {
+            "source": "tomas-golan",
+            "target": "marketa-adamova",
+            "weight": 0.0512
+        },
+        {
+            "source": "tomas-macura",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-macura",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-macura",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-macura",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-martinek",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-martinek",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-martinek",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-martinek",
+            "target": "alexandra-udzenija",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-prouza",
+            "target": "ludek-niedermayer",
+            "weight": 0.0443
+        },
+        {
+            "source": "tomas-prouza",
+            "target": "mikulas-peksa",
+            "weight": 0.0374
+        },
+        {
+            "source": "tomas-prouza",
+            "target": "alena-gajduskova",
+            "weight": 0.0343
+        },
+        {
+            "source": "tomas-prouza",
+            "target": "marketa-adamova",
+            "weight": 0.032
+        },
+        {
+            "source": "tomas-zdechovsky",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0241
+        },
+        {
+            "source": "tomas-zdechovsky",
+            "target": "marek-zenisek",
+            "weight": 0.0211
+        },
+        {
+            "source": "tomas-zdechovsky",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "tomas-zdechovsky",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "tomio-okamura",
+            "target": "jan-hrncir",
+            "weight": 0.1149
+        },
+        {
+            "source": "tomio-okamura",
+            "target": "radim-fiala",
+            "weight": 0.1114
+        },
+        {
+            "source": "tomio-okamura",
+            "target": "petr-fiala",
+            "weight": 0.0427
+        },
+        {
+            "source": "tomio-okamura",
+            "target": "michaela-sojdrova",
+            "weight": 0.0384
+        },
+        {
+            "source": "vaclav-klaus",
+            "target": "zuzana-majerova-zahradnikova",
+            "weight": 0.0346
+        },
+        {
+            "source": "vaclav-klaus",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "vaclav-klaus",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "vaclav-klaus",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "vaclav-laska",
+            "target": "lukas-wagenknecht",
+            "weight": 0.0202
+        },
+        {
+            "source": "vaclav-laska",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "vaclav-laska",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "vaclav-laska",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "vit-rakusan",
+            "target": "petr-fiala",
+            "weight": 0.0827
+        },
+        {
+            "source": "vit-rakusan",
+            "target": "miroslav-kalousek",
+            "weight": 0.0755
+        },
+        {
+            "source": "vit-rakusan",
+            "target": "ludek-niedermayer",
+            "weight": 0.0743
+        },
+        {
+            "source": "vit-rakusan",
+            "target": "marketa-adamova",
+            "weight": 0.0723
+        },
+        {
+            "source": "vladimir-kremlik",
+            "target": "martin-kolovratnik",
+            "weight": 0.0694
+        },
+        {
+            "source": "vladimir-kremlik",
+            "target": "adam-vojtech",
+            "weight": 0.0311
+        },
+        {
+            "source": "vladimir-kremlik",
+            "target": "alena-schillerova",
+            "weight": 0.0238
+        },
+        {
+            "source": "vladimir-kremlik",
+            "target": "andrej-babis",
+            "weight": 0.0238
+        },
+        {
+            "source": "zdenek-hrib",
+            "target": "petr-hlubucek",
+            "weight": 0.0251
+        },
+        {
+            "source": "zdenek-hrib",
+            "target": "adam-vojtech",
+            "weight": 0.0
+        },
+        {
+            "source": "zdenek-hrib",
+            "target": "alena-gajduskova",
+            "weight": 0.0
+        },
+        {
+            "source": "zdenek-hrib",
+            "target": "alena-schillerova",
+            "weight": 0.0
+        },
+        {
+            "source": "zuzana-majerova-zahradnikova",
+            "target": "radek-vondracek",
+            "weight": 0.0393
+        },
+        {
+            "source": "zuzana-majerova-zahradnikova",
+            "target": "vaclav-klaus",
+            "weight": 0.0346
+        },
+        {
+            "source": "zuzana-majerova-zahradnikova",
+            "target": "vit-rakusan",
+            "weight": 0.031
+        },
+        {
+            "source": "zuzana-majerova-zahradnikova",
+            "target": "barbora-koranova",
+            "weight": 0.027
+        }
+    ]
+}

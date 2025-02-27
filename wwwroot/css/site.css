@@ -17,12 +17,10 @@ body {
   margin-bottom: 60px;
 }
 
-.chart-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px; /* Mezera mezi grafy */
-    justify-content: center; /* Zarovnání na støed */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
 }
+
 
 .chart-item {
     flex: 1 1 calc(50% - 5px); /* 2 grafy na øádku */
@@ -239,19 +237,19 @@ h4 {
     flex-direction: column; /* Karty budou pod sebou */
     gap: 10px;
     align-items: center; /* Zarovná je na støed */
+    
 }
 
 .entity-card {
 
-    width:min-content;
-    margin: 10px auto;
+   
+    margin: 8px auto;
     background: white;
     border-radius: 10px;
     box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.2);
-    padding: 8px;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 0px; 
+    padding: 5px;
+    
+   
 }
 
 .entity-header {
@@ -265,28 +263,20 @@ h4 {
 
 }
 
-.entity-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dva sloupce pro text a graf */
-   
-  
-}
 
 
 .chart-container {
-
-
-    display: flex;
-    align-items: center;
+    height: 350px;
     justify-content: center;
-    
-    background-color: #f4f4f4;
+    align-items: center;
+    display:flex;
 }
+
 #allinfo {
-    width: 50%; 
+    width: 55%; 
     float: left; 
     padding-right: 10px; 
-    min-width:500px;
+    
 }
 
 #charts-container {
@@ -304,17 +294,17 @@ h4 {
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+    padding: 5px;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
-    margin: 20px auto;
+    margin: 5px auto;
 }
 
 
 .card-header {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -322,20 +312,21 @@ h4 {
 .card-body {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Dva sloupce */
-    gap: 20px; /* Mezera mezi bloky */
+    gap: 5px; /* Mezera mezi bloky */
 }
 
 .block {
-  
-    padding: 5px;
-    
+    border: 2px solid rgba(211, 211, 211, 0.7);
+    padding: 0px;
+    border-radius: 5px;
+    text-align:center;
 }
 
 
@@ -374,4 +365,56 @@ h4 {
 
 .error-message {
     color: #FF0000;
+}
+
+.year-selection {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.year-select {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+    .year-select:focus {
+        border-color: #4CAF50;
+        background-color: #f0f8f0;
+    }
+
+    /* Custom arrow */
+    .year-select::-ms-expand {
+        display: none;
+    }
+
+/* Optional styling for the label */
+.year-label {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #555;
+}
+
+.ngram {
+    display: inline-block;
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+.ngram-box {
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }

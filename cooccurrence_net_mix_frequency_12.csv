@@ -1,0 +1,5188 @@
+Source;Target;Weight
+SPD;EU;2570
+SPD;Babiš;1591
+SPD;RT;16
+SPD;Okamura;1078
+SPD;Sněmovna;1946
+SPD;Ano;1529
+SPD;ČSSD;1640
+SPD;ODS;942
+SPD;Brusel;953
+SPD;Poslanecká sněmovna;1161
+SPD;Fiala;710
+SPD;Praze;390
+SPD;TOP 09;809
+SPD;Zeman;360
+SPD;KDU ČSL;872
+SPD;Evropská komise;593
+SPD;KSČM;939
+SPD;Senát;266
+SPD;Svoboda a přímá demokracie;1254
+SPD;Praha;165
+SPD;Piráti;671
+SPD;NATO;272
+SPD;STAN;541
+SPD;Sobotka;583
+SPD;Parlament;400
+SPD;Hamáček;379
+SPD;COVID-19;67
+SPD;ČT;273
+SPD;Kalousek;252
+SPD;Česká televize;423
+SPD;Evropský parlament;441
+SPD;Brno;64
+SPD;Prahy;208
+SPD;Putin;61
+SPD;Le Pen;409
+SPD;Salvini;387
+SPD;ČT 24;85
+SPD;Merkelová;276
+SPD;Tv Barrandov;92
+SPD;Orbán;188
+SPD;V 4;110
+SPD;Schillerová;71
+SPD;Trump;109
+SPD;Brně;72
+SPD;Spolu;119
+SPD;OSVČ;26
+SPD;OSN;136
+SPD;Evropská rada;24
+SPD;Hrad;23
+SPD;Agrofert;35
+SPD;EET;31
+SPD;Havlíček;53
+SPD;Bělobrádek;198
+SPD;Dukovany;71
+SPD;Ostravě;45
+SPD;Ústavní soud;79
+SPD;Havel;48
+SPD;Maláčová;89
+SPD;Ministerstvo zdravotnictví;28
+SPD;Ministerstvo financí;27
+SPD;ČEZ;71
+SPD;Vojtěch;61
+SPD;David;202
+SPD;Klaus;82
+SPD;EP;41
+SPD;COVID;24
+SPD;Bartoš;112
+SPD;Český rozhlas;139
+SPD;Blatný;49
+SPD;Parlamentní listy;181
+SPD;CO2;123
+SPD;Unie;95
+SPD;Nejvyšší kontrolní úřad;164
+SPD;Soros;148
+SPD;Macron;112
+SPD;Hnutí Svoboda a přímá demokracie;199
+SPD;Hitler;59
+SPD;Svoboda;124
+SPD;Ostrava;21
+SPD;Komise;58
+SPD;NKÚ;102
+SPD;Wilderse;165
+SPD;ČNB;32
+SPD;Masaryk;29
+SPD;Juncker;121
+SPD;Islámský stát;119
+SPD;Rakušan;92
+SPD;Plzni;37
+SPD;Prima;15
+SPD;Prymula;22
+SPD;Úřad vlády;18
+SPD;Schwarzenberg;67
+SPD;OKD;86
+SPD;Brna;40
+SPD;Youtube;56
+SPD;Von der Leyen;65
+SPD;Foldyna;121
+SPD;TV Prima;47
+SPD;Jourová;68
+SPD;Petříček;64
+SPD;ČTK;103
+SPD;Moravec;55
+SPD;Události komentáře;20
+SPD;Právo;29
+SPD;Ústí nad Labem;43
+SPD;BIS;26
+SPD;Šafránková;138
+SPD;Trikolóra;96
+SPD;Hnutí SPD;92
+SPD;IDnes;85
+SPD;Berlíně;65
+SPD;FB;28
+SPD;Partie;22
+SPD;Čapí hnízdo;30
+SPD;Olomouci;13
+SPD;Volný;36
+SPD;Soukup;15
+SPD;Jurečka;50
+SPD;Svobodný;124
+SPD;19;45
+SPD;ANO ČSSD;119
+SPD;Pekarová;48
+SPD;Dvořák;62
+SPD;ENF;121
+SPD;OECD;13
+SPD;Erdogan;64
+SPD;Berlína;79
+SPD;Adamová;51
+SPD;Novinka;80
+SPD;Beneš;46
+SPD;Hřib;44
+SPD;Vystrčil;17
+SPD;Rada;21
+SPD;Evropa národů a svoboda;113
+SPD;Plzeň;24
+SPD;Gazdík;47
+SPD;Bakala;74
+SPD;Green Deal;53
+SPD;KSČ;15
+SPD;Kreml;14
+SPD;Otázky Václava Moravce;37
+SPD;Respekt;59
+SPD;Polčák;51
+SPD;Blesk;15
+SPD;Rada ČT;50
+SPD;Feri;60
+SPD;Moskvě;15
+SPD;Prahu;45
+SPD;Eurostat;58
+SPD;Nos;99
+SPD;Vláda;49
+SPD;Moskvy;21
+SPD;Křeček;65
+SPD;Identita a demokracie;91
+SPD;Rada EU;18
+SPD;Zaorálek;32
+SPD;AFD;69
+SPD;Policie;22
+SPD;Šojdrová;63
+SPD;Johnson;18
+SPD;Wilder;76
+SPD;Hrnčíř;87
+SPD;Česká pošta;18
+SPD;Karlovy Vary;28
+SPD;Paříži;33
+SPD;Vídni;20
+SPD;Ministerstvo vnitra;43
+SPD;Facebook;44
+SPD;Karlových Varech;13
+SPD;Hradci Králové;14
+SPD;Londýně;23
+SPD;Seznam zprávy;50
+SPD;ID;82
+SPD;Televize;30
+SPD;Temelín;45
+SPD;Washingtonu;49
+SPD;TV NOVA;17
+SPD;Benešová;18
+SPD;Kovanda;57
+SPD;Makron;50
+SPD;MF Dnes;24
+SPD;Redl;40
+SPD;Rakoušan;54
+SPD;Seznam;24
+SPD;Zlíně;13
+SPD;Lipovský;20
+SPD;Stanjura;36
+SPD;Koněv;19
+SPD;Eurozóna;44
+SPD;Zdechovský;30
+SPD;Faltýnek;14
+SPD;Vídně;23
+SPD;CVVM;47
+SPD;Blaško;76
+SPD;Lidové noviny;24
+SPD;Válek;22
+SPD;Liga;52
+SPD;Pekingu;15
+SPD;Google;36
+SPD;Armáda ČR;43
+SPD;EFTA;59
+SPD;Liberec;32
+SPD;Aréna;13
+SPD;Liberci;19
+SPD;Novák;31
+SPD;Doležal;54
+SPD;Bruselská elita;67
+SPD;Pospíšil;34
+SPD;Svobodné rádio;13
+SPD;Kolář;34
+SPD;Farský;33
+SPD;Duka;23
+SPD;Klaus ml.;46
+SPD;Michálek;22
+SPD;Novotný;50
+SPD;Úsvit;53
+SPD;Úřad práce;51
+SPD;Veselý;17
+SPD;Zelený úděl;47
+SPD;Česká národní banka;32
+SPD;Zlín;16
+SPD;Budapešti;24
+SPD;Maříková;60
+SPD;Prostějov;47
+SPD;ČSÚ;24
+SPD;Pes;19
+SPD;Parlament České republiky;21
+SPD;Jedlička;30
+SPD;Stropnický;26
+SPD;Národní sdružení;62
+SPD;Univerzita Karlova;17
+SPD;Agrární komora ČR;59
+SPD;Plaga;13
+SPD;Nejvyšší soud;29
+SPD;Varšavská smlouva;22
+SPD;Antivirus;16
+SPD;SPO;61
+SPD;KDU;16
+SPD;Národní fronta;52
+SPD;Vrběticích;15
+SPD;Výborný;21
+SPD;Herman;34
+SPD;STEM;44
+SPD;Metnar;18
+SPD;DVTV;22
+SPD;Paříže;26
+SPD;IZS;14
+SPD;Palacký;36
+SPD;Štrasburku;17
+SPD;Hlubuček;15
+SPD;Legum;54
+SPD;Bakalův;45
+SPD;Jandejsek;55
+SPD;České Budějovice;15
+SPD;ČRo;23
+SPD;Národní shromáždění;50
+SPD;Jihlava;32
+SPD;Bašta;35
+SPD;Černochová;33
+SPD;Charanzová;29
+SPD;Obama;15
+SPD;Poche;37
+SPD;Aktuální;22
+SPD;Český statistický úřad;34
+SPD;Echo24;28
+SPD;Holík;51
+SPD;Opava;44
+SPD;Kobza;46
+SPD;Deník;19
+SPD;Starostové a nezávislí;23
+SPD;Chomutov;44
+SPD;Šumperk;44
+SPD;Brichta;51
+SPD;Sokol;18
+SPD;Deník N;14
+SPD;Konzervativní strana;33
+SPD;Ministerstvo práce a sociálních věcí;30
+SPD;Událost;14
+SPD;ANTIFA;17
+SPD;Berlín;28
+SPD;Jihlavy;32
+SPD;PS PČR;36
+SPD;Black Lives Matter;23
+SPD;Dlabajová;28
+SPD;Akademie věd;23
+SPD;Topolánek;13
+SPD;Nejvyšší správní soud;14
+SPD;Pelikán;29
+SPD;Soudní dvůr;29
+SPD;168 hodina;38
+SPD;Horák;31
+SPD;Hospodářská novina;31
+SPD;Kupka;14
+SPD;Ježek;40
+SPD;Beran;19
+SPD;Litoměřice;15
+SPD;Šlachta;29
+SPD;CDU;16
+SPD;Arenberger;16
+SPD;Fischer;14
+SPD;Organizace pro pomoc uprchlíkům;40
+SPD;Chovanec;28
+SPD;Mnichově;19
+SPD;Hahnova;47
+SPD;Drahoš;16
+SPD;Fidesz;30
+SPD;Johansson;24
+SPD;Lukavce;41
+SPD;Gatestone Institute;26
+SPD;Reportér ČT;34
+SPD;Niedermayer;22
+SPD;TV CNN Prima;16
+SPD;Nice;21
+SPD;Pirát;23
+SPD;Kladně;13
+SPD;Dopita;45
+SPD;Opavy;33
+SPD;Teplice;28
+SPD;Teličko;28
+SPD;Rassemblement national;42
+SPD;HENNER;43
+SPD;Paul;43
+SPD;Schmeidler;43
+SPD;Euro;16
+SPD;Atkinson;41
+SPD;Příbram;29
+SPD;Agrární komora;19
+SPD;Ochrana klimatu ČR;38
+SPD;Blansko;30
+SPD;Adam;19
+SPD;Sudetoněmecký landsmanšaft;27
+SPD;Hyťhová;41
+SPD;Trutnov;30
+SPD;Pobaltí;13
+SPD;Pekar;19
+SPD;Jakl;34
+SPD;FPÖ;34
+SPD;ISIS;15
+SPD;Prostějova;32
+SPD;Ano čssd;37
+SPD;Bárta;19
+SPD;Valachová;21
+SPD;SÚKL;17
+SPD;Havířově;18
+SPD;Hannan;28
+SPD;Pokorný;22
+SPD;Reuters;20
+EU;Babiš;1051
+EU;RT;110
+EU;Okamura;492
+EU;Sněmovna;795
+EU;Ano;759
+EU;ČSSD;787
+EU;ODS;545
+EU;Brusel;1213
+EU;Poslanecká sněmovna;553
+EU;Fiala;427
+EU;Praze;271
+EU;TOP 09;441
+EU;Zeman;231
+EU;KDU ČSL;468
+EU;Evropská komise;782
+EU;KSČM;411
+EU;Senát;163
+EU;Svoboda a přímá demokracie;602
+EU;Praha;144
+EU;Piráti;346
+EU;NATO;474
+EU;STAN;306
+EU;Sobotka;329
+EU;Parlament;407
+EU;Hamáček;260
+EU;COVID-19;74
+EU;ČT;120
+EU;Kalousek;139
+EU;Česká televize;197
+EU;Evropský parlament;451
+EU;Brno;59
+EU;Prahy;150
+EU;Putin;100
+EU;Le Pen;334
+EU;Salvini;317
+EU;ČT 24;51
+EU;Merkelová;270
+EU;Tv Barrandov;37
+EU;Orbán;204
+EU;V 4;181
+EU;Schillerová;64
+EU;Pražský hrad;16
+EU;Trump;96
+EU;Brně;28
+EU;Spolu;85
+EU;OSVČ;19
+EU;OSN;137
+EU;Evropská rada;138
+EU;Hrad;25
+EU;Agrofert;67
+EU;EET;26
+EU;Havlíček;65
+EU;Bělobrádek;75
+EU;Dukovany;85
+EU;MPO;18
+EU;Ostravě;27
+EU;Ústavní soud;39
+EU;Havel;41
+EU;Maláčová;44
+EU;Ministerstvo zdravotnictví;38
+EU;Ministerstvo financí;41
+EU;ČEZ;75
+EU;Vojtěch;56
+EU;David;166
+EU;Klaus;94
+EU;EP;75
+EU;COVID;17
+EU;Bartoš;88
+EU;Český rozhlas;55
+EU;Blatný;39
+EU;Parlamentní listy;148
+EU;CO2;146
+EU;Unie;178
+EU;Nejvyšší kontrolní úřad;66
+EU;Lánech;17
+EU;Soros;108
+EU;Macron;129
+EU;Hnutí Svoboda a přímá demokracie;81
+EU;Hitler;53
+EU;Svoboda;98
+EU;Ostrava;19
+EU;Komise;117
+EU;NKÚ;48
+EU;Wilderse;140
+EU;ČNB;28
+EU;Masaryk;26
+EU;Juncker;144
+EU;Islámský stát;84
+EU;Rakušan;50
+EU;Ministerstvo dopravy;15
+EU;Plzni;16
+EU;Prima;16
+EU;Prymula;29
+EU;Úřad vlády;27
+EU;Schwarzenberg;38
+EU;OKD;28
+EU;Brna;20
+EU;Youtube;31
+EU;Von der Leyen;113
+EU;Foldyna;49
+EU;TV Prima;16
+EU;Na rovinu;13
+EU;Jourová;104
+EU;Petříček;52
+EU;ČTK;64
+EU;Moravec;33
+EU;Právo;22
+EU;Ústí nad Labem;16
+EU;BIS;18
+EU;Šafránková;37
+EU;Trikolóra;65
+EU;Hnutí SPD;52
+EU;IDnes;44
+EU;Berlíně;52
+EU;FB;18
+EU;Partie;13
+EU;Čapí hnízdo;27
+EU;Olomouci;13
+EU;Volný;21
+EU;Jurečka;23
+EU;Svobodný;118
+EU;19;27
+EU;ANO ČSSD;61
+EU;Pekarová;23
+EU;Dvořák;23
+EU;ENF;117
+EU;OECD;30
+EU;Erdogan;81
+EU;Berlína;74
+EU;Adamová;27
+EU;Novinka;36
+EU;Beneš;21
+EU;Hřib;30
+EU;Vystrčil;17
+EU;Rada;46
+EU;Evropa národů a svoboda;105
+EU;Plzeň;22
+EU;Gazdík;33
+EU;Bakala;21
+EU;Green Deal;80
+EU;Kreml;21
+EU;Otázky Václava Moravce;20
+EU;Respekt;19
+EU;Polčák;39
+EU;Blesk;13
+EU;Rada ČT;15
+EU;Feri;45
+EU;Moskvě;23
+EU;Prahu;21
+EU;Eurostat;76
+EU;Nos;96
+EU;Vláda;27
+EU;Moskvy;28
+EU;Křeček;23
+EU;Identita a demokracie;58
+EU;Rada EU;98
+EU;Zaorálek;31
+EU;AFD;42
+EU;Policie;17
+EU;Šojdrová;59
+EU;Johnson;37
+EU;Wilder;60
+EU;Hrnčíř;51
+EU;Česká pošta;20
+EU;Karlovy Vary;29
+EU;Paříži;18
+EU;Vídni;23
+EU;Pfizer;15
+EU;Ministerstvo vnitra;43
+EU;Facebook;41
+EU;Karlových Varech;14
+EU;Londýně;19
+EU;Seznam zprávy;43
+EU;UK;21
+EU;ID;43
+EU;Temelín;49
+EU;Washingtonu;40
+EU;Benešová;22
+EU;Kovanda;46
+EU;Makron;44
+EU;MF Dnes;14
+EU;Redl;31
+EU;BIDEN;13
+EU;Brabec;15
+EU;Rakoušan;29
+EU;Seznam;15
+EU;Lipovský;14
+EU;OZE;16
+EU;Stanjura;34
+EU;Koněv;18
+EU;Eurozóna;52
+EU;Zdechovský;32
+EU;Vídně;25
+EU;Blaško;66
+EU;Lidové noviny;18
+EU;Liga;48
+EU;Pekingu;24
+EU;Ministerstvo průmyslu a obchodu;14
+EU;Google;35
+EU;Armáda ČR;34
+EU;EFTA;74
+EU;Liberec;33
+EU;Toman;15
+EU;Novák;18
+EU;Doležal;47
+EU;Bruselská elita;71
+EU;Dostálová;21
+EU;Pospíšil;32
+EU;Kolář;14
+EU;Farský;17
+EU;Klaus ml.;44
+EU;Novotný;46
+EU;Úsvit;41
+EU;Úřad práce;30
+EU;Zelený úděl;65
+EU;Lucemburku;33
+EU;Česká národní banka;23
+EU;Zlín;13
+EU;Budapešti;20
+EU;Maříková;26
+EU;Prostějov;41
+EU;Hospodářská komora;13
+EU;ČSÚ;24
+EU;Pes;13
+EU;Vondráček;13
+EU;Parlament České republiky;15
+EU;Jedlička;63
+EU;Stropnický;24
+EU;Národní sdružení;59
+EU;Univerzita Karlova;14
+EU;Agrární komora ČR;58
+EU;Plaga;16
+EU;Varšavská smlouva;16
+EU;SPO;53
+EU;Národní fronta;37
+EU;Výborný;13
+EU;STEM;24
+EU;Metnar;16
+EU;Paříže;14
+EU;Palacký;57
+EU;Štrasburku;21
+EU;Hlubuček;13
+EU;Legum;40
+EU;Bakalův;18
+EU;Jandejsek;55
+EU;České Budějovice;14
+EU;Národní shromáždění;22
+EU;Jihlava;32
+EU;Černochová;19
+EU;Charanzová;37
+EU;Obama;19
+EU;Poche;29
+EU;Rada Evropy;14
+EU;Český statistický úřad;34
+EU;Holík;43
+EU;Opava;41
+EU;Kobza;21
+EU;Deník;18
+EU;Starostové a nezávislí;24
+EU;Chomutov;40
+EU;Šumperk;41
+EU;Brichta;48
+EU;Konzervativní strana;47
+EU;Ministerstvo práce a sociálních věcí;18
+EU;Událost;14
+EU;ANTIFA;13
+EU;Zahradil;20
+EU;Berlín;18
+EU;Jihlavy;30
+EU;PS PČR;30
+EU;Dlabajová;35
+EU;Pelikán;20
+EU;Soudní dvůr;49
+EU;Severoatlantická aliance;13
+EU;168 hodina;15
+EU;Horák;30
+EU;Hospodářská novina;19
+EU;Ježek;33
+EU;Ecofin;14
+EU;Ministerstvo pro místní rozvoj;13
+EU;Šlachta;30
+EU;Organizace pro pomoc uprchlíkům;24
+EU;Chovanec;20
+EU;Mnichově;24
+EU;Hahnova;41
+EU;Fidesz;30
+EU;Johansson;45
+EU;Lukavce;18
+EU;Gatestone Institute;22
+EU;Reportér ČT;14
+EU;Niedermayer;24
+EU;Nice;17
+EU;Dopita;42
+EU;Opavy;31
+EU;Teplice;18
+EU;Teličko;32
+EU;Kurz;18
+EU;Rassemblement national;14
+EU;HENNER;41
+EU;Paul;41
+EU;Schmeidler;41
+EU;Euro;15
+EU;Atkinson;40
+EU;Příbram;29
+EU;Agrární komora;22
+EU;Ochrana klimatu ČR;42
+EU;Blansko;29
+EU;Trutnov;30
+EU;Pobaltí;13
+EU;Jakl;21
+EU;FPÖ;26
+EU;Prostějova;29
+EU;Ano čssd;17
+EU;Bárta;21
+EU;Hannan;39
+EU;Reuters;19
+Babiš;RT;175
+Babiš;Okamura;351
+Babiš;Sněmovna;705
+Babiš;Ano;1029
+Babiš;ČSSD;906
+Babiš;ODS;502
+Babiš;Brusel;422
+Babiš;Poslanecká sněmovna;486
+Babiš;Fiala;195
+Babiš;Praze;191
+Babiš;TOP 09;333
+Babiš;Zeman;420
+Babiš;KDU ČSL;366
+Babiš;Evropská komise;318
+Babiš;KSČM;506
+Babiš;Senát;124
+Babiš;Svoboda a přímá demokracie;456
+Babiš;Praha;72
+Babiš;Piráti;242
+Babiš;NATO;114
+Babiš;STAN;181
+Babiš;Sobotka;540
+Babiš;Parlament;184
+Babiš;Hamáček;308
+Babiš;COVID-19;40
+Babiš;ČT;89
+Babiš;Kalousek;262
+Babiš;Česká televize;142
+Babiš;Evropský parlament;154
+Babiš;Brno;24
+Babiš;Prahy;58
+Babiš;Putin;38
+Babiš;Le Pen;87
+Babiš;Salvini;71
+Babiš;ČT 24;43
+Babiš;Merkelová;120
+Babiš;Tv Barrandov;54
+Babiš;Orbán;86
+Babiš;V 4;67
+Babiš;Schillerová;109
+Babiš;Pražský hrad;24
+Babiš;Trump;61
+Babiš;Brně;29
+Babiš;Spolu;68
+Babiš;OSN;75
+Babiš;Evropská rada;32
+Babiš;Hrad;56
+Babiš;Agrofert;130
+Babiš;EET;61
+Babiš;Havlíček;81
+Babiš;Bělobrádek;201
+Babiš;Dukovany;37
+Babiš;Ostravě;17
+Babiš;Ústavní soud;54
+Babiš;Havel;37
+Babiš;Maláčová;62
+Babiš;Ministerstvo zdravotnictví;20
+Babiš;Ministerstvo financí;40
+Babiš;ČEZ;31
+Babiš;Vojtěch;72
+Babiš;David;29
+Babiš;Klaus;56
+Babiš;EP;30
+Babiš;COVID;16
+Babiš;Bartoš;70
+Babiš;Český rozhlas;50
+Babiš;Blatný;50
+Babiš;Parlamentní listy;107
+Babiš;CO2;57
+Babiš;Unie;53
+Babiš;Nejvyšší kontrolní úřad;78
+Babiš;Lánech;64
+Babiš;Soros;60
+Babiš;PS;23
+Babiš;Macron;44
+Babiš;Hnutí Svoboda a přímá demokracie;80
+Babiš;Hitler;19
+Babiš;Svoboda;40
+Babiš;Komise;34
+Babiš;NKÚ;61
+Babiš;Wilderse;34
+Babiš;ČNB;13
+Babiš;Masaryk;20
+Babiš;Juncker;37
+Babiš;Islámský stát;40
+Babiš;Rakušan;15
+Babiš;Plzni;15
+Babiš;Prima;21
+Babiš;Prymula;41
+Babiš;Úřad vlády;20
+Babiš;Schwarzenberg;28
+Babiš;OKD;39
+Babiš;Brna;24
+Babiš;Youtube;13
+Babiš;Von der Leyen;35
+Babiš;Foldyna;23
+Babiš;TV Prima;18
+Babiš;Jourová;66
+Babiš;Petříček;67
+Babiš;ČTK;37
+Babiš;Moravec;30
+Babiš;Právo;30
+Babiš;Ústí nad Labem;20
+Babiš;BIS;19
+Babiš;Šafránková;32
+Babiš;Trikolóra;40
+Babiš;Hnutí SPD;35
+Babiš;IDnes;32
+Babiš;Berlíně;17
+Babiš;Partie;20
+Babiš;Čapí hnízdo;91
+Babiš;Volný;22
+Babiš;Jurečka;26
+Babiš;Svobodný;22
+Babiš;19;19
+Babiš;ANO ČSSD;81
+Babiš;Pekarová;18
+Babiš;Dvořák;22
+Babiš;ENF;24
+Babiš;Erdogan;42
+Babiš;Berlína;28
+Babiš;Adamová;17
+Babiš;Novinka;25
+Babiš;Hřib;16
+Babiš;Vystrčil;16
+Babiš;Rada;20
+Babiš;Evropa národů a svoboda;24
+Babiš;Gazdík;19
+Babiš;Bakala;38
+Babiš;Green Deal;33
+Babiš;Kreml;20
+Babiš;Otázky Václava Moravce;17
+Babiš;Respekt;27
+Babiš;Polčák;16
+Babiš;Blesk;21
+Babiš;Feri;33
+Babiš;Eurostat;15
+Babiš;Nos;16
+Babiš;Vláda;23
+Babiš;Moskvy;21
+Babiš;Křeček;13
+Babiš;Stb;25
+Babiš;Identita a demokracie;20
+Babiš;Rada EU;14
+Babiš;Zaorálek;33
+Babiš;AFD;14
+Babiš;Šojdrová;37
+Babiš;AB;16
+Babiš;Hrnčíř;22
+Babiš;Němcová;13
+Babiš;Paříži;14
+Babiš;Ministerstvo vnitra;24
+Babiš;Seznam zprávy;33
+Babiš;ID;18
+Babiš;Washingtonu;25
+Babiš;TV NOVA;15
+Babiš;Benešová;31
+Babiš;Kovanda;36
+Babiš;Makron;16
+Babiš;MF Dnes;23
+Babiš;Filip;19
+Babiš;Brabec;16
+Babiš;Seznam;13
+Babiš;Stanjura;22
+Babiš;Eurozóna;41
+Babiš;Zdechovský;16
+Babiš;Faltýnek;28
+Babiš;Vídně;13
+Babiš;Lidové noviny;18
+Babiš;EFTA;22
+Babiš;Aréna;15
+Babiš;Novák;15
+Babiš;Ťok;16
+Babiš;Dostálová;15
+Babiš;Pospíšil;15
+Babiš;Farský;14
+Babiš;Klaus ml.;31
+Babiš;Úřad práce;14
+Babiš;Zelený úděl;36
+Babiš;Česká národní banka;13
+Babiš;Budapešti;14
+Babiš;Pes;14
+Babiš;Stropnický;30
+Babiš;Univerzita Karlova;16
+Babiš;Plaga;16
+Babiš;Nejvyšší soud;17
+Babiš;Varšavská smlouva;14
+Babiš;SPO;30
+Babiš;Vrběticích;15
+Babiš;Herman;14
+Babiš;Metnar;22
+Babiš;DVTV;13
+Babiš;Paříže;13
+Babiš;Bakalův;16
+Babiš;Charanzová;29
+Babiš;Poche;34
+Babiš;Český statistický úřad;13
+Babiš;Deník;15
+Babiš;Starostové a nezávislí;22
+Babiš;Ministerstvo práce a sociálních věcí;14
+Babiš;Berlín;19
+Babiš;Dlabajová;24
+Babiš;Pelikán;27
+Babiš;Ježek;23
+Babiš;Šlachta;26
+Babiš;Arenberger;20
+Babiš;Organizace pro pomoc uprchlíkům;41
+Babiš;Chovanec;19
+Babiš;Fidesz;13
+Babiš;Teličko;23
+Babiš;Euro;15
+Babiš;Ochrana klimatu ČR;39
+Babiš;Ano čssd;23
+RT;Okamura;15
+RT;Sněmovna;33
+RT;Ano;49
+RT;ODS;39
+RT;Brusel;14
+RT;Poslanecká sněmovna;16
+RT;Fiala;71
+RT;Praze;25
+RT;Zeman;27
+RT;KDU ČSL;14
+RT;Evropská komise;16
+RT;Senát;26
+RT;NATO;17
+RT;COVID-19;23
+RT;ČT;26
+RT;Putin;38
+RT;Schillerová;14
+RT;Brně;18
+RT;Spolu;29
+RT;Havlíček;14
+RT;MF;15
+RT;BIS;17
+Okamura;Sněmovna;307
+Okamura;Ano;232
+Okamura;ČSSD;271
+Okamura;ODS;139
+Okamura;Brusel;180
+Okamura;Poslanecká sněmovna;413
+Okamura;Fiala;205
+Okamura;Praze;93
+Okamura;TOP 09;127
+Okamura;Zeman;139
+Okamura;KDU ČSL;150
+Okamura;Evropská komise;165
+Okamura;KSČM;76
+Okamura;Senát;52
+Okamura;Svoboda a přímá demokracie;438
+Okamura;Praha;46
+Okamura;Piráti;93
+Okamura;NATO;43
+Okamura;STAN;80
+Okamura;Sobotka;245
+Okamura;Parlament;98
+Okamura;Hamáček;50
+Okamura;ČT;81
+Okamura;Kalousek;60
+Okamura;Česká televize;150
+Okamura;Evropský parlament;70
+Okamura;Brno;23
+Okamura;Prahy;88
+Okamura;Putin;25
+Okamura;Le Pen;141
+Okamura;Salvini;79
+Okamura;ČT 24;165
+Okamura;Merkelová;66
+Okamura;Tv Barrandov;73
+Okamura;Orbán;39
+Okamura;V 4;18
+Okamura;Trump;44
+Okamura;Brně;17
+Okamura;OSN;25
+Okamura;Bělobrádek;30
+Okamura;Ústavní soud;13
+Okamura;David;62
+Okamura;Dnešní aktuality;247
+Okamura;Klaus;26
+Okamura;Bartoš;18
+Okamura;Český rozhlas;46
+Okamura;Parlamentní listy;52
+Okamura;Unie;13
+Okamura;Nejvyšší kontrolní úřad;36
+Okamura;Soros;14
+Okamura;Macron;16
+Okamura;Hnutí Svoboda a přímá demokracie;87
+Okamura;Hitler;23
+Okamura;Svoboda;33
+Okamura;NKÚ;20
+Okamura;Wilderse;53
+Okamura;Juncker;31
+Okamura;Islámský stát;22
+Okamura;Prima;50
+Okamura;Schwarzenberg;15
+Okamura;OKD;26
+Okamura;Brna;15
+Okamura;Foldyna;21
+Okamura;TV Prima;21
+Okamura;ČTK;15
+Okamura;Moravec;18
+Okamura;Události komentáře;14
+Okamura;Ústí nad Labem;16
+Okamura;Šafránková;31
+Okamura;Hnutí SPD;21
+Okamura;Berlíně;26
+Okamura;Partie;21
+Okamura;Volný;16
+Okamura;Soukup;42
+Okamura;Svobodný;39
+Okamura;Dvořák;16
+Okamura;ENF;49
+Okamura;Erdogan;14
+Okamura;Berlína;15
+Okamura;Adamová;13
+Okamura;Evropa národů a svoboda;50
+Okamura;Bakala;14
+Okamura;Polčák;13
+Okamura;Nos;72
+Okamura;AFD;18
+Okamura;Wilder;44
+Okamura;Hrnčíř;30
+Okamura;CNN;48
+Okamura;Karlovy Vary;14
+Okamura;Televize;22
+Okamura;TV NOVA;16
+Okamura;Blaško;16
+Okamura;Armáda ČR;17
+Okamura;EFTA;18
+Okamura;Liberec;20
+Okamura;Aréna;22
+Okamura;Doležal;19
+Okamura;Bruselská elita;26
+Okamura;Svobodné rádio;25
+Okamura;Novotný;18
+Okamura;Úsvit;36
+Okamura;Úřad práce;15
+Okamura;Maříková;15
+Okamura;Prostějov;17
+Okamura;Národní sdružení;26
+Okamura;SPO;53
+Okamura;Národní fronta;36
+Okamura;Legum;13
+Okamura;Jihlava;19
+Okamura;Holík;43
+Okamura;Opava;15
+Okamura;Kobza;13
+Okamura;Chomutov;16
+Okamura;Šumperk;15
+Okamura;Brichta;48
+Okamura;Událost;13
+Okamura;Jihlavy;15
+Okamura;PS PČR;16
+Okamura;Pelikán;14
+Okamura;Horák;15
+Okamura;Hahnova;16
+Okamura;Dopita;17
+Okamura;Opavy;16
+Okamura;HENNER;15
+Okamura;Paul;15
+Okamura;Schmeidler;15
+Okamura;Atkinson;39
+Okamura;Příbram;15
+Okamura;Blansko;15
+Okamura;Trutnov;16
+Okamura;Prostějova;15
+Okamura;Bárta;20
+Sněmovna;Ano;849
+Sněmovna;ČSSD;854
+Sněmovna;ODS;597
+Sněmovna;Brusel;255
+Sněmovna;Poslanecká sněmovna;486
+Sněmovna;Fiala;339
+Sněmovna;Praze;146
+Sněmovna;TOP 09;505
+Sněmovna;Zeman;155
+Sněmovna;KDU ČSL;521
+Sněmovna;Evropská komise;156
+Sněmovna;KSČM;506
+Sněmovna;Senát;264
+Sněmovna;Svoboda a přímá demokracie;411
+Sněmovna;Praha;58
+Sněmovna;Piráti;438
+Sněmovna;NATO;111
+Sněmovna;STAN;359
+Sněmovna;Sobotka;225
+Sněmovna;Parlament;156
+Sněmovna;Hamáček;195
+Sněmovna;COVID-19;46
+Sněmovna;ČT;126
+Sněmovna;Kalousek;163
+Sněmovna;Česká televize;184
+Sněmovna;Evropský parlament;98
+Sněmovna;Brno;18
+Sněmovna;Prahy;89
+Sněmovna;Putin;29
+Sněmovna;Le Pen;92
+Sněmovna;Salvini;72
+Sněmovna;ČT 24;45
+Sněmovna;Merkelová;57
+Sněmovna;Tv Barrandov;43
+Sněmovna;Orbán;44
+Sněmovna;V 4;38
+Sněmovna;Schillerová;64
+Sněmovna;Trump;38
+Sněmovna;Brně;23
+Sněmovna;Spolu;86
+Sněmovna;OSVČ;35
+Sněmovna;OSN;33
+Sněmovna;Evropská rada;13
+Sněmovna;Hrad;21
+Sněmovna;Agrofert;32
+Sněmovna;EET;44
+Sněmovna;Havlíček;43
+Sněmovna;Bělobrádek;85
+Sněmovna;Dukovany;35
+Sněmovna;Ostravě;15
+Sněmovna;Ústavní soud;70
+Sněmovna;Havel;22
+Sněmovna;Maláčová;70
+Sněmovna;Ministerstvo zdravotnictví;36
+Sněmovna;Ministerstvo financí;30
+Sněmovna;ČEZ;34
+Sněmovna;Vojtěch;51
+Sněmovna;David;16
+Sněmovna;Klaus;40
+Sněmovna;COVID;26
+Sněmovna;Bartoš;74
+Sněmovna;Český rozhlas;72
+Sněmovna;Blatný;41
+Sněmovna;Parlamentní listy;109
+Sněmovna;CO2;17
+Sněmovna;Unie;24
+Sněmovna;Nejvyšší kontrolní úřad;110
+Sněmovna;Soros;19
+Sněmovna;Macron;21
+Sněmovna;Hnutí Svoboda a přímá demokracie;54
+Sněmovna;Hitler;19
+Sněmovna;Svoboda;55
+Sněmovna;NKÚ;66
+Sněmovna;Wilderse;45
+Sněmovna;Masaryk;19
+Sněmovna;Juncker;16
+Sněmovna;Islámský stát;32
+Sněmovna;Rakušan;54
+Sněmovna;Ministerstvo dopravy;14
+Sněmovna;Prima;18
+Sněmovna;Prymula;24
+Sněmovna;Úřad vlády;21
+Sněmovna;Schwarzenberg;34
+Sněmovna;OKD;48
+Sněmovna;Brna;15
+Sněmovna;Von der Leyen;18
+Sněmovna;Foldyna;65
+Sněmovna;TV Prima;23
+Sněmovna;Petříček;33
+Sněmovna;ČTK;23
+Sněmovna;Moravec;40
+Sněmovna;Události komentáře;20
+Sněmovna;Právo;15
+Sněmovna;Ústí nad Labem;15
+Sněmovna;BIS;15
+Sněmovna;Šafránková;68
+Sněmovna;Trikolóra;69
+Sněmovna;Hnutí SPD;46
+Sněmovna;IDnes;15
+Sněmovna;Berlíně;28
+Sněmovna;Partie;19
+Sněmovna;Čapí hnízdo;20
+Sněmovna;Volný;21
+Sněmovna;Jurečka;34
+Sněmovna;Svobodný;18
+Sněmovna;19;22
+Sněmovna;ANO ČSSD;78
+Sněmovna;Pekarová;46
+Sněmovna;Dvořák;35
+Sněmovna;Erdogan;13
+Sněmovna;Berlína;30
+Sněmovna;Adamová;46
+Sněmovna;Novinka;28
+Sněmovna;Hřib;23
+Sněmovna;Rada;14
+Sněmovna;Gazdík;20
+Sněmovna;Bakala;30
+Sněmovna;Green Deal;26
+Sněmovna;Otázky Václava Moravce;29
+Sněmovna;Respekt;18
+Sněmovna;Polčák;27
+Sněmovna;Rada ČT;28
+Sněmovna;Feri;54
+Sněmovna;Prahu;24
+Sněmovna;Eurostat;19
+Sněmovna;Nos;25
+Sněmovna;Vláda;22
+Sněmovna;Křeček;21
+Sněmovna;Identita a demokracie;41
+Sněmovna;Zaorálek;26
+Sněmovna;Policie;15
+Sněmovna;Šojdrová;29
+Sněmovna;Hrnčíř;19
+Sněmovna;Česká pošta;13
+Sněmovna;Ministerstvo vnitra;30
+Sněmovna;Seznam zprávy;29
+Sněmovna;ID;41
+Sněmovna;Televize;13
+Sněmovna;Washingtonu;20
+Sněmovna;Benešová;17
+Sněmovna;MF Dnes;15
+Sněmovna;Redl;13
+Sněmovna;Filip;18
+Sněmovna;Rakoušan;32
+Sněmovna;Seznam;14
+Sněmovna;Lipovský;16
+Sněmovna;Stanjura;25
+Sněmovna;Eurozóna;33
+Sněmovna;Faltýnek;14
+Sněmovna;CVVM;13
+Sněmovna;Válek;14
+Sněmovna;EFTA;15
+Sněmovna;Kolář;15
+Sněmovna;Farský;23
+Sněmovna;Klaus ml.;37
+Sněmovna;Michálek;23
+Sněmovna;Úsvit;48
+Sněmovna;Úřad práce;20
+Sněmovna;Česká národní banka;13
+Sněmovna;Maříková;26
+Sněmovna;Pes;15
+Sněmovna;Vondráček;21
+Sněmovna;Parlament České republiky;23
+Sněmovna;Stropnický;14
+Sněmovna;Univerzita Karlova;14
+Sněmovna;Plaga;13
+Sněmovna;Nejvyšší soud;16
+Sněmovna;Antivirus;18
+Sněmovna;SPO;15
+Sněmovna;KDU;16
+Sněmovna;Vrběticích;16
+Sněmovna;Výborný;22
+Sněmovna;Herman;16
+Sněmovna;STEM;19
+Sněmovna;Legum;15
+Sněmovna;ČRo;16
+Sněmovna;Národní shromáždění;37
+Sněmovna;Černochová;22
+Sněmovna;Poche;13
+Sněmovna;Holík;20
+Sněmovna;Starostové a nezávislí;24
+Sněmovna;Brichta;27
+Sněmovna;Ministerstvo práce a sociálních věcí;25
+Sněmovna;Nejvyšší správní soud;13
+Sněmovna;168 hodina;24
+Sněmovna;Šlachta;26
+Sněmovna;Arenberger;14
+Sněmovna;Organizace pro pomoc uprchlíkům;19
+Sněmovna;Chovanec;14
+Sněmovna;Reportér ČT;17
+Sněmovna;Rassemblement national;36
+Sněmovna;Adam;24
+Sněmovna;Sudetoněmecký landsmanšaft;15
+Sněmovna;Hyťhová;15
+Sněmovna;Pekar;22
+Sněmovna;Ano čssd;25
+Sněmovna;Bárta;20
+Sněmovna;Valachová;16
+Ano;ČSSD;1457
+Ano;ODS;623
+Ano;Brusel;289
+Ano;Poslanecká sněmovna;414
+Ano;Fiala;161
+Ano;Praze;143
+Ano;TOP 09;460
+Ano;Zeman;172
+Ano;KDU ČSL;638
+Ano;Evropská komise;195
+Ano;KSČM;855
+Ano;Senát;119
+Ano;Svoboda a přímá demokracie;351
+Ano;Praha;48
+Ano;Piráti;377
+Ano;NATO;102
+Ano;STAN;308
+Ano;Sobotka;221
+Ano;Parlament;171
+Ano;Hamáček;194
+Ano;COVID-19;27
+Ano;ČT;87
+Ano;Kalousek;136
+Ano;Česká televize;123
+Ano;Evropský parlament;146
+Ano;Brno;28
+Ano;Prahy;67
+Ano;Putin;26
+Ano;Le Pen;86
+Ano;Salvini;58
+Ano;ČT 24;26
+Ano;Merkelová;68
+Ano;Tv Barrandov;58
+Ano;Orbán;53
+Ano;V 4;48
+Ano;Schillerová;103
+Ano;Trump;32
+Ano;Brně;32
+Ano;Spolu;46
+Ano;OSVČ;14
+Ano;OSN;47
+Ano;Hrad;27
+Ano;Agrofert;38
+Ano;EET;38
+Ano;Havlíček;68
+Ano;Bělobrádek;80
+Ano;Dukovany;16
+Ano;Ostravě;17
+Ano;Ústavní soud;52
+Ano;Havel;21
+Ano;Maláčová;59
+Ano;Ministerstvo zdravotnictví;22
+Ano;Ministerstvo financí;15
+Ano;ČEZ;26
+Ano;Vojtěch;74
+Ano;David;38
+Ano;Klaus;32
+Ano;EP;26
+Ano;COVID;17
+Ano;Bartoš;50
+Ano;Český rozhlas;47
+Ano;Blatný;41
+Ano;Parlamentní listy;85
+Ano;CO2;15
+Ano;Unie;22
+Ano;Nejvyšší kontrolní úřad;85
+Ano;Soros;43
+Ano;PS;23
+Ano;Macron;27
+Ano;Hnutí Svoboda a přímá demokracie;56
+Ano;Svoboda;43
+Ano;Komise;26
+Ano;NKÚ;59
+Ano;Wilderse;27
+Ano;Juncker;28
+Ano;Islámský stát;31
+Ano;Rakušan;31
+Ano;Ministerstvo dopravy;20
+Ano;Prymula;21
+Ano;OKD;34
+Ano;Brna;20
+Ano;Von der Leyen;26
+Ano;Foldyna;27
+Ano;TV Prima;18
+Ano;Jourová;79
+Ano;Petříček;25
+Ano;ČTK;28
+Ano;Moravec;22
+Ano;Právo;20
+Ano;Ústí nad Labem;15
+Ano;Šafránková;38
+Ano;Trikolóra;45
+Ano;Hnutí SPD;25
+Ano;IDnes;28
+Ano;Berlíně;14
+Ano;Partie;16
+Ano;Čapí hnízdo;22
+Ano;Volný;20
+Ano;Jurečka;26
+Ano;Svobodný;15
+Ano;19;27
+Ano;ANO ČSSD;62
+Ano;Pekarová;14
+Ano;Dvořák;16
+Ano;ENF;16
+Ano;OECD;14
+Ano;Erdogan;20
+Ano;Berlína;19
+Ano;Adamová;14
+Ano;Novinka;16
+Ano;Hřib;14
+Ano;Rada;13
+Ano;Evropa národů a svoboda;16
+Ano;Gazdík;17
+Ano;Bakala;27
+Ano;Green Deal;15
+Ano;Kreml;14
+Ano;Respekt;17
+Ano;Polčák;43
+Ano;Rada ČT;20
+Ano;Feri;37
+Ano;Eurostat;18
+Ano;Nos;25
+Ano;Vláda;24
+Ano;Křeček;16
+Ano;Identita a demokracie;26
+Ano;Zaorálek;27
+Ano;Policie;13
+Ano;Šojdrová;45
+Ano;Hrnčíř;21
+Ano;Ministerstvo vnitra;17
+Ano;Seznam zprávy;35
+Ano;ID;26
+Ano;Washingtonu;16
+Ano;Benešová;17
+Ano;Kovanda;16
+Ano;MF Dnes;18
+Ano;Brabec;13
+Ano;Rakoušan;21
+Ano;Stanjura;14
+Ano;Eurozóna;34
+Ano;Zdechovský;22
+Ano;Faltýnek;32
+Ano;Blaško;19
+Ano;Lidové noviny;13
+Ano;EFTA;14
+Ano;Aréna;13
+Ano;Ťok;22
+Ano;Pospíšil;21
+Ano;Farský;22
+Ano;Klaus ml.;33
+Ano;Úsvit;29
+Ano;Zelený úděl;18
+Ano;Pes;15
+Ano;Vondráček;16
+Ano;Stropnický;34
+Ano;Plaga;17
+Ano;Nejvyšší soud;13
+Ano;SPO;16
+Ano;KDU;16
+Ano;Národní fronta;19
+Ano;Herman;14
+Ano;Metnar;22
+Ano;Národní shromáždění;13
+Ano;Černochová;16
+Ano;Charanzová;43
+Ano;Poche;32
+Ano;Holík;19
+Ano;Starostové a nezávislí;23
+Ano;Brichta;24
+Ano;Ministerstvo práce a sociálních věcí;18
+Ano;Dlabajová;36
+Ano;Nejvyšší správní soud;13
+Ano;Pelikán;33
+Ano;168 hodina;15
+Ano;Ježek;28
+Ano;Šlachta;25
+Ano;Arenberger;19
+Ano;Organizace pro pomoc uprchlíkům;22
+Ano;Chovanec;19
+Ano;Reportér ČT;13
+Ano;Niedermayer;23
+Ano;Pirát;14
+Ano;Teličko;32
+Ano;Atkinson;16
+Ano;Hyťhová;14
+Ano;Ano čssd;26
+Ano;Valachová;13
+ČSSD;ODS;547
+ČSSD;Brusel;262
+ČSSD;Poslanecká sněmovna;398
+ČSSD;Fiala;95
+ČSSD;Praze;151
+ČSSD;TOP 09;476
+ČSSD;Zeman;204
+ČSSD;KDU ČSL;680
+ČSSD;Evropská komise;172
+ČSSD;KSČM;957
+ČSSD;Senát;111
+ČSSD;Svoboda a přímá demokracie;378
+ČSSD;Praha;55
+ČSSD;Piráti;347
+ČSSD;NATO;97
+ČSSD;STAN;272
+ČSSD;Sobotka;306
+ČSSD;Parlament;146
+ČSSD;Hamáček;487
+ČSSD;COVID-19;31
+ČSSD;ČT;85
+ČSSD;Kalousek;145
+ČSSD;Česká televize;142
+ČSSD;Evropský parlament;139
+ČSSD;Brno;18
+ČSSD;Prahy;85
+ČSSD;Putin;33
+ČSSD;Le Pen;95
+ČSSD;Salvini;72
+ČSSD;ČT 24;33
+ČSSD;Merkelová;70
+ČSSD;Tv Barrandov;58
+ČSSD;Orbán;44
+ČSSD;V 4;32
+ČSSD;Schillerová;56
+ČSSD;Trump;32
+ČSSD;Brně;18
+ČSSD;Spolu;40
+ČSSD;OSVČ;16
+ČSSD;OSN;47
+ČSSD;Hrad;25
+ČSSD;Agrofert;27
+ČSSD;EET;30
+ČSSD;Havlíček;41
+ČSSD;Bělobrádek;99
+ČSSD;Ústavní soud;48
+ČSSD;Havel;23
+ČSSD;Maláčová;138
+ČSSD;Ministerstvo zdravotnictví;23
+ČSSD;Ministerstvo financí;22
+ČSSD;ČEZ;15
+ČSSD;Vojtěch;46
+ČSSD;David;31
+ČSSD;Klaus;38
+ČSSD;EP;13
+ČSSD;COVID;14
+ČSSD;Bartoš;50
+ČSSD;Český rozhlas;58
+ČSSD;Blatný;40
+ČSSD;Parlamentní listy;85
+ČSSD;Unie;21
+ČSSD;Nejvyšší kontrolní úřad;94
+ČSSD;Lánech;13
+ČSSD;Soros;31
+ČSSD;PS;16
+ČSSD;Macron;22
+ČSSD;Hnutí Svoboda a přímá demokracie;64
+ČSSD;Hitler;14
+ČSSD;Svoboda;49
+ČSSD;Komise;18
+ČSSD;NKÚ;64
+ČSSD;Wilderse;29
+ČSSD;Masaryk;14
+ČSSD;Juncker;25
+ČSSD;Islámský stát;31
+ČSSD;Prima;13
+ČSSD;Prymula;15
+ČSSD;Schwarzenberg;29
+ČSSD;OKD;67
+ČSSD;Von der Leyen;17
+ČSSD;Foldyna;43
+ČSSD;TV Prima;15
+ČSSD;Jourová;20
+ČSSD;Petříček;100
+ČSSD;ČTK;28
+ČSSD;Moravec;28
+ČSSD;Události komentáře;19
+ČSSD;Ústí nad Labem;16
+ČSSD;BIS;20
+ČSSD;Šafránková;47
+ČSSD;Trikolóra;64
+ČSSD;Hnutí SPD;33
+ČSSD;IDnes;30
+ČSSD;Berlíně;22
+ČSSD;Čapí hnízdo;25
+ČSSD;Volný;19
+ČSSD;Jurečka;16
+ČSSD;Svobodný;14
+ČSSD;19;25
+ČSSD;ANO ČSSD;63
+ČSSD;Dvořák;27
+ČSSD;ENF;14
+ČSSD;OECD;14
+ČSSD;Erdogan;21
+ČSSD;Berlína;28
+ČSSD;Novinka;13
+ČSSD;Hřib;14
+ČSSD;Rada;17
+ČSSD;Evropa národů a svoboda;14
+ČSSD;Bakala;57
+ČSSD;Otázky Václava Moravce;18
+ČSSD;Respekt;34
+ČSSD;Polčák;23
+ČSSD;Blesk;13
+ČSSD;Rada ČT;24
+ČSSD;Feri;32
+ČSSD;Eurostat;16
+ČSSD;Nos;26
+ČSSD;Vláda;27
+ČSSD;Identita a demokracie;25
+ČSSD;Zaorálek;53
+ČSSD;Policie;13
+ČSSD;Šojdrová;52
+ČSSD;Hrnčíř;20
+ČSSD;Česká pošta;17
+ČSSD;Ministerstvo vnitra;26
+ČSSD;Seznam zprávy;31
+ČSSD;ID;23
+ČSSD;Benešová;16
+ČSSD;MF Dnes;18
+ČSSD;Lipovský;14
+ČSSD;MPSV;13
+ČSSD;Koněv;13
+ČSSD;Eurozóna;31
+ČSSD;Zdechovský;20
+ČSSD;Faltýnek;14
+ČSSD;CVVM;19
+ČSSD;Lidové noviny;14
+ČSSD;EFTA;14
+ČSSD;Aréna;13
+ČSSD;Novák;13
+ČSSD;Pospíšil;20
+ČSSD;Farský;14
+ČSSD;Klaus ml.;34
+ČSSD;Úsvit;33
+ČSSD;Veselý;13
+ČSSD;Maříková;32
+ČSSD;Pes;17
+ČSSD;Parlament České republiky;14
+ČSSD;Stropnický;23
+ČSSD;Nejvyšší soud;15
+ČSSD;SPO;21
+ČSSD;KDU;16
+ČSSD;Národní fronta;19
+ČSSD;Herman;28
+ČSSD;Metnar;14
+ČSSD;DVTV;15
+ČSSD;Bakalův;22
+ČSSD;Národní shromáždění;15
+ČSSD;Charanzová;26
+ČSSD;Poche;41
+ČSSD;Holík;18
+ČSSD;Kobza;19
+ČSSD;Deník;14
+ČSSD;Starostové a nezávislí;22
+ČSSD;Brichta;24
+ČSSD;Ministerstvo práce a sociálních věcí;23
+ČSSD;Dlabajová;26
+ČSSD;Pelikán;23
+ČSSD;Hospodářská novina;21
+ČSSD;Ježek;25
+ČSSD;Šlachta;32
+ČSSD;Organizace pro pomoc uprchlíkům;20
+ČSSD;Chovanec;25
+ČSSD;Lukavce;20
+ČSSD;Niedermayer;21
+ČSSD;Pirát;13
+ČSSD;Teličko;27
+ČSSD;Staněk;20
+ČSSD;Rassemblement national;14
+ČSSD;Atkinson;17
+ČSSD;Sudetoněmecký landsmanšaft;22
+ČSSD;Ano čssd;27
+ČSSD;Valachová;29
+ČSSD;Pokorný;20
+ODS;Brusel;189
+ODS;Poslanecká sněmovna;258
+ODS;Fiala;548
+ODS;Praze;114
+ODS;TOP 09;782
+ODS;Zeman;158
+ODS;KDU ČSL;660
+ODS;Evropská komise;130
+ODS;KSČM;302
+ODS;Senát;212
+ODS;Svoboda a přímá demokracie;132
+ODS;Praha;45
+ODS;Piráti;527
+ODS;NATO;87
+ODS;STAN;518
+ODS;Sobotka;114
+ODS;Parlament;117
+ODS;Hamáček;98
+ODS;ČT;86
+ODS;Kalousek;153
+ODS;Česká televize;111
+ODS;Evropský parlament;101
+ODS;Brno;18
+ODS;Prahy;57
+ODS;Putin;21
+ODS;Le Pen;58
+ODS;Salvini;54
+ODS;ČT 24;26
+ODS;Merkelová;27
+ODS;Tv Barrandov;28
+ODS;Orbán;31
+ODS;V 4;27
+ODS;Schillerová;34
+ODS;Trump;19
+ODS;Brně;41
+ODS;Spolu;142
+ODS;OSVČ;14
+ODS;OSN;20
+ODS;Evropská rada;13
+ODS;Hrad;19
+ODS;Agrofert;34
+ODS;EET;28
+ODS;Havlíček;23
+ODS;Bělobrádek;54
+ODS;Dukovany;34
+ODS;Ostravě;17
+ODS;Ústavní soud;46
+ODS;Havel;28
+ODS;Maláčová;29
+ODS;Ministerstvo zdravotnictví;13
+ODS;Ministerstvo financí;17
+ODS;ČEZ;40
+ODS;Vojtěch;27
+ODS;David;23
+ODS;Klaus;69
+ODS;EP;22
+ODS;Bartoš;70
+ODS;Český rozhlas;40
+ODS;Blatný;17
+ODS;Parlamentní listy;81
+ODS;Unie;26
+ODS;Nejvyšší kontrolní úřad;47
+ODS;PS;28
+ODS;Macron;22
+ODS;Hnutí Svoboda a přímá demokracie;32
+ODS;Svoboda;51
+ODS;Komise;16
+ODS;NKÚ;32
+ODS;Wilderse;34
+ODS;Masaryk;14
+ODS;Juncker;17
+ODS;Rakušan;79
+ODS;Plzni;19
+ODS;Prima;14
+ODS;Úřad vlády;14
+ODS;Schwarzenberg;23
+ODS;OKD;20
+ODS;Von der Leyen;14
+ODS;Foldyna;50
+ODS;TV Prima;36
+ODS;Petříček;21
+ODS;ČTK;21
+ODS;Moravec;27
+ODS;Právo;20
+ODS;Šafránková;24
+ODS;Trikolóra;68
+ODS;Hnutí SPD;29
+ODS;IDnes;17
+ODS;Berlíně;15
+ODS;Partie;22
+ODS;Čapí hnízdo;21
+ODS;Jurečka;40
+ODS;Svobodný;16
+ODS;19;13
+ODS;ANO ČSSD;26
+ODS;Pekarová;47
+ODS;Dvořák;19
+ODS;Berlína;25
+ODS;Adamová;44
+ODS;Novinka;19
+ODS;Beneš;13
+ODS;Hřib;29
+ODS;Vystrčil;54
+ODS;Gazdík;38
+ODS;Bakala;17
+ODS;Green Deal;30
+ODS;Otázky Václava Moravce;19
+ODS;Respekt;16
+ODS;Polčák;35
+ODS;Rada ČT;19
+ODS;Feri;49
+ODS;Prahu;18
+ODS;Vláda;14
+ODS;Křeček;26
+ODS;Identita a demokracie;37
+ODS;Zaorálek;17
+ODS;Šojdrová;27
+ODS;Němcová;20
+ODS;Ministerstvo vnitra;15
+ODS;Facebook;16
+ODS;Hradci Králové;13
+ODS;Seznam zprávy;34
+ODS;ID;39
+ODS;Temelín;23
+ODS;Washingtonu;23
+ODS;Benešová;16
+ODS;Kovanda;15
+ODS;Redl;29
+ODS;Filip;16
+ODS;Rakoušan;58
+ODS;Seznam;20
+ODS;Stanjura;44
+ODS;Eurozóna;35
+ODS;Kubera;14
+ODS;Lidové noviny;13
+ODS;Válek;18
+ODS;Google;13
+ODS;EFTA;16
+ODS;Doležal;14
+ODS;Pospíšil;27
+ODS;Kolář;23
+ODS;Farský;28
+ODS;Klaus ml.;50
+ODS;Michálek;13
+ODS;Úsvit;24
+ODS;Zelený úděl;15
+ODS;Česká národní banka;13
+ODS;Stropnický;13
+ODS;Síkela;13
+ODS;KDU;24
+ODS;Výborný;18
+ODS;Herman;19
+ODS;STEM;24
+ODS;Hlubuček;20
+ODS;Legum;13
+ODS;Národní shromáždění;32
+ODS;Černochová;41
+ODS;Český statistický úřad;13
+ODS;Kobza;14
+ODS;Starostové a nezávislí;25
+ODS;Zahradil;21
+ODS;Topolánek;17
+ODS;Kupka;28
+ODS;Šlachta;22
+ODS;Nečas;15
+ODS;Reportér ČT;14
+ODS;Pirát;16
+ODS;Rassemblement national;31
+ODS;Adam;17
+ODS;Sudetoněmecký landsmanšaft;19
+ODS;Pekar;16
+ODS;Občanská demokratická strana;22
+Brusel;Poslanecká sněmovna;179
+Brusel;Fiala;177
+Brusel;Praze;134
+Brusel;TOP 09;163
+Brusel;Zeman;85
+Brusel;KDU ČSL;172
+Brusel;Evropská komise;395
+Brusel;KSČM;123
+Brusel;Senát;45
+Brusel;Svoboda a přímá demokracie;212
+Brusel;Praha;73
+Brusel;Piráti;132
+Brusel;NATO;118
+Brusel;STAN;115
+Brusel;Sobotka;126
+Brusel;Parlament;181
+Brusel;Hamáček;75
+Brusel;COVID-19;27
+Brusel;ČT;41
+Brusel;Kalousek;47
+Brusel;Česká televize;63
+Brusel;Evropský parlament;246
+Brusel;Brno;41
+Brusel;Prahy;67
+Brusel;Putin;25
+Brusel;Le Pen;211
+Brusel;Salvini;188
+Brusel;ČT 24;16
+Brusel;Merkelová;131
+Brusel;Orbán;134
+Brusel;V 4;86
+Brusel;Schillerová;22
+Brusel;Trump;33
+Brusel;Spolu;26
+Brusel;OSN;35
+Brusel;Evropská rada;105
+Brusel;Agrofert;26
+Brusel;Havlíček;32
+Brusel;Bělobrádek;20
+Brusel;Dukovany;31
+Brusel;Havel;15
+Brusel;Ministerstvo zdravotnictví;17
+Brusel;ČEZ;23
+Brusel;Vojtěch;15
+Brusel;David;77
+Brusel;Klaus;30
+Brusel;EP;22
+Brusel;Bartoš;25
+Brusel;Český rozhlas;17
+Brusel;Parlamentní listy;74
+Brusel;CO2;108
+Brusel;Unie;99
+Brusel;Nejvyšší kontrolní úřad;15
+Brusel;Soros;51
+Brusel;Macron;77
+Brusel;Hnutí Svoboda a přímá demokracie;22
+Brusel;Hitler;21
+Brusel;Svoboda;54
+Brusel;Komise;52
+Brusel;Wilderse;88
+Brusel;Juncker;74
+Brusel;Islámský stát;25
+Brusel;Rakušan;16
+Brusel;Von der Leyen;53
+Brusel;Jourová;80
+Brusel;Petříček;26
+Brusel;ČTK;28
+Brusel;Šafránková;14
+Brusel;Trikolóra;14
+Brusel;Hnutí SPD;20
+Brusel;IDnes;14
+Brusel;Berlíně;33
+Brusel;Svobodný;67
+Brusel;ANO ČSSD;17
+Brusel;Pekarová;16
+Brusel;ENF;80
+Brusel;Berlína;91
+Brusel;Adamová;16
+Brusel;Novinka;14
+Brusel;Rada;15
+Brusel;Evropa národů a svoboda;80
+Brusel;Gazdík;17
+Brusel;Green Deal;47
+Brusel;Moskvě;18
+Brusel;Eurostat;34
+Brusel;Nos;66
+Brusel;Moskvy;19
+Brusel;Identita a demokracie;23
+Brusel;Rada EU;23
+Brusel;AFD;29
+Brusel;Johnson;18
+Brusel;Wilder;35
+Brusel;Hrnčíř;39
+Brusel;Karlovy Vary;25
+Brusel;ID;15
+Brusel;Temelín;13
+Brusel;Washingtonu;59
+Brusel;Kovanda;14
+Brusel;Makron;26
+Brusel;Stanjura;19
+Brusel;Eurozóna;13
+Brusel;Blaško;37
+Brusel;Liga;26
+Brusel;Pekingu;18
+Brusel;Armáda ČR;29
+Brusel;EFTA;68
+Brusel;Liberec;26
+Brusel;Doležal;27
+Brusel;Bruselská elita;39
+Brusel;Novotný;26
+Brusel;Úsvit;17
+Brusel;Úřad práce;27
+Brusel;Zelený úděl;47
+Brusel;Lucemburku;19
+Brusel;Budapešti;16
+Brusel;Prostějov;26
+Brusel;Jedlička;37
+Brusel;Národní sdružení;50
+Brusel;Agrární komora ČR;28
+Brusel;SPO;30
+Brusel;Národní fronta;33
+Brusel;Paříže;13
+Brusel;Palacký;35
+Brusel;Štrasburku;13
+Brusel;Legum;36
+Brusel;Jandejsek;28
+Brusel;Jihlava;28
+Brusel;Český statistický úřad;14
+Brusel;Holík;37
+Brusel;Opava;26
+Brusel;Chomutov;26
+Brusel;Šumperk;26
+Brusel;Brichta;34
+Brusel;Konzervativní strana;41
+Brusel;Berlín;15
+Brusel;Jihlavy;26
+Brusel;PS PČR;26
+Brusel;Soudní dvůr;16
+Brusel;Horák;26
+Brusel;Hahnova;26
+Brusel;Fidesz;26
+Brusel;Johansson;18
+Brusel;Dopita;26
+Brusel;Opavy;26
+Brusel;HENNER;26
+Brusel;Paul;26
+Brusel;Schmeidler;26
+Brusel;Atkinson;30
+Brusel;Příbram;26
+Brusel;Ochrana klimatu ČR;38
+Brusel;Blansko;26
+Brusel;Trutnov;27
+Brusel;FPÖ;26
+Brusel;Prostějova;26
+Brusel;Hannan;39
+Poslanecká sněmovna;Fiala;125
+Poslanecká sněmovna;Praze;91
+Poslanecká sněmovna;TOP 09;212
+Poslanecká sněmovna;Zeman;130
+Poslanecká sněmovna;KDU ČSL;261
+Poslanecká sněmovna;Evropská komise;265
+Poslanecká sněmovna;KSČM;131
+Poslanecká sněmovna;Senát;115
+Poslanecká sněmovna;Svoboda a přímá demokracie;909
+Poslanecká sněmovna;Praha;34
+Poslanecká sněmovna;Piráti;124
+Poslanecká sněmovna;NATO;66
+Poslanecká sněmovna;STAN;107
+Poslanecká sněmovna;Sobotka;343
+Poslanecká sněmovna;Parlament;138
+Poslanecká sněmovna;Hamáček;67
+Poslanecká sněmovna;ČT;55
+Poslanecká sněmovna;Kalousek;67
+Poslanecká sněmovna;Česká televize;121
+Poslanecká sněmovna;Evropský parlament;53
+Poslanecká sněmovna;Brno;15
+Poslanecká sněmovna;Prahy;53
+Poslanecká sněmovna;Putin;19
+Poslanecká sněmovna;Le Pen;55
+Poslanecká sněmovna;Salvini;17
+Poslanecká sněmovna;Merkelová;80
+Poslanecká sněmovna;Orbán;36
+Poslanecká sněmovna;V 4;34
+Poslanecká sněmovna;Schillerová;29
+Poslanecká sněmovna;Trump;42
+Poslanecká sněmovna;Brně;18
+Poslanecká sněmovna;Spolu;23
+Poslanecká sněmovna;OSN;35
+Poslanecká sněmovna;Evropská rada;15
+Poslanecká sněmovna;Hrad;17
+Poslanecká sněmovna;Agrofert;17
+Poslanecká sněmovna;Havlíček;18
+Poslanecká sněmovna;Bělobrádek;91
+Poslanecká sněmovna;Ústavní soud;35
+Poslanecká sněmovna;Havel;13
+Poslanecká sněmovna;Maláčová;16
+Poslanecká sněmovna;Ministerstvo financí;18
+Poslanecká sněmovna;ČEZ;18
+Poslanecká sněmovna;Vojtěch;15
+Poslanecká sněmovna;Klaus;18
+Poslanecká sněmovna;Bartoš;13
+Poslanecká sněmovna;Český rozhlas;42
+Poslanecká sněmovna;Blatný;16
+Poslanecká sněmovna;Parlamentní listy;49
+Poslanecká sněmovna;Unie;13
+Poslanecká sněmovna;Nejvyšší kontrolní úřad;44
+Poslanecká sněmovna;Lánech;13
+Poslanecká sněmovna;Soros;17
+Poslanecká sněmovna;Macron;15
+Poslanecká sněmovna;Hnutí Svoboda a přímá demokracie;215
+Poslanecká sněmovna;Hitler;16
+Poslanecká sněmovna;Svoboda;20
+Poslanecká sněmovna;NKÚ;30
+Poslanecká sněmovna;Masaryk;19
+Poslanecká sněmovna;Juncker;29
+Poslanecká sněmovna;Islámský stát;30
+Poslanecká sněmovna;Rakušan;23
+Poslanecká sněmovna;Schwarzenberg;14
+Poslanecká sněmovna;OKD;43
+Poslanecká sněmovna;Petříček;15
+Poslanecká sněmovna;ČTK;24
+Poslanecká sněmovna;Moravec;14
+Poslanecká sněmovna;Šafránková;19
+Poslanecká sněmovna;Hnutí SPD;16
+Poslanecká sněmovna;Berlíně;29
+Poslanecká sněmovna;Volný;14
+Poslanecká sněmovna;Jurečka;14
+Poslanecká sněmovna;ANO ČSSD;18
+Poslanecká sněmovna;Pekarová;17
+Poslanecká sněmovna;Dvořák;13
+Poslanecká sněmovna;ENF;23
+Poslanecká sněmovna;Erdogan;17
+Poslanecká sněmovna;Berlína;16
+Poslanecká sněmovna;Adamová;17
+Poslanecká sněmovna;Evropa národů a svoboda;20
+Poslanecká sněmovna;Gazdík;15
+Poslanecká sněmovna;Bakala;26
+Poslanecká sněmovna;Respekt;20
+Poslanecká sněmovna;Rada ČT;14
+Poslanecká sněmovna;Nos;33
+Poslanecká sněmovna;Křeček;15
+Poslanecká sněmovna;Zaorálek;19
+Poslanecká sněmovna;AFD;15
+Poslanecká sněmovna;Ministerstvo vnitra;17
+Poslanecká sněmovna;Washingtonu;18
+Poslanecká sněmovna;Rakoušan;16
+Poslanecká sněmovna;Stanjura;14
+Poslanecká sněmovna;EFTA;18
+Poslanecká sněmovna;Farský;16
+Poslanecká sněmovna;Úsvit;33
+Poslanecká sněmovna;Vondráček;13
+Poslanecká sněmovna;Parlament České republiky;48
+Poslanecká sněmovna;Stropnický;18
+Poslanecká sněmovna;SPO;33
+Poslanecká sněmovna;Národní fronta;18
+Poslanecká sněmovna;Poche;13
+Poslanecká sněmovna;Holík;27
+Poslanecká sněmovna;Brichta;29
+Poslanecká sněmovna;Pelikán;19
+Poslanecká sněmovna;Chovanec;19
+Poslanecká sněmovna;Bárta;17
+Fiala;Praze;65
+Fiala;TOP 09;249
+Fiala;Zeman;56
+Fiala;KDU ČSL;222
+Fiala;Evropská komise;80
+Fiala;KSČM;34
+Fiala;Senát;65
+Fiala;Svoboda a přímá demokracie;94
+Fiala;Praha;21
+Fiala;Piráti;192
+Fiala;NATO;34
+Fiala;STAN;262
+Fiala;Sobotka;60
+Fiala;Parlament;51
+Fiala;Hamáček;28
+Fiala;ČT;56
+Fiala;Kalousek;58
+Fiala;Česká televize;60
+Fiala;Evropský parlament;36
+Fiala;Prahy;84
+Fiala;Putin;19
+Fiala;Le Pen;44
+Fiala;ČT 24;21
+Fiala;Orbán;27
+Fiala;V 4;31
+Fiala;Brně;20
+Fiala;Spolu;62
+Fiala;OSN;13
+Fiala;Havlíček;14
+Fiala;Bělobrádek;30
+Fiala;Dukovany;49
+Fiala;Ostravě;13
+Fiala;Ústavní soud;18
+Fiala;ČEZ;53
+Fiala;Klaus;28
+Fiala;Bartoš;55
+Fiala;Český rozhlas;23
+Fiala;Parlamentní listy;41
+Fiala;CO2;20
+Fiala;Macron;13
+Fiala;Rakušan;112
+Fiala;Plzni;15
+Fiala;Úřad vlády;20
+Fiala;Brna;14
+Fiala;TV Prima;38
+Fiala;ČTK;18
+Fiala;Právo;13
+Fiala;Hnutí SPD;23
+Fiala;IDnes;16
+Fiala;Berlíně;25
+Fiala;Partie;22
+Fiala;Jurečka;53
+Fiala;Pekarová;56
+Fiala;Berlína;28
+Fiala;Adamová;52
+Fiala;Novinka;23
+Fiala;Hřib;14
+Fiala;Gazdík;49
+Fiala;Green Deal;47
+Fiala;Polčák;33
+Fiala;Nos;52
+Fiala;Křeček;26
+Fiala;Facebook;26
+Fiala;Seznam zprávy;16
+Fiala;Temelín;41
+Fiala;Washingtonu;27
+Fiala;Kovanda;24
+Fiala;Redl;31
+Fiala;Rakoušan;69
+Fiala;Seznam;22
+Fiala;Stanjura;33
+Fiala;CVVM;28
+Fiala;Válek;28
+Fiala;Google;24
+Fiala;EFTA;15
+Fiala;Pospíšil;15
+Fiala;Kolář;17
+Fiala;Farský;29
+Fiala;Úsvit;27
+Fiala;Zelený úděl;20
+Fiala;Česká národní banka;16
+Fiala;SPO;30
+Fiala;Síkela;17
+Fiala;Národní fronta;25
+Fiala;Výborný;15
+Fiala;Herman;14
+Fiala;STEM;22
+Fiala;Hlubuček;21
+Fiala;Bašta;16
+Fiala;Černochová;33
+Fiala;Český statistický úřad;14
+Fiala;Holík;41
+Fiala;Kobza;14
+Fiala;Brichta;46
+Fiala;VZP;14
+Fiala;Akademie věd;21
+Fiala;TV CNN Prima;15
+Fiala;Atkinson;20
+Fiala;Adam;20
+Fiala;Sudetoněmecký landsmanšaft;17
+Fiala;Pekar;18
+Fiala;Bárta;20
+Praze;TOP 09;121
+Praze;Zeman;61
+Praze;KDU ČSL;111
+Praze;Evropská komise;84
+Praze;KSČM;57
+Praze;Senát;66
+Praze;Svoboda a přímá demokracie;91
+Praze;Praha;174
+Praze;Piráti;122
+Praze;NATO;35
+Praze;STAN;83
+Praze;Sobotka;52
+Praze;Parlament;52
+Praze;Hamáček;66
+Praze;COVID-19;24
+Praze;ČT;30
+Praze;Kalousek;31
+Praze;Česká televize;50
+Praze;Evropský parlament;50
+Praze;Brno;33
+Praze;Prahy;102
+Praze;Putin;21
+Praze;Le Pen;50
+Praze;Salvini;36
+Praze;Merkelová;23
+Praze;Orbán;27
+Praze;V 4;31
+Praze;Schillerová;17
+Praze;Pražský hrad;27
+Praze;Trump;21
+Praze;Brně;54
+Praze;Spolu;16
+Praze;OSN;28
+Praze;Hrad;14
+Praze;Havlíček;26
+Praze;Bělobrádek;18
+Praze;Ostravě;27
+Praze;Havel;21
+Praze;Maláčová;19
+Praze;Ministerstvo zdravotnictví;19
+Praze;Ministerstvo financí;15
+Praze;Vojtěch;25
+Praze;David;26
+Praze;Bartoš;21
+Praze;Český rozhlas;24
+Praze;Blatný;13
+Praze;Parlamentní listy;32
+Praze;CO2;51
+Praze;Soros;18
+Praze;Macron;13
+Praze;Hitler;14
+Praze;Svoboda;20
+Praze;Komise;17
+Praze;Wilderse;24
+Praze;Masaryk;22
+Praze;Rakušan;17
+Praze;Plzni;13
+Praze;Von der Leyen;18
+Praze;Petříček;14
+Praze;ČTK;15
+Praze;Ústí nad Labem;13
+Praze;BIS;17
+Praze;IDnes;14
+Praze;Berlíně;14
+Praze;Olomouci;15
+Praze;Svobodný;15
+Praze;ENF;28
+Praze;Berlína;21
+Praze;Novinka;23
+Praze;Hřib;43
+Praze;Evropa národů a svoboda;26
+Praze;Plzeň;15
+Praze;Bakala;16
+Praze;Moskvě;16
+Praze;Prahu;33
+Praze;Nos;22
+Praze;Moskvy;19
+Praze;Křeček;15
+Praze;Šojdrová;16
+Praze;Wilder;17
+Praze;Karlovy Vary;13
+Praze;Redl;14
+Praze;Koněv;23
+Praze;Blaško;16
+Praze;Armáda ČR;13
+Praze;Novák;19
+Praze;Doležal;13
+Praze;Kolář;19
+Praze;Michálek;15
+Praze;Novotný;18
+Praze;Zelený úděl;21
+Praze;Prostějov;15
+Praze;Národní sdružení;13
+Praze;Opava;15
+Praze;Kobza;16
+Praze;Chomutov;15
+Praze;Šumperk;15
+Praze;Dlabajová;13
+Praze;Hahnova;16
+Praze;Dopita;16
+Praze;HENNER;15
+Praze;Paul;15
+Praze;Schmeidler;15
+Praze;Ochrana klimatu ČR;24
+TOP 09;Zeman;90
+TOP 09;KDU ČSL;734
+TOP 09;Evropská komise;126
+TOP 09;KSČM;261
+TOP 09;Senát;98
+TOP 09;Svoboda a přímá demokracie;142
+TOP 09;Praha;67
+TOP 09;Piráti;551
+TOP 09;NATO;65
+TOP 09;STAN;588
+TOP 09;Sobotka;95
+TOP 09;Parlament;104
+TOP 09;Hamáček;102
+TOP 09;ČT;79
+TOP 09;Kalousek;199
+TOP 09;Česká televize;111
+TOP 09;Evropský parlament;113
+TOP 09;Brno;18
+TOP 09;Prahy;89
+TOP 09;Putin;18
+TOP 09;Le Pen;63
+TOP 09;Salvini;54
+TOP 09;ČT 24;22
+TOP 09;Merkelová;38
+TOP 09;Tv Barrandov;15
+TOP 09;Orbán;35
+TOP 09;V 4;36
+TOP 09;Schillerová;14
+TOP 09;Trump;23
+TOP 09;Brně;18
+TOP 09;Spolu;130
+TOP 09;OSN;27
+TOP 09;Agrofert;18
+TOP 09;Havlíček;14
+TOP 09;Bělobrádek;46
+TOP 09;Dukovany;15
+TOP 09;Ústavní soud;26
+TOP 09;Havel;30
+TOP 09;Maláčová;16
+TOP 09;Ministerstvo financí;13
+TOP 09;ČEZ;24
+TOP 09;Vojtěch;23
+TOP 09;David;29
+TOP 09;Klaus;26
+TOP 09;EP;15
+TOP 09;Bartoš;72
+TOP 09;Český rozhlas;43
+TOP 09;Blatný;16
+TOP 09;Parlamentní listy;77
+TOP 09;Nejvyšší kontrolní úřad;41
+TOP 09;Soros;22
+TOP 09;Macron;16
+TOP 09;Hnutí Svoboda a přímá demokracie;31
+TOP 09;Hitler;14
+TOP 09;Svoboda;39
+TOP 09;Komise;21
+TOP 09;NKÚ;20
+TOP 09;Wilderse;22
+TOP 09;Masaryk;15
+TOP 09;Juncker;17
+TOP 09;Islámský stát;17
+TOP 09;Rakušan;54
+TOP 09;Schwarzenberg;66
+TOP 09;OKD;26
+TOP 09;Von der Leyen;18
+TOP 09;Foldyna;25
+TOP 09;TV Prima;27
+TOP 09;Petříček;19
+TOP 09;ČTK;15
+TOP 09;Moravec;22
+TOP 09;Právo;15
+TOP 09;Šafránková;23
+TOP 09;Trikolóra;54
+TOP 09;Hnutí SPD;29
+TOP 09;Partie;13
+TOP 09;Čapí hnízdo;14
+TOP 09;Jurečka;28
+TOP 09;Svobodný;15
+TOP 09;19;14
+TOP 09;ANO ČSSD;23
+TOP 09;Pekarová;74
+TOP 09;Dvořák;20
+TOP 09;Berlína;29
+TOP 09;Adamová;73
+TOP 09;Novinka;20
+TOP 09;Beneš;16
+TOP 09;Hřib;38
+TOP 09;Evropa národů a svoboda;13
+TOP 09;Gazdík;31
+TOP 09;Bakala;36
+TOP 09;Green Deal;20
+TOP 09;Respekt;27
+TOP 09;Polčák;47
+TOP 09;Rada ČT;22
+TOP 09;Feri;78
+TOP 09;Prahu;24
+TOP 09;Vláda;14
+TOP 09;Křeček;14
+TOP 09;Identita a demokracie;26
+TOP 09;Šojdrová;52
+TOP 09;Facebook;14
+TOP 09;Seznam zprávy;35
+TOP 09;ID;26
+TOP 09;Washingtonu;18
+TOP 09;Redl;29
+TOP 09;Rakoušan;38
+TOP 09;Seznam;21
+TOP 09;Lipovský;15
+TOP 09;Stanjura;19
+TOP 09;Koněv;27
+TOP 09;Eurozóna;36
+TOP 09;Zdechovský;27
+TOP 09;CVVM;16
+TOP 09;Blaško;15
+TOP 09;Válek;38
+TOP 09;Doležal;19
+TOP 09;Pospíšil;48
+TOP 09;Kolář;43
+TOP 09;Farský;23
+TOP 09;Klaus ml.;30
+TOP 09;Michálek;13
+TOP 09;Úsvit;21
+TOP 09;Zelený úděl;13
+TOP 09;Výborný;17
+TOP 09;Herman;24
+TOP 09;STEM;13
+TOP 09;Hlubuček;16
+TOP 09;Bakalův;22
+TOP 09;Národní shromáždění;14
+TOP 09;Černochová;22
+TOP 09;Charanzová;26
+TOP 09;Poche;26
+TOP 09;Kobza;16
+TOP 09;Starostové a nezávislí;30
+TOP 09;Dlabajová;26
+TOP 09;Kupka;15
+TOP 09;Ježek;23
+TOP 09;Šlachta;24
+TOP 09;Niedermayer;28
+TOP 09;Pirát;18
+TOP 09;Teličko;23
+TOP 09;Rassemblement national;13
+TOP 09;Adam;27
+TOP 09;Sudetoněmecký landsmanšaft;23
+TOP 09;Pekar;27
+Zeman;KDU ČSL;79
+Zeman;Evropská komise;38
+Zeman;KSČM;91
+Zeman;Senát;70
+Zeman;Svoboda a přímá demokracie;95
+Zeman;Praha;18
+Zeman;Piráti;70
+Zeman;NATO;57
+Zeman;STAN;55
+Zeman;Sobotka;97
+Zeman;Parlament;36
+Zeman;Hamáček;81
+Zeman;ČT;51
+Zeman;Kalousek;50
+Zeman;Česká televize;79
+Zeman;Evropský parlament;25
+Zeman;Prahy;31
+Zeman;Putin;40
+Zeman;Le Pen;28
+Zeman;Salvini;22
+Zeman;ČT 24;18
+Zeman;Merkelová;31
+Zeman;Orbán;31
+Zeman;V 4;15
+Zeman;Schillerová;23
+Zeman;Pražský hrad;34
+Zeman;Trump;36
+Zeman;OSN;17
+Zeman;Hrad;62
+Zeman;Havlíček;18
+Zeman;Bělobrádek;22
+Zeman;Ústavní soud;17
+Zeman;Havel;41
+Zeman;Vojtěch;15
+Zeman;David;15
+Zeman;Klaus;47
+Zeman;Český rozhlas;38
+Zeman;Blatný;19
+Zeman;Parlamentní listy;53
+Zeman;Unie;13
+Zeman;Nejvyšší kontrolní úřad;25
+Zeman;Lánech;33
+Zeman;Macron;13
+Zeman;NKÚ;17
+Zeman;Masaryk;14
+Zeman;Islámský stát;14
+Zeman;Prymula;17
+Zeman;Schwarzenberg;27
+Zeman;Petříček;23
+Zeman;Moravec;20
+Zeman;BIS;20
+Zeman;Čapí hnízdo;21
+Zeman;Dvořák;16
+Zeman;Gazdík;13
+Zeman;Bakala;16
+Zeman;Blesk;14
+Zeman;Zaorálek;18
+Zeman;Němcová;16
+Zeman;Benešová;24
+Zeman;SPO;26
+Zeman;Topolánek;14
+Zeman;Fischer;13
+Zeman;Vrbětice;13
+Zeman;Drahoš;16
+Zeman;SÚKL;13
+Zeman;Ovčáček;13
+KDU ČSL;Evropská komise;136
+KDU ČSL;KSČM;268
+KDU ČSL;Senát;80
+KDU ČSL;Svoboda a přímá demokracie;257
+KDU ČSL;Praha;61
+KDU ČSL;Piráti;483
+KDU ČSL;NATO;48
+KDU ČSL;STAN;490
+KDU ČSL;Sobotka;162
+KDU ČSL;Parlament;107
+KDU ČSL;Hamáček;81
+KDU ČSL;ČT;58
+KDU ČSL;Kalousek;132
+KDU ČSL;Česká televize;89
+KDU ČSL;Evropský parlament;100
+KDU ČSL;Brno;24
+KDU ČSL;Prahy;85
+KDU ČSL;Putin;13
+KDU ČSL;Le Pen;74
+KDU ČSL;Salvini;44
+KDU ČSL;ČT 24;18
+KDU ČSL;Merkelová;37
+KDU ČSL;Tv Barrandov;21
+KDU ČSL;Orbán;28
+KDU ČSL;V 4;29
+KDU ČSL;Trump;16
+KDU ČSL;Brně;29
+KDU ČSL;Spolu;117
+KDU ČSL;OSN;24
+KDU ČSL;Agrofert;17
+KDU ČSL;EET;20
+KDU ČSL;Havlíček;13
+KDU ČSL;Bělobrádek;109
+KDU ČSL;Dukovany;15
+KDU ČSL;Ústavní soud;27
+KDU ČSL;Havel;17
+KDU ČSL;Maláčová;14
+KDU ČSL;ČEZ;20
+KDU ČSL;Vojtěch;19
+KDU ČSL;David;21
+KDU ČSL;Klaus;22
+KDU ČSL;EP;13
+KDU ČSL;Bartoš;59
+KDU ČSL;Český rozhlas;31
+KDU ČSL;Blatný;13
+KDU ČSL;Parlamentní listy;58
+KDU ČSL;Unie;13
+KDU ČSL;Nejvyšší kontrolní úřad;39
+KDU ČSL;Macron;14
+KDU ČSL;Hnutí Svoboda a přímá demokracie;48
+KDU ČSL;Svoboda;50
+KDU ČSL;Komise;16
+KDU ČSL;NKÚ;25
+KDU ČSL;Wilderse;21
+KDU ČSL;Juncker;13
+KDU ČSL;Islámský stát;24
+KDU ČSL;Rakušan;50
+KDU ČSL;Schwarzenberg;16
+KDU ČSL;OKD;25
+KDU ČSL;Von der Leyen;14
+KDU ČSL;Foldyna;19
+KDU ČSL;TV Prima;18
+KDU ČSL;ČTK;18
+KDU ČSL;Moravec;15
+KDU ČSL;Šafránková;18
+KDU ČSL;Trikolóra;45
+KDU ČSL;Hnutí SPD;26
+KDU ČSL;IDnes;19
+KDU ČSL;Berlíně;17
+KDU ČSL;Volný;13
+KDU ČSL;Jurečka;63
+KDU ČSL;Svobodný;16
+KDU ČSL;ANO ČSSD;19
+KDU ČSL;Pekarová;30
+KDU ČSL;Dvořák;16
+KDU ČSL;Erdogan;13
+KDU ČSL;Berlína;19
+KDU ČSL;Adamová;29
+KDU ČSL;Novinka;14
+KDU ČSL;Beneš;17
+KDU ČSL;Hřib;25
+KDU ČSL;Gazdík;18
+KDU ČSL;Bakala;16
+KDU ČSL;Green Deal;20
+KDU ČSL;Respekt;14
+KDU ČSL;Polčák;37
+KDU ČSL;Rada ČT;16
+KDU ČSL;Feri;45
+KDU ČSL;Prahu;16
+KDU ČSL;Nos;24
+KDU ČSL;Identita a demokracie;24
+KDU ČSL;Zaorálek;14
+KDU ČSL;Šojdrová;62
+KDU ČSL;Ministerstvo vnitra;15
+KDU ČSL;Seznam zprávy;27
+KDU ČSL;ID;24
+KDU ČSL;Kovanda;14
+KDU ČSL;Redl;15
+KDU ČSL;Rakoušan;29
+KDU ČSL;Eurozóna;33
+KDU ČSL;Zdechovský;47
+KDU ČSL;Doležal;14
+KDU ČSL;Pospíšil;24
+KDU ČSL;Kolář;14
+KDU ČSL;Farský;17
+KDU ČSL;Klaus ml.;25
+KDU ČSL;Úsvit;23
+KDU ČSL;Zelený úděl;15
+KDU ČSL;Stropnický;15
+KDU ČSL;SPO;13
+KDU ČSL;Národní fronta;17
+KDU ČSL;Výborný;39
+KDU ČSL;Herman;37
+KDU ČSL;STEM;13
+KDU ČSL;Národní shromáždění;14
+KDU ČSL;Černochová;17
+KDU ČSL;Charanzová;24
+KDU ČSL;Poche;21
+KDU ČSL;Holík;17
+KDU ČSL;Kobza;14
+KDU ČSL;Starostové a nezávislí;24
+KDU ČSL;Brichta;22
+KDU ČSL;Ministerstvo práce a sociálních věcí;13
+KDU ČSL;Dlabajová;24
+KDU ČSL;Kupka;14
+KDU ČSL;Ježek;21
+KDU ČSL;Šlachta;28
+KDU ČSL;Chovanec;13
+KDU ČSL;Niedermayer;21
+KDU ČSL;Teličko;21
+KDU ČSL;Rassemblement national;13
+KDU ČSL;Atkinson;18
+KDU ČSL;Sudetoněmecký landsmanšaft;30
+Evropská komise;KSČM;63
+Evropská komise;Senát;28
+Evropská komise;Svoboda a přímá demokracie;244
+Evropská komise;Praha;60
+Evropská komise;Piráti;65
+Evropská komise;NATO;52
+Evropská komise;STAN;66
+Evropská komise;Sobotka;121
+Evropská komise;Parlament;140
+Evropská komise;Hamáček;56
+Evropská komise;COVID-19;15
+Evropská komise;ČT;20
+Evropská komise;Kalousek;39
+Evropská komise;Česká televize;56
+Evropská komise;Evropský parlament;174
+Evropská komise;Brno;37
+Evropská komise;Prahy;39
+Evropská komise;Putin;13
+Evropská komise;Le Pen;94
+Evropská komise;Salvini;102
+Evropská komise;ČT 24;13
+Evropská komise;Merkelová;92
+Evropská komise;Orbán;61
+Evropská komise;V 4;50
+Evropská komise;Schillerová;26
+Evropská komise;Trump;16
+Evropská komise;OSN;37
+Evropská komise;Evropská rada;48
+Evropská komise;Agrofert;53
+Evropská komise;Havlíček;25
+Evropská komise;Bělobrádek;45
+Evropská komise;Dukovany;31
+Evropská komise;Ministerstvo financí;28
+Evropská komise;ČEZ;25
+Evropská komise;Vojtěch;18
+Evropská komise;David;55
+Evropská komise;Klaus;18
+Evropská komise;EP;24
+Evropská komise;Český rozhlas;14
+Evropská komise;Parlamentní listy;38
+Evropská komise;CO2;74
+Evropská komise;Unie;72
+Evropská komise;Nejvyšší kontrolní úřad;16
+Evropská komise;Soros;30
+Evropská komise;Macron;32
+Evropská komise;Hnutí Svoboda a přímá demokracie;158
+Evropská komise;Svoboda;48
+Evropská komise;Komise;69
+Evropská komise;Wilderse;47
+Evropská komise;Juncker;80
+Evropská komise;OKD;19
+Evropská komise;Von der Leyen;120
+Evropská komise;Jourová;55
+Evropská komise;Petříček;16
+Evropská komise;ČTK;26
+Evropská komise;Hnutí SPD;14
+Evropská komise;Svobodný;52
+Evropská komise;ENF;52
+Evropská komise;Erdogan;24
+Evropská komise;Berlína;20
+Evropská komise;Rada;13
+Evropská komise;Evropa národů a svoboda;48
+Evropská komise;Bakala;14
+Evropská komise;Green Deal;24
+Evropská komise;Polčák;14
+Evropská komise;Eurostat;35
+Evropská komise;Nos;34
+Evropská komise;Identita a demokracie;16
+Evropská komise;Rada EU;18
+Evropská komise;Wilder;21
+Evropská komise;Hrnčíř;29
+Evropská komise;Karlovy Vary;24
+Evropská komise;Ministerstvo vnitra;19
+Evropská komise;Makron;16
+Evropská komise;Blaško;35
+Evropská komise;Armáda ČR;27
+Evropská komise;EFTA;50
+Evropská komise;Liberec;27
+Evropská komise;Doležal;29
+Evropská komise;Bruselská elita;34
+Evropská komise;Novotný;26
+Evropská komise;Úřad práce;26
+Evropská komise;Zelený úděl;23
+Evropská komise;Prostějov;26
+Evropská komise;Jedlička;63
+Evropská komise;Národní sdružení;39
+Evropská komise;Agrární komora ČR;21
+Evropská komise;Palacký;21
+Evropská komise;Legum;35
+Evropská komise;Jandejsek;21
+Evropská komise;Jihlava;28
+Evropská komise;Charanzová;14
+Evropská komise;Opava;26
+Evropská komise;Chomutov;27
+Evropská komise;Šumperk;26
+Evropská komise;Konzervativní strana;41
+Evropská komise;Jihlavy;26
+Evropská komise;PS PČR;26
+Evropská komise;Dlabajová;16
+Evropská komise;Soudní dvůr;20
+Evropská komise;Horák;27
+Evropská komise;Hahnova;27
+Evropská komise;Johansson;23
+Evropská komise;Gatestone Institute;16
+Evropská komise;Dopita;26
+Evropská komise;Opavy;26
+Evropská komise;Teličko;15
+Evropská komise;HENNER;26
+Evropská komise;Paul;26
+Evropská komise;Schmeidler;26
+Evropská komise;Atkinson;14
+Evropská komise;Příbram;26
+Evropská komise;Ochrana klimatu ČR;15
+Evropská komise;Blansko;26
+Evropská komise;Trutnov;26
+Evropská komise;Prostějova;29
+Evropská komise;Hannan;39
+KSČM;Senát;70
+KSČM;Svoboda a přímá demokracie;79
+KSČM;Praha;25
+KSČM;Piráti;206
+KSČM;NATO;59
+KSČM;STAN;166
+KSČM;Sobotka;31
+KSČM;Parlament;93
+KSČM;Hamáček;133
+KSČM;COVID-19;22
+KSČM;ČT;54
+KSČM;Kalousek;65
+KSČM;Česká televize;68
+KSČM;Evropský parlament;77
+KSČM;Prahy;14
+KSČM;Putin;15
+KSČM;Le Pen;45
+KSČM;Salvini;49
+KSČM;Merkelová;29
+KSČM;Tv Barrandov;46
+KSČM;Orbán;17
+KSČM;Schillerová;41
+KSČM;Trump;15
+KSČM;Spolu;27
+KSČM;OSN;18
+KSČM;Agrofert;14
+KSČM;EET;15
+KSČM;Havlíček;21
+KSČM;Ústavní soud;38
+KSČM;Maláčová;45
+KSČM;Vojtěch;27
+KSČM;David;26
+KSČM;Klaus;22
+KSČM;COVID;13
+KSČM;Bartoš;29
+KSČM;Český rozhlas;37
+KSČM;Blatný;31
+KSČM;Parlamentní listy;48
+KSČM;Unie;14
+KSČM;Nejvyšší kontrolní úřad;44
+KSČM;Soros;22
+KSČM;PS;15
+KSČM;Svoboda;30
+KSČM;Komise;19
+KSČM;NKÚ;26
+KSČM;Wilderse;22
+KSČM;Islámský stát;16
+KSČM;Foldyna;26
+KSČM;Petříček;20
+KSČM;Moravec;13
+KSČM;Šafránková;40
+KSČM;Trikolóra;44
+KSČM;Hnutí SPD;21
+KSČM;19;16
+KSČM;ANO ČSSD;136
+KSČM;Dvořák;20
+KSČM;Erdogan;15
+KSČM;Bakala;17
+KSČM;Polčák;15
+KSČM;Rada ČT;18
+KSČM;Feri;27
+KSČM;Eurostat;16
+KSČM;Vláda;22
+KSČM;Identita a demokracie;25
+KSČM;Šojdrová;31
+KSČM;Hrnčíř;17
+KSČM;Seznam zprávy;24
+KSČM;ID;23
+KSČM;Filip;33
+KSČM;Eurozóna;20
+KSČM;Zdechovský;16
+KSČM;Pospíšil;16
+KSČM;Klaus ml.;24
+KSČM;Úsvit;14
+KSČM;Pes;16
+KSČM;Parlament České republiky;13
+KSČM;Národní shromáždění;14
+KSČM;Charanzová;15
+KSČM;Poche;23
+KSČM;Starostové a nezávislí;20
+KSČM;Dlabajová;15
+KSČM;Ježek;13
+KSČM;Šlachta;17
+KSČM;Organizace pro pomoc uprchlíkům;17
+KSČM;Niedermayer;13
+KSČM;Teličko;13
+KSČM;Rassemblement national;13
+KSČM;Ano čssd;20
+Senát;Svoboda a přímá demokracie;50
+Senát;Praha;47
+Senát;Piráti;67
+Senát;NATO;37
+Senát;STAN;68
+Senát;Sobotka;20
+Senát;Parlament;41
+Senát;Hamáček;31
+Senát;ČT;28
+Senát;Kalousek;15
+Senát;Česká televize;42
+Senát;Brno;15
+Senát;Prahy;20
+Senát;Salvini;15
+Senát;Schillerová;20
+Senát;Brně;21
+Senát;Spolu;18
+Senát;OSVČ;17
+Senát;Hrad;15
+Senát;EET;21
+Senát;Havlíček;13
+Senát;Dukovany;13
+Senát;Ostravě;13
+Senát;Ústavní soud;38
+Senát;Havel;19
+Senát;David;23
+Senát;Český rozhlas;19
+Senát;Parlamentní listy;29
+Senát;Nejvyšší kontrolní úřad;23
+Senát;PS;14
+Senát;NKÚ;14
+Senát;Šafránková;13
+Senát;Pekarová;13
+Senát;Adamová;13
+Senát;Hřib;15
+Senát;Vystrčil;71
+Senát;Plzeň;16
+Senát;Nos;14
+Senát;Křeček;25
+Senát;Redl;18
+Senát;Kubera;37
+Senát;Blaško;16
+Senát;Novák;20
+Senát;Novotný;15
+Senát;Zlín;15
+Senát;Prostějov;14
+Senát;České Budějovice;14
+Senát;Opava;15
+Senát;Chomutov;14
+Senát;Šumperk;14
+Senát;Ježek;14
+Senát;Litoměřice;16
+Senát;Hahnova;15
+Senát;Dopita;15
+Senát;Teplice;31
+Senát;HENNER;14
+Senát;Paul;14
+Senát;Schmeidler;14
+Senát;Jakl;20
+Svoboda a přímá demokracie;Praha;35
+Svoboda a přímá demokracie;Piráti;51
+Svoboda a přímá demokracie;NATO;59
+Svoboda a přímá demokracie;STAN;47
+Svoboda a přímá demokracie;Sobotka;432
+Svoboda a přímá demokracie;Parlament;129
+Svoboda a přímá demokracie;Hamáček;18
+Svoboda a přímá demokracie;ČT;33
+Svoboda a přímá demokracie;Kalousek;79
+Svoboda a přímá demokracie;Česká televize;89
+Svoboda a přímá demokracie;Evropský parlament;54
+Svoboda a přímá demokracie;Brno;13
+Svoboda a přímá demokracie;Prahy;71
+Svoboda a přímá demokracie;Putin;13
+Svoboda a přímá demokracie;Le Pen;91
+Svoboda a přímá demokracie;Salvini;27
+Svoboda a přímá demokracie;Merkelová;101
+Svoboda a přímá demokracie;Orbán;32
+Svoboda a přímá demokracie;V 4;42
+Svoboda a přímá demokracie;Trump;38
+Svoboda a přímá demokracie;Brně;16
+Svoboda a přímá demokracie;OSN;37
+Svoboda a přímá demokracie;Bělobrádek;119
+Svoboda a přímá demokracie;Ústavní soud;15
+Svoboda a přímá demokracie;David;21
+Svoboda a přímá demokracie;Český rozhlas;28
+Svoboda a přímá demokracie;Parlamentní listy;21
+Svoboda a přímá demokracie;Unie;14
+Svoboda a přímá demokracie;Nejvyšší kontrolní úřad;42
+Svoboda a přímá demokracie;Soros;14
+Svoboda a přímá demokracie;Macron;21
+Svoboda a přímá demokracie;Hnutí Svoboda a přímá demokracie;210
+Svoboda a přímá demokracie;Hitler;17
+Svoboda a přímá demokracie;Svoboda;13
+Svoboda a přímá demokracie;NKÚ;29
+Svoboda a přímá demokracie;Wilderse;20
+Svoboda a přímá demokracie;Juncker;42
+Svoboda a přímá demokracie;Islámský stát;37
+Svoboda a přímá demokracie;OKD;46
+Svoboda a přímá demokracie;Brna;13
+Svoboda a přímá demokracie;ČTK;25
+Svoboda a přímá demokracie;IDnes;16
+Svoboda a přímá demokracie;Berlíně;30
+Svoboda a přímá demokracie;Svobodný;17
+Svoboda a přímá demokracie;ENF;41
+Svoboda a přímá demokracie;Erdogan;20
+Svoboda a přímá demokracie;Berlína;14
+Svoboda a přímá demokracie;Evropa národů a svoboda;37
+Svoboda a přímá demokracie;Plzeň;16
+Svoboda a přímá demokracie;Bakala;19
+Svoboda a přímá demokracie;Nos;67
+Svoboda a přímá demokracie;Křeček;14
+Svoboda a přímá demokracie;AFD;25
+Svoboda a přímá demokracie;Wilder;14
+Svoboda a přímá demokracie;Hrnčíř;13
+Svoboda a přímá demokracie;Ministerstvo vnitra;16
+Svoboda a přímá demokracie;Makron;17
+Svoboda a přímá demokracie;Redl;14
+Svoboda a přímá demokracie;Blaško;17
+Svoboda a přímá demokracie;EFTA;19
+Svoboda a přímá demokracie;Novák;17
+Svoboda a přímá demokracie;Novotný;18
+Svoboda a přímá demokracie;Úsvit;39
+Svoboda a přímá demokracie;Zlín;14
+Svoboda a přímá demokracie;Prostějov;16
+Svoboda a přímá demokracie;Stropnický;16
+Svoboda a přímá demokracie;SPO;55
+Svoboda a přímá demokracie;Národní fronta;40
+Svoboda a přímá demokracie;Herman;13
+Svoboda a přímá demokracie;České Budějovice;13
+Svoboda a přímá demokracie;Poche;13
+Svoboda a přímá demokracie;Holík;41
+Svoboda a přímá demokracie;Opava;16
+Svoboda a přímá demokracie;Chomutov;15
+Svoboda a přímá demokracie;Šumperk;16
+Svoboda a přímá demokracie;Brichta;44
+Svoboda a přímá demokracie;Pelikán;25
+Svoboda a přímá demokracie;Litoměřice;14
+Svoboda a přímá demokracie;Chovanec;19
+Svoboda a přímá demokracie;Hahnova;19
+Svoboda a přímá demokracie;Dopita;17
+Svoboda a přímá demokracie;Teplice;15
+Svoboda a přímá demokracie;HENNER;16
+Svoboda a přímá demokracie;Paul;16
+Svoboda a přímá demokracie;Schmeidler;16
+Svoboda a přímá demokracie;Atkinson;21
+Svoboda a přímá demokracie;Jakl;16
+Svoboda a přímá demokracie;Bárta;18
+Praha;Piráti;81
+Praha;NATO;16
+Praha;STAN;45
+Praha;Sobotka;21
+Praha;Parlament;50
+Praha;Hamáček;30
+Praha;Česká televize;14
+Praha;Evropský parlament;34
+Praha;Brno;101
+Praha;Prahy;54
+Praha;Le Pen;37
+Praha;Salvini;33
+Praha;Merkelová;13
+Praha;V 4;13
+Praha;Schillerová;19
+Praha;Brně;13
+Praha;Evropská rada;13
+Praha;Havlíček;28
+Praha;Havel;24
+Praha;Ministerstvo financí;21
+Praha;Vojtěch;23
+Praha;David;50
+Praha;Bartoš;20
+Praha;Soros;13
+Praha;Svoboda;29
+Praha;Ostrava;24
+Praha;Wilderse;33
+Praha;Ministerstvo dopravy;23
+Praha;Svobodný;33
+Praha;ENF;29
+Praha;Novinka;16
+Praha;Hřib;43
+Praha;Evropa národů a svoboda;28
+Praha;Plzeň;27
+Praha;Ředitelství silnic a dálnic;16
+Praha;Bakala;13
+Praha;Prahu;15
+Praha;Nos;45
+Praha;Křeček;15
+Praha;Hrnčíř;30
+Praha;Karlovy Vary;35
+Praha;Redl;15
+Praha;Blaško;43
+Praha;Armáda ČR;31
+Praha;Liberec;34
+Praha;Novák;30
+Praha;Doležal;32
+Praha;Bruselská elita;28
+Praha;Novotný;44
+Praha;Úřad práce;29
+Praha;Zlín;17
+Praha;Prostějov;45
+Praha;Národní sdružení;27
+Praha;Legum;22
+Praha;České Budějovice;17
+Praha;Jihlava;34
+Praha;Opava;44
+Praha;Kobza;13
+Praha;Chomutov;42
+Praha;Šumperk;45
+Praha;Jihlavy;31
+Praha;PS PČR;29
+Praha;Horák;29
+Praha;Litoměřice;17
+Praha;Hahnova;43
+Praha;Dopita;43
+Praha;Opavy;29
+Praha;Teplice;15
+Praha;HENNER;43
+Praha;Paul;43
+Praha;Schmeidler;43
+Praha;Příbram;31
+Praha;Blansko;32
+Praha;Trutnov;30
+Praha;Jakl;19
+Praha;Prostějova;30
+Piráti;NATO;44
+Piráti;STAN;489
+Piráti;Sobotka;18
+Piráti;Parlament;79
+Piráti;Hamáček;85
+Piráti;COVID-19;13
+Piráti;ČT;57
+Piráti;Kalousek;85
+Piráti;Česká televize;91
+Piráti;Evropský parlament;81
+Piráti;Brno;17
+Piráti;Prahy;76
+Piráti;Putin;18
+Piráti;Le Pen;56
+Piráti;Salvini;54
+Piráti;ČT 24;16
+Piráti;Merkelová;22
+Piráti;Tv Barrandov;15
+Piráti;Orbán;28
+Piráti;V 4;25
+Piráti;Trump;17
+Piráti;Brně;13
+Piráti;Spolu;107
+Piráti;OSN;16
+Piráti;Agrofert;14
+Piráti;Havlíček;19
+Piráti;Bělobrádek;13
+Piráti;Dukovany;16
+Piráti;Ústavní soud;24
+Piráti;Maláčová;20
+Piráti;Ministerstvo financí;13
+Piráti;ČEZ;23
+Piráti;Vojtěch;22
+Piráti;David;23
+Piráti;Klaus;24
+Piráti;Bartoš;152
+Piráti;Český rozhlas;38
+Piráti;Blatný;13
+Piráti;Parlamentní listy;75
+Piráti;CO2;18
+Piráti;Nejvyšší kontrolní úřad;32
+Piráti;Soros;20
+Piráti;Svoboda;39
+Piráti;Komise;13
+Piráti;NKÚ;17
+Piráti;Wilderse;34
+Piráti;Rakušan;53
+Piráti;Úřad vlády;14
+Piráti;Schwarzenberg;18
+Piráti;Von der Leyen;14
+Piráti;Foldyna;46
+Piráti;Petříček;14
+Piráti;ČTK;14
+Piráti;Moravec;17
+Piráti;Šafránková;17
+Piráti;Trikolóra;52
+Piráti;Hnutí SPD;24
+Piráti;IDnes;13
+Piráti;Volný;14
+Piráti;Jurečka;18
+Piráti;19;13
+Piráti;ANO ČSSD;20
+Piráti;Pekarová;25
+Piráti;Dvořák;18
+Piráti;Berlína;27
+Piráti;Adamová;27
+Piráti;Novinka;29
+Piráti;Hřib;62
+Piráti;Gazdík;26
+Piráti;Green Deal;23
+Piráti;Respekt;18
+Piráti;Polčák;21
+Piráti;Rada ČT;15
+Piráti;Feri;47
+Piráti;Prahu;22
+Piráti;Moskvy;13
+Piráti;Identita a demokracie;36
+Piráti;Šojdrová;31
+Piráti;Seznam zprávy;29
+Piráti;ID;39
+Piráti;Kovanda;14
+Piráti;Redl;23
+Piráti;Rakoušan;32
+Piráti;Seznam;15
+Piráti;Stanjura;15
+Piráti;Eurozóna;33
+Piráti;Google;13
+Piráti;Pospíšil;18
+Piráti;Kolář;13
+Piráti;Farský;21
+Piráti;Klaus ml.;26
+Piráti;Michálek;35
+Piráti;Zelený úděl;20
+Piráti;Česká národní banka;15
+Piráti;Výborný;17
+Piráti;STEM;15
+Piráti;Legum;14
+Piráti;Národní shromáždění;32
+Piráti;Černochová;17
+Piráti;Starostové a nezávislí;24
+Piráti;ANTIFA;20
+Piráti;Šlachta;25
+Piráti;Pirát;20
+Piráti;Rassemblement national;31
+Piráti;Pirátská strana;13
+NATO;STAN;38
+NATO;Sobotka;33
+NATO;Parlament;36
+NATO;Hamáček;43
+NATO;COVID-19;13
+NATO;ČT;16
+NATO;Kalousek;29
+NATO;Česká televize;31
+NATO;Evropský parlament;37
+NATO;Prahy;14
+NATO;Putin;48
+NATO;Le Pen;16
+NATO;Salvini;24
+NATO;Merkelová;21
+NATO;Orbán;18
+NATO;V 4;41
+NATO;Schillerová;13
+NATO;Trump;45
+NATO;Spolu;14
+NATO;OSN;39
+NATO;Evropská rada;19
+NATO;Ostravě;24
+NATO;Havel;22
+NATO;Vojtěch;14
+NATO;David;13
+NATO;Klaus;16
+NATO;Bartoš;16
+NATO;Parlamentní listy;23
+NATO;CO2;27
+NATO;Unie;32
+NATO;Macron;21
+NATO;Islámský stát;40
+NATO;Erdogan;35
+NATO;Berlína;13
+NATO;Eurostat;25
+NATO;Moskvy;16
+NATO;Washingtonu;19
+NATO;EFTA;25
+NATO;Jedlička;24
+NATO;Agrární komora ČR;23
+NATO;Palacký;36
+NATO;Jandejsek;23
+NATO;Obama;13
+NATO;Konzervativní strana;25
+NATO;Severoatlantická aliance;23
+NATO;Pobaltí;20
+NATO;Hannan;24
+STAN;Sobotka;15
+STAN;Parlament;73
+STAN;Hamáček;70
+STAN;ČT;60
+STAN;Kalousek;79
+STAN;Česká televize;71
+STAN;Evropský parlament;74
+STAN;Prahy;59
+STAN;Le Pen;38
+STAN;Salvini;32
+STAN;ČT 24;15
+STAN;Merkelová;17
+STAN;Orbán;26
+STAN;V 4;29
+STAN;Brně;14
+STAN;Spolu;92
+STAN;OSN;21
+STAN;Havlíček;14
+STAN;Bělobrádek;21
+STAN;Dukovany;16
+STAN;Ústavní soud;23
+STAN;ČEZ;18
+STAN;Vojtěch;17
+STAN;David;17
+STAN;Klaus;17
+STAN;Bartoš;66
+STAN;Český rozhlas;29
+STAN;Parlamentní listy;58
+STAN;Nejvyšší kontrolní úřad;25
+STAN;Svoboda;30
+STAN;NKÚ;13
+STAN;Wilderse;15
+STAN;Rakušan;127
+STAN;Foldyna;17
+STAN;TV Prima;24
+STAN;Moravec;16
+STAN;Právo;13
+STAN;Trikolóra;43
+STAN;Hnutí SPD;24
+STAN;Jurečka;24
+STAN;Pekarová;29
+STAN;Dvořák;15
+STAN;Berlína;18
+STAN;Adamová;27
+STAN;Novinka;16
+STAN;Hřib;27
+STAN;Gazdík;68
+STAN;Green Deal;23
+STAN;Respekt;13
+STAN;Polčák;72
+STAN;Rada ČT;17
+STAN;Feri;42
+STAN;Prahu;25
+STAN;Identita a demokracie;19
+STAN;Šojdrová;39
+STAN;Seznam zprávy;28
+STAN;ID;19
+STAN;Redl;41
+STAN;Rakoušan;75
+STAN;Seznam;23
+STAN;Stanjura;17
+STAN;Eurozóna;32
+STAN;Zdechovský;17
+STAN;Válek;17
+STAN;Doležal;16
+STAN;Pospíšil;32
+STAN;Kolář;19
+STAN;Farský;47
+STAN;Klaus ml.;25
+STAN;Zelený úděl;15
+STAN;Síkela;20
+STAN;Výborný;20
+STAN;STEM;14
+STAN;Hlubuček;31
+STAN;Národní shromáždění;13
+STAN;Černochová;18
+STAN;Charanzová;17
+STAN;Poche;15
+STAN;Starostové a nezávislí;27
+STAN;Dlabajová;17
+STAN;Kupka;16
+STAN;Ježek;14
+STAN;Šlachta;17
+STAN;Reportér ČT;13
+STAN;Niedermayer;18
+STAN;Teličko;14
+Sobotka;Parlament;69
+Sobotka;Hamáček;32
+Sobotka;ČT;19
+Sobotka;Kalousek;133
+Sobotka;Česká televize;69
+Sobotka;Evropský parlament;21
+Sobotka;Prahy;40
+Sobotka;Putin;15
+Sobotka;Le Pen;46
+Sobotka;Merkelová;71
+Sobotka;Orbán;17
+Sobotka;V 4;13
+Sobotka;Trump;20
+Sobotka;Bělobrádek;194
+Sobotka;Havel;16
+Sobotka;Český rozhlas;15
+Sobotka;Parlamentní listy;32
+Sobotka;Nejvyšší kontrolní úřad;19
+Sobotka;Hnutí Svoboda a přímá demokracie;84
+Sobotka;NKÚ;14
+Sobotka;Juncker;27
+Sobotka;Islámský stát;25
+Sobotka;Schwarzenberg;26
+Sobotka;OKD;81
+Sobotka;ČTK;16
+Sobotka;Ústí nad Labem;13
+Sobotka;Čapí hnízdo;17
+Sobotka;Erdogan;14
+Sobotka;Bakala;63
+Sobotka;Respekt;31
+Sobotka;Nos;26
+Sobotka;Zaorálek;17
+Sobotka;CVVM;15
+Sobotka;EFTA;14
+Sobotka;Stropnický;16
+Sobotka;SPO;42
+Sobotka;Národní fronta;23
+Sobotka;Bakalův;17
+Sobotka;Holík;23
+Sobotka;Brichta;19
+Sobotka;Pelikán;17
+Sobotka;Chovanec;14
+Sobotka;Atkinson;16
+Sobotka;Pokorný;25
+Parlament;Hamáček;42
+Parlament;ČT;20
+Parlament;Kalousek;25
+Parlament;Česká televize;40
+Parlament;Evropský parlament;98
+Parlament;Brno;27
+Parlament;Prahy;14
+Parlament;Le Pen;84
+Parlament;Salvini;75
+Parlament;Merkelová;59
+Parlament;Orbán;35
+Parlament;V 4;20
+Parlament;Trump;14
+Parlament;OSN;41
+Parlament;Evropská rada;25
+Parlament;Havlíček;13
+Parlament;Ústavní soud;14
+Parlament;Vojtěch;13
+Parlament;David;43
+Parlament;Klaus;16
+Parlament;EP;19
+Parlament;Bartoš;16
+Parlament;Český rozhlas;16
+Parlament;Parlamentní listy;23
+Parlament;Unie;32
+Parlament;Soros;23
+Parlament;Macron;23
+Parlament;Svoboda;51
+Parlament;Komise;63
+Parlament;Wilderse;46
+Parlament;Juncker;40
+Parlament;Islámský stát;17
+Parlament;Jourová;14
+Parlament;Berlíně;15
+Parlament;Svobodný;48
+Parlament;ANO ČSSD;18
+Parlament;Pekarová;13
+Parlament;ENF;45
+Parlament;Erdogan;18
+Parlament;Rada;15
+Parlament;Evropa národů a svoboda;41
+Parlament;Polčák;32
+Parlament;Nos;27
+Parlament;Identita a demokracie;14
+Parlament;AFD;13
+Parlament;Šojdrová;23
+Parlament;Hrnčíř;26
+Parlament;Karlovy Vary;20
+Parlament;Ministerstvo vnitra;16
+Parlament;ID;14
+Parlament;Zdechovský;19
+Parlament;Blaško;25
+Parlament;Armáda ČR;21
+Parlament;Liberec;16
+Parlament;Doležal;19
+Parlament;Bruselská elita;39
+Parlament;Pospíšil;16
+Parlament;Novotný;16
+Parlament;Úřad práce;17
+Parlament;Prostějov;16
+Parlament;Národní sdružení;29
+Parlament;Legum;22
+Parlament;Jihlava;16
+Parlament;Charanzová;34
+Parlament;Poche;18
+Parlament;Opava;16
+Parlament;Chomutov;16
+Parlament;Šumperk;16
+Parlament;Jihlavy;16
+Parlament;PS PČR;18
+Parlament;Dlabajová;32
+Parlament;Horák;16
+Parlament;Ježek;24
+Parlament;Hahnova;16
+Parlament;Johansson;15
+Parlament;Niedermayer;19
+Parlament;Dopita;16
+Parlament;Opavy;16
+Parlament;Teličko;25
+Parlament;HENNER;16
+Parlament;Paul;16
+Parlament;Schmeidler;16
+Parlament;Příbram;16
+Parlament;Blansko;16
+Parlament;Trutnov;16
+Parlament;Prostějova;16
+Hamáček;COVID-19;21
+Hamáček;ČT;27
+Hamáček;Kalousek;58
+Hamáček;Česká televize;40
+Hamáček;Evropský parlament;68
+Hamáček;Prahy;31
+Hamáček;Putin;14
+Hamáček;Le Pen;21
+Hamáček;Salvini;25
+Hamáček;Merkelová;35
+Hamáček;Orbán;13
+Hamáček;V 4;18
+Hamáček;Schillerová;30
+Hamáček;Pražský hrad;15
+Hamáček;Trump;13
+Hamáček;Spolu;30
+Hamáček;OSN;41
+Hamáček;Havlíček;35
+Hamáček;Ústavní soud;13
+Hamáček;Maláčová;44
+Hamáček;Ministerstvo zdravotnictví;18
+Hamáček;Vojtěch;38
+Hamáček;Klaus;19
+Hamáček;Bartoš;42
+Hamáček;Český rozhlas;16
+Hamáček;Blatný;29
+Hamáček;Parlamentní listy;37
+Hamáček;Unie;13
+Hamáček;Nejvyšší kontrolní úřad;28
+Hamáček;Lánech;21
+Hamáček;Svoboda;21
+Hamáček;Komise;20
+Hamáček;NKÚ;17
+Hamáček;Prymula;18
+Hamáček;Schwarzenberg;22
+Hamáček;OKD;23
+Hamáček;Foldyna;16
+Hamáček;Petříček;37
+Hamáček;ČTK;13
+Hamáček;Trikolóra;28
+Hamáček;19;13
+Hamáček;ANO ČSSD;24
+Hamáček;Erdogan;13
+Hamáček;Bakala;30
+Hamáček;Respekt;22
+Hamáček;Feri;27
+Hamáček;Vláda;13
+Hamáček;Moskvy;20
+Hamáček;Zaorálek;14
+Hamáček;Policie;14
+Hamáček;Šojdrová;33
+Hamáček;Česká pošta;13
+Hamáček;Ministerstvo vnitra;22
+Hamáček;Seznam zprávy;19
+Hamáček;Benešová;16
+Hamáček;Eurozóna;26
+Hamáček;CVVM;14
+Hamáček;Klaus ml.;25
+Hamáček;Maříková;29
+Hamáček;Plaga;16
+Hamáček;Vrběticích;13
+Hamáček;Bakalův;22
+Hamáček;Deník;16
+Hamáček;Starostové a nezávislí;19
+Hamáček;Hospodářská novina;14
+Hamáček;Šlachta;17
+Hamáček;Arenberger;13
+Hamáček;Vrbětice;14
+Hamáček;Johansson;13
+Hamáček;Lukavce;23
+Hamáček;Ano čssd;13
+Hamáček;Pokorný;16
+COVID-19;Ministerstvo zdravotnictví;19
+COVID-19;COVID;22
+COVID-19;Blatný;18
+COVID-19;Prymula;15
+ČT;Kalousek;25
+ČT;Česká televize;185
+ČT;Evropský parlament;15
+ČT;Prahy;13
+ČT;Putin;15
+ČT;Le Pen;15
+ČT;ČT 24;32
+ČT;Orbán;13
+ČT;Trump;21
+ČT;Klaus;14
+ČT;Český rozhlas;58
+ČT;Parlamentní listy;29
+ČT;Nejvyšší kontrolní úřad;76
+ČT;NKÚ;41
+ČT;Rakušan;15
+ČT;Moravec;56
+ČT;Dvořák;78
+ČT;Rada;15
+ČT;Otázky Václava Moravce;37
+ČT;Respekt;22
+ČT;Rada ČT;102
+ČT;Televize;16
+ČT;Lipovský;45
+ČT;Bakalův;14
+ČT;ČRo;35
+ČT;Událost;20
+ČT;168 hodina;41
+ČT;Reportér ČT;44
+Kalousek;Česká televize;58
+Kalousek;Evropský parlament;36
+Kalousek;Prahy;19
+Kalousek;Le Pen;22
+Kalousek;Salvini;14
+Kalousek;Merkelová;15
+Kalousek;Schillerová;15
+Kalousek;Spolu;18
+Kalousek;Bělobrádek;78
+Kalousek;Klaus;23
+Kalousek;Bartoš;44
+Kalousek;Český rozhlas;23
+Kalousek;Parlamentní listy;26
+Kalousek;Nejvyšší kontrolní úřad;19
+Kalousek;Hnutí Svoboda a přímá demokracie;23
+Kalousek;Svoboda;19
+Kalousek;NKÚ;14
+Kalousek;Schwarzenberg;23
+Kalousek;OKD;25
+Kalousek;Foldyna;13
+Kalousek;Trikolóra;31
+Kalousek;Gazdík;15
+Kalousek;Bakala;16
+Kalousek;Feri;35
+Kalousek;Šojdrová;22
+Kalousek;Seznam zprávy;20
+Kalousek;Eurozóna;31
+Kalousek;Klaus ml.;26
+Kalousek;Starostové a nezávislí;20
+Kalousek;VZP;15
+Kalousek;Šlachta;17
+Česká televize;Evropský parlament;24
+Česká televize;Prahy;27
+Česká televize;Putin;20
+Česká televize;Le Pen;27
+Česká televize;Salvini;16
+Česká televize;ČT 24;31
+Česká televize;Tv Barrandov;25
+Česká televize;Orbán;20
+Česká televize;Trump;27
+Česká televize;Bělobrádek;22
+Česká televize;Klaus;17
+Česká televize;Bartoš;17
+Česká televize;Český rozhlas;132
+Česká televize;Parlamentní listy;39
+Česká televize;Nejvyšší kontrolní úřad;90
+Česká televize;Soros;22
+Česká televize;Svoboda;13
+Česká televize;NKÚ;45
+Česká televize;Prima;13
+Česká televize;Schwarzenberg;16
+Česká televize;Petříček;13
+Česká televize;Moravec;55
+Česká televize;Události komentáře;17
+Česká televize;Dvořák;64
+Česká televize;Rada;19
+Česká televize;Bakala;16
+Česká televize;Otázky Václava Moravce;36
+Česká televize;Respekt;16
+Česká televize;Rada ČT;40
+Česká televize;Televize;14
+Česká televize;Lipovský;19
+Česká televize;Úsvit;18
+Česká televize;ČRo;16
+Česká televize;Událost;14
+Česká televize;168 hodina;38
+Česká televize;Reportér ČT;33
+Evropský parlament;Brno;24
+Evropský parlament;Prahy;26
+Evropský parlament;Le Pen;196
+Evropský parlament;Salvini;200
+Evropský parlament;Merkelová;70
+Evropský parlament;Orbán;48
+Evropský parlament;Spolu;21
+Evropský parlament;OSN;35
+Evropský parlament;David;91
+Evropský parlament;Klaus;18
+Evropský parlament;EP;23
+Evropský parlament;Bartoš;34
+Evropský parlament;Parlamentní listy;26
+Evropský parlament;CO2;50
+Evropský parlament;Unie;54
+Evropský parlament;Soros;33
+Evropský parlament;Macron;45
+Evropský parlament;Svoboda;79
+Evropský parlament;Komise;38
+Evropský parlament;Wilderse;105
+Evropský parlament;Juncker;57
+Evropský parlament;Schwarzenberg;15
+Evropský parlament;Foldyna;30
+Evropský parlament;Jourová;19
+Evropský parlament;Trikolóra;28
+Evropský parlament;Svobodný;81
+Evropský parlament;ENF;69
+Evropský parlament;Erdogan;14
+Evropský parlament;Berlína;16
+Evropský parlament;Evropa národů a svoboda;66
+Evropský parlament;Polčák;22
+Evropský parlament;Feri;30
+Evropský parlament;Eurostat;28
+Evropský parlament;Nos;26
+Evropský parlament;Identita a demokracie;60
+Evropský parlament;AFD;18
+Evropský parlament;Šojdrová;45
+Evropský parlament;Wilder;34
+Evropský parlament;Hrnčíř;22
+Evropský parlament;Karlovy Vary;16
+Evropský parlament;Ministerstvo vnitra;15
+Evropský parlament;Seznam zprávy;20
+Evropský parlament;ID;54
+Evropský parlament;Eurozóna;26
+Evropský parlament;Zdechovský;23
+Evropský parlament;Blaško;40
+Evropský parlament;Liga;21
+Evropský parlament;Armáda ČR;22
+Evropský parlament;EFTA;44
+Evropský parlament;Liberec;22
+Evropský parlament;Doležal;28
+Evropský parlament;Bruselská elita;52
+Evropský parlament;Pospíšil;15
+Evropský parlament;Klaus ml.;22
+Evropský parlament;Novotný;22
+Evropský parlament;Úřad práce;23
+Evropský parlament;Prostějov;22
+Evropský parlament;Jedlička;36
+Evropský parlament;Národní sdružení;46
+Evropský parlament;Agrární komora ČR;22
+Evropský parlament;Palacký;26
+Evropský parlament;Legum;29
+Evropský parlament;Bakalův;15
+Evropský parlament;Jandejsek;23
+Evropský parlament;Národní shromáždění;34
+Evropský parlament;Jihlava;22
+Evropský parlament;Charanzová;24
+Evropský parlament;Poche;21
+Evropský parlament;Opava;22
+Evropský parlament;Starostové a nezávislí;20
+Evropský parlament;Chomutov;22
+Evropský parlament;Šumperk;22
+Evropský parlament;Konzervativní strana;38
+Evropský parlament;Jihlavy;22
+Evropský parlament;PS PČR;22
+Evropský parlament;Dlabajová;23
+Evropský parlament;Horák;22
+Evropský parlament;Ježek;22
+Evropský parlament;Šlachta;17
+Evropský parlament;Hahnova;22
+Evropský parlament;Fidesz;15
+Evropský parlament;Johansson;18
+Evropský parlament;Niedermayer;23
+Evropský parlament;Dopita;23
+Evropský parlament;Opavy;22
+Evropský parlament;Teličko;22
+Evropský parlament;Rassemblement national;29
+Evropský parlament;HENNER;22
+Evropský parlament;Paul;22
+Evropský parlament;Schmeidler;22
+Evropský parlament;Atkinson;13
+Evropský parlament;Příbram;22
+Evropský parlament;Blansko;22
+Evropský parlament;Trutnov;22
+Evropský parlament;FPÖ;14
+Evropský parlament;Prostějova;22
+Evropský parlament;Hannan;37
+Brno;Le Pen;31
+Brno;Salvini;28
+Brno;Brně;26
+Brno;ŘSD;17
+Brno;David;29
+Brno;Svoboda;25
+Brno;Ostrava;14
+Brno;Wilderse;29
+Brno;Brna;15
+Brno;Svobodný;28
+Brno;ENF;26
+Brno;Evropa národů a svoboda;26
+Brno;Nos;30
+Brno;Hrnčíř;33
+Brno;Karlovy Vary;29
+Brno;Blaško;29
+Brno;Armáda ČR;32
+Brno;Liberec;33
+Brno;Doležal;29
+Brno;Bruselská elita;26
+Brno;Novotný;29
+Brno;Úřad práce;29
+Brno;Prostějov;30
+Brno;Národní sdružení;26
+Brno;Legum;22
+Brno;Jihlava;32
+Brno;Opava;31
+Brno;Chomutov;29
+Brno;Šumperk;30
+Brno;Jihlavy;30
+Brno;PS PČR;30
+Brno;Horák;30
+Brno;Hahnova;29
+Brno;Dopita;29
+Brno;Opavy;29
+Brno;HENNER;29
+Brno;Paul;29
+Brno;Schmeidler;29
+Brno;Příbram;29
+Brno;Blansko;31
+Brno;Trutnov;30
+Brno;Prostějova;29
+Prahy;Le Pen;43
+Prahy;Salvini;16
+Prahy;Pražský hrad;13
+Prahy;Brně;15
+Prahy;David;16
+Prahy;Wilderse;14
+Prahy;Brna;25
+Prahy;Berlíně;20
+Prahy;ENF;13
+Prahy;Novinka;17
+Prahy;Hřib;37
+Prahy;Evropa národů a svoboda;16
+Prahy;Gazdík;13
+Prahy;Prahu;25
+Prahy;Nos;55
+Prahy;Redl;23
+Prahy;Koněv;32
+Prahy;Doležal;16
+Prahy;Kolář;28
+Prahy;Úsvit;19
+Prahy;SPO;22
+Prahy;Národní fronta;24
+Prahy;Holík;29
+Prahy;Brichta;46
+Prahy;Lukavce;13
+Prahy;Atkinson;32
+Prahy;Bárta;19
+Putin;Le Pen;18
+Putin;Merkelová;16
+Putin;Orbán;19
+Putin;Trump;32
+Putin;Islámský stát;14
+Putin;Kreml;16
+Putin;Moskvě;21
+Putin;BIDEN;13
+Le Pen;Salvini;289
+Le Pen;Merkelová;68
+Le Pen;Orbán;70
+Le Pen;Trump;30
+Le Pen;Spolu;15
+Le Pen;OSN;15
+Le Pen;David;56
+Le Pen;Bartoš;14
+Le Pen;Parlamentní listy;27
+Le Pen;Soros;23
+Le Pen;Macron;68
+Le Pen;Svoboda;97
+Le Pen;Wilderse;186
+Le Pen;Juncker;52
+Le Pen;Islámský stát;17
+Le Pen;Foldyna;40
+Le Pen;Trikolóra;20
+Le Pen;Svobodný;103
+Le Pen;ENF;121
+Le Pen;Evropa národů a svoboda;114
+Le Pen;Nos;54
+Le Pen;Identita a demokracie;74
+Le Pen;AFD;37
+Le Pen;Šojdrová;13
+Le Pen;Wilder;74
+Le Pen;Hrnčíř;28
+Le Pen;Karlovy Vary;22
+Le Pen;Seznam zprávy;13
+Le Pen;ID;65
+Le Pen;Makron;25
+Le Pen;Blaško;40
+Le Pen;Liga;23
+Le Pen;Armáda ČR;28
+Le Pen;Liberec;28
+Le Pen;Doležal;31
+Le Pen;Bruselská elita;69
+Le Pen;Novotný;29
+Le Pen;Úřad práce;28
+Le Pen;Prostějov;28
+Le Pen;Národní sdružení;64
+Le Pen;SPO;21
+Le Pen;Národní fronta;48
+Le Pen;Legum;52
+Le Pen;Národní shromáždění;50
+Le Pen;Jihlava;29
+Le Pen;Holík;18
+Le Pen;Opava;28
+Le Pen;Chomutov;28
+Le Pen;Šumperk;28
+Le Pen;Brichta;26
+Le Pen;Jihlavy;28
+Le Pen;PS PČR;28
+Le Pen;Horák;28
+Le Pen;Šlachta;13
+Le Pen;Hahnova;28
+Le Pen;Dopita;29
+Le Pen;Opavy;28
+Le Pen;Rassemblement national;43
+Le Pen;HENNER;28
+Le Pen;Paul;28
+Le Pen;Schmeidler;28
+Le Pen;Atkinson;39
+Le Pen;Příbram;28
+Le Pen;Blansko;28
+Le Pen;Trutnov;29
+Le Pen;FPÖ;27
+Le Pen;Prostějova;28
+Salvini;Merkelová;65
+Salvini;Orbán;58
+Salvini;Trump;18
+Salvini;Spolu;13
+Salvini;OSN;17
+Salvini;David;54
+Salvini;Bartoš;16
+Salvini;Parlamentní listy;21
+Salvini;CO2;22
+Salvini;Unie;22
+Salvini;Soros;36
+Salvini;Macron;43
+Salvini;Svoboda;83
+Salvini;Wilderse;153
+Salvini;Juncker;51
+Salvini;Foldyna;48
+Salvini;Trikolóra;20
+Salvini;Svobodný;105
+Salvini;ENF;94
+Salvini;Evropa národů a svoboda;89
+Salvini;Feri;14
+Salvini;Eurostat;26
+Salvini;Nos;30
+Salvini;Identita a demokracie;70
+Salvini;AFD;30
+Salvini;Wilder;62
+Salvini;Hrnčíř;28
+Salvini;Karlovy Vary;22
+Salvini;Seznam zprávy;14
+Salvini;ID;60
+Salvini;Makron;14
+Salvini;Eurozóna;13
+Salvini;Blaško;40
+Salvini;Liga;69
+Salvini;Armáda ČR;28
+Salvini;EFTA;22
+Salvini;Liberec;28
+Salvini;Doležal;31
+Salvini;Bruselská elita;69
+Salvini;Novotný;29
+Salvini;Úřad práce;28
+Salvini;Prostějov;28
+Salvini;Jedlička;19
+Salvini;Národní sdružení;56
+Salvini;Agrární komora ČR;19
+Salvini;Palacký;26
+Salvini;Legum;57
+Salvini;Jandejsek;19
+Salvini;Národní shromáždění;50
+Salvini;Jihlava;28
+Salvini;Opava;28
+Salvini;Starostové a nezávislí;13
+Salvini;Chomutov;28
+Salvini;Šumperk;28
+Salvini;Konzervativní strana;21
+Salvini;Jihlavy;28
+Salvini;PS PČR;28
+Salvini;Horák;28
+Salvini;Šlachta;13
+Salvini;Hahnova;28
+Salvini;Dopita;29
+Salvini;Opavy;28
+Salvini;Rassemblement national;42
+Salvini;HENNER;28
+Salvini;Paul;28
+Salvini;Schmeidler;28
+Salvini;Atkinson;16
+Salvini;Příbram;28
+Salvini;Blansko;28
+Salvini;Trutnov;28
+Salvini;FPÖ;20
+Salvini;Prostějova;28
+Salvini;Hannan;19
+ČT 24;Moravec;14
+ČT 24;Události komentáře;67
+ČT 24;Interview;37
+ČT 24;168 hodina;16
+Merkelová;Orbán;49
+Merkelová;V 4;21
+Merkelová;Trump;19
+Merkelová;OSN;22
+Merkelová;Evropská rada;15
+Merkelová;Parlamentní listy;19
+Merkelová;Unie;14
+Merkelová;Soros;47
+Merkelová;Macron;85
+Merkelová;Hitler;15
+Merkelová;Komise;18
+Merkelová;Wilderse;18
+Merkelová;Juncker;118
+Merkelová;Islámský stát;19
+Merkelová;Von der Leyen;25
+Merkelová;Berlíně;17
+Merkelová;Svobodný;29
+Merkelová;ENF;18
+Merkelová;Erdogan;20
+Merkelová;Evropa národů a svoboda;13
+Merkelová;AFD;32
+Merkelová;Wilder;16
+Merkelová;Ministerstvo vnitra;14
+Merkelová;Makron;18
+Merkelová;Liga;13
+Merkelová;CDU;16
+Merkelová;Johansson;13
+Merkelová;Lukavce;16
+Tv Barrandov;Soukup;34
+Tv Barrandov;Aréna;70
+Orbán;V 4;67
+Orbán;Trump;17
+Orbán;Parlamentní listy;21
+Orbán;Soros;43
+Orbán;Macron;38
+Orbán;Wilderse;17
+Orbán;Juncker;35
+Orbán;Jourová;18
+Orbán;ENF;13
+Orbán;Berlína;18
+Orbán;AFD;16
+Orbán;Wilder;16
+Orbán;Budapešti;19
+Orbán;Fidesz;35
+V 4;Evropská rada;39
+V 4;Jourová;17
+V 4;Berlína;15
+V 4;Budapešti;26
+Schillerová;EET;18
+Schillerová;Havlíček;42
+Schillerová;Maláčová;27
+Schillerová;Ministerstvo financí;31
+Schillerová;Vojtěch;36
+Schillerová;Lánech;18
+Schillerová;Brabec;17
+Schillerová;Dostálová;14
+Pražský hrad;OVTV;37
+Trump;OSN;17
+Trump;Parlamentní listy;20
+Trump;Islámský stát;16
+Trump;BIDEN;20
+Trump;Biden;15
+Trump;Obama;23
+Trump;Black Lives Matter;13
+Trump;Bílý dům;17
+Brně;Ostravě;18
+Brně;Brna;14
+Brně;Masarykova univerzita;17
+Spolu;Bartoš;26
+Spolu;Parlamentní listy;16
+Spolu;Svoboda;14
+Spolu;Rakušan;14
+Spolu;Trikolóra;16
+Spolu;Jurečka;13
+Spolu;Pekarová;16
+Spolu;Adamová;20
+Spolu;Feri;31
+Spolu;Identita a demokracie;13
+Spolu;Šojdrová;16
+Spolu;Seznam zprávy;20
+Spolu;ID;13
+Spolu;Eurozóna;17
+Spolu;Starostové a nezávislí;15
+Spolu;Šlachta;23
+OSVČ;Antivirus;15
+OSN;CO2;15
+OSN;Komise;25
+OSN;Erdogan;19
+OSN;Identita a demokracie;13
+OSN;New Yorku;22
+OSN;Deník;13
+OSN;Johansson;15
+Evropská rada;Havlíček;14
+Evropská rada;Komise;16
+Evropská rada;Von der Leyen;20
+Hrad;Lánech;19
+Agrofert;Čapí hnízdo;16
+EET;Ministerstvo financí;13
+Havlíček;Dukovany;16
+Havlíček;Maláčová;16
+Havlíček;Vojtěch;28
+Havlíček;Ředitelství silnic a dálnic;13
+Havlíček;Benešová;14
+Havlíček;Brabec;20
+Havlíček;Dostálová;18
+Bělobrádek;Hnutí Svoboda a přímá demokracie;52
+Bělobrádek;Herman;27
+Bělobrádek;Sudetoněmecký landsmanšaft;18
+Dukovany;ČEZ;49
+Dukovany;Green Deal;15
+Dukovany;Temelín;62
+MPO;CzechInvest;13
+Ostravě;Ostrava;23
+Ústavní soud;Nejvyšší soud;18
+Havel;Klaus;24
+Havel;Masaryk;14
+Havel;Schwarzenberg;17
+Maláčová;Vojtěch;17
+Maláčová;MPSV;19
+Maláčová;Ministerstvo práce a sociálních věcí;15
+Ministerstvo zdravotnictví;Vojtěch;13
+Ministerstvo zdravotnictví;Blatný;15
+ČEZ;Temelín;18
+ČEZ;ČEPS;13
+Vojtěch;Nejvyšší kontrolní úřad;14
+Vojtěch;Prymula;21
+Vojtěch;Petříček;13
+Vojtěch;Brabec;13
+Vojtěch;Dostálová;13
+Vojtěch;Plaga;13
+ŘSD;Ředitelství silnic a dálnic;51
+David;EP;20
+David;Svoboda;26
+David;Wilderse;36
+David;Svobodný;35
+David;ENF;35
+David;Evropa národů a svoboda;32
+David;Plzeň;14
+David;Nos;44
+David;Křeček;15
+David;Identita a demokracie;20
+David;Wilder;13
+David;Hrnčíř;29
+David;Karlovy Vary;24
+David;ID;15
+David;Redl;14
+David;Blaško;72
+David;Armáda ČR;29
+David;Liberec;29
+David;Novák;16
+David;Doležal;34
+David;Bruselská elita;32
+David;Novotný;43
+David;Úřad práce;29
+David;Zlín;14
+David;Prostějov;43
+David;Národní sdružení;32
+David;Legum;23
+David;České Budějovice;14
+David;Jihlava;29
+David;Opava;43
+David;Chomutov;42
+David;Šumperk;43
+David;Jihlavy;29
+David;PS PČR;29
+David;Horák;29
+David;Litoměřice;14
+David;Hahnova;43
+David;Dopita;44
+David;Opavy;29
+David;Teplice;15
+David;HENNER;43
+David;Paul;43
+David;Schmeidler;43
+David;Atkinson;13
+David;Příbram;29
+David;Blansko;29
+David;Trutnov;29
+David;Jakl;17
+David;Prostějova;29
+Klaus;Parlamentní listy;16
+Klaus;Unie;13
+Klaus;Trikolóra;39
+Klaus;EFTA;15
+Klaus;Klaus ml.;13
+Bartoš;Parlamentní listy;18
+Bartoš;Svoboda;13
+Bartoš;Rakušan;22
+Bartoš;Foldyna;13
+Bartoš;Trikolóra;20
+Bartoš;Jurečka;16
+Bartoš;Pekarová;17
+Bartoš;Adamová;18
+Bartoš;Gazdík;14
+Bartoš;Feri;39
+Bartoš;Šojdrová;22
+Bartoš;Seznam zprávy;17
+Bartoš;Eurozóna;25
+Bartoš;CVVM;13
+Bartoš;Klaus ml.;16
+Bartoš;Výborný;14
+Bartoš;Starostové a nezávislí;20
+Bartoš;ANTIFA;26
+Bartoš;Akademie věd;14
+Bartoš;Kupka;13
+Bartoš;Šlachta;14
+Český rozhlas;Parlamentní listy;15
+Český rozhlas;Nejvyšší kontrolní úřad;50
+Český rozhlas;NKÚ;19
+Český rozhlas;Moravec;19
+Český rozhlas;Dvořák;22
+Český rozhlas;Otázky Václava Moravce;15
+Český rozhlas;Rada ČT;16
+Český rozhlas;ČRo;16
+Blatný;Parlamentní listy;14
+Blatný;Petříček;18
+Blatný;ANO ČSSD;16
+Blatný;SÚKL;13
+Parlamentní listy;Unie;14
+Parlamentní listy;Nejvyšší kontrolní úřad;17
+Parlamentní listy;Šafránková;13
+Parlamentní listy;ANO ČSSD;16
+Parlamentní listy;Green Deal;15
+Parlamentní listy;Washingtonu;13
+CO2;Unie;40
+CO2;Green Deal;14
+CO2;Eurostat;22
+CO2;Kovanda;14
+CO2;EFTA;41
+CO2;Zelený úděl;27
+CO2;Jedlička;37
+CO2;Agrární komora ČR;22
+CO2;Palacký;20
+CO2;Jandejsek;21
+CO2;Konzervativní strana;38
+CO2;Ochrana klimatu ČR;27
+CO2;Hannan;38
+Unie;Komise;26
+Unie;Juncker;14
+Unie;Eurostat;15
+Unie;EFTA;38
+Unie;Jedlička;32
+Unie;Agrární komora ČR;15
+Unie;Palacký;15
+Unie;Jandejsek;15
+Unie;Konzervativní strana;34
+Unie;Hannan;33
+Nejvyšší kontrolní úřad;NKÚ;107
+Nejvyšší kontrolní úřad;Moravec;27
+Nejvyšší kontrolní úřad;Dvořák;32
+Nejvyšší kontrolní úřad;Otázky Václava Moravce;20
+Nejvyšší kontrolní úřad;Rada ČT;20
+Nejvyšší kontrolní úřad;ČRo;16
+Nejvyšší kontrolní úřad;168 hodina;17
+Nejvyšší kontrolní úřad;Reportér ČT;15
+Lánech;Masaryk;16
+Soros;Macron;26
+Soros;Juncker;42
+Soros;Jourová;17
+Soros;Svobodný;15
+Soros;Bakala;14
+Soros;Sokol;18
+Macron;Wilderse;15
+Macron;Juncker;55
+Macron;Wilder;17
+Macron;Makron;33
+Hitler;Stalin;25
+Hitler;Gottwald;15
+Svoboda;Wilderse;85
+Svoboda;Foldyna;37
+Svoboda;Trikolóra;15
+Svoboda;Svobodný;45
+Svoboda;ENF;47
+Svoboda;Evropa národů a svoboda;45
+Svoboda;Polčák;20
+Svoboda;Feri;14
+Svoboda;Nos;22
+Svoboda;Identita a demokracie;40
+Svoboda;Šojdrová;34
+Svoboda;Wilder;17
+Svoboda;Hrnčíř;23
+Svoboda;Karlovy Vary;16
+Svoboda;ID;39
+Svoboda;Eurozóna;13
+Svoboda;Zdechovský;28
+Svoboda;Blaško;24
+Svoboda;Armáda ČR;22
+Svoboda;Liberec;22
+Svoboda;Doležal;25
+Svoboda;Bruselská elita;30
+Svoboda;Pospíšil;14
+Svoboda;Novotný;22
+Svoboda;Úřad práce;22
+Svoboda;Prostějov;22
+Svoboda;Národní sdružení;37
+Svoboda;Legum;49
+Svoboda;Národní shromáždění;46
+Svoboda;Jihlava;22
+Svoboda;Charanzová;20
+Svoboda;Poche;20
+Svoboda;Opava;22
+Svoboda;Starostové a nezávislí;13
+Svoboda;Chomutov;22
+Svoboda;Šumperk;22
+Svoboda;Jihlavy;22
+Svoboda;PS PČR;22
+Svoboda;Dlabajová;20
+Svoboda;Horák;22
+Svoboda;Ježek;20
+Svoboda;Šlachta;13
+Svoboda;Hahnova;22
+Svoboda;Niedermayer;20
+Svoboda;Dopita;22
+Svoboda;Opavy;22
+Svoboda;Teličko;20
+Svoboda;Rassemblement national;41
+Svoboda;HENNER;22
+Svoboda;Paul;22
+Svoboda;Schmeidler;22
+Svoboda;Příbram;22
+Svoboda;Blansko;22
+Svoboda;Trutnov;22
+Svoboda;Prostějova;26
+Ostrava;Plzeň;15
+Ostrava;Zlín;13
+Ostrava;Opava;15
+Komise;Juncker;13
+Komise;Von der Leyen;17
+Komise;Jourová;16
+Komise;Rada;18
+Komise;Ministerstvo vnitra;15
+Komise;Charanzová;16
+Komise;Dlabajová;16
+Komise;Ježek;13
+Komise;Johansson;18
+Komise;Teličko;13
+NKÚ;Moravec;15
+NKÚ;Dvořák;23
+Wilderse;Juncker;15
+Wilderse;Foldyna;33
+Wilderse;Trikolóra;13
+Wilderse;Svobodný;90
+Wilderse;ENF;76
+Wilderse;Evropa národů a svoboda;74
+Wilderse;Nos;32
+Wilderse;Identita a demokracie;35
+Wilderse;AFD;13
+Wilderse;Wilder;29
+Wilderse;Hrnčíř;28
+Wilderse;Karlovy Vary;22
+Wilderse;ID;35
+Wilderse;Blaško;28
+Wilderse;Armáda ČR;28
+Wilderse;Liberec;28
+Wilderse;Doležal;30
+Wilderse;Bruselská elita;68
+Wilderse;Novotný;28
+Wilderse;Úřad práce;28
+Wilderse;Prostějov;28
+Wilderse;Národní sdružení;48
+Wilderse;Legum;48
+Wilderse;Národní shromáždění;41
+Wilderse;Jihlava;28
+Wilderse;Opava;28
+Wilderse;Chomutov;28
+Wilderse;Šumperk;28
+Wilderse;Jihlavy;28
+Wilderse;PS PČR;28
+Wilderse;Horák;28
+Wilderse;Hahnova;28
+Wilderse;Dopita;29
+Wilderse;Opavy;28
+Wilderse;Rassemblement national;36
+Wilderse;HENNER;28
+Wilderse;Paul;28
+Wilderse;Schmeidler;28
+Wilderse;Atkinson;17
+Wilderse;Příbram;28
+Wilderse;Blansko;28
+Wilderse;Trutnov;28
+Wilderse;FPÖ;13
+Wilderse;Prostějova;28
+ČNB;Česká národní banka;15
+Juncker;Svobodný;27
+Juncker;ENF;14
+Juncker;Wilder;18
+Islámský stát;Erdogan;22
+Islámský stát;ISIS;17
+Rakušan;Jurečka;21
+Rakušan;Pekarová;23
+Rakušan;Adamová;21
+Rakušan;Gazdík;28
+Rakušan;Polčák;29
+Rakušan;Redl;15
+Rakušan;Rakoušan;38
+Rakušan;Farský;26
+Rakušan;Hlubuček;14
+Rakušan;Akademie věd;13
+Ministerstvo dopravy;Ředitelství silnic a dálnic;24
+Plzni;Plzeň;19
+Prima;Partie;48
+Prima;CNN;47
+Schwarzenberg;OKD;15
+Schwarzenberg;Bakala;22
+Schwarzenberg;Respekt;18
+Schwarzenberg;CVVM;16
+Schwarzenberg;Bakalův;17
+Schwarzenberg;Pokorný;14
+OKD;Bakala;63
+OKD;Respekt;25
+OKD;Bakalův;14
+OKD;Hospodářská novina;13
+OKD;Pokorný;20
+Brna;Šafránková;13
+Youtube;Na rovinu;20
+Foldyna;Trikolóra;20
+Foldyna;Identita a demokracie;36
+Foldyna;Seznam zprávy;15
+Foldyna;ID;36
+Foldyna;Legum;15
+Foldyna;Národní shromáždění;37
+Foldyna;Šlachta;13
+Foldyna;Rassemblement national;37
+TV Prima;Partie;64
+Moravec;Dvořák;24
+Moravec;Otázky Václava Moravce;107
+Moravec;Rada ČT;20
+Moravec;168 hodina;15
+BIS;Koudelka;21
+Šafránková;Hrnčíř;18
+Trikolóra;Feri;23
+Trikolóra;Identita a demokracie;15
+Trikolóra;Šojdrová;19
+Trikolóra;Seznam zprávy;18
+Trikolóra;ID;15
+Trikolóra;Eurozóna;26
+Trikolóra;Klaus ml.;37
+Trikolóra;Národní shromáždění;13
+Trikolóra;Starostové a nezávislí;17
+Trikolóra;Šlachta;19
+Trikolóra;Rassemblement national;13
+Berlíně;Berlína;15
+Berlíně;Nos;20
+Berlíně;Úsvit;19
+Berlíně;Brichta;20
+Berlíně;Bárta;19
+Jurečka;Pekarová;29
+Jurečka;Adamová;27
+Jurečka;CVVM;15
+Jurečka;Akademie věd;16
+Svobodný;ENF;61
+Svobodný;Evropa národů a svoboda;59
+Svobodný;Nos;28
+Svobodný;AFD;13
+Svobodný;Wilder;25
+Svobodný;Hrnčíř;28
+Svobodný;Karlovy Vary;22
+Svobodný;Blaško;28
+Svobodný;Armáda ČR;28
+Svobodný;Liberec;28
+Svobodný;Doležal;28
+Svobodný;Bruselská elita;68
+Svobodný;Novotný;28
+Svobodný;Úřad práce;28
+Svobodný;Prostějov;28
+Svobodný;Národní sdružení;44
+Svobodný;Legum;33
+Svobodný;Jihlava;28
+Svobodný;Opava;28
+Svobodný;Chomutov;28
+Svobodný;Šumperk;28
+Svobodný;Jihlavy;28
+Svobodný;PS PČR;28
+Svobodný;Horák;28
+Svobodný;Hahnova;28
+Svobodný;Dopita;28
+Svobodný;Opavy;28
+Svobodný;HENNER;28
+Svobodný;Paul;28
+Svobodný;Schmeidler;28
+Svobodný;Atkinson;16
+Svobodný;Příbram;28
+Svobodný;Blansko;28
+Svobodný;Trutnov;28
+Svobodný;FPÖ;14
+Svobodný;Prostějova;28
+Pekarová;Adamová;118
+Pekarová;Akademie věd;13
+Pekarová;Pekar;13
+Dvořák;Otázky Václava Moravce;14
+Dvořák;Rada ČT;31
+Dvořák;Lipovský;16
+ENF;Evropa národů a svoboda;107
+ENF;Nos;29
+ENF;AFD;19
+ENF;Wilder;33
+ENF;Hrnčíř;26
+ENF;Karlovy Vary;20
+ENF;Blaško;29
+ENF;Armáda ČR;26
+ENF;Liberec;26
+ENF;Doležal;27
+ENF;Bruselská elita;43
+ENF;Novotný;26
+ENF;Úřad práce;26
+ENF;Prostějov;26
+ENF;Národní sdružení;43
+ENF;Národní fronta;16
+ENF;Legum;35
+ENF;Jihlava;26
+ENF;Opava;26
+ENF;Chomutov;26
+ENF;Šumperk;26
+ENF;Jihlavy;26
+ENF;PS PČR;26
+ENF;Horák;26
+ENF;Hahnova;26
+ENF;Dopita;27
+ENF;Opavy;26
+ENF;HENNER;26
+ENF;Paul;26
+ENF;Schmeidler;26
+ENF;Příbram;26
+ENF;Blansko;26
+ENF;Trutnov;26
+ENF;Prostějova;26
+OECD;WHO;14
+Erdogan;Johansson;13
+Erdogan;Gatestone Institute;18
+Berlína;Moskvy;15
+Berlína;Washingtonu;16
+Adamová;Pekar;13
+Evropa národů a svoboda;Nos;33
+Evropa národů a svoboda;AFD;15
+Evropa národů a svoboda;Wilder;28
+Evropa národů a svoboda;Hrnčíř;26
+Evropa národů a svoboda;Karlovy Vary;20
+Evropa národů a svoboda;Blaško;27
+Evropa národů a svoboda;Armáda ČR;26
+Evropa národů a svoboda;Liberec;26
+Evropa národů a svoboda;Doležal;27
+Evropa národů a svoboda;Bruselská elita;43
+Evropa národů a svoboda;Novotný;26
+Evropa národů a svoboda;Úřad práce;26
+Evropa národů a svoboda;Prostějov;26
+Evropa národů a svoboda;Národní sdružení;45
+Evropa národů a svoboda;Národní fronta;16
+Evropa národů a svoboda;Legum;35
+Evropa národů a svoboda;Jihlava;26
+Evropa národů a svoboda;Opava;26
+Evropa národů a svoboda;Chomutov;26
+Evropa národů a svoboda;Šumperk;26
+Evropa národů a svoboda;Jihlavy;26
+Evropa národů a svoboda;PS PČR;26
+Evropa národů a svoboda;Horák;26
+Evropa národů a svoboda;Hahnova;26
+Evropa národů a svoboda;Dopita;27
+Evropa národů a svoboda;Opavy;26
+Evropa národů a svoboda;HENNER;26
+Evropa národů a svoboda;Paul;26
+Evropa národů a svoboda;Schmeidler;26
+Evropa národů a svoboda;Atkinson;13
+Evropa národů a svoboda;Příbram;26
+Evropa národů a svoboda;Blansko;26
+Evropa národů a svoboda;Trutnov;26
+Evropa národů a svoboda;FPÖ;14
+Evropa národů a svoboda;Prostějova;26
+Plzeň;Nos;15
+Plzeň;Křeček;15
+Plzeň;Redl;14
+Plzeň;Blaško;14
+Plzeň;Novák;15
+Plzeň;Novotný;14
+Plzeň;Zlín;14
+Plzeň;Prostějov;14
+Plzeň;České Budějovice;16
+Plzeň;Opava;15
+Plzeň;Chomutov;13
+Plzeň;Šumperk;14
+Plzeň;Litoměřice;14
+Plzeň;Hahnova;14
+Plzeň;Dopita;14
+Plzeň;Teplice;15
+Plzeň;HENNER;14
+Plzeň;Paul;14
+Plzeň;Schmeidler;14
+Plzeň;Jakl;14
+Gazdík;Polčák;26
+Gazdík;Redl;24
+Gazdík;Rakoušan;18
+Gazdík;Farský;23
+Gazdík;Hlubuček;20
+Bakala;Respekt;43
+Bakala;CVVM;14
+Bakala;DVTV;18
+Bakala;Bakalův;24
+Bakala;Aktuální;15
+Bakala;Hospodářská novina;18
+Bakala;Pokorný;23
+Green Deal;Zelený úděl;21
+Otázky Václava Moravce;Rada ČT;13
+Respekt;CVVM;14
+Respekt;DVTV;20
+Respekt;Bakalův;37
+Respekt;Aktuální;17
+Respekt;Hospodářská novina;17
+Respekt;Pokorný;15
+Polčák;Šojdrová;23
+Polčák;Redl;13
+Polčák;Rakoušan;20
+Polčák;Zdechovský;23
+Polčák;Pospíšil;26
+Polčák;Farský;21
+Polčák;Hlubuček;15
+Polčák;Charanzová;26
+Polčák;Poche;24
+Polčák;Dlabajová;25
+Polčák;Ježek;23
+Polčák;Niedermayer;27
+Polčák;Teličko;23
+Rada ČT;Lipovský;35
+Feri;Šojdrová;24
+Feri;Seznam zprávy;16
+Feri;Eurozóna;25
+Feri;Klaus ml.;18
+Feri;Starostové a nezávislí;19
+Feri;Šlachta;16
+Eurostat;EFTA;22
+Eurostat;Jedlička;21
+Eurostat;Agrární komora ČR;23
+Eurostat;Palacký;20
+Eurostat;Jandejsek;23
+Eurostat;Konzervativní strana;20
+Eurostat;Hannan;20
+Nos;Křeček;14
+Nos;Hrnčíř;35
+Nos;Karlovy Vary;23
+Nos;Redl;14
+Nos;Blaško;43
+Nos;Armáda ČR;29
+Nos;Liberec;29
+Nos;Novák;14
+Nos;Doležal;30
+Nos;Bruselská elita;26
+Nos;Novotný;43
+Nos;Úsvit;19
+Nos;Úřad práce;29
+Nos;Zlín;14
+Nos;Prostějov;43
+Nos;Národní sdružení;27
+Nos;SPO;31
+Nos;Národní fronta;22
+Nos;Legum;22
+Nos;České Budějovice;14
+Nos;Jihlava;30
+Nos;Holík;37
+Nos;Opava;43
+Nos;Chomutov;42
+Nos;Šumperk;43
+Nos;Brichta;46
+Nos;Jihlavy;29
+Nos;PS PČR;30
+Nos;Horák;29
+Nos;Litoměřice;14
+Nos;Hahnova;43
+Nos;Dopita;44
+Nos;Opavy;29
+Nos;Teplice;14
+Nos;HENNER;43
+Nos;Paul;43
+Nos;Schmeidler;43
+Nos;Atkinson;30
+Nos;Příbram;29
+Nos;Blansko;29
+Nos;Trutnov;30
+Nos;Jakl;14
+Nos;Prostějova;29
+Nos;Bárta;19
+Moskvy;Washingtonu;13
+Křeček;Redl;15
+Křeček;Blaško;14
+Křeček;Novák;14
+Křeček;Novotný;14
+Křeček;Zlín;14
+Křeček;Prostějov;14
+Křeček;České Budějovice;14
+Křeček;Opava;14
+Křeček;Chomutov;13
+Křeček;Šumperk;14
+Křeček;Litoměřice;14
+Křeček;Hahnova;14
+Křeček;Dopita;14
+Křeček;Teplice;14
+Křeček;HENNER;14
+Křeček;Paul;14
+Křeček;Schmeidler;14
+Křeček;Jakl;14
+Identita a demokracie;ID;82
+Identita a demokracie;Legum;13
+Identita a demokracie;Národní shromáždění;43
+Identita a demokracie;Rassemblement national;39
+AFD;FPÖ;14
+Šojdrová;Eurozóna;19
+Šojdrová;Zdechovský;30
+Šojdrová;Pospíšil;17
+Šojdrová;Klaus ml.;15
+Šojdrová;Charanzová;24
+Šojdrová;Poche;20
+Šojdrová;Starostové a nezávislí;14
+Šojdrová;Dlabajová;23
+Šojdrová;Ježek;20
+Šojdrová;Niedermayer;24
+Šojdrová;Teličko;20
+Wilder;Bruselská elita;14
+Wilder;Národní sdružení;18
+Wilder;Atkinson;15
+Hrnčíř;Karlovy Vary;23
+Hrnčíř;Blaško;29
+Hrnčíř;Armáda ČR;29
+Hrnčíř;Liberec;29
+Hrnčíř;Doležal;29
+Hrnčíř;Bruselská elita;26
+Hrnčíř;Novotný;29
+Hrnčíř;Úřad práce;29
+Hrnčíř;Prostějov;29
+Hrnčíř;Národní sdružení;26
+Hrnčíř;Legum;22
+Hrnčíř;Jihlava;29
+Hrnčíř;Opava;29
+Hrnčíř;Chomutov;29
+Hrnčíř;Šumperk;29
+Hrnčíř;Jihlavy;29
+Hrnčíř;PS PČR;29
+Hrnčíř;Horák;29
+Hrnčíř;Hahnova;29
+Hrnčíř;Dopita;29
+Hrnčíř;Opavy;29
+Hrnčíř;HENNER;29
+Hrnčíř;Paul;29
+Hrnčíř;Schmeidler;29
+Hrnčíř;Příbram;29
+Hrnčíř;Blansko;29
+Hrnčíř;Trutnov;29
+Hrnčíř;Prostějova;29
+Karlovy Vary;Blaško;23
+Karlovy Vary;Armáda ČR;25
+Karlovy Vary;Liberec;23
+Karlovy Vary;Doležal;23
+Karlovy Vary;Bruselská elita;23
+Karlovy Vary;Novotný;23
+Karlovy Vary;Úřad práce;23
+Karlovy Vary;Prostějov;23
+Karlovy Vary;Národní sdružení;20
+Karlovy Vary;Legum;16
+Karlovy Vary;Jihlava;24
+Karlovy Vary;Opava;23
+Karlovy Vary;Chomutov;23
+Karlovy Vary;Šumperk;23
+Karlovy Vary;Jihlavy;23
+Karlovy Vary;PS PČR;23
+Karlovy Vary;Horák;23
+Karlovy Vary;Hahnova;23
+Karlovy Vary;Dopita;23
+Karlovy Vary;Opavy;23
+Karlovy Vary;HENNER;23
+Karlovy Vary;Paul;23
+Karlovy Vary;Schmeidler;23
+Karlovy Vary;Příbram;23
+Karlovy Vary;Blansko;23
+Karlovy Vary;Trutnov;23
+Karlovy Vary;Prostějova;23
+Vídni;Vídně;15
+Facebook;Google;42
+Seznam zprávy;Eurozóna;18
+Seznam zprávy;Klaus ml.;13
+Seznam zprávy;Starostové a nezávislí;13
+Seznam zprávy;Šlachta;24
+ID;Legum;13
+ID;Národní shromáždění;43
+ID;Rassemblement national;39
+Washingtonu;Pekingu;14
+Redl;Rakoušan;16
+Redl;Seznam;17
+Redl;Blaško;14
+Redl;Novák;14
+Redl;Pospíšil;17
+Redl;Novotný;14
+Redl;Zlín;14
+Redl;Prostějov;14
+Redl;Hlubuček;21
+Redl;České Budějovice;14
+Redl;Opava;14
+Redl;Chomutov;13
+Redl;Šumperk;14
+Redl;Litoměřice;14
+Redl;Hahnova;14
+Redl;Dopita;14
+Redl;Teplice;14
+Redl;HENNER;14
+Redl;Paul;14
+Redl;Schmeidler;14
+Redl;Jakl;14
+Rakoušan;Farský;13
+Zlíně;Baťa;15
+Koněv;Kolář;22
+Eurozóna;Klaus ml.;21
+Eurozóna;Starostové a nezávislí;20
+Eurozóna;Šlachta;16
+Zdechovský;Pospíšil;17
+Zdechovský;Charanzová;23
+Zdechovský;Poche;20
+Zdechovský;Dlabajová;22
+Zdechovský;Ježek;20
+Zdechovský;Niedermayer;23
+Zdechovský;Teličko;20
+CVVM;Bakalův;13
+CVVM;Akademie věd;16
+CVVM;Pokorný;14
+Blaško;Armáda ČR;29
+Blaško;Liberec;29
+Blaško;Novák;14
+Blaško;Doležal;31
+Blaško;Bruselská elita;26
+Blaško;Novotný;43
+Blaško;Úřad práce;29
+Blaško;Zlín;14
+Blaško;Prostějov;43
+Blaško;Národní sdružení;26
+Blaško;Legum;22
+Blaško;České Budějovice;14
+Blaško;Jihlava;29
+Blaško;Opava;43
+Blaško;Chomutov;42
+Blaško;Šumperk;43
+Blaško;Jihlavy;29
+Blaško;PS PČR;29
+Blaško;Horák;29
+Blaško;Litoměřice;14
+Blaško;Hahnova;43
+Blaško;Dopita;43
+Blaško;Opavy;29
+Blaško;Teplice;14
+Blaško;HENNER;43
+Blaško;Paul;43
+Blaško;Schmeidler;43
+Blaško;Příbram;29
+Blaško;Blansko;29
+Blaško;Trutnov;29
+Blaško;Jakl;15
+Blaško;Prostějova;29
+Armáda ČR;Liberec;29
+Armáda ČR;Doležal;29
+Armáda ČR;Bruselská elita;26
+Armáda ČR;Novotný;29
+Armáda ČR;Úřad práce;29
+Armáda ČR;Prostějov;29
+Armáda ČR;Národní sdružení;26
+Armáda ČR;Legum;22
+Armáda ČR;Jihlava;29
+Armáda ČR;Opava;29
+Armáda ČR;Chomutov;29
+Armáda ČR;Šumperk;29
+Armáda ČR;Jihlavy;29
+Armáda ČR;PS PČR;29
+Armáda ČR;Horák;29
+Armáda ČR;Hahnova;29
+Armáda ČR;Dopita;29
+Armáda ČR;Opavy;29
+Armáda ČR;HENNER;29
+Armáda ČR;Paul;29
+Armáda ČR;Schmeidler;29
+Armáda ČR;Příbram;29
+Armáda ČR;Blansko;29
+Armáda ČR;Trutnov;29
+Armáda ČR;Prostějova;29
+EFTA;Jedlička;37
+EFTA;Agrární komora ČR;20
+EFTA;Palacký;20
+EFTA;Jandejsek;20
+EFTA;Konzervativní strana;39
+EFTA;Hannan;39
+Liberec;Doležal;29
+Liberec;Bruselská elita;26
+Liberec;Novotný;29
+Liberec;Úřad práce;29
+Liberec;Prostějov;31
+Liberec;Národní sdružení;26
+Liberec;Legum;22
+Liberec;Jihlava;32
+Liberec;Opava;29
+Liberec;Chomutov;29
+Liberec;Šumperk;29
+Liberec;Jihlavy;29
+Liberec;PS PČR;29
+Liberec;Horák;29
+Liberec;Hahnova;29
+Liberec;Dopita;29
+Liberec;Opavy;29
+Liberec;HENNER;29
+Liberec;Paul;29
+Liberec;Schmeidler;29
+Liberec;Příbram;29
+Liberec;Blansko;29
+Liberec;Trutnov;29
+Liberec;Prostějova;29
+Novák;Novotný;14
+Novák;Zlín;15
+Novák;Prostějov;14
+Novák;České Budějovice;15
+Novák;Opava;14
+Novák;Chomutov;13
+Novák;Šumperk;14
+Novák;Litoměřice;14
+Novák;Hahnova;14
+Novák;Dopita;14
+Novák;Teplice;14
+Novák;HENNER;14
+Novák;Paul;14
+Novák;Schmeidler;14
+Novák;Jakl;16
+Doležal;Bruselská elita;26
+Doležal;Novotný;29
+Doležal;Úřad práce;29
+Doležal;Prostějov;29
+Doležal;Národní sdružení;27
+Doležal;Legum;22
+Doležal;Jihlava;29
+Doležal;Opava;29
+Doležal;Chomutov;29
+Doležal;Šumperk;29
+Doležal;Jihlavy;29
+Doležal;PS PČR;29
+Doležal;Horák;29
+Doležal;Hahnova;29
+Doležal;Dopita;30
+Doležal;Opavy;29
+Doležal;HENNER;29
+Doležal;Paul;29
+Doležal;Schmeidler;29
+Doležal;Příbram;29
+Doležal;Blansko;29
+Doležal;Trutnov;29
+Doležal;Prostějova;29
+Bruselská elita;Novotný;26
+Bruselská elita;Úřad práce;26
+Bruselská elita;Prostějov;26
+Bruselská elita;Národní sdružení;35
+Bruselská elita;Legum;26
+Bruselská elita;Jihlava;26
+Bruselská elita;Opava;26
+Bruselská elita;Chomutov;26
+Bruselská elita;Šumperk;26
+Bruselská elita;Jihlavy;26
+Bruselská elita;PS PČR;26
+Bruselská elita;Horák;26
+Bruselská elita;Hahnova;26
+Bruselská elita;Dopita;26
+Bruselská elita;Opavy;26
+Bruselská elita;HENNER;26
+Bruselská elita;Paul;26
+Bruselská elita;Schmeidler;26
+Bruselská elita;Atkinson;14
+Bruselská elita;Příbram;26
+Bruselská elita;Blansko;26
+Bruselská elita;Trutnov;26
+Bruselská elita;Prostějova;26
+Pospíšil;Hlubuček;13
+Pospíšil;Charanzová;19
+Pospíšil;Poche;17
+Pospíšil;Dlabajová;18
+Pospíšil;Ježek;16
+Pospíšil;Niedermayer;21
+Pospíšil;Teličko;16
+Klaus ml.;Starostové a nezávislí;13
+Novotný;Úřad práce;29
+Novotný;Zlín;14
+Novotný;Prostějov;43
+Novotný;Národní sdružení;26
+Novotný;Legum;22
+Novotný;České Budějovice;14
+Novotný;Jihlava;29
+Novotný;Opava;43
+Novotný;Chomutov;42
+Novotný;Šumperk;43
+Novotný;Jihlavy;29
+Novotný;PS PČR;29
+Novotný;Horák;29
+Novotný;Litoměřice;14
+Novotný;Hahnova;43
+Novotný;Dopita;43
+Novotný;Opavy;29
+Novotný;Teplice;14
+Novotný;HENNER;43
+Novotný;Paul;43
+Novotný;Schmeidler;43
+Novotný;Příbram;29
+Novotný;Blansko;29
+Novotný;Trutnov;30
+Novotný;Jakl;14
+Novotný;Prostějova;29
+Úsvit;Brichta;19
+Úsvit;Bárta;20
+Úřad práce;Prostějov;29
+Úřad práce;Národní sdružení;26
+Úřad práce;Legum;22
+Úřad práce;Jihlava;29
+Úřad práce;Opava;29
+Úřad práce;Chomutov;30
+Úřad práce;Šumperk;29
+Úřad práce;Jihlavy;29
+Úřad práce;PS PČR;29
+Úřad práce;Horák;29
+Úřad práce;Hahnova;29
+Úřad práce;Dopita;29
+Úřad práce;Opavy;29
+Úřad práce;HENNER;29
+Úřad práce;Paul;29
+Úřad práce;Schmeidler;29
+Úřad práce;Příbram;29
+Úřad práce;Blansko;29
+Úřad práce;Trutnov;29
+Úřad práce;Prostějova;29
+Zlín;Prostějov;15
+Zlín;České Budějovice;14
+Zlín;Opava;15
+Zlín;Chomutov;13
+Zlín;Šumperk;16
+Zlín;Litoměřice;14
+Zlín;Hahnova;14
+Zlín;Dopita;14
+Zlín;Teplice;14
+Zlín;HENNER;14
+Zlín;Paul;14
+Zlín;Schmeidler;14
+Zlín;Jakl;14
+Prostějov;Národní sdružení;26
+Prostějov;Legum;22
+Prostějov;České Budějovice;14
+Prostějov;Jihlava;29
+Prostějov;Opava;44
+Prostějov;Chomutov;42
+Prostějov;Šumperk;44
+Prostějov;Jihlavy;29
+Prostějov;PS PČR;29
+Prostějov;Horák;29
+Prostějov;Litoměřice;14
+Prostějov;Hahnova;43
+Prostějov;Dopita;43
+Prostějov;Opavy;30
+Prostějov;Teplice;14
+Prostějov;HENNER;43
+Prostějov;Paul;43
+Prostějov;Schmeidler;43
+Prostějov;Příbram;29
+Prostějov;Blansko;30
+Prostějov;Trutnov;29
+Prostějov;Jakl;14
+Prostějov;Prostějova;31
+Jedlička;Agrární komora ČR;21
+Jedlička;Palacký;20
+Jedlička;Jandejsek;21
+Jedlička;Konzervativní strana;37
+Jedlička;Hannan;37
+Národní sdružení;Legum;33
+Národní sdružení;Jihlava;26
+Národní sdružení;Opava;26
+Národní sdružení;Chomutov;26
+Národní sdružení;Šumperk;26
+Národní sdružení;Jihlavy;26
+Národní sdružení;PS PČR;26
+Národní sdružení;Horák;26
+Národní sdružení;Hahnova;26
+Národní sdružení;Dopita;27
+Národní sdružení;Opavy;26
+Národní sdružení;HENNER;26
+Národní sdružení;Paul;26
+Národní sdružení;Schmeidler;26
+Národní sdružení;Atkinson;16
+Národní sdružení;Příbram;26
+Národní sdružení;Blansko;26
+Národní sdružení;Trutnov;26
+Národní sdružení;Prostějova;26
+Agrární komora ČR;Palacký;20
+Agrární komora ČR;Jandejsek;48
+Agrární komora ČR;Konzervativní strana;20
+Agrární komora ČR;Hannan;20
+SPO;Národní fronta;15
+SPO;Holík;23
+SPO;Brichta;23
+SPO;Atkinson;14
+Národní fronta;Holík;14
+Národní fronta;Brichta;23
+Národní fronta;Atkinson;22
+Herman;Sudetoněmecký landsmanšaft;21
+Palacký;Jandejsek;20
+Palacký;Konzervativní strana;20
+Palacký;Mnichově;15
+Palacký;Hannan;20
+Legum;Národní shromáždění;15
+Legum;Jihlava;22
+Legum;Opava;22
+Legum;Chomutov;22
+Legum;Šumperk;22
+Legum;Jihlavy;22
+Legum;PS PČR;22
+Legum;Horák;22
+Legum;Hahnova;22
+Legum;Dopita;22
+Legum;Opavy;22
+Legum;Rassemblement national;16
+Legum;HENNER;22
+Legum;Paul;22
+Legum;Schmeidler;22
+Legum;Příbram;22
+Legum;Blansko;22
+Legum;Trutnov;22
+Legum;Prostějova;22
+Jandejsek;Konzervativní strana;20
+Jandejsek;Hannan;20
+České Budějovice;Opava;15
+České Budějovice;Chomutov;13
+České Budějovice;Šumperk;14
+České Budějovice;Litoměřice;14
+České Budějovice;Hahnova;14
+České Budějovice;Dopita;14
+České Budějovice;Teplice;14
+České Budějovice;HENNER;14
+České Budějovice;Paul;14
+České Budějovice;Schmeidler;14
+České Budějovice;Jakl;14
+Národní shromáždění;Rassemblement national;41
+Jihlava;Opava;29
+Jihlava;Chomutov;29
+Jihlava;Šumperk;30
+Jihlava;Jihlavy;32
+Jihlava;PS PČR;29
+Jihlava;Horák;29
+Jihlava;Hahnova;29
+Jihlava;Dopita;29
+Jihlava;Opavy;29
+Jihlava;HENNER;29
+Jihlava;Paul;29
+Jihlava;Schmeidler;29
+Jihlava;Příbram;29
+Jihlava;Blansko;30
+Jihlava;Trutnov;30
+Jihlava;Prostějova;29
+Charanzová;Poche;23
+Charanzová;Dlabajová;42
+Charanzová;Ježek;31
+Charanzová;Niedermayer;26
+Charanzová;Teličko;31
+Poche;Dlabajová;23
+Poche;Ježek;23
+Poche;Niedermayer;23
+Poche;Teličko;23
+Holík;Brichta;31
+Holík;Atkinson;13
+Opava;Chomutov;42
+Opava;Šumperk;44
+Opava;Jihlavy;29
+Opava;PS PČR;29
+Opava;Horák;29
+Opava;Litoměřice;14
+Opava;Hahnova;43
+Opava;Dopita;43
+Opava;Opavy;29
+Opava;Teplice;14
+Opava;HENNER;43
+Opava;Paul;43
+Opava;Schmeidler;43
+Opava;Příbram;29
+Opava;Blansko;30
+Opava;Trutnov;29
+Opava;Jakl;14
+Opava;Prostějova;29
+Starostové a nezávislí;Šlachta;13
+Chomutov;Šumperk;42
+Chomutov;Jihlavy;29
+Chomutov;PS PČR;29
+Chomutov;Horák;29
+Chomutov;Litoměřice;14
+Chomutov;Hahnova;43
+Chomutov;Dopita;42
+Chomutov;Opavy;29
+Chomutov;Teplice;13
+Chomutov;HENNER;42
+Chomutov;Paul;42
+Chomutov;Schmeidler;42
+Chomutov;Příbram;29
+Chomutov;Blansko;29
+Chomutov;Trutnov;29
+Chomutov;Jakl;13
+Chomutov;Prostějova;29
+Šumperk;Jihlavy;29
+Šumperk;PS PČR;29
+Šumperk;Horák;29
+Šumperk;Litoměřice;14
+Šumperk;Hahnova;43
+Šumperk;Dopita;43
+Šumperk;Opavy;29
+Šumperk;Teplice;14
+Šumperk;HENNER;43
+Šumperk;Paul;43
+Šumperk;Schmeidler;43
+Šumperk;Příbram;29
+Šumperk;Blansko;31
+Šumperk;Trutnov;29
+Šumperk;Jakl;14
+Šumperk;Prostějova;29
+Brichta;Atkinson;22
+Brichta;Bárta;19
+Konzervativní strana;Hannan;39
+Jihlavy;PS PČR;29
+Jihlavy;Horák;29
+Jihlavy;Hahnova;29
+Jihlavy;Dopita;29
+Jihlavy;Opavy;29
+Jihlavy;HENNER;29
+Jihlavy;Paul;29
+Jihlavy;Schmeidler;29
+Jihlavy;Příbram;29
+Jihlavy;Blansko;29
+Jihlavy;Trutnov;29
+Jihlavy;Prostějova;29
+PS PČR;Horák;29
+PS PČR;Hahnova;29
+PS PČR;Dopita;29
+PS PČR;Opavy;29
+PS PČR;HENNER;29
+PS PČR;Paul;29
+PS PČR;Schmeidler;29
+PS PČR;Příbram;29
+PS PČR;Blansko;29
+PS PČR;Trutnov;29
+PS PČR;Prostějova;29
+Dlabajová;Ježek;31
+Dlabajová;Niedermayer;25
+Dlabajová;Teličko;31
+168 hodina;Reportér ČT;27
+Horák;Hahnova;29
+Horák;Dopita;29
+Horák;Opavy;29
+Horák;HENNER;29
+Horák;Paul;29
+Horák;Schmeidler;29
+Horák;Příbram;29
+Horák;Blansko;29
+Horák;Trutnov;29
+Horák;Prostějova;29
+Ježek;Niedermayer;23
+Ježek;Teličko;31
+Litoměřice;Hahnova;14
+Litoměřice;Dopita;14
+Litoměřice;Teplice;14
+Litoměřice;HENNER;14
+Litoměřice;Paul;14
+Litoměřice;Schmeidler;14
+Litoměřice;Jakl;14
+Hahnova;Dopita;43
+Hahnova;Opavy;29
+Hahnova;Teplice;14
+Hahnova;HENNER;43
+Hahnova;Paul;43
+Hahnova;Schmeidler;43
+Hahnova;Příbram;29
+Hahnova;Blansko;29
+Hahnova;Trutnov;29
+Hahnova;Jakl;14
+Hahnova;Prostějova;29
+Johansson;Gatestone Institute;15
+Niedermayer;Teličko;23
+Dopita;Opavy;29
+Dopita;Teplice;14
+Dopita;HENNER;43
+Dopita;Paul;43
+Dopita;Schmeidler;43
+Dopita;Příbram;29
+Dopita;Blansko;29
+Dopita;Trutnov;29
+Dopita;Jakl;14
+Dopita;Prostějova;29
+Opavy;HENNER;29
+Opavy;Paul;29
+Opavy;Schmeidler;29
+Opavy;Příbram;29
+Opavy;Blansko;29
+Opavy;Trutnov;29
+Opavy;Prostějova;29
+Teplice;HENNER;14
+Teplice;Paul;14
+Teplice;Schmeidler;14
+Teplice;Jakl;14
+HENNER;Paul;43
+HENNER;Schmeidler;43
+HENNER;Příbram;29
+HENNER;Blansko;29
+HENNER;Trutnov;29
+HENNER;Jakl;14
+HENNER;Prostějova;29
+Paul;Schmeidler;43
+Paul;Příbram;29
+Paul;Blansko;29
+Paul;Trutnov;29
+Paul;Jakl;14
+Paul;Prostějova;29
+Schmeidler;Příbram;29
+Schmeidler;Blansko;29
+Schmeidler;Trutnov;29
+Schmeidler;Jakl;14
+Schmeidler;Prostějova;29
+Příbram;Blansko;29
+Příbram;Trutnov;29
+Příbram;Prostějova;29
+Blansko;Trutnov;29
+Blansko;Prostějova;29
+Adam;Pekar;34
+Trutnov;Prostějova;29

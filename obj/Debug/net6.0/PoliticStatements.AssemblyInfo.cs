@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoliticStatements")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e90c60203052a924cdf2fa59b60657151941ead")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26efe511e6a28107454b2359e66d781257169266")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoliticStatements")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoliticStatements")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

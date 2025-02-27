@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\graph.json",
+      "PackagePath": "staticwebassets\\data\\graph.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_similarity_jaccard_normalized2019.json",
+      "PackagePath": "staticwebassets\\data\\politician_similarity_jaccard_normalized2019.json"
+    },
+    {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

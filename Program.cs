@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<StatementData>();
+builder.Services.AddSingleton<StatementData>();
 builder.Services.AddScoped<StatementDataDB>();
 builder.Services.AddScoped<TextAnalysis>();
 builder.Services.AddScoped<SentimentAnalysis>();
@@ -16,6 +16,7 @@ builder.Services.AddScoped<TopicAnalysis>();
 builder.Services.AddScoped<ClusterAnalysis>(); 
 builder.Services.AddScoped<EmotionAnalysis>();
 builder.Services.AddScoped<StylometryAnalysis>();
+builder.Services.AddHostedService<DataPreloadService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

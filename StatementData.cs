@@ -13,6 +13,14 @@ namespace PoliticStatements
 {
     public class StatementData
     {
+        public List<Statement> Statements { get; set; }
+
+
+        public StatementData()
+        {
+            
+        }
+
         public ChartData GetChartData(List<Statement> statements)
         {
             var facebookCount = statements.Count(s => s.server == "Facebook");
@@ -142,7 +150,7 @@ namespace PoliticStatements
             {
                 await conn.OpenAsync();
 
-                using (SqlCommand cmd = new SqlCommand("select * from Statement where politic_id IN ('andrej-babis','karel-havlicek', 'lubomir-volny','alena-schillerova','tomio-okamura','petr-fiala','adam-vojtech','milos-zeman','pavel-belobradek','miroslav-kalousek') and jazyk='cs' and pocetSlov>5 and Sentiment!=666 ", conn))
+                using (SqlCommand cmd = new SqlCommand("select * from Statement where  jazyk='cs' and pocetSlov>5 and SentimentBert!=666 ", conn))
                 using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
@@ -158,7 +166,7 @@ namespace PoliticStatements
                             pocetSlov = reader.GetInt32(reader.GetOrdinal("pocetSlov")),
                             RT = reader.GetBoolean(reader.GetOrdinal("RT")),
                             text = reader.GetString(reader.GetOrdinal("text")),
-                            Sentiment = reader.GetDouble(reader.GetOrdinal("Sentiment")),
+                            Sentiment = reader.GetDouble(reader.GetOrdinal("SentimentBert")),
                             pos = reader.GetDouble(reader.GetOrdinal("pos")),
                             neu = reader.GetDouble(reader.GetOrdinal("neu")),
                             neg = reader.GetDouble(reader.GetOrdinal("neg")),

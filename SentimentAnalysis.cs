@@ -228,6 +228,52 @@ namespace PoliticStatements
 
             return result;
         }
+        public Dictionary<string, Dictionary<int, Dictionary<string, double>>> CalculateAverageSentimentByQuarter(List<Statement> statements)
+        {
+            var result = new Dictionary<string, Dictionary<int, Dictionary<string, double>>>();
+
+            var groupedStatements = statements.GroupBy(s => new { s.osobaid, Year = s.datum.Value.Year, Quarter = GetQuarter(s.datum.Value) });
+
+            foreach (var group in groupedStatements)
+            {
+                if (!result.ContainsKey(group.Key.osobaid))
+                {
+                    result[group.Key.osobaid] = new Dictionary<int, Dictionary<string, double>>();
+                }
+
+                if (!result[group.Key.osobaid].ContainsKey(group.Key.Year))
+                {
+                    result[group.Key.osobaid][group.Key.Year] = new Dictionary<string, double>();
+                }
+
+               
+                double averageSentiment = group.Average(s => s.Sentiment);
+                result[group.Key.osobaid][group.Key.Year][group.Key.Quarter.ToString()] = averageSentiment;
+            }
+
+           
+            foreach (var person in result.Keys.ToList())
+            {
+                foreach (var year in result[person].Keys.ToList())
+                {
+                    result[person][year] = result[person][year]
+                        .OrderBy(p => p.Key) 
+                        .ToDictionary(p => p.Key, p => p.Value);
+                }
+            }
+
+            return result;
+        }
+
+        
+        private int GetQuarter(DateTime date)
+        {
+            if (date.Month <= 3) return 1;
+            if (date.Month <= 6) return 2;
+            if (date.Month <= 9) return 3;
+            return 4;
+        }
+
 
         private static string GetHalfYear(DateTime? date)
         {
@@ -242,7 +288,8 @@ namespace PoliticStatements
 
             return $"{year}-{halfYear}";
         }
-
+       
+       
 
         public List<SentimentResult> CalculateAvgSentimentRT(List<Statement> statements)
         {

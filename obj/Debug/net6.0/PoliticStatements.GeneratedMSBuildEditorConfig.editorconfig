@@ -22,12 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/NER.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxORVIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/PoliticDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/PoliticianList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljaWFuTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Sentiment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW50aW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Statement.cshtml]

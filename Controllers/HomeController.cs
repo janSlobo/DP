@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 using System.Reflection.Emit;
 using static PoliticStatements.NERAnalysis;
+using System.Collections.Generic;
 
 namespace PoliticStatements.Controllers
 {
@@ -21,20 +22,39 @@ namespace PoliticStatements.Controllers
         private readonly ILogger<HomeController> _logger;
         private int Statement_count = 135621;
         private int Statement_mentions_count = 1305;
-        public HomeController(ILogger<HomeController> logger)
+
+        private readonly StatementData _statementData;
+        public HomeController(ILogger<HomeController> logger, StatementData statementData)
         {
             _logger = logger;
+            _statementData = statementData;
         }
 
-        public async Task<IActionResult> Index([FromServices] RhetoricAnalysis rhetoricAnalysis,[FromServices] EmotionAnalysis emotionAnalysis, [FromServices] SentimentAnalysis sentimentAnalysis, [FromServices] TopicAnalysis topicAnalysis, [FromServices] StatementData statementData, [FromServices] NetworkAnalysis networkAnalysis, [FromServices] TextAnalysis textAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] StatementDataDB statementDataDB)
+        public async Task<IActionResult> Index([FromServices]  StylometryAnalysis stylometryAnalysis,[FromServices] RhetoricAnalysis rhetoricAnalysis,[FromServices] EmotionAnalysis emotionAnalysis, [FromServices] SentimentAnalysis sentimentAnalysis, [FromServices] TopicAnalysis topicAnalysis, [FromServices] NetworkAnalysis networkAnalysis, [FromServices] TextAnalysis textAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] StatementDataDB statementDataDB)
         {
             //await statementDataDB.SaveSentimentToDB();
             //sentimentAnalysis.InsertEmotionsFromFile("C:/Users/HONZA/Desktop/diplomka/bert_dodelat_result.csv");
             //await nerAnalysis.UpdateNER();
-            List<Statement> st = await statementData.LoadFromDatabase();
+            List<Statement> st = _statementData.Statements;
+            /*List<Politic> politicians = await statementData.GetAllPoliticiansAsync();
+            using (var writer = new StreamWriter("politici_strana.csv"))
+            using (var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture)))
+            {
+                csv.WriteRecords(politicians);
+            }*/
+            
 
             var st_rt = st;
-            st= st.Where(x => !x.RT).ToList();
+            
+
+            //var result = nerAnalysis.CalculateCooccurrenceMatrixNormalizedJC(st);
+            //nerAnalysis.SaveMatrixToCsv(result.TopEntities, result.Matrix, "coocurance_matrix_mix_cos.csv");
+
+           /* string filePath = Path.Combine(Directory.GetCurrentDirectory(), "cooccurrence_net_names_jaccard_0_05.csv");
+            nerAnalysis.SaveCooccurrenceMatrixToCsv(result.TopEntities, result.Matrix, filePath);*/
+
+
+            st = st.Where(x => !x.RT).ToList();
 
 
 
@@ -55,34 +75,41 @@ namespace PoliticStatements.Controllers
            .Distinct()
            .ToList();
 
-            
-           /* foreach (var politicId in uniquePoliticIds)
-            {
-                
-                foreach (var emotion in uniqueEmotions)
-                {
-                    var statementsForPolitician = st.Where(s => s.osobaid == politicId).ToList();
-                    var emotion_st = statementsForPolitician.Where(s => s.emotions.Any(x => x.emotion == emotion && x.score>0.85)).ToList();
-                    if (emotion_st.Count() == 0)
-                    {
-                        continue;
-                    }
-                    string fileName = $"{politicId}_texty_{emotion}.csv";
-                    textAnalysis.ExportTexts(emotion_st, fileName);
-                }
-               
-            
-            }
-           */
+            var unique_ngrams= stylometryAnalysis.LoadUniqueNGrams("C:/Users/HONZA/Desktop/diplomka/n_grams/unique_ngrams/unique_ngrams_all_2019.csv");
+            ViewBag.unique_ngrams= unique_ngrams;
+            var simWords = stylometryAnalysis.LoadSimWords("C:/Users/HONZA/Desktop/diplomka/texty_csv");
+            ViewBag.simWords = simWords;
+            /* foreach (var politicId in uniquePoliticIds)
+             {
+
+                 foreach (var emotion in uniqueEmotions)
+                 {
+                     var statementsForPolitician = st.Where(s => s.osobaid == politicId).ToList();
+                     var emotion_st = statementsForPolitician.Where(s => s.emotions.Any(x => x.emotion == emotion && x.score>0.85)).ToList();
+                     if (emotion_st.Count() == 0)
+                     {
+                         continue;
+                     }
+                     string fileName = $"{politicId}_texty_{emotion}.csv";
+                     textAnalysis.ExportTexts(emotion_st, fileName);
+                 }
 
 
-            st = st.Where(x => x.osobaid == "alena-schillerova").ToList();
-            st_rt = st_rt.Where(x => x.osobaid == "alena-schillerova").ToList();
+             }
+            */
 
+
+            st = st.Where(x => x.osobaid == "petr-fiala").ToList();
+            st_rt = st_rt.Where(x => x.osobaid == "petr-fiala").ToList();
+
+            var time_sentiment = sentimentAnalysis.CalculateAverageSentimentByHalfYear(st);
+            var time_sentiment_q = sentimentAnalysis.CalculateAverageSentimentByQuarter(st);
+            ViewBag.time_sentiment = time_sentiment;
+            ViewBag.time_sentiment_q = time_sentiment_q;
             Dictionary<string, ChartData> server_count = new Dictionary<string, ChartData>();
             foreach(var p in uniquePoliticIds)
             {
-                var sc = statementData.GetChartData(st_rt);
+                var sc = _statementData.GetChartData(st_rt);
                 server_count[p] = sc;
             }
             
@@ -93,7 +120,7 @@ namespace PoliticStatements.Controllers
             foreach (var statement in st)
             {
                 statement.emotions = statement.emotions
-                    .Where(e => e.score > 0.75)
+                    .Where(e => e.score > 0.7)
                     .ToList();
 
                 if (!statement.emotions.Any())
@@ -104,8 +131,18 @@ namespace PoliticStatements.Controllers
                         score = 0.9 
                     });
                 }
+
+                statement.emotions=statement.emotions.OrderByDescending(e => e.score).Take(1).ToList();
             }
-            
+
+            var emotionStatsQ = emotionAnalysis.GetEmotionPercentagesPerPoliticianAndYearQ(st);
+
+            ViewBag.EmotionStatsQ = emotionStatsQ;
+
+            var emotionStatsH = emotionAnalysis.GetEmotionPercentagesPerPoliticianAndYearH(st);
+
+            ViewBag.EmotionStatsH = emotionStatsH;
+
             Dictionary<string, int> st_count = st
             .GroupBy(s => s.osobaid)
             .ToDictionary(g => g.Key, g => g.Count());
@@ -127,7 +164,8 @@ namespace PoliticStatements.Controllers
             var allPieChartData = new Dictionary<string, Dictionary<string, List<EntityFrequency>>>();
             var sentimentHist = new Dictionary<string, Dictionary<string, double[]>>();
             var emotionData = new Dictionary<string, Dictionary<string, List<EmotionDistribution>>>();
-
+            var sentiment_half_pe = new Dictionary<string, Dictionary<string, Dictionary<string, double>>>();
+            var year_count_pe = new Dictionary<string, Dictionary<string, Dictionary<int,int>>>();
             foreach (var kvp in statementsPerEntity)
             {
                 
@@ -143,8 +181,18 @@ namespace PoliticStatements.Controllers
                 {
                     emotionData[kvp.Key] = new Dictionary<string, List<EmotionDistribution>>();
                 }
+                if (!sentiment_half_pe.ContainsKey(kvp.Key))
+                {
+                    sentiment_half_pe[kvp.Key] = new Dictionary<string, Dictionary<string, double>>();
+                }
+                if (!year_count_pe.ContainsKey(kvp.Key))
+                {
+                    year_count_pe[kvp.Key] = new Dictionary<string, Dictionary<int, int>>();
+                }
                 for (int i = 0; i < kvp.Value.Count; i++)
                 {
+
+
                     //string fileName = $"{kvp.Key}_{topentities[kvp.Key][i]}.csv";
                     //textAnalysis.ExportTexts(kvp.Value[i], fileName);
 
@@ -156,6 +204,24 @@ namespace PoliticStatements.Controllers
 
                     var emotionDistribution = emotionAnalysis.PrepareEmotionDistribution(kvp.Value[i]);
                     emotionData[kvp.Key][topentities[kvp.Key][i]] = emotionDistribution;
+
+                    var time_sentiment_pe = sentimentAnalysis.CalculateAverageSentimentByHalfYear(kvp.Value[i])[kvp.Key];
+
+
+                    if (!sentiment_half_pe[kvp.Key].ContainsKey(topentities[kvp.Key][i]))
+                    {
+                        sentiment_half_pe[kvp.Key][topentities[kvp.Key][i]] = new Dictionary<string, double>();
+                    }
+                    sentiment_half_pe[kvp.Key][topentities[kvp.Key][i]] = time_sentiment_pe;
+
+                    if (!year_count_pe[kvp.Key].ContainsKey(topentities[kvp.Key][i]))
+                    {
+                        year_count_pe[kvp.Key][topentities[kvp.Key][i]] = new Dictionary<int, int>();
+                    }
+
+                    var count_years = nerAnalysis.GetStatementsPerYear(kvp.Value[i]);
+                    year_count_pe[kvp.Key][topentities[kvp.Key][i]] = count_years;
+
                 }
             }
 
@@ -163,9 +229,9 @@ namespace PoliticStatements.Controllers
 
             ViewBag.sentHist = sentimentHist;
             ViewBag.emotionData = emotionData;
-
+            ViewBag.sentiment_half_pe = sentiment_half_pe;
+            ViewBag.year_count_pe = year_count_pe;
             
-
             var sentimentAll = st.Select(s => s.Sentiment).ToArray();
             ViewBag.sentimentAll = sentimentAll;
             var piechartAll = nerAnalysis.PoliticEntityPieChart(st,mix);
@@ -183,8 +249,8 @@ namespace PoliticStatements.Controllers
             var negative_names = nerAnalysis.PoliticEntityPieChart(st_negative,names);
             ViewBag.neg_mix = negative_ner;
             ViewBag.neg_names = negative_names;
-            var positive_ner = nerAnalysis.PoliticEntityPieChart(st, mix);
-            var positive_names = nerAnalysis.PoliticEntityPieChart(st, names);
+            var positive_ner = nerAnalysis.PoliticEntityPieChart(st_positive, mix);
+            var positive_names = nerAnalysis.PoliticEntityPieChart(st_positive, names);
             ViewBag.pos_mix = positive_ner;
             ViewBag.pos_names = positive_names;
 
@@ -195,8 +261,19 @@ namespace PoliticStatements.Controllers
             foreach(var emotion in uniqueEmotions)
             {
                 var st_e = st.Where(s => s.emotions.Any(x => x.emotion == emotion)).ToList();
-                emotionsNerMix[emotion]= nerAnalysis.PoliticEntityPieChart(st_e, mix);
-                emotionsNerNames[emotion] = nerAnalysis.PoliticEntityPieChart(st_e, names);
+
+                var enm= nerAnalysis.PoliticEntityPieChart(st_e, mix);
+                var enn= nerAnalysis.PoliticEntityPieChart(st_e, names);
+
+                if(enm.Any())
+                {
+                    emotionsNerMix[emotion] = enm;
+                }
+                if (enn.Any())
+                {
+                    emotionsNerNames[emotion] = enn;
+                }
+                
             }
             ViewBag.emotionsNerMix = emotionsNerMix;
             ViewBag.emotionsNerNames = emotionsNerNames;
@@ -204,6 +281,7 @@ namespace PoliticStatements.Controllers
 
             var top_sim = rhetoricAnalysis.LoadSimilarities();
             ViewBag.top_sim=top_sim;
+
 
             //await statementDataDB.SaveSentimentToDB();
             //await nerAnalysis.SaveNERToDB();
@@ -275,11 +353,7 @@ namespace PoliticStatements.Controllers
              var babis = ner_year["andrej-babis"];
              ViewBag.babis_year_ent = babis;
              var i = 1;*/
-            //var result = nerAnalysis.CalculateCooccurrenceMatrixNormalized(st);
-            // nerAnalysis.SaveMatrixToCsv(result.TopEntities, result.Matrix, "coocurance_matrix_mix_cos.csv");
-
-            // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "cooccurrence_net_mix_cos_015.csv");
-            //nerAnalysis.SaveCooccurrenceMatrixToCsv(result.TopEntities, result.Matrix, filePath);
+           
             //await nerAnalysis.SaveNERToDB();
             //List<Statement> st_m = statementData.LoadDataWMentions(st);
             /*List<Statement> st = await statementData.LoadFromDatabase();
@@ -322,56 +396,363 @@ namespace PoliticStatements.Controllers
 
 
 
-        public async Task<IActionResult> PoliticDetail(string politic_id, int sumwords, float avgwords, float avgmentions, [FromServices] StatementData statementData)
+        public async Task<IActionResult> PoliticDetail(string politic_id, [FromServices] StylometryAnalysis stylometryAnalysis, [FromServices] RhetoricAnalysis rhetoricAnalysis, [FromServices] EmotionAnalysis emotionAnalysis, [FromServices] SentimentAnalysis sentimentAnalysis, [FromServices] TopicAnalysis topicAnalysis, [FromServices] NetworkAnalysis networkAnalysis, [FromServices] TextAnalysis textAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] StatementDataDB statementDataDB)
         {
-            await statementData.LoadFromDatabase();
-
-            Dictionary<string, Dictionary<string, int>> mentions = new Dictionary<string, Dictionary<string, int>>();
-            mentions = await statementData.GetMentionsStatsFromDatabase(0);
-            foreach (var outerKey in mentions.Keys)
+            List<Statement> st = _statementData.Statements;
+            /*List<Politic> politicians = await statementData.GetAllPoliticiansAsync();
+            using (var writer = new StreamWriter("politici_strana.csv"))
+            using (var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture)))
             {
-                mentions[outerKey] = mentions[outerKey].OrderByDescending(x => x.Value).Take(10).ToDictionary(x => x.Key, x => x.Value);
+                csv.WriteRecords(politicians);
+            }*/
 
+
+            var st_rt = st;
+
+
+            //var result = nerAnalysis.CalculateCooccurrenceMatrixNormalizedJC(st);
+            //nerAnalysis.SaveMatrixToCsv(result.TopEntities, result.Matrix, "coocurance_matrix_mix_cos.csv");
+
+            /* string filePath = Path.Combine(Directory.GetCurrentDirectory(), "cooccurrence_net_names_jaccard_0_05.csv");
+             nerAnalysis.SaveCooccurrenceMatrixToCsv(result.TopEntities, result.Matrix, filePath);*/
+
+
+            st = st.Where(x => !x.RT).ToList();
+
+
+
+
+            await emotionAnalysis.LoadEmotionFromDB(st);
+
+            List<string> names = new List<string> { "ps" };
+            List<string> mix = new List<string> { "io", "if", "ic", "mn", "ms", "o_", "oa" };
+
+
+            await nerAnalysis.LoadNERFromDB(st);
+
+            var uniquePoliticIds = st.Select(s => s.osobaid).Distinct();
+
+            var uniqueEmotions = st
+           .SelectMany(s => s.emotions)
+           .Select(e => e.emotion)
+           .Distinct()
+           .ToList();
+
+            var unique_ngrams = stylometryAnalysis.LoadUniqueNGrams("C:/Users/HONZA/Desktop/diplomka/n_grams/unique_ngrams/unique_ngrams_all_2019.csv");
+            ViewBag.unique_ngrams = unique_ngrams;
+            var simWords = stylometryAnalysis.LoadSimWords("C:/Users/HONZA/Desktop/diplomka/texty_csv");
+            ViewBag.simWords = simWords;
+            
+
+
+            st = st.Where(x => x.osobaid == politic_id).ToList();
+            st_rt = st_rt.Where(x => x.osobaid == politic_id).ToList();
+
+            var time_sentiment = sentimentAnalysis.CalculateAverageSentimentByHalfYear(st);
+            var time_sentiment_q = sentimentAnalysis.CalculateAverageSentimentByQuarter(st);
+            ViewBag.time_sentiment = time_sentiment;
+            ViewBag.time_sentiment_q = time_sentiment_q;
+            Dictionary<string, ChartData> server_count = new Dictionary<string, ChartData>();
+            foreach (var p in uniquePoliticIds)
+            {
+                var sc = _statementData.GetChartData(st_rt);
+                server_count[p] = sc;
             }
 
 
 
-            Dictionary<string, int> mentionCount = new Dictionary<string, int>();
+            ViewBag.server_count = server_count;
 
-            int sumZminky = 0;
-
-            foreach (var ment in mentions.Values)
+            foreach (var statement in st)
             {
-                foreach (var p in ment.Keys)
-                {
+                statement.emotions = statement.emotions
+                    .Where(e => e.score > 0.7)
+                    .ToList();
 
-                    if (!mentionCount.ContainsKey(p))
+                if (!statement.emotions.Any())
+                {
+                    statement.emotions.Add(new EmotionData
                     {
-                        mentionCount[p] = ment[p];
-                    }
-                    else
-                    {
-                        mentionCount[p] += ment[p];
-                    }
+                        emotion = "Neutral",
+                        score = 0.9
+                    });
                 }
 
-
+                statement.emotions = statement.emotions.OrderByDescending(e => e.score).Take(1).ToList();
             }
 
-            ViewBag.politician = politic_id;
-            if (mentionCount.ContainsKey(politic_id))
+            var emotionStatsQ = emotionAnalysis.GetEmotionPercentagesPerPoliticianAndYearQ(st);
+
+            ViewBag.EmotionStatsQ = emotionStatsQ;
+
+            var emotionStatsH = emotionAnalysis.GetEmotionPercentagesPerPoliticianAndYearH(st);
+
+            ViewBag.EmotionStatsH = emotionStatsH;
+
+            Dictionary<string, int> st_count = st
+            .GroupBy(s => s.osobaid)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+            ViewBag.st_count = st_count;
+
+            Dictionary<string, Dictionary<int, int>> st_count_years = st
+                .GroupBy(s => s.osobaid)
+                .ToDictionary(
+                    g => g.Key,
+                    g => g.GroupBy(s => s.datum.Value.Year)
+                          .ToDictionary(gg => gg.Key, gg => gg.Count())
+                );
+            ViewBag.st_count_years = st_count_years;
+
+            var topentities = nerAnalysis.GetTopEntitiesPerPerson(st);
+            var statementsPerEntity = nerAnalysis.GetStatementsPerTopEntity(st, topentities);
+
+            var allPieChartData = new Dictionary<string, Dictionary<string, List<EntityFrequency>>>();
+            var sentimentHist = new Dictionary<string, Dictionary<string, double[]>>();
+            var emotionData = new Dictionary<string, Dictionary<string, List<EmotionDistribution>>>();
+            var sentiment_half_pe = new Dictionary<string, Dictionary<string, Dictionary<string, double>>>();
+            var year_count_pe = new Dictionary<string, Dictionary<string, Dictionary<int, int>>>();
+            foreach (var kvp in statementsPerEntity)
             {
-                ViewBag.mention_count = mentionCount[politic_id];
-            }
-            else
-            {
-                ViewBag.mention_count = 0;
+
+                if (!allPieChartData.ContainsKey(kvp.Key))
+                {
+                    allPieChartData[kvp.Key] = new Dictionary<string, List<EntityFrequency>>();
+                }
+                if (!sentimentHist.ContainsKey(kvp.Key))
+                {
+                    sentimentHist[kvp.Key] = new Dictionary<string, double[]>();
+                }
+                if (!emotionData.ContainsKey(kvp.Key))
+                {
+                    emotionData[kvp.Key] = new Dictionary<string, List<EmotionDistribution>>();
+                }
+                if (!sentiment_half_pe.ContainsKey(kvp.Key))
+                {
+                    sentiment_half_pe[kvp.Key] = new Dictionary<string, Dictionary<string, double>>();
+                }
+                if (!year_count_pe.ContainsKey(kvp.Key))
+                {
+                    year_count_pe[kvp.Key] = new Dictionary<string, Dictionary<int, int>>();
+                }
+                for (int i = 0; i < kvp.Value.Count; i++)
+                {
+
+
+                    //string fileName = $"{kvp.Key}_{topentities[kvp.Key][i]}.csv";
+                    //textAnalysis.ExportTexts(kvp.Value[i], fileName);
+
+                    var res = nerAnalysis.PoliticEntityPieChart(kvp.Value[i], mix, topentities[kvp.Key][i]);
+                    allPieChartData[kvp.Key][topentities[kvp.Key][i]] = res;
+
+
+                    sentimentHist[kvp.Key][topentities[kvp.Key][i]] = kvp.Value[i].Select(s => s.Sentiment).ToArray();
+
+                    var emotionDistribution = emotionAnalysis.PrepareEmotionDistribution(kvp.Value[i]);
+                    emotionData[kvp.Key][topentities[kvp.Key][i]] = emotionDistribution;
+
+                    var time_sentiment_pe = sentimentAnalysis.CalculateAverageSentimentByHalfYear(kvp.Value[i])[kvp.Key];
+
+
+                    if (!sentiment_half_pe[kvp.Key].ContainsKey(topentities[kvp.Key][i]))
+                    {
+                        sentiment_half_pe[kvp.Key][topentities[kvp.Key][i]] = new Dictionary<string, double>();
+                    }
+                    sentiment_half_pe[kvp.Key][topentities[kvp.Key][i]] = time_sentiment_pe;
+
+                    if (!year_count_pe[kvp.Key].ContainsKey(topentities[kvp.Key][i]))
+                    {
+                        year_count_pe[kvp.Key][topentities[kvp.Key][i]] = new Dictionary<int, int>();
+                    }
+
+                    var count_years = nerAnalysis.GetStatementsPerYear(kvp.Value[i]);
+                    year_count_pe[kvp.Key][topentities[kvp.Key][i]] = count_years;
+
+                }
             }
 
-            ViewBag.mentions = mentions[politic_id];
-            ViewBag.sumwords = sumwords;
-            ViewBag.avgwords = avgwords;
-            ViewBag.avgmentions = avgmentions;
+            ViewBag.allpiecharts = allPieChartData;
+
+            ViewBag.sentHist = sentimentHist;
+            ViewBag.emotionData = emotionData;
+            ViewBag.sentiment_half_pe = sentiment_half_pe;
+            ViewBag.year_count_pe = year_count_pe;
+
+            var sentimentAll = st.Select(s => s.Sentiment).ToArray();
+            ViewBag.sentimentAll = sentimentAll;
+            var piechartAll = nerAnalysis.PoliticEntityPieChart(st, mix);
+            ViewBag.piechartAll = piechartAll;
+            var piechartAll_names = nerAnalysis.PoliticEntityPieChart(st, names);
+            ViewBag.piechartAll_names = piechartAll_names;
+            var emotionDistributionAll = emotionAnalysis.PrepareEmotionDistribution(st);
+            ViewBag.emotionAll = emotionDistributionAll;
+
+
+            var st_negative = st.Where(s => s.Sentiment < -0.5).ToList();
+            var st_positive = st.Where(s => s.Sentiment > 0.5).ToList();
+
+            var negative_ner = nerAnalysis.PoliticEntityPieChart(st_negative, mix);
+            var negative_names = nerAnalysis.PoliticEntityPieChart(st_negative, names);
+            ViewBag.neg_mix = negative_ner;
+            ViewBag.neg_names = negative_names;
+            var positive_ner = nerAnalysis.PoliticEntityPieChart(st_positive, mix);
+            var positive_names = nerAnalysis.PoliticEntityPieChart(st_positive, names);
+            ViewBag.pos_mix = positive_ner;
+            ViewBag.pos_names = positive_names;
+
+            Dictionary<string, List<EntityFrequency>> emotionsNerMix = new Dictionary<string, List<EntityFrequency>>();
+            Dictionary<string, List<EntityFrequency>> emotionsNerNames = new Dictionary<string, List<EntityFrequency>>();
+
+
+            foreach (var emotion in uniqueEmotions)
+            {
+                var st_e = st.Where(s => s.emotions.Any(x => x.emotion == emotion)).ToList();
+
+                var enm = nerAnalysis.PoliticEntityPieChart(st_e, mix);
+                var enn = nerAnalysis.PoliticEntityPieChart(st_e, names);
+
+                if (enm.Any())
+                {
+                    emotionsNerMix[emotion] = enm;
+                }
+                if (enn.Any())
+                {
+                    emotionsNerNames[emotion] = enn;
+                }
+
+            }
+            ViewBag.emotionsNerMix = emotionsNerMix;
+            ViewBag.emotionsNerNames = emotionsNerNames;
+
+
+            var top_sim = rhetoricAnalysis.LoadSimilarities();
+            ViewBag.top_sim = top_sim;
+
+
+
+            return View();
+        }
+        public async Task<IActionResult> PoliticianList()
+        {
+
+            List<string> top_politics = new() { "andrej-babis", "tomio-okamura", "lubomir-volny", "adam-vojtech", "miroslav-kalousek",
+            "alena-schillerova", "pavel-belobradek", "petr-fiala", "karel-havlicek", "milos-zeman" };
+
+            ViewBag.politician_list = top_politics;
+
+
+            return View();
+        }
+        public IActionResult Sentiment([FromServices] StylometryAnalysis stylometryAnalysis, [FromServices] ClusterAnalysis clusterAnalysis, [FromServices] RhetoricAnalysis rhetoricAnalysis, [FromServices] TopicAnalysis topicAnalysis , [FromServices] StatementDataDB statementDataDB, [FromServices] TextAnalysis textAnalysis, [FromServices] SentimentAnalysis sentimentAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] AssociationRulesGenerator association)
+        {
+            List<Statement> st = _statementData.Statements;
+            st = st.Where(x => x.Sentiment != 666).ToList();
+            var st_sent_m = _statementData.LoadDataWMentions(st);
+            var politiciansentiments = sentimentAnalysis.PoliticianSentiments(st.Where(s => s.RT == false).ToList());
+            ViewBag.pol_sentiments = politiciansentiments;
+
+
+            var polaritycounts = st.Select(s => s.Sentiment).ToArray();
+            ViewBag.polaritycounts = polaritycounts;
+
+            var polaritycountsM = st_sent_m.Select(s => s.Sentiment).ToArray();
+            ViewBag.polaritycountsM = polaritycountsM;
+
+            //4 - počet příspěvků s nějakým sentimentem ve kterých je daný politik zmíněn
+            var mentionspolarity = sentimentAnalysis.GetMentionsPolarity(st);
+            ViewBag.mentionspolarity = mentionspolarity;
+
+            //5 - Rozdělení sentimentu ve příspěvcích politiků
+            var polarity = sentimentAnalysis.GetPolarity(st);
+            ViewBag.polarity = polarity;
+            var (classicAvg, retweetAvg) = sentimentAnalysis.RT_sentiment(st);
+            ViewBag.classicAvg = classicAvg;
+            ViewBag.retweetAvg = retweetAvg;
+
+
+            var server_sentiment = st
+                .GroupBy(s => s.server)
+                .Select(g => new { Server = g.Key, Sentiments = g.Select(s => s.Sentiment).ToList() })
+                .ToList();
+            ViewBag.server_sentiment = server_sentiment;
+
+            var RTpolsentiments = sentimentAnalysis.PoliticianSentiments(st.Where(s => s.RT == true).ToList());
+            ViewBag.RTpolsentiments = RTpolsentiments;
+            var time_sentiment = sentimentAnalysis.CalculateAverageSentimentByHalfYear(st);
+            ViewBag.time_sentiment = time_sentiment;
+
+            var st_noRT = st.Where(x => !x.RT).ToList();
+
+         
+            var extreme_s = sentimentAnalysis.CalculateSentimentRatios(st_noRT);
+            ViewBag.extreme_s = extreme_s;
+
+            var avgrt = sentimentAnalysis.CalculateAvgSentimentRT(st);
+            ViewBag.avgrt = avgrt;
+            ViewBag.mcount_sentiment = sentimentAnalysis.MentionsAvgSentiment(st);
+
+            var avgsentiment = sentimentAnalysis.CalculateAvgSentimentPolitician(st);
+
+            avgsentiment = avgsentiment.OrderBy(x => x.AverageSentiment).ToList();
+
+            var avgsentimentMentions = sentimentAnalysis.CalculateAvgSentimentPolitician(st_sent_m);
+            var avgsentimentFM = sentimentAnalysis.CalculateAvgSentimentPoliticianFromMentions(st);
+            avgsentimentFM = avgsentimentFM.OrderBy(x => x.AverageSentiment).ToList();
+            ViewBag.avgsentimentFM = avgsentimentFM.OrderByDescending(x => x.Count_m).ToList();
+
+            ViewBag.avgsentiment = avgsentiment;
+            ViewBag.avgsentimentMentions = avgsentimentMentions;
+            var combined = from item1 in avgsentiment
+                           join item2 in avgsentimentMentions
+                           on item1.OsobaID equals item2.OsobaID into itemGroup
+                           from item2 in itemGroup.DefaultIfEmpty() // DefaultIfEmpty provede left join
+                           select new CombinedPoliticianSentiment
+                           {
+                               OsobaID = item1.OsobaID,
+                               AverageSentiment1 = item1.AverageSentiment,
+                               count = item1.Count,
+                               avgpos = item1.AveragePos,
+                               avgneu = item1.AverageNeu,
+                               avgneg = item1.AverageNeg,
+                               count_m = item2?.Count ?? 100,
+                               AverageSentiment2 = item2?.AverageSentiment ?? 100 // Pokud item2 neexistuje, použije se null
+                           };
+
+            ViewBag.avg_combined = combined.OrderByDescending(x => x.count).ToList();
+            return View();
+        }
+
+
+
+
+        public async Task<IActionResult> NER([FromServices] StylometryAnalysis stylometryAnalysis, [FromServices] ClusterAnalysis clusterAnalysis, [FromServices] RhetoricAnalysis rhetoricAnalysis, [FromServices] TopicAnalysis topicAnalysis, [FromServices] StatementData statementData, [FromServices] StatementDataDB statementDataDB, [FromServices] TextAnalysis textAnalysis, [FromServices] SentimentAnalysis sentimentAnalysis, [FromServices] NERAnalysis nerAnalysis, [FromServices] AssociationRulesGenerator association)
+        {
+            List<Statement> st = _statementData.Statements;
+            await nerAnalysis.LoadNERFromDB(st);
+            var st_noRT = st.Where(x => !x.RT).ToList();
+
+            var entity_ratio = nerAnalysis.CalculateEntityToWordRatio(st_noRT);
+            ViewBag.PoliticianRatios = entity_ratio;
+
+            List<string> types = new List<string> { "io", "gc", "P", "ps", "gt", "om", "gu", "ty", "tm", "ic", "ms", "gl", "gr", "op", "oa", "if" };
+            var groupedEntities = nerAnalysis.GetTopEntitiesByType(st, types);
+            ViewBag.nercounts_types = groupedEntities;
+
+            var (entityTypes, typeCounts) = nerAnalysis.GetTopEntityTypes(st);
+
+           
+            ViewBag.EntityTypes = entityTypes;
+            ViewBag.TypeCounts = typeCounts;
+            var entitySentimentData = nerAnalysis.CalculateAverageSentimentType(st);
+
+            ViewBag.EntitySentiments = entitySentimentData;
+
+            var alltypes = entitySentimentData
+                .Select(x => x.EntityType)
+                .Distinct()
+                .ToList();
+            ViewBag.Alltypes = alltypes;
+
 
             return View();
         }
@@ -405,7 +786,7 @@ namespace PoliticStatements.Controllers
             ViewBag.avg_sentence_emoce = avg_sentence_emoce;
 
 
-            List<Statement> st = await statementData.LoadFromDatabase();
+            List<Statement> st = _statementData.Statements;
             List<Statement> st_m = statementData.LoadDataWMentions(st);
             await nerAnalysis.LoadNERFromDB(st);
             await topicAnalysis.LoadTopics(st);

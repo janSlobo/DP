@@ -124,3 +124,16 @@ public class ChartData
     public int Retweets { get; set; }
     public int NormalTweets { get; set; }
 }
+public class EmotionStats
+{
+    public string Emotion { get; set; }
+    public List<double> PercentagePerQuarter { get; set; }  // Procenta pro každé čtvrtletí
+}
+
+
+
+public class EmotionStatsH
+{
+    public string Emotion { get; set; }
+    public double Percentage{ get; set; }  // Procenta pro každé čtvrtletí
+}

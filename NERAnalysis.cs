@@ -13,7 +13,14 @@ namespace PoliticStatements
 
         public Dictionary<string, string> entity_mapping { get; set; }
 
-       
+
+        public Dictionary<int, int> GetStatementsPerYear(List<Statement> statements)
+        {
+            return statements
+                .GroupBy(s => s.datum.Value.Year) // Seskupíme podle roku
+                .ToDictionary(g => g.Key, g => g.Count()); // Vytvoříme slovník: rok → počet vyjádření
+        }
+
 
         public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st,List<string> nertypes, string  currentEntity="")
         {
@@ -65,9 +72,14 @@ namespace PoliticStatements
         public  Dictionary<string, List<List<Statement>>> GetStatementsPerTopEntity(List<Statement> statements, Dictionary<string, List<string>> topEntities)
         {
             return topEntities.ToDictionary(
-                kvp => kvp.Key,
-                kvp => kvp.Value.Select(entity => statements.Where(s => s.Entities.Any(e => e.EntityText == entity)).ToList()).ToList()
-            );
+               kvp => kvp.Key, 
+               kvp => kvp.Value
+           .Select(entity => statements
+               .Where(s => s.osobaid == kvp.Key && s.Entities.Any(e => e.EntityText == entity))
+               .ToList()
+           )
+           .ToList()
+   );
         }
 
         
@@ -237,7 +249,7 @@ namespace PoliticStatements
                                "FROM Entity e " +
                                "INNER JOIN Statement s ON s.id = e.StatementID " +
                                "WHERE s.jazyk LIKE 'cs' " +
-                               "AND e.EntityType IN ('ps','io','if','ic','mn','ms','o_','oa')";
+                               "AND e.EntityType IN ('ps','io','if','ic','mn','ms','o_','oa','gl','gu')";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -616,7 +628,7 @@ namespace PoliticStatements
                     for (int j = i + 1; j < topEntities.Count; j++)
                     {
                         
-                        if (cooccurrenceMatrix[i, j] > 0.15)
+                        if (cooccurrenceMatrix[i, j] > 0.05)
                         {
                             writer.WriteLine($"{topEntities[i]};{topEntities[j]};{cooccurrenceMatrix[i, j].ToString(CultureInfo.InvariantCulture)}");
                         }

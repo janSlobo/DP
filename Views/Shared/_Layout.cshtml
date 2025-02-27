@@ -11,6 +11,8 @@
     <title>@ViewData["Title"] - PoliticStatements</title>
      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -20,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PoliticStatements</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Vyjádření politiků na sociálních sítích</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,15 +30,28 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Úvod</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza vyjádření</a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Obecné statistiky</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza počtu příspěvků</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza délky textů</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza zmínek</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sentiment">Analýza sentimentu</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="NER">Analýza NER</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza Stylometrie</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="PoliticianList">Seznam politiků</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
 
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Statements</a>
-                        </li>
+                         
                     </ul>
                 </div>
             </div>
