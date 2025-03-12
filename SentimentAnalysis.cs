@@ -47,29 +47,10 @@ namespace PoliticStatements
             public double AverageSentiment { get; set; }
             public int Count { get; set; }
         }
-        public class PoliticianSentimentM
-        {
-            public string OsobaID { get; set; }
-            public double AverageSentiment { get; set; }
+        
+        
 
-            public double AveragePos { get; set; }
-            public double AverageNeu { get; set; }
-            public double AverageNeg { get; set; }
-
-            public int Count_m { get; set; }
-        }
-        public class SentimentResult
-        {
-            public string PoliticId { get; set; }
-            public double AvgSentimentOriginal { get; set; }
-            public double AvgSentimentRetweet { get; set; }
-        }
-
-        public class ExtremeSentiment
-        {
-            public double PositiveRatio { get; set; }
-            public double NegativeRatio { get; set; }
-        }
+       
         static List<(string, float)> ParseToList(string input)
         {
             var result = new List<(string, float)>();
@@ -215,9 +196,13 @@ namespace PoliticStatements
                     result[group.Key.osobaid] = new Dictionary<string, double>();
                 }
 
-                // Vypočítáme průměrný sentiment pro daný půlrok
+                
                 double averageSentiment = group.Average(s => s.Sentiment);
-                result[group.Key.osobaid][group.Key.HalfYear] = averageSentiment;
+                if (group.Count() > 50)
+                {
+                    result[group.Key.osobaid][group.Key.HalfYear] = averageSentiment;
+                }
+                
             }
             foreach (var person in result.Keys.ToList())
             {
@@ -308,14 +293,14 @@ namespace PoliticStatements
         }
 
 
-        public static List<SentimentRecordBert> LoadSentimentsFromCsv(string filePath)
+        public static List<SentimentRecord> LoadSentimentsFromCsv(string filePath)
         {
-            var sentimentRecords = new List<SentimentRecordBert>();
+            var sentimentRecords = new List<SentimentRecord>();
 
             using (var reader = new StreamReader(filePath))
             using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
             {
-                sentimentRecords = csv.GetRecords<SentimentRecordBert>().ToList();
+                sentimentRecords = csv.GetRecords<SentimentRecord>().ToList();
             }
 
             return sentimentRecords;
@@ -403,18 +388,29 @@ namespace PoliticStatements
         public List<PoliticianSentiment> CalculateAvgSentimentPolitician(List<Statement> st)
         {
             //List<Statement> statements = GetUpdatedStatements(st);
-            
+
 
             var averageSentiments = st.GroupBy(x => x.osobaid).Select(g => new PoliticianSentiment
-              {
-                  OsobaID = g.Key,
-                  AverageSentiment = Math.Round(g.Average(x => x.Sentiment),2),
-                  AveragePos = Math.Round(g.Average(x => x.pos),2),
+            {
+                OsobaID = g.Key,
+                AverageSentiment = Math.Round(g.Average(x => x.Sentiment), 2),
+                AveragePos = Math.Round(g.Average(x => x.pos), 2),
                 AverageNeu = Math.Round(g.Average(x => x.neu), 2),
-                AverageNeg= Math.Round(g.Average(x => x.neg), 2),
-                Count =g.Count()
-              })
-              .ToList();
+                AverageNeg = Math.Round(g.Average(x => x.neg), 2),
+                Count = g.Count()
+            })
+            .ToList()
+            .Select(ps =>
+            {
+                // Oprava - pokud je AverageSentiment, AveragePos, AverageNeu nebo AverageNeg -0.00, nastavíme to na 0
+                ps.AverageSentiment = (ps.AverageSentiment == 0 ? 0 : ps.AverageSentiment);
+                ps.AveragePos = (ps.AveragePos == 0 ? 0 : ps.AveragePos);
+                ps.AverageNeu = (ps.AverageNeu == 0 ? 0 : ps.AverageNeu);
+                ps.AverageNeg = (ps.AverageNeg == 0 ? 0 : ps.AverageNeg);
+                return ps;
+            })
+            .ToList();
+
 
             return averageSentiments;
         }
@@ -480,12 +476,7 @@ namespace PoliticStatements
             return sentimentData;
         }
 
-        public class SentimentStats
-        {
-            public double Negative { get; set; }
-            public double Neutral { get; set; }
-            public double Positive { get; set; }
-        }
+        
         public Dictionary<string, SentimentStats> GetMentionsPolarity(List<Statement> st)
         {
             
@@ -540,7 +531,7 @@ namespace PoliticStatements
             return politicianMentions;
         }
 
-        public Dictionary<string, SentimentStats> GetPolarity(List<Statement> st)
+       /* public Dictionary<string, SentimentStats> GetPolarity(List<Statement> st)
         {
             
             var polarity = new Dictionary<string, SentimentStats>();
@@ -570,7 +561,7 @@ namespace PoliticStatements
             }
 
             return polarity;
-        }
+        }*/
 
         public Dictionary<string, double> GetRTPolarity(List<Statement> st)
         {

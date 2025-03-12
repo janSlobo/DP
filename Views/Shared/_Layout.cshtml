@@ -10,13 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - PoliticStatements</title>
      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+    
+
     <script src="https://d3js.org/d3.v7.min.js"></script>
   
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PoliticStatements.styles.css" asp-append-version="true" />
+
+    
+
+
 </head>
 <body>
     <header>
@@ -36,12 +45,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza vyjádření</a>
                             <ul class="dropdown-menu">
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Obecné statistiky</a></li>
-                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza počtu příspěvků</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="StatementCount">Analýza frekvence příspěvků</a></li>
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza délky textů</a></li>
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza zmínek</a></li>
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sentiment">Analýza sentimentu</a></li>
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="NER">Analýza NER</a></li>
                                 <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Statement">Analýza Stylometrie</a></li>
+                                <li> <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Emotions">Analýza Emocí</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -57,7 +67,7 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid">
+    <div class="main">
         <main role="main" class="m-2">
             @RenderBody()
         </main>

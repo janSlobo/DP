@@ -2,78 +2,509 @@
 @{
     ViewData["Title"] = "Sentiment";
     var sentimentData = ViewBag.time_sentiment as Dictionary<string, Dictionary<string, double>>;
+    var avg_combined = ViewBag.avg_combined as Dictionary<string, List<CombinedPoliticianSentiment>>;
+    var avgsentimentFM = ViewBag.avgsentimentFM as Dictionary<string, List<PoliticianSentimentM>>;
 }
 
 
 <script>
-    function showSentimentGraphs() {
+      var heightValue = 420;
+    var widthValue = 450;
+
+    var biggerWidth = 750;
+    var politicianData = @Html.Raw(Json.Serialize(ViewBag.pol_sentiments));
+    var polaritycounts = @Html.Raw(Json.Serialize(ViewBag.polaritycounts));
+    var polaritycountsM = @Html.Raw(Json.Serialize(ViewBag.polaritycountsM));
+    var yearS;
+    var classicAvgSentiment = @Html.Raw(Json.Serialize(ViewBag.classicAvg)) ;
+    var retweetAvgSentiment = @Html.Raw(Json.Serialize(ViewBag.retweetAvg));
+    var server_sentiment = @Html.Raw(Json.Serialize(ViewBag.server_sentiment));
+    var politicianDataRT = @Html.Raw(Json.Serialize(ViewBag.RTpolsentiments));
+    var sentimentRatios = @Html.Raw(Json.Serialize(ViewBag.extreme_s));
+    var sentimentResults = @Html.Raw(Json.Serialize(ViewBag.avgrt));
+    var avgCombinedByYear = @Html.Raw(Json.Serialize(ViewBag.avg_combined));
+    var avgsentimentFMByYear = @Html.Raw(Json.Serialize(ViewBag.avgsentimentFM));
+    function updateStatistics(selectedYear){
+        yearS = selectedYear.toString();
+        createCheckboxesBox("politicianListBox", showboxRozsah, yearS);
+        createCheckboxesBox("politicianListBoxRT", showboxRozsahRT, yearS)
+        document.getElementById("sortBy").value = "postCount";
+        document.getElementById("sortOrder").value = "desc";
+
+        showpolaritycounts(yearS);
+        showpolaritycountsm(yearS);
+        showboxRozsah();
+        showavgsent(yearS);
+        showserversent(yearS);
+        showboxRozsahRT();
+        createCheckboxes(yearS);
+        updateChartES();
+        createCheckboxesAvgRT()
+        plotGraph2([]);
+        updateTable();
+
+    }
+    function updateTable(){
+        var year = yearS;
+        console.log(year)
+        var combinedData = avgCombinedByYear[year] || avgCombinedByYear["all"];
+        var sentimentData = avgsentimentFMByYear[year] || avgsentimentFMByYear["all"];
+
+        // Vytvoření slovníků pro rychlý přístup k datům podle OsobaID
+        var avgCombinedDict = {};
+        combinedData.forEach(function (item) {
+            avgCombinedDict[item.osobaID] = item;
+        });
+
+        var avgSentimentFMDict = {};
+        sentimentData.forEach(function (item) {
+            avgSentimentFMDict[item.osobaID] = item;
+        });
+
+        // Vyprázdnění tabulky
+        var tableBody = document.querySelector("#merged-sentiment-table tbody");
+        tableBody.innerHTML = '';
+
+        // Spojení všech unikátních OsobaID
+        var allPoliticians = new Set([...Object.keys(avgCombinedDict), ...Object.keys(avgSentimentFMDict)]);
+       
+        // Naplnění tabulky novými řádky
+        allPoliticians.forEach(function (osobaID) {
+            var avgData = avgCombinedDict[osobaID] || null;
+            var mentionData = avgSentimentFMDict[osobaID] || null;
+            
+            var row = document.createElement("tr");
+           
+            
+            
+                row.innerHTML = `
+                <td>${osobaID}</td>
+                <td>${avgData ? avgData.averageSentiment1.toFixed(2) : '--'}</td>
+                <td>${avgData ? avgData.count : '--'}</td>
+                <td>${mentionData ? mentionData.averageSentiment.toFixed(2) : '--'}</td>
+                <td>${mentionData ? mentionData.count_m : '--'}</td>
+            `;
+                tableBody.appendChild(row);
+            
+            // Přidání řádku do tabulky
+            
+        });
+    }
+    function showpolaritycountsm(year) {
+        polaritycountsMY = polaritycountsM[year] || polaritycountsM["all"]
+
+        var trace = {
+            x: polaritycountsMY,
+            type: 'histogram',
+            xbins: { size: 0.2 },
+            marker: {
+                color: 'rgba(55, 128, 191, 0.7)',
+                line: {
+                    color: 'rgba(55, 128, 191, 1)',
+                    width: 1
+                }
+            }
+
+        };
+
+        var layout = {
+            title: 'Rozložení sentimentu ve vyjádřeních se zmínkami',
+            xaxis: { title: '', range: [-1, 1] },
+            width: widthValue,
+            height: heightValue,
+            innerWidth: null,
+            margin: {
+                l: 35,
+                r: 5,
+                t: 50,
+                b: 45
+            }
+        };
+
+
+        Plotly.newPlot('polaritybarM', [trace], layout);
+    }
+    function showpolaritycounts(year) {
+        polaritycountsY = polaritycounts[year] || polaritycounts["all"]
+        var trace = {
+            x: polaritycountsY,
+            type: 'histogram',
+            xbins: { size: 0.2 },
+            marker: {
+                color: 'rgba(55, 128, 191, 0.7)',
+                line: {
+                    color: 'rgba(55, 128, 191, 1)',
+                    width: 1
+                }
+            }
+
+        };
+
+        var layout = {
+            title: 'Rozložení sentimentu ve vyjádřeních',
+            xaxis: { title: '', range: [-1, 1] },
+            width: widthValue,
+            height: heightValue,
+            innerWidth: null,
+            margin: {
+                l: 35,
+                r: 5,
+                t: 50,
+                b: 45
+            }
+        };
+
+
+        Plotly.newPlot('polaritybar', [trace], layout);
+    }
+    function showavgsent(year) {
+        var classicAvg = classicAvgSentiment[year] || classicAvgSentiment["all"]
+        var retweetavg = retweetAvgSentiment[year] || retweetAvgSentiment["all"]
+        var data = [{
+            x: ['Klasický', 'Retweet'],
+            y: [classicAvg, retweetavg],
+            type: 'bar',
+            marker: {
+                color: ['blue', 'red']
+            }
+        }];
+
+
+        var layout = {
+            title: 'Průměrný sentiment ',
+            xaxis: {
+                title: 'Typ příspěvku'
+            },
+            yaxis: {
+                title: 'Průměrný sentiment'
+            },
+            width: widthValue,
+            height: heightValue
+
+        };
+
+
+        Plotly.newPlot('RTsentiment', data, layout);
+    }
+    function showboxRozsah() {
+        var year = yearS;
+       
+        politicianDataY = politicianData[year] || politicianData["all"]
+        var selectedIndices = [];
+        document.querySelectorAll("#politicianListBox input:checked").forEach(checkbox => {
+            selectedIndices.push(parseInt(checkbox.value));
+        });
+
+        var politicianKeys = Object.keys(politicianDataY);
+
+
+        var filteredPoliticianData = selectedIndices
+            .map(function (index) {
+                return politicianKeys[index];
+            })
+            .reduce(function (acc, politicianKey) {
+                acc[politicianKey] = politicianDataY[politicianKey];
+                return acc;
+            }, {});
 
 
 
-        //extreme sentiments
+        var data = Object.keys(filteredPoliticianData).map(function (politician) {
+            return {
+                y: filteredPoliticianData[politician],
+                type: 'box',
+                name: politician,
+                marker: {
+                    color: 'rgba(0, 123, 255, 0.5)',
+                },
+                line: {
+                    color: 'rgba(0, 123, 255, 1)',
+                },
+                boxmean: 'sd',
+                boxwidth: 8
+            };
+        });
 
-        var sentimentRatios = @Html.Raw(Json.Serialize(ViewBag.extreme_s));
+        var layout = {
+            title: 'Rozsah sentimentu v příspěvcích politiků',
+            xaxis: {
+                title: '',
+                tickmode: 'array',
+                tickvals: Object.keys(filteredPoliticianData),
+                tickangle: 45,
+                ticktext: Object.keys(filteredPoliticianData)
+            },
+            yaxis: {
+                title: 'Sentiment',
+                range: [-1, 1],
+            },
+            boxmode: 'overlay',
+            bargap: 0,
+            bargroupgap: 0,
+            showlegend: false,
+            margin: {
+                b: 65,
+                l: 30,
+                t: 50
+            },
+            width: biggerWidth,
+            height: heightValue,
+        };
 
-        console.log(sentimentRatios);
+        Plotly.newPlot('sentimentbox', data, layout);
+    }
+    function showserversent(year) {
+        var ss = server_sentiment[year] || server_sentiment["all"]
+        var plotData = ss.map(serverData => ({
+            type: 'box',
+            y: serverData.sentiments,
+            name: serverData.server,
+            boxmean: 'sd',
+        }));
+
+
+        layout = {
+            title: 'Rozdělení sentimentu na různých platformách',
+            xaxis: { title: 'Server ' },
+            yaxis: { title: 'Sentiment' },
+            width: widthValue,
+            height: heightValue,
+            showlegend: false
+        };
+
+
+        Plotly.newPlot('server-sentiment', plotData, layout);
+    }
+    
+    function updateChartES() {
+        var year = yearS;
+        sentimentRatiosY = sentimentRatios[year] || sentimentRatios["all"]
+
         var politicianNames = [];
         var positiveRatios = [];
         var negativeRatios = [];
 
 
-        for (var key in sentimentRatios) {
+        for (var key in sentimentRatiosY) {
             politicianNames.push(key);
-            positiveRatios.push(sentimentRatios[key].positiveRatio);
-            negativeRatios.push(sentimentRatios[key].negativeRatio);
+            positiveRatios.push(sentimentRatiosY[key].positiveRatio);
+            negativeRatios.push(sentimentRatiosY[key].negativeRatio);
         }
+        var selectedIndices = [];
+        document.querySelectorAll("#politicianList input:checked").forEach(checkbox => {
+            selectedIndices.push(parseInt(checkbox.value));
+        });
+
+        var filteredNames = selectedIndices.map(i => politicianNames[i]);
+        var filteredPos = selectedIndices.map(i => positiveRatios[i]);
+        var filteredNeg = selectedIndices.map(i => negativeRatios[i]);
+
+        var trace1 = { x: filteredNames, y: filteredPos, name: 'Velmi pozitivní', type: 'bar' };
+        var trace2 = { x: filteredNames, y: filteredNeg, name: 'Velmi negativní', type: 'bar' };
+        var layout = {
+            width: biggerWidth,  // pevná šířka v pixelech
+            height: heightValue  // pevná výška v pixelech
+        };
+        Plotly.react('extreme_s', [trace1, trace2], layout);
+    }
+    function showboxRozsahRT() {
+        var year = yearS;
+      
+        politicianDataY = politicianDataRT[year] || politicianDataRT["all"]
+        var selectedIndices = [];
+        document.querySelectorAll("#politicianListBoxRT input:checked").forEach(checkbox => {
+            selectedIndices.push(parseInt(checkbox.value));
+        });
+
+        var politicianKeys = Object.keys(politicianDataY);
 
 
-        function createCheckboxes() {
-            var listDiv = document.getElementById("politicianList");
-            listDiv.innerHTML = '';
-
-            politicianNames.forEach((name, index) => {
-                var div = document.createElement("div");
-                var checkbox = document.createElement("input");
-                checkbox.type = "checkbox";
-                checkbox.checked = false;
-                checkbox.value = index;
-                checkbox.addEventListener("change", updateChartES);
-
-                var label = document.createElement("label");
-                label.textContent = name;
-                label.style.marginLeft = "5px";
-
-                div.appendChild(checkbox);
-                div.appendChild(label);
-                listDiv.appendChild(div);
-            });
-        }
+        var filteredPoliticianData = selectedIndices
+            .map(function (index) {
+                return politicianKeys[index];
+            })
+            .reduce(function (acc, politicianKey) {
+                acc[politicianKey] = politicianDataY[politicianKey];
+                return acc;
+            }, {});
 
 
-        function updateChartES() {
-            var selectedIndices = [];
-            document.querySelectorAll("#politicianList input:checked").forEach(checkbox => {
-                selectedIndices.push(parseInt(checkbox.value));
-            });
 
-            var filteredNames = selectedIndices.map(i => politicianNames[i]);
-            var filteredPos = selectedIndices.map(i => positiveRatios[i]);
-            var filteredNeg = selectedIndices.map(i => negativeRatios[i]);
-
-            var trace1 = { x: filteredNames, y: filteredPos, name: 'Vysoce pozitivní vyjádření', type: 'bar' };
-            var trace2 = { x: filteredNames, y: filteredNeg, name: 'Vysoce negativní vyjádření', type: 'bar' };
-            var layout = {
-                width: 1300,  // pevná šířka v pixelech
-                height: 450  // pevná výška v pixelech
+        var data = Object.keys(filteredPoliticianData).map(function (politician) {
+            return {
+                y: filteredPoliticianData[politician],
+                type: 'box',
+                name: politician,
+                marker: {
+                    color: 'rgba(0, 123, 255, 0.5)',
+                },
+                line: {
+                    color: 'rgba(0, 123, 255, 1)',
+                },
+                boxmean: 'sd',
+                boxwidth: 8
             };
-            Plotly.react('extreme_s', [trace1, trace2],layout);
-        }
+        });
 
+        var layout = {
+            title: 'Rozsah sentimentu v retweetech politiků',
+            xaxis: {
+                title: '',
+                tickmode: 'array',
+                tickvals: Object.keys(filteredPoliticianData),
+                tickangle: 45,
+                ticktext: Object.keys(filteredPoliticianData)
+            },
+            yaxis: {
+                title: 'Sentiment',
+                range: [-1, 1],
+            },
+            boxmode: 'overlay',
+            bargap: 0,
+            bargroupgap: 0,
+            showlegend: false,
+            margin: {
+                b: 65,
+                l: 30,
+                t: 50
+            },
+            width: biggerWidth,
+            height: heightValue,
+        };
+
+        Plotly.newPlot('RTsentimentbox', data, layout);
+    }
+    function createCheckboxes(year) {
+        var politicianNames = [];
+
+        sentimentRatiosY = sentimentRatios[year] || sentimentRatios["all"]
+
+
+        for (var key in sentimentRatiosY) {
+            politicianNames.push(key);
+
+        }
+        var listForm = document.getElementById("politicianList");
+        listForm.innerHTML = ''; // Vymazání existujícího obsahu
+
+        politicianNames.forEach((name, index) => {
+            var div = document.createElement("div");
+            div.className = 'form-check';
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.checked = false;
+            checkbox.value = index;
+            checkbox.addEventListener("change", updateChartES);
+
+            var label = document.createElement("label");
+            label.textContent = name;
+            label.style.marginLeft = "5px";
+
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            listForm.appendChild(div);  // Přidání do form elementu
+        });
+    }
+    function createCheckboxesBox(id, fce, year) {
+        var listForm = document.getElementById(id);
+        listForm.innerHTML = '';
+        var politicianNames = [];
+
+        sentimentRatiosY = sentimentRatios[year] || sentimentRatios["all"]
+
+
+        for (var key in sentimentRatiosY) {
+            politicianNames.push(key);
+
+        }
+        politicianNames.forEach((name, index) => {
+            var div = document.createElement("div");
+            div.className = 'form-check';
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.checked = false;
+            checkbox.value = index;
+            checkbox.addEventListener("change", fce);
+
+            var label = document.createElement("label");
+            label.textContent = name;
+            label.style.marginLeft = "5px";
+
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            listForm.appendChild(div);
+        });
+    }
+    function createCheckboxesAvgRT() {
+        var year = yearS;
+        var sr = sentimentResults[year] || sentimentResults["all"];
+     
+        var formRT = document.getElementById('politicianFormRT');
+
+        // Vyprázdnění formuláře před přidáním nových checkboxů
+        formRT.innerHTML = "";
+
+        sr.forEach(result => {
+            var politician = result.politicId;
+
+            var div = document.createElement('div');
+            div.className = 'form-check';
+
+            var input = document.createElement('input');
+            input.type = 'checkbox';
+            input.className = 'form-check-input';
+            input.id = politician;
+            input.value = politician;
+
+            var label = document.createElement('label');
+            label.className = 'form-check-label';
+            label.htmlFor = politician;
+            label.textContent = politician;
+
+            div.appendChild(input);
+            div.appendChild(label);
+            formRT.appendChild(div);
+        });
+
+        formRT.addEventListener('change', () => {
+            var selectedOptions = Array.from(formRT.querySelectorAll('input:checked')).map(input => input.value);
+            plotGraph2(selectedOptions);
+        });
+    }
+
+
+    function plotGraph2(selectedPoliticians) {
+        var year = yearS;
+        var sr = sentimentResults[year] || sentimentResults["all"]
+    
+        var plotlyData = [];
+
+        var filteredResults = sr.filter(result => selectedPoliticians.includes(result.politicId.toString()));
+
+        var politicians = filteredResults.map(result => result.politicId);
+        var avgOriginal = filteredResults.map(result => result.avgSentimentOriginal);
+        var avgRetweet = filteredResults.map(result => result.avgSentimentRetweet);
+
+        plotlyData.push({ x: politicians, y: avgOriginal, name: 'Klasický příspěvek', type: 'bar' });
+        plotlyData.push({ x: politicians, y: avgRetweet, name: 'Retweet', type: 'bar' });
+
+        var layout = {
+            barmode: 'group',
+            title: 'Průměrný sentiment ve vyjádřeních politiků',
+            xaxis: { title: 'Politik' },
+            yaxis: { title: 'Průměrný sentiment' },
+            width: biggerWidth,
+            height: heightValue
+        };
+
+        Plotly.newPlot('avgrt', plotlyData, layout);
+    }
+    function showSentimentGraphs() {
+
+        updateTable();
 
         createCheckboxes();
         updateChartES();
-
-
 
         //sentiment in time
 
@@ -96,7 +527,7 @@
                 };
 
                 const layout = {
-                    title: `Sentiment politika: ${politician}`,
+
                     xaxis: { title: 'Půlroky', tickangle: -45 },
                     yaxis: { title: 'Průměrný sentiment' }
                 };
@@ -114,191 +545,32 @@
             drawGraph(selectedPolitician);
         });
         //1 - boxplot rozbrazující rozsah sentimentů z příspěvků politiků
-        var politicianData = @Html.Raw(Json.Serialize(ViewBag.pol_sentiments));
+        
 
-        var data = Object.keys(politicianData).map(function (politician) {
-            return {
-                y: politicianData[politician],
-                type: 'box',
-                name: politician,
-                marker: {
-                    color: 'rgba(0, 123, 255, 0.5)',
-                },
-                line: {
-                    color: 'rgba(0, 123, 255, 1)',
-                },
-                boxmean: 'sd',
-                boxwidth: 8
-            };
-        });
 
-        var layout = {
-            title: 'Rozsah sentimentu v příspěvcích politiků',
-            xaxis: {
-                title: '',
-                tickmode: 'array',
-                tickvals: Object.keys(politicianData),
-                tickangle: 45,
-                ticktext: Object.keys(politicianData)
-            },
-            yaxis: {
-                title: 'Sentiment',
-                range: [-1, 1],
-            },
-            boxmode: 'overlay',
-            bargap: 0,
-            bargroupgap: 0,
 
-            margin: {
-                b: 5,
-            },
-            width: 1300,
-            height: 450,
-        };
 
-        Plotly.newPlot('sentimentbox', data, layout);
+
+        createCheckboxesBox("politicianListBox", showboxRozsah);
+
+        showboxRozsah();
 
         //1_1 box retweets
-        var politicianData = @Html.Raw(Json.Serialize(ViewBag.RTpolsentiments));
-
-        var data = Object.keys(politicianData).map(function (politician) {
-            return {
-                y: politicianData[politician],
-                type: 'box',
-                name: politician,
-                marker: {
-                    color: 'rgba(0, 123, 255, 0.5)',
-                },
-                line: {
-                    color: 'rgba(0, 123, 255, 1)',
-                },
-                boxmean: 'sd',
-                boxwidth: 8
-            };
-        });
-
-        var layout = {
-            title: 'Rozsah sentimentu v retweetech politiků',
-            xaxis: {
-                title: 'Politici',
-                tickmode: 'array',
-                tickvals: Object.keys(politicianData),
-                tickangle: 45,
-            },
-            yaxis: {
-                title: 'Sentiment',
-                range: [-1, 1],
-            },
-            boxmode: 'overlay',
-            bargap: 0,
-            bargroupgap: 0,
-
-            margin: {
-                b: 5,
-            },
-            width: 1300,
-            height: 600,
-        };
-
-        Plotly.newPlot('RTsentimentbox', data, layout);
-
-
+        
+        createCheckboxesBox("politicianListBoxRT", showboxRozsahRT);
+        showboxRozsahRT();
         //11
-        var sentimentResults = @Html.Raw(Json.Serialize(ViewBag.avgrt));
 
-        var politician_polarityJSON = JSON.stringify(sentimentResults);
-        var parsedpolairities = JSON.parse(politician_polarityJSON);
+       
 
-
-        var politicians = parsedpolairities.map(function (result) {
-            return result.politicId;
-        });
+ 
 
 
-        var formRT = document.getElementById('politicianFormRT');
-        politicians.forEach(politician => {
-            var div = document.createElement('div');
-            div.className = 'form-check';
-
-            var input = document.createElement('input');
-            input.type = 'checkbox';
-            input.className = 'form-check-input';
-            input.id = politician;
-            input.value = politician;
-
-            var label = document.createElement('label');
-            label.className = 'form-check-label';
-            label.htmlFor = politician;
-            label.textContent = politician;
-
-            div.appendChild(input);
-            div.appendChild(label);
-            formRT.appendChild(div);
-        });
-
-        function plotGraph2(selectedPoliticians) {
-            var plotlyData = [];
-
-
-            var filteredResults = sentimentResults.filter(function (result) {
-                return selectedPoliticians.includes(result.politicId.toString());
-            });
-
-
-            var politicians = filteredResults.map(function (result) {
-                return result.politicId;
-            });
-
-            var avgOriginal = filteredResults.map(function (result) {
-                return result.avgSentimentOriginal;
-            });
-
-            var avgRetweet = filteredResults.map(function (result) {
-                return result.avgSentimentRetweet;
-            });
-
-
-            plotlyData.push({
-                x: politicians,
-                y: avgOriginal,
-                name: 'Klasický příspěvek',
-                type: 'bar'
-            });
-
-
-            plotlyData.push({
-                x: politicians,
-                y: avgRetweet,
-                name: 'Retweet',
-                type: 'bar'
-            });
-
-
-            var layout = {
-                barmode: 'group',
-                title: 'Průměrný sentiment ve vyjádřeních politiků',
-                xaxis: {
-                    title: 'Politik'
-                },
-                yaxis: {
-                    title: 'Průměrný sentiment'
-                },
-                width: 1000
-            };
-
-
-            Plotly.newPlot('avgrt', plotlyData, layout);
-        }
-
-
-
+        createCheckboxesAvgRT();
         plotGraph2([]);
 
 
-        formRT.addEventListener('change', () => {
-            var selectedOptions = Array.from(formRT.querySelectorAll('input:checked')).map(input => input.value);
-            plotGraph2(selectedOptions);
-        });
+        
 
 
 
@@ -306,157 +578,101 @@
 
         //2 - rozdělení sentimentu ve všech příspěvcích
 
-        var polaritycounts = @Html.Raw(Json.Serialize(ViewBag.polaritycounts));
-        var trace = {
-            x: polaritycounts,
-            type: 'histogram',
-            xbins: { size: 0.2 },
-            marker: {
-                color: 'rgba(55, 128, 191, 0.7)',
-                line: {
-                    color: 'rgba(55, 128, 191, 1)',
-                    width: 1
-                }
-            }
-
-        };
-
-        var layout = {
-            title: 'Rozložení sentimentu ve vyjádřeních',
-            xaxis: { title: '', range: [-1, 1] },
-            width: 700,
-            height: 400,
-            innerWidth: null,
-            margin: {
-                l: 35,
-                r: 5,
-                t: 45,
-                b: 45
-            }
-        };
 
 
-        Plotly.newPlot('polaritybar', [trace], layout);
+        showpolaritycounts();
 
         //3 -rozdělení sentimentu ve všech příspěvcích se zmínkami
-        var polaritycountsM = @Html.Raw(Json.Serialize(ViewBag.polaritycountsM));
 
-        var trace = {
-            x: polaritycountsM,
-            type: 'histogram',
-            xbins: { size: 0.2 },
-            marker: {
-                color: 'rgba(55, 128, 191, 0.7)',
-                line: {
-                    color: 'rgba(55, 128, 191, 1)',
-                    width: 1
-                }
-            }
-
-        };
-
-        var layout = {
-            title: 'Rozložení sentimentu ve vyjádřeních se zmínkami',
-            xaxis: { title: '', range: [-1, 1] },
-            width: 500,
-            height: 400,
-            innerWidth: null,
-            margin: {
-                l: 35,
-                r: 5,
-                t: 45,
-                b: 45
-            }
-        };
-
-
-        Plotly.newPlot('polaritybarM', [trace], layout);
+        showpolaritycountsm();
 
         //4 - počet příspěvků s nějakým sentimentem ve kterých je daný politik zmíněn
-        var politicianMentions = @Html.Raw(Json.Serialize(ViewBag.mentionspolarity));
-        var politicianMentionsJson = JSON.stringify(politicianMentions);
-        var parsedMentions = JSON.parse(politicianMentionsJson);
+        /* var politicianMentions = @Html.Raw(Json.Serialize(ViewBag.mentionspolarity));
+         var politicianMentionsJson = JSON.stringify(politicianMentions);
+         var parsedMentions = JSON.parse(politicianMentionsJson);
 
-        var politicians = Object.keys(parsedMentions);
+         var politicians = Object.keys(parsedMentions);
 
-        var formM = document.getElementById('politicianFormM');
-        politicians.forEach(politician => {
-            var div = document.createElement('div');
-            div.className = 'form-check';
+         var formM = document.getElementById('politicianFormM');
+         politicians.forEach(politician => {
+             var div = document.createElement('div');
+             div.className = 'form-check';
 
-            var input = document.createElement('input');
-            input.type = 'checkbox';
-            input.className = 'form-check-input';
-            input.id = politician;
-            input.value = politician;
+             var input = document.createElement('input');
+             input.type = 'checkbox';
+             input.className = 'form-check-input';
+             input.id = politician;
+             input.value = politician;
 
-            var label = document.createElement('label');
-            label.className = 'form-check-label';
-            label.htmlFor = politician;
-            label.textContent = politician;
+             var label = document.createElement('label');
+             label.className = 'form-check-label';
+             label.htmlFor = politician;
+             label.textContent = politician;
 
-            div.appendChild(input);
-            div.appendChild(label);
-            formM.appendChild(div);
-        });
+             div.appendChild(input);
+             div.appendChild(label);
+             formM.appendChild(div);
+         });
 
-        // Funkce pro vytvoření grafu
-        function plotGraph1(selectedPoliticians) {
-            // Filtrace dat na základě vybraných politiků
-            var filteredPoliticians = selectedPoliticians.length > 0 ? selectedPoliticians : politicians;
-            var filteredNegative = filteredPoliticians.map(p => parsedMentions[p].negative);
-            var filteredNeutral = filteredPoliticians.map(p => parsedMentions[p].neutral);
-            var filteredPositive = filteredPoliticians.map(p => parsedMentions[p].positive);
+         // Funkce pro vytvoření grafu
+         function plotGraph1(selectedPoliticians) {
+             // Filtrace dat na základě vybraných politiků
+             var filteredPoliticians = selectedPoliticians.length > 0 ? selectedPoliticians : politicians;
+             var filteredNegative = filteredPoliticians.map(p => parsedMentions[p].negative);
+             var filteredNeutral = filteredPoliticians.map(p => parsedMentions[p].neutral);
+             var filteredPositive = filteredPoliticians.map(p => parsedMentions[p].positive);
 
-            var trace1 = {
-                x: filteredPoliticians,
-                y: filteredNegative,
-                name: 'Negative',
-                type: 'bar'
-            };
+             var trace1 = {
+                 x: filteredPoliticians,
+                 y: filteredNegative,
+                 name: 'Negative',
+                 type: 'bar'
+             };
 
-            var trace2 = {
-                x: filteredPoliticians,
-                y: filteredNeutral,
-                name: 'Neutral',
-                type: 'bar'
-            };
+             var trace2 = {
+                 x: filteredPoliticians,
+                 y: filteredNeutral,
+                 name: 'Neutral',
+                 type: 'bar'
+             };
 
-            var trace3 = {
-                x: filteredPoliticians,
-                y: filteredPositive,
-                name: 'Positive',
-                type: 'bar'
-            };
+             var trace3 = {
+                 x: filteredPoliticians,
+                 y: filteredPositive,
+                 name: 'Positive',
+                 type: 'bar'
+             };
 
-            var data = [trace1, trace2, trace3];
+             var data = [trace1, trace2, trace3];
 
-            var layout = {
-                barmode: 'group',
-                title: 'Sentiment příspěvků kde jsou zmíněni politici',
-                xaxis: {
-                    title: 'Politik',
-                    tickangle: -45
-                },
-                yaxis: {
-                    title: 'Počet zmínek'
-                },
-                width: 900
-            };
+             var layout = {
+                 barmode: 'group',
+                 title: 'Sentiment příspěvků kde jsou zmíněni politici',
+                 xaxis: {
+                     title: 'Politik',
+                     tickangle: -45
+                 },
+                 yaxis: {
+                     title: 'Počet zmínek'
+                 },
+                 width: biggerWidth,
+                 height: heightValue
+             };
 
-            Plotly.newPlot('mentionbar', data, layout);
-        }
-
-
-        plotGraph1([]);
+             Plotly.newPlot('mentionbar', data, layout);
+         }
 
 
-        formM.addEventListener('change', () => {
-            var selectedOptions = Array.from(formM.querySelectorAll('input:checked')).map(input => input.value);
-            plotGraph1(selectedOptions);
-        });
+         plotGraph1([]);
+
+
+         formM.addEventListener('change', () => {
+             var selectedOptions = Array.from(formM.querySelectorAll('input:checked')).map(input => input.value);
+             plotGraph1(selectedOptions);
+         });*/
 
         //5 - Rozdělení sentimentu ve příspěvcích politiků
+        /*
         var politician_polarity = @Html.Raw(Json.Serialize(ViewBag.polarity));
         var politician_polarityJSON = JSON.stringify(politician_polarity);
         var parsedpolairities = JSON.parse(politician_polarityJSON);
@@ -527,7 +743,8 @@
                 yaxis: {
                     title: 'Počet příspěvků'
                 },
-                width: 900
+                width: biggerWidth,
+                heightValue:heightValue
             };
 
             Plotly.newPlot('polaritybar_combined', data, layout);
@@ -543,31 +760,15 @@
             plotGraph(selectedOptions);
         });
 
-      
+      */
 
 
         //8
-        var server_sentiment = @Html.Raw(Json.Serialize(ViewBag.server_sentiment));
-        console.log(server_sentiment)
+        
 
-        var plotData = server_sentiment.map(serverData => ({
-            type: 'box',
-            y: serverData.sentiments,
-            name: serverData.server,
-            boxmean: 'sd',
-        }));
-
-
-        layout = {
-            title: 'Rozdělení sentimentu na různých platformách',
-            xaxis: { title: 'Server ' },
-            yaxis: { title: 'Sentiment' },
-        };
-
-
-        Plotly.newPlot('server-sentiment', plotData, layout);
-
+        showserversent();
         //9
+        /*
         var data = @Html.Raw(Json.Serialize(ViewBag.mcount_sentiment));
         console.log(data)
 
@@ -599,35 +800,11 @@
 
         Plotly.newPlot('mentionscount-sentiment', plotData, layout);
 
-
+        */
         //10 -RT
-        var classicAvgSentiment = @Html.Raw(Json.Serialize(ViewBag.classicAvg)) ;
-        var retweetAvgSentiment = @Html.Raw(Json.Serialize(ViewBag.retweetAvg))
+        
+        showavgsent();
 
-            var data = [{
-            x: ['Classic', 'Retweet'],
-            y: [classicAvgSentiment, retweetAvgSentiment],
-            type: 'bar',
-            marker: {
-                color: ['blue', 'red']
-            }
-        }];
-
-
-        var layout = {
-            title: 'Průměrný sentiment pro klasické a retweetové příspěvky',
-            xaxis: {
-                title: 'Typ příspěvku'
-            },
-            yaxis: {
-                title: 'Průměrný sentiment'
-            },
-            width:500,height:500
-
-        };
-
-
-        Plotly.newPlot('RTsentiment', data, layout);
     }
 
     function showMore(tableId, button) {
@@ -659,8 +836,100 @@
 
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
+    function sortTable() {
+        var table= document.querySelector("#merged-sentiment-table tbody");
+        var rows = Array.from(table.rows); // všechny řádky kromě hlavičky
+        var sortBy = document.getElementById("sortBy").value;
+        var sortOrder = document.getElementById("sortOrder").value === "asc" ? 1 : -1;
 
+        var columnIndexes = {
+            'averageSentiment': 1,
+            'postCount': 2,
+            'mentionSentiment': 3,
+            'mentionCount': 4
+        };
+
+        // Funkce pro získání hodnoty buňky podle zvoleného kritéria
+        function getCellValue(row, sortBy) {
+            var cell = row.cells[columnIndexes[sortBy]];
+            var textContent = cell.textContent.trim();
+
+            if (textContent === "--") {
+                return null; // Značí neexistující hodnotu
+            }
+
+            textContent = textContent.replace(',', '.');
+            var value = parseFloat(textContent);
+            return isNaN(value) ? null : value;
+        }
+
+        // Filtrujeme řádky podle minimálního počtu příspěvků
+        filterTable(rows);
+
+        // Oddělíme řádky s '--' v sentimentových sloupcích
+        var validRows = [];
+        var excludedRows = [];
+
+        rows.forEach(row => {
+            var value = getCellValue(row, sortBy);
+            if (value == null) {
+                excludedRows.push(row)
+            }else{
+                validRows.push(row);
+            }
+             
+               
+            
+        });
+
+        // Řazení pouze platných řádků
+        validRows.sort((rowA, rowB) => {
+            var valueA = getCellValue(rowA, sortBy);
+            var valueB = getCellValue(rowB, sortBy);
+            if (valueA === valueB) return 0;
+            return (valueA > valueB ? 1 : -1) * sortOrder;
+        });
+
+        // Vyčištění tabulky a znovu přidání seřazených řádků
+        validRows.forEach(row => table.appendChild(row));
+        excludedRows.forEach(row => table.appendChild(row)); // Na konec tabulky přidáme nezařazené řádky
+    }
+
+
+    function filterTable(rows) {
+        var minPostCount = document.getElementById("minPostCount").value;
+        
+        if (minPostCount) {
+            rows.forEach(row => {
+                var postCountCell = row.cells[2];  
+                var postCount = parseInt(postCountCell.textContent.trim());
+
+               
+                if (postCountCell.textContent.trim() === "--") {
+                    row.style.display = "none";  
+                } else if (postCount < minPostCount) {
+                    row.style.display = "none";  
+                } else {
+                    row.style.display = "table-row";  
+                }
+            });
+        } else {
+            // Pokud není zadaný minimální počet příspěvků, zobrazíme všechny řádky
+            rows.forEach(row => row.style.display = "table-row");
+        }
+    }
+
+
+    
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("yearFilter").addEventListener("change", function () {
+            const selectedYear = this.value;
+            updateStatistics(selectedYear);
+        });
         showSentimentGraphs()
 
 
@@ -669,103 +938,137 @@
 </script>
 <h1>Analýza sentimentu ve vyjádřeních</h1>
 
-<div id="sentiment">
+<div class="row justify-content-start mb-3">
+    <div class="col-md-4">
+        <select id="yearFilter" class="form-select">
+            <option value="">Všechna vyjádření</option>
+            @for (int year = 2016; year <= 2023; year++)
+            {
+                <option value="@year.ToString()">@year</option>
+            }
+        </select>
+    </div>
+</div>
+<div id="sentiment" class="sentiment_page">
+    <div class="left-panel-sentiment">
+     <div class="card">
+                <div class="card-header">
+                    <h3>Rozložení sentimentu ve vyjádřeních</h3>
+                </div>
+                <div class="card-body">
+                    <div class="grid">
+ 
+                        <div class="block">                        
+                            <div id="polaritybar" class="chart-container"></div>
+                        </div>
+                        <div class="block">
+                            <div id="polaritybarM" class="chart-container"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3>Sentiment na platformách</h3>
+            </div>
+            <div class="card-body">
+                <div class="grid">
+
+                    <div class="block">
+                        <div id="server-sentiment" class="chart-container"></div>
+                    </div>
+                    <div class="block">
+                        <div id="RTsentiment" class="chart-container"></div>
+                    </div>
+
+                </div>
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-auto">
+                          
+                            <form id="politicianFormRT" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+                        </div>
+
+                        <div class="col-md-7 ">
+                            <div id="avgrt" class="chart-container" ></div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3>Množství extrémního sentimentu ve vyjádřeních</h3>
+            </div>
+            <div class="card-body">
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-auto">
+                            <form id="politicianList" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+
+                        </div>
+                        <div class="col-md-8">
+                            <div id="extreme_s" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_time">
+
+        
+    </div>
+
+    
+    <div class="card">
+            <div class="card-header">
+                <h3>Sentiment politiků</h3>
+            </div>
+            <div class="card-body">
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-auto">
+
+                            <form id="politicianListBox" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+                        </div>
+
+                        <div class="col-md-7 ">
+                            <div id="sentimentbox" class="chart-container"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-auto">
+
+                            <form id="politicianListBoxRT" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+                        </div>
+
+                        <div class="col-md-7 ">
+                            <div id="RTsentimentbox" class="chart-container"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+    </div>
     
 
-    <div style="text-align: center;">
-        <div style="display: inline-block; margin: 10px; width: 45%; vertical-align: top;">
-            <h3>Průměrný sentimentu ve vyjádřeních</h3>
-            <table id="avg-combined-table" class="table table-bordered table-striped">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Politik</th>
-                        <th>Průměrný Sentiment</th>
-                        <th>Průměrný sentiment se zmínkami</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in ViewBag.avg_combined)
-                    {
-                        <tr class="table-row" style="display: @(ViewBag.avg_combined.IndexOf(item) >= 10 ? "none" : "table-row");">
-                            <td>@item.OsobaID</td>
-                            <td>@item.AverageSentiment1 (@item.count příspěvků)</td>
-                            <td>@(item.AverageSentiment2 == 100 ? "-" : $"{item.AverageSentiment2} (@{item.count_m} příspěvků)")</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-            <button class="btn btn-primary" onclick="showMore('avg-combined-table', this)">Zobrazit více</button>
-        </div>
-        <div style="display: inline-block; margin: 10px; width: 45%; vertical-align: top;">
-            <h3>Průměrný sentiment ve zmínkách</h3>
-            <table id="avgsentimentFM" class="table table-bordered table-striped">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Politik</th>
-                        <th>Průměrný sentiment</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in ViewBag.avgsentimentFM)
-                    {
-                        <tr class="table-row" style="display: @(ViewBag.avgsentimentFM.IndexOf(item) >= 10 ? "none" : "table-row");">
-                            <td>@item.OsobaID</td>
-                            <td>@item.AverageSentiment (@item.Count_m zmínek)</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-            <button class="btn btn-primary" onclick="showMore('avgsentimentFM', this)">Zobrazit více</button>
-        </div>
-    </div>
-
-    <div style="display: flex; gap: 20px;">
-        <div id="politicianList" style="overflow-y: auto;max-height: 400px; min-width: 200px;"></div>
-        <div id="extreme_s" style="flex-grow: 1;"></div>
-    </div>
-
-
-
-    <div class="container_time">
-
-        <div class="dropdown_time">
-            <label for="politicianSelectTime">Vyberte politika:</label>
-            <select id="politicianSelectTime">
-                @foreach (var politician in sentimentData.Keys)
-                {
-                    <option value="@politician">@politician</option>
-                }
-            </select>
-        </div>
-
-
-        <div id="sentiment_time" style="width: 100%; max-width: 800px; height: 400px;"></div>
-    </div>
-
-    <div style="text-align: center;">
-        <div id="polaritybar" style="display: inline-block; width: 45%; margin: 10px; vertical-align: top;"></div>
-        <div id="polaritybarM" style="display: inline-block; width: 45%; margin: 10px; vertical-align: top;"></div>
-    </div>
-
-    <div id="sentimentbox"></div>
-    <div id="RTsentimentbox"></div>
-
-    <div class="container mt-4">
-        <div class="row">
-
-            <div class="col-md-4">
-                <h5>Vyberte politiky:</h5>
-                <form id="politicianFormRT" class="form-group overflow-auto" style="max-height: 400px; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-                </form>
-            </div>
-
-
-            <div class="col-md-8 graphbar">
-                <div id="avgrt"></div>
-            </div>
-        </div>
-    </div>
-
+    
+    <!--
     <div class="container mt-4">
         <div class="row">
 
@@ -781,26 +1084,114 @@
             </div>
         </div>
     </div>
-
-    <div class="container mt-4">
-        <div class="row">
-
-            <div class="col-md-4">
-                <h5>Vyberte politiky:</h5>
-                <form id="politicianFormM" class="form-group overflow-auto" style="max-height: 400px; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-                </form>
+    -->
+    
+        <div class="card">
+            <div class="card-header">
+                <h3>Sentiment ve vyjádřeních zmiňující politiky</h3>
             </div>
+            <div class="card-body">
+              
+                <div class="block">
+                    <div class="row">
+                        <div class="col-md-auto">
 
+                            <form id="politicianFormM" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+                            
+                        </div>
 
-            <div class="col-md-8 graphbar">
-                <div id="mentionbar"></div>
+                        <div class="col-md-7 ">
+                            <div id="mentionbar" class="chart-container"></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
+    <div class="right-panel-sentiment">
+       
+           
+                <h3>Seznam politiků</h3>
+                <div  class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
+                    <label for="sortBy">Řadit podle:</label>
+                    <select id="sortBy" onchange="sortTable()" class="form-select">
+                        <option value="postCount">Počet příspěvků</option>
+                        <option value="averageSentiment">Průměrný Sentiment</option>
+                       
+                        <option value="mentionSentiment">Průměrný Sentiment ve zmínkách</option>
+                        <option value="mentionCount">Počet zmínek</option>
+                    </select>
+
+                    <label for="sortOrder">Pořadí:</label>
+                    <select id="sortOrder" onchange="sortTable()" class="form-select">
+                <option value="desc">Sestupně</option>
+                        <option value="asc">Vzestupně</option>
+                        
+                    </select>
+
+                    <label for="minPostCount">Minimální počet příspěvků:</label>
+                    <input type="number" id="minPostCount" class="form-select" placeholder="Zadejte počet" onchange="sortTable()">
+                </div>
+
+                <table id="merged-sentiment-table" class="table styled-table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Politik</th>
+                            <th>Průměrný Sentiment</th>
+                            <th>Počet příspěvků</th>
+                            <th>Průměrný Sentiment ve zmínkách</th>
+                            <th>Počet zmínek</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <!-- Dynamicky naplněný obsah tabulky se bude měnit na základě roku -->
+                    </tbody>
+                </table>
+
+                <button class="btn btn-primary" onclick="showMore('merged-sentiment-table', this)">Zobrazit více</button>
+            
+        
+
+        <div class="card">
+            <div class="card-header">
+                <h3>Vývoj sentimentu v čase</h3>
+            </div>
+            <div class="card-body">
+                <div class="block">
+                    <div class="dropdown-time">
+                        <label for="politicianSelectTime">Vyberte politika:</label>
+                        <select id="politicianSelectTime" class="form-select">
+                            @foreach (var politician in sentimentData.Keys)
+                            {
+                                <option value="@politician">@politician</option>
+                            }
+                        </select>
+                    </div>
+
+
+
+                    <div id="sentiment_time" class="chart-container"></div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+
    
-    <div id="server-sentiment" style="width:100%;max-width:700px;height:500px;"></div>
+
+
+
+    
+    
+    <!--
     <div id="mentionscount-sentiment" style="width:100%;max-width:700px;height:500px;"></div>
-    <div id="RTsentiment"></div>
+    -->
+    
 
 
 

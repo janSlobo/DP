@@ -1,4 +1,6 @@
-﻿namespace PoliticStatements
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace PoliticStatements
 {
     public class DataPreloadService : IHostedService
     {
@@ -12,6 +14,8 @@
         public async Task StartAsync(CancellationToken cancellationToken)
         {
             var statements = await _statementData.LoadFromDatabase();  // Načteme data z DB
+            await _statementData.LoadNERFromDB(statements);
+            await _statementData.LoadEmotionFromDB(statements);
             _statementData.Statements = statements;
 
         }

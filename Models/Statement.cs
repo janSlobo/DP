@@ -45,7 +45,7 @@ namespace PoliticStatements.Models
         public double populism { get; set; }
 
         public int cluster { get; set; }
-        public List<EmotionData> emotions = new List<EmotionData>();
+        public List<EmotionData> emotions { get; set; } = new List<EmotionData>();
         public List<string> topics { get; set; } = new List<string>();
         public List<EntityData> Entities { get; set; } = new List<EntityData>();
         public Statement()
@@ -53,11 +53,55 @@ namespace PoliticStatements.Models
             politicizminky = new List<string>();
         }
     }
+    public class HistogramData
+    {
+        public int StatementCount { get; set; }
+        public int NumOfPeople { get; set; }
+    }
+    public class MonthlyStatementCount
+    {
+        public int Month { get; set; }
+        public int Count { get; set; }
+    }
+    public class FilterModel
+    {
+        public string Category { get; set; }
+        public string SortBy { get; set; }
+        public string SortOrder { get; set; }
+    }
+
     public class SentimentStats
     {
         public int Negative { get; set; }
         public int Neutral { get; set; }
         public int Positive { get; set; }
+    }
+    public class SentimentResult
+    {
+        public string PoliticId { get; set; }
+        public double AvgSentimentOriginal { get; set; }
+        public double AvgSentimentRetweet { get; set; }
+    }
+    public class ExtremeSentiment
+    {
+        public double PositiveRatio { get; set; }
+        public double NegativeRatio { get; set; }
+    }
+    class ServerSentiment
+    {
+        public string Server { get; set; }
+        public List<double> Sentiments { get; set; }
+    }
+    public class PoliticianSentimentM
+    {
+        public string OsobaID { get; set; }
+        public double AverageSentiment { get; set; }
+
+        public double AveragePos { get; set; }
+        public double AverageNeu { get; set; }
+        public double AverageNeg { get; set; }
+
+        public int Count_m { get; set; }
     }
     public class CombinedPoliticianSentiment
     {
@@ -87,6 +131,17 @@ namespace PoliticStatements.Models
         public string emotion { get; set; }
         public double score { get; set; }
     }
+    public class EmotionPStats
+    {
+        public double Percentage { get; set; }
+        public double AverageIntensity { get; set; }
+    }
+
+    public class PoliticianEmotionData
+    {
+        public string OsobaId { get; set; }
+        public Dictionary<string, EmotionPStats> EmotionStatistics { get; set; }
+    }
     public class StatementNER
     {
         public string StatementId { get; set; }
@@ -104,7 +159,7 @@ public class EntitySentimentData
 public class EntityFrequency
 {
     public string EntityText { get; set; }
-    public int Frequency { get; set; }
+    public double Frequency { get; set; }
 }
 public class EmotionDistribution
 {

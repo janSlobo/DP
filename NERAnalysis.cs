@@ -22,12 +22,12 @@ namespace PoliticStatements
         }
 
 
-        public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st,List<string> nertypes, string  currentEntity="")
+        public List<EntityFrequency> PoliticEntityPieChart(List<Statement> st_emotion,List<string> nertypes, string  currentEntity="")
         {
             var entityFrequency = new Dictionary<string, int>();
 
            
-            foreach (var statement in st)
+            foreach (var statement in st_emotion)
             {
                 foreach (var entity in statement.Entities)
                 {
@@ -53,7 +53,78 @@ namespace PoliticStatements
 
             return pieChartData;
         }
+        public List<EntityFrequency> PoliticEntityPieChartNormalized(List<Statement> st_emotion, List<Statement> st_all, List<string> nertypes, string currentEntity = "")
+        {
+            var entityFrequency = new Dictionary<string, int>();
+            var totalEntityFrequency = new Dictionary<string, int>();
+            var documentFrequency = new Dictionary<string, int>(); // Počet textů, kde se entita vyskytla
+            int totalStatements = st_all.Count; // Celkový počet vyjádření
 
+            // Spočítání frekvencí entit ve vyjádřeních s danou emocí
+            foreach (var statement in st_emotion)
+            {
+                var uniqueEntities = new HashSet<string>(); // Pro DF počítáme jedinečné výskyty v textu
+                foreach (var entity in statement.Entities)
+                {
+                    if (entity.EntityText == currentEntity) continue;
+                    if (!nertypes.Contains(entity.Type)) continue;
+
+                    if (entityFrequency.ContainsKey(entity.EntityText))
+                        entityFrequency[entity.EntityText]++;
+                    else
+                        entityFrequency.Add(entity.EntityText, 1);
+
+                    uniqueEntities.Add(entity.EntityText);
+                }
+                // Počítáme DF (unikátní entity v daném textu)
+                foreach (var entity in uniqueEntities)
+                {
+                    if (documentFrequency.ContainsKey(entity))
+                        documentFrequency[entity]++;
+                    else
+                        documentFrequency.Add(entity, 1);
+                }
+            }
+
+            // Spočítání celkové frekvence entit ve všech vyjádřeních
+            foreach (var statement in st_all)
+            {
+                foreach (var entity in statement.Entities)
+                {
+                    if (!nertypes.Contains(entity.Type)) continue;
+
+                    if (totalEntityFrequency.ContainsKey(entity.EntityText))
+                        totalEntityFrequency[entity.EntityText]++;
+                    else
+                        totalEntityFrequency.Add(entity.EntityText, 1);
+                }
+            }
+
+            // Výpočet TF-IDF-like skóre
+            var weightedScores = new Dictionary<string, double>();
+
+            foreach (var entity in entityFrequency)
+            {
+                string entityText = entity.Key;
+                double termFrequency = (double)entity.Value / entityFrequency.Values.Sum(); // TF pro tuto emoci
+
+                if (documentFrequency.ContainsKey(entityText) && documentFrequency[entityText] > 0)
+                {
+                    double idf = Math.Pow(Math.Log((double)totalStatements / documentFrequency[entityText]), 3); // Silnější IDF penalizace
+
+                    weightedScores[entityText] = termFrequency * idf; // TF-IDF skóre
+                }
+            }
+
+            // Seřazení a výběr TOP 15 entit
+            List<EntityFrequency> pieChartData = weightedScores
+                .OrderByDescending(e => e.Value)
+                .Take(15)
+                .Select(e => new EntityFrequency { EntityText = e.Key, Frequency = e.Value })
+                .ToList();
+
+            return pieChartData;
+        }
 
         public  Dictionary<string, List<string>> GetTopEntitiesPerPerson(List<Statement> statements)
         {
@@ -126,12 +197,13 @@ namespace PoliticStatements
 
                 
                 double totalWords = group.Sum(s => s.pocetSlov ?? 0); 
-                double totalEntities = group.Sum(s => s.Entities.Count); 
+                double totalEntities = group.Sum(s => s.Entities.Count);
 
-                
-                double ratio = totalWords > 0 ? totalEntities/totalWords : 0;
 
-                
+                double ratio = totalWords > 0 ? (totalEntities / (totalWords/10)) : 0;
+
+
+
                 politicianRatios[politicianId] = ratio;
             }
 
@@ -249,7 +321,7 @@ namespace PoliticStatements
                                "FROM Entity e " +
                                "INNER JOIN Statement s ON s.id = e.StatementID " +
                                "WHERE s.jazyk LIKE 'cs' " +
-                               "AND e.EntityType IN ('ps','io','if','ic','mn','ms','o_','oa','gl','gu')";
+                               "AND e.EntityType IN ('io', 'gc', 'P', 'ps', 'gt', 'om', 'gu', 'ty', 'tm', 'ic', 'ms', 'gl', 'gr', 'op', 'oa', 'if')";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -324,7 +396,7 @@ namespace PoliticStatements
                         .GroupBy(e => e.EntityText)  
                         .Select(e => new KeyValuePair<string, int>(e.Key, e.Count()))  
                         .OrderByDescending(e => e.Value) 
-                        .Take(20)  
+                        .Take(30)  
                         .ToList() 
                 );
 
@@ -409,7 +481,7 @@ namespace PoliticStatements
                 var topEntities = entityCounts
                     .Where(e => e.Key.Item2 == entityGroup.Key) 
                     .OrderByDescending(e => e.Value)
-                    .Take(20) 
+                    .Take(30) 
                     .Select(e => e.Key)
                     .ToList();
 
@@ -628,7 +700,7 @@ namespace PoliticStatements
                     for (int j = i + 1; j < topEntities.Count; j++)
                     {
                         
-                        if (cooccurrenceMatrix[i, j] > 0.05)
+                        if (cooccurrenceMatrix[i, j] > 0.03)
                         {
                             writer.WriteLine($"{topEntities[i]};{topEntities[j]};{cooccurrenceMatrix[i, j].ToString(CultureInfo.InvariantCulture)}");
                         }

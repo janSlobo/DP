@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\PoliticStatements.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\App_Data\\input.txt",
+      "PackagePath": "staticwebassets\\App_Data\\input.txt"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\App_Data\\output.csv",
+      "PackagePath": "staticwebassets\\App_Data\\output.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\App_Data\\script.py",
+      "PackagePath": "staticwebassets\\App_Data\\script.py"
+    },
+    {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\graph.json",
       "PackagePath": "staticwebassets\\data\\graph.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politici_strana.csv",
+      "PackagePath": "staticwebassets\\data\\politici_strana.csv"
     },
     {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_similarity_jaccard_normalized2019.json",

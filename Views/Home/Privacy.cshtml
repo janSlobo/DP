@@ -2,10 +2,25 @@
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
+@using (Html.BeginForm("ProcessText", "Home", FormMethod.Post))
+{
+    <textarea name="inputText" rows="4" cols="50"></textarea>
+    <br />
+    <input type="submit" value="Zpracovat text" />
+}
+
+@if (ViewBag.Result != null)
+{
+    <div>
+        <h3>Výsledek analýzy:</h3>
+        <pre>@ViewBag.Result</pre>
+    </div>
+}
+
 <style>
     svg {
-        width: 100%;
-        height: 1000px;
+        width: 1200px;
+        height: 1050px;
         background: #f8f8f8;
     }
 
@@ -34,123 +49,159 @@
         fetch("/data/politician_similarity_jaccard_normalized2019.json")
             .then(response => response.json())
             .then(graphData => {
-                const width = window.innerWidth, height = 1000;
+                const width = 1200, height = 1050;
                 const svg = d3.select("svg").attr("width", width).attr("height", height);
 
                 const nodes = graphData.nodes;
                 const links = graphData.links;
+                const partyColors = {
+                    "ANO 2011": "#FF0000", // červená pro ANO 2011
+                    "TOP 09": "#0000FF",    // modrá pro TOP 09
+                    "ODS": "#00FF00",       // zelená pro ODS
+                    "CSSD": "#FFFF00",      // žlutá pro ČSSD
+                    // Další strany podle potřeby
+                    "neznama": "#808080"    // šedá pro neznámou stranu
+                };
+                // Načtěte soubor se skupinami
+                fetch("/data/politici_strana.csv")
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        // Přiřazení unikátního id k uzlům (pro D3.js, kdy uzly mají pouze "id")
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
 
-                // Přiřazení unikátního id k uzlům (pro D3.js, kdy uzly mají pouze "id")
-                const nodeById = {};
-                nodes.forEach(node => nodeById[node.id] = node); // mapujeme id na uzly
+                        // Přiřazení skupiny k uzlům
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama"; // Defaultní hodnota pokud není nalezena skupina
+                          
+                        });
 
-                // Představme si vážený stupeň uzlů
-                const nodeDegrees = {};
-                links.forEach(link => {
-                    nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
-                    nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
-                });
+                        // Představme si vážený stupeň uzlů
+                        const nodeDegrees = {};
+                        links.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
 
-                // Vytvoření síťové simulace (force layout)
-                const simulation = d3.forceSimulation(nodes)
-                    .force("link", d3.forceLink(links).id(d => d.id).distance(300).strength(0.4))  // Zvětšení vzdálenosti mezi propojenými uzly
-                    .force("charge", d3.forceManyBody().strength(-300))  // Zvýšení síly odtahování uzlů
-                    .force("center", d3.forceCenter(width / 2, height / 2))
-                    .on("tick", ticked);
+                        // Vytvoření síťové simulace (force layout)
+                        const simulation = d3.forceSimulation(nodes)
+                            .force("link", d3.forceLink(links).id(d => d.id).distance(300).strength(0.4))
+                            .force("charge", d3.forceManyBody().strength(-300))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .on("tick", ticked);
 
-                // Vykreslení hran
-                const link = svg.append("g")
-                    .selectAll("line")
-                    .data(links)
-                    .enter().append("line")
-                    .attr("class", "link")
-                    .attr("stroke-width", d => Math.sqrt(d.weight) * 15)  // Tloušťka hrany podle váhy
+                        // Vykreslení hran
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(links)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke-width", d => Math.sqrt(d.weight) * 15);
 
-                // Vykreslení uzlů
-                const node = svg.append("g")
-                    .selectAll("circle")
-                    .data(nodes)
-                    .enter().append("circle")
-                    .attr("class", "node")
-                    .attr("r", d => Math.sqrt(nodeDegrees[d.id]) * 20)  // Velikost uzlu podle váženého stupně
-                    .attr("fill", "steelblue")
-                    .call(d3.drag()
-                        .on("start", dragStart)
-                        .on("drag", dragged)
-                        .on("end", dragEnd));
+                        // Funkce pro určení barvy podle skupiny
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+                       
+                        // Vykreslení uzlů
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(nodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.sqrt(nodeDegrees[d.id]) * 20)
+                            .style("fill", d =>  colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
 
-                // Vykreslení popisků
-                const labels = svg.append("g")
-                    .selectAll("text")
-                    .data(nodes)
-                    .enter().append("text")
-                    .attr("class", "label")
-                    .attr("dx", 12)
-                    .attr("dy", 4)
-                    .text(d => d.id);
+                        // Vykreslení popisků
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(nodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
 
-                // Funkce pro aktualizaci pozic
-                function ticked() {
-                    link
-                        .attr("x1", d => d.source.x)
-                        .attr("y1", d => d.source.y)
-                        .attr("x2", d => d.target.x)
-                        .attr("y2", d => d.target.y);
+                        // Funkce pro aktualizaci pozic
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
 
-                    node
-                        .attr("cx", d => d.x)
-                        .attr("cy", d => d.y);
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
 
-                    labels
-                        .attr("x", d => d.x)
-                        .attr("y", d => d.y);
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
 
-                    // Počítání minimálních a maximálních hodnot pro pozice uzlů
-                    const xMin = d3.min(nodes, d => d.x);
-                    const xMax = d3.max(nodes, d => d.x);
-                    const yMin = d3.min(nodes, d => d.y);
-                    const yMax = d3.max(nodes, d => d.y);
+                            const xMin = d3.min(nodes, d => d.x);
+                            const xMax = d3.max(nodes, d => d.x);
+                            const yMin = d3.min(nodes, d => d.y);
+                            const yMax = d3.max(nodes, d => d.y);
 
-                    // Dynamické přizpůsobení měřítek pro X a Y osy
-                    const padding = 50;  // Padding pro graf (aby nebyl oříznutý)
-                    const scaleX = d3.scaleLinear()
-                        .domain([xMin - padding, xMax + padding])  // Včetně paddingu
-                        .range([0, width]);
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
 
-                    const scaleY = d3.scaleLinear()
-                        .domain([yMin - padding, yMax + padding])  // Včetně paddingu
-                        .range([0, height]);
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
 
-                    // Aplikování nových měřítek na pozice uzlů a hran
-                    node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
-                    labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
-                    link
-                        .attr("x1", d => scaleX(d.source.x))
-                        .attr("y1", d => scaleY(d.source.y))
-                        .attr("x2", d => scaleX(d.target.x))
-                        .attr("y2", d => scaleY(d.target.y));
-                }
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
 
-                // Funkce pro tahání uzlů
-                function dragStart(event, d) {
-                    if (!event.active) simulation.alphaTarget(0.3).restart();
-                    d.fx = d.x;
-                    d.fy = d.y;
-                }
+                        // Funkce pro tahání uzlů
+                        function dragStart(event, d) {
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
 
-                function dragged(event, d) {
-                    d.fx = event.x;
-                    d.fy = event.y;
-                }
+                        function dragged(event, d) {
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
 
-                function dragEnd(event, d) {
-                    if (!event.active) simulation.alphaTarget(0);
-                    d.fx = null;
-                    d.fy = null;
+                        function dragEnd(event, d) {
+                            if (!event.active) simulation.alphaTarget(0);
+                            d.fx = null;
+                            d.fy = null;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                // Funkce pro parsování CSV souboru
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
                 }
             })
             .catch(error => console.error("Chyba při načítání dat:", error));
     });
+
 </script>
 
 

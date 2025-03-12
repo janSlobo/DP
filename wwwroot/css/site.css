@@ -34,7 +34,7 @@ body {
     }
 
 #polaritybar, #polaritybarM {
-    box-sizing: border-box;
+  
     overflow: hidden;
 }
 
@@ -78,10 +78,40 @@ th.sortable {
     margin-top: 20px;
 }
 
-.dropdown_time {
-    margin-bottom: 20px;
+
+.dropdown-time {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
+.dropdown-time label {
+    font-size: 16px;
+  
+    margin-right:10px;
+        
+}
+    .dropdown-time select {
+        flex-grow: 1; 
+      
+    }
+.form-select {
+    max-width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+}
+#politicianSelectTime option {
+    cursor: pointer;
+}
 #politician-list-er {
     width: 200px;
     height: 300px; /* Pevná výška seznamu */
@@ -90,9 +120,7 @@ th.sortable {
     padding: 5px;
 }
 
-.table-row {
-    display: none; /* Skryté øádky */
-}
+
 
 .graphbar {
     border: 1px solid #ccc;
@@ -263,15 +291,61 @@ h4 {
 
 }
 
-
-
-.chart-container {
-    height: 350px;
-    justify-content: center;
-    align-items: center;
-    display:flex;
+.left-panel-sentiment {
+    width: 60%;
+    padding: 10px;
+}
+.right-panel-sentiment {
+    width: 40%;
+    padding: 10px;
+}
+.left-panel-count {
+    width: 60%;
+    padding: 10px;
 }
 
+.right-panel-count {
+    width: 40%;
+    padding: 10px;
+}
+.left-panel-emotion {
+    width: 55%;
+    padding: 10px;
+}
+
+.right-panel-emotion {
+    width: 40%;
+    padding: 10px;
+}
+
+.left-panel-ner {
+    width: 60%;
+    padding: 10px;
+}
+
+.right-panel-ner {
+    width: 40%;
+    padding: 10px;
+}
+.sentiment_page {
+    display: flex;
+    width: 100%;
+}
+.chart-container {
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+.chart-container-small {
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
 #allinfo {
     width: 55%; 
     float: left; 
@@ -292,13 +366,13 @@ h4 {
 }
 
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
     padding: 5px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
     width: 100%;
-    margin: 5px auto;
+    margin: 15px auto;
 }
 
 
@@ -313,6 +387,7 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align:center;
 }
 
 
@@ -324,7 +399,7 @@ h4 {
 
 .block {
     border: 2px solid rgba(211, 211, 211, 0.7);
-    padding: 0px;
+    padding: 2px;
     border-radius: 5px;
     text-align:center;
 }
@@ -418,3 +493,252 @@ h4 {
     background: #ffffff;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Styling pro formuláø */
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* mezera mezi jednotlivými položkami */
+    padding: 5px; /* vnitøní okraje formuláøe */
+    width: 300px; /* nastavení šíøky formuláøe */
+    border: 1px solid #ccc; /* ohranièení */
+    border-radius: 5px; /* zaoblené rohy */
+    background-color: #fafafa; /* svìtle šedé pozadí */
+    height:100%;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* mezera mezi checkboxem a textem */
+}
+
+#politicianFormRT label {
+    font-size: 14px;
+    word-wrap: break-word; /* pokud je text pøíliš dlouhý, pøeteèe na nový øádek */
+}
+#politicianList label {
+    font-size: 14px;
+    word-wrap: break-word; /* pokud je text pøíliš dlouhý, pøeteèe na nový øádek */
+}
+
+/* Dynamické pøizpùsobení šíøky pro sloupec obsahující formuláø */
+.col-md-auto {
+    display: flex;
+    justify-content: flex-start; /* Zarovná formuláø na zaèátek */
+    margin-right:5px;
+}
+
+/* Styling pro graf */
+.graphbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 2560px) {
+    .main {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 16px;
+        text-align: left;
+    }
+
+    .styled-table th {
+        background-color: #007BFF;
+        color: white;
+        font-weight: bold;
+    }
+
+    .styled-table tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #e2e6ea;
+    }
+
+    .styled-table td.sentiment {
+        font-weight: bold;
+    }
+
+.positive {
+    color: #28a745;
+}
+
+.negative {
+    color: #dc3545;
+}
+
+.neutral {
+    color: #6c757d;
+}
+
+.styled-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .styled-button:hover {
+        background-color: #0056b3;
+    }
+
+
+.filter-panel {
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+
+.emotion-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+    background-color: #fff;
+    
+   
+}
+
+.emotion-card-header h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    padding-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
+    box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-card-body {
+    padding: 0px;
+}
+
+
+
+.chart-section {
+    flex: 1;
+}
+
+    .chart-section h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+        color: #555;
+    }
+
+#emotionTable th:nth-child(2), #emotionTable td:nth-child(2) {
+    width: 150px; /* Mùžeš si pøizpùsobit šíøku podle potøeby */
+    word-wrap: break-word; /* Umožní textu, aby se zalamoval, pokud je pøíliš dlouhý */
+}
+.stat-box {
+    background: #cce5ff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 180px;
+}
+.stat-boxFB {
+    background: #1877F2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 180px;
+}
+.stat-boxTW {
+    background: #1DA1F2;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 180px;
+}
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #6c757d;
+}
+.stat-numberS {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e4e8f0;
+}
+
+.stat-labelS {
+    font-size: 14px;
+    color: #e4e8f0;
+}
+.week-info-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+/* Karty pro každý týden */
+.week-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 45%;
+    transition: transform 0.3s ease;
+}
+
+    .week-card h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    .week-card p {
+        font-size: 16px;
+        color: #777;
+    }
+
+    .week-card.active {
+        background-color: #d4edda; /* Svìtle zelená pro nejaktivnìjší */
+        border-left: 5px solid #28a745;
+    }
+
+    .week-card.inactive {
+        background-color: #f8d7da; /* Svìtle èervená pro nejménì aktivní */
+        border-left: 5px solid #dc3545;
+    }
+
+    .week-card:hover {
+        transform: scale(1.05);
+    }

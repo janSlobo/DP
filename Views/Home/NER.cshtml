@@ -1,48 +1,58 @@
 ﻿
 @{
     ViewData["Title"] = "NER";
-    var alltypes = ViewBag.Alltypes as List<string>;
-    
+    var alltypes = ViewBag.Alltypes as Dictionary<string,List<string>>;
+    var groupedEntities = ViewBag.nercounts_types as Dictionary<string, Dictionary<string, List<KeyValuePair<string, int>>>>;
+    var entitySentimentsTable = ViewBag.EntitySentiments as Dictionary<string,List<EntitySentimentData>>;
    
 }
 <script>
-    function showNerGraphs() {
-        var data_er = @Html.Raw(Json.Serialize(ViewBag.PoliticianRatios));
+    var heightValue = 420;
+    var widthValue = 450;
 
-        var politicians = Object.keys(data_er);
-        var ratios = Object.values(data_er);
+    var biggerWidth = 750;
+    var data_er = @Html.Raw(Json.Serialize(ViewBag.PoliticianRatios));
+    var entityTypes = @Html.Raw(Json.Serialize(ViewBag.entityTypes));
+    var typeCounts = @Html.Raw(Json.Serialize(ViewBag.typeCounts));
+    var entitySentiments = @Html.Raw(Json.Serialize(ViewBag.EntitySentiments));
+    var nerCounts = @Html.Raw(Json.Serialize(ViewBag.nercounts_types));
+    var groupedEntities = @Html.Raw(Json.Serialize(groupedEntities));
+    var allTypes = @Html.Raw(Json.Serialize(alltypes));
+    var yearS;
+    function updateStatistics(selectedYear){
+        yearS = selectedYear.toString();
+        populateCategoryFilter();
+        createCheckbox();
+        updateChartER();
+        showEntTypeBar();
+        populateSelect();
+        updateChart();
+        createSelect();
+        updateTable();
+        updateChartCounts();
+    }
+    function populateCategoryFilter() {
+        var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"]
+        var select = document.getElementById("categoryFilter");
 
-        var listDiv = document.getElementById('politician-list-er');
+        var categories = Object.keys(groupedEntitiesY);
 
-
-        function updateChartER() {
-            var selectedPoliticians = [];
-            var selectedRatios = [];
-
-            politicians.forEach((politician, index) => {
-                var checkbox = document.getElementById('cb_' + index);
-                if (checkbox.checked) {
-                    console.log(politician)
-                    console.log(data_er[politician])
-                    selectedPoliticians.push(politician);
-                    selectedRatios.push(data_er[politician]);
-                }
-            });
-
-            Plotly.newPlot('entity_ratio', [{
-                x: selectedPoliticians,
-                y: selectedRatios,
-                type: 'bar'
-            }], {
-                title: 'Politician Entity-to-Word Ratio',
-                xaxis: { title: 'Politician' },
-                yaxis: { title: 'Entity-to-Word Ratio' }
-            });
-        }
-
-
+        // Přidání jednotlivých kategorií do <select>
+        categories.forEach(category => {
+            var option = document.createElement("option");
+            option.value = category;
+            option.textContent = category;
+            select.appendChild(option);
+        });
+    }
+    function createCheckbox() {
+        var data_ery=data_er[yearS] || data_er["all"]
+        var politicians = Object.keys(data_ery);
+        var ratios = Object.values(data_ery);
+        var listForm = document.getElementById('politician-list-er');
         politicians.forEach((politician, index) => {
             var div = document.createElement('div');
+            div.className = 'form-check';
             var checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = politician;
@@ -56,21 +66,49 @@
 
             div.appendChild(checkbox);
             div.appendChild(label);
-            listDiv.appendChild(div);
+            listForm.appendChild(div); // Přidáno do formuláře místo divu
+        });
+    }
+    function updateChartER() {
+        var selectedPoliticians = [];
+        var selectedRatios = [];
+        var data_ery = data_er[yearS] || data_er["all"]
+        var politicians = Object.keys(data_ery);
+        var ratios = Object.values(data_ery);
+
+        politicians.forEach((politician, index) => {
+            var checkbox = document.getElementById('cb_' + index);
+            if (checkbox.checked) {
+                console.log(politician);
+                console.log(data_ery[politician]);
+                selectedPoliticians.push(politician);
+                selectedRatios.push(data_ery[politician]);
+            }
         });
 
-
-        updateChartER();
-
-       
-        //barplot1-nejčastější typy
-        var entityTypes = @Html.Raw(Json.Serialize(ViewBag.entityTypes));
-        var typeCounts = @Html.Raw(Json.Serialize(ViewBag.typeCounts));
-
-
+        Plotly.newPlot('entity_ratio', [{
+            x: selectedPoliticians,
+            y: selectedRatios,
+            type: 'bar'
+        }], {
+            title: 'Míra výskytu entit ve vyjádřeních',
+            xaxis: { title: '' },
+            yaxis: { title: 'Poměr entit k počtu slov' },
+            width: biggerWidth,
+            height: heightValue,
+            margin: {
+                b: 70,
+                l: 40,
+                t: 50
+            }
+        });
+    }
+    function showEntTypeBar() {
+        var entityTypesY = entityTypes[yearS] || entityTypes["all"]
+        var typeCountsY = typeCounts[yearS] || typeCounts["all"]
         var data = [{
-            x: entityTypes,
-            y: typeCounts,
+            x: entityTypesY,
+            y: typeCountsY,
             type: 'bar'
         }];
 
@@ -78,67 +116,238 @@
             title: 'Nejčastější typy entit',
             xaxis: { title: 'Typ' },
             yaxis: { title: 'Počet výskytů' },
-            width:800,height:500
+            width: biggerWidth,
+            height: heightValue,
+            margin: {
+                b: 70,
+                l: 30,
+                t: 50
+            }
         };
 
         Plotly.newPlot('entitytype_bar', data, layout);
+    }
+    function populateSelect() {
+        var alltypesy=allTypes[yearS] || allTypes["all"]
+        var select = document.getElementById("entityTypeSelect");
 
-        //barplot_sentiment
-        var entitySentiments = @Html.Raw(Json.Serialize(ViewBag.EntitySentiments));
-        console.log("Data:", entitySentiments);
+        // Vymazání existujících možností (pokud by bylo nutné)
+        select.innerHTML = '';
 
-        function updateChart() {
-            var selectedEntityType = document.getElementById('entityTypeSelect').value;
+        // Naplnění možností
+        alltypesy.forEach(type => {
+            var option = document.createElement("option");
+            option.value = type;
+            option.textContent = type;
+            select.appendChild(option);
+        });
+    }
+    function updateChart() {
+        var selectedEntityType = document.getElementById('entityTypeSelect').value;
+        var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"]
+
+        var filteredData = entitySentimentsY.filter(function (item) {
+            return item.entityType === selectedEntityType;
+        });
+
+        filteredData.sort(function (a, b) {
+            return a.averageSentiment - b.averageSentiment;
+        });
+
+        var entityNames = filteredData.map(function (item) { return item.entityName; });
+        var averageSentiments = filteredData.map(function (item) { return item.averageSentiment; });
 
 
-            var filteredData = entitySentiments.filter(function (item) {
-                return item.entityType === selectedEntityType;
+        var trace = {
+            x: entityNames,
+            y: averageSentiments,
+            type: 'bar'
+        };
+
+        var layout = {
+            title: 'Průměrný sentiment nejzmiňovanějších entit',
+            xaxis: { title: '', tickangle: -45 },
+            yaxis: { title: '' },
+            width: biggerWidth,
+            height: heightValue,
+            margin: {
+                b: 70,
+                l: 30,
+                t: 50
+            },
+        };
+
+        Plotly.newPlot('sentimentBarplot', [trace], layout);
+
+        //boxplot
+
+
+        var boxTraces = filteredData.map(function (item) {
+            return {
+                y: item.sentiments,
+                type: 'box',
+                name: item.entityName
+            };
+        });
+
+        var boxLayout = {
+            title: 'Rozsah sentimentu příspěvků s entitami',
+            xaxis: { title: '', tickangle: -45 },
+            yaxis: { title: '' },
+            width: biggerWidth,
+            height: heightValue,
+            margin: {
+                b: 70,
+                l: 30,
+                t: 50
+            }
+        };
+
+        Plotly.newPlot('sentimentboxEntity', boxTraces, boxLayout);
+
+    }
+    function createSelect() {
+        var nercountsy = nerCounts[yearS] || nerCounts["all"];
+        var typeSelect = document.getElementById('typeSelect');
+        Object.keys(nercountsy).forEach(function (type) {
+            var option = document.createElement('option');
+            option.value = type;
+            option.textContent = type;
+            typeSelect.appendChild(option);
+        });
+    }
+    function updateTable() {
+        var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"]
+        var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"]
+        const categoryFilter = document.getElementById('categoryFilter');
+        const sortBy = document.getElementById('sortBy');
+        const sortOrder = document.getElementById('sortOrder');
+        const tableBody = document.getElementById('entityTableBody');
+
+
+
+
+        let filteredEntities = groupedEntitiesY;
+
+        // Filtrace podle kategorie
+        const selectedCategory = categoryFilter.value;
+
+
+        const headerCell = document.getElementById('entityTableHead'); // Nahraď 'yourThId' skutečným id
+        if (headerCell) {
+            headerCell.textContent = selectedCategory;
+        }
+        if (selectedCategory) {
+            filteredEntities = Object.fromEntries(
+                Object.entries(groupedEntitiesY).filter(([key]) => key === selectedCategory)
+            );
+        }
+
+        // Třídění
+        const sortByValue = sortBy.value;
+        const sortOrderValue = sortOrder.value === 'asc' ? 1 : -1;
+
+        let sortedEntities = Object.entries(filteredEntities).map(([entityType, entities]) => {
+            return {
+                entityType: entityType,
+                entities: entities.sort((a, b) => {
+                    let aValue = 0;
+                    let bValue = 0;
+
+                    if (sortByValue === 'alphabetical') {
+                        aValue = a.key;
+                        bValue = b.key;
+                    } else if (sortByValue === 'sentiment') {
+                        aValue = entitySentimentsY.find(x => x.entityName === a.key && x.entityType === entityType)?.averageSentiment || 0;
+                        bValue = entitySentimentsY.find(x => x.entityName === b.key && x.entityType === entityType)?.averageSentiment || 0;
+                    } else if (sortByValue === 'count') {
+                        aValue = a.value;
+                        bValue = b.value;
+                    }
+
+                    return (aValue > bValue ? 1 : -1) * sortOrderValue;
+                })
+            };
+        });
+
+
+
+        tableBody.innerHTML = '';
+
+        const maxEntitiesCount = Math.max(...sortedEntities.map(item => item.entities.length));
+
+        for (let i = 0; i < maxEntitiesCount; i++) {
+            let row = document.createElement('tr');
+
+            sortedEntities.forEach(({ entityType, entities }) => {
+                let cell = document.createElement('td');
+
+                const entity = entities[i] || {};
+                const sentiment = entitySentimentsY.find(x => x.entityName === entity.key && x.entityType === entityType)?.averageSentiment || '-';
+                console.log(sentiment)
+
+                if (entity.key) {
+                    cell.innerHTML = `<strong>${entity.key}</strong>:<p>Počet výskytů: ${entity.value}</p><p>Prům. sentiment: ${sentiment}</p>`;
+
+                } else {
+                    cell.textContent = '-';
+                }
+                row.appendChild(cell);
             });
 
-            filteredData.sort(function (a, b) {
-                return a.averageSentiment - b.averageSentiment;
-            });
+            tableBody.appendChild(row);
+        }
+    }
+    function updateChartCounts() {
+        var nercountsy = nerCounts[yearS] || nerCounts["all"];
+        var selectedType = document.getElementById('typeSelect').value;
 
-            var entityNames = filteredData.map(function (item) { return item.entityName; });
-            var averageSentiments = filteredData.map(function (item) { return item.averageSentiment; });
+        console.log(selectedType)
+        if (selectedType && nercountsy[selectedType]) {
+
+            var entities = nercountsy[selectedType];
+            var entityNames = entities.map(function (e) { return e.key; });
+            var entityCounts = entities.map(function (e) { return e.value; });
 
 
             var trace = {
                 x: entityNames,
-                y: averageSentiments,
+                y: entityCounts,
                 type: 'bar'
             };
 
             var layout = {
-                title: 'Průměrný sentiment nejzmiňovanějších entit',
-                xaxis: { title: 'Název entity' },
-                yaxis: { title: 'Average Sentiment' },
-                width: 800, height: 500
+                title: 'Frekvence entit typu ' + selectedType,
+                xaxis: {
+                    title: ''
+                },
+                yaxis: {
+                    title: ''
+                },
+                width: biggerWidth,
+                height: heightValue
             };
 
-            Plotly.newPlot('sentimentBarplot', [trace], layout);
 
-            //boxplot
-
-
-            var boxTraces = filteredData.map(function (item) {
-                return {
-                    y: item.sentiments,
-                    type: 'box',
-                    name: item.entityName
-                };
-            });
-
-            var boxLayout = {
-                title: 'Rozsah sentimentu příspěvků s entitami',
-                xaxis: { title: 'Název entity' },
-                yaxis: { title: 'Sentiment' },
-                width: 800, height: 500
-            };
-
-            Plotly.newPlot('sentimentboxEntity', boxTraces, boxLayout);
-
+            Plotly.newPlot('barplotCounts', [trace], layout);
         }
+    }
+    function showNerGraphs() {
+
+
+
+        populateCategoryFilter();
+        createCheckbox();
+        updateChartER();
+
+        showEntTypeBar()
+
+       
+       
+       
+
+       
+        populateSelect();
 
 
         document.getElementById('entityTypeSelect').value = document.getElementById('entityTypeSelect').options[0].value;
@@ -151,147 +360,171 @@
 
         
 
+        createSelect();
+        
+        document.getElementById('typeSelect').addEventListener('change', function () {
+            updateChartCounts();
+        });
+        document.getElementById('typeSelect').value = document.getElementById('typeSelect').options[1].value;
+        updateChartCounts();
+
+
+      
+
+        updateTable();
+        categoryFilter.addEventListener('change', updateTable);
+        sortBy.addEventListener('change', updateTable);
+        sortOrder.addEventListener('change', updateTable);
+
+        
+        
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-
+        document.getElementById("yearFilter").addEventListener("change", function () {
+            const selectedYear = this.value;
+            updateStatistics(selectedYear);
+        });
         showNerGraphs()
 
 
     });
+
+
+      
 </script>
 <h1>Analýza výskytu entit ve vyjádřeních</h1>
+<div class="row justify-content-start mb-3">
+    <div class="col-md-4">
+        <select id="yearFilter" class="form-select">
+            <option value="">Všechna vyjádření</option>
+            @for (int year = 2016; year <= 2023; year++)
+            {
+                <option value="@year.ToString()">@year</option>
+            }
+        </select>
+    </div>
+</div>
+<div id="ner" class="sentiment_page">
 
-<div id="ner">
+    <div class="left-panel-ner">
+        <div class="card">
+            <div class="card-header">
+                <h3>Nejzmiňovanější entity</h3>
+            </div>
+            <div class="card-body">
 
+                <div class="block">
 
+                    <div id="entitytype_bar" class="chart-container"></div>
+                </div>
 
-    <div style="display: flex;">
+                <div class="block">
+                    <div class="dropdown-time">
+                        <label for="typeSelect">Vyberte typ:</label>
+                        <select id="typeSelect" class="form-select">
+                            <option value="">--Vyberte typ--</option>
+                        
+                        </select>
+                    </div>
+                    
+                    <div id="barplotCounts"></div>
+                </div>
+            </div>
+        </div>
 
-        <div style="width: 200px; padding-right: 20px;">
-            <h3>Vyberte politiky:</h3>
-            <div id="politician-list-er"></div>
+        <div class="card">
+            <div class="card-header">
+                <h3>Sentiment ve zmínkách</h3>
+            </div>
+            <div class="card-body">
+                <div class="dropdown-time">
+                    <label for="entityTypeSelect">Vyberte typ:</label>
+                    <select id="entityTypeSelect" onchange="updateChart()" class="form-select">
+
+                       
+                    </select>
+                </div>
+                <div class="block">
+
+                    <div id="sentimentBarplot" class="chart-container"></div>
+                    
+                </div>
+                <div class="block">
+                    <div id="sentimentboxEntity" class="chart-container"></div>
+                </div>
+            </div>
+
         </div>
 
 
-        <div id="entity_ratio" style="width: 600px;"></div>
+        <div class="card">
+            <div class="card-header">
+                <h3>Politici a entity</h3>
+            </div>
+            <div class="card-body">
+
+                <div class="block">
+                   
+                    <div class="row">
+                        <div class="col-md-auto">
+
+                            <form id="politician-list-er" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
+                            </form>
+
+                        </div>
+
+                        <div class="col-md-8 ">
+                            <div id="entity_ratio" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+   
+ 
+
+        
+  
+
     
-
-    <div id="entitytype_bar" style="width: 100%; height: 500px;"></div>
-
+  
 
 
 
-    <label for="entityTypeSelect">Vyberte typ:</label>
-    <select id="entityTypeSelect" onchange="updateChart()">
-
-        @foreach (var type in alltypes)
-        {
-            <option value="@type">@type</option>
-        }
-    </select>
-
-
-    <div id="sentimentBarplot" style="width: 100%; height: 500px;"></div>
-    <div id="sentimentboxEntity" style="width: 100%; height: 500px;"></div>
+  
     
-    <!--
-    <table class="table table-bordered table-sm entity-table">
-        <thead>
-            <tr>
-                <th>Název entity</th>
-                <th>Počet výskytů</th>
-                <th>Average Sentiment</th>
-            </tr>
-        </thead>
-        <tbody>
-    @if (ViewBag.ner_counts != null && ((List<KeyValuePair<string, int>>)ViewBag.ner_counts).Any())
-    {
-        var sentiments = ViewBag.ner_sentiment as Dictionary<string, double>;
+   
+    
+    <div class="right-panel-ner">
+        <div id="filter-panel" class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
+            <!-- Filtry -->
+            <select id="categoryFilter" class="form-select">
+                <option value="">Vyber kategorii</option>
+              
+            </select>
 
-        foreach (var entity in (List<KeyValuePair<string, int>>)ViewBag.ner_counts)
-        {
-                            <tr>
-                                <td>@entity.Key</td>
-                                <td>@entity.Value</td>
-                                <td>
-                    @if (sentiments != null && sentiments.ContainsKey(entity.Key))
-                    {
-                        @sentiments[entity.Key].ToString("F2")
-                    }
-                    else
-                    {
-                                            <span class="text-muted">N/A</span>
-                    }
-                                </td>
-                            </tr>
-        }
-    }
-    else
-    {
-                    <tr>
-                        <td colspan="3" class="text-center text-muted no-data">No data available</td>
-                    </tr>
-    }
-        </tbody>
-    </table>
-    -->
-    @{
-        var groupedEntities = ViewBag.nercounts_types as Dictionary<string, List<KeyValuePair<string, int>>>;
-        var entitySentiments = ViewBag.EntitySentiments as List<EntitySentimentData>;
-    }
+            <select id="sortBy" class="form-select">
+                <option value="alphabetical">Abecedně</option>
+                <option value="sentiment">Sentiment</option>
+                <option value="count">Počet výskytů</option>
+            </select>
 
-    <table class="table table-bordered grouped-entity-table">
-        <thead>
-            <tr>
-                @foreach (var entityType in groupedEntities.Keys)
-                {
-                    <th>@entityType</th>
-                }
-            </tr>
-        </thead>
-        <tbody>
-            @if (groupedEntities != null)
-            {
+            <select id="sortOrder" class="form-select">
+                <option value="asc">Vzestupně</option>
+                <option value="desc">Sestupně</option>
+            </select>
+        </div>
 
-                var maxEntitiesCount = groupedEntities.Max(g => g.Value.Count);
+        <table id="entityTable" class="table styled-table">
+            <thead>
+                <tr id="entityTableHeadRow"></tr>
+            </thead>
+            <tbody id="entityTableBody"></tbody>
+        </table>
 
-
-                for (int i = 0; i < maxEntitiesCount; i++)
-                {
-                    <tr>
-                        @foreach (var entityType in groupedEntities.Keys)
-                        {
-                            var entity = groupedEntities[entityType].ElementAtOrDefault(i);
-                            var sentiment = entitySentiments.Where(x => x.EntityName == entity.Key && x.EntityType == entityType).Select(x => x.AverageSentiment).FirstOrDefault();
-                            sentiment = Math.Round(sentiment, 2);
-                            <td>
-                                @if (entity.Key != null)
-                                {
-                                    <text>
-                                        <strong>@entity.Key</strong>:
-                                        <p>Počet výskytů: @entity.Value </p>
-                                        <p>Prům. sentiment: @sentiment</p>
-                                    </text>
-                                }
-                                else
-                                {
-                                    @("-")
-                                }
-                            </td>
-                        }
-                    </tr>
-                }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="100%" class="text-center no-data">No data available</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    </div>
 
 </div>

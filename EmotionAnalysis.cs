@@ -5,7 +5,241 @@ namespace PoliticStatements
 {
     public class EmotionAnalysis
     {
-       
+        public List<PoliticianEmotionData> CalculateEmotionStats(List<Statement> statements, List<string> emotionsToAnalyze)
+        {
+            var politicianStats = new Dictionary<string, PoliticianEmotionData>();
+
+            foreach (var statement in statements)
+            {
+                // Get the politician's data or initialize if not found
+                if (!politicianStats.ContainsKey(statement.osobaid))
+                {
+                    politicianStats[statement.osobaid] = new PoliticianEmotionData
+                    {
+                        OsobaId = statement.osobaid,
+                        EmotionStatistics = emotionsToAnalyze.ToDictionary(emotion => emotion, emotion => new EmotionPStats())
+                    };
+                }
+
+                var politicianData = politicianStats[statement.osobaid];
+
+                // For each emotion in the statement, update statistics
+                foreach (var emotionData in statement.emotions)
+                {
+                    if (emotionsToAnalyze.Contains(emotionData.emotion))
+                    {
+                        var emotionStat = politicianData.EmotionStatistics[emotionData.emotion];
+
+                        // Update average intensity
+                        if (emotionData.score > 0)
+                        {
+                            emotionStat.AverageIntensity += emotionData.score;
+                            emotionStat.Percentage += 1;
+                        }
+                    }
+                }
+            }
+
+            
+            foreach (var politicianData in politicianStats.Values)
+            {
+                foreach (var emotion in politicianData.EmotionStatistics.Keys.ToList())
+                {
+                    var emotionStat = politicianData.EmotionStatistics[emotion];
+
+                    if (emotionStat.Percentage > 0) 
+                    {
+                        emotionStat.AverageIntensity /= emotionStat.Percentage; 
+                    }
+                    
+                    emotionStat.Percentage = emotionStat.Percentage / statements.Count(s => s.osobaid == politicianData.OsobaId) * 100;
+
+                    
+                    
+                }
+            }
+
+            return politicianStats.Values.ToList();
+        }
+        public Dictionary<string, List<double>> GetSentimentDistribution(List<Statement> statements)
+        {
+            var sentimentData = new Dictionary<string, List<double>>();
+
+            foreach (var statement in statements)
+            {
+              
+                double sentiment = statement.Sentiment;
+
+               
+                foreach (var emotion in statement.emotions)
+                {
+                    
+                    if (!sentimentData.ContainsKey(emotion.emotion))
+                    {
+                        sentimentData[emotion.emotion] = new List<double>();
+                    }
+
+                    
+                    sentimentData[emotion.emotion].Add(sentiment);
+                }
+            }
+
+            return sentimentData;
+        }
+        public Dictionary<string, double> CalculateAverageIntensity(List<Statement> statements)
+        {
+            
+            var emotionSums = new Dictionary<string, double>();
+            var emotionCounts = new Dictionary<string, int>();
+
+           
+            foreach (var statement in statements)
+            {
+              
+                foreach (var emotionData in statement.emotions)
+                {
+                    if (!emotionSums.ContainsKey(emotionData.emotion))
+                    {
+                        emotionSums[emotionData.emotion] = 0;
+                        emotionCounts[emotionData.emotion] = 0;
+                    }
+
+                    
+                    emotionSums[emotionData.emotion] += emotionData.score;
+                    emotionCounts[emotionData.emotion] += 1;
+                }
+            }
+
+         
+            var averageIntensities = new Dictionary<string, double>();
+
+            foreach (var emotion in emotionSums.Keys)
+            {
+                
+                averageIntensities[emotion] = emotionSums[emotion] / emotionCounts[emotion];
+            }
+
+            return averageIntensities;
+        }
+        public Dictionary<string, Dictionary<string, double>> CalculateAndNormalizeCoOccurrence(List<Statement> statements)
+        {
+            var emotionPairs = new Dictionary<string, Dictionary<string, int>>();
+
+            // Krok 1: Výpočet spoluvýskytu emocí
+            foreach (var statement in statements)
+            {
+                var uniqueEmotions = statement.emotions
+                    .Select(e => e.emotion)
+                    .Distinct()
+                    .ToList();
+
+                for (int i = 0; i < uniqueEmotions.Count; i++)
+                {
+                    for (int j = i; j < uniqueEmotions.Count; j++)
+                    {
+                        string e1 = uniqueEmotions[i];
+                        string e2 = uniqueEmotions[j];
+
+                        if (!emotionPairs.ContainsKey(e1))
+                            emotionPairs[e1] = new Dictionary<string, int>();
+
+                        if (!emotionPairs[e1].ContainsKey(e2))
+                            emotionPairs[e1][e2] = 0;
+
+                        emotionPairs[e1][e2]++;
+
+                        // Zrcadlově vyplníme matici
+                        if (e1 != e2)
+                        {
+                            if (!emotionPairs.ContainsKey(e2))
+                                emotionPairs[e2] = new Dictionary<string, int>();
+
+                            if (!emotionPairs[e2].ContainsKey(e1))
+                                emotionPairs[e2][e1] = 0;
+
+                            emotionPairs[e2][e1]++;
+                        }
+                    }
+                }
+            }
+
+            // Krok 2: Normalizace matice
+            var normalizedMatrix = new Dictionary<string, Dictionary<string, double>>();
+
+            // Nejprve získáme maximální hodnoty na diagonále
+            var diagValues = emotionPairs.ToDictionary(kv => kv.Key, kv => kv.Value.ContainsKey(kv.Key) ? kv.Value[kv.Key] : 1);
+
+            foreach (var row in emotionPairs)
+            {
+                string emotion1 = row.Key;
+                normalizedMatrix[emotion1] = new Dictionary<string, double>();
+
+                foreach (var col in row.Value)
+                {
+                    string emotion2 = col.Key;
+                    int count = col.Value;
+
+                    // Kontrola, zda hodnoty na diagonále nejsou nula, aby se zabránilo dělení nulou
+                    double normValue = 0;
+                    double diag1 = diagValues[emotion1];
+                    double diag2 = diagValues[emotion2];
+
+                    if (diag1 > 0 && diag2 > 0) // Pokud jsou diagonální hodnoty větší než nula
+                    {
+                        normValue = (double)count / Math.Sqrt(diag1 * diag2);
+                    }
+
+                    // Pokud je některá diagonální hodnota 0, přiřadíme hodnotu 0
+                    normalizedMatrix[emotion1][emotion2] = normValue;
+                }
+            }
+
+            return normalizedMatrix;
+        }
+
+        public Dictionary<string, Dictionary<string, int>> CalculateCoOccurrence(List<Statement> statements)
+        {
+            var emotionPairs = new Dictionary<string, Dictionary<string, int>>();
+
+            foreach (var statement in statements)
+            {
+                var uniqueEmotions = statement.emotions
+                    .Select(e => e.emotion)
+                    .Distinct()
+                    .ToList();
+
+                for (int i = 0; i < uniqueEmotions.Count; i++)
+                {
+                    for (int j = i; j < uniqueEmotions.Count; j++)
+                    {
+                        string e1 = uniqueEmotions[i];
+                        string e2 = uniqueEmotions[j];
+
+                        if (!emotionPairs.ContainsKey(e1))
+                            emotionPairs[e1] = new Dictionary<string, int>();
+
+                        if (!emotionPairs[e1].ContainsKey(e2))
+                            emotionPairs[e1][e2] = 0;
+
+                        emotionPairs[e1][e2]++;
+
+                        // Zrcadlově vyplníme matici
+                        if (e1 != e2)
+                        {
+                            if (!emotionPairs.ContainsKey(e2))
+                                emotionPairs[e2] = new Dictionary<string, int>();
+
+                            if (!emotionPairs[e2].ContainsKey(e1))
+                                emotionPairs[e2][e1] = 0;
+
+                            emotionPairs[e2][e1]++;
+                        }
+                    }
+                }
+            }
+
+            return emotionPairs;
+        }
         public async Task LoadEmotionFromDB(List<Statement> st)
         {
             
@@ -75,7 +309,7 @@ namespace PoliticStatements
                 {
                     Emotion = ec.Key,
                     Count = ec.Value
-                })
+                }).OrderByDescending(x=>x.Count)
                 .ToList();
 
             return emotionDistribution;

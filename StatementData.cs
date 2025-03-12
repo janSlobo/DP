@@ -20,7 +20,73 @@ namespace PoliticStatements
         {
             
         }
+        public void ExportMentionsToCsvSentiment(List<Statement> statements, string filePath)
+        {
+            var mentionDict = new Dictionary<(string, string), (int count, double sentimentSum)>();
 
+            foreach (var statement in statements)
+            {
+                string sourcePolitician = statement.osobaid;
+                double sentiment = statement.Sentiment; // Předpokládám, že objekt Statement má atribut sentiment
+
+                foreach (var mentionedPolitician in statement.politicizminky)
+                {
+                    var key = (sourcePolitician, mentionedPolitician);
+                    if (mentionDict.ContainsKey(key))
+                    {
+                        mentionDict[key] = (mentionDict[key].count + 1, mentionDict[key].sentimentSum + sentiment);
+                    }
+                    else
+                    {
+                        mentionDict[key] = (1, sentiment);
+                    }
+                }
+            }
+
+            using (var writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("Source,Target,Weight,AvgSentiment");
+                foreach (var entry in mentionDict)
+                {
+                    double avgSentiment = entry.Value.count > 0 ? entry.Value.sentimentSum / entry.Value.count : 0;
+                    writer.WriteLine($"{entry.Key.Item1},{entry.Key.Item2},{entry.Value.count},{avgSentiment.ToString("F2", CultureInfo.InvariantCulture)}");
+
+                }
+            }
+        }
+
+        public void ExportMentionsToCsv(List<Statement> statements, string filePath)
+        {
+           
+
+            var mentionDict = new Dictionary<(string, string), int>();
+
+            foreach (var statement in statements)
+            {
+                
+
+                string sourcePolitician = statement.osobaid;
+                foreach (var mentionedPolitician in statement.politicizminky)
+                {
+                 
+
+                    var key = (sourcePolitician, mentionedPolitician);
+                    if (mentionDict.ContainsKey(key))
+                        mentionDict[key]++;
+                    else
+                        mentionDict[key] = 1;
+                }
+            }
+
+            using (var writer = new StreamWriter(filePath))
+            {
+                writer.WriteLine("Source,Target,Weight");
+                foreach (var entry in mentionDict)
+                {
+                    writer.WriteLine($"{entry.Key.Item1},{entry.Key.Item2},{entry.Value}");
+                }
+            }
+        }
         public ChartData GetChartData(List<Statement> statements)
         {
             var facebookCount = statements.Count(s => s.server == "Facebook");
@@ -142,6 +208,131 @@ namespace PoliticStatements
         {
             return st.Where(s => s.politicizminky.Count != 0).ToList();
         }
+        public async Task LoadNERFromDB(List<Statement> st)
+        {
+            // Vytvoření slovníku pro rychlý přístup k Statement podle ID
+            Dictionary<string, Statement> statementsDict = st.ToDictionary(s => s.id);
+
+            using (SqlConnection conn = new SqlConnection(GlobalConfig.connstring))
+            {
+                await conn.OpenAsync();
+
+                string query = "SELECT e.EntityName, e.EntityType, e.StatementID " +
+                               "FROM Entity e " +
+                               "INNER JOIN Statement s ON s.id = e.StatementID " +
+                               "WHERE s.jazyk LIKE 'cs' " +
+                               "AND e.EntityType IN ('io', 'gc', 'P', 'ps', 'gt', 'om', 'gu', 'ty', 'tm', 'ic', 'ms', 'gl', 'gr', 'op', 'oa', 'if')";
+
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+                    {
+                        // Hromadné přidávání entit do statementů
+                        while (await reader.ReadAsync())
+                        {
+                            string entityName = reader.GetString(reader.GetOrdinal("EntityName"));
+                            string entityType = reader.GetString(reader.GetOrdinal("EntityType"));
+                            string statementId = reader.GetString(reader.GetOrdinal("StatementID"));
+
+                            // Rychlý přístup ke statementu pomocí slovníku
+                            if (statementsDict.TryGetValue(statementId, out Statement statement))
+                            {
+                                // Inicializace seznamu entit, pokud je null
+                                statement.Entities ??= new List<EntityData>();
+
+                                // Přidání entity
+                                statement.Entities.Add(new EntityData
+                                {
+                                    EntityText = entityName,
+                                    Type = entityType
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        public async Task LoadEmotionFromDB(List<Statement> st)
+        {
+
+            Dictionary<string, Statement> statementsDict = st.ToDictionary(s => s.id);
+
+            using (SqlConnection conn = new SqlConnection(GlobalConfig.connstring))
+            {
+                await conn.OpenAsync();
+
+                string query = "SELECT * from Emotion ";
+
+
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+                    {
+
+                        while (await reader.ReadAsync())
+                        {
+                            double score = reader.GetDouble(reader.GetOrdinal("Score"));
+                            string emotion = reader.GetString(reader.GetOrdinal("Emotion"));
+                            string statementId = reader.GetString(reader.GetOrdinal("StatementID"));
+
+
+                            if (statementsDict.TryGetValue(statementId, out Statement statement))
+                            {
+
+                                statement.emotions ??= new List<EmotionData>();
+
+
+                                statement.emotions.Add(new EmotionData
+                                {
+                                    emotion = emotion,
+                                    score = score
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        public Dictionary<string, Dictionary<string, int>> GetStatementsPerYear(List<Statement> statements)
+        {
+            var result = new Dictionary<string, Dictionary<string, int>>();
+
+            // Přidáme nový klíč pro celkové záznamy
+            var allStatements = new Dictionary<string, int>();
+
+            foreach (var statement in statements)
+            {
+                int year = statement.datum.Value.Year;
+                string osobaId = statement.osobaid;
+
+                // Zpracování podle roku
+                if (!result.ContainsKey(year.ToString()))
+                {
+                    result[year.ToString()] = new Dictionary<string, int>();
+                }
+
+                if (!result[year.ToString()].ContainsKey(osobaId))
+                {
+                    result[year.ToString()][osobaId] = 0;
+                }
+
+                result[year.ToString()][osobaId]++;
+
+                // Zpracování pro "all" (všechny záznamy)
+                if (!allStatements.ContainsKey(osobaId))
+                {
+                    allStatements[osobaId] = 0;
+                }
+
+                allStatements[osobaId]++;
+            }
+
+            // Přidáme do výsledku klíč "all"
+            result["all"] = allStatements;
+
+            return result;
+        }
+
         public async Task<List<Statement>> LoadFromDatabase()
         {
             List<Statement> st = new List<Statement>();
@@ -150,7 +341,7 @@ namespace PoliticStatements
             {
                 await conn.OpenAsync();
 
-                using (SqlCommand cmd = new SqlCommand("select * from Statement where  jazyk='cs' and pocetSlov>5 and SentimentBert!=666 ", conn))
+                using (SqlCommand cmd = new SqlCommand("select  * from Statement where jazyk='cs' and Sentiment!=666   ", conn))
                 using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
@@ -166,7 +357,7 @@ namespace PoliticStatements
                             pocetSlov = reader.GetInt32(reader.GetOrdinal("pocetSlov")),
                             RT = reader.GetBoolean(reader.GetOrdinal("RT")),
                             text = reader.GetString(reader.GetOrdinal("text")),
-                            Sentiment = reader.GetDouble(reader.GetOrdinal("SentimentBert")),
+                            Sentiment = reader.GetDouble(reader.GetOrdinal("Sentiment")),
                             pos = reader.GetDouble(reader.GetOrdinal("pos")),
                             neu = reader.GetDouble(reader.GetOrdinal("neu")),
                             neg = reader.GetDouble(reader.GetOrdinal("neg")),
@@ -865,6 +1056,31 @@ namespace PoliticStatements
             return wordCount;
         }
 
+        public List<HistogramData> GetHistogramCountData(List<Statement> statements)
+        {
+            // Skupinování podle osobaid a spočítání počtu statementů pro každou osobu
+            var statementCounts = statements
+                .GroupBy(s => s.osobaid)  // Skupinování podle osobaid
+                .Select(group => new
+                {
+                    OsobaId = group.Key,       // osobaid
+                    Count = group.Count()      // Počet statementů pro tuto osobu
+                })
+                .ToList();
+
+            // Skupinování podle počtu statementů a zjistíme, kolik osob má tento počet statementů
+            var histogramData = statementCounts
+                .GroupBy(s => s.Count)  // Skupinování podle počtu statementů
+                .Select(group => new HistogramData
+                {
+                    StatementCount = group.Key,  // Počet statementů
+                    NumOfPeople = group.Count()  // Kolik osob má tento počet statementů
+                })
+                .ToList();
+
+            return histogramData;
+        }
+
         //From Database
         public async Task<List<object>> GetStatementFrequencyFromDatabase(bool mentions,string? server = null)
         {
@@ -1254,50 +1470,72 @@ namespace PoliticStatements
             return wordCountStatementsCount;
         }
 
-        public async Task UpdateLanguageForIds(string filePath)
+        public  void UpdateLanguageForIds(string filePath)
         {
-            // Načíst ID z textového souboru
-            List<string> ids = new List<string>();
-            try
-            {
-                foreach (var line in File.ReadLines(filePath))
-                {
-                    ids.Add(line.Trim());
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Chyba při čtení souboru: {ex.Message}");
-                return;
-            }
+           
+          
 
-            // Pokud soubor není prázdný, pokračovat
-            if (ids.Count > 0)
+            using (SqlConnection connection = new SqlConnection(GlobalConfig.connstring))
             {
-                string inClause = string.Join(",", ids.ConvertAll(id => $"'{id}'"));  // Sestavení IN() části
-                string query = $"UPDATE Statement SET jazyk='en' WHERE id IN ({inClause})";
+                connection.Open();
 
-                // Spustit SQL dotaz
-                try
+                using (StreamReader reader = new StreamReader(filePath))
                 {
-                    using (SqlConnection connection = new SqlConnection(GlobalConfig.connstring))
+                    string line;
+                    reader.ReadLine(); // Přeskočí první řádek s hlavičkou
+
+                    while ((line = reader.ReadLine()) != null)
                     {
-                        connection.Open();
-                        SqlCommand command = new SqlCommand(query, connection);
-                        int rowsAffected = command.ExecuteNonQuery();
-                        
+                        var parts = line.Split(',');
+                        if (parts.Length < 2) continue;
+
+                        string id = parts[0].Trim();
+                        string jazyk = parts[1].Trim();
+
+                        string query = "UPDATE Statement SET jazyk = @jazyk WHERE id = @id";
+                        using (SqlCommand cmd = new SqlCommand(query, connection))
+                        {
+                            cmd.Parameters.AddWithValue("@jazyk", jazyk);
+                            cmd.Parameters.AddWithValue("@id", id);
+                            cmd.ExecuteNonQuery();
+                        }
                     }
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Chyba při provádění dotazu: {ex.Message}");
-                }
             }
-            else
-            {
-                Console.WriteLine("Soubor neobsahuje žádná ID.");
-            }
+
+            Console.WriteLine("Aktualizace dokončena.");
         }
+
+        public  List<MonthlyStatementCount> GetMonthlyStatementCounts(List<Statement> statements)
+        {
+            return statements
+                .GroupBy(s => s.datum.Value.Month)
+                .Select(g => new MonthlyStatementCount { Month = g.Key, Count = g.Count() })
+                .OrderBy(x => x.Month)
+                .ToList();
+        }
+
+        public  Dictionary<string, int> GetPostsByWeekday(List<Statement> statements)
+        {
+            var daysOfWeekInCzech = new Dictionary<DayOfWeek, string>
+            {
+                { DayOfWeek.Sunday, "Neděle" },
+                { DayOfWeek.Monday, "Pondělí" },
+                { DayOfWeek.Tuesday, "Úterý" },
+                { DayOfWeek.Wednesday, "Středa" },
+                { DayOfWeek.Thursday, "Čtvrtek" },
+                { DayOfWeek.Friday, "Pátek" },
+                { DayOfWeek.Saturday, "Sobota" }
+            };
+
+            return statements
+                .GroupBy(s => s.datum.Value.DayOfWeek)
+                .ToDictionary(
+                    g => daysOfWeekInCzech[g.Key], // Mapujeme DayOfWeek na český název
+                    g => g.Count()
+                );
+        }
+
 
 
     }
