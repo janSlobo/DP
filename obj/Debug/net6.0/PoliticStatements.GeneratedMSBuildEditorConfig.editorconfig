@@ -26,12 +26,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Length.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZW5ndGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Mentions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW50aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/NER.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxORVIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/PoliticDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/PoliticDetailLight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb2xpdGljRGV0YWlsTGlnaHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/PoliticianList.cshtml]
@@ -46,12 +58,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZW50aW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Statement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGF0ZW1lbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/StatementCount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGF0ZW1lbnRDb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Home/Stylometry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHlsb21ldHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HONZA/Desktop/PoliticStatements/PoliticStatements/PoliticStatements/PoliticStatements/Views/Shared/Error.cshtml]

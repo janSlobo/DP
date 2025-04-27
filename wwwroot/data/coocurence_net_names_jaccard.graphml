@@ -1,0 +1,1816 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d0" for="node" attr.name="community" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="Sobotka">
+      <data key="d0">0</data>
+    </node>
+    <node id="Bělobrádek">
+      <data key="d0">0</data>
+    </node>
+    <node id="David">
+      <data key="d0">1</data>
+    </node>
+    <node id="Novotný">
+      <data key="d0">1</data>
+    </node>
+    <node id="Hahnova">
+      <data key="d0">1</data>
+    </node>
+    <node id="Dopita">
+      <data key="d0">1</data>
+    </node>
+    <node id="HENNER">
+      <data key="d0">1</data>
+    </node>
+    <node id="Paul">
+      <data key="d0">1</data>
+    </node>
+    <node id="Schmeidler">
+      <data key="d0">1</data>
+    </node>
+    <node id="Macron">
+      <data key="d0">9</data>
+    </node>
+    <node id="Juncker">
+      <data key="d0">9</data>
+    </node>
+    <node id="Polčák">
+      <data key="d0">4</data>
+    </node>
+    <node id="Poche">
+      <data key="d0">4</data>
+    </node>
+    <node id="Štětina">
+      <data key="d0">4</data>
+    </node>
+    <node id="Nos">
+      <data key="d0">2</data>
+    </node>
+    <node id="Hrnčíř">
+      <data key="d0">1</data>
+    </node>
+    <node id="Holík">
+      <data key="d0">2</data>
+    </node>
+    <node id="Brichta">
+      <data key="d0">2</data>
+    </node>
+    <node id="Atkinson">
+      <data key="d0">2</data>
+    </node>
+    <node id="Bárta">
+      <data key="d0">2</data>
+    </node>
+    <node id="Pošarová">
+      <data key="d0">1</data>
+    </node>
+    <node id="Vašíček">
+      <data key="d0">1</data>
+    </node>
+    <node id="Lukeš">
+      <data key="d0">1</data>
+    </node>
+    <node id="Čermák">
+      <data key="d0">1</data>
+    </node>
+    <node id="Pupava">
+      <data key="d0">1</data>
+    </node>
+    <node id="DICKFELD">
+      <data key="d0">1</data>
+    </node>
+    <node id="Mitterwald">
+      <data key="d0">1</data>
+    </node>
+    <node id="Vostenak">
+      <data key="d0">1</data>
+    </node>
+    <node id="Danna">
+      <data key="d0">2</data>
+    </node>
+    <node id="Vyskočit">
+      <data key="d0">2</data>
+    </node>
+    <node id="Šojdrová">
+      <data key="d0">4</data>
+    </node>
+    <node id="Zdechovský">
+      <data key="d0">4</data>
+    </node>
+    <node id="Ježek">
+      <data key="d0">4</data>
+    </node>
+    <node id="Niedermayer">
+      <data key="d0">4</data>
+    </node>
+    <node id="Teličko">
+      <data key="d0">4</data>
+    </node>
+    <node id="Doležal">
+      <data key="d0">1</data>
+    </node>
+    <node id="Horák">
+      <data key="d0">1</data>
+    </node>
+    <node id="Schubert">
+      <data key="d0">1</data>
+    </node>
+    <node id="Redl">
+      <data key="d0">3</data>
+    </node>
+    <node id="Švarc">
+      <data key="d0">3</data>
+    </node>
+    <node id="Kula">
+      <data key="d0">3</data>
+    </node>
+    <node id="Pán">
+      <data key="d0">3</data>
+    </node>
+    <node id="Valsamisová">
+      <data key="d0">3</data>
+    </node>
+    <node id="Kufa">
+      <data key="d0">3</data>
+    </node>
+    <node id="Nimrichter">
+      <data key="d0">3</data>
+    </node>
+    <node id="Hauzner">
+      <data key="d0">3</data>
+    </node>
+    <node id="Vraj">
+      <data key="d0">3</data>
+    </node>
+    <node id="Blaško">
+      <data key="d0">1</data>
+    </node>
+    <node id="Běrský">
+      <data key="d0">1</data>
+    </node>
+    <node id="Krpálek">
+      <data key="d0">3</data>
+    </node>
+    <node id="Pajgerová">
+      <data key="d0">3</data>
+    </node>
+    <node id="Novák">
+      <data key="d0">3</data>
+    </node>
+    <node id="Obdržálek">
+      <data key="d0">3</data>
+    </node>
+    <node id="Pospíšil">
+      <data key="d0">4</data>
+    </node>
+    <node id="Charanzová">
+      <data key="d0">4</data>
+    </node>
+    <node id="Dlabajová">
+      <data key="d0">4</data>
+    </node>
+    <node id="Konečný">
+      <data key="d0">4</data>
+    </node>
+    <node id="Sehnalová">
+      <data key="d0">4</data>
+    </node>
+    <node id="Keller">
+      <data key="d0">4</data>
+    </node>
+    <node id="Kohlíček">
+      <data key="d0">4</data>
+    </node>
+    <node id="Maštálek">
+      <data key="d0">4</data>
+    </node>
+    <node id="Kocman">
+      <data key="d0">3</data>
+    </node>
+    <node id="Heydrich">
+      <data key="d0">17</data>
+    </node>
+    <node id="Kubiš">
+      <data key="d0">17</data>
+    </node>
+    <node id="Jedlička">
+      <data key="d0">5</data>
+    </node>
+    <node id="Palacký">
+      <data key="d0">5</data>
+    </node>
+    <node id="Hannan">
+      <data key="d0">5</data>
+    </node>
+    <node id="Jandejsek">
+      <data key="d0">5</data>
+    </node>
+    <node id="Piketty">
+      <data key="d0">5</data>
+    </node>
+    <node id="Bakalův">
+      <data key="d0">6</data>
+    </node>
+    <node id="Bakalova">
+      <data key="d0">6</data>
+    </node>
+    <node id="POC">
+      <data key="d0">4</data>
+    </node>
+    <node id="Chytra">
+      <data key="d0">2</data>
+    </node>
+    <node id="Kupka">
+      <data key="d0">7</data>
+    </node>
+    <node id="Kovář">
+      <data key="d0">7</data>
+    </node>
+    <node id="Johansson">
+      <data key="d0">8</data>
+    </node>
+    <node id="Tayyip Erdoğan">
+      <data key="d0">8</data>
+    </node>
+    <node id="Jakl">
+      <data key="d0">3</data>
+    </node>
+    <node id="Zahradníček">
+      <data key="d0">3</data>
+    </node>
+    <node id="Pokorný">
+      <data key="d0">6</data>
+    </node>
+    <node id="Marx">
+      <data key="d0">10</data>
+    </node>
+    <node id="Lenin">
+      <data key="d0">10</data>
+    </node>
+    <node id="Wollner">
+      <data key="d0">11</data>
+    </node>
+    <node id="Becher">
+      <data key="d0">11</data>
+    </node>
+    <node id="Schneider">
+      <data key="d0">11</data>
+    </node>
+    <node id="Brand">
+      <data key="d0">11</data>
+    </node>
+    <node id="Schmidt">
+      <data key="d0">11</data>
+    </node>
+    <node id="Konečné">
+      <data key="d0">4</data>
+    </node>
+    <node id="Kraus">
+      <data key="d0">12</data>
+    </node>
+    <node id="Němec">
+      <data key="d0">12</data>
+    </node>
+    <node id="Tenzor">
+      <data key="d0">12</data>
+    </node>
+    <node id="Mahrika">
+      <data key="d0">12</data>
+    </node>
+    <node id="Morawiecki">
+      <data key="d0">13</data>
+    </node>
+    <node id="Pellegrini">
+      <data key="d0">13</data>
+    </node>
+    <node id="Veleba">
+      <data key="d0">2</data>
+    </node>
+    <node id="M">
+      <data key="d0">14</data>
+    </node>
+    <node id="A">
+      <data key="d0">14</data>
+    </node>
+    <node id="Shehadeh">
+      <data key="d0">15</data>
+    </node>
+    <node id="Alrawi">
+      <data key="d0">15</data>
+    </node>
+    <node id="Kobulnický">
+      <data key="d0">15</data>
+    </node>
+    <node id="Janeček">
+      <data key="d0">16</data>
+    </node>
+    <node id="Štěpán">
+      <data key="d0">16</data>
+    </node>
+    <node id="Gabčík">
+      <data key="d0">17</data>
+    </node>
+    <node id="Metoděj">
+      <data key="d0">17</data>
+    </node>
+    <node id="Hrubý">
+      <data key="d0">17</data>
+    </node>
+    <node id="Valčík">
+      <data key="d0">17</data>
+    </node>
+    <node id="Peksa">
+      <data key="d0">12</data>
+    </node>
+    <node id="Bublík">
+      <data key="d0">17</data>
+    </node>
+    <node id="Lhoťan">
+      <data key="d0">15</data>
+    </node>
+    <node id="Kurás">
+      <data key="d0">18</data>
+    </node>
+    <node id="Kurase">
+      <data key="d0">18</data>
+    </node>
+    <node id="Grosse">
+      <data key="d0">19</data>
+    </node>
+    <node id="Vlček">
+      <data key="d0">19</data>
+    </node>
+    <node id="Taber">
+      <data key="d0">20</data>
+    </node>
+    <node id="Tabery">
+      <data key="d0">20</data>
+    </node>
+    <node id="H">
+      <data key="d0">14</data>
+    </node>
+    <node id="Opletal">
+      <data key="d0">21</data>
+    </node>
+    <node id="Hlávkova kolej">
+      <data key="d0">21</data>
+    </node>
+    <node id="Tomin">
+      <data key="d0">11</data>
+    </node>
+    <node id="Marksa">
+      <data key="d0">11</data>
+    </node>
+    <node id="De Gaulle">
+      <data key="d0">22</data>
+    </node>
+    <node id="Schuman">
+      <data key="d0">22</data>
+    </node>
+    <node id="Dyka">
+      <data key="d0">23</data>
+    </node>
+    <node id="de Gaulle">
+      <data key="d0">23</data>
+    </node>
+    <node id="Posselt">
+      <data key="d0">11</data>
+    </node>
+    <node id="Vokřál">
+      <data key="d0">11</data>
+    </node>
+    <node id="Koněvovi">
+      <data key="d0">24</data>
+    </node>
+    <node id="Kalouskovu">
+      <data key="d0">24</data>
+    </node>
+    <edge source="Sobotka" target="Bělobrádek">
+      <data key="d1">0.17061143984220908</data>
+    </edge>
+    <edge source="David" target="Novotný">
+      <data key="d1">0.15579710144927536</data>
+    </edge>
+    <edge source="David" target="Hahnova">
+      <data key="d1">0.16996047430830039</data>
+    </edge>
+    <edge source="David" target="Dopita">
+      <data key="d1">0.176</data>
+    </edge>
+    <edge source="David" target="HENNER">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="David" target="Paul">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="David" target="Schmeidler">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="Novotný" target="Hrnčíř">
+      <data key="d1">0.21641791044776118</data>
+    </edge>
+    <edge source="Novotný" target="Doležal">
+      <data key="d1">0.25663716814159293</data>
+    </edge>
+    <edge source="Novotný" target="Horák">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Novotný" target="Hahnova">
+      <data key="d1">0.581081081081081</data>
+    </edge>
+    <edge source="Novotný" target="HENNER">
+      <data key="d1">0.25555555555555554</data>
+    </edge>
+    <edge source="Novotný" target="Paul">
+      <data key="d1">0.6142857142857143</data>
+    </edge>
+    <edge source="Novotný" target="Běrský">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge source="Novotný" target="Pošarová">
+      <data key="d1">0.3717948717948718</data>
+    </edge>
+    <edge source="Novotný" target="Vašíček">
+      <data key="d1">0.25609756097560976</data>
+    </edge>
+    <edge source="Novotný" target="Schubert">
+      <data key="d1">0.3918918918918919</data>
+    </edge>
+    <edge source="Novotný" target="Čermák">
+      <data key="d1">0.4027777777777778</data>
+    </edge>
+    <edge source="Novotný" target="Mitterwald">
+      <data key="d1">0.2692307692307692</data>
+    </edge>
+    <edge source="Novotný" target="Vostenak">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="Novotný" target="Švarc">
+      <data key="d1">0.17721518987341772</data>
+    </edge>
+    <edge source="Novotný" target="Kocman">
+      <data key="d1">0.1917808219178082</data>
+    </edge>
+    <edge source="Novotný" target="Kula">
+      <data key="d1">0.1917808219178082</data>
+    </edge>
+    <edge source="Novotný" target="Valsamisová">
+      <data key="d1">0.18055555555555555</data>
+    </edge>
+    <edge source="Novotný" target="Kufa">
+      <data key="d1">0.19718309859154928</data>
+    </edge>
+    <edge source="Novotný" target="Nimrichter">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Novotný" target="Pajgerová">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Novotný" target="Vraj">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Hahnova" target="Blaško">
+      <data key="d1">0.2653061224489796</data>
+    </edge>
+    <edge source="Hahnova" target="Doležal">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Hahnova" target="Horák">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Hahnova" target="HENNER">
+      <data key="d1">0.9148936170212766</data>
+    </edge>
+    <edge source="Hahnova" target="Paul">
+      <data key="d1">0.9148936170212766</data>
+    </edge>
+    <edge source="Hahnova" target="Pošarová">
+      <data key="d1">0.5272727272727272</data>
+    </edge>
+    <edge source="Hahnova" target="Vašíček">
+      <data key="d1">0.5686274509803921</data>
+    </edge>
+    <edge source="Hahnova" target="Schubert">
+      <data key="d1">0.5686274509803921</data>
+    </edge>
+    <edge source="Hahnova" target="Lukeš">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge source="Hahnova" target="Čermák">
+      <data key="d1">0.5918367346938775</data>
+    </edge>
+    <edge source="Hahnova" target="Mitterwald">
+      <data key="d1">0.6170212765957447</data>
+    </edge>
+    <edge source="Hahnova" target="Vostenak">
+      <data key="d1">0.6170212765957447</data>
+    </edge>
+    <edge source="Hahnova" target="Krpálek">
+      <data key="d1">0.24561403508771928</data>
+    </edge>
+    <edge source="Hahnova" target="Švarc">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Hahnova" target="Valsamisová">
+      <data key="d1">0.2653061224489796</data>
+    </edge>
+    <edge source="Hahnova" target="Kufa">
+      <data key="d1">0.2916666666666667</data>
+    </edge>
+    <edge source="Hahnova" target="Nimrichter">
+      <data key="d1">0.2978723404255319</data>
+    </edge>
+    <edge source="Hahnova" target="Hauzner">
+      <data key="d1">0.2978723404255319</data>
+    </edge>
+    <edge source="Hahnova" target="Pajgerová">
+      <data key="d1">0.2978723404255319</data>
+    </edge>
+    <edge source="Hahnova" target="Vraj">
+      <data key="d1">0.2978723404255319</data>
+    </edge>
+    <edge source="Hahnova" target="Obdržálek">
+      <data key="d1">0.2765957446808511</data>
+    </edge>
+    <edge source="Dopita" target="Blaško">
+      <data key="d1">0.18446601941747573</data>
+    </edge>
+    <edge source="Dopita" target="Horák">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Dopita" target="HENNER">
+      <data key="d1">0.9555555555555556</data>
+    </edge>
+    <edge source="Dopita" target="Paul">
+      <data key="d1">0.9555555555555556</data>
+    </edge>
+    <edge source="Dopita" target="Pošarová">
+      <data key="d1">0.5471698113207547</data>
+    </edge>
+    <edge source="Dopita" target="Vašíček">
+      <data key="d1">0.5918367346938775</data>
+    </edge>
+    <edge source="Dopita" target="Schubert">
+      <data key="d1">0.5918367346938775</data>
+    </edge>
+    <edge source="Dopita" target="Lukeš">
+      <data key="d1">0.6041666666666666</data>
+    </edge>
+    <edge source="Dopita" target="Čermák">
+      <data key="d1">0.6170212765957447</data>
+    </edge>
+    <edge source="Dopita" target="DICKFELD">
+      <data key="d1">0.6304347826086957</data>
+    </edge>
+    <edge source="Dopita" target="Mitterwald">
+      <data key="d1">0.6444444444444445</data>
+    </edge>
+    <edge source="Dopita" target="Vostenak">
+      <data key="d1">0.6444444444444445</data>
+    </edge>
+    <edge source="Dopita" target="Krpálek">
+      <data key="d1">0.2545454545454545</data>
+    </edge>
+    <edge source="Dopita" target="Švarc">
+      <data key="d1">0.25925925925925924</data>
+    </edge>
+    <edge source="Dopita" target="Pán">
+      <data key="d1">0.17647058823529413</data>
+    </edge>
+    <edge source="Dopita" target="Valsamisová">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="Dopita" target="Hauzner">
+      <data key="d1">0.3111111111111111</data>
+    </edge>
+    <edge source="Dopita" target="Pajgerová">
+      <data key="d1">0.3111111111111111</data>
+    </edge>
+    <edge source="HENNER" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="HENNER" target="Blaško">
+      <data key="d1">0.5584415584415584</data>
+    </edge>
+    <edge source="HENNER" target="Horák">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="HENNER" target="Paul">
+      <data key="d1">0.16216216216216217</data>
+    </edge>
+    <edge source="HENNER" target="Schmeidler">
+      <data key="d1">0.1780821917808219</data>
+    </edge>
+    <edge source="HENNER" target="Jakl">
+      <data key="d1">0.2028985507246377</data>
+    </edge>
+    <edge source="HENNER" target="Běrský">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge source="HENNER" target="Pošarová">
+      <data key="d1">0.5686274509803921</data>
+    </edge>
+    <edge source="HENNER" target="Vašíček">
+      <data key="d1">0.1875</data>
+    </edge>
+    <edge source="HENNER" target="Schubert">
+      <data key="d1">0.6170212765957447</data>
+    </edge>
+    <edge source="HENNER" target="Lukeš">
+      <data key="d1">0.6304347826086957</data>
+    </edge>
+    <edge source="HENNER" target="Čermák">
+      <data key="d1">0.6444444444444445</data>
+    </edge>
+    <edge source="HENNER" target="Pupava">
+      <data key="d1">0.6590909090909091</data>
+    </edge>
+    <edge source="HENNER" target="Mitterwald">
+      <data key="d1">0.6744186046511628</data>
+    </edge>
+    <edge source="HENNER" target="Kocman">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="HENNER" target="Kula">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="HENNER" target="Zahradníček">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="HENNER" target="Pán">
+      <data key="d1">0.3181818181818182</data>
+    </edge>
+    <edge source="HENNER" target="Valsamisová">
+      <data key="d1">0.20833333333333334</data>
+    </edge>
+    <edge source="HENNER" target="Kufa">
+      <data key="d1">0.3181818181818182</data>
+    </edge>
+    <edge source="HENNER" target="Nimrichter">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="HENNER" target="Hauzner">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="HENNER" target="Obdržálek">
+      <data key="d1">0.3023255813953488</data>
+    </edge>
+    <edge source="Paul" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="Paul" target="Blaško">
+      <data key="d1">0.5584415584415584</data>
+    </edge>
+    <edge source="Paul" target="Jakl">
+      <data key="d1">0.2028985507246377</data>
+    </edge>
+    <edge source="Paul" target="Běrský">
+      <data key="d1">0.8</data>
+    </edge>
+    <edge source="Paul" target="Pošarová">
+      <data key="d1">0.5686274509803921</data>
+    </edge>
+    <edge source="Paul" target="Vašíček">
+      <data key="d1">0.15151515151515152</data>
+    </edge>
+    <edge source="Paul" target="Lukeš">
+      <data key="d1">0.6304347826086957</data>
+    </edge>
+    <edge source="Paul" target="Čermák">
+      <data key="d1">0.6444444444444445</data>
+    </edge>
+    <edge source="Paul" target="Pupava">
+      <data key="d1">0.6590909090909091</data>
+    </edge>
+    <edge source="Paul" target="DICKFELD">
+      <data key="d1">0.6590909090909091</data>
+    </edge>
+    <edge source="Paul" target="Mitterwald">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Paul" target="Krpálek">
+      <data key="d1">0.2641509433962264</data>
+    </edge>
+    <edge source="Paul" target="Kocman">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="Paul" target="Kula">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="Paul" target="Pán">
+      <data key="d1">0.3181818181818182</data>
+    </edge>
+    <edge source="Paul" target="Valsamisová">
+      <data key="d1">0.28888888888888886</data>
+    </edge>
+    <edge source="Paul" target="Kufa">
+      <data key="d1">0.3181818181818182</data>
+    </edge>
+    <edge source="Paul" target="Nimrichter">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="Paul" target="Pajgerová">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="Paul" target="Obdržálek">
+      <data key="d1">0.3023255813953488</data>
+    </edge>
+    <edge source="Schmeidler" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="Schmeidler" target="Doležal">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Schmeidler" target="Horák">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="Schmeidler" target="Pošarová">
+      <data key="d1">0.5686274509803921</data>
+    </edge>
+    <edge source="Schmeidler" target="Vašíček">
+      <data key="d1">0.6170212765957447</data>
+    </edge>
+    <edge source="Schmeidler" target="Lukeš">
+      <data key="d1">0.6304347826086957</data>
+    </edge>
+    <edge source="Schmeidler" target="Pupava">
+      <data key="d1">0.6590909090909091</data>
+    </edge>
+    <edge source="Schmeidler" target="DICKFELD">
+      <data key="d1">0.6590909090909091</data>
+    </edge>
+    <edge source="Schmeidler" target="Mitterwald">
+      <data key="d1">0.6744186046511628</data>
+    </edge>
+    <edge source="Schmeidler" target="Vostenak">
+      <data key="d1">0.6744186046511628</data>
+    </edge>
+    <edge source="Schmeidler" target="Švarc">
+      <data key="d1">0.2692307692307692</data>
+    </edge>
+    <edge source="Schmeidler" target="Kocman">
+      <data key="d1">0.15384615384615385</data>
+    </edge>
+    <edge source="Schmeidler" target="Pán">
+      <data key="d1">0.3181818181818182</data>
+    </edge>
+    <edge source="Schmeidler" target="Valsamisová">
+      <data key="d1">0.28888888888888886</data>
+    </edge>
+    <edge source="Schmeidler" target="Vraj">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="Schmeidler" target="Obdržálek">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Macron" target="Juncker">
+      <data key="d1">0.15714285714285714</data>
+    </edge>
+    <edge source="Polčák" target="Poche">
+      <data key="d1">0.17647058823529413</data>
+    </edge>
+    <edge source="Polčák" target="Štětina">
+      <data key="d1">0.175</data>
+    </edge>
+    <edge source="Poche" target="Šojdrová">
+      <data key="d1">0.15384615384615385</data>
+    </edge>
+    <edge source="Poche" target="Pospíšil">
+      <data key="d1">0.1559633027522936</data>
+    </edge>
+    <edge source="Poche" target="Štětina">
+      <data key="d1">0.28169014084507044</data>
+    </edge>
+    <edge source="Poche" target="Konečný">
+      <data key="d1">0.17105263157894737</data>
+    </edge>
+    <edge source="Poche" target="Sehnalová">
+      <data key="d1">0.24193548387096775</data>
+    </edge>
+    <edge source="Poche" target="Keller">
+      <data key="d1">0.2413793103448276</data>
+    </edge>
+    <edge source="Poche" target="POC">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Poche" target="Kohlíček">
+      <data key="d1">0.22807017543859648</data>
+    </edge>
+    <edge source="Poche" target="Maštálek">
+      <data key="d1">0.23636363636363636</data>
+    </edge>
+    <edge source="Štětina" target="Zdechovský">
+      <data key="d1">0.1717171717171717</data>
+    </edge>
+    <edge source="Štětina" target="Pospíšil">
+      <data key="d1">0.18888888888888888</data>
+    </edge>
+    <edge source="Štětina" target="Charanzová">
+      <data key="d1">0.28169014084507044</data>
+    </edge>
+    <edge source="Štětina" target="Dlabajová">
+      <data key="d1">0.29850746268656714</data>
+    </edge>
+    <edge source="Štětina" target="Ježek">
+      <data key="d1">0.3076923076923077</data>
+    </edge>
+    <edge source="Štětina" target="Niedermayer">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Štětina" target="Teličko">
+      <data key="d1">0.3728813559322034</data>
+    </edge>
+    <edge source="Štětina" target="Konečný">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Štětina" target="Sehnalová">
+      <data key="d1">0.3488372093023256</data>
+    </edge>
+    <edge source="Štětina" target="Keller">
+      <data key="d1">0.358974358974359</data>
+    </edge>
+    <edge source="Štětina" target="POC">
+      <data key="d1">0.1590909090909091</data>
+    </edge>
+    <edge source="Štětina" target="Kohlíček">
+      <data key="d1">0.34210526315789475</data>
+    </edge>
+    <edge source="Štětina" target="Maštálek">
+      <data key="d1">0.3611111111111111</data>
+    </edge>
+    <edge source="Nos" target="Hrnčíř">
+      <data key="d1">0.22012578616352202</data>
+    </edge>
+    <edge source="Nos" target="Holík">
+      <data key="d1">0.3135593220338983</data>
+    </edge>
+    <edge source="Nos" target="Brichta">
+      <data key="d1">0.42592592592592593</data>
+    </edge>
+    <edge source="Nos" target="Atkinson">
+      <data key="d1">0.26548672566371684</data>
+    </edge>
+    <edge source="Nos" target="Bárta">
+      <data key="d1">0.15702479338842976</data>
+    </edge>
+    <edge source="Nos" target="Pošarová">
+      <data key="d1">0.26605504587155965</data>
+    </edge>
+    <edge source="Nos" target="Vašíček">
+      <data key="d1">0.2761904761904762</data>
+    </edge>
+    <edge source="Nos" target="Lukeš">
+      <data key="d1">0.27884615384615385</data>
+    </edge>
+    <edge source="Nos" target="Čermák">
+      <data key="d1">0.2815533980582524</data>
+    </edge>
+    <edge source="Nos" target="Pupava">
+      <data key="d1">0.28431372549019607</data>
+    </edge>
+    <edge source="Nos" target="DICKFELD">
+      <data key="d1">0.28431372549019607</data>
+    </edge>
+    <edge source="Nos" target="Mitterwald">
+      <data key="d1">0.2871287128712871</data>
+    </edge>
+    <edge source="Nos" target="Vostenak">
+      <data key="d1">0.17117117117117117</data>
+    </edge>
+    <edge source="Nos" target="Danna">
+      <data key="d1">0.20588235294117646</data>
+    </edge>
+    <edge source="Nos" target="Vyskočit">
+      <data key="d1">0.1650485436893204</data>
+    </edge>
+    <edge source="Hrnčíř" target="Doležal">
+      <data key="d1">0.21323529411764705</data>
+    </edge>
+    <edge source="Hrnčíř" target="Horák">
+      <data key="d1">0.25663716814159293</data>
+    </edge>
+    <edge source="Hrnčíř" target="Vašíček">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Hrnčíř" target="Schubert">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Hrnčíř" target="Lukeš">
+      <data key="d1">0.3020833333333333</data>
+    </edge>
+    <edge source="Hrnčíř" target="Čermák">
+      <data key="d1">0.30526315789473685</data>
+    </edge>
+    <edge source="Hrnčíř" target="Pupava">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="Hrnčíř" target="DICKFELD">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="Hrnčíř" target="Mitterwald">
+      <data key="d1">0.3118279569892473</data>
+    </edge>
+    <edge source="Hrnčíř" target="Vostenak">
+      <data key="d1">0.3118279569892473</data>
+    </edge>
+    <edge source="Holík" target="Danna">
+      <data key="d1">0.20634920634920634</data>
+    </edge>
+    <edge source="Holík" target="Vyskočit">
+      <data key="d1">0.30357142857142855</data>
+    </edge>
+    <edge source="Brichta" target="Atkinson">
+      <data key="d1">0.3013698630136986</data>
+    </edge>
+    <edge source="Brichta" target="Bárta">
+      <data key="d1">0.2602739726027397</data>
+    </edge>
+    <edge source="Brichta" target="Chytra">
+      <data key="d1">0.4098360655737705</data>
+    </edge>
+    <edge source="Brichta" target="Danna">
+      <data key="d1">0.41509433962264153</data>
+    </edge>
+    <edge source="Brichta" target="Vyskočit">
+      <data key="d1">0.3090909090909091</data>
+    </edge>
+    <edge source="Atkinson" target="Danna">
+      <data key="d1">0.5238095238095238</data>
+    </edge>
+    <edge source="Bárta" target="Chytra">
+      <data key="d1">0.3584905660377358</data>
+    </edge>
+    <edge source="Bárta" target="Vyskočit">
+      <data key="d1">0.23404255319148937</data>
+    </edge>
+    <edge source="Pošarová" target="Blaško">
+      <data key="d1">0.35714285714285715</data>
+    </edge>
+    <edge source="Pošarová" target="Doležal">
+      <data key="d1">0.23863636363636365</data>
+    </edge>
+    <edge source="Pošarová" target="Horák">
+      <data key="d1">0.2835820895522388</data>
+    </edge>
+    <edge source="Pošarová" target="Běrský">
+      <data key="d1">0.41509433962264153</data>
+    </edge>
+    <edge source="Pošarová" target="Vašíček">
+      <data key="d1">0.7073170731707317</data>
+    </edge>
+    <edge source="Pošarová" target="Schubert">
+      <data key="d1">0.1864406779661017</data>
+    </edge>
+    <edge source="Pošarová" target="Lukeš">
+      <data key="d1">0.725</data>
+    </edge>
+    <edge source="Pošarová" target="Čermák">
+      <data key="d1">0.7435897435897436</data>
+    </edge>
+    <edge source="Pošarová" target="Pupava">
+      <data key="d1">0.7631578947368421</data>
+    </edge>
+    <edge source="Pošarová" target="DICKFELD">
+      <data key="d1">0.7631578947368421</data>
+    </edge>
+    <edge source="Pošarová" target="Mitterwald">
+      <data key="d1">0.7837837837837838</data>
+    </edge>
+    <edge source="Pošarová" target="Vostenak">
+      <data key="d1">0.40425531914893614</data>
+    </edge>
+    <edge source="Vašíček" target="Blaško">
+      <data key="d1">0.23595505617977527</data>
+    </edge>
+    <edge source="Vašíček" target="Doležal">
+      <data key="d1">0.3815789473684211</data>
+    </edge>
+    <edge source="Vašíček" target="Horák">
+      <data key="d1">0.5471698113207547</data>
+    </edge>
+    <edge source="Vašíček" target="Běrský">
+      <data key="d1">0.4489795918367347</data>
+    </edge>
+    <edge source="Vašíček" target="Schubert">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Vašíček" target="Lukeš">
+      <data key="d1">0.22641509433962265</data>
+    </edge>
+    <edge source="Vašíček" target="Čermák">
+      <data key="d1">0.8285714285714286</data>
+    </edge>
+    <edge source="Vašíček" target="Pupava">
+      <data key="d1">0.8529411764705882</data>
+    </edge>
+    <edge source="Vašíček" target="DICKFELD">
+      <data key="d1">0.21153846153846154</data>
+    </edge>
+    <edge source="Vašíček" target="Mitterwald">
+      <data key="d1">0.8787878787878788</data>
+    </edge>
+    <edge source="Vašíček" target="Vostenak">
+      <data key="d1">0.8787878787878788</data>
+    </edge>
+    <edge source="Lukeš" target="Blaško">
+      <data key="d1">0.3625</data>
+    </edge>
+    <edge source="Lukeš" target="Běrský">
+      <data key="d1">0.4583333333333333</data>
+    </edge>
+    <edge source="Lukeš" target="Schubert">
+      <data key="d1">0.8055555555555556</data>
+    </edge>
+    <edge source="Lukeš" target="Čermák">
+      <data key="d1">0.8529411764705882</data>
+    </edge>
+    <edge source="Lukeš" target="Pupava">
+      <data key="d1">0.8787878787878788</data>
+    </edge>
+    <edge source="Lukeš" target="Mitterwald">
+      <data key="d1">0.90625</data>
+    </edge>
+    <edge source="Čermák" target="Blaško">
+      <data key="d1">0.3670886075949367</data>
+    </edge>
+    <edge source="Čermák" target="Doležal">
+      <data key="d1">0.3918918918918919</data>
+    </edge>
+    <edge source="Čermák" target="Běrský">
+      <data key="d1">0.46808510638297873</data>
+    </edge>
+    <edge source="Čermák" target="Schubert">
+      <data key="d1">0.8285714285714286</data>
+    </edge>
+    <edge source="Čermák" target="Pupava">
+      <data key="d1">0.967741935483871</data>
+    </edge>
+    <edge source="Čermák" target="DICKFELD">
+      <data key="d1">0.90625</data>
+    </edge>
+    <edge source="Čermák" target="Mitterwald">
+      <data key="d1">0.9354838709677419</data>
+    </edge>
+    <edge source="Čermák" target="Vostenak">
+      <data key="d1">0.9354838709677419</data>
+    </edge>
+    <edge source="Pupava" target="Doležal">
+      <data key="d1">0.3972602739726027</data>
+    </edge>
+    <edge source="Pupava" target="Horák">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge source="Pupava" target="Schubert">
+      <data key="d1">0.8529411764705882</data>
+    </edge>
+    <edge source="Pupava" target="DICKFELD">
+      <data key="d1">0.9354838709677419</data>
+    </edge>
+    <edge source="Pupava" target="Mitterwald">
+      <data key="d1">0.9666666666666667</data>
+    </edge>
+    <edge source="Pupava" target="Vostenak">
+      <data key="d1">0.9666666666666667</data>
+    </edge>
+    <edge source="DICKFELD" target="Blaško">
+      <data key="d1">0.3717948717948718</data>
+    </edge>
+    <edge source="DICKFELD" target="Doležal">
+      <data key="d1">0.3972602739726027</data>
+    </edge>
+    <edge source="DICKFELD" target="Horák">
+      <data key="d1">0.58</data>
+    </edge>
+    <edge source="DICKFELD" target="Běrský">
+      <data key="d1">0.4782608695652174</data>
+    </edge>
+    <edge source="DICKFELD" target="Schubert">
+      <data key="d1">0.9090909090909091</data>
+    </edge>
+    <edge source="DICKFELD" target="Mitterwald">
+      <data key="d1">0.9666666666666667</data>
+    </edge>
+    <edge source="DICKFELD" target="Vostenak">
+      <data key="d1">0.1568627450980392</data>
+    </edge>
+    <edge source="Mitterwald" target="Blaško">
+      <data key="d1">0.37662337662337664</data>
+    </edge>
+    <edge source="Mitterwald" target="Doležal">
+      <data key="d1">0.2625</data>
+    </edge>
+    <edge source="Mitterwald" target="Horák">
+      <data key="d1">0.3220338983050847</data>
+    </edge>
+    <edge source="Mitterwald" target="Běrský">
+      <data key="d1">0.4888888888888889</data>
+    </edge>
+    <edge source="Mitterwald" target="Schubert">
+      <data key="d1">0.21568627450980393</data>
+    </edge>
+    <edge source="Mitterwald" target="Vostenak">
+      <data key="d1">0.48717948717948717</data>
+    </edge>
+    <edge source="Vostenak" target="Blaško">
+      <data key="d1">0.37662337662337664</data>
+    </edge>
+    <edge source="Vostenak" target="Horák">
+      <data key="d1">0.5918367346938775</data>
+    </edge>
+    <edge source="Vostenak" target="Běrský">
+      <data key="d1">0.4888888888888889</data>
+    </edge>
+    <edge source="Danna" target="Veleba">
+      <data key="d1">0.39473684210526316</data>
+    </edge>
+    <edge source="Vyskočit" target="Chytra">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Vyskočit" target="Veleba">
+      <data key="d1">0.19047619047619047</data>
+    </edge>
+    <edge source="Šojdrová" target="Zdechovský">
+      <data key="d1">0.20689655172413793</data>
+    </edge>
+    <edge source="Šojdrová" target="Ježek">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Šojdrová" target="Niedermayer">
+      <data key="d1">0.20689655172413793</data>
+    </edge>
+    <edge source="Šojdrová" target="Teličko">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Ježek" target="Pospíšil">
+      <data key="d1">0.15384615384615385</data>
+    </edge>
+    <edge source="Ježek" target="Charanzová">
+      <data key="d1">0.4246575342465753</data>
+    </edge>
+    <edge source="Ježek" target="Dlabajová">
+      <data key="d1">0.4492753623188406</data>
+    </edge>
+    <edge source="Ježek" target="Niedermayer">
+      <data key="d1">0.323943661971831</data>
+    </edge>
+    <edge source="Ježek" target="Teličko">
+      <data key="d1">0.49206349206349204</data>
+    </edge>
+    <edge source="Ježek" target="Kohlíček">
+      <data key="d1">0.2549019607843137</data>
+    </edge>
+    <edge source="Ježek" target="Maštálek">
+      <data key="d1">0.2653061224489796</data>
+    </edge>
+    <edge source="Niedermayer" target="Pospíšil">
+      <data key="d1">0.22105263157894736</data>
+    </edge>
+    <edge source="Niedermayer" target="Charanzová">
+      <data key="d1">0.35135135135135137</data>
+    </edge>
+    <edge source="Niedermayer" target="Dlabajová">
+      <data key="d1">0.352112676056338</data>
+    </edge>
+    <edge source="Niedermayer" target="Konečný">
+      <data key="d1">0.234375</data>
+    </edge>
+    <edge source="Niedermayer" target="Keller">
+      <data key="d1">0.2916666666666667</data>
+    </edge>
+    <edge source="Niedermayer" target="Kohlíček">
+      <data key="d1">0.2765957446808511</data>
+    </edge>
+    <edge source="Niedermayer" target="Maštálek">
+      <data key="d1">0.28888888888888886</data>
+    </edge>
+    <edge source="Teličko" target="Charanzová">
+      <data key="d1">0.4492753623188406</data>
+    </edge>
+    <edge source="Teličko" target="Dlabajová">
+      <data key="d1">0.47692307692307695</data>
+    </edge>
+    <edge source="Teličko" target="Konečný">
+      <data key="d1">0.19696969696969696</data>
+    </edge>
+    <edge source="Teličko" target="Keller">
+      <data key="d1">0.2916666666666667</data>
+    </edge>
+    <edge source="Teličko" target="Kohlíček">
+      <data key="d1">0.2765957446808511</data>
+    </edge>
+    <edge source="Teličko" target="Maštálek">
+      <data key="d1">0.28888888888888886</data>
+    </edge>
+    <edge source="Doležal" target="Blaško">
+      <data key="d1">0.2627118644067797</data>
+    </edge>
+    <edge source="Doležal" target="Horák">
+      <data key="d1">0.31521739130434784</data>
+    </edge>
+    <edge source="Doležal" target="Běrský">
+      <data key="d1">0.26436781609195403</data>
+    </edge>
+    <edge source="Horák" target="Blaško">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Horák" target="Běrský">
+      <data key="d1">0.3384615384615385</data>
+    </edge>
+    <edge source="Schubert" target="Blaško">
+      <data key="d1">0.35802469135802467</data>
+    </edge>
+    <edge source="Schubert" target="Běrský">
+      <data key="d1">0.4489795918367347</data>
+    </edge>
+    <edge source="Redl" target="Švarc">
+      <data key="d1">0.15217391304347827</data>
+    </edge>
+    <edge source="Redl" target="Kula">
+      <data key="d1">0.16279069767441862</data>
+    </edge>
+    <edge source="Redl" target="Pán">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Redl" target="Valsamisová">
+      <data key="d1">0.15294117647058825</data>
+    </edge>
+    <edge source="Redl" target="Kufa">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Redl" target="Nimrichter">
+      <data key="d1">0.1686746987951807</data>
+    </edge>
+    <edge source="Redl" target="Hauzner">
+      <data key="d1">0.1686746987951807</data>
+    </edge>
+    <edge source="Redl" target="Vraj">
+      <data key="d1">0.1686746987951807</data>
+    </edge>
+    <edge source="Švarc" target="Blaško">
+      <data key="d1">0.16279069767441862</data>
+    </edge>
+    <edge source="Švarc" target="Novák">
+      <data key="d1">0.1728395061728395</data>
+    </edge>
+    <edge source="Švarc" target="Jakl">
+      <data key="d1">0.2857142857142857</data>
+    </edge>
+    <edge source="Švarc" target="Běrský">
+      <data key="d1">0.2978723404255319</data>
+    </edge>
+    <edge source="Švarc" target="Krpálek">
+      <data key="d1">0.42424242424242425</data>
+    </edge>
+    <edge source="Švarc" target="Kubiš">
+      <data key="d1">0.24324324324324326</data>
+    </edge>
+    <edge source="Švarc" target="Gabčík">
+      <data key="d1">0.2647058823529412</data>
+    </edge>
+    <edge source="Švarc" target="Kocman">
+      <data key="d1">0.5384615384615384</data>
+    </edge>
+    <edge source="Švarc" target="Kula">
+      <data key="d1">0.5384615384615384</data>
+    </edge>
+    <edge source="Švarc" target="Zahradníček">
+      <data key="d1">0.5384615384615384</data>
+    </edge>
+    <edge source="Švarc" target="Pán">
+      <data key="d1">0.5833333333333334</data>
+    </edge>
+    <edge source="Švarc" target="Valsamisová">
+      <data key="d1">0.3103448275862069</data>
+    </edge>
+    <edge source="Švarc" target="Kufa">
+      <data key="d1">0.5833333333333334</data>
+    </edge>
+    <edge source="Švarc" target="Nimrichter">
+      <data key="d1">0.6086956521739131</data>
+    </edge>
+    <edge source="Švarc" target="Pajgerová">
+      <data key="d1">0.6086956521739131</data>
+    </edge>
+    <edge source="Švarc" target="Metoděj">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Švarc" target="Obdržálek">
+      <data key="d1">0.5652173913043478</data>
+    </edge>
+    <edge source="Švarc" target="Bublík">
+      <data key="d1">0.34615384615384615</data>
+    </edge>
+    <edge source="Švarc" target="Hrubý">
+      <data key="d1">0.2962962962962963</data>
+    </edge>
+    <edge source="Švarc" target="Valčík">
+      <data key="d1">0.34615384615384615</data>
+    </edge>
+    <edge source="Kula" target="Krpálek">
+      <data key="d1">0.5185185185185185</data>
+    </edge>
+    <edge source="Kula" target="Pán">
+      <data key="d1">0.28</data>
+    </edge>
+    <edge source="Kula" target="Valsamisová">
+      <data key="d1">0.6842105263157895</data>
+    </edge>
+    <edge source="Kula" target="Nimrichter">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Kula" target="Hauzner">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Kula" target="Pajgerová">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Kula" target="Vraj">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Kula" target="Obdržálek">
+      <data key="d1">0.7647058823529411</data>
+    </edge>
+    <edge source="Pán" target="Blaško">
+      <data key="d1">0.1794871794871795</data>
+    </edge>
+    <edge source="Pán" target="Krpálek">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge source="Pán" target="Kocman">
+      <data key="d1">0.18518518518518517</data>
+    </edge>
+    <edge source="Pán" target="Zahradníček">
+      <data key="d1">0.7777777777777778</data>
+    </edge>
+    <edge source="Pán" target="Valsamisová">
+      <data key="d1">0.875</data>
+    </edge>
+    <edge source="Pán" target="Kufa">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Pán" target="Nimrichter">
+      <data key="d1">0.2608695652173913</data>
+    </edge>
+    <edge source="Pán" target="Hauzner">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Pán" target="Pajgerová">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Pán" target="Vraj">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Pán" target="Obdržálek">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Valsamisová" target="Blaško">
+      <data key="d1">0.16455696202531644</data>
+    </edge>
+    <edge source="Valsamisová" target="Novák">
+      <data key="d1">0.17567567567567569</data>
+    </edge>
+    <edge source="Valsamisová" target="Jakl">
+      <data key="d1">0.34146341463414637</data>
+    </edge>
+    <edge source="Valsamisová" target="Běrský">
+      <data key="d1">0.358974358974359</data>
+    </edge>
+    <edge source="Valsamisová" target="Krpálek">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge source="Valsamisová" target="Kocman">
+      <data key="d1">0.6842105263157895</data>
+    </edge>
+    <edge source="Valsamisová" target="Zahradníček">
+      <data key="d1">0.45454545454545453</data>
+    </edge>
+    <edge source="Valsamisová" target="Kufa">
+      <data key="d1">0.875</data>
+    </edge>
+    <edge source="Valsamisová" target="Nimrichter">
+      <data key="d1">0.8125</data>
+    </edge>
+    <edge source="Valsamisová" target="Hauzner">
+      <data key="d1">0.8125</data>
+    </edge>
+    <edge source="Valsamisová" target="Pajgerová">
+      <data key="d1">0.8125</data>
+    </edge>
+    <edge source="Valsamisová" target="Obdržálek">
+      <data key="d1">0.75</data>
+    </edge>
+    <edge source="Kufa" target="Novák">
+      <data key="d1">0.1917808219178082</data>
+    </edge>
+    <edge source="Kufa" target="Běrský">
+      <data key="d1">0.39473684210526316</data>
+    </edge>
+    <edge source="Kufa" target="Krpálek">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge source="Kufa" target="Nimrichter">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Kufa" target="Hauzner">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Kufa" target="Pajgerová">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Kufa" target="Vraj">
+      <data key="d1">0.9333333333333333</data>
+    </edge>
+    <edge source="Kufa" target="Obdržálek">
+      <data key="d1">0.8666666666666667</data>
+    </edge>
+    <edge source="Nimrichter" target="Novák">
+      <data key="d1">0.19444444444444445</data>
+    </edge>
+    <edge source="Nimrichter" target="Běrský">
+      <data key="d1">0.3684210526315789</data>
+    </edge>
+    <edge source="Nimrichter" target="Krpálek">
+      <data key="d1">0.5833333333333334</data>
+    </edge>
+    <edge source="Nimrichter" target="Hauzner">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Nimrichter" target="Pajgerová">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Nimrichter" target="Vraj">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Nimrichter" target="Obdržálek">
+      <data key="d1">0.9285714285714286</data>
+    </edge>
+    <edge source="Hauzner" target="Blaško">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Hauzner" target="Novák">
+      <data key="d1">0.19444444444444445</data>
+    </edge>
+    <edge source="Hauzner" target="Jakl">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Hauzner" target="Běrský">
+      <data key="d1">0.3684210526315789</data>
+    </edge>
+    <edge source="Hauzner" target="Kocman">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Hauzner" target="Obdržálek">
+      <data key="d1">0.9285714285714286</data>
+    </edge>
+    <edge source="Vraj" target="Novák">
+      <data key="d1">0.19444444444444445</data>
+    </edge>
+    <edge source="Vraj" target="Jakl">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Vraj" target="Běrský">
+      <data key="d1">0.3684210526315789</data>
+    </edge>
+    <edge source="Vraj" target="Kocman">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Vraj" target="Obdržálek">
+      <data key="d1">0.9285714285714286</data>
+    </edge>
+    <edge source="Blaško" target="Běrský">
+      <data key="d1">0.21052631578947367</data>
+    </edge>
+    <edge source="Blaško" target="Krpálek">
+      <data key="d1">0.16091954022988506</data>
+    </edge>
+    <edge source="Blaško" target="Pajgerová">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Běrský" target="Krpálek">
+      <data key="d1">0.2916666666666667</data>
+    </edge>
+    <edge source="Běrský" target="Pajgerová">
+      <data key="d1">0.3684210526315789</data>
+    </edge>
+    <edge source="Běrský" target="Obdržálek">
+      <data key="d1">0.34210526315789475</data>
+    </edge>
+    <edge source="Krpálek" target="Novák">
+      <data key="d1">0.17073170731707318</data>
+    </edge>
+    <edge source="Krpálek" target="Jakl">
+      <data key="d1">0.28</data>
+    </edge>
+    <edge source="Krpálek" target="Kocman">
+      <data key="d1">0.5185185185185185</data>
+    </edge>
+    <edge source="Krpálek" target="Pajgerová">
+      <data key="d1">0.5833333333333334</data>
+    </edge>
+    <edge source="Pajgerová" target="Novák">
+      <data key="d1">0.19444444444444445</data>
+    </edge>
+    <edge source="Pajgerová" target="Jakl">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Pajgerová" target="Kocman">
+      <data key="d1">0.8235294117647058</data>
+    </edge>
+    <edge source="Pajgerová" target="Obdržálek">
+      <data key="d1">0.9285714285714286</data>
+    </edge>
+    <edge source="Novák" target="Obdržálek">
+      <data key="d1">0.18055555555555555</data>
+    </edge>
+    <edge source="Obdržálek" target="Jakl">
+      <data key="d1">0.325</data>
+    </edge>
+    <edge source="Obdržálek" target="Kocman">
+      <data key="d1">0.7647058823529411</data>
+    </edge>
+    <edge source="Pospíšil" target="Charanzová">
+      <data key="d1">0.17757009345794392</data>
+    </edge>
+    <edge source="Pospíšil" target="Dlabajová">
+      <data key="d1">0.17307692307692307</data>
+    </edge>
+    <edge source="Pospíšil" target="Konečný">
+      <data key="d1">0.1797752808988764</data>
+    </edge>
+    <edge source="Pospíšil" target="Sehnalová">
+      <data key="d1">0.17721518987341772</data>
+    </edge>
+    <edge source="Pospíšil" target="Keller">
+      <data key="d1">0.17333333333333334</data>
+    </edge>
+    <edge source="Pospíšil" target="Kohlíček">
+      <data key="d1">0.1780821917808219</data>
+    </edge>
+    <edge source="Pospíšil" target="Maštálek">
+      <data key="d1">0.18309859154929578</data>
+    </edge>
+    <edge source="Charanzová" target="Dlabajová">
+      <data key="d1">0.65625</data>
+    </edge>
+    <edge source="Charanzová" target="Kohlíček">
+      <data key="d1">0.22807017543859648</data>
+    </edge>
+    <edge source="Charanzová" target="Maštálek">
+      <data key="d1">0.23636363636363636</data>
+    </edge>
+    <edge source="Dlabajová" target="Kohlíček">
+      <data key="d1">0.24528301886792453</data>
+    </edge>
+    <edge source="Dlabajová" target="Maštálek">
+      <data key="d1">0.2549019607843137</data>
+    </edge>
+    <edge source="Konečný" target="Sehnalová">
+      <data key="d1">0.3023255813953488</data>
+    </edge>
+    <edge source="Konečný" target="Maštálek">
+      <data key="d1">0.38235294117647056</data>
+    </edge>
+    <edge source="Konečný" target="Konečné">
+      <data key="d1">0.2777777777777778</data>
+    </edge>
+    <edge source="Sehnalová" target="Keller">
+      <data key="d1">0.56</data>
+    </edge>
+    <edge source="Sehnalová" target="POC">
+      <data key="d1">0.15625</data>
+    </edge>
+    <edge source="Sehnalová" target="Kohlíček">
+      <data key="d1">0.5416666666666666</data>
+    </edge>
+    <edge source="Sehnalová" target="Maštálek">
+      <data key="d1">0.5909090909090909</data>
+    </edge>
+    <edge source="Keller" target="Kohlíček">
+      <data key="d1">0.6842105263157895</data>
+    </edge>
+    <edge source="Keller" target="Maštálek">
+      <data key="d1">0.7647058823529411</data>
+    </edge>
+    <edge source="Kohlíček" target="Maštálek">
+      <data key="d1">0.8666666666666667</data>
+    </edge>
+    <edge source="Kocman" target="Jakl">
+      <data key="d1">0.3902439024390244</data>
+    </edge>
+    <edge source="Heydrich" target="Kubiš">
+      <data key="d1">0.15584415584415584</data>
+    </edge>
+    <edge source="Kubiš" target="Gabčík">
+      <data key="d1">0.7916666666666666</data>
+    </edge>
+    <edge source="Kubiš" target="Metoděj">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Kubiš" target="Hrubý">
+      <data key="d1">0.2962962962962963</data>
+    </edge>
+    <edge source="Kubiš" target="Valčík">
+      <data key="d1">0.34615384615384615</data>
+    </edge>
+    <edge source="Jedlička" target="Palacký">
+      <data key="d1">0.19607843137254902</data>
+    </edge>
+    <edge source="Jedlička" target="Hannan">
+      <data key="d1">0.5522388059701493</data>
+    </edge>
+    <edge source="Palacký" target="Jandejsek">
+      <data key="d1">0.21505376344086022</data>
+    </edge>
+    <edge source="Palacký" target="Hannan">
+      <data key="d1">0.2631578947368421</data>
+    </edge>
+    <edge source="Palacký" target="Piketty">
+      <data key="d1">0.28169014084507044</data>
+    </edge>
+    <edge source="Hannan" target="Jandejsek">
+      <data key="d1">0.26666666666666666</data>
+    </edge>
+    <edge source="Hannan" target="Piketty">
+      <data key="d1">0.37735849056603776</data>
+    </edge>
+    <edge source="Jandejsek" target="Piketty">
+      <data key="d1">0.34328358208955223</data>
+    </edge>
+    <edge source="Bakalův" target="Bakalova">
+      <data key="d1">0.22413793103448276</data>
+    </edge>
+    <edge source="Bakalova" target="Pokorný">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Kupka" target="Kovář">
+      <data key="d1">0.16176470588235295</data>
+    </edge>
+    <edge source="Johansson" target="Tayyip Erdoğan">
+      <data key="d1">0.21568627450980393</data>
+    </edge>
+    <edge source="Jakl" target="Zahradníček">
+      <data key="d1">0.32558139534883723</data>
+    </edge>
+    <edge source="Marx" target="Lenin">
+      <data key="d1">0.3469387755102041</data>
+    </edge>
+    <edge source="Wollner" target="Becher">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Wollner" target="Schneider">
+      <data key="d1">0.17073170731707318</data>
+    </edge>
+    <edge source="Wollner" target="Brand">
+      <data key="d1">0.175</data>
+    </edge>
+    <edge source="Wollner" target="Schmidt">
+      <data key="d1">0.175</data>
+    </edge>
+    <edge source="Becher" target="Tomin">
+      <data key="d1">0.16</data>
+    </edge>
+    <edge source="Becher" target="Marksa">
+      <data key="d1">0.16</data>
+    </edge>
+    <edge source="Becher" target="Posselt">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Becher" target="Vokřál">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Becher" target="Schneider">
+      <data key="d1">0.3888888888888889</data>
+    </edge>
+    <edge source="Becher" target="Brand">
+      <data key="d1">0.8461538461538461</data>
+    </edge>
+    <edge source="Becher" target="Schmidt">
+      <data key="d1">0.4117647058823529</data>
+    </edge>
+    <edge source="Schneider" target="Tomin">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Schneider" target="Marksa">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Schneider" target="Brand">
+      <data key="d1">0.4375</data>
+    </edge>
+    <edge source="Schneider" target="Schmidt">
+      <data key="d1">0.4375</data>
+    </edge>
+    <edge source="Brand" target="Tomin">
+      <data key="d1">0.17391304347826086</data>
+    </edge>
+    <edge source="Brand" target="Marksa">
+      <data key="d1">0.17391304347826086</data>
+    </edge>
+    <edge source="Brand" target="Posselt">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Brand" target="Vokřál">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Brand" target="Schmidt">
+      <data key="d1">0.4666666666666667</data>
+    </edge>
+    <edge source="Schmidt" target="Tomin">
+      <data key="d1">0.17391304347826086</data>
+    </edge>
+    <edge source="Schmidt" target="Marksa">
+      <data key="d1">0.17391304347826086</data>
+    </edge>
+    <edge source="Kraus" target="Němec">
+      <data key="d1">0.22916666666666666</data>
+    </edge>
+    <edge source="Kraus" target="Tenzor">
+      <data key="d1">0.34285714285714286</data>
+    </edge>
+    <edge source="Kraus" target="Mahrika">
+      <data key="d1">0.3142857142857143</data>
+    </edge>
+    <edge source="Tenzor" target="Peksa">
+      <data key="d1">0.2857142857142857</data>
+    </edge>
+    <edge source="Mahrika" target="Peksa">
+      <data key="d1">0.2962962962962963</data>
+    </edge>
+    <edge source="Morawiecki" target="Pellegrini">
+      <data key="d1">0.17307692307692307</data>
+    </edge>
+    <edge source="M" target="A">
+      <data key="d1">0.17647058823529413</data>
+    </edge>
+    <edge source="A" target="H">
+      <data key="d1">0.28</data>
+    </edge>
+    <edge source="Shehadeh" target="Alrawi">
+      <data key="d1">0.17142857142857143</data>
+    </edge>
+    <edge source="Shehadeh" target="Kobulnický">
+      <data key="d1">0.24242424242424243</data>
+    </edge>
+    <edge source="Alrawi" target="Lhoťan">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Janeček" target="Štěpán">
+      <data key="d1">0.21212121212121213</data>
+    </edge>
+    <edge source="Gabčík" target="Metoděj">
+      <data key="d1">0.2222222222222222</data>
+    </edge>
+    <edge source="Gabčík" target="Hrubý">
+      <data key="d1">0.391304347826087</data>
+    </edge>
+    <edge source="Gabčík" target="Valčík">
+      <data key="d1">0.391304347826087</data>
+    </edge>
+    <edge source="Metoděj" target="Bublík">
+      <data key="d1">0.3157894736842105</data>
+    </edge>
+    <edge source="Metoděj" target="Hrubý">
+      <data key="d1">0.3157894736842105</data>
+    </edge>
+    <edge source="Metoděj" target="Valčík">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Hrubý" target="Bublík">
+      <data key="d1">0.7142857142857143</data>
+    </edge>
+    <edge source="Hrubý" target="Valčík">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge source="Valčík" target="Bublík">
+      <data key="d1">0.6</data>
+    </edge>
+    <edge source="Kurás" target="Kurase">
+      <data key="d1">0.4782608695652174</data>
+    </edge>
+    <edge source="Grosse" target="Vlček">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Taber" target="Tabery">
+      <data key="d1">0.7142857142857143</data>
+    </edge>
+    <edge source="Opletal" target="Hlávkova kolej">
+      <data key="d1">0.30434782608695654</data>
+    </edge>
+    <edge source="Tomin" target="Marksa">
+      <data key="d1">0.5238095238095238</data>
+    </edge>
+    <edge source="De Gaulle" target="Schuman">
+      <data key="d1">0.22727272727272727</data>
+    </edge>
+    <edge source="Dyka" target="de Gaulle">
+      <data key="d1">0.19047619047619047</data>
+    </edge>
+    <edge source="Posselt" target="Vokřál">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Koněvovi" target="Kalouskovu">
+      <data key="d1">0.15789473684210525</data>
+    </edge>
+  </graph>
+</graphml>

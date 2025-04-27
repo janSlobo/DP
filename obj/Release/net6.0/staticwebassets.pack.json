@@ -9,6 +9,1210 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\avg_sentence_delka.csv",
+      "PackagePath": "staticwebassets\\data\\avg_sentence_delka.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\avg_sentence_delky.csv",
+      "PackagePath": "staticwebassets\\data\\avg_sentence_delky.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\avg_sentence_length.csv",
+      "PackagePath": "staticwebassets\\data\\avg_sentence_length.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\avg_word_length.csv",
+      "PackagePath": "staticwebassets\\data\\avg_word_length.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_mix_all.gexf",
+      "PackagePath": "staticwebassets\\data\\cooc_mix_all.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_mix_all.json",
+      "PackagePath": "staticwebassets\\data\\cooc_mix_all.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_mix_all_community.csv",
+      "PackagePath": "staticwebassets\\data\\cooc_mix_all_community.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_names_all.gexf",
+      "PackagePath": "staticwebassets\\data\\cooc_names_all.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_names_all.json",
+      "PackagePath": "staticwebassets\\data\\cooc_names_all.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooc_names_all_community.csv",
+      "PackagePath": "staticwebassets\\data\\cooc_names_all_community.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_mix_15_final.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_mix_15_final.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_mix_frequency_15.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_mix_frequency_15.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_mix_jaccard_0_15.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_mix_jaccard_0_15.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_names_7_final.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_names_7_final.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_names_frequency_7.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_names_frequency_7.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\cooccurrence_net_names_jaccard_0_15.json",
+      "PackagePath": "staticwebassets\\data\\cooccurrence_net_names_jaccard_0_15.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_mix_15_right.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_mix_15_right.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_mix_15_right.json",
+      "PackagePath": "staticwebassets\\data\\coocurence_mix_15_right.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_mix_15_right_communities.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_mix_15_right_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_communities.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_communities_final.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_communities_final.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_final.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_final.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_final.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_final.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_jaccard.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_jaccard.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_jaccard.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_jaccard.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_mix_jc_communities.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_mix_jc_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_communities.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_communities_final.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_communities_final.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_final.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_final.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_final.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_final.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_jaccard.gexf",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_jaccard.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_jaccard.graphml",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_jaccard.graphml"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\coocurence_net_names_jc_communities.csv",
+      "PackagePath": "staticwebassets\\data\\coocurence_net_names_jc_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\graph.json",
+      "PackagePath": "staticwebassets\\data\\graph.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\mentions_network_2019_today.gexf",
+      "PackagePath": "staticwebassets\\data\\mentions_network_2019_today.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\mentions_network_2019_today.json",
+      "PackagePath": "staticwebassets\\data\\mentions_network_2019_today.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\nejpodobnejsi_politici_summary_2019.csv",
+      "PackagePath": "staticwebassets\\data\\nejpodobnejsi_politici_summary_2019.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\adam-vojtech_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\adam-vojtech_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\alena-gajduskova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\alena-gajduskova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\alena-schillerova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\alena-schillerova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\alexandra-udzenija_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\alexandra-udzenija_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\andrej-babis_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\andrej-babis_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\barbora-koranova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\barbora-koranova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\dominik-feri_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\dominik-feri_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\helena-langsadlova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\helena-langsadlova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\ivan-bartos_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\ivan-bartos_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-bartosek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-bartosek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-cizinsky_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-cizinsky_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-hamacek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-hamacek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-hrncir_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-hrncir_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-kobza_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-kobza_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-lipavsky_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-lipavsky_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-skopecek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-skopecek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jan-zahradil_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jan-zahradil_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jana-cernochova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jana-cernochova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jiri-dolejs_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jiri-dolejs_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jiri-drahos_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jiri-drahos_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\jiri-pospisil_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\jiri-pospisil_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\karel-havlicek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\karel-havlicek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\katerina-valachova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\katerina-valachova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\lubomir-volny_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\lubomir-volny_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\ludek-niedermayer_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\ludek-niedermayer_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\lukas-wagenknecht_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\lukas-wagenknecht_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\marek-vyborny_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\marek-vyborny_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\marek-zenisek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\marek-zenisek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\marian-jurecka_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\marian-jurecka_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\marketa-adamova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\marketa-adamova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\martin-kolovratnik_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\martin-kolovratnik_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\martina-dlabajova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\martina-dlabajova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\michaela-sojdrova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\michaela-sojdrova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\michal-kucera_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\michal-kucera_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\mikulas-ferjencik_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\mikulas-ferjencik_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\mikulas-peksa_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\mikulas-peksa_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\milos-vystrcil_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\milos-vystrcil_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\milos-zeman_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\milos-zeman_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\miroslav-antl_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\miroslav-antl_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\miroslav-kalousek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\miroslav-kalousek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\olga-richterova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\olga-richterova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\ondrej-profant_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\ondrej-profant_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\patrik-nacher_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\patrik-nacher_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\pavel-belobradek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\pavel-belobradek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\pavel-fischer_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\pavel-fischer_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\pavel-poc_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\pavel-poc_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\petr-fiala_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\petr-fiala_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\petr-gazdik_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\petr-gazdik_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\petr-hlubucek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\petr-hlubucek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\radek-vondracek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\radek-vondracek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\radim-fiala_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\radim-fiala_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\sarka-jelinkova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\sarka-jelinkova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\stanislav-blaha_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\stanislav-blaha_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomas-golan_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomas-golan_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomas-macura_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomas-macura_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomas-martinek_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomas-martinek_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomas-prouza_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomas-prouza_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomas-zdechovsky_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomas-zdechovsky_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\tomio-okamura_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\tomio-okamura_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\vaclav-klaus_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\vaclav-klaus_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\vaclav-laska_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\vaclav-laska_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\vit-rakusan_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\vit-rakusan_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\vladimir-kremlik_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\vladimir-kremlik_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\zdenek-hrib_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\zdenek-hrib_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\normal\\zuzana-majerova-zahradnikova_ngrams.csv",
+      "PackagePath": "staticwebassets\\data\\normal\\zuzana-majerova-zahradnikova_ngrams.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politici_strana.csv",
+      "PackagePath": "staticwebassets\\data\\politici_strana.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_communities.csv",
+      "PackagePath": "staticwebassets\\data\\politician_communities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_communities_ST.csv",
+      "PackagePath": "staticwebassets\\data\\politician_communities_ST.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_network.gexf",
+      "PackagePath": "staticwebassets\\data\\politician_network.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_network_ST.gexf",
+      "PackagePath": "staticwebassets\\data\\politician_network_ST.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_network_ST_new.gexf",
+      "PackagePath": "staticwebassets\\data\\politician_network_ST_new.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_network_new.gexf",
+      "PackagePath": "staticwebassets\\data\\politician_network_new.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_similarity_jaccard_normalized2019.json",
+      "PackagePath": "staticwebassets\\data\\politician_similarity_jaccard_normalized2019.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_similarity_jaccard_normalized2019_final.json",
+      "PackagePath": "staticwebassets\\data\\politician_similarity_jaccard_normalized2019_final.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politician_top_similarities.csv",
+      "PackagePath": "staticwebassets\\data\\politician_top_similarities.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politicians_similarity_sentenceTRANS_2019.csv",
+      "PackagePath": "staticwebassets\\data\\politicians_similarity_sentenceTRANS_2019.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\politicians_similarity_sentenceTRANS_2019.json",
+      "PackagePath": "staticwebassets\\data\\politicians_similarity_sentenceTRANS_2019.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\slovni_druhy_politici.csv",
+      "PackagePath": "staticwebassets\\data\\slovni_druhy_politici.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Havel.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Havel.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Havel_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Havel_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Vojtěch.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Vojtěch.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Vojtěch_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Vojtěch_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\adam-vojtech_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\adam-vojtech_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Havel.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Havel.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Havel_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Havel_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Havlíček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Havlíček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Havlíček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Havlíček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Kalousek.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Kalousek.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Kalousek_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Kalousek_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Moravec.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Moravec.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Moravec_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Moravec_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Soukup.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Soukup.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Soukup_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Soukup_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Stanjura.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Stanjura.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Stanjura_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Stanjura_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Vojtěch.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Vojtěch.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Vojtěch_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Vojtěch_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\alena-schillerova_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\alena-schillerova_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Blatný.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Blatný.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Blatný_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Blatný_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Brabec.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Brabec.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Brabec_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Brabec_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Havlíček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Havlíček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Havlíček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Havlíček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Merkelová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Merkelová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Merkelová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Merkelová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Orbán.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Orbán.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Orbán_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Orbán_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Pellegrini.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Pellegrini.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Pellegrini_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Pellegrini_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Vojtěch.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Vojtěch.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Vojtěch_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Vojtěch_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\andrej-babis_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\andrej-babis_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Fiala.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Fiala.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Fiala_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Fiala_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Havlíček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Havlíček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Havlíček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Havlíček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Negrelliho.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Negrelliho.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Negrelliho_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Negrelliho_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Síkela.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Síkela.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\karel-havlicek_Síkela_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\karel-havlicek_Síkela_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Biden.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Biden.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Biden_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Biden_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Hitler.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Hitler.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Hitler_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Hitler_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Okamura.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Okamura.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Okamura_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Okamura_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Putin.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Putin.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Putin_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Putin_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Ryšavý.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Ryšavý.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Ryšavý_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Ryšavý_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Trump.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Trump.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Trump_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Trump_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Volný.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Volný.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Volný_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Volný_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Zelenskyj.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Zelenskyj.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Zelenskyj_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Zelenskyj_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\lubomir-volny_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\lubomir-volny_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Hamáček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Hamáček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Hamáček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Hamáček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Havel.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Havel.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Havel_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Havel_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Kiska.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Kiska.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Kiska_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Kiska_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Klaus.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Klaus.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Klaus_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Klaus_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Masaryk.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Masaryk.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Masaryk_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Masaryk_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Prymula.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Prymula.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Prymula_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Prymula_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Putin.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Putin.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Putin_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Putin_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\milos-zeman_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\milos-zeman_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Hamáček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Hamáček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Hamáček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Hamáček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Havlíček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Havlíček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Havlíček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Havlíček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Kalousek.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Kalousek.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Kalousek_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Kalousek_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Klaus.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Klaus.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Klaus_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Klaus_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Prymula.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Prymula.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Prymula_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Prymula_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Putin.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Putin.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Putin_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Putin_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Schwarzenberg.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Schwarzenberg.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Schwarzenberg_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Schwarzenberg_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\miroslav-kalousek_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\miroslav-kalousek_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Bělobrádek.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Bělobrádek.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Bělobrádek_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Bělobrádek_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Drahoš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Drahoš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Drahoš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Drahoš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Havel.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Havel.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Havel_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Havel_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Jurečka.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Jurečka.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Jurečka_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Jurečka_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Kalousek.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Kalousek.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Kalousek_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Kalousek_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Klaus.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Klaus.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Klaus_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Klaus_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Okamura.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Okamura.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Okamura_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Okamura_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Sobotka.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Sobotka.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Sobotka_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Sobotka_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\pavel-belobradek_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\pavel-belobradek_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Fiala.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Fiala.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Fiala_p.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Fiala_p.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Fiala_p_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Fiala_p_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Fiala_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Fiala_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Hamáček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Hamáček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Hamáček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Hamáček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Putin.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Putin.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Putin_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Putin_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Schillerová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Schillerová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Schillerová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Schillerová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Sobotka.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Sobotka.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Sobotka_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Sobotka_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Vojtěch.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Vojtěch.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Vojtěch_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Vojtěch_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Vystrčil.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Vystrčil.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Vystrčil_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Vystrčil_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\petr-fiala_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\petr-fiala_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Babiš.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Babiš.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Babiš_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Babiš_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Fiala_p.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Fiala_p.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Fiala_p_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Fiala_p_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Hamáček.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Hamáček.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Hamáček_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Hamáček_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Kalousek.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Kalousek.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Kalousek_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Kalousek_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Le Pen.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Le Pen.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Le Pen_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Le Pen_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Merkelová.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Merkelová.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Merkelová_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Merkelová_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Okamura.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Okamura.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Okamura_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Okamura_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Salvini.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Salvini.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Salvini_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Salvini_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Sobotka.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Sobotka.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Sobotka_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Sobotka_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Zeman.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Zeman.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\texty_topentity\\tomio-okamura_Zeman_slova.csv",
+      "PackagePath": "staticwebassets\\data\\texty_topentity\\tomio-okamura_Zeman_slova.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\unique_ngrams_all_2019.csv",
+      "PackagePath": "staticwebassets\\data\\unique_ngrams_all_2019.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\unique_ngrams_all_2019_4.csv",
+      "PackagePath": "staticwebassets\\data\\unique_ngrams_all_2019_4.csv"
+    },
+    {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

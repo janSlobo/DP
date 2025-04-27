@@ -1,0 +1,860 @@
+﻿
+@{
+    ViewData["Title"] = "Stylometry";
+}
+
+
+<style>
+    #ngram {
+        width: 1800px;
+        height: 900px;
+        background: #f8f8f8;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #ngram .node {
+        fill: steelblue;
+        stroke: #fff;
+        stroke-width: 1.5px;
+        cursor: pointer;
+    }
+
+    #ngram .link {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    #ngram .label {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        fill: black;
+        pointer-events: none;
+    }
+
+    #stgraph {
+        width: 1800px;
+        height: 900px;
+        background: #f8f8f8;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #stgraph .node {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+    #stgraph .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+    #stgraph .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: black;
+            pointer-events: none;
+        }
+</style>
+<script>
+    var currentPage = 1;
+    var itemsPerPage = 10;
+    var avg_sentence = @Html.Raw(Json.Serialize(ViewBag.avg_sentence));
+    var sentencelengths = @Html.Raw(Json.Serialize(ViewBag.sentencelengths));
+    var wordlength = @Html.Raw(Json.Serialize(ViewBag.word_length));
+    var slovnidruhy = @Html.Raw(Json.Serialize(ViewBag.slovnidruhy));
+    var st_count = @Html.Raw(Json.Serialize(ViewBag.st_count));
+    var toppoliticians=[
+        "andrej-babis", "tomio-okamura", "lubomir-volny", "adam-vojtech", "miroslav-kalousek",
+        "alena-schillerova", "pavel-belobradek", "petr-fiala", "karel-havlicek", "milos-zeman"
+    ]
+    var config = {
+        displayModeBar: false, responsive: true
+    };
+    function showNGRAMgraph(coloring){
+        fetch("/data/politician_similarity_jaccard_normalized2019_final.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#ngram").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                // Načtěte soubor se skupinami
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        // Přiřazení unikátního id k uzlům (pro D3.js, kdy uzly mají pouze "id")
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        // Přiřazení skupiny k uzlům
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama"; // Defaultní hodnota pokud není nalezena skupina
+
+                        });
+
+                        // Představme si vážený stupeň uzlů
+                        const nodeDegrees = {};
+                        links.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+                        
+                       const simulation = d3.forceSimulation(nodes)
+                            .force("link", d3.forceLink(links)
+                                .id(d => d.id)
+                                .distance(30)
+                                .strength(1))
+                            .force("charge", d3.forceManyBody()
+                                .strength(-1000)
+                                .theta(0.8)
+                                .distanceMax(1000))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(10))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                // Zmrazení pozic uzlů po skončení simulace (aby se nehybaly)
+                                nodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                // Po skončení simulace zastavíme sílu simulace
+                                simulation.stop();
+                            });
+
+                        
+
+                        // Vykreslení hran
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(links)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke-width", d => Math.sqrt(d.weight) * 15);
+
+                        // Funkce pro určení barvy podle skupiny
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        // Vykreslení uzlů
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(nodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 20))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+                        // Vykreslení popisků
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(nodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        // Funkce pro aktualizaci pozic
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(nodes, d => d.x);
+                            const xMax = d3.max(nodes, d => d.x);
+                            const yMin = d3.min(nodes, d => d.y);
+                            const yMax = d3.max(nodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            // Po zahájení dragování vypneme simulaci na chvíli, pokud ještě běží
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            // Během dragování nastavíme pozici uzlu na pozici myši
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            // Po skončení dragování vrátíme pozici uzlu (necháme ho na jeho novém místě)
+                            if (!event.active) simulation.alphaTarget(0);  // Zastavení simulace po dragování
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                // Funkce pro parsování CSV souboru
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    function showSTgraph(coloring) {
+        fetch("/data/politicians_similarity_sentenceTRANS_2019.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#stgraph").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                // Načtěte soubor se skupinami
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        // Přiřazení unikátního id k uzlům (pro D3.js, kdy uzly mají pouze "id")
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        // Přiřazení skupiny k uzlům
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama"; // Defaultní hodnota pokud není nalezena skupina
+
+                        });
+
+                        // Představme si vážený stupeň uzlů
+                        const nodeDegrees = {};
+                        links.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+                        
+
+                        const simulation = d3.forceSimulation(nodes)
+                            .force("link", d3.forceLink(links)
+                                .id(d => d.id)
+                                .distance(30)
+                                .strength(1))
+                            .force("charge", d3.forceManyBody()
+                                .strength(-1000)
+                                .theta(0.8)
+                                .distanceMax(1000))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(10))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                // Zmrazení pozic uzlů po skončení simulace (aby se nehybaly)
+                                nodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                // Po skončení simulace zastavíme sílu simulace
+                                simulation.stop();
+                            });
+
+                        // Vykreslení hran
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(links)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke-width", d => Math.sqrt(d.weight) * 2);
+
+                        // Funkce pro určení barvy podle skupiny
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        // Vykreslení uzlů
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(nodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 5))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+                        // Vykreslení popisků
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(nodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        // Funkce pro aktualizaci pozic
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(nodes, d => d.x);
+                            const xMax = d3.max(nodes, d => d.x);
+                            const yMin = d3.min(nodes, d => d.y);
+                            const yMax = d3.max(nodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            // Po zahájení dragování vypneme simulaci na chvíli, pokud ještě běží
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            // Během dragování nastavíme pozici uzlu na pozici myši
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            // Po skončení dragování vrátíme pozici uzlu (necháme ho na jeho novém místě)
+                            if (!event.active) simulation.alphaTarget(0);  // Zastavení simulace po dragování
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                // Funkce pro parsování CSV souboru
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    function showTable(reset=false) {
+        var tbody = document.querySelector("#politicianTable tbody");
+
+        // Get selected criteria and order
+        var sortCriteria = document.querySelector("#sortCriteria").value;
+        var sortOrder = document.querySelector("#sortOrder").value;
+
+        // Sort the data based on selected criteria
+        avg_sentence.sort((a, b) => {
+            let valueA, valueB;
+
+            
+            if (sortCriteria === "name") {
+                valueA = a.name;
+                valueB = b.name;
+            } else if (sortCriteria === "avgSentenceLength") {
+                valueA = a.avgLength;
+                valueB = b.avgLength;
+            } else if (sortCriteria === "avgWordLength") {
+                valueA = wordlength[a.name];
+                valueB = wordlength[b.name];
+            } else if (sortCriteria === "st_count") {
+                valueA = st_count[a.name];
+                valueB = st_count[b.name];
+            }
+
+            // Sort ascending or descending
+            if (sortOrder === "asc") {
+                return valueA > valueB ? 1 : (valueA < valueB ? -1 : 0);
+            } else {
+                return valueA < valueB ? 1 : (valueA > valueB ? -1 : 0);
+            }
+        });
+        console.log(reset)
+        if (!reset) {
+            
+            currentPage = 1;
+        }
+        
+
+        // Paginate the data
+        var startIndex = (currentPage - 1) * itemsPerPage;
+        var endIndex = startIndex + itemsPerPage;
+        var paginatedData = avg_sentence.slice(startIndex, endIndex);
+
+        // Clear existing rows
+        tbody.innerHTML = "";
+
+        // Populate the table with paginated data
+        paginatedData.forEach(politician => {
+            var row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${politician.name}</td>
+                    <td>${politician.avgLength.toFixed(3)}</td>
+                    <td>${wordlength[politician.name].toFixed(3)}</td>
+                            <td>${st_count[politician.name]}</td>
+            `;
+            tbody.appendChild(row);
+        });
+
+        // Update page number display
+        document.getElementById("pageNumber").textContent = `Stránka ${currentPage}`;
+        var totalPages = Math.ceil(avg_sentence.length / itemsPerPage);
+        document.getElementById("totalPages").textContent = totalPages;
+    }
+
+    function changePage(direction) {
+        var totalPages = Math.ceil(avg_sentence.length / itemsPerPage);
+
+        // Change the current page
+        currentPage += direction;
+        console.log(currentPage,totalPages)
+        // Ensure currentPage is within the valid range
+        if (currentPage < 1) currentPage = 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+
+        
+
+        // Show the table for the new page
+        showTable(true);
+    }
+    function getSelectedPoliticians() {
+        return Array.from(document.querySelectorAll("#politicCheckboxes input:checked"))
+            .map(cb => cb.value);
+    }
+    function showSlovniDruhy() {
+        var dataDict = slovnidruhy;
+        var selectedPoliticians = getSelectedPoliticians();
+
+        // Pokud nejsou vybráni žádní politici, zobrazíme placeholder
+        if (selectedPoliticians.length === 0) {
+            document.getElementById('slovnidruhy').style.display = "none";
+            document.getElementById('slovnidruhy_message').style.display = "block";
+
+            return;
+        }
+        document.getElementById('slovnidruhy_message').style.display = "none";
+        document.getElementById('slovnidruhy').style.display = "block";
+
+        // Získáme unikátní slovní druhy
+        var slovniDruhy = new Set();
+        Object.values(dataDict).forEach(politikData => {
+            Object.keys(politikData).forEach(druh => slovniDruhy.add(druh));
+        });
+        slovniDruhy = Array.from(slovniDruhy);
+
+        // Vytvoříme datové série (traces) pro každý slovní druh
+        var traces = slovniDruhy.map(druh => ({
+            x: selectedPoliticians,
+            y: selectedPoliticians.map(politik => dataDict[politik]?.[druh] || 0),
+            name: druh,
+            type: 'bar',
+            text: selectedPoliticians.map(politik => (dataDict[politik]?.[druh] || 0) + "%"),
+            textposition: 'auto',
+            hoverinfo: 'y+name',
+            marker: { opacity: 0.9 }
+        }));
+
+        // Vykreslení grafu
+        var layout = {
+            title: "",
+            barmode: "stack",
+            xaxis: { title: "", tickangle: 45 },
+            yaxis: { title: "Zastoupení sl. druhu (v %)" },
+            legend: { x: 1.05, y: 1 }, 
+            margin: { l: 80, r: 100, t: 0, b: 105 }, autosize:true
+        };
+
+        Plotly.react("slovnidruhy", traces, layout,config);
+    }
+    function showSentenceBoxplots() {
+        var traceData = [];
+
+        // Funkce pro nahrazení nulových hodnot malou konstantou
+        function adjustDataForLogScale(data) {
+            return data.filter(value => value !== 0);  // Nahrazení 0 hodnotou 1e-5
+        }
+
+        for (var key in sentencelengths) {
+            var checkbox = document.querySelector(`input[value="${key}"]`);
+            if (checkbox.checked) {
+                // Úprava dat, aby obsahovala malou konstantu místo nuly
+                var adjustedData = adjustDataForLogScale(sentencelengths[key]);
+
+                traceData.push({
+                    type: "box",
+                    y: adjustedData,
+                    name: key,
+                    boxpoints: "none",
+                    boxwidth: 8,
+                    boxmean: true
+                });
+            }
+        }
+        if (traceData.length === 0) {
+            document.getElementById('slengths').style.display = "none";
+            document.getElementById('slengths_message').style.display = "block";
+
+            return;
+        }
+        document.getElementById('slengths_message').style.display = "none";
+        document.getElementById('slengths').style.display = "block";
+        var layout = {
+            title: "",
+            xaxis: { title: "", showgrid: false, tickangle: 45 },
+            yaxis: {
+                title: "Počet slov",
+                showgrid: true,
+                type: 'log',  // Logaritmické měřítko
+                tickvals: [1, 5, 10, 20, 50, 100, 500],  // Zahrnutí malé hodnoty pro zobrazení 0
+                ticktext: ['1','5', '10', '20', '50', '100', '500']  // Ruční texty pro hodnoty na ose Y
+            },
+            boxmode: "overlay",
+          
+            showlegend: false,
+            bargap: 0,
+            bargroupgap: 0,
+            margin: { b: 120,r:70,t:10 },
+            autosize:true
+        };
+
+        Plotly.newPlot("slengths", traceData, layout,config);
+    }
+
+    function uncheck(formId) {
+        const form = document.getElementById(formId);
+        const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => checkbox.checked = false);
+
+
+        form.dispatchEvent(new Event('change'));
+        if (checkboxes.length > 0) {
+            checkboxes[0].dispatchEvent(new Event('change', { bubbles: false }));
+        }
+
+    }
+    function hide() {
+        document.getElementById("ngram_div").style.display = "none";
+        document.getElementById("sentiment_page").style.display = "none";
+        document.getElementById("STdiv").style.display = "none";
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        var container = document.getElementById("politician-list");
+        var dataDict = slovnidruhy;
+        for (var key in sentencelengths) {
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.value = key;
+            if (toppoliticians.includes(key)) {
+                checkbox.checked = true;
+            } else {
+                checkbox.checked = false;
+            }
+            
+            checkbox.onchange = showSentenceBoxplots;
+
+            var label = document.createElement("label");
+            label.classList.add("form-check");
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(" " + key));
+
+            container.appendChild(label);
+           
+        }
+        document.querySelector("#sortCriteria").addEventListener("change",()=> showTable(false));
+        document.querySelector("#sortOrder").addEventListener("change", ()=>showTable(false));
+        showTable(false);
+        showSentenceBoxplots();
+
+        var politicCheckboxes = document.getElementById("politicCheckboxes");
+
+        Object.keys(dataDict).forEach(politik => {
+            var label = document.createElement("label");
+            label.classList.add("checkbox-label");
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+
+            if (toppoliticians.includes(politik)) {
+                checkbox.checked = true;
+            } else {
+                checkbox.checked = false;
+            }
+           
+            checkbox.value = politik;
+            checkbox.addEventListener("change", showSlovniDruhy);
+            label.classList.add("form-check");
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(" " + politik));
+            politicCheckboxes.appendChild(label);
+        });
+
+        showSlovniDruhy();
+        showNGRAMgraph("/data/politician_communities.csv");
+        showSTgraph("/data/politician_communities_ST.csv");
+        document.getElementById("ngramgraph").addEventListener("click", function () {
+            hide();
+            document.getElementById("ngram_div").style.display = "flex";
+
+        });
+        document.getElementById("STgraph").addEventListener("click", function () {
+            hide();
+            document.getElementById("STdiv").style.display = "flex";
+
+        });
+        document.getElementById("stats").addEventListener("click", function () {
+            hide();
+            document.getElementById("sentiment_page").style.display = "flex";
+
+        });
+
+        document.getElementById("ngram_komunity").addEventListener("click", function () {
+            showNGRAMgraph("/data/politician_communities.csv");
+
+        });
+        document.getElementById("st_komunity").addEventListener("click", function () {
+            showSTgraph("/data/politician_communities_ST.csv");
+
+        });
+        document.getElementById("st_strany").addEventListener("click", function () {
+            showSTgraph("/data/politici_strana.csv");
+
+        });
+        document.getElementById("ngram_strany").addEventListener("click", function () {
+            showNGRAMgraph("/data/politici_strana.csv");
+
+        });
+
+    });
+
+</script>
+<div class="chart-card" style="margin-bottom:15px;">
+
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza stylu a podobnosti politiků</h2>
+        <p class="chart-subtitle">
+            Na této stránce je pro jednotlivé politiky zobrazena průměrná délka vět a slov, a také míra použití jednotlivých slovních druhů. Informace jsou zobrazeny na grafech a také v tabulce.
+        </p>
+
+        <p class="chart-subtitle">
+            Kromě statistik si lze zobrazit také sítě podobnosti mezi politiky na základě často používaných frází (n-gramů) nebo na základě nástroje SentenceTransformer.
+        </p>
+
+    </div>
+
+    <div class="mini-navbar">
+     
+        <div class="navbar-buttons">
+            <button class="nav-btn" id="stats">Statistiky</button>
+            <button class="nav-btn" id="STgraph">Síť textové podobnosti politiků</button>
+            <button class="nav-btn" id="ngramgraph">Síť podobnosti frází politiků</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="ngram_div" class="export-container" style="display: none;">
+
+   
+    <div class="g-header">
+        <h3>Síť podobnosti politiků dle n-gramů</h3>
+        <div class="center-buttons">
+            <span>Obarvit dle:</span>
+            <button class="mybtn btn" id="ngram_komunity">Komunit</button>
+            <button class="mybtn btn" id="ngram_strany">Politické strany</button>
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "politician_network_new.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="ngram"></svg>
+</div>
+
+
+<div id="STdiv" class="export-container" style="display: none;">
+  
+    <div class="g-header">
+        <h3>Síť podobnosti textů politiků (SentenceTransformer)</h3>
+        <div class="center-buttons">
+            <span>Obarvit dle:</span>
+            <button class="mybtn btn" id="st_komunity">Komunit</button>
+            <button class="mybtn btn" id="st_strany">Politické strany</button>
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "politician_network_ST_new.gexf" })" class="btn mybtn export-button">Exportovat (.gexf)</a>
+    </div>
+
+    <svg id="stgraph" ></svg>
+</div>
+
+<div class="sentiment_page" id="sentiment_page">
+
+    <div class="left-panel-sentiment">
+     
+            <div class="chart-card-bg_full">
+                <div class="chart-header">
+                    <h3 class="chart-title">Délka věty</h3>
+                    <p class="chart-subtitle">Rozložení délky vět v textech politiků (počet slov)</p>
+                </div>
+            
+                
+                <div class="graphrow">
+                    <div class="form-container1">
+                        <h3 class="form-header">Vyberte politiky:</h3>
+                        <div id="politician-list"></div>
+                    <button class="form-footer" type="button" onclick="uncheck('politician-list')">
+                        Zrušit výběr
+                    </button>
+                    </div>
+                    <div class="chart-container1">
+                        <div id="slengths" class="chart-container"></div>
+                    <div id="slengths_message" class="chart-container message" style="display:none;">Vyberte politiky</div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="chart-card-bg_full">
+            <div class="chart-header">
+                <h3 class="chart-title">Slovní druhy</h3>
+                <p class="chart-subtitle">Zastoupení slovních druhů v textech politiků </p>
+            </div>
+
+            <div class="graphrow">
+
+                <div class="form-container1">
+                    <h3 class="form-header">Vyberte politiky:</h3>
+                    <div id="politicCheckboxes"></div>
+                    <button class="form-footer" type="button" onclick="uncheck('politicCheckboxes')">
+                        Zrušit výběr
+                    </button>
+                </div>
+                <div class="chart-container1">
+                    <div id="slovnidruhy" class="chart-container"></div>
+                    <div id="slovnidruhy_message" class="chart-container message" style="display:none;">Vyberte politiky</div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="right-panel-sentiment">
+        <div class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
+            <label for="sortCriteria">Řadit podle:</label>
+            <select id="sortCriteria" class="form-select">
+                <option value="name">Abecedně</option>
+                <option value="avgSentenceLength">Průměrná délka věty</option>
+                <option value="avgWordLength">Průměrná délka slov</option>
+                <option value="st_count">Počet příspěvků</option>
+            </select>
+
+            <label for="sortOrder">Pořadí:</label>
+            <select id="sortOrder" class="form-select">
+                <option value="asc">Vzestupně</option>
+                <option value="desc">Sestupně</option>
+            </select>
+        </div>
+        <table id="politicianTable" class="styled-table">
+            <thead>
+                <tr>
+                    <th>Jméno politika</th>
+                    <th>Průměrná délka věty</th>
+                    <th>Průměrná délka slov</th>
+                    <th>Počet příspěvků</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div id="pagination" class="pagination">
+            <button id="prevPage" onclick="changePage(-1)">Předchozí</button>
+            <span id="pageNumber">1</span> z <span id="totalPages">1</span>
+            <button id="nextPage" onclick="changePage(1)">Další</button>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,401 @@
+n-gram,frekvence
+mě,129
+jeho,92
+prezidenta,74
+senátu,71
+bych,64
+teď,64
+prostě,63
+no,61
+pak,61
+jejich,54
+své,52
+třeba,51
+či,51
+než,51
+mu,49
+proti,49
+další,44
+tedy,42
+žalobu,41
+dnes,39
+prezident,39
+fakt,38
+žaloby,38
+lidí,37
+dost,34
+jeden,34
+rád,33
+trochu,31
+měl,30
+možná,30
+takže,30
+opravdu,30
+víc,30
+svůj,29
+podle,27
+jednání,27
+zase,26
+pár,26
+vy,26
+ano,26
+těch,26
+nikdy,26
+ústavní,26
+svoji,26
+budu,25
+jinak,25
+první,25
+lidi,24
+let,24
+tenhle,24
+mají,24
+právo,24
+něj,24
+svého,24
+oznámení,24
+jim,23
+všem,23
+abych,23
+ta,22
+zákona,22
+dělat,22
+svým,22
+přes,22
+alespoň,22
+my,22
+jo,21
+politice,21
+hodně,21
+mezi,21
+prosím,21
+tady,21
+paní,20
+práce,20
+diskuzi,20
+člověk,20
+chtěl,20
+senátor,20
+práci,20
+ní,20
+stejně,19
+trestní oznámení,16
+víc než,10
+hrubé porušení,10
+porušení ústavy,10
+držet zbraň,10
+předsedy senátu,9
+žalobu prezidenta,9
+trestný čin,8
+text žaloby,7
+ústavní žaloby,7
+prezidenta hrubé,7
+podle mě,7
+práva držet,7
+žaloby prezidenta,6
+trestním oznámením,6
+kolegy senátory,6
+klubu senátor,6
+senátor 21,6
+tomáš goláň,6
+kávu láskou,6
+no teď,5
+státní zástupce,5
+porušování ústavy,5
+připraven nést,5
+nést odpovědnost,5
+trestního oznámení,5
+požádám kolegy,5
+václav láska,5
+mě baví,5
+sociálních sítích,5
+pléna senátu,5
+rok půl,5
+miloš zeman,5
+my politici,5
+české politiky,4
+sociální sítě,4
+no jo,4
+ženy děti,4
+láskou ii,4
+káva láskou,4
+senátní klub,4
+měl bych,4
+senátorek senátorů,4
+chtěl bych,4
+svým trestním,4
+nadále stojím,4
+stojím zároveň,4
+zároveň připraven,4
+odpovědnost své,4
+své činy,4
+činy policie,4
+policie shledala,4
+shledala podáním,4
+podáním trestního,4
+oznámení spáchal,4
+spáchal trestný,4
+zbavili imunity,4
+českou republiku,4
+ústavní žalobu,4
+pane lásko,4
+no prostě,4
+ladislav kos,4
+petr orel,4
+goláň přemysl,4
+přemysl rabas,4
+rabas lukáš,4
+lukáš wagenknecht,4
+dost možná,4
+recepci c1,4
+pravda láska,4
+žalobě prezidenta,4
+praze 5,4
+prvním kole,4
+stavební odbor,4
+křivé obvinění,4
+lidská práva,4
+místopředseda senátu,4
+předseda klubu,4
+magoři vražděj,4
+prezident zeman,4
+hrubé porušení ústavy,10
+prezidenta hrubé porušení,7
+práva držet zbraň,7
+klubu senátor 21,6
+připraven nést odpovědnost,5
+ústavní žaloby prezidenta,4
+svým trestním oznámením,4
+nadále stojím zároveň,4
+stojím zároveň připraven,4
+zároveň připraven nést,4
+nést odpovědnost své,4
+odpovědnost své činy,4
+své činy policie,4
+činy policie shledala,4
+policie shledala podáním,4
+shledala podáním trestního,4
+podáním trestního oznámení,4
+trestního oznámení spáchal,4
+oznámení spáchal trestný,4
+spáchal trestný čin,4
+požádám kolegy senátory,4
+tomáš goláň přemysl,4
+goláň přemysl rabas,4
+přemysl rabas lukáš,4
+rabas lukáš wagenknecht,4
+naše ženy děti,3
+mynáře nadále stojím,3
+obratem požádám kolegy,3
+kolegy senátory mě,3
+senátory mě zbavili,3
+mě zbavili imunity,3
+novoročního projevu předsedy,3
+projevu předsedy senátu,3
+václav láska ladislav,3
+láska ladislav kos,3
+ladislav kos petr,3
+kos petr orel,3
+petr orel tomáš,3
+orel tomáš goláň,3
+podává trestní oznámení,3
+pravda láska listopadu,3
+láska listopadu národní,3
+žalobu prezidenta hrubé,3
+místopředseda senátu jiří,3
+držet zbraň osobní,3
+zbraň osobní obranu,3
+zbraň obranu státu,3
+pondělí 17 hod,3
+nový ministr dopravy,2
+asistent poslance bendy,2
+hrube poruseni ustavy,2
+otázku komu politice,2
+nového stavebního zákona,2
+žádnou koláž emmou,2
+koláž emmou smetana,2
+emmou smetana nevyrobím,2
+smetana nevyrobím nepoužiju,2
+nevyrobím nepoužiju přemýšleli,2
+době digitální snadno,2
+mě napadá jestli,2
+volbě předsedy senátu,2
+známy všechny okolnosti,2
+zatím upřímnou soustrast,2
+jádro dominantní zdroj,2
+dominantní zdroj vůbec,2
+zdroj vůbec nediskutujme,2
+vůbec nediskutujme mohlo,2
+nediskutujme mohlo jinak,2
+mohlo jinak říká,2
+jinak říká budoucí,2
+říká budoucí ministr,2
+budoucí ministr průmyslu,2
+ministr průmyslu karel,2
+průmyslu karel havlíček,2
+pán pohledu žádný,2
+pohledu žádný terorista,2
+žádný terorista zoufalý,2
+terorista zoufalý člověk,2
+zoufalý člověk nevěděl,2
+člověk nevěděl ochránit,2
+prezidenta hrubé porušení ústavy,7
+nadále stojím zároveň připraven,4
+stojím zároveň připraven nést,4
+zároveň připraven nést odpovědnost,4
+připraven nést odpovědnost své,4
+nést odpovědnost své činy,4
+odpovědnost své činy policie,4
+své činy policie shledala,4
+činy policie shledala podáním,4
+policie shledala podáním trestního,4
+shledala podáním trestního oznámení,4
+podáním trestního oznámení spáchal,4
+trestního oznámení spáchal trestný,4
+oznámení spáchal trestný čin,4
+tomáš goláň přemysl rabas,4
+goláň přemysl rabas lukáš,4
+přemysl rabas lukáš wagenknecht,4
+mynáře nadále stojím zároveň,3
+obratem požádám kolegy senátory,3
+požádám kolegy senátory mě,3
+kolegy senátory mě zbavili,3
+senátory mě zbavili imunity,3
+novoročního projevu předsedy senátu,3
+václav láska ladislav kos,3
+láska ladislav kos petr,3
+ladislav kos petr orel,3
+kos petr orel tomáš,3
+petr orel tomáš goláň,3
+orel tomáš goláň přemysl,3
+pravda láska listopadu národní,3
+žalobu prezidenta hrubé porušení,3
+držet zbraň osobní obranu,3
+žádnou koláž emmou smetana,2
+koláž emmou smetana nevyrobím,2
+emmou smetana nevyrobím nepoužiju,2
+smetana nevyrobím nepoužiju přemýšleli,2
+jádro dominantní zdroj vůbec,2
+dominantní zdroj vůbec nediskutujme,2
+zdroj vůbec nediskutujme mohlo,2
+vůbec nediskutujme mohlo jinak,2
+nediskutujme mohlo jinak říká,2
+mohlo jinak říká budoucí,2
+jinak říká budoucí ministr,2
+říká budoucí ministr průmyslu,2
+budoucí ministr průmyslu karel,2
+ministr průmyslu karel havlíček,2
+pán pohledu žádný terorista,2
+pohledu žádný terorista zoufalý,2
+žádný terorista zoufalý člověk,2
+terorista zoufalý člověk nevěděl,2
+zoufalý člověk nevěděl ochránit,2
+člověk nevěděl ochránit naši,2
+nevěděl ochránit naši zemi,2
+ženy děti názor spd,2
+děti názor spd důchodce,2
+názor spd důchodce kácejícího,2
+spd důchodce kácejícího stromy,2
+důchodce kácejícího stromy koleje,2
+kácejícího stromy koleje takže,2
+stromy koleje takže podle,2
+koleje takže podle spd,2
+takže podle spd ochráníte,2
+podle spd ochráníte naše,2
+spd ochráníte naše ženy,2
+ochráníte naše ženy děti,2
+naše ženy děti pár,2
+ženy děti pár našich,2
+děti pár našich žen,2
+pár našich žen dětí,2
+našich žen dětí zabijete,2
+lidi buďte trochu soudní,2
+buďte trochu soudní vzkazy,2
+trochu soudní vzkazy rozbijete,2
+soudní vzkazy rozbijete hubu,2
+vzkazy rozbijete hubu mě,2
+rozbijete hubu mě potkáte,2
+hubu mě potkáte akceptuji,2
+mě potkáte akceptuji nicméně,2
+potkáte akceptuji nicméně požadavek,2
+akceptuji nicméně požadavek abych,2
+nadále stojím zároveň připraven nést,4
+stojím zároveň připraven nést odpovědnost,4
+zároveň připraven nést odpovědnost své,4
+připraven nést odpovědnost své činy,4
+nést odpovědnost své činy policie,4
+odpovědnost své činy policie shledala,4
+své činy policie shledala podáním,4
+činy policie shledala podáním trestního,4
+policie shledala podáním trestního oznámení,4
+shledala podáním trestního oznámení spáchal,4
+podáním trestního oznámení spáchal trestný,4
+trestního oznámení spáchal trestný čin,4
+tomáš goláň přemysl rabas lukáš,4
+goláň přemysl rabas lukáš wagenknecht,4
+mynáře nadále stojím zároveň připraven,3
+obratem požádám kolegy senátory mě,3
+požádám kolegy senátory mě zbavili,3
+kolegy senátory mě zbavili imunity,3
+václav láska ladislav kos petr,3
+láska ladislav kos petr orel,3
+ladislav kos petr orel tomáš,3
+kos petr orel tomáš goláň,3
+petr orel tomáš goláň přemysl,3
+orel tomáš goláň přemysl rabas,3
+žalobu prezidenta hrubé porušení ústavy,3
+žádnou koláž emmou smetana nevyrobím,2
+koláž emmou smetana nevyrobím nepoužiju,2
+emmou smetana nevyrobím nepoužiju přemýšleli,2
+jádro dominantní zdroj vůbec nediskutujme,2
+dominantní zdroj vůbec nediskutujme mohlo,2
+zdroj vůbec nediskutujme mohlo jinak,2
+vůbec nediskutujme mohlo jinak říká,2
+nediskutujme mohlo jinak říká budoucí,2
+mohlo jinak říká budoucí ministr,2
+jinak říká budoucí ministr průmyslu,2
+říká budoucí ministr průmyslu karel,2
+budoucí ministr průmyslu karel havlíček,2
+pán pohledu žádný terorista zoufalý,2
+pohledu žádný terorista zoufalý člověk,2
+žádný terorista zoufalý člověk nevěděl,2
+terorista zoufalý člověk nevěděl ochránit,2
+zoufalý člověk nevěděl ochránit naši,2
+člověk nevěděl ochránit naši zemi,2
+ženy děti názor spd důchodce,2
+děti názor spd důchodce kácejícího,2
+názor spd důchodce kácejícího stromy,2
+spd důchodce kácejícího stromy koleje,2
+důchodce kácejícího stromy koleje takže,2
+kácejícího stromy koleje takže podle,2
+stromy koleje takže podle spd,2
+koleje takže podle spd ochráníte,2
+takže podle spd ochráníte naše,2
+podle spd ochráníte naše ženy,2
+spd ochráníte naše ženy děti,2
+ochráníte naše ženy děti pár,2
+naše ženy děti pár našich,2
+ženy děti pár našich žen,2
+děti pár našich žen dětí,2
+pár našich žen dětí zabijete,2
+lidi buďte trochu soudní vzkazy,2
+buďte trochu soudní vzkazy rozbijete,2
+trochu soudní vzkazy rozbijete hubu,2
+soudní vzkazy rozbijete hubu mě,2
+vzkazy rozbijete hubu mě potkáte,2
+rozbijete hubu mě potkáte akceptuji,2
+hubu mě potkáte akceptuji nicméně,2
+mě potkáte akceptuji nicméně požadavek,2
+potkáte akceptuji nicméně požadavek abych,2
+akceptuji nicméně požadavek abych přijel,2
+nicméně požadavek abych přijel znojma,2
+požadavek abych přijel znojma abyste,2
+abych přijel znojma abyste mohli,2
+přijel znojma abyste mohli rozbít,2
+znojma abyste mohli rozbít hubu,2
+abyste mohli rozbít hubu přijde,2
+mohli rozbít hubu přijde přes,2
+rozbít hubu přijde přes čáru,2
+hubu přijde přes čáru snad,2
+přijde přes čáru snad uděláte,2
+přes čáru snad uděláte čas,2

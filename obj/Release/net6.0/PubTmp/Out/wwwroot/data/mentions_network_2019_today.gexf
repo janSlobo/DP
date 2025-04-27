@@ -1,0 +1,1081 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-24">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="vlastimil-valek" label="vlastimil-valek" />
+      <node id="miroslav-kalousek" label="miroslav-kalousek" />
+      <node id="tomio-okamura" label="tomio-okamura" />
+      <node id="david-rath" label="david-rath" />
+      <node id="milos-vystrcil" label="milos-vystrcil" />
+      <node id="jaromir-soukup" label="jaromir-soukup" />
+      <node id="andrej-babis" label="andrej-babis" />
+      <node id="tomas-petricek" label="tomas-petricek" />
+      <node id="petr-fiala" label="petr-fiala" />
+      <node id="ivan-david" label="ivan-david" />
+      <node id="milos-zeman" label="milos-zeman" />
+      <node id="jan-zahradil" label="jan-zahradil" />
+      <node id="martin-kolovratnik" label="martin-kolovratnik" />
+      <node id="jan-farsky" label="jan-farsky" />
+      <node id="vit-rakusan" label="vit-rakusan" />
+      <node id="vladimir-kremlik" label="vladimir-kremlik" />
+      <node id="klara-dostalova" label="klara-dostalova" />
+      <node id="stanislav-polcak" label="stanislav-polcak" />
+      <node id="vera-jourova" label="vera-jourova" />
+      <node id="milan-uhde" label="milan-uhde" />
+      <node id="marketa-adamova" label="marketa-adamova" />
+      <node id="jaroslav-faltynek" label="jaroslav-faltynek" />
+      <node id="jitka-volfova" label="jitka-volfova" />
+      <node id="jiri-dienstbier" label="jiri-dienstbier" />
+      <node id="jiri-ruzicka" label="jiri-ruzicka" />
+      <node id="jan-hrncir" label="jan-hrncir" />
+      <node id="michael-kocab" label="michael-kocab" />
+      <node id="jakub-michalek" label="jakub-michalek" />
+      <node id="michal-hasek" label="michal-hasek" />
+      <node id="zdenek-hrib" label="zdenek-hrib" />
+      <node id="petr-hlubucek" label="petr-hlubucek" />
+      <node id="lubomir-zaoralek" label="lubomir-zaoralek" />
+      <node id="alena-schillerova" label="alena-schillerova" />
+      <node id="jan-hamacek" label="jan-hamacek" />
+      <node id="jan-chvojka" label="jan-chvojka" />
+      <node id="jana-vildumetzova" label="jana-vildumetzova" />
+      <node id="jaroslav-bradac" label="jaroslav-bradac" />
+      <node id="karel-schwarzenberg" label="karel-schwarzenberg" />
+      <node id="mirek-topolanek" label="mirek-topolanek" />
+      <node id="vaclav-havel" label="vaclav-havel" />
+      <node id="miroslav-poche" label="miroslav-poche" />
+      <node id="vaclav-laska" label="vaclav-laska" />
+      <node id="jaroslav-kubera" label="jaroslav-kubera" />
+      <node id="jaroslav-horak" label="jaroslav-horak" />
+      <node id="milos-babis" label="milos-babis" />
+      <node id="petr-dvorak" label="petr-dvorak" />
+      <node id="ivan-bartos" label="ivan-bartos" />
+      <node id="martin-kupka" label="martin-kupka" />
+      <node id="zdenek-zajicek" label="zdenek-zajicek" />
+      <node id="tomas-jan-podivinsky" label="tomas-jan-podivinsky" />
+      <node id="richard-brabec" label="richard-brabec" />
+      <node id="petr-hladik" label="petr-hladik" />
+      <node id="jan-skacel" label="jan-skacel" />
+      <node id="herbert-pavera" label="herbert-pavera" />
+      <node id="vaclav-klaus" label="vaclav-klaus" />
+      <node id="jan-maly" label="jan-maly" />
+      <node id="jaroslav-maly" label="jaroslav-maly" />
+      <node id="josef-maly" label="josef-maly" />
+      <node id="milos-maly" label="milos-maly" />
+      <node id="radim-fiala" label="radim-fiala" />
+      <node id="tatana-mala" label="tatana-mala" />
+      <node id="radek-holomcik" label="radek-holomcik" />
+      <node id="jiri-kobza" label="jiri-kobza" />
+      <node id="jan-birke" label="jan-birke" />
+      <node id="milan-chovanec" label="milan-chovanec" />
+      <node id="antonin-stanek" label="antonin-stanek" />
+      <node id="pavel-stanek" label="pavel-stanek" />
+      <node id="radek-vondracek" label="radek-vondracek" />
+      <node id="adam-vojtech" label="adam-vojtech" />
+      <node id="katerina-valachova" label="katerina-valachova" />
+      <node id="tomas-zdechovsky" label="tomas-zdechovsky" />
+      <node id="jan-volny" label="jan-volny" />
+      <node id="jaromir-volny" label="jaromir-volny" />
+      <node id="lubomir-volny" label="lubomir-volny" />
+      <node id="milan-hnilicka" label="milan-hnilicka" />
+      <node id="sarka-jelinkova" label="sarka-jelinkova" />
+      <node id="ivo-slavotinek" label="ivo-slavotinek" />
+      <node id="marek-vyborny" label="marek-vyborny" />
+      <node id="jan-bauer" label="jan-bauer" />
+      <node id="jaroslav-bauer" label="jaroslav-bauer" />
+      <node id="lucie--safrankova" label="lucie--safrankova" />
+      <node id="jiri-pospisil" label="jiri-pospisil" />
+      <node id="oliver-pospisil" label="oliver-pospisil" />
+      <node id="tomas-czernin" label="tomas-czernin" />
+      <node id="emilie-triskova" label="emilie-triskova" />
+      <node id="milan-pour" label="milan-pour" />
+      <node id="ondrej-kolar" label="ondrej-kolar" />
+      <node id="alexandra-udzenija" label="alexandra-udzenija" />
+      <node id="ladislav-oklestek" label="ladislav-oklestek" />
+      <node id="jiri-paroubek" label="jiri-paroubek" />
+      <node id="olga-sehnalova" label="olga-sehnalova" />
+      <node id="pavel-svoboda" label="pavel-svoboda" />
+      <node id="pavel-belobradek" label="pavel-belobradek" />
+      <node id="dana-balcarova" label="dana-balcarova" />
+      <node id="miloslav-rozner" label="miloslav-rozner" />
+      <node id="ladislav-chlupac" label="ladislav-chlupac" />
+      <node id="milos-krcmar" label="milos-krcmar" />
+      <node id="mikulas-ferjencik" label="mikulas-ferjencik" />
+      <node id="radek-rozvoral" label="radek-rozvoral" />
+      <node id="petr-necas" label="petr-necas" />
+      <node id="jiri-cunek" label="jiri-cunek" />
+      <node id="miroslav-toman" label="miroslav-toman" />
+      <node id="radovan-vich" label="radovan-vich" />
+      <node id="jiri-mihola" label="jiri-mihola" />
+      <node id="pavel-jelinek" label="pavel-jelinek" />
+      <node id="jan-cizinsky" label="jan-cizinsky" />
+      <node id="jakub-janda" label="jakub-janda" />
+      <node id="petr-kolar" label="petr-kolar" />
+      <node id="stanislav-kovar" label="stanislav-kovar" />
+      <node id="vladimir-franz" label="vladimir-franz" />
+      <node id="benjamin-kuras" label="benjamin-kuras" />
+      <node id="klara-samkova" label="klara-samkova" />
+      <node id="martin-konvicka" label="martin-konvicka" />
+      <node id="anna-hubackova" label="anna-hubackova" />
+      <node id="ludek-niedermayer" label="ludek-niedermayer" />
+      <node id="daniel-herman" label="daniel-herman" />
+      <node id="jakub-kraus" label="jakub-kraus" />
+      <node id="michal-kraus" label="michal-kraus" />
+      <node id="petr-kraus" label="petr-kraus" />
+      <node id="marie-benesova" label="marie-benesova" />
+      <node id="patrik-nacher" label="patrik-nacher" />
+      <node id="roman-pekarek" label="roman-pekarek" />
+      <node id="marta-kubisova" label="marta-kubisova" />
+      <node id="josef-lux" label="josef-lux" />
+      <node id="stanislav-blaha" label="stanislav-blaha" />
+      <node id="jan-jarolim" label="jan-jarolim" />
+      <node id="jan-bartosek" label="jan-bartosek" />
+      <node id="karel-urbanek" label="karel-urbanek" />
+      <node id="petr-urbanek" label="petr-urbanek" />
+      <node id="jan-klas" label="jan-klas" />
+      <node id="jana-malacova" label="jana-malacova" />
+      <node id="zdenek-podal" label="zdenek-podal" />
+      <node id="monika-jarosova" label="monika-jarosova" />
+      <node id="miloslava-vostra" label="miloslava-vostra" />
+      <node id="vojtech-filip" label="vojtech-filip" />
+      <node id="martina-dlabajova" label="martina-dlabajova" />
+      <node id="pavel-poc" label="pavel-poc" />
+      <node id="dita-charanzova" label="dita-charanzova" />
+      <node id="jan-keller" label="jan-keller" />
+      <node id="jaromir-kohlicek" label="jaromir-kohlicek" />
+      <node id="jaromir-stetina" label="jaromir-stetina" />
+      <node id="jiri-mastalka" label="jiri-mastalka" />
+      <node id="katerina-konecna" label="katerina-konecna" />
+      <node id="michaela-sojdrova" label="michaela-sojdrova" />
+      <node id="pavel-telicka" label="pavel-telicka" />
+      <node id="petr-jezek" label="petr-jezek" />
+      <node id="viktor-dyk" label="viktor-dyk" />
+      <node id="vaclav-krasa" label="vaclav-krasa" />
+      <node id="jan-nemec" label="jan-nemec" />
+      <node id="petr-silar" label="petr-silar" />
+      <node id="helena-valkova" label="helena-valkova" />
+      <node id="vojtech-pikal" label="vojtech-pikal" />
+      <node id="jaroslav-foldyna" label="jaroslav-foldyna" />
+      <node id="ivo-vondrak" label="ivo-vondrak" />
+      <node id="david-stolpa" label="david-stolpa" />
+      <node id="marta-novakova" label="marta-novakova" />
+      <node id="olga-richterova" label="olga-richterova" />
+      <node id="alexandr-novak" label="alexandr-novak" />
+      <node id="frantisek-novak" label="frantisek-novak" />
+      <node id="jan-novak" label="jan-novak" />
+      <node id="jaromir-novak" label="jaromir-novak" />
+      <node id="jaroslav-novak-vecernicek" label="jaroslav-novak-vecernicek" />
+      <node id="jiri-novak" label="jiri-novak" />
+      <node id="josef-novak" label="josef-novak" />
+      <node id="libor-novak" label="libor-novak" />
+      <node id="miroslav-novak" label="miroslav-novak" />
+      <node id="pavel-novak" label="pavel-novak" />
+      <node id="andrej-kiska" label="andrej-kiska" />
+      <node id="martin-puta" label="martin-puta" />
+      <node id="daniela-kovarova" label="daniela-kovarova" />
+      <node id="dalibor-zeleny" label="dalibor-zeleny" />
+      <node id="pavel-rychetsky" label="pavel-rychetsky" />
+      <node id="alexander-dubcek" label="alexander-dubcek" />
+      <node id="zdenek-koudelka" label="zdenek-koudelka" />
+      <node id="jaroslava-pokorna-jermanova" label="jaroslava-pokorna-jermanova" />
+      <node id="lubomir-metnar" label="lubomir-metnar" />
+      <node id="milos-petera" label="milos-petera" />
+      <node id="dominik-feri" label="dominik-feri" />
+      <node id="marketa-pekarova-adamova" label="marketa-pekarova-adamova" />
+      <node id="zdenek-ondracek" label="zdenek-ondracek" />
+      <node id="robert-kerndl" label="robert-kerndl" />
+      <node id="josef-bernard" label="josef-bernard" />
+      <node id="jaroslava-nemcova" label="jaroslava-nemcova" />
+      <node id="miroslava-nemcova" label="miroslava-nemcova" />
+      <node id="tereza-hythova" label="tereza-hythova" />
+      <node id="petr-rafaj" label="petr-rafaj" />
+      <node id="vladimir-remek" label="vladimir-remek" />
+      <node id="jana-pastuchova" label="jana-pastuchova" />
+      <node id="lenka-drazilova" label="lenka-drazilova" />
+      <node id="michal-frankl" label="michal-frankl" />
+      <node id="ph.d.-zdenek" label="ph.d.-zdenek" />
+      <node id="jiri-behounek" label="jiri-behounek" />
+      <node id="pavel-bratinka" label="pavel-bratinka" />
+      <node id="frantisek-lukl" label="frantisek-lukl" />
+      <node id="dusan-navratil" label="dusan-navratil" />
+      <node id="pavel-kordik" label="pavel-kordik" />
+      <node id="zdenek-mach" label="zdenek-mach" />
+      <node id="hynek-kmonicek" label="hynek-kmonicek" />
+      <node id="martin-stropnicky" label="martin-stropnicky" />
+      <node id="petr-kajnar" label="petr-kajnar" />
+      <node id="mikulas-peksa" label="mikulas-peksa" />
+      <node id="pavel-kovacik" label="pavel-kovacik" />
+      <node id="jiri-oberfalzer" label="jiri-oberfalzer" />
+      <node id="raduan-nwelati" label="raduan-nwelati" />
+      <node id="petr-hromek" label="petr-hromek" />
+      <node id="jan-foldyna" label="jan-foldyna" />
+      <node id="pavel-fischer" label="pavel-fischer" />
+      <node id="evzen-tosenovsky" label="evzen-tosenovsky" />
+      <node id="daniel-rychnovsky" label="daniel-rychnovsky" />
+      <node id="frantisek-mares" label="frantisek-mares" />
+      <node id="milan-richter" label="milan-richter" />
+      <node id="petr-mares" label="petr-mares" />
+      <node id="matej-stropnicky" label="matej-stropnicky" />
+      <node id="robert-pelikan" label="robert-pelikan" />
+      <node id="dalibor-blazek" label="dalibor-blazek" />
+      <node id="vladimir-novotny" label="vladimir-novotny" />
+      <node id="jiri-dusek" label="jiri-dusek" />
+      <node id="milous-jakes" label="milous-jakes" />
+      <node id="dan-tok" label="dan-tok" />
+      <node id="karla-slechtova" label="karla-slechtova" />
+      <node id="jiri-svoboda" label="jiri-svoboda" />
+      <node id="robert-plaga" label="robert-plaga" />
+      <node id="pavel-nalezeny" label="pavel-nalezeny" />
+      <node id="martin-baxa" label="martin-baxa" />
+      <node id="roman-onderka" label="roman-onderka" />
+      <node id="frantisek-nesetril" label="frantisek-nesetril" />
+      <node id="jiri-pehe" label="jiri-pehe" />
+      <node id="michael-zantovsky" label="michael-zantovsky" />
+      <node id="martin-vitu" label="martin-vitu" />
+      <node id="jiri-sedivy" label="jiri-sedivy" />
+      <node id="michaela-marksova-tominova" label="michaela-marksova-tominova" />
+      <node id="daniel-korte" label="daniel-korte" />
+      <node id="jan-jakob" label="jan-jakob" />
+      <node id="marcel-kolaja" label="marcel-kolaja" />
+      <node id="petr-holecek" label="petr-holecek" />
+      <node id="zbynek-linhart" label="zbynek-linhart" />
+      <node id="frantisek-vacha" label="frantisek-vacha" />
+      <node id="alena-gajduskova" label="alena-gajduskova" />
+      <node id="ivo-svoboda" label="ivo-svoboda" />
+      <node id="jaroslav-palas" label="jaroslav-palas" />
+      <node id="petr-zgarba" label="petr-zgarba" />
+      <node id="stanislav-gross" label="stanislav-gross" />
+      <node id="vladimir-dlouhy" label="vladimir-dlouhy" />
+      <node id="roman-sklenak" label="roman-sklenak" />
+      <node id="tomas-macura" label="tomas-macura" />
+      <node id="alexandr-vondra" label="alexandr-vondra" />
+      <node id="barbora-koranova" label="barbora-koranova" />
+      <node id="lukas-otys" label="lukas-otys" />
+      <node id="jan-zahradnicek" label="jan-zahradnicek" />
+      <node id="jaroslav-zverina" label="jaroslav-zverina" />
+      <node id="jaroslav-tvrdik" label="jaroslav-tvrdik" />
+      <node id="jan-lipavsky" label="jan-lipavsky" />
+      <node id="jiri-hynek" label="jiri-hynek" />
+      <node id="marek-benda" label="marek-benda" />
+      <node id="pavel-zacek" label="pavel-zacek" />
+      <node id="eduard-zeman" label="eduard-zeman" />
+      <node id="vladimir-spidla" label="vladimir-spidla" />
+      <node id="ivan-langer" label="ivan-langer" />
+      <node id="zbynek-stanjura" label="zbynek-stanjura" />
+      <node id="vera-prochazkova" label="vera-prochazkova" />
+      <node id="vit-kankovsky" label="vit-kankovsky" />
+      <node id="jiri-janecek" label="jiri-janecek" />
+      <node id="josef-janecek" label="josef-janecek" />
+      <node id="karel-janecek" label="karel-janecek" />
+      <node id="milos-janecek" label="milos-janecek" />
+      <node id="jan-michalek" label="jan-michalek" />
+      <node id="libor-michalek" label="libor-michalek" />
+      <node id="bohuslav-sobotka" label="bohuslav-sobotka" />
+      <node id="marian-jurecka" label="marian-jurecka" />
+      <node id="svatopluk-nemecek" label="svatopluk-nemecek" />
+      <node id="roman-cely" label="roman-cely" />
+      <node id="karolina-peake" label="karolina-peake" />
+      <node id="michal-pilar" label="michal-pilar" />
+      <node id="daniel-hodek" label="daniel-hodek" />
+      <node id="jiri-zimola" label="jiri-zimola" />
+      <node id="petr-podhola" label="petr-podhola" />
+      <node id="zdenek-skromach" label="zdenek-skromach" />
+      <node id="radek-koten" label="radek-koten" />
+      <node id="zdenek-juracka" label="zdenek-juracka" />
+      <node id="jan-kostrhun" label="jan-kostrhun" />
+      <node id="vojtech-munzar" label="vojtech-munzar" />
+      <node id="ilona-svihlikova" label="ilona-svihlikova" />
+      <node id="jiri-stepan" label="jiri-stepan" />
+      <node id="miroslav-stepan" label="miroslav-stepan" />
+      <node id="jiri-vitek" label="jiri-vitek" />
+      <node id="marek-cernoch" label="marek-cernoch" />
+      <node id="david-prazak" label="david-prazak" />
+      <node id="petr-dolinek" label="petr-dolinek" />
+      <node id="ivo-vasicek" label="ivo-vasicek" />
+      <node id="marketa-gregorova" label="marketa-gregorova" />
+      <node id="ondrej-polansky" label="ondrej-polansky" />
+      <node id="ivo-valenta" label="ivo-valenta" />
+      <node id="rudolf-salvetr" label="rudolf-salvetr" />
+      <node id="jaroslava-jermanova" label="jaroslava-jermanova" />
+      <node id="margita-balastikova" label="margita-balastikova" />
+      <node id="ondrej-vesely" label="ondrej-vesely" />
+      <node id="pavel-hubeny" label="pavel-hubeny" />
+      <node id="lubos-novy" label="lubos-novy" />
+      <node id="monika-oborna" label="monika-oborna" />
+      <node id="renata-chmelova" label="renata-chmelova" />
+      <node id="petr-wolf" label="petr-wolf" />
+      <node id="vit-nemecek" label="vit-nemecek" />
+      <node id="ludvik-hovorka" label="ludvik-hovorka" />
+      <node id="jana-fischerova" label="jana-fischerova" />
+      <node id="libor-lukas" label="libor-lukas" />
+      <node id="venceslav-lukas" label="venceslav-lukas" />
+      <node id="karla-marikova" label="karla-marikova" />
+      <node id="lubomir-chudoba" label="lubomir-chudoba" />
+      <node id="jan-masaryk" label="jan-masaryk" />
+      <node id="pavel-tigrid" label="pavel-tigrid" />
+      <node id="stanislav-nemec" label="stanislav-nemec" />
+      <node id="radim-srsen" label="radim-srsen" />
+      <node id="veronika-vrecionova" label="veronika-vrecionova" />
+      <node id="marta-semelova" label="marta-semelova" />
+      <node id="petr-simunek" label="petr-simunek" />
+      <node id="petr-cibulka" label="petr-cibulka" />
+      <node id="petr-bursik" label="petr-bursik" />
+      <node id="vit-barta" label="vit-barta" />
+      <node id="stanislav-grospic" label="stanislav-grospic" />
+      <node id="albert-cerny" label="albert-cerny" />
+      <node id="alexander-cerny" label="alexander-cerny" />
+      <node id="karel-cerny" label="karel-cerny" />
+      <node id="petr-cerny" label="petr-cerny" />
+      <node id="jan-rakusan" label="jan-rakusan" />
+      <node id="jiri-kulhanek" label="jiri-kulhanek" />
+      <node id="jitka-synkova" label="jitka-synkova" />
+      <node id="bohdan-dvorak" label="bohdan-dvorak" />
+      <node id="filip-dvorak" label="filip-dvorak" />
+      <node id="jaroslav-dvorak" label="jaroslav-dvorak" />
+      <node id="jindrich-dvorak" label="jindrich-dvorak" />
+      <node id="josef-dvorak" label="josef-dvorak" />
+      <node id="lubomir-spanel" label="lubomir-spanel" />
+      <node id="lubos-dvorak" label="lubos-dvorak" />
+      <node id="martin-dvorak" label="martin-dvorak" />
+      <node id="michal-dvorak" label="michal-dvorak" />
+      <node id="nora-dvorak" label="nora-dvorak" />
+      <node id="jiri-dort" label="jiri-dort" />
+      <node id="miloslav-janulik" label="miloslav-janulik" />
+      <node id="petr-sadovsky" label="petr-sadovsky" />
+      <node id="roman-hanak" label="roman-hanak" />
+      <node id="radka-maxova" label="radka-maxova" />
+      <node id="jiri-vorlicek" label="jiri-vorlicek" />
+      <node id="zdenek-vorlicek" label="zdenek-vorlicek" />
+      <node id="ivan-pilip" label="ivan-pilip" />
+      <node id="marian-bojko" label="marian-bojko" />
+      <node id="ludek-sefzig" label="ludek-sefzig" />
+      <node id="jiri-hanus" label="jiri-hanus" />
+      <node id="jana-cernochova" label="jana-cernochova" />
+      <node id="jiri-havlicek" label="jiri-havlicek" />
+      <node id="frantisek-bublan" label="frantisek-bublan" />
+      <node id="milan-simonovsky" label="milan-simonovsky" />
+      <node id="dan-ramzer" label="dan-ramzer" />
+      <node id="simon-heller" label="simon-heller" />
+      <node id="miluse-horska" label="miluse-horska" />
+      <node id="jitka-seitlova" label="jitka-seitlova" />
+      <node id="adriana-krnacova" label="adriana-krnacova" />
+      <node id="hana-marvanova" label="hana-marvanova" />
+      <node id="michal-stehlik" label="michal-stehlik" />
+      <node id="ivan-havlicek" label="ivan-havlicek" />
+      <node id="pavel-antonin" label="pavel-antonin" />
+      <node id="tomas-havlicek" label="tomas-havlicek" />
+      <node id="michal-babak" label="michal-babak" />
+      <node id="filip-zacek" label="filip-zacek" />
+      <node id="frantisek-blaha" label="frantisek-blaha" />
+      <node id="jan-blaha" label="jan-blaha" />
+      <node id="jiri-blaha" label="jiri-blaha" />
+      <node id="ivo-rittig" label="ivo-rittig" />
+      <node id="josef-vicha" label="josef-vicha" />
+      <node id="roman-smucler" label="roman-smucler" />
+    </nodes>
+    <edges>
+      <edge source="vlastimil-valek" target="miroslav-kalousek" id="0" weight="3.0" />
+      <edge source="vlastimil-valek" target="katerina-valachova" id="1" weight="1.0" />
+      <edge source="vlastimil-valek" target="ludek-niedermayer" id="2" weight="2.0" />
+      <edge source="vlastimil-valek" target="marta-kubisova" id="3" weight="2.0" />
+      <edge source="vlastimil-valek" target="jan-volny" id="4" weight="1.0" />
+      <edge source="vlastimil-valek" target="jaromir-volny" id="5" weight="1.0" />
+      <edge source="vlastimil-valek" target="lubomir-volny" id="6" weight="1.0" />
+      <edge source="vlastimil-valek" target="frantisek-vacha" id="7" weight="1.0" />
+      <edge source="vlastimil-valek" target="vaclav-havel" id="8" weight="1.0" />
+      <edge source="vlastimil-valek" target="roman-sklenak" id="9" weight="1.0" />
+      <edge source="vlastimil-valek" target="andrej-babis" id="10" weight="2.0" />
+      <edge source="vlastimil-valek" target="jan-foldyna" id="11" weight="1.0" />
+      <edge source="vlastimil-valek" target="jaroslav-foldyna" id="12" weight="1.0" />
+      <edge source="vlastimil-valek" target="jan-masaryk" id="13" weight="1.0" />
+      <edge source="vlastimil-valek" target="pavel-tigrid" id="14" weight="1.0" />
+      <edge source="vlastimil-valek" target="marta-semelova" id="15" weight="1.0" />
+      <edge source="vlastimil-valek" target="petr-simunek" id="16" weight="1.0" />
+      <edge source="vlastimil-valek" target="mikulas-ferjencik" id="17" weight="1.0" />
+      <edge source="vlastimil-valek" target="radek-holomcik" id="18" weight="1.0" />
+      <edge source="vlastimil-valek" target="tomas-czernin" id="19" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jan-zahradil" id="20" weight="1.0" />
+      <edge source="miroslav-kalousek" target="milos-zeman" id="21" weight="8.0" />
+      <edge source="miroslav-kalousek" target="andrej-babis" id="22" weight="16.0" />
+      <edge source="miroslav-kalousek" target="karel-schwarzenberg" id="23" weight="4.0" />
+      <edge source="miroslav-kalousek" target="mirek-topolanek" id="24" weight="1.0" />
+      <edge source="miroslav-kalousek" target="milos-krcmar" id="25" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jaromir-soukup" id="26" weight="4.0" />
+      <edge source="miroslav-kalousek" target="vaclav-havel" id="27" weight="3.0" />
+      <edge source="miroslav-kalousek" target="vaclav-klaus" id="28" weight="1.0" />
+      <edge source="miroslav-kalousek" target="marie-benesova" id="29" weight="3.0" />
+      <edge source="miroslav-kalousek" target="jana-malacova" id="30" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jan-hamacek" id="31" weight="4.0" />
+      <edge source="miroslav-kalousek" target="vit-rakusan" id="32" weight="1.0" />
+      <edge source="miroslav-kalousek" target="ivan-bartos" id="33" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jaroslav-faltynek" id="34" weight="1.0" />
+      <edge source="miroslav-kalousek" target="tomas-czernin" id="35" weight="11.0" />
+      <edge source="miroslav-kalousek" target="dominik-feri" id="36" weight="1.0" />
+      <edge source="miroslav-kalousek" target="marketa-pekarova-adamova" id="37" weight="2.0" />
+      <edge source="miroslav-kalousek" target="alena-schillerova" id="38" weight="8.0" />
+      <edge source="miroslav-kalousek" target="michael-kocab" id="39" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jiri-kobza" id="40" weight="1.0" />
+      <edge source="miroslav-kalousek" target="katerina-konecna" id="41" weight="1.0" />
+      <edge source="miroslav-kalousek" target="pavel-fischer" id="42" weight="1.0" />
+      <edge source="miroslav-kalousek" target="lubomir-zaoralek" id="43" weight="1.0" />
+      <edge source="miroslav-kalousek" target="frantisek-nesetril" id="44" weight="1.0" />
+      <edge source="miroslav-kalousek" target="ludek-niedermayer" id="45" weight="6.0" />
+      <edge source="miroslav-kalousek" target="milos-babis" id="46" weight="1.0" />
+      <edge source="miroslav-kalousek" target="alena-gajduskova" id="47" weight="1.0" />
+      <edge source="miroslav-kalousek" target="radek-vondracek" id="48" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jaroslav-zverina" id="49" weight="1.0" />
+      <edge source="miroslav-kalousek" target="marek-vyborny" id="50" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jiri-janecek" id="51" weight="1.0" />
+      <edge source="miroslav-kalousek" target="josef-janecek" id="52" weight="1.0" />
+      <edge source="miroslav-kalousek" target="karel-janecek" id="53" weight="1.0" />
+      <edge source="miroslav-kalousek" target="milos-janecek" id="54" weight="1.0" />
+      <edge source="miroslav-kalousek" target="petr-necas" id="55" weight="1.0" />
+      <edge source="miroslav-kalousek" target="martin-stropnicky" id="56" weight="1.0" />
+      <edge source="miroslav-kalousek" target="jiri-pospisil" id="57" weight="2.0" />
+      <edge source="miroslav-kalousek" target="stanislav-polcak" id="58" weight="1.0" />
+      <edge source="miroslav-kalousek" target="tomio-okamura" id="59" weight="1.0" />
+      <edge source="miroslav-kalousek" target="ivan-pilip" id="60" weight="1.0" />
+      <edge source="miroslav-kalousek" target="tomas-petricek" id="61" weight="1.0" />
+      <edge source="miroslav-kalousek" target="zdenek-ondracek" id="62" weight="1.0" />
+      <edge source="tomio-okamura" target="david-rath" id="63" weight="5.0" />
+      <edge source="tomio-okamura" target="andrej-babis" id="64" weight="119.0" />
+      <edge source="tomio-okamura" target="tomas-petricek" id="65" weight="9.0" />
+      <edge source="tomio-okamura" target="ivan-david" id="66" weight="67.0" />
+      <edge source="tomio-okamura" target="milos-zeman" id="67" weight="46.0" />
+      <edge source="tomio-okamura" target="martin-kolovratnik" id="68" weight="4.0" />
+      <edge source="tomio-okamura" target="stanislav-polcak" id="69" weight="6.0" />
+      <edge source="tomio-okamura" target="vera-jourova" id="70" weight="7.0" />
+      <edge source="tomio-okamura" target="jan-hrncir" id="71" weight="31.0" />
+      <edge source="tomio-okamura" target="lubomir-zaoralek" id="72" weight="4.0" />
+      <edge source="tomio-okamura" target="jan-hamacek" id="73" weight="58.0" />
+      <edge source="tomio-okamura" target="jan-chvojka" id="74" weight="3.0" />
+      <edge source="tomio-okamura" target="karel-schwarzenberg" id="75" weight="13.0" />
+      <edge source="tomio-okamura" target="mirek-topolanek" id="76" weight="4.0" />
+      <edge source="tomio-okamura" target="vaclav-havel" id="77" weight="13.0" />
+      <edge source="tomio-okamura" target="michal-hasek" id="78" weight="2.0" />
+      <edge source="tomio-okamura" target="miroslav-poche" id="79" weight="6.0" />
+      <edge source="tomio-okamura" target="vaclav-laska" id="80" weight="2.0" />
+      <edge source="tomio-okamura" target="jaroslav-horak" id="81" weight="25.0" />
+      <edge source="tomio-okamura" target="milos-babis" id="82" weight="7.0" />
+      <edge source="tomio-okamura" target="petr-dvorak" id="83" weight="16.0" />
+      <edge source="tomio-okamura" target="ivan-bartos" id="84" weight="12.0" />
+      <edge source="tomio-okamura" target="jan-maly" id="85" weight="1.0" />
+      <edge source="tomio-okamura" target="jaroslav-maly" id="86" weight="1.0" />
+      <edge source="tomio-okamura" target="josef-maly" id="87" weight="1.0" />
+      <edge source="tomio-okamura" target="milos-maly" id="88" weight="1.0" />
+      <edge source="tomio-okamura" target="radim-fiala" id="89" weight="10.0" />
+      <edge source="tomio-okamura" target="tatana-mala" id="90" weight="1.0" />
+      <edge source="tomio-okamura" target="jiri-kobza" id="91" weight="7.0" />
+      <edge source="tomio-okamura" target="jan-birke" id="92" weight="1.0" />
+      <edge source="tomio-okamura" target="milan-chovanec" id="93" weight="2.0" />
+      <edge source="tomio-okamura" target="antonin-stanek" id="94" weight="5.0" />
+      <edge source="tomio-okamura" target="pavel-stanek" id="95" weight="3.0" />
+      <edge source="tomio-okamura" target="tomas-zdechovsky" id="96" weight="5.0" />
+      <edge source="tomio-okamura" target="jan-bauer" id="97" weight="3.0" />
+      <edge source="tomio-okamura" target="jaroslav-bauer" id="98" weight="3.0" />
+      <edge source="tomio-okamura" target="lucie--safrankova" id="99" weight="12.0" />
+      <edge source="tomio-okamura" target="jan-farsky" id="100" weight="3.0" />
+      <edge source="tomio-okamura" target="ondrej-kolar" id="101" weight="8.0" />
+      <edge source="tomio-okamura" target="jaromir-soukup" id="102" weight="12.0" />
+      <edge source="tomio-okamura" target="mikulas-ferjencik" id="103" weight="2.0" />
+      <edge source="tomio-okamura" target="miroslav-kalousek" id="104" weight="14.0" />
+      <edge source="tomio-okamura" target="jan-cizinsky" id="105" weight="1.0" />
+      <edge source="tomio-okamura" target="jakub-janda" id="106" weight="3.0" />
+      <edge source="tomio-okamura" target="petr-kolar" id="107" weight="1.0" />
+      <edge source="tomio-okamura" target="vaclav-klaus" id="108" weight="15.0" />
+      <edge source="tomio-okamura" target="vladimir-franz" id="109" weight="3.0" />
+      <edge source="tomio-okamura" target="benjamin-kuras" id="110" weight="2.0" />
+      <edge source="tomio-okamura" target="klara-samkova" id="111" weight="3.0" />
+      <edge source="tomio-okamura" target="martin-konvicka" id="112" weight="1.0" />
+      <edge source="tomio-okamura" target="daniel-herman" id="113" weight="5.0" />
+      <edge source="tomio-okamura" target="miloslav-rozner" id="114" weight="2.0" />
+      <edge source="tomio-okamura" target="roman-pekarek" id="115" weight="1.0" />
+      <edge source="tomio-okamura" target="adam-vojtech" id="116" weight="4.0" />
+      <edge source="tomio-okamura" target="zdenek-podal" id="117" weight="1.0" />
+      <edge source="tomio-okamura" target="monika-jarosova" id="118" weight="2.0" />
+      <edge source="tomio-okamura" target="petr-fiala" id="119" weight="24.0" />
+      <edge source="tomio-okamura" target="dita-charanzova" id="120" weight="11.0" />
+      <edge source="tomio-okamura" target="jan-keller" id="121" weight="3.0" />
+      <edge source="tomio-okamura" target="jaromir-kohlicek" id="122" weight="3.0" />
+      <edge source="tomio-okamura" target="jaromir-stetina" id="123" weight="5.0" />
+      <edge source="tomio-okamura" target="jiri-mastalka" id="124" weight="3.0" />
+      <edge source="tomio-okamura" target="jiri-pospisil" id="125" weight="4.0" />
+      <edge source="tomio-okamura" target="katerina-konecna" id="126" weight="7.0" />
+      <edge source="tomio-okamura" target="ludek-niedermayer" id="127" weight="3.0" />
+      <edge source="tomio-okamura" target="martina-dlabajova" id="128" weight="9.0" />
+      <edge source="tomio-okamura" target="michaela-sojdrova" id="129" weight="3.0" />
+      <edge source="tomio-okamura" target="olga-sehnalova" id="130" weight="3.0" />
+      <edge source="tomio-okamura" target="pavel-svoboda" id="131" weight="4.0" />
+      <edge source="tomio-okamura" target="pavel-telicka" id="132" weight="10.0" />
+      <edge source="tomio-okamura" target="petr-jezek" id="133" weight="9.0" />
+      <edge source="tomio-okamura" target="viktor-dyk" id="134" weight="4.0" />
+      <edge source="tomio-okamura" target="jan-nemec" id="135" weight="1.0" />
+      <edge source="tomio-okamura" target="marta-kubisova" id="136" weight="1.0" />
+      <edge source="tomio-okamura" target="marie-benesova" id="137" weight="3.0" />
+      <edge source="tomio-okamura" target="helena-valkova" id="138" weight="4.0" />
+      <edge source="tomio-okamura" target="vojtech-pikal" id="139" weight="6.0" />
+      <edge source="tomio-okamura" target="jaroslav-foldyna" id="140" weight="3.0" />
+      <edge source="tomio-okamura" target="lubomir-volny" id="141" weight="8.0" />
+      <edge source="tomio-okamura" target="jan-volny" id="142" weight="5.0" />
+      <edge source="tomio-okamura" target="jaromir-volny" id="143" weight="5.0" />
+      <edge source="tomio-okamura" target="daniela-kovarova" id="144" weight="2.0" />
+      <edge source="tomio-okamura" target="zdenek-koudelka" id="145" weight="2.0" />
+      <edge source="tomio-okamura" target="josef-bernard" id="146" weight="1.0" />
+      <edge source="tomio-okamura" target="jaroslava-nemcova" id="147" weight="1.0" />
+      <edge source="tomio-okamura" target="miroslava-nemcova" id="148" weight="5.0" />
+      <edge source="tomio-okamura" target="tereza-hythova" id="149" weight="2.0" />
+      <edge source="tomio-okamura" target="alena-schillerova" id="150" weight="8.0" />
+      <edge source="tomio-okamura" target="dusan-navratil" id="151" weight="1.0" />
+      <edge source="tomio-okamura" target="ph.d.-zdenek" id="152" weight="2.0" />
+      <edge source="tomio-okamura" target="zdenek-ondracek" id="153" weight="1.0" />
+      <edge source="tomio-okamura" target="jakub-michalek" id="154" weight="4.0" />
+      <edge source="tomio-okamura" target="mikulas-peksa" id="155" weight="3.0" />
+      <edge source="tomio-okamura" target="lubomir-metnar" id="156" weight="2.0" />
+      <edge source="tomio-okamura" target="pavel-rychetsky" id="157" weight="2.0" />
+      <edge source="tomio-okamura" target="miroslav-toman" id="158" weight="3.0" />
+      <edge source="tomio-okamura" target="frantisek-mares" id="159" weight="1.0" />
+      <edge source="tomio-okamura" target="milan-richter" id="160" weight="1.0" />
+      <edge source="tomio-okamura" target="petr-mares" id="161" weight="1.0" />
+      <edge source="tomio-okamura" target="martin-stropnicky" id="162" weight="2.0" />
+      <edge source="tomio-okamura" target="matej-stropnicky" id="163" weight="1.0" />
+      <edge source="tomio-okamura" target="oliver-pospisil" id="164" weight="1.0" />
+      <edge source="tomio-okamura" target="robert-pelikan" id="165" weight="2.0" />
+      <edge source="tomio-okamura" target="milous-jakes" id="166" weight="1.0" />
+      <edge source="tomio-okamura" target="jaroslav-kubera" id="167" weight="2.0" />
+      <edge source="tomio-okamura" target="katerina-valachova" id="168" weight="4.0" />
+      <edge source="tomio-okamura" target="jan-zahradil" id="169" weight="3.0" />
+      <edge source="tomio-okamura" target="dan-tok" id="170" weight="4.0" />
+      <edge source="tomio-okamura" target="karla-slechtova" id="171" weight="1.0" />
+      <edge source="tomio-okamura" target="martin-baxa" id="172" weight="2.0" />
+      <edge source="tomio-okamura" target="jiri-pehe" id="173" weight="2.0" />
+      <edge source="tomio-okamura" target="michael-zantovsky" id="174" weight="1.0" />
+      <edge source="tomio-okamura" target="jiri-sedivy" id="175" weight="1.0" />
+      <edge source="tomio-okamura" target="michaela-marksova-tominova" id="176" weight="4.0" />
+      <edge source="tomio-okamura" target="daniel-korte" id="177" weight="3.0" />
+      <edge source="tomio-okamura" target="pavel-belobradek" id="178" weight="4.0" />
+      <edge source="tomio-okamura" target="pavel-jelinek" id="179" weight="3.0" />
+      <edge source="tomio-okamura" target="alena-gajduskova" id="180" weight="1.0" />
+      <edge source="tomio-okamura" target="ivo-svoboda" id="181" weight="4.0" />
+      <edge source="tomio-okamura" target="jaroslav-palas" id="182" weight="4.0" />
+      <edge source="tomio-okamura" target="jiri-paroubek" id="183" weight="4.0" />
+      <edge source="tomio-okamura" target="michal-kraus" id="184" weight="4.0" />
+      <edge source="tomio-okamura" target="petr-zgarba" id="185" weight="4.0" />
+      <edge source="tomio-okamura" target="stanislav-gross" id="186" weight="4.0" />
+      <edge source="tomio-okamura" target="jiri-hynek" id="187" weight="3.0" />
+      <edge source="tomio-okamura" target="petr-rafaj" id="188" weight="1.0" />
+      <edge source="tomio-okamura" target="eduard-zeman" id="189" weight="1.0" />
+      <edge source="tomio-okamura" target="vladimir-spidla" id="190" weight="1.0" />
+      <edge source="tomio-okamura" target="ivan-langer" id="191" weight="1.0" />
+      <edge source="tomio-okamura" target="zbynek-stanjura" id="192" weight="5.0" />
+      <edge source="tomio-okamura" target="vit-kankovsky" id="193" weight="2.0" />
+      <edge source="tomio-okamura" target="bohuslav-sobotka" id="194" weight="5.0" />
+      <edge source="tomio-okamura" target="vladimir-dlouhy" id="195" weight="1.0" />
+      <edge source="tomio-okamura" target="roman-cely" id="196" weight="1.0" />
+      <edge source="tomio-okamura" target="karolina-peake" id="197" weight="1.0" />
+      <edge source="tomio-okamura" target="petr-necas" id="198" weight="3.0" />
+      <edge source="tomio-okamura" target="radovan-vich" id="199" weight="2.0" />
+      <edge source="tomio-okamura" target="daniel-hodek" id="200" weight="3.0" />
+      <edge source="tomio-okamura" target="jiri-zimola" id="201" weight="3.0" />
+      <edge source="tomio-okamura" target="petr-podhola" id="202" weight="3.0" />
+      <edge source="tomio-okamura" target="jan-kostrhun" id="203" weight="1.0" />
+      <edge source="tomio-okamura" target="ilona-svihlikova" id="204" weight="1.0" />
+      <edge source="tomio-okamura" target="marek-cernoch" id="205" weight="1.0" />
+      <edge source="tomio-okamura" target="jiri-mihola" id="206" weight="2.0" />
+      <edge source="tomio-okamura" target="martin-kupka" id="207" weight="1.0" />
+      <edge source="tomio-okamura" target="petr-dolinek" id="208" weight="2.0" />
+      <edge source="tomio-okamura" target="ivo-vasicek" id="209" weight="1.0" />
+      <edge source="tomio-okamura" target="marcel-kolaja" id="210" weight="2.0" />
+      <edge source="tomio-okamura" target="marketa-gregorova" id="211" weight="2.0" />
+      <edge source="tomio-okamura" target="rudolf-salvetr" id="212" weight="1.0" />
+      <edge source="tomio-okamura" target="ondrej-vesely" id="213" weight="2.0" />
+      <edge source="tomio-okamura" target="svatopluk-nemecek" id="214" weight="1.0" />
+      <edge source="tomio-okamura" target="vit-nemecek" id="215" weight="1.0" />
+      <edge source="tomio-okamura" target="karla-marikova" id="216" weight="1.0" />
+      <edge source="tomio-okamura" target="bohdan-dvorak" id="217" weight="1.0" />
+      <edge source="tomio-okamura" target="filip-dvorak" id="218" weight="1.0" />
+      <edge source="tomio-okamura" target="jaroslav-dvorak" id="219" weight="1.0" />
+      <edge source="tomio-okamura" target="jindrich-dvorak" id="220" weight="1.0" />
+      <edge source="tomio-okamura" target="josef-dvorak" id="221" weight="1.0" />
+      <edge source="tomio-okamura" target="lubomir-spanel" id="222" weight="1.0" />
+      <edge source="tomio-okamura" target="lubos-dvorak" id="223" weight="1.0" />
+      <edge source="tomio-okamura" target="martin-dvorak" id="224" weight="1.0" />
+      <edge source="tomio-okamura" target="michal-dvorak" id="225" weight="1.0" />
+      <edge source="tomio-okamura" target="nora-dvorak" id="226" weight="1.0" />
+      <edge source="tomio-okamura" target="patrik-nacher" id="227" weight="1.0" />
+      <edge source="tomio-okamura" target="dominik-feri" id="228" weight="2.0" />
+      <edge source="tomio-okamura" target="pavel-fischer" id="229" weight="1.0" />
+      <edge source="tomio-okamura" target="tomas-jan-podivinsky" id="230" weight="1.0" />
+      <edge source="tomio-okamura" target="jiri-vorlicek" id="231" weight="1.0" />
+      <edge source="tomio-okamura" target="zdenek-vorlicek" id="232" weight="1.0" />
+      <edge source="tomio-okamura" target="jana-malacova" id="233" weight="1.0" />
+      <edge source="tomio-okamura" target="marian-bojko" id="234" weight="2.0" />
+      <edge source="tomio-okamura" target="jana-cernochova" id="235" weight="1.0" />
+      <edge source="tomio-okamura" target="frantisek-bublan" id="236" weight="1.0" />
+      <edge source="tomio-okamura" target="roman-onderka" id="237" weight="1.0" />
+      <edge source="tomio-okamura" target="milan-simonovsky" id="238" weight="1.0" />
+      <edge source="tomio-okamura" target="pavel-kovacik" id="239" weight="1.0" />
+      <edge source="tomio-okamura" target="hana-marvanova" id="240" weight="1.0" />
+      <edge source="tomio-okamura" target="marek-benda" id="241" weight="1.0" />
+      <edge source="tomio-okamura" target="filip-zacek" id="242" weight="1.0" />
+      <edge source="tomio-okamura" target="pavel-zacek" id="243" weight="1.0" />
+      <edge source="milos-vystrcil" target="jaromir-soukup" id="244" weight="1.0" />
+      <edge source="milos-vystrcil" target="jiri-dienstbier" id="245" weight="1.0" />
+      <edge source="milos-vystrcil" target="jiri-ruzicka" id="246" weight="1.0" />
+      <edge source="milos-vystrcil" target="jaroslav-kubera" id="247" weight="5.0" />
+      <edge source="milos-vystrcil" target="dana-balcarova" id="248" weight="1.0" />
+      <edge source="milos-vystrcil" target="jan-jarolim" id="249" weight="1.0" />
+      <edge source="milos-vystrcil" target="adam-vojtech" id="250" weight="1.0" />
+      <edge source="milos-vystrcil" target="marta-novakova" id="251" weight="1.0" />
+      <edge source="milos-vystrcil" target="jiri-oberfalzer" id="252" weight="1.0" />
+      <edge source="milos-vystrcil" target="raduan-nwelati" id="253" weight="1.0" />
+      <edge source="milos-vystrcil" target="vladimir-novotny" id="254" weight="1.0" />
+      <edge source="milos-vystrcil" target="roman-onderka" id="255" weight="1.0" />
+      <edge source="milos-vystrcil" target="andrej-babis" id="256" weight="4.0" />
+      <edge source="milos-vystrcil" target="petr-holecek" id="257" weight="1.0" />
+      <edge source="milos-vystrcil" target="zbynek-linhart" id="258" weight="1.0" />
+      <edge source="milos-vystrcil" target="petr-fiala" id="259" weight="1.0" />
+      <edge source="milos-vystrcil" target="petr-necas" id="260" weight="1.0" />
+      <edge source="milos-vystrcil" target="zdenek-skromach" id="261" weight="1.0" />
+      <edge source="milos-vystrcil" target="milos-zeman" id="262" weight="1.0" />
+      <edge source="milos-vystrcil" target="ivo-valenta" id="263" weight="1.0" />
+      <edge source="milos-vystrcil" target="jana-fischerova" id="264" weight="1.0" />
+      <edge source="milos-vystrcil" target="marian-jurecka" id="265" weight="1.0" />
+      <edge source="milos-vystrcil" target="stanislav-grospic" id="266" weight="1.0" />
+      <edge source="milos-vystrcil" target="jan-zahradil" id="267" weight="1.0" />
+      <edge source="milos-vystrcil" target="ludek-sefzig" id="268" weight="1.0" />
+      <edge source="andrej-babis" target="alena-schillerova" id="269" weight="23.0" />
+      <edge source="andrej-babis" target="milan-hnilicka" id="270" weight="6.0" />
+      <edge source="andrej-babis" target="jiri-cunek" id="271" weight="3.0" />
+      <edge source="andrej-babis" target="jan-hamacek" id="272" weight="7.0" />
+      <edge source="andrej-babis" target="vaclav-havel" id="273" weight="7.0" />
+      <edge source="andrej-babis" target="milos-zeman" id="274" weight="6.0" />
+      <edge source="andrej-babis" target="richard-brabec" id="275" weight="18.0" />
+      <edge source="andrej-babis" target="marie-benesova" id="276" weight="8.0" />
+      <edge source="andrej-babis" target="patrik-nacher" id="277" weight="8.0" />
+      <edge source="andrej-babis" target="miroslav-toman" id="278" weight="8.0" />
+      <edge source="andrej-babis" target="petr-dvorak" id="279" weight="1.0" />
+      <edge source="andrej-babis" target="jaromir-soukup" id="280" weight="1.0" />
+      <edge source="andrej-babis" target="alexandr-novak" id="281" weight="1.0" />
+      <edge source="andrej-babis" target="frantisek-novak" id="282" weight="1.0" />
+      <edge source="andrej-babis" target="jan-novak" id="283" weight="1.0" />
+      <edge source="andrej-babis" target="jaromir-novak" id="284" weight="1.0" />
+      <edge source="andrej-babis" target="jaroslav-novak-vecernicek" id="285" weight="1.0" />
+      <edge source="andrej-babis" target="jiri-novak" id="286" weight="1.0" />
+      <edge source="andrej-babis" target="josef-novak" id="287" weight="1.0" />
+      <edge source="andrej-babis" target="libor-novak" id="288" weight="1.0" />
+      <edge source="andrej-babis" target="miroslav-novak" id="289" weight="1.0" />
+      <edge source="andrej-babis" target="pavel-novak" id="290" weight="1.0" />
+      <edge source="andrej-babis" target="jaroslava-pokorna-jermanova" id="291" weight="4.0" />
+      <edge source="andrej-babis" target="adam-vojtech" id="292" weight="13.0" />
+      <edge source="andrej-babis" target="michal-frankl" id="293" weight="1.0" />
+      <edge source="andrej-babis" target="ph.d.-zdenek" id="294" weight="4.0" />
+      <edge source="andrej-babis" target="martin-stropnicky" id="295" weight="1.0" />
+      <edge source="andrej-babis" target="helena-valkova" id="296" weight="2.0" />
+      <edge source="andrej-babis" target="klara-dostalova" id="297" weight="5.0" />
+      <edge source="andrej-babis" target="robert-plaga" id="298" weight="1.0" />
+      <edge source="andrej-babis" target="vaclav-krasa" id="299" weight="2.0" />
+      <edge source="andrej-babis" target="frantisek-lukl" id="300" weight="2.0" />
+      <edge source="andrej-babis" target="hynek-kmonicek" id="301" weight="1.0" />
+      <edge source="andrej-babis" target="martin-kolovratnik" id="302" weight="1.0" />
+      <edge source="andrej-babis" target="radek-vondracek" id="303" weight="1.0" />
+      <edge source="andrej-babis" target="dita-charanzova" id="304" weight="7.0" />
+      <edge source="andrej-babis" target="martina-dlabajova" id="305" weight="6.0" />
+      <edge source="andrej-babis" target="lubomir-metnar" id="306" weight="3.0" />
+      <edge source="andrej-babis" target="marta-novakova" id="307" weight="2.0" />
+      <edge source="andrej-babis" target="petr-fiala" id="308" weight="1.0" />
+      <edge source="andrej-babis" target="antonin-stanek" id="309" weight="2.0" />
+      <edge source="andrej-babis" target="milan-chovanec" id="310" weight="1.0" />
+      <edge source="andrej-babis" target="pavel-stanek" id="311" weight="1.0" />
+      <edge source="andrej-babis" target="svatopluk-nemecek" id="312" weight="1.0" />
+      <edge source="andrej-babis" target="tomas-petricek" id="313" weight="3.0" />
+      <edge source="andrej-babis" target="pavel-hubeny" id="314" weight="2.0" />
+      <edge source="andrej-babis" target="vera-jourova" id="315" weight="4.0" />
+      <edge source="andrej-babis" target="ludvik-hovorka" id="316" weight="1.0" />
+      <edge source="andrej-babis" target="jakub-michalek" id="317" weight="1.0" />
+      <edge source="andrej-babis" target="jan-michalek" id="318" weight="1.0" />
+      <edge source="andrej-babis" target="libor-michalek" id="319" weight="1.0" />
+      <edge source="andrej-babis" target="petr-bursik" id="320" weight="1.0" />
+      <edge source="andrej-babis" target="petr-wolf" id="321" weight="1.0" />
+      <edge source="andrej-babis" target="vit-barta" id="322" weight="1.0" />
+      <edge source="andrej-babis" target="miloslav-janulik" id="323" weight="1.0" />
+      <edge source="andrej-babis" target="petr-sadovsky" id="324" weight="1.0" />
+      <edge source="andrej-babis" target="vaclav-klaus" id="325" weight="2.0" />
+      <edge source="andrej-babis" target="jiri-havlicek" id="326" weight="2.0" />
+      <edge source="andrej-babis" target="martin-vitu" id="327" weight="1.0" />
+      <edge source="andrej-babis" target="tomas-macura" id="328" weight="1.0" />
+      <edge source="andrej-babis" target="ivan-havlicek" id="329" weight="1.0" />
+      <edge source="andrej-babis" target="jana-malacova" id="330" weight="1.0" />
+      <edge source="andrej-babis" target="lubomir-zaoralek" id="331" weight="1.0" />
+      <edge source="andrej-babis" target="milan-simonovsky" id="332" weight="1.0" />
+      <edge source="andrej-babis" target="pavel-antonin" id="333" weight="1.0" />
+      <edge source="andrej-babis" target="tomas-havlicek" id="334" weight="1.0" />
+      <edge source="andrej-babis" target="jaroslav-faltynek" id="335" weight="1.0" />
+      <edge source="andrej-babis" target="karel-schwarzenberg" id="336" weight="1.0" />
+      <edge source="andrej-babis" target="michal-babak" id="337" weight="1.0" />
+      <edge source="andrej-babis" target="miroslava-nemcova" id="338" weight="1.0" />
+      <edge source="petr-fiala" target="andrej-babis" id="339" weight="85.0" />
+      <edge source="petr-fiala" target="milan-uhde" id="340" weight="2.0" />
+      <edge source="petr-fiala" target="lubomir-zaoralek" id="341" weight="1.0" />
+      <edge source="petr-fiala" target="jan-volny" id="342" weight="1.0" />
+      <edge source="petr-fiala" target="jaromir-volny" id="343" weight="1.0" />
+      <edge source="petr-fiala" target="lubomir-volny" id="344" weight="1.0" />
+      <edge source="petr-fiala" target="ladislav-chlupac" id="345" weight="1.0" />
+      <edge source="petr-fiala" target="vaclav-klaus" id="346" weight="2.0" />
+      <edge source="petr-fiala" target="petr-necas" id="347" weight="1.0" />
+      <edge source="petr-fiala" target="milos-zeman" id="348" weight="2.0" />
+      <edge source="petr-fiala" target="alena-schillerova" id="349" weight="4.0" />
+      <edge source="petr-fiala" target="marta-novakova" id="350" weight="1.0" />
+      <edge source="petr-fiala" target="olga-richterova" id="351" weight="1.0" />
+      <edge source="petr-fiala" target="robert-kerndl" id="352" weight="2.0" />
+      <edge source="petr-fiala" target="jakub-janda" id="353" weight="1.0" />
+      <edge source="petr-fiala" target="jaroslav-faltynek" id="354" weight="1.0" />
+      <edge source="petr-fiala" target="petr-rafaj" id="355" weight="1.0" />
+      <edge source="petr-fiala" target="jan-hamacek" id="356" weight="5.0" />
+      <edge source="petr-fiala" target="vera-jourova" id="357" weight="2.0" />
+      <edge source="petr-fiala" target="tomio-okamura" id="358" weight="1.0" />
+      <edge source="petr-fiala" target="jan-jarolim" id="359" weight="3.0" />
+      <edge source="petr-fiala" target="zdenek-zajicek" id="360" weight="1.0" />
+      <edge source="petr-fiala" target="marek-benda" id="361" weight="3.0" />
+      <edge source="petr-fiala" target="pavel-zacek" id="362" weight="1.0" />
+      <edge source="petr-fiala" target="martin-kupka" id="363" weight="1.0" />
+      <edge source="petr-fiala" target="vit-rakusan" id="364" weight="1.0" />
+      <edge source="petr-fiala" target="vaclav-havel" id="365" weight="2.0" />
+      <edge source="petr-fiala" target="antonin-stanek" id="366" weight="1.0" />
+      <edge source="petr-fiala" target="pavel-stanek" id="367" weight="1.0" />
+      <edge source="petr-fiala" target="tomas-petricek" id="368" weight="1.0" />
+      <edge source="petr-fiala" target="zdenek-ondracek" id="369" weight="1.0" />
+      <edge source="petr-fiala" target="milos-babis" id="370" weight="1.0" />
+      <edge source="petr-fiala" target="stanislav-nemec" id="371" weight="1.0" />
+      <edge source="petr-fiala" target="marie-benesova" id="372" weight="1.0" />
+      <edge source="petr-fiala" target="jiri-kulhanek" id="373" weight="1.0" />
+      <edge source="petr-fiala" target="jitka-synkova" id="374" weight="1.0" />
+      <edge source="petr-fiala" target="jana-malacova" id="375" weight="1.0" />
+      <edge source="petr-fiala" target="jan-zahradil" id="376" weight="1.0" />
+      <edge source="petr-fiala" target="jiri-hanus" id="377" weight="1.0" />
+      <edge source="petr-fiala" target="dan-ramzer" id="378" weight="1.0" />
+      <edge source="petr-fiala" target="roman-smucler" id="379" weight="1.0" />
+      <edge source="milos-zeman" target="tomas-jan-podivinsky" id="380" weight="1.0" />
+      <edge source="milos-zeman" target="andrej-babis" id="381" weight="7.0" />
+      <edge source="milos-zeman" target="ivan-david" id="382" weight="1.0" />
+      <edge source="milos-zeman" target="jan-zahradil" id="383" weight="1.0" />
+      <edge source="milos-zeman" target="jiri-paroubek" id="384" weight="1.0" />
+      <edge source="milos-zeman" target="olga-sehnalova" id="385" weight="1.0" />
+      <edge source="milos-zeman" target="pavel-svoboda" id="386" weight="1.0" />
+      <edge source="milos-zeman" target="miloslava-vostra" id="387" weight="1.0" />
+      <edge source="milos-zeman" target="vojtech-filip" id="388" weight="1.0" />
+      <edge source="milos-zeman" target="ivan-bartos" id="389" weight="1.0" />
+      <edge source="milos-zeman" target="jiri-behounek" id="390" weight="2.0" />
+      <edge source="milos-zeman" target="jaroslav-tvrdik" id="391" weight="1.0" />
+      <edge source="milos-zeman" target="ondrej-kolar" id="392" weight="1.0" />
+      <edge source="milos-zeman" target="vojtech-munzar" id="393" weight="1.0" />
+      <edge source="milos-zeman" target="jiri-zimola" id="394" weight="1.0" />
+      <edge source="milos-zeman" target="jan-hamacek" id="395" weight="3.0" />
+      <edge source="milos-zeman" target="lubomir-zaoralek" id="396" weight="1.0" />
+      <edge source="milos-zeman" target="lubos-novy" id="397" weight="1.0" />
+      <edge source="milos-zeman" target="karel-schwarzenberg" id="398" weight="1.0" />
+      <edge source="milos-zeman" target="antonin-stanek" id="399" weight="1.0" />
+      <edge source="milos-zeman" target="vaclav-klaus" id="400" weight="1.0" />
+      <edge source="jan-zahradil" target="stanislav-kovar" id="401" weight="1.0" />
+      <edge source="jan-zahradil" target="miroslav-kalousek" id="402" weight="1.0" />
+      <edge source="jan-zahradil" target="ivo-vondrak" id="403" weight="1.0" />
+      <edge source="jan-zahradil" target="zdenek-ondracek" id="404" weight="1.0" />
+      <edge source="jan-zahradil" target="pavel-bratinka" id="405" weight="1.0" />
+      <edge source="jan-zahradil" target="andrej-babis" id="406" weight="2.0" />
+      <edge source="jan-zahradil" target="milos-babis" id="407" weight="2.0" />
+      <edge source="jan-zahradil" target="petr-cibulka" id="408" weight="1.0" />
+      <edge source="jan-zahradil" target="roman-hanak" id="409" weight="1.0" />
+      <edge source="jan-farsky" target="vit-rakusan" id="410" weight="2.0" />
+      <edge source="jan-farsky" target="martin-puta" id="411" weight="2.0" />
+      <edge source="vladimir-kremlik" target="klara-dostalova" id="412" weight="4.0" />
+      <edge source="vladimir-kremlik" target="jitka-volfova" id="413" weight="1.0" />
+      <edge source="vladimir-kremlik" target="andrej-babis" id="414" weight="8.0" />
+      <edge source="vladimir-kremlik" target="richard-brabec" id="415" weight="1.0" />
+      <edge source="vladimir-kremlik" target="vaclav-havel" id="416" weight="3.0" />
+      <edge source="vladimir-kremlik" target="stanislav-blaha" id="417" weight="1.0" />
+      <edge source="vladimir-kremlik" target="jan-klas" id="418" weight="1.0" />
+      <edge source="vladimir-kremlik" target="vaclav-krasa" id="419" weight="2.0" />
+      <edge source="vladimir-kremlik" target="tomas-petricek" id="420" weight="1.0" />
+      <edge source="vladimir-kremlik" target="david-stolpa" id="421" weight="1.0" />
+      <edge source="vladimir-kremlik" target="dalibor-zeleny" id="422" weight="2.0" />
+      <edge source="vladimir-kremlik" target="milos-zeman" id="423" weight="1.0" />
+      <edge source="vladimir-kremlik" target="frantisek-lukl" id="424" weight="1.0" />
+      <edge source="vladimir-kremlik" target="alena-schillerova" id="425" weight="1.0" />
+      <edge source="vladimir-kremlik" target="jan-hamacek" id="426" weight="1.0" />
+      <edge source="vladimir-kremlik" target="petr-necas" id="427" weight="1.0" />
+      <edge source="vladimir-kremlik" target="zbynek-stanjura" id="428" weight="1.0" />
+      <edge source="vladimir-kremlik" target="monika-oborna" id="429" weight="2.0" />
+      <edge source="vladimir-kremlik" target="jiri-svoboda" id="430" weight="2.0" />
+      <edge source="vladimir-kremlik" target="jiri-behounek" id="431" weight="1.0" />
+      <edge source="vladimir-kremlik" target="adam-vojtech" id="432" weight="1.0" />
+      <edge source="klara-dostalova" target="richard-brabec" id="433" weight="1.0" />
+      <edge source="klara-dostalova" target="jaromir-soukup" id="434" weight="2.0" />
+      <edge source="klara-dostalova" target="vaclav-krasa" id="435" weight="1.0" />
+      <edge source="klara-dostalova" target="martin-vitu" id="436" weight="1.0" />
+      <edge source="klara-dostalova" target="radim-fiala" id="437" weight="1.0" />
+      <edge source="klara-dostalova" target="vit-rakusan" id="438" weight="1.0" />
+      <edge source="klara-dostalova" target="frantisek-lukl" id="439" weight="1.0" />
+      <edge source="marketa-adamova" target="jaroslav-faltynek" id="440" weight="1.0" />
+      <edge source="marketa-adamova" target="michael-kocab" id="441" weight="1.0" />
+      <edge source="marketa-adamova" target="milos-zeman" id="442" weight="3.0" />
+      <edge source="marketa-adamova" target="miroslav-kalousek" id="443" weight="1.0" />
+      <edge source="marketa-adamova" target="petr-kajnar" id="444" weight="1.0" />
+      <edge source="marketa-adamova" target="jaromir-soukup" id="445" weight="1.0" />
+      <edge source="marketa-adamova" target="andrej-babis" id="446" weight="4.0" />
+      <edge source="marketa-adamova" target="milos-babis" id="447" weight="2.0" />
+      <edge source="marketa-adamova" target="jaroslav-kubera" id="448" weight="1.0" />
+      <edge source="marketa-adamova" target="vaclav-havel" id="449" weight="1.0" />
+      <edge source="marketa-adamova" target="pavel-tigrid" id="450" weight="1.0" />
+      <edge source="marketa-adamova" target="ludek-niedermayer" id="451" weight="1.0" />
+      <edge source="marketa-adamova" target="frantisek-blaha" id="452" weight="1.0" />
+      <edge source="marketa-adamova" target="jan-blaha" id="453" weight="1.0" />
+      <edge source="marketa-adamova" target="jiri-blaha" id="454" weight="1.0" />
+      <edge source="jakub-michalek" target="michal-hasek" id="455" weight="1.0" />
+      <edge source="jakub-michalek" target="marcel-kolaja" id="456" weight="1.0" />
+      <edge source="jakub-michalek" target="ivo-rittig" id="457" weight="1.0" />
+      <edge source="zdenek-hrib" target="andrej-babis" id="458" weight="6.0" />
+      <edge source="zdenek-hrib" target="petr-hlubucek" id="459" weight="6.0" />
+      <edge source="zdenek-hrib" target="jiri-pospisil" id="460" weight="1.0" />
+      <edge source="zdenek-hrib" target="miroslav-kalousek" id="461" weight="1.0" />
+      <edge source="zdenek-hrib" target="oliver-pospisil" id="462" weight="1.0" />
+      <edge source="zdenek-hrib" target="jakub-kraus" id="463" weight="1.0" />
+      <edge source="zdenek-hrib" target="michal-kraus" id="464" weight="1.0" />
+      <edge source="zdenek-hrib" target="petr-kraus" id="465" weight="1.0" />
+      <edge source="zdenek-hrib" target="jakub-michalek" id="466" weight="4.0" />
+      <edge source="zdenek-hrib" target="adam-vojtech" id="467" weight="1.0" />
+      <edge source="zdenek-hrib" target="pavel-kordik" id="468" weight="1.0" />
+      <edge source="zdenek-hrib" target="hynek-kmonicek" id="469" weight="1.0" />
+      <edge source="zdenek-hrib" target="alena-schillerova" id="470" weight="1.0" />
+      <edge source="zdenek-hrib" target="patrik-nacher" id="471" weight="1.0" />
+      <edge source="zdenek-hrib" target="marcel-kolaja" id="472" weight="2.0" />
+      <edge source="zdenek-hrib" target="jan-michalek" id="473" weight="1.0" />
+      <edge source="zdenek-hrib" target="libor-michalek" id="474" weight="1.0" />
+      <edge source="zdenek-hrib" target="jan-lipavsky" id="475" weight="1.0" />
+      <edge source="zdenek-hrib" target="petr-wolf" id="476" weight="1.0" />
+      <edge source="zdenek-hrib" target="jaroslava-pokorna-jermanova" id="477" weight="1.0" />
+      <edge source="zdenek-hrib" target="albert-cerny" id="478" weight="1.0" />
+      <edge source="zdenek-hrib" target="alexander-cerny" id="479" weight="1.0" />
+      <edge source="zdenek-hrib" target="karel-cerny" id="480" weight="1.0" />
+      <edge source="zdenek-hrib" target="petr-cerny" id="481" weight="1.0" />
+      <edge source="zdenek-hrib" target="vojtech-filip" id="482" weight="1.0" />
+      <edge source="zdenek-hrib" target="zdenek-ondracek" id="483" weight="1.0" />
+      <edge source="zdenek-hrib" target="adriana-krnacova" id="484" weight="1.0" />
+      <edge source="alena-schillerova" target="jaromir-soukup" id="485" weight="2.0" />
+      <edge source="alena-schillerova" target="vaclav-havel" id="486" weight="2.0" />
+      <edge source="alena-schillerova" target="adam-vojtech" id="487" weight="4.0" />
+      <edge source="alena-schillerova" target="jana-malacova" id="488" weight="1.0" />
+      <edge source="alena-schillerova" target="marie-benesova" id="489" weight="1.0" />
+      <edge source="alena-schillerova" target="frantisek-lukl" id="490" weight="1.0" />
+      <edge source="alena-schillerova" target="jiri-dusek" id="491" weight="1.0" />
+      <edge source="alena-schillerova" target="lubomir-metnar" id="492" weight="1.0" />
+      <edge source="alena-schillerova" target="miroslav-kalousek" id="493" weight="1.0" />
+      <edge source="alena-schillerova" target="zdenek-juracka" id="494" weight="2.0" />
+      <edge source="alena-schillerova" target="andrej-babis" id="495" weight="3.0" />
+      <edge source="alena-schillerova" target="richard-brabec" id="496" weight="1.0" />
+      <edge source="alena-schillerova" target="robert-plaga" id="497" weight="1.0" />
+      <edge source="alena-schillerova" target="miloslava-vostra" id="498" weight="1.0" />
+      <edge source="alena-schillerova" target="tomas-petricek" id="499" weight="1.0" />
+      <edge source="alena-schillerova" target="lubomir-zaoralek" id="500" weight="1.0" />
+      <edge source="alena-schillerova" target="jan-hamacek" id="501" weight="1.0" />
+      <edge source="jan-hamacek" target="miroslav-toman" id="502" weight="1.0" />
+      <edge source="jan-hamacek" target="lubomir-zaoralek" id="503" weight="1.0" />
+      <edge source="jan-hamacek" target="milos-zeman" id="504" weight="1.0" />
+      <edge source="jan-hamacek" target="pavel-poc" id="505" weight="5.0" />
+      <edge source="jan-hamacek" target="olga-sehnalova" id="506" weight="3.0" />
+      <edge source="jan-hamacek" target="jana-malacova" id="507" weight="1.0" />
+      <edge source="jan-hamacek" target="vaclav-havel" id="508" weight="1.0" />
+      <edge source="jan-hamacek" target="frantisek-lukl" id="509" weight="1.0" />
+      <edge source="jan-hamacek" target="roman-onderka" id="510" weight="1.0" />
+      <edge source="jan-hamacek" target="miroslav-stepan" id="511" weight="1.0" />
+      <edge source="jana-vildumetzova" target="jaroslav-bradac" id="512" weight="2.0" />
+      <edge source="jana-vildumetzova" target="milos-zeman" id="513" weight="5.0" />
+      <edge source="jana-vildumetzova" target="klara-dostalova" id="514" weight="3.0" />
+      <edge source="jana-vildumetzova" target="tomas-petricek" id="515" weight="1.0" />
+      <edge source="jana-vildumetzova" target="richard-brabec" id="516" weight="1.0" />
+      <edge source="jana-vildumetzova" target="zdenek-mach" id="517" weight="1.0" />
+      <edge source="jana-vildumetzova" target="petr-hromek" id="518" weight="1.0" />
+      <edge source="jana-vildumetzova" target="dalibor-blazek" id="519" weight="1.0" />
+      <edge source="jana-vildumetzova" target="andrej-babis" id="520" weight="2.0" />
+      <edge source="jana-vildumetzova" target="vladimir-dlouhy" id="521" weight="1.0" />
+      <edge source="jana-vildumetzova" target="robert-plaga" id="522" weight="1.0" />
+      <edge source="jana-vildumetzova" target="vera-prochazkova" id="523" weight="1.0" />
+      <edge source="jana-vildumetzova" target="dan-tok" id="524" weight="1.0" />
+      <edge source="jana-vildumetzova" target="adam-vojtech" id="525" weight="1.0" />
+      <edge source="jana-vildumetzova" target="alena-schillerova" id="526" weight="1.0" />
+      <edge source="martin-kupka" target="zdenek-zajicek" id="527" weight="4.0" />
+      <edge source="martin-kupka" target="pavel-rychetsky" id="528" weight="1.0" />
+      <edge source="martin-kupka" target="andrej-babis" id="529" weight="8.0" />
+      <edge source="martin-kupka" target="karla-slechtova" id="530" weight="1.0" />
+      <edge source="martin-kupka" target="alexandr-vondra" id="531" weight="1.0" />
+      <edge source="martin-kupka" target="barbora-koranova" id="532" weight="1.0" />
+      <edge source="martin-kupka" target="milos-zeman" id="533" weight="5.0" />
+      <edge source="martin-kupka" target="lubomir-zaoralek" id="534" weight="1.0" />
+      <edge source="martin-kupka" target="marek-benda" id="535" weight="1.0" />
+      <edge source="martin-kupka" target="veronika-vrecionova" id="536" weight="1.0" />
+      <edge source="martin-kupka" target="jan-volny" id="537" weight="1.0" />
+      <edge source="martin-kupka" target="jaromir-volny" id="538" weight="1.0" />
+      <edge source="martin-kupka" target="lubomir-volny" id="539" weight="1.0" />
+      <edge source="martin-kupka" target="klara-dostalova" id="540" weight="1.0" />
+      <edge source="petr-hladik" target="jan-skacel" id="541" weight="1.0" />
+      <edge source="petr-hladik" target="andrej-kiska" id="542" weight="1.0" />
+      <edge source="petr-hladik" target="daniel-rychnovsky" id="543" weight="1.0" />
+      <edge source="petr-hladik" target="andrej-babis" id="544" weight="1.0" />
+      <edge source="petr-hladik" target="zdenek-ondracek" id="545" weight="1.0" />
+      <edge source="petr-hladik" target="pavel-belobradek" id="546" weight="1.0" />
+      <edge source="herbert-pavera" target="milos-zeman" id="547" weight="2.0" />
+      <edge source="herbert-pavera" target="vaclav-havel" id="548" weight="1.0" />
+      <edge source="herbert-pavera" target="vaclav-klaus" id="549" weight="1.0" />
+      <edge source="herbert-pavera" target="andrej-babis" id="550" weight="1.0" />
+      <edge source="herbert-pavera" target="miroslav-toman" id="551" weight="1.0" />
+      <edge source="herbert-pavera" target="vladimir-remek" id="552" weight="1.0" />
+      <edge source="herbert-pavera" target="frantisek-lukl" id="553" weight="1.0" />
+      <edge source="herbert-pavera" target="jaroslav-kubera" id="554" weight="1.0" />
+      <edge source="radek-holomcik" target="jakub-michalek" id="555" weight="1.0" />
+      <edge source="radek-holomcik" target="dana-balcarova" id="556" weight="1.0" />
+      <edge source="radek-holomcik" target="mikulas-ferjencik" id="557" weight="1.0" />
+      <edge source="radek-holomcik" target="milos-zeman" id="558" weight="1.0" />
+      <edge source="radek-holomcik" target="anna-hubackova" id="559" weight="2.0" />
+      <edge source="radek-holomcik" target="richard-brabec" id="560" weight="1.0" />
+      <edge source="radek-holomcik" target="andrej-babis" id="561" weight="1.0" />
+      <edge source="radek-holomcik" target="jiri-vitek" id="562" weight="1.0" />
+      <edge source="radek-holomcik" target="ondrej-polansky" id="563" weight="2.0" />
+      <edge source="radek-holomcik" target="margita-balastikova" id="564" weight="1.0" />
+      <edge source="radek-holomcik" target="jiri-mihola" id="565" weight="1.0" />
+      <edge source="radek-holomcik" target="libor-lukas" id="566" weight="1.0" />
+      <edge source="radek-holomcik" target="venceslav-lukas" id="567" weight="1.0" />
+      <edge source="radek-vondracek" target="andrej-babis" id="568" weight="3.0" />
+      <edge source="radek-vondracek" target="ladislav-oklestek" id="569" weight="1.0" />
+      <edge source="radek-vondracek" target="jaroslav-kubera" id="570" weight="4.0" />
+      <edge source="radek-vondracek" target="jan-hamacek" id="571" weight="1.0" />
+      <edge source="radek-vondracek" target="alexander-dubcek" id="572" weight="1.0" />
+      <edge source="radek-vondracek" target="milos-zeman" id="573" weight="4.0" />
+      <edge source="radek-vondracek" target="jana-pastuchova" id="574" weight="1.0" />
+      <edge source="radek-vondracek" target="miroslav-kalousek" id="575" weight="1.0" />
+      <edge source="radek-vondracek" target="marek-vyborny" id="576" weight="1.0" />
+      <edge source="radek-vondracek" target="dita-charanzova" id="577" weight="1.0" />
+      <edge source="radek-vondracek" target="martina-dlabajova" id="578" weight="1.0" />
+      <edge source="radek-vondracek" target="vaclav-klaus" id="579" weight="2.0" />
+      <edge source="radek-vondracek" target="lubomir-metnar" id="580" weight="1.0" />
+      <edge source="radek-vondracek" target="vaclav-havel" id="581" weight="1.0" />
+      <edge source="adam-vojtech" target="vaclav-havel" id="582" weight="1.0" />
+      <edge source="adam-vojtech" target="andrej-babis" id="583" weight="4.0" />
+      <edge source="adam-vojtech" target="martina-dlabajova" id="584" weight="1.0" />
+      <edge source="adam-vojtech" target="klara-dostalova" id="585" weight="1.0" />
+      <edge source="adam-vojtech" target="lubomir-metnar" id="586" weight="1.0" />
+      <edge source="adam-vojtech" target="alena-schillerova" id="587" weight="2.0" />
+      <edge source="adam-vojtech" target="jaromir-soukup" id="588" weight="1.0" />
+      <edge source="adam-vojtech" target="vera-jourova" id="589" weight="3.0" />
+      <edge source="adam-vojtech" target="ivo-vondrak" id="590" weight="1.0" />
+      <edge source="adam-vojtech" target="lubomir-chudoba" id="591" weight="1.0" />
+      <edge source="adam-vojtech" target="jiri-dort" id="592" weight="1.0" />
+      <edge source="adam-vojtech" target="jaroslav-novak-vecernicek" id="593" weight="1.0" />
+      <edge source="sarka-jelinkova" target="ivo-slavotinek" id="594" weight="1.0" />
+      <edge source="sarka-jelinkova" target="marek-vyborny" id="595" weight="8.0" />
+      <edge source="sarka-jelinkova" target="josef-lux" id="596" weight="1.0" />
+      <edge source="sarka-jelinkova" target="vaclav-havel" id="597" weight="1.0" />
+      <edge source="sarka-jelinkova" target="tomas-zdechovsky" id="598" weight="3.0" />
+      <edge source="sarka-jelinkova" target="jan-bartosek" id="599" weight="1.0" />
+      <edge source="sarka-jelinkova" target="marian-jurecka" id="600" weight="1.0" />
+      <edge source="sarka-jelinkova" target="pavel-belobradek" id="601" weight="1.0" />
+      <edge source="sarka-jelinkova" target="vit-kankovsky" id="602" weight="1.0" />
+      <edge source="sarka-jelinkova" target="michaela-sojdrova" id="603" weight="1.0" />
+      <edge source="sarka-jelinkova" target="jiri-stepan" id="604" weight="1.0" />
+      <edge source="sarka-jelinkova" target="miroslav-stepan" id="605" weight="1.0" />
+      <edge source="sarka-jelinkova" target="renata-chmelova" id="606" weight="1.0" />
+      <edge source="sarka-jelinkova" target="milos-zeman" id="607" weight="1.0" />
+      <edge source="sarka-jelinkova" target="jitka-seitlova" id="608" weight="1.0" />
+      <edge source="sarka-jelinkova" target="josef-vicha" id="609" weight="1.0" />
+      <edge source="marek-vyborny" target="pavel-belobradek" id="610" weight="1.0" />
+      <edge source="marek-vyborny" target="anna-hubackova" id="611" weight="1.0" />
+      <edge source="marek-vyborny" target="andrej-babis" id="612" weight="3.0" />
+      <edge source="marek-vyborny" target="jan-cizinsky" id="613" weight="1.0" />
+      <edge source="marek-vyborny" target="marta-kubisova" id="614" weight="1.0" />
+      <edge source="marek-vyborny" target="michaela-sojdrova" id="615" weight="2.0" />
+      <edge source="marek-vyborny" target="tomas-zdechovsky" id="616" weight="2.0" />
+      <edge source="marek-vyborny" target="ph.d.-zdenek" id="617" weight="1.0" />
+      <edge source="marek-vyborny" target="martin-baxa" id="618" weight="1.0" />
+      <edge source="marek-vyborny" target="pavel-svoboda" id="619" weight="1.0" />
+      <edge source="marek-vyborny" target="antonin-stanek" id="620" weight="1.0" />
+      <edge source="marek-vyborny" target="vaclav-havel" id="621" weight="1.0" />
+      <edge source="marek-vyborny" target="josef-lux" id="622" weight="2.0" />
+      <edge source="marek-vyborny" target="jan-rakusan" id="623" weight="1.0" />
+      <edge source="marek-vyborny" target="vit-rakusan" id="624" weight="1.0" />
+      <edge source="marek-vyborny" target="tomio-okamura" id="625" weight="1.0" />
+      <edge source="marek-vyborny" target="miluse-horska" id="626" weight="1.0" />
+      <edge source="marek-vyborny" target="jan-jarolim" id="627" weight="1.0" />
+      <edge source="tomas-czernin" target="emilie-triskova" id="628" weight="1.0" />
+      <edge source="tomas-czernin" target="milan-pour" id="629" weight="1.0" />
+      <edge source="tomas-czernin" target="miloslav-rozner" id="630" weight="2.0" />
+      <edge source="tomas-czernin" target="karel-schwarzenberg" id="631" weight="2.0" />
+      <edge source="tomas-czernin" target="tomio-okamura" id="632" weight="1.0" />
+      <edge source="tomas-czernin" target="vaclav-havel" id="633" weight="1.0" />
+      <edge source="tomas-czernin" target="herbert-pavera" id="634" weight="1.0" />
+      <edge source="tomas-czernin" target="radek-koten" id="635" weight="1.0" />
+      <edge source="tomas-czernin" target="ludek-niedermayer" id="636" weight="1.0" />
+      <edge source="tomas-czernin" target="marketa-pekarova-adamova" id="637" weight="1.0" />
+      <edge source="tomas-czernin" target="ondrej-kolar" id="638" weight="1.0" />
+      <edge source="tomas-czernin" target="tomas-petricek" id="639" weight="1.0" />
+      <edge source="tomas-czernin" target="vaclav-klaus" id="640" weight="1.0" />
+      <edge source="tomas-czernin" target="marie-benesova" id="641" weight="1.0" />
+      <edge source="ondrej-kolar" target="ondrej-kolar" id="642" weight="10.0" />
+      <edge source="ondrej-kolar" target="vaclav-havel" id="643" weight="1.0" />
+      <edge source="ondrej-kolar" target="jan-foldyna" id="644" weight="1.0" />
+      <edge source="ondrej-kolar" target="jaroslav-foldyna" id="645" weight="1.0" />
+      <edge source="ondrej-kolar" target="andrej-babis" id="646" weight="2.0" />
+      <edge source="ondrej-kolar" target="jiri-svoboda" id="647" weight="1.0" />
+      <edge source="ondrej-kolar" target="jiri-ruzicka" id="648" weight="1.0" />
+      <edge source="ondrej-kolar" target="milos-zeman" id="649" weight="1.0" />
+      <edge source="ondrej-kolar" target="jan-lipavsky" id="650" weight="2.0" />
+      <edge source="ondrej-kolar" target="jaromir-soukup" id="651" weight="1.0" />
+      <edge source="ondrej-kolar" target="michal-stehlik" id="652" weight="1.0" />
+      <edge source="alexandra-udzenija" target="ivan-bartos" id="653" weight="1.0" />
+      <edge source="alexandra-udzenija" target="petr-fiala" id="654" weight="4.0" />
+      <edge source="alexandra-udzenija" target="jan-jarolim" id="655" weight="3.0" />
+      <edge source="alexandra-udzenija" target="jan-zahradil" id="656" weight="1.0" />
+      <edge source="alexandra-udzenija" target="andrej-babis" id="657" weight="2.0" />
+      <edge source="alexandra-udzenija" target="marketa-pekarova-adamova" id="658" weight="1.0" />
+      <edge source="alexandra-udzenija" target="milos-vystrcil" id="659" weight="1.0" />
+      <edge source="alexandra-udzenija" target="jaroslav-kubera" id="660" weight="1.0" />
+      <edge source="ladislav-oklestek" target="klara-dostalova" id="661" weight="2.0" />
+      <edge source="ladislav-oklestek" target="jan-zahradnicek" id="662" weight="1.0" />
+      <edge source="ladislav-oklestek" target="radim-srsen" id="663" weight="1.0" />
+      <edge source="ladislav-oklestek" target="andrej-babis" id="664" weight="1.0" />
+      <edge source="radek-rozvoral" target="miloslav-rozner" id="665" weight="1.0" />
+      <edge source="radek-rozvoral" target="dan-tok" id="666" weight="1.0" />
+      <edge source="radek-rozvoral" target="michal-hasek" id="667" weight="1.0" />
+      <edge source="radovan-vich" target="jiri-mihola" id="668" weight="1.0" />
+      <edge source="radovan-vich" target="pavel-jelinek" id="669" weight="1.0" />
+      <edge source="radovan-vich" target="ivan-bartos" id="670" weight="1.0" />
+      <edge source="radovan-vich" target="milos-zeman" id="671" weight="1.0" />
+      <edge source="jan-bartosek" target="karel-urbanek" id="672" weight="1.0" />
+      <edge source="jan-bartosek" target="petr-urbanek" id="673" weight="1.0" />
+      <edge source="jan-bartosek" target="pavel-kovacik" id="674" weight="2.0" />
+      <edge source="jan-bartosek" target="jan-chvojka" id="675" weight="1.0" />
+      <edge source="jan-bartosek" target="radka-maxova" id="676" weight="1.0" />
+      <edge source="jan-bartosek" target="simon-heller" id="677" weight="1.0" />
+      <edge source="jan-bartosek" target="pavel-belobradek" id="678" weight="1.0" />
+      <edge source="dita-charanzova" target="tomas-macura" id="679" weight="1.0" />
+      <edge source="dita-charanzova" target="jan-zahradil" id="680" weight="1.0" />
+      <edge source="dita-charanzova" target="stanislav-polcak" id="681" weight="1.0" />
+      <edge source="petr-silar" target="marek-vyborny" id="682" weight="1.0" />
+      <edge source="petr-silar" target="vaclav-laska" id="683" weight="1.0" />
+      <edge source="petr-silar" target="vaclav-havel" id="684" weight="1.0" />
+      <edge source="petr-silar" target="sarka-jelinkova" id="685" weight="1.0" />
+      <edge source="lubomir-metnar" target="milos-petera" id="686" weight="1.0" />
+      <edge source="jana-pastuchova" target="lenka-drazilova" id="687" weight="1.0" />
+      <edge source="jana-pastuchova" target="alena-schillerova" id="688" weight="1.0" />
+      <edge source="jana-pastuchova" target="david-prazak" id="689" weight="1.0" />
+      <edge source="jana-pastuchova" target="helena-valkova" id="690" weight="1.0" />
+      <edge source="jana-pastuchova" target="jitka-volfova" id="691" weight="1.0" />
+      <edge source="evzen-tosenovsky" target="jakub-janda" id="692" weight="1.0" />
+      <edge source="pavel-nalezeny" target="andrej-babis" id="693" weight="1.0" />
+      <edge source="jan-jakob" target="marketa-pekarova-adamova" id="694" weight="1.0" />
+      <edge source="jan-jakob" target="jan-rakusan" id="695" weight="1.0" />
+      <edge source="jan-jakob" target="vit-rakusan" id="696" weight="1.0" />
+      <edge source="lukas-otys" target="marketa-pekarova-adamova" id="697" weight="1.0" />
+      <edge source="michal-pilar" target="marketa-pekarova-adamova" id="698" weight="1.0" />
+      <edge source="jaroslava-jermanova" target="jaroslava-pokorna-jermanova" id="699" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

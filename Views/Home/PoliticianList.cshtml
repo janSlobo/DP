@@ -1,19 +1,87 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "PoliticianList";
+    List<string> top_politics = new()
+    {
+        "andrej-babis", "tomio-okamura", "lubomir-volny", "adam-vojtech", "miroslav-kalousek",
+        "alena-schillerova", "pavel-belobradek", "petr-fiala", "karel-havlicek", "milos-zeman"
+    };
+
+    var allPoliticians = ViewBag.politician_list as List<Politic>;
+    var topPoliticians = allPoliticians.Where(p => top_politics.Contains(p.politic_id)).ToList();
+    var otherPoliticians = allPoliticians.Where(p => !top_politics.Contains(p.politic_id)).ToList();
+    var check = ViewBag.check as Dictionary<string,int>;
 }
 
-
-
 <div class="container mt-4">
-    <h3 class="mb-3">Seznam politiků</h3>
-    <ul class="list-group">
-        @foreach (var pid in ViewBag.politician_list as List<string>)
-        {
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                @Html.ActionLink(pid, "PoliticDetail", "Home", new { politic_id = pid }, new { @class = "text-decoration-none fw-bold" })
-                <span class="badge bg-primary rounded-pill">Detail</span>
-            </li>
-        }
-    </ul>
+    <div class="chart-card" style="margin-bottom:15px;">
+        <h3 class="mb-3 text-start">Seznam vybraných politiků</h3>
+        <p class="text-muted mb-4">
+            Seznam vybraných politiků, na jejichž profilu je zobrazena detailní analýza příspěvků v průběhu let 2016–2022.
+        </p>
+    </div>
+    <table class="styled-table table">
+        <thead>
+            <tr>
+                <th>Jméno politika</th>
+                <th>Politická strana</th>
+                <th>Počet příspěvků</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pid in topPoliticians)
+            {
+                <tr>
+                    <td>
+                      
+                     @Html.ActionLink(pid.politic_id, "PoliticDetail", "Home", new { politic_id = pid.politic_id }, new { @class = "text-decoration-none fw-bold" })
+                        
+                    </td>
+                    <td>
+                        @pid.organizace
+                    </td>
+                    <td>
+                        @pid.count
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="chart-card" style="margin-bottom:15px;">
+        <h3 class="mb-3 text-start">Seznam ostatních politiků</h3>
+            <p class="text-muted mb-4 ">
+                Seznam všech zbylých politiků, kteří měli příspěvky v roce 2019. Pro 50 nejaktivnějších je zobrazena analýza jejich příspěvků.
+            </p>
+    </div>
+    <table class="styled-table table">
+        <thead>
+            <tr>
+                <th>Jméno politika</th>
+                <th>Politická strana</th>
+                <th>Počet příspěvků</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pid in otherPoliticians)
+            {
+                <tr>
+                    <td>
+                        @if (check.ContainsKey(pid.politic_id))
+                        {
+                            @Html.ActionLink(pid.politic_id, "PoliticDetailLight", "Home", new { politic_id = pid.politic_id }, new { @class = "text-decoration-none fw-bold" })
+                        }
+                        else
+                        {
+                            @pid.politic_id
+                         }
+                    </td>
+                    <td>
+                        @pid.organizace
+                    </td>
+                    <td>
+                        @pid.count
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

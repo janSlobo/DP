@@ -1,0 +1,535 @@
+﻿
+@{
+    ViewData["Title"] = "Mentions";
+}
+<style>
+    .svg1 {
+        width: 1800px;
+        height: 900px;
+        background: #f8f8f8;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+        .svg1 .node {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+        .svg1 .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+        .svg1 .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: black;
+            pointer-events: none;
+        }
+
+    .slider-container {
+        background: white;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .slider-label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .slider-value {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px;
+        color: #007acc;
+    }
+
+    input[type=range] {
+        width: 100%;
+    }
+</style>
+
+<script>
+    function debounce(fn, delay) {
+        let timeout;
+        return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => fn.apply(this, args), delay);
+        };
+    }
+    function show_net(minWeight) {
+        fetch("/data/mentions_network_2019_today.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#sit").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+                const filteredLinks = links.filter(d => d.weight >= minWeight);
+
+                const filteredNodes = nodes.filter(node =>
+                    filteredLinks.some(link => link.source === node.id || link.target === node.id)
+                );
+
+                const weightExtent = d3.extent(filteredLinks, d => d.weight);
+                const weightScale = d3.scaleLinear()
+                    .domain(weightExtent)
+                    .range([0.5, 6]);
+
+                filteredLinks.forEach(link => {
+                    link.normalizedWeight = weightScale(link.weight);
+                });
+
+                const nodeDegrees = {};
+                filteredLinks.forEach(link => {
+                    nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.normalizedWeight;
+                    nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.normalizedWeight;
+                });
+
+                const degreeExtent = d3.extent(filteredNodes, d => nodeDegrees[d.id] || 0);
+                const colorScale = d3.scaleLinear()
+                    .domain(degreeExtent)
+                    .range(["#ffffcc", "#006837"]);
+
+                const simulation = d3.forceSimulation(filteredNodes)
+                    .force("link", d3.forceLink(filteredLinks)
+                        .id(d => d.id)
+                        .distance(70)
+                        .strength(0.1))
+                    .force("charge", d3.forceManyBody().strength(200))
+                    .force("center", d3.forceCenter(width / 2, height / 2))
+                    .force("collision", d3.forceCollide(30))
+                    .force("x", d3.forceX(width / 2).strength(0.03))
+                    .force("y", d3.forceY(height / 2).strength(0.03))
+                    .on("tick", ticked)
+                    .on("end", () => {
+                        filteredNodes.forEach(d => {
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        });
+                        simulation.stop();
+                    });
+
+                const link = svg.append("g")
+                    .selectAll("line")
+                    .data(filteredLinks)
+                    .enter().append("line")
+                    .attr("class", "link")
+                    .attr("stroke", "#999")
+                    .attr("stroke-opacity", 0.6)
+                    .attr("stroke-width", d => d.normalizedWeight)  
+                    .attr("marker-end", "url(#arrow)");
+
+                svg.append("defs").append("marker")
+                    .attr("id", "arrow")
+                    .attr("viewBox", "0 -5 10 10")
+                    .attr("refX", 20)
+                    .attr("refY", 0)
+                    .attr("markerWidth", 10)
+                    .attr("markerHeight", 10)
+                    .attr("orient", "auto")
+                    .append("path")
+                    .attr("d", "M0,-5L10,0L0,5")
+                    .attr("fill", "#999");
+
+                const nodeRadiusScale = d3.scaleLinear()
+                    .domain(d3.extent(filteredNodes, d => nodeDegrees[d.id] || 0))
+                    .range([10, 30]);
+
+                const node = svg.append("g")
+                    .selectAll("circle")
+                    .data(filteredNodes)
+                    .enter().append("circle")
+                    .attr("class", "node")
+                    .attr("r", d => nodeRadiusScale(nodeDegrees[d.id] || 0))
+                    .style("fill", d => colorScale(nodeDegrees[d.id] || 0))
+                    .call(d3.drag()
+                        .on("start", dragStart)
+                        .on("drag", dragged)
+                        .on("end", dragEnd));
+
+                const labels = svg.append("g")
+                    .selectAll("text")
+                    .data(filteredNodes)
+                    .enter().append("text")
+                    .attr("class", "label")
+                    .attr("dx", 12)
+                    .attr("dy", 4)
+                    .text(d => d.id);
+
+                function ticked() {
+                    link
+                        .attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y);
+
+                    node
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
+
+                    labels
+                        .attr("x", d => d.x)
+                        .attr("y", d => d.y);
+
+                    link
+                        .attr("marker-end", d => {
+                            const distance = Math.sqrt(Math.pow(d.target.x - d.source.x, 2) + Math.pow(d.target.y - d.source.y, 2));
+                            const refX = distance - 10;
+                            return `url(#arrow)`;
+                        });
+                }
+
+                function dragStart(event, d) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+
+                function dragged(event, d) {
+                    d.fx = event.x;
+                    d.fy = event.y;
+                }
+
+                function dragEnd(event, d) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    d.fx = event.x;
+                    d.fy = event.y;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+
+
+    const allData = @Html.Raw(Json.Serialize(ViewBag.politic_stats));
+    let currentPage = 1;
+    const rowsPerPage = 10;
+    let currentData = [...allData];
+    var config = {
+        displayModeBar: false, responsive: true
+    };
+function showstdistrib(){
+    var data = @Html.Raw(ViewBag.PoliticZminkyDistribuce);
+    
+
+    var x_values = data.map(d => d.PocetZmínek);
+    var y_values = data.map(d => d.PocetStatementů);
+
+    var trace = {
+        x: x_values,
+        y: y_values,
+        type: 'bar'
+       
+    };
+
+    var layout = {
+        title: '',
+            xaxis: {
+                title: 'Počet zmínek', tickmode: 'linear',
+                dtick: 1
+            },
+            yaxis: {
+                title: 'Počet příspěvků',
+                type: 'log',
+                autorange: true,
+                dtick: 1,
+                tickvals: [1, 5, 10, 20,50,100,250,500,1000]
+            }, autosize: true, margin: {
+                b: 90, t: 0
+            }
+    };
+
+    Plotly.newPlot('countdistrib', [trace], layout,config);
+}
+    function showbar() {
+        var labels = @Html.Raw(Json.Serialize(ViewBag.Labels)); 
+        var binCounts = @Html.Raw(Json.Serialize(ViewBag.BinCounts));
+
+       
+        var trace = {
+            x: labels, 
+            y: binCounts,
+            type: 'bar',
+            marker: {
+                color: 'rgb(50, 150, 255)', 
+            }
+        };
+
+     
+        var layout = {
+            title: '',
+            xaxis: {
+                title: 'Zmínil n-krát',
+                tickangle: 45
+            },
+            yaxis: {
+                title: 'Počet politiků',
+                rangemode: 'tozero', 
+            },
+            margin: {
+                b: 90,t:0 
+            },
+            autosize:true
+        };
+
+        
+        Plotly.newPlot('barplot', [trace], layout,config);
+
+    }
+    
+    function showbar1() {
+        var labels = @Html.Raw(Json.Serialize(ViewBag.Labels1)); 
+        var binCounts = @Html.Raw(Json.Serialize(ViewBag.BinCounts1)); 
+
+        
+        var trace = {
+            x: labels, 
+            y: binCounts,
+            type: 'bar', 
+            marker: {
+                color: 'rgb(50, 150, 255)', 
+            }
+        };
+
+       
+        var layout = {
+            title: '',
+            xaxis: {
+                title: 'Zmíněn n-krát',
+                tickangle: 45 
+            },
+            yaxis: {
+                title: 'Počet politiků',
+                rangemode: 'tozero', 
+            },
+            margin: {
+                b: 90,t:0 
+            },autosize:true
+        };
+
+   
+        Plotly.newPlot('barplot1', [trace], layout,config);
+
+    }
+
+    function renderTable() {
+        const tableBody = document.querySelector("#merged-sentiment-table tbody");
+        tableBody.innerHTML = "";
+
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const pageData = currentData.slice(startIndex, startIndex + rowsPerPage);
+
+        for (const item of pageData) {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${item.politic_id}</td>
+                <td>${item.mentionOthersCount}</td>
+                <td>${item.mentionedCount}</td>
+            `;
+            tableBody.appendChild(row);
+        }
+
+        updatePagination();
+    }
+
+    function updatePagination() {
+        const totalPages = Math.ceil(currentData.length / rowsPerPage);
+        document.getElementById("pageNumber").textContent = currentPage;
+        document.getElementById("totalPages").textContent = totalPages;
+
+        document.getElementById("prevPage").disabled = currentPage === 1;
+        document.getElementById("nextPage").disabled = currentPage === totalPages;
+    }
+
+    function changePage(change) {
+        const totalPages = Math.ceil(currentData.length / rowsPerPage);
+        currentPage = Math.min(Math.max(currentPage + change, 1), totalPages);
+        renderTable();
+    }
+
+    function sortTable() {
+        const sortBy = document.getElementById("sortBy").value;
+        const sortOrder = document.getElementById("sortOrder").value;
+
+        currentData.sort((a, b) => {
+            let aVal, bVal;
+            switch (sortBy) {
+                case "name":
+                    aVal = a.politic_id.toLowerCase();
+                    bVal = b.politic_id.toLowerCase();
+                    break;
+                case "averageSentiment": // = Zmínil n-krát
+                    aVal = a.mentionOthersCount;
+                    bVal = b.mentionOthersCount;
+                    break;
+                case "mentionSentiment": // = Byl zmíněn n-krát
+                    aVal = a.mentionedCount;
+                    bVal = b.mentionedCount;
+                    break;
+                default:
+                    return 0;
+            }
+
+            if (aVal < bVal) return sortOrder === "asc" ? -1 : 1;
+            if (aVal > bVal) return sortOrder === "asc" ? 1 : -1;
+            return 0;
+        });
+
+        currentPage = 1;
+        renderTable();
+    }
+    
+    function hide() {
+        document.getElementById("stats").style.display = "none";
+        document.getElementById("sit_div").style.display = "none";
+      
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        showbar();
+        showbar1();
+        showstdistrib();
+        sortTable();
+
+        document.getElementById("statsB").addEventListener("click", function () {
+            hide();
+            document.getElementById("stats").style.display = "flex";
+
+        });
+        document.getElementById("sitB").addEventListener("click", function () {
+            hide();
+            document.getElementById("sit_div").style.display = "flex";
+
+        });
+
+        show_net(0);
+
+        document.getElementById("slider").addEventListener("input", debounce(function () {
+            document.getElementById('sliderValue').textContent = this.value;
+            show_net( this.value);
+
+
+        }, 200));
+    });
+</script>
+
+
+
+<div class="chart-card">
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza zmínek politiků</h2>
+        <p class="chart-subtitle">
+            Na této stránce je zobrazena analýza zmínek politiků. Zobrazeny jsou distribuce politiků a příspěvků dle počtu zmínek. V tabulce jsou zobrazeni politici a informace o tom kolikrát ostatní zmiňovali či byli zmíněni.
+            Kromě statistik si lze také zobrazit síť zmínek tvořenou jednotlivými politiky, orientované hrany mezi nimi odpovídají zmínce mezi nimi a váha pak počtu zmínek.
+        </p>
+    </div>
+   
+<div class="mini-navbar">
+    
+    <div class="navbar-buttons">
+        <button class="nav-btn" id="statsB">Statistiky</button>
+        <button class="nav-btn" id="sitB">Síť zmínek politiků</button>
+    </div>
+</div>
+</div>
+<div id="stats" class="sentiment_page">
+    <div class="left-panel-sentiment">
+        <div class="myrow2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Distribuce politiků dle počtu zmínek</h3>
+                        <p class="chart-subtitle">Každý sloupec udává kolik politiků zmínilo jiného daný počet krát</p>
+                    </div>
+                    <div class="chart-container-m" id="barplot"></div>
+
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Distribuce politiků dle počtu zmínek</h3>
+                        <p class="chart-subtitle">Každý sloupec udává kolik politiků bylo zmíněno daný počet krát</p>
+                    </div>
+                    <div class="chart-container-m" id="barplot1"></div>
+
+                </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle počtu zmínek</h3>
+                    <p class="chart-subtitle">Každý sloupec udává kolik příspěvků obsahovalo daný počet zmínek</p>
+                </div>
+                <div class="chart-container-m" id="countdistrib"></div>
+
+            </div>
+    
+        </div>
+</div>
+<div class="right-panel-sentiment">
+        
+        <div class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
+            <label for="sortBy">Řadit podle:</label>
+            <select id="sortBy" onchange="sortTable()" class="form-select">
+
+                <option value="name">Abecedně</option>
+                <option value="averageSentiment">Zmínil n-krát</option>
+                <option value="mentionSentiment">Zmíněn n-krát</option>
+            </select>
+
+
+            <label for="sortOrder">Pořadí:</label>
+            <select id="sortOrder" onchange="sortTable()" class="form-select">
+                <option value="desc">Sestupně</option>
+                <option value="asc">Vzestupně</option>
+
+            </select>
+
+           
+        </div>
+
+        <table id="merged-sentiment-table" class="table styled-table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Politik</th>
+                    <th>Zmínil n-krát</th>
+                    <th>Zmíněn n-krát</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <button id="prevPage" onclick="changePage(-1)">Předchozí</button>
+            <span id="pageNumber">1</span> / <span id="totalPages">1</span>
+            <button id="nextPage" onclick="changePage(1)">Další</button>
+        </div>
+</div>
+</div>
+
+<div id="sit_div" class="export-container" style="display: none;">
+
+    <div class="g-header">
+        <h3>Síť zmínek politiků </h3>
+        <div class="slider-container">
+            <div class="slider-label">
+                Minimální váha hrany:
+                <span id="sliderValue" class="slider-value">1</span>
+            </div>
+            <input type="range" min="1" max="100" value="1" id="slider">
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "mentions_network_2019_today.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="sit" class="svg1"></svg>
+</div>

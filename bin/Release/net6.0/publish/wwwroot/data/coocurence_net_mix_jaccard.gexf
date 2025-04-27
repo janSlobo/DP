@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-04">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Sobotka" label="Sobotka">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Bělobrádek" label="Bělobrádek">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Le Pen" label="Le Pen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Svobodný" label="Svobodný">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dukovany" label="Dukovany">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Temelín" label="Temelín">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="David" label="David">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Novotný" label="Novotný">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Prostějov" label="Prostějov">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Opava" label="Opava">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Šumperk" label="Šumperk">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Hahnova" label="Hahnova">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Dopita" label="Dopita">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="HENNER" label="HENNER">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Paul" label="Paul">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Schmeidler" label="Schmeidler">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Macron" label="Macron">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Juncker" label="Juncker">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Svoboda" label="Svoboda">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Národní sdružení" label="Národní sdružení">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Národní shromáždění" label="Národní shromáždění">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Rassemblement national" label="Rassemblement national">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Wilderse" label="Wilderse">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="TV Prima" label="TV Prima">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Partie" label="Partie">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Moravec" label="Moravec">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Otázky Václava Moravce" label="Otázky Václava Moravce">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Trikolóra" label="Trikolóra">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Klaus ml." label="Klaus ml.">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Legum" label="Legum">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="ENF" label="ENF">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="Evropa národů a svoboda" label="Evropa národů a svoboda">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="Jihlava" label="Jihlava">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Chomutov" label="Chomutov">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Jihlavy" label="Jihlavy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="PS PČR" label="PS PČR">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Horák" label="Horák">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Opavy" label="Opavy">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Příbram" label="Příbram">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Blansko" label="Blansko">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Trutnov" label="Trutnov">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Prostějova" label="Prostějova">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Armáda ČR" label="Armáda ČR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Liberec" label="Liberec">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Doležal" label="Doležal">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Úřad práce" label="Úřad práce">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Polčák" label="Polčák">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Poche" label="Poche">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Feri" label="Feri">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="Eurozóna" label="Eurozóna">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="Eurostat" label="Eurostat">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="Hannan" label="Hannan">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="Nos" label="Nos">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hrnčíř" label="Hrnčíř">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Atkinson" label="Atkinson">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="Bárta" label="Bárta">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Šojdrová" label="Šojdrová">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Zdechovský" label="Zdechovský">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Ježek" label="Ježek">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Niedermayer" label="Niedermayer">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Teličko" label="Teličko">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Karlovy Vary" label="Karlovy Vary">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Blaško" label="Blaško">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Facebook" label="Facebook">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Google" label="Google">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Starostové a nezávislí" label="Starostové a nezávislí">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="Pospíšil" label="Pospíšil">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Charanzová" label="Charanzová">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Dlabajová" label="Dlabajová">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="Zlín" label="Zlín">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Jakl" label="Jakl">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Jedlička" label="Jedlička">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="Konzervativní strana" label="Konzervativní strana">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="Agrární komora ČR" label="Agrární komora ČR">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Palacký" label="Palacký">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jandejsek" label="Jandejsek">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="SPO" label="SPO">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="Brichta" label="Brichta">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="Mnichově" label="Mnichově">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="České Budějovice" label="České Budějovice">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Litoměřice" label="Litoměřice">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Teplice" label="Teplice">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sobotka" target="Bělobrádek" id="0" weight="0.17061143984220908" />
+      <edge source="Le Pen" target="Svobodný" id="1" weight="0.18294849023090587" />
+      <edge source="Svobodný" target="Národní sdružení" id="2" weight="0.23076923076923078" />
+      <edge source="Svobodný" target="Legum" id="3" weight="0.19642857142857142" />
+      <edge source="Dukovany" target="Temelín" id="4" weight="0.19435736677115986" />
+      <edge source="David" target="Novotný" id="5" weight="0.15579710144927536" />
+      <edge source="David" target="Prostějov" id="6" weight="0.15808823529411764" />
+      <edge source="David" target="Opava" id="7" weight="0.16538461538461538" />
+      <edge source="David" target="Šumperk" id="8" weight="0.16602316602316602" />
+      <edge source="David" target="Hahnova" id="9" weight="0.16996047430830039" />
+      <edge source="David" target="Dopita" id="10" weight="0.176" />
+      <edge source="David" target="HENNER" id="11" weight="0.17269076305220885" />
+      <edge source="David" target="Paul" id="12" weight="0.17269076305220885" />
+      <edge source="David" target="Schmeidler" id="13" weight="0.17269076305220885" />
+      <edge source="Novotný" target="Evropa národů a svoboda" id="14" weight="0.15476190476190477" />
+      <edge source="Novotný" target="Hrnčíř" id="15" weight="0.21641791044776118" />
+      <edge source="Novotný" target="Armáda ČR" id="16" weight="0.25217391304347825" />
+      <edge source="Novotný" target="Doležal" id="17" weight="0.25663716814159293" />
+      <edge source="Novotný" target="Úřad práce" id="18" weight="0.2636363636363636" />
+      <edge source="Novotný" target="Národní sdružení" id="19" weight="0.24074074074074073" />
+      <edge source="Novotný" target="Legum" id="20" weight="0.20952380952380953" />
+      <edge source="Novotný" target="Opava" id="21" weight="0.22772277227722773" />
+      <edge source="Novotný" target="Chomutov" id="22" weight="0.5121951219512195" />
+      <edge source="Novotný" target="Šumperk" id="23" weight="0.5375" />
+      <edge source="Novotný" target="Horák" id="24" weight="0.32222222222222224" />
+      <edge source="Novotný" target="Hahnova" id="25" weight="0.581081081081081" />
+      <edge source="Novotný" target="Opavy" id="26" weight="0.19791666666666666" />
+      <edge source="Novotný" target="HENNER" id="27" weight="0.25555555555555554" />
+      <edge source="Novotný" target="Paul" id="28" weight="0.6142857142857143" />
+      <edge source="Novotný" target="Příbram" id="29" weight="0.3493975903614458" />
+      <edge source="Novotný" target="Blansko" id="30" weight="0.35365853658536583" />
+      <edge source="Novotný" target="Trutnov" id="31" weight="0.37037037037037035" />
+      <edge source="Prostějov" target="Evropa národů a svoboda" id="32" weight="0.15853658536585366" />
+      <edge source="Prostějov" target="Hrnčíř" id="33" weight="0.2230769230769231" />
+      <edge source="Prostějov" target="Blaško" id="34" weight="0.16260162601626016" />
+      <edge source="Prostějov" target="Doležal" id="35" weight="0.26605504587155965" />
+      <edge source="Prostějov" target="Úřad práce" id="36" weight="0.27358490566037735" />
+      <edge source="Prostějov" target="Národní sdružení" id="37" weight="0.25" />
+      <edge source="Prostějov" target="Legum" id="38" weight="0.21782178217821782" />
+      <edge source="Prostějov" target="Jihlava" id="39" weight="0.3118279569892473" />
+      <edge source="Prostějov" target="Šumperk" id="40" weight="0.5866666666666667" />
+      <edge source="Prostějov" target="Jihlavy" id="41" weight="0.32954545454545453" />
+      <edge source="Prostějov" target="PS PČR" id="42" weight="0.32954545454545453" />
+      <edge source="Prostějov" target="Horák" id="43" weight="0.3372093023255814" />
+      <edge source="Prostějov" target="Dopita" id="44" weight="0.6323529411764706" />
+      <edge source="Prostějov" target="Příbram" id="45" weight="0.3670886075949367" />
+      <edge source="Prostějov" target="Blansko" id="46" weight="0.38961038961038963" />
+      <edge source="Prostějov" target="Trutnov" id="47" weight="0.3717948717948718" />
+      <edge source="Opava" target="ENF" id="48" weight="0.15853658536585366" />
+      <edge source="Opava" target="Evropa národů a svoboda" id="49" weight="0.17105263157894737" />
+      <edge source="Opava" target="Hrnčíř" id="50" weight="0.2457627118644068" />
+      <edge source="Opava" target="Blaško" id="51" weight="0.25961538461538464" />
+      <edge source="Opava" target="Armáda ČR" id="52" weight="0.1743119266055046" />
+      <edge source="Opava" target="Liberec" id="53" weight="0.15315315315315314" />
+      <edge source="Opava" target="Doležal" id="54" weight="0.29896907216494845" />
+      <edge source="Opava" target="Úřad práce" id="55" weight="0.30851063829787234" />
+      <edge source="Opava" target="Národní sdružení" id="56" weight="0.2826086956521739" />
+      <edge source="Opava" target="Legum" id="57" weight="0.24719101123595505" />
+      <edge source="Opava" target="Chomutov" id="58" weight="0.6363636363636364" />
+      <edge source="Opava" target="Šumperk" id="59" weight="0.6984126984126984" />
+      <edge source="Opava" target="Horák" id="60" weight="0.3918918918918919" />
+      <edge source="Opava" target="Hahnova" id="61" weight="0.7413793103448276" />
+      <edge source="Opava" target="Opavy" id="62" weight="0.4142857142857143" />
+      <edge source="Opava" target="Paul" id="63" weight="0.7962962962962963" />
+      <edge source="Opava" target="Příbram" id="64" weight="0.43283582089552236" />
+      <edge source="Opava" target="Blansko" id="65" weight="0.46153846153846156" />
+      <edge source="Opava" target="Trutnov" id="66" weight="0.4393939393939394" />
+      <edge source="Šumperk" target="ENF" id="67" weight="0.15950920245398773" />
+      <edge source="Šumperk" target="Evropa národů a svoboda" id="68" weight="0.17218543046357615" />
+      <edge source="Šumperk" target="Nos" id="69" weight="0.38738738738738737" />
+      <edge source="Šumperk" target="Hrnčíř" id="70" weight="0.24786324786324787" />
+      <edge source="Šumperk" target="Karlovy Vary" id="71" weight="0.19166666666666668" />
+      <edge source="Šumperk" target="Blaško" id="72" weight="0.4942528735632184" />
+      <edge source="Šumperk" target="Armáda ČR" id="73" weight="0.29591836734693877" />
+      <edge source="Šumperk" target="Liberec" id="74" weight="0.29591836734693877" />
+      <edge source="Šumperk" target="Doležal" id="75" weight="0.3020833333333333" />
+      <edge source="Šumperk" target="Úřad práce" id="76" weight="0.3118279569892473" />
+      <edge source="Šumperk" target="Národní sdružení" id="77" weight="0.2857142857142857" />
+      <edge source="Šumperk" target="Legum" id="78" weight="0.25" />
+      <edge source="Šumperk" target="Jihlava" id="79" weight="0.379746835443038" />
+      <edge source="Šumperk" target="Chomutov" id="80" weight="0.6461538461538462" />
+      <edge source="Šumperk" target="Jihlavy" id="81" weight="0.38666666666666666" />
+      <edge source="Šumperk" target="PS PČR" id="82" weight="0.38666666666666666" />
+      <edge source="Šumperk" target="Horák" id="83" weight="0.3972602739726027" />
+      <edge source="Šumperk" target="Litoměřice" id="84" weight="0.16091954022988506" />
+      <edge source="Šumperk" target="Hahnova" id="85" weight="0.7543859649122807" />
+      <edge source="Šumperk" target="Dopita" id="86" weight="0.7818181818181819" />
+      <edge source="Šumperk" target="Opavy" id="87" weight="0.42028985507246375" />
+      <edge source="Šumperk" target="Teplice" id="88" weight="0.16666666666666666" />
+      <edge source="Šumperk" target="Paul" id="89" weight="0.8113207547169812" />
+      <edge source="Šumperk" target="Příbram" id="90" weight="0.4393939393939394" />
+      <edge source="Šumperk" target="Blansko" id="91" weight="0.49206349206349204" />
+      <edge source="Šumperk" target="Trutnov" id="92" weight="0.4461538461538462" />
+      <edge source="Šumperk" target="Jakl" id="93" weight="0.17721518987341772" />
+      <edge source="Šumperk" target="Prostějova" id="94" weight="0.453125" />
+      <edge source="Hahnova" target="ENF" id="95" weight="0.16560509554140126" />
+      <edge source="Hahnova" target="Evropa národů a svoboda" id="96" weight="0.1793103448275862" />
+      <edge source="Hahnova" target="Karlovy Vary" id="97" weight="0.20175438596491227" />
+      <edge source="Hahnova" target="Blaško" id="98" weight="0.2653061224489796" />
+      <edge source="Hahnova" target="Armáda ČR" id="99" weight="0.18627450980392157" />
+      <edge source="Hahnova" target="Liberec" id="100" weight="0.31521739130434784" />
+      <edge source="Hahnova" target="Doležal" id="101" weight="0.32222222222222224" />
+      <edge source="Hahnova" target="Úřad práce" id="102" weight="0.3333333333333333" />
+      <edge source="Hahnova" target="Národní sdružení" id="103" weight="0.3058823529411765" />
+      <edge source="Hahnova" target="Legum" id="104" weight="0.2682926829268293" />
+      <edge source="Hahnova" target="Jihlava" id="105" weight="0.3918918918918919" />
+      <edge source="Hahnova" target="Chomutov" id="106" weight="0.7413793103448276" />
+      <edge source="Hahnova" target="Jihlavy" id="107" weight="0.42028985507246375" />
+      <edge source="Hahnova" target="Horák" id="108" weight="0.43283582089552236" />
+      <edge source="Hahnova" target="Litoměřice" id="109" weight="0.1728395061728395" />
+      <edge source="Hahnova" target="Opavy" id="110" weight="0.4603174603174603" />
+      <edge source="Hahnova" target="HENNER" id="111" weight="0.9148936170212766" />
+      <edge source="Hahnova" target="Paul" id="112" weight="0.9148936170212766" />
+      <edge source="Hahnova" target="Příbram" id="113" weight="0.48333333333333334" />
+      <edge source="Hahnova" target="Blansko" id="114" weight="0.4915254237288136" />
+      <edge source="Hahnova" target="Trutnov" id="115" weight="0.4915254237288136" />
+      <edge source="Dopita" target="ENF" id="116" weight="0.17532467532467533" />
+      <edge source="Dopita" target="Evropa národů a svoboda" id="117" weight="0.19014084507042253" />
+      <edge source="Dopita" target="Karlovy Vary" id="118" weight="0.20535714285714285" />
+      <edge source="Dopita" target="Blaško" id="119" weight="0.18446601941747573" />
+      <edge source="Dopita" target="Liberec" id="120" weight="0.32222222222222224" />
+      <edge source="Dopita" target="Úřad práce" id="121" weight="0.3411764705882353" />
+      <edge source="Dopita" target="Národní sdružení" id="122" weight="0.32926829268292684" />
+      <edge source="Dopita" target="Legum" id="123" weight="0.275" />
+      <edge source="Dopita" target="Jihlava" id="124" weight="0.4027777777777778" />
+      <edge source="Dopita" target="Jihlavy" id="125" weight="0.43283582089552236" />
+      <edge source="Dopita" target="Horák" id="126" weight="0.4461538461538462" />
+      <edge source="Dopita" target="Opavy" id="127" weight="0.47540983606557374" />
+      <edge source="Dopita" target="HENNER" id="128" weight="0.9555555555555556" />
+      <edge source="Dopita" target="Paul" id="129" weight="0.9555555555555556" />
+      <edge source="Dopita" target="Příbram" id="130" weight="0.5" />
+      <edge source="Dopita" target="Blansko" id="131" weight="0.5087719298245614" />
+      <edge source="Dopita" target="Trutnov" id="132" weight="0.5087719298245614" />
+      <edge source="Dopita" target="Prostějova" id="133" weight="0.5178571428571429" />
+      <edge source="HENNER" target="ENF" id="134" weight="0.16993464052287582" />
+      <edge source="HENNER" target="Evropa národů a svoboda" id="135" weight="0.18439716312056736" />
+      <edge source="HENNER" target="Hrnčíř" id="136" weight="0.27102803738317754" />
+      <edge source="HENNER" target="Karlovy Vary" id="137" weight="0.20909090909090908" />
+      <edge source="HENNER" target="Blaško" id="138" weight="0.5584415584415584" />
+      <edge source="HENNER" target="Armáda ČR" id="139" weight="0.32954545454545453" />
+      <edge source="HENNER" target="Národní sdružení" id="140" weight="0.32098765432098764" />
+      <edge source="HENNER" target="Legum" id="141" weight="0.28205128205128205" />
+      <edge source="HENNER" target="České Budějovice" id="142" weight="0.16470588235294117" />
+      <edge source="HENNER" target="Jihlava" id="143" weight="0.4142857142857143" />
+      <edge source="HENNER" target="Chomutov" id="144" weight="0.7636363636363637" />
+      <edge source="HENNER" target="Jihlavy" id="145" weight="0.4461538461538462" />
+      <edge source="HENNER" target="PS PČR" id="146" weight="0.4461538461538462" />
+      <edge source="HENNER" target="Horák" id="147" weight="0.4603174603174603" />
+      <edge source="HENNER" target="Litoměřice" id="148" weight="0.18181818181818182" />
+      <edge source="HENNER" target="Teplice" id="149" weight="0.1891891891891892" />
+      <edge source="HENNER" target="Paul" id="150" weight="0.16216216216216217" />
+      <edge source="HENNER" target="Schmeidler" id="151" weight="0.1780821917808219" />
+      <edge source="HENNER" target="Blansko" id="152" weight="0.5272727272727272" />
+      <edge source="HENNER" target="Trutnov" id="153" weight="0.5272727272727272" />
+      <edge source="HENNER" target="Jakl" id="154" weight="0.2028985507246377" />
+      <edge source="Paul" target="ENF" id="155" weight="0.16993464052287582" />
+      <edge source="Paul" target="Evropa národů a svoboda" id="156" weight="0.18439716312056736" />
+      <edge source="Paul" target="Hrnčíř" id="157" weight="0.27102803738317754" />
+      <edge source="Paul" target="Karlovy Vary" id="158" weight="0.20909090909090908" />
+      <edge source="Paul" target="Blaško" id="159" weight="0.5584415584415584" />
+      <edge source="Paul" target="Armáda ČR" id="160" weight="0.32954545454545453" />
+      <edge source="Paul" target="Liberec" id="161" weight="0.32954545454545453" />
+      <edge source="Paul" target="Národní sdružení" id="162" weight="0.32098765432098764" />
+      <edge source="Paul" target="Legum" id="163" weight="0.28205128205128205" />
+      <edge source="Paul" target="České Budějovice" id="164" weight="0.16470588235294117" />
+      <edge source="Paul" target="Jihlava" id="165" weight="0.4142857142857143" />
+      <edge source="Paul" target="Chomutov" id="166" weight="0.7636363636363637" />
+      <edge source="Paul" target="Jihlavy" id="167" weight="0.4461538461538462" />
+      <edge source="Paul" target="PS PČR" id="168" weight="0.4461538461538462" />
+      <edge source="Paul" target="Litoměřice" id="169" weight="0.18181818181818182" />
+      <edge source="Paul" target="Opavy" id="170" weight="0.4915254237288136" />
+      <edge source="Paul" target="Blansko" id="171" weight="0.5272727272727272" />
+      <edge source="Paul" target="Jakl" id="172" weight="0.2028985507246377" />
+      <edge source="Paul" target="Prostějova" id="173" weight="0.5370370370370371" />
+      <edge source="Schmeidler" target="ENF" id="174" weight="0.16993464052287582" />
+      <edge source="Schmeidler" target="Evropa národů a svoboda" id="175" weight="0.18439716312056736" />
+      <edge source="Schmeidler" target="Hrnčíř" id="176" weight="0.27102803738317754" />
+      <edge source="Schmeidler" target="Karlovy Vary" id="177" weight="0.20909090909090908" />
+      <edge source="Schmeidler" target="Armáda ČR" id="178" weight="0.32954545454545453" />
+      <edge source="Schmeidler" target="Liberec" id="179" weight="0.32954545454545453" />
+      <edge source="Schmeidler" target="Doležal" id="180" weight="0.3372093023255814" />
+      <edge source="Schmeidler" target="Úřad práce" id="181" weight="0.3493975903614458" />
+      <edge source="Schmeidler" target="Národní sdružení" id="182" weight="0.32098765432098764" />
+      <edge source="Schmeidler" target="Legum" id="183" weight="0.28205128205128205" />
+      <edge source="Schmeidler" target="Jihlava" id="184" weight="0.4142857142857143" />
+      <edge source="Schmeidler" target="Jihlavy" id="185" weight="0.4461538461538462" />
+      <edge source="Schmeidler" target="PS PČR" id="186" weight="0.4461538461538462" />
+      <edge source="Schmeidler" target="Horák" id="187" weight="0.4603174603174603" />
+      <edge source="Schmeidler" target="Opavy" id="188" weight="0.4915254237288136" />
+      <edge source="Schmeidler" target="Příbram" id="189" weight="0.5178571428571429" />
+      <edge source="Schmeidler" target="Blansko" id="190" weight="0.5272727272727272" />
+      <edge source="Schmeidler" target="Prostějova" id="191" weight="0.5370370370370371" />
+      <edge source="Macron" target="Juncker" id="192" weight="0.15625" />
+      <edge source="Svoboda" target="Národní sdružení" id="193" weight="0.15546218487394958" />
+      <edge source="Svoboda" target="Národní shromáždění" id="194" weight="0.2081447963800905" />
+      <edge source="Svoboda" target="Rassemblement national" id="195" weight="0.19248826291079812" />
+      <edge source="Národní sdružení" target="Wilderse" id="196" weight="0.19004524886877827" />
+      <edge source="Národní sdružení" target="Nos" id="197" weight="0.1956521739130435" />
+      <edge source="Národní sdružení" target="Hrnčíř" id="198" weight="0.1984732824427481" />
+      <edge source="Národní sdružení" target="Blaško" id="199" weight="0.22608695652173913" />
+      <edge source="Národní sdružení" target="Armáda ČR" id="200" weight="0.23214285714285715" />
+      <edge source="Národní sdružení" target="Liberec" id="201" weight="0.23214285714285715" />
+      <edge source="Národní sdružení" target="Doležal" id="202" weight="0.24770642201834864" />
+      <edge source="Národní sdružení" target="Úřad práce" id="203" weight="0.24299065420560748" />
+      <edge source="Národní sdružení" target="Jihlava" id="204" weight="0.2765957446808511" />
+      <edge source="Národní sdružení" target="Chomutov" id="205" weight="0.2826086956521739" />
+      <edge source="Národní sdružení" target="Jihlavy" id="206" weight="0.29213483146067415" />
+      <edge source="Národní sdružení" target="PS PČR" id="207" weight="0.29213483146067415" />
+      <edge source="Národní sdružení" target="Horák" id="208" weight="0.2988505747126437" />
+      <edge source="Národní sdružení" target="Opavy" id="209" weight="0.3132530120481928" />
+      <edge source="Národní sdružení" target="Příbram" id="210" weight="0.325" />
+      <edge source="Národní sdružení" target="Blansko" id="211" weight="0.3291139240506329" />
+      <edge source="Národní sdružení" target="Trutnov" id="212" weight="0.3291139240506329" />
+      <edge source="Národní sdružení" target="Prostějova" id="213" weight="0.3333333333333333" />
+      <edge source="Národní shromáždění" target="Legum" id="214" weight="0.15306122448979592" />
+      <edge source="Národní shromáždění" target="Rassemblement national" id="215" weight="0.7068965517241379" />
+      <edge source="Rassemblement national" target="Wilderse" id="216" weight="0.17475728155339806" />
+      <edge source="Rassemblement national" target="Legum" id="217" weight="0.19047619047619047" />
+      <edge source="TV Prima" target="Partie" id="218" weight="0.2591093117408907" />
+      <edge source="Moravec" target="Otázky Václava Moravce" id="219" weight="0.66875" />
+      <edge source="Trikolóra" target="Klaus ml." id="220" weight="0.20108695652173914" />
+      <edge source="Legum" target="Nos" id="221" weight="0.16176470588235295" />
+      <edge source="Legum" target="Hrnčíř" id="222" weight="0.171875" />
+      <edge source="Legum" target="Blaško" id="223" weight="0.19642857142857142" />
+      <edge source="Legum" target="Armáda ČR" id="224" weight="0.2018348623853211" />
+      <edge source="Legum" target="Liberec" id="225" weight="0.2018348623853211" />
+      <edge source="Legum" target="Doležal" id="226" weight="0.205607476635514" />
+      <edge source="Legum" target="Úřad práce" id="227" weight="0.21153846153846154" />
+      <edge source="Legum" target="Jihlava" id="228" weight="0.24175824175824176" />
+      <edge source="Legum" target="Chomutov" id="229" weight="0.24719101123595505" />
+      <edge source="Legum" target="Jihlavy" id="230" weight="0.2558139534883721" />
+      <edge source="Legum" target="PS PČR" id="231" weight="0.2558139534883721" />
+      <edge source="Legum" target="Horák" id="232" weight="0.2619047619047619" />
+      <edge source="Legum" target="Opavy" id="233" weight="0.275" />
+      <edge source="Legum" target="Příbram" id="234" weight="0.2857142857142857" />
+      <edge source="Legum" target="Blansko" id="235" weight="0.2894736842105263" />
+      <edge source="Legum" target="Trutnov" id="236" weight="0.2894736842105263" />
+      <edge source="Legum" target="Prostějova" id="237" weight="0.29333333333333333" />
+      <edge source="ENF" target="Evropa národů a svoboda" id="238" weight="0.6993464052287581" />
+      <edge source="ENF" target="Jihlava" id="239" weight="0.1566265060240964" />
+      <edge source="ENF" target="Chomutov" id="240" weight="0.15853658536585366" />
+      <edge source="ENF" target="Jihlavy" id="241" weight="0.16149068322981366" />
+      <edge source="ENF" target="PS PČR" id="242" weight="0.16149068322981366" />
+      <edge source="ENF" target="Horák" id="243" weight="0.16352201257861634" />
+      <edge source="ENF" target="Opavy" id="244" weight="0.16774193548387098" />
+      <edge source="ENF" target="Příbram" id="245" weight="0.17105263157894737" />
+      <edge source="ENF" target="Blansko" id="246" weight="0.17218543046357615" />
+      <edge source="ENF" target="Trutnov" id="247" weight="0.17218543046357615" />
+      <edge source="ENF" target="Prostějova" id="248" weight="0.17333333333333334" />
+      <edge source="Evropa národů a svoboda" target="Armáda ČR" id="249" weight="0.1511627906976744" />
+      <edge source="Evropa národů a svoboda" target="Liberec" id="250" weight="0.1511627906976744" />
+      <edge source="Evropa národů a svoboda" target="Doležal" id="251" weight="0.15976331360946747" />
+      <edge source="Evropa národů a svoboda" target="Úřad práce" id="252" weight="0.15568862275449102" />
+      <edge source="Evropa národů a svoboda" target="Jihlava" id="253" weight="0.16883116883116883" />
+      <edge source="Evropa národů a svoboda" target="Chomutov" id="254" weight="0.17105263157894737" />
+      <edge source="Evropa národů a svoboda" target="Jihlavy" id="255" weight="0.174496644295302" />
+      <edge source="Evropa národů a svoboda" target="PS PČR" id="256" weight="0.174496644295302" />
+      <edge source="Evropa národů a svoboda" target="Horák" id="257" weight="0.17687074829931973" />
+      <edge source="Evropa národů a svoboda" target="Opavy" id="258" weight="0.18181818181818182" />
+      <edge source="Evropa národů a svoboda" target="Příbram" id="259" weight="0.18571428571428572" />
+      <edge source="Evropa národů a svoboda" target="Blansko" id="260" weight="0.18705035971223022" />
+      <edge source="Evropa národů a svoboda" target="Trutnov" id="261" weight="0.18705035971223022" />
+      <edge source="Evropa národů a svoboda" target="Prostějova" id="262" weight="0.18840579710144928" />
+      <edge source="Jihlava" target="Nos" id="263" weight="0.23622047244094488" />
+      <edge source="Jihlava" target="Hrnčíř" id="264" weight="0.24166666666666667" />
+      <edge source="Jihlava" target="Blaško" id="265" weight="0.27884615384615385" />
+      <edge source="Jihlava" target="Armáda ČR" id="266" weight="0.2871287128712871" />
+      <edge source="Jihlava" target="Chomutov" id="267" weight="0.35802469135802467" />
+      <edge source="Jihlava" target="Jihlavy" id="268" weight="0.4266666666666667" />
+      <edge source="Jihlava" target="PS PČR" id="269" weight="0.3717948717948718" />
+      <edge source="Jihlava" target="Blansko" id="270" weight="0.44776119402985076" />
+      <edge source="Jihlava" target="Prostějova" id="271" weight="0.43283582089552236" />
+      <edge source="Chomutov" target="Karlovy Vary" id="272" weight="0.19008264462809918" />
+      <edge source="Chomutov" target="Blaško" id="273" weight="0.24761904761904763" />
+      <edge source="Chomutov" target="Armáda ČR" id="274" weight="0.1743119266055046" />
+      <edge source="Chomutov" target="Liberec" id="275" weight="0.29292929292929293" />
+      <edge source="Chomutov" target="Doležal" id="276" weight="0.29896907216494845" />
+      <edge source="Chomutov" target="Jihlavy" id="277" weight="0.3815789473684211" />
+      <edge source="Chomutov" target="Horák" id="278" weight="0.3918918918918919" />
+      <edge source="Chomutov" target="Litoměřice" id="279" weight="0.1590909090909091" />
+      <edge source="Chomutov" target="Opavy" id="280" weight="0.4142857142857143" />
+      <edge source="Chomutov" target="Příbram" id="281" weight="0.43283582089552236" />
+      <edge source="Chomutov" target="Blansko" id="282" weight="0.4393939393939394" />
+      <edge source="Chomutov" target="Trutnov" id="283" weight="0.4393939393939394" />
+      <edge source="Jihlavy" target="Nos" id="284" weight="0.23577235772357724" />
+      <edge source="Jihlavy" target="Hrnčíř" id="285" weight="0.25217391304347825" />
+      <edge source="Jihlavy" target="Blaško" id="286" weight="0.29292929292929293" />
+      <edge source="Jihlavy" target="Armáda ČR" id="287" weight="0.3020833333333333" />
+      <edge source="Jihlavy" target="PS PČR" id="288" weight="0.3972602739726027" />
+      <edge source="Jihlavy" target="Blansko" id="289" weight="0.4603174603174603" />
+      <edge source="Jihlavy" target="Prostějova" id="290" weight="0.46774193548387094" />
+      <edge source="PS PČR" target="Hrnčíř" id="291" weight="0.25217391304347825" />
+      <edge source="PS PČR" target="Karlovy Vary" id="292" weight="0.19491525423728814" />
+      <edge source="PS PČR" target="Doležal" id="293" weight="0.30851063829787234" />
+      <edge source="PS PČR" target="Úřad práce" id="294" weight="0.31868131868131866" />
+      <edge source="PS PČR" target="Horák" id="295" weight="0.4084507042253521" />
+      <edge source="PS PČR" target="Příbram" id="296" weight="0.453125" />
+      <edge source="PS PČR" target="Blansko" id="297" weight="0.4603174603174603" />
+      <edge source="PS PČR" target="Trutnov" id="298" weight="0.4603174603174603" />
+      <edge source="PS PČR" target="Prostějova" id="299" weight="0.46774193548387094" />
+      <edge source="Horák" target="Hrnčíř" id="300" weight="0.25663716814159293" />
+      <edge source="Horák" target="Blaško" id="301" weight="0.29896907216494845" />
+      <edge source="Horák" target="Armáda ČR" id="302" weight="0.30851063829787234" />
+      <edge source="Horák" target="Liberec" id="303" weight="0.30851063829787234" />
+      <edge source="Horák" target="Doležal" id="304" weight="0.31521739130434784" />
+      <edge source="Horák" target="Úřad práce" id="305" weight="0.3258426966292135" />
+      <edge source="Horák" target="Opavy" id="306" weight="0.4461538461538462" />
+      <edge source="Horák" target="Příbram" id="307" weight="0.46774193548387094" />
+      <edge source="Horák" target="Blansko" id="308" weight="0.47540983606557374" />
+      <edge source="Horák" target="Prostějova" id="309" weight="0.48333333333333334" />
+      <edge source="Opavy" target="Nos" id="310" weight="0.24786324786324787" />
+      <edge source="Opavy" target="Hrnčíř" id="311" weight="0.26605504587155965" />
+      <edge source="Opavy" target="Blaško" id="312" weight="0.18446601941747573" />
+      <edge source="Opavy" target="Armáda ČR" id="313" weight="0.19" />
+      <edge source="Opavy" target="Liberec" id="314" weight="0.16666666666666666" />
+      <edge source="Opavy" target="Doležal" id="315" weight="0.32954545454545453" />
+      <edge source="Opavy" target="Úřad práce" id="316" weight="0.3411764705882353" />
+      <edge source="Opavy" target="Příbram" id="317" weight="0.5" />
+      <edge source="Opavy" target="Blansko" id="318" weight="0.5087719298245614" />
+      <edge source="Opavy" target="Trutnov" id="319" weight="0.5087719298245614" />
+      <edge source="Příbram" target="Nos" id="320" weight="0.1721311475409836" />
+      <edge source="Příbram" target="Hrnčíř" id="321" weight="0.27358490566037735" />
+      <edge source="Příbram" target="Blaško" id="322" weight="0.32222222222222224" />
+      <edge source="Příbram" target="Armáda ČR" id="323" weight="0.3333333333333333" />
+      <edge source="Příbram" target="Doležal" id="324" weight="0.3411764705882353" />
+      <edge source="Příbram" target="Úřad práce" id="325" weight="0.35365853658536583" />
+      <edge source="Příbram" target="Blansko" id="326" weight="0.5370370370370371" />
+      <edge source="Příbram" target="Trutnov" id="327" weight="0.5370370370370371" />
+      <edge source="Příbram" target="Prostějova" id="328" weight="0.5471698113207547" />
+      <edge source="Blansko" target="Nos" id="329" weight="0.25663716814159293" />
+      <edge source="Blansko" target="Hrnčíř" id="330" weight="0.2761904761904762" />
+      <edge source="Blansko" target="Karlovy Vary" id="331" weight="0.21296296296296297" />
+      <edge source="Blansko" target="Liberec" id="332" weight="0.3372093023255814" />
+      <edge source="Blansko" target="Doležal" id="333" weight="0.34523809523809523" />
+      <edge source="Blansko" target="Úřad práce" id="334" weight="0.35802469135802467" />
+      <edge source="Blansko" target="Trutnov" id="335" weight="0.5471698113207547" />
+      <edge source="Blansko" target="Prostějova" id="336" weight="0.5576923076923077" />
+      <edge source="Trutnov" target="Hrnčíř" id="337" weight="0.2761904761904762" />
+      <edge source="Trutnov" target="Karlovy Vary" id="338" weight="0.21296296296296297" />
+      <edge source="Trutnov" target="Blaško" id="339" weight="0.3258426966292135" />
+      <edge source="Trutnov" target="Armáda ČR" id="340" weight="0.3372093023255814" />
+      <edge source="Trutnov" target="Liberec" id="341" weight="0.3372093023255814" />
+      <edge source="Trutnov" target="Prostějova" id="342" weight="0.5576923076923077" />
+      <edge source="Prostějova" target="Nos" id="343" weight="0.25892857142857145" />
+      <edge source="Prostějova" target="Hrnčíř" id="344" weight="0.27884615384615385" />
+      <edge source="Prostějova" target="Doležal" id="345" weight="0.3493975903614458" />
+      <edge source="Prostějova" target="Úřad práce" id="346" weight="0.3625" />
+      <edge source="Armáda ČR" target="Nos" id="347" weight="0.19863013698630136" />
+      <edge source="Armáda ČR" target="Karlovy Vary" id="348" weight="0.17985611510791366" />
+      <edge source="Armáda ČR" target="Blaško" id="349" weight="0.23770491803278687" />
+      <edge source="Armáda ČR" target="Liberec" id="350" weight="0.24369747899159663" />
+      <edge source="Armáda ČR" target="Doležal" id="351" weight="0.24786324786324787" />
+      <edge source="Armáda ČR" target="Úřad práce" id="352" weight="0.2543859649122807" />
+      <edge source="Liberec" target="Nos" id="353" weight="0.19863013698630136" />
+      <edge source="Liberec" target="Hrnčíř" id="354" weight="0.21014492753623187" />
+      <edge source="Liberec" target="Blaško" id="355" weight="0.23770491803278687" />
+      <edge source="Doležal" target="Hrnčíř" id="356" weight="0.21323529411764705" />
+      <edge source="Doležal" target="Blaško" id="357" weight="0.2627118644067797" />
+      <edge source="Doležal" target="Úřad práce" id="358" weight="0.25892857142857145" />
+      <edge source="Úřad práce" target="Hrnčíř" id="359" weight="0.21804511278195488" />
+      <edge source="Úřad práce" target="Blaško" id="360" weight="0.24786324786324787" />
+      <edge source="Polčák" target="Poche" id="361" weight="0.17647058823529413" />
+      <edge source="Poche" target="Šojdrová" id="362" weight="0.15384615384615385" />
+      <edge source="Poche" target="Pospíšil" id="363" weight="0.1559633027522936" />
+      <edge source="Feri" target="Eurozóna" id="364" weight="0.15723270440251572" />
+      <edge source="Eurozóna" target="Starostové a nezávislí" id="365" weight="0.17543859649122806" />
+      <edge source="Eurostat" target="Hannan" id="366" weight="0.1652892561983471" />
+      <edge source="Hannan" target="Jedlička" id="367" weight="0.5522388059701493" />
+      <edge source="Hannan" target="Konzervativní strana" id="368" weight="0.7358490566037735" />
+      <edge source="Nos" target="Hrnčíř" id="369" weight="0.22012578616352202" />
+      <edge source="Nos" target="Atkinson" id="370" weight="0.26548672566371684" />
+      <edge source="Nos" target="Bárta" id="371" weight="0.15702479338842976" />
+      <edge source="Atkinson" target="Brichta" id="372" weight="0.3013698630136986" />
+      <edge source="Šojdrová" target="Zdechovský" id="373" weight="0.20689655172413793" />
+      <edge source="Šojdrová" target="Ježek" id="374" weight="0.16129032258064516" />
+      <edge source="Šojdrová" target="Niedermayer" id="375" weight="0.20689655172413793" />
+      <edge source="Šojdrová" target="Teličko" id="376" weight="0.16666666666666666" />
+      <edge source="Ježek" target="Pospíšil" id="377" weight="0.15384615384615385" />
+      <edge source="Ježek" target="Charanzová" id="378" weight="0.4246575342465753" />
+      <edge source="Ježek" target="Dlabajová" id="379" weight="0.4492753623188406" />
+      <edge source="Ježek" target="Niedermayer" id="380" weight="0.323943661971831" />
+      <edge source="Ježek" target="Teličko" id="381" weight="0.49206349206349204" />
+      <edge source="Niedermayer" target="Pospíšil" id="382" weight="0.22105263157894736" />
+      <edge source="Niedermayer" target="Charanzová" id="383" weight="0.35135135135135137" />
+      <edge source="Niedermayer" target="Dlabajová" id="384" weight="0.352112676056338" />
+      <edge source="Teličko" target="Charanzová" id="385" weight="0.4492753623188406" />
+      <edge source="Teličko" target="Dlabajová" id="386" weight="0.47692307692307695" />
+      <edge source="Karlovy Vary" target="Blaško" id="387" weight="0.1597222222222222" />
+      <edge source="Facebook" target="Google" id="388" weight="0.35" />
+      <edge source="Pospíšil" target="Charanzová" id="389" weight="0.17757009345794392" />
+      <edge source="Pospíšil" target="Dlabajová" id="390" weight="0.17307692307692307" />
+      <edge source="Charanzová" target="Dlabajová" id="391" weight="0.65625" />
+      <edge source="Zlín" target="Jakl" id="392" weight="0.15053763440860216" />
+      <edge source="Jakl" target="Litoměřice" id="393" weight="0.1891891891891892" />
+      <edge source="Jakl" target="Teplice" id="394" weight="0.19718309859154928" />
+      <edge source="Jedlička" target="Konzervativní strana" id="395" weight="0.4567901234567901" />
+      <edge source="Agrární komora ČR" target="Palacký" id="396" weight="0.2" />
+      <edge source="Agrární komora ČR" target="Jandejsek" id="397" weight="0.676056338028169" />
+      <edge source="Palacký" target="Jandejsek" id="398" weight="0.21505376344086022" />
+      <edge source="Palacký" target="Mnichově" id="399" weight="0.16853932584269662" />
+      <edge source="SPO" target="Brichta" id="400" weight="0.21052631578947367" />
+    </edges>
+  </graph>
+</gexf>

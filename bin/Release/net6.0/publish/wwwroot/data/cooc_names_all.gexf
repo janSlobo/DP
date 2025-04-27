@@ -1,0 +1,1546 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-24">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Babiš" label="Babiš">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Okamura" label="Okamura">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Zeman" label="Zeman">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hamáček" label="Hamáček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sobotka" label="Sobotka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fiala_p" label="Fiala_p">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Kalousek" label="Kalousek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Schillerová" label="Schillerová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Salvini" label="Salvini">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Putin" label="Putin">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Merkelová" label="Merkelová">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Trump" label="Trump">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Orbán" label="Orbán">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Le Pen" label="Le Pen">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Maláčová" label="Maláčová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Havel" label="Havel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Klaus" label="Klaus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Havlíček" label="Havlíček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vojtěch" label="Vojtěch">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bělobrádek" label="Bělobrádek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Macron" label="Macron">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Masaryk" label="Masaryk">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Soros" label="Soros">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Petříček" label="Petříček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bartoš" label="Bartoš">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Jourová" label="Jourová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="David" label="David">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Juncker" label="Juncker">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Hitler" label="Hitler">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Moravec" label="Moravec">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="von der Leyen" label="von der Leyen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Blatný" label="Blatný">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wilderse" label="Wilderse">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pekarová Adamová" label="Pekarová Adamová">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Schwarzenberg" label="Schwarzenberg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Toman" label="Toman">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johnson" label="Johnson">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Staněk" label="Staněk">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gott" label="Gott">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hřib" label="Hřib">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Rakušan" label="Rakušan">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Foldyna" label="Foldyna">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Dostál" label="Dostál">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vystrčil" label="Vystrčil">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fiala_r" label="Fiala_r">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Volný" label="Volný">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Prymula" label="Prymula">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Benešová" label="Benešová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ťok" label="Ťok">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dvořák" label="Dvořák">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Faltýnek" label="Faltýnek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Brabec" label="Brabec">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Koněv" label="Koněv">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Šafránková" label="Šafránková">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Bakala" label="Bakala">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Filip" label="Filip">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Erdogan" label="Erdogan">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jurečka" label="Jurečka">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Šojdrová" label="Šojdrová">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Zaorálek" label="Zaorálek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Biden" label="Biden">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Gazdík" label="Gazdík">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Polčák" label="Polčák">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Plaga" label="Plaga">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Němcová" label="Němcová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Novák" label="Novák">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Hrnčíř" label="Hrnčíř">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Zdechovský" label="Zdechovský">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Feri" label="Feri">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Pospíšil" label="Pospíšil">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Michálek" label="Michálek">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Vondráček" label="Vondráček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nos" label="Nos">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Křeček" label="Křeček">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Mynář" label="Mynář">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Stanjura" label="Stanjura">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Kreml" label="Kreml">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Farský" label="Farský">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Kovanda" label="Kovanda">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Duka" label="Duka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Blaško" label="Blaško">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Šmarda" label="Šmarda">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Metnar" label="Metnar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Timmermans" label="Timmermans">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nováková" label="Nováková">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Herman" label="Herman">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Charanzová" label="Charanzová">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Klaus ml." label="Klaus ml.">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Čižinský" label="Čižinský">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Niedermayer" label="Niedermayer">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Stropnický" label="Stropnický">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dlabajová" label="Dlabajová">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Poche" label="Poche">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Černochová" label="Černochová">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pelikán" label="Pelikán">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Konečný" label="Konečný">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Ježek" label="Ježek">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Válková" label="Válková">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Chovanec" label="Chovanec">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Šlachta" label="Šlachta">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Arenberger" label="Arenberger">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Paroubek" label="Paroubek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Štětina" label="Štětina">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Teličko" label="Teličko">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Szijjártó" label="Szijjártó">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hyťhová" label="Hyťhová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dienstbier" label="Dienstbier">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Soukup" label="Soukup">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Wilder" label="Wilder">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Novotný" label="Novotný">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Doležal" label="Doležal">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Maříková" label="Maříková">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kobza" label="Kobza">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Holík" label="Holík">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Brichta" label="Brichta">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Horák" label="Horák">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Hahnova" label="Hahnova">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Bárta" label="Bárta">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Paul" label="Paul">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Dopita" label="Dopita">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Atkinson" label="Atkinson">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Henner" label="Henner">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Schmeidler" label="Schmeidler">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Kubera" label="Kubera">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Čaputová" label="Čaputová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ovčáček" label="Ovčáček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fischer" label="Fischer">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Drahoš" label="Drahoš">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Topolánek" label="Topolánek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nečas" label="Nečas">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johansson" label="Johansson">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pokorný" label="Pokorný">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kolář" label="Kolář">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Redl" label="Redl">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Válek" label="Válek">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Hlubuček" label="Hlubuček">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Síkela" label="Síkela">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jedlička" label="Jedlička">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Palacký" label="Palacký">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jandejsek" label="Jandejsek">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Obama" label="Obama">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Beneš" label="Beneš">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Výborný" label="Výborný">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Kupka" label="Kupka">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Jakl" label="Jakl">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Stalin" label="Stalin">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Gottwald" label="Gottwald">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Farage" label="Farage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Corbyn" label="Corbyn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sehnalová" label="Sehnalová">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Lipovský" label="Lipovský">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Peksa" label="Peksa">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Babiš" target="Okamura" id="0" weight="360.0" />
+      <edge source="Babiš" target="Zeman" id="1" weight="589.0" />
+      <edge source="Babiš" target="Hamáček" id="2" weight="356.0" />
+      <edge source="Babiš" target="Sobotka" id="3" weight="540.0" />
+      <edge source="Babiš" target="Fiala_p" id="4" weight="118.0" />
+      <edge source="Babiš" target="Kalousek" id="5" weight="272.0" />
+      <edge source="Babiš" target="Schillerová" id="6" weight="163.0" />
+      <edge source="Babiš" target="Salvini" id="7" weight="83.0" />
+      <edge source="Babiš" target="Putin" id="8" weight="41.0" />
+      <edge source="Babiš" target="Merkelová" id="9" weight="126.0" />
+      <edge source="Babiš" target="Trump" id="10" weight="80.0" />
+      <edge source="Babiš" target="Orbán" id="11" weight="112.0" />
+      <edge source="Babiš" target="Le Pen" id="12" weight="91.0" />
+      <edge source="Babiš" target="Maláčová" id="13" weight="79.0" />
+      <edge source="Babiš" target="Havel" id="14" weight="48.0" />
+      <edge source="Babiš" target="Klaus" id="15" weight="75.0" />
+      <edge source="Babiš" target="Havlíček" id="16" weight="91.0" />
+      <edge source="Babiš" target="Vojtěch" id="17" weight="83.0" />
+      <edge source="Babiš" target="Bělobrádek" id="18" weight="203.0" />
+      <edge source="Babiš" target="Macron" id="19" weight="52.0" />
+      <edge source="Babiš" target="Masaryk" id="20" weight="24.0" />
+      <edge source="Babiš" target="Soros" id="21" weight="69.0" />
+      <edge source="Babiš" target="Petříček" id="22" weight="82.0" />
+      <edge source="Babiš" target="Bartoš" id="23" weight="76.0" />
+      <edge source="Babiš" target="Jourová" id="24" weight="89.0" />
+      <edge source="Babiš" target="David" id="25" weight="30.0" />
+      <edge source="Babiš" target="Juncker" id="26" weight="45.0" />
+      <edge source="Babiš" target="Hitler" id="27" weight="20.0" />
+      <edge source="Babiš" target="Moravec" id="28" weight="39.0" />
+      <edge source="Babiš" target="von der Leyen" id="29" weight="44.0" />
+      <edge source="Babiš" target="Blatný" id="30" weight="49.0" />
+      <edge source="Babiš" target="Wilderse" id="31" weight="40.0" />
+      <edge source="Babiš" target="Pekarová Adamová" id="32" weight="25.0" />
+      <edge source="Babiš" target="Schwarzenberg" id="33" weight="30.0" />
+      <edge source="Babiš" target="Toman" id="34" weight="15.0" />
+      <edge source="Babiš" target="Johnson" id="35" weight="12.0" />
+      <edge source="Babiš" target="Staněk" id="36" weight="39.0" />
+      <edge source="Babiš" target="Gott" id="37" weight="15.0" />
+      <edge source="Babiš" target="Hřib" id="38" weight="21.0" />
+      <edge source="Babiš" target="Rakušan" id="39" weight="19.0" />
+      <edge source="Babiš" target="Foldyna" id="40" weight="24.0" />
+      <edge source="Babiš" target="Dostál" id="41" weight="46.0" />
+      <edge source="Babiš" target="Vystrčil" id="42" weight="16.0" />
+      <edge source="Babiš" target="Fiala_r" id="43" weight="28.0" />
+      <edge source="Babiš" target="Volný" id="44" weight="21.0" />
+      <edge source="Babiš" target="Prymula" id="45" weight="41.0" />
+      <edge source="Babiš" target="Benešová" id="46" weight="49.0" />
+      <edge source="Babiš" target="Ťok" id="47" weight="43.0" />
+      <edge source="Babiš" target="Dvořák" id="48" weight="24.0" />
+      <edge source="Babiš" target="Faltýnek" id="49" weight="47.0" />
+      <edge source="Babiš" target="Brabec" id="50" weight="26.0" />
+      <edge source="Babiš" target="Koněv" id="51" weight="11.0" />
+      <edge source="Babiš" target="Šafránková" id="52" weight="32.0" />
+      <edge source="Babiš" target="Bakala" id="53" weight="49.0" />
+      <edge source="Babiš" target="Filip" id="54" weight="33.0" />
+      <edge source="Babiš" target="Erdogan" id="55" weight="39.0" />
+      <edge source="Babiš" target="Jurečka" id="56" weight="27.0" />
+      <edge source="Babiš" target="Šojdrová" id="57" weight="42.0" />
+      <edge source="Babiš" target="Zaorálek" id="58" weight="37.0" />
+      <edge source="Babiš" target="Biden" id="59" weight="12.0" />
+      <edge source="Babiš" target="Gazdík" id="60" weight="20.0" />
+      <edge source="Babiš" target="Polčák" id="61" weight="17.0" />
+      <edge source="Babiš" target="Plaga" id="62" weight="21.0" />
+      <edge source="Babiš" target="Němcová" id="63" weight="19.0" />
+      <edge source="Babiš" target="Novák" id="64" weight="22.0" />
+      <edge source="Babiš" target="Hrnčíř" id="65" weight="23.0" />
+      <edge source="Babiš" target="Zdechovský" id="66" weight="19.0" />
+      <edge source="Babiš" target="Feri" id="67" weight="33.0" />
+      <edge source="Babiš" target="Pospíšil" id="68" weight="16.0" />
+      <edge source="Babiš" target="Michálek" id="69" weight="12.0" />
+      <edge source="Babiš" target="Vondráček" id="70" weight="13.0" />
+      <edge source="Babiš" target="Nos" id="71" weight="16.0" />
+      <edge source="Babiš" target="Křeček" id="72" weight="12.0" />
+      <edge source="Babiš" target="Mynář" id="73" weight="11.0" />
+      <edge source="Babiš" target="Stanjura" id="74" weight="24.0" />
+      <edge source="Babiš" target="Kreml" id="75" weight="18.0" />
+      <edge source="Babiš" target="Farský" id="76" weight="16.0" />
+      <edge source="Babiš" target="Kovanda" id="77" weight="37.0" />
+      <edge source="Babiš" target="Duka" id="78" weight="12.0" />
+      <edge source="Babiš" target="Blaško" id="79" weight="13.0" />
+      <edge source="Babiš" target="Šmarda" id="80" weight="33.0" />
+      <edge source="Babiš" target="Metnar" id="81" weight="26.0" />
+      <edge source="Babiš" target="Timmermans" id="82" weight="12.0" />
+      <edge source="Babiš" target="Nováková" id="83" weight="12.0" />
+      <edge source="Babiš" target="Herman" id="84" weight="15.0" />
+      <edge source="Babiš" target="Charanzová" id="85" weight="35.0" />
+      <edge source="Babiš" target="Klaus ml." id="86" weight="31.0" />
+      <edge source="Babiš" target="Čižinský" id="87" weight="11.0" />
+      <edge source="Babiš" target="Niedermayer" id="88" weight="13.0" />
+      <edge source="Babiš" target="Stropnický" id="89" weight="31.0" />
+      <edge source="Babiš" target="Dlabajová" id="90" weight="26.0" />
+      <edge source="Babiš" target="Poche" id="91" weight="36.0" />
+      <edge source="Babiš" target="Černochová" id="92" weight="12.0" />
+      <edge source="Babiš" target="Pelikán" id="93" weight="27.0" />
+      <edge source="Babiš" target="Konečný" id="94" weight="15.0" />
+      <edge source="Babiš" target="Ježek" id="95" weight="25.0" />
+      <edge source="Babiš" target="Válková" id="96" weight="16.0" />
+      <edge source="Babiš" target="Chovanec" id="97" weight="21.0" />
+      <edge source="Babiš" target="Šlachta" id="98" weight="26.0" />
+      <edge source="Babiš" target="Arenberger" id="99" weight="20.0" />
+      <edge source="Babiš" target="Paroubek" id="100" weight="11.0" />
+      <edge source="Babiš" target="Štětina" id="101" weight="16.0" />
+      <edge source="Babiš" target="Teličko" id="102" weight="22.0" />
+      <edge source="Babiš" target="Szijjártó" id="103" weight="17.0" />
+      <edge source="Babiš" target="Hyťhová" id="104" weight="11.0" />
+      <edge source="Babiš" target="Dienstbier" id="105" weight="13.0" />
+      <edge source="Okamura" target="Zeman" id="106" weight="156.0" />
+      <edge source="Okamura" target="Hamáček" id="107" weight="55.0" />
+      <edge source="Okamura" target="Sobotka" id="108" weight="238.0" />
+      <edge source="Okamura" target="Fiala_p" id="109" weight="50.0" />
+      <edge source="Okamura" target="Kalousek" id="110" weight="59.0" />
+      <edge source="Okamura" target="Schillerová" id="111" weight="13.0" />
+      <edge source="Okamura" target="Salvini" id="112" weight="92.0" />
+      <edge source="Okamura" target="Putin" id="113" weight="28.0" />
+      <edge source="Okamura" target="Merkelová" id="114" weight="65.0" />
+      <edge source="Okamura" target="Trump" id="115" weight="46.0" />
+      <edge source="Okamura" target="Orbán" id="116" weight="41.0" />
+      <edge source="Okamura" target="Le Pen" id="117" weight="148.0" />
+      <edge source="Okamura" target="Klaus" id="118" weight="35.0" />
+      <edge source="Okamura" target="Bělobrádek" id="119" weight="30.0" />
+      <edge source="Okamura" target="Macron" id="120" weight="19.0" />
+      <edge source="Okamura" target="Soros" id="121" weight="15.0" />
+      <edge source="Okamura" target="Petříček" id="122" weight="11.0" />
+      <edge source="Okamura" target="Bartoš" id="123" weight="16.0" />
+      <edge source="Okamura" target="David" id="124" weight="60.0" />
+      <edge source="Okamura" target="Juncker" id="125" weight="32.0" />
+      <edge source="Okamura" target="Hitler" id="126" weight="23.0" />
+      <edge source="Okamura" target="Moravec" id="127" weight="20.0" />
+      <edge source="Okamura" target="Wilderse" id="128" weight="62.0" />
+      <edge source="Okamura" target="Soukup" id="129" weight="45.0" />
+      <edge source="Okamura" target="Pekarová Adamová" id="130" weight="17.0" />
+      <edge source="Okamura" target="Schwarzenberg" id="131" weight="15.0" />
+      <edge source="Okamura" target="Foldyna" id="132" weight="22.0" />
+      <edge source="Okamura" target="Fiala_r" id="133" weight="96.0" />
+      <edge source="Okamura" target="Volný" id="134" weight="19.0" />
+      <edge source="Okamura" target="Dvořák" id="135" weight="17.0" />
+      <edge source="Okamura" target="Šafránková" id="136" weight="31.0" />
+      <edge source="Okamura" target="Bakala" id="137" weight="18.0" />
+      <edge source="Okamura" target="Filip" id="138" weight="15.0" />
+      <edge source="Okamura" target="Erdogan" id="139" weight="14.0" />
+      <edge source="Okamura" target="Zaorálek" id="140" weight="12.0" />
+      <edge source="Okamura" target="Polčák" id="141" weight="13.0" />
+      <edge source="Okamura" target="Hrnčíř" id="142" weight="31.0" />
+      <edge source="Okamura" target="Nos" id="143" weight="72.0" />
+      <edge source="Okamura" target="Wilder" id="144" weight="43.0" />
+      <edge source="Okamura" target="Farský" id="145" weight="11.0" />
+      <edge source="Okamura" target="Novotný" id="146" weight="18.0" />
+      <edge source="Okamura" target="Blaško" id="147" weight="17.0" />
+      <edge source="Okamura" target="Doležal" id="148" weight="19.0" />
+      <edge source="Okamura" target="Maříková" id="149" weight="15.0" />
+      <edge source="Okamura" target="Pelikán" id="150" weight="14.0" />
+      <edge source="Okamura" target="Kobza" id="151" weight="13.0" />
+      <edge source="Okamura" target="Holík" id="152" weight="43.0" />
+      <edge source="Okamura" target="Brichta" id="153" weight="48.0" />
+      <edge source="Okamura" target="Horák" id="154" weight="15.0" />
+      <edge source="Okamura" target="Hahnova" id="155" weight="16.0" />
+      <edge source="Okamura" target="Bárta" id="156" weight="21.0" />
+      <edge source="Okamura" target="Paul" id="157" weight="15.0" />
+      <edge source="Okamura" target="Dopita" id="158" weight="17.0" />
+      <edge source="Okamura" target="Atkinson" id="159" weight="41.0" />
+      <edge source="Okamura" target="Henner" id="160" weight="15.0" />
+      <edge source="Okamura" target="Schmeidler" id="161" weight="15.0" />
+      <edge source="Okamura" target="Dienstbier" id="162" weight="14.0" />
+      <edge source="Zeman" target="Hamáček" id="163" weight="110.0" />
+      <edge source="Zeman" target="Sobotka" id="164" weight="99.0" />
+      <edge source="Zeman" target="Fiala_p" id="165" weight="34.0" />
+      <edge source="Zeman" target="Kalousek" id="166" weight="51.0" />
+      <edge source="Zeman" target="Schillerová" id="167" weight="29.0" />
+      <edge source="Zeman" target="Salvini" id="168" weight="24.0" />
+      <edge source="Zeman" target="Putin" id="169" weight="45.0" />
+      <edge source="Zeman" target="Merkelová" id="170" weight="35.0" />
+      <edge source="Zeman" target="Trump" id="171" weight="48.0" />
+      <edge source="Zeman" target="Orbán" id="172" weight="35.0" />
+      <edge source="Zeman" target="Le Pen" id="173" weight="29.0" />
+      <edge source="Zeman" target="Maláčová" id="174" weight="17.0" />
+      <edge source="Zeman" target="Havel" id="175" weight="59.0" />
+      <edge source="Zeman" target="Klaus" id="176" weight="86.0" />
+      <edge source="Zeman" target="Havlíček" id="177" weight="21.0" />
+      <edge source="Zeman" target="Vojtěch" id="178" weight="18.0" />
+      <edge source="Zeman" target="Bělobrádek" id="179" weight="22.0" />
+      <edge source="Zeman" target="Macron" id="180" weight="14.0" />
+      <edge source="Zeman" target="Masaryk" id="181" weight="20.0" />
+      <edge source="Zeman" target="Petříček" id="182" weight="35.0" />
+      <edge source="Zeman" target="Bartoš" id="183" weight="12.0" />
+      <edge source="Zeman" target="Jourová" id="184" weight="14.0" />
+      <edge source="Zeman" target="David" id="185" weight="16.0" />
+      <edge source="Zeman" target="Juncker" id="186" weight="12.0" />
+      <edge source="Zeman" target="Hitler" id="187" weight="12.0" />
+      <edge source="Zeman" target="Moravec" id="188" weight="22.0" />
+      <edge source="Zeman" target="Blatný" id="189" weight="19.0" />
+      <edge source="Zeman" target="Schwarzenberg" id="190" weight="32.0" />
+      <edge source="Zeman" target="Staněk" id="191" weight="39.0" />
+      <edge source="Zeman" target="Hřib" id="192" weight="12.0" />
+      <edge source="Zeman" target="Vystrčil" id="193" weight="14.0" />
+      <edge source="Zeman" target="Fiala_r" id="194" weight="14.0" />
+      <edge source="Zeman" target="Prymula" id="195" weight="17.0" />
+      <edge source="Zeman" target="Benešová" id="196" weight="38.0" />
+      <edge source="Zeman" target="Kubera" id="197" weight="17.0" />
+      <edge source="Zeman" target="Dvořák" id="198" weight="18.0" />
+      <edge source="Zeman" target="Bakala" id="199" weight="19.0" />
+      <edge source="Zeman" target="Filip" id="200" weight="18.0" />
+      <edge source="Zeman" target="Zaorálek" id="201" weight="23.0" />
+      <edge source="Zeman" target="Gazdík" id="202" weight="13.0" />
+      <edge source="Zeman" target="Polčák" id="203" weight="13.0" />
+      <edge source="Zeman" target="Čaputová" id="204" weight="13.0" />
+      <edge source="Zeman" target="Němcová" id="205" weight="21.0" />
+      <edge source="Zeman" target="Vondráček" id="206" weight="12.0" />
+      <edge source="Zeman" target="Mynář" id="207" weight="26.0" />
+      <edge source="Zeman" target="Šmarda" id="208" weight="25.0" />
+      <edge source="Zeman" target="Ovčáček" id="209" weight="24.0" />
+      <edge source="Zeman" target="Fischer" id="210" weight="13.0" />
+      <edge source="Zeman" target="Pelikán" id="211" weight="12.0" />
+      <edge source="Zeman" target="Drahoš" id="212" weight="15.0" />
+      <edge source="Zeman" target="Topolánek" id="213" weight="15.0" />
+      <edge source="Zeman" target="Nečas" id="214" weight="12.0" />
+      <edge source="Hamáček" target="Sobotka" id="215" weight="35.0" />
+      <edge source="Hamáček" target="Fiala_p" id="216" weight="16.0" />
+      <edge source="Hamáček" target="Kalousek" id="217" weight="61.0" />
+      <edge source="Hamáček" target="Schillerová" id="218" weight="36.0" />
+      <edge source="Hamáček" target="Salvini" id="219" weight="26.0" />
+      <edge source="Hamáček" target="Putin" id="220" weight="14.0" />
+      <edge source="Hamáček" target="Merkelová" id="221" weight="38.0" />
+      <edge source="Hamáček" target="Trump" id="222" weight="14.0" />
+      <edge source="Hamáček" target="Orbán" id="223" weight="14.0" />
+      <edge source="Hamáček" target="Le Pen" id="224" weight="23.0" />
+      <edge source="Hamáček" target="Maláčová" id="225" weight="55.0" />
+      <edge source="Hamáček" target="Havel" id="226" weight="15.0" />
+      <edge source="Hamáček" target="Klaus" id="227" weight="20.0" />
+      <edge source="Hamáček" target="Havlíček" id="228" weight="36.0" />
+      <edge source="Hamáček" target="Vojtěch" id="229" weight="40.0" />
+      <edge source="Hamáček" target="Petříček" id="230" weight="50.0" />
+      <edge source="Hamáček" target="Bartoš" id="231" weight="44.0" />
+      <edge source="Hamáček" target="Jourová" id="232" weight="12.0" />
+      <edge source="Hamáček" target="Blatný" id="233" weight="29.0" />
+      <edge source="Hamáček" target="Wilderse" id="234" weight="13.0" />
+      <edge source="Hamáček" target="Schwarzenberg" id="235" weight="22.0" />
+      <edge source="Hamáček" target="Staněk" id="236" weight="24.0" />
+      <edge source="Hamáček" target="Foldyna" id="237" weight="19.0" />
+      <edge source="Hamáček" target="Dostál" id="238" weight="12.0" />
+      <edge source="Hamáček" target="Prymula" id="239" weight="18.0" />
+      <edge source="Hamáček" target="Benešová" id="240" weight="19.0" />
+      <edge source="Hamáček" target="Šafránková" id="241" weight="11.0" />
+      <edge source="Hamáček" target="Bakala" id="242" weight="38.0" />
+      <edge source="Hamáček" target="Erdogan" id="243" weight="13.0" />
+      <edge source="Hamáček" target="Šojdrová" id="244" weight="40.0" />
+      <edge source="Hamáček" target="Zaorálek" id="245" weight="15.0" />
+      <edge source="Hamáček" target="Gazdík" id="246" weight="12.0" />
+      <edge source="Hamáček" target="Plaga" id="247" weight="18.0" />
+      <edge source="Hamáček" target="Feri" id="248" weight="27.0" />
+      <edge source="Hamáček" target="Šmarda" id="249" weight="19.0" />
+      <edge source="Hamáček" target="Metnar" id="250" weight="11.0" />
+      <edge source="Hamáček" target="Klaus ml." id="251" weight="25.0" />
+      <edge source="Hamáček" target="Maříková" id="252" weight="30.0" />
+      <edge source="Hamáček" target="Poche" id="253" weight="14.0" />
+      <edge source="Hamáček" target="Šlachta" id="254" weight="17.0" />
+      <edge source="Hamáček" target="Arenberger" id="255" weight="13.0" />
+      <edge source="Hamáček" target="Johansson" id="256" weight="13.0" />
+      <edge source="Hamáček" target="Pokorný" id="257" weight="16.0" />
+      <edge source="Sobotka" target="Fiala_p" id="258" weight="18.0" />
+      <edge source="Sobotka" target="Kalousek" id="259" weight="134.0" />
+      <edge source="Sobotka" target="Putin" id="260" weight="14.0" />
+      <edge source="Sobotka" target="Merkelová" id="261" weight="67.0" />
+      <edge source="Sobotka" target="Trump" id="262" weight="21.0" />
+      <edge source="Sobotka" target="Orbán" id="263" weight="17.0" />
+      <edge source="Sobotka" target="Le Pen" id="264" weight="41.0" />
+      <edge source="Sobotka" target="Maláčová" id="265" weight="14.0" />
+      <edge source="Sobotka" target="Havel" id="266" weight="16.0" />
+      <edge source="Sobotka" target="Klaus" id="267" weight="13.0" />
+      <edge source="Sobotka" target="Bělobrádek" id="268" weight="194.0" />
+      <edge source="Sobotka" target="Juncker" id="269" weight="27.0" />
+      <edge source="Sobotka" target="Schwarzenberg" id="270" weight="26.0" />
+      <edge source="Sobotka" target="Fiala_r" id="271" weight="35.0" />
+      <edge source="Sobotka" target="Bakala" id="272" weight="68.0" />
+      <edge source="Sobotka" target="Erdogan" id="273" weight="14.0" />
+      <edge source="Sobotka" target="Zaorálek" id="274" weight="17.0" />
+      <edge source="Sobotka" target="Nos" id="275" weight="26.0" />
+      <edge source="Sobotka" target="Herman" id="276" weight="11.0" />
+      <edge source="Sobotka" target="Stropnický" id="277" weight="16.0" />
+      <edge source="Sobotka" target="Pelikán" id="278" weight="17.0" />
+      <edge source="Sobotka" target="Holík" id="279" weight="23.0" />
+      <edge source="Sobotka" target="Brichta" id="280" weight="19.0" />
+      <edge source="Sobotka" target="Nečas" id="281" weight="12.0" />
+      <edge source="Sobotka" target="Chovanec" id="282" weight="14.0" />
+      <edge source="Sobotka" target="Atkinson" id="283" weight="16.0" />
+      <edge source="Sobotka" target="Pokorný" id="284" weight="25.0" />
+      <edge source="Sobotka" target="Dienstbier" id="285" weight="18.0" />
+      <edge source="Fiala_p" target="Kalousek" id="286" weight="38.0" />
+      <edge source="Fiala_p" target="Putin" id="287" weight="12.0" />
+      <edge source="Fiala_p" target="Orbán" id="288" weight="16.0" />
+      <edge source="Fiala_p" target="Le Pen" id="289" weight="12.0" />
+      <edge source="Fiala_p" target="Klaus" id="290" weight="22.0" />
+      <edge source="Fiala_p" target="Bělobrádek" id="291" weight="21.0" />
+      <edge source="Fiala_p" target="Bartoš" id="292" weight="32.0" />
+      <edge source="Fiala_p" target="Pekarová Adamová" id="293" weight="44.0" />
+      <edge source="Fiala_p" target="Hřib" id="294" weight="14.0" />
+      <edge source="Fiala_p" target="Rakušan" id="295" weight="83.0" />
+      <edge source="Fiala_p" target="Jurečka" id="296" weight="26.0" />
+      <edge source="Fiala_p" target="Gazdík" id="297" weight="47.0" />
+      <edge source="Fiala_p" target="Polčák" id="298" weight="31.0" />
+      <edge source="Fiala_p" target="Pospíšil" id="299" weight="15.0" />
+      <edge source="Fiala_p" target="Křeček" id="300" weight="21.0" />
+      <edge source="Fiala_p" target="Stanjura" id="301" weight="33.0" />
+      <edge source="Fiala_p" target="Farský" id="302" weight="25.0" />
+      <edge source="Fiala_p" target="Kovanda" id="303" weight="16.0" />
+      <edge source="Fiala_p" target="Kolář" id="304" weight="16.0" />
+      <edge source="Fiala_p" target="Redl" id="305" weight="28.0" />
+      <edge source="Fiala_p" target="Herman" id="306" weight="15.0" />
+      <edge source="Fiala_p" target="Válek" id="307" weight="20.0" />
+      <edge source="Fiala_p" target="Hlubuček" id="308" weight="20.0" />
+      <edge source="Fiala_p" target="Černochová" id="309" weight="28.0" />
+      <edge source="Fiala_p" target="Síkela" id="310" weight="16.0" />
+      <edge source="Kalousek" target="Schillerová" id="311" weight="18.0" />
+      <edge source="Kalousek" target="Salvini" id="312" weight="14.0" />
+      <edge source="Kalousek" target="Putin" id="313" weight="13.0" />
+      <edge source="Kalousek" target="Merkelová" id="314" weight="15.0" />
+      <edge source="Kalousek" target="Trump" id="315" weight="13.0" />
+      <edge source="Kalousek" target="Le Pen" id="316" weight="21.0" />
+      <edge source="Kalousek" target="Klaus" id="317" weight="28.0" />
+      <edge source="Kalousek" target="Bělobrádek" id="318" weight="78.0" />
+      <edge source="Kalousek" target="Macron" id="319" weight="11.0" />
+      <edge source="Kalousek" target="Bartoš" id="320" weight="47.0" />
+      <edge source="Kalousek" target="Wilderse" id="321" weight="11.0" />
+      <edge source="Kalousek" target="Pekarová Adamová" id="322" weight="11.0" />
+      <edge source="Kalousek" target="Schwarzenberg" id="323" weight="26.0" />
+      <edge source="Kalousek" target="Foldyna" id="324" weight="13.0" />
+      <edge source="Kalousek" target="Bakala" id="325" weight="19.0" />
+      <edge source="Kalousek" target="Šojdrová" id="326" weight="22.0" />
+      <edge source="Kalousek" target="Zaorálek" id="327" weight="11.0" />
+      <edge source="Kalousek" target="Gazdík" id="328" weight="17.0" />
+      <edge source="Kalousek" target="Feri" id="329" weight="36.0" />
+      <edge source="Kalousek" target="Stanjura" id="330" weight="11.0" />
+      <edge source="Kalousek" target="Klaus ml." id="331" weight="26.0" />
+      <edge source="Kalousek" target="Šlachta" id="332" weight="17.0" />
+      <edge source="Schillerová" target="Trump" id="333" weight="12.0" />
+      <edge source="Schillerová" target="Maláčová" id="334" weight="43.0" />
+      <edge source="Schillerová" target="Havlíček" id="335" weight="50.0" />
+      <edge source="Schillerová" target="Vojtěch" id="336" weight="53.0" />
+      <edge source="Schillerová" target="Dostál" id="337" weight="38.0" />
+      <edge source="Schillerová" target="Benešová" id="338" weight="15.0" />
+      <edge source="Schillerová" target="Ťok" id="339" weight="17.0" />
+      <edge source="Schillerová" target="Brabec" id="340" weight="33.0" />
+      <edge source="Schillerová" target="Plaga" id="341" weight="21.0" />
+      <edge source="Schillerová" target="Němcová" id="342" weight="13.0" />
+      <edge source="Schillerová" target="Metnar" id="343" weight="11.0" />
+      <edge source="Salvini" target="Merkelová" id="344" weight="84.0" />
+      <edge source="Salvini" target="Trump" id="345" weight="19.0" />
+      <edge source="Salvini" target="Orbán" id="346" weight="77.0" />
+      <edge source="Salvini" target="Le Pen" id="347" weight="312.0" />
+      <edge source="Salvini" target="Macron" id="348" weight="57.0" />
+      <edge source="Salvini" target="Soros" id="349" weight="51.0" />
+      <edge source="Salvini" target="Bartoš" id="350" weight="16.0" />
+      <edge source="Salvini" target="David" id="351" weight="52.0" />
+      <edge source="Salvini" target="Juncker" id="352" weight="69.0" />
+      <edge source="Salvini" target="Wilderse" id="353" weight="178.0" />
+      <edge source="Salvini" target="Foldyna" id="354" weight="49.0" />
+      <edge source="Salvini" target="Hrnčíř" id="355" weight="28.0" />
+      <edge source="Salvini" target="Feri" id="356" weight="14.0" />
+      <edge source="Salvini" target="Nos" id="357" weight="30.0" />
+      <edge source="Salvini" target="Wilder" id="358" weight="62.0" />
+      <edge source="Salvini" target="Novotný" id="359" weight="29.0" />
+      <edge source="Salvini" target="Blaško" id="360" weight="41.0" />
+      <edge source="Salvini" target="Doležal" id="361" weight="31.0" />
+      <edge source="Salvini" target="Jedlička" id="362" weight="19.0" />
+      <edge source="Salvini" target="Klaus ml." id="363" weight="11.0" />
+      <edge source="Salvini" target="Palacký" id="364" weight="28.0" />
+      <edge source="Salvini" target="Jandejsek" id="365" weight="19.0" />
+      <edge source="Salvini" target="Horák" id="366" weight="28.0" />
+      <edge source="Salvini" target="Šlachta" id="367" weight="13.0" />
+      <edge source="Salvini" target="Hahnova" id="368" weight="28.0" />
+      <edge source="Salvini" target="Paul" id="369" weight="28.0" />
+      <edge source="Salvini" target="Dopita" id="370" weight="29.0" />
+      <edge source="Salvini" target="Atkinson" id="371" weight="18.0" />
+      <edge source="Salvini" target="Henner" id="372" weight="28.0" />
+      <edge source="Salvini" target="Schmeidler" id="373" weight="28.0" />
+      <edge source="Putin" target="Merkelová" id="374" weight="15.0" />
+      <edge source="Putin" target="Trump" id="375" weight="35.0" />
+      <edge source="Putin" target="Orbán" id="376" weight="20.0" />
+      <edge source="Putin" target="Le Pen" id="377" weight="18.0" />
+      <edge source="Putin" target="Macron" id="378" weight="12.0" />
+      <edge source="Putin" target="Dvořák" id="379" weight="11.0" />
+      <edge source="Putin" target="Biden" id="380" weight="16.0" />
+      <edge source="Merkelová" target="Trump" id="381" weight="21.0" />
+      <edge source="Merkelová" target="Orbán" id="382" weight="57.0" />
+      <edge source="Merkelová" target="Le Pen" id="383" weight="73.0" />
+      <edge source="Merkelová" target="Bělobrádek" id="384" weight="12.0" />
+      <edge source="Merkelová" target="Macron" id="385" weight="110.0" />
+      <edge source="Merkelová" target="Soros" id="386" weight="67.0" />
+      <edge source="Merkelová" target="Juncker" id="387" weight="145.0" />
+      <edge source="Merkelová" target="Hitler" id="388" weight="16.0" />
+      <edge source="Merkelová" target="von der Leyen" id="389" weight="28.0" />
+      <edge source="Merkelová" target="Wilderse" id="390" weight="26.0" />
+      <edge source="Merkelová" target="Schwarzenberg" id="391" weight="12.0" />
+      <edge source="Merkelová" target="Erdogan" id="392" weight="20.0" />
+      <edge source="Merkelová" target="Wilder" id="393" weight="16.0" />
+      <edge source="Merkelová" target="Johansson" id="394" weight="13.0" />
+      <edge source="Trump" target="Orbán" id="395" weight="19.0" />
+      <edge source="Trump" target="Le Pen" id="396" weight="29.0" />
+      <edge source="Trump" target="Klaus" id="397" weight="11.0" />
+      <edge source="Trump" target="Macron" id="398" weight="13.0" />
+      <edge source="Trump" target="Bartoš" id="399" weight="11.0" />
+      <edge source="Trump" target="Moravec" id="400" weight="14.0" />
+      <edge source="Trump" target="Dvořák" id="401" weight="13.0" />
+      <edge source="Trump" target="Erdogan" id="402" weight="12.0" />
+      <edge source="Trump" target="Biden" id="403" weight="36.0" />
+      <edge source="Trump" target="Obama" id="404" weight="25.0" />
+      <edge source="Orbán" target="Le Pen" id="405" weight="81.0" />
+      <edge source="Orbán" target="Klaus" id="406" weight="13.0" />
+      <edge source="Orbán" target="Macron" id="407" weight="47.0" />
+      <edge source="Orbán" target="Soros" id="408" weight="51.0" />
+      <edge source="Orbán" target="Jourová" id="409" weight="21.0" />
+      <edge source="Orbán" target="Juncker" id="410" weight="42.0" />
+      <edge source="Orbán" target="Wilderse" id="411" weight="27.0" />
+      <edge source="Orbán" target="Pekarová Adamová" id="412" weight="13.0" />
+      <edge source="Orbán" target="Wilder" id="413" weight="16.0" />
+      <edge source="Orbán" target="Palacký" id="414" weight="13.0" />
+      <edge source="Le Pen" target="Klaus" id="415" weight="12.0" />
+      <edge source="Le Pen" target="Macron" id="416" weight="78.0" />
+      <edge source="Le Pen" target="Soros" id="417" weight="29.0" />
+      <edge source="Le Pen" target="Bartoš" id="418" weight="14.0" />
+      <edge source="Le Pen" target="David" id="419" weight="54.0" />
+      <edge source="Le Pen" target="Juncker" id="420" weight="61.0" />
+      <edge source="Le Pen" target="Hitler" id="421" weight="11.0" />
+      <edge source="Le Pen" target="Wilderse" id="422" weight="210.0" />
+      <edge source="Le Pen" target="Foldyna" id="423" weight="40.0" />
+      <edge source="Le Pen" target="Fiala_r" id="424" weight="32.0" />
+      <edge source="Le Pen" target="Šojdrová" id="425" weight="13.0" />
+      <edge source="Le Pen" target="Hrnčíř" id="426" weight="28.0" />
+      <edge source="Le Pen" target="Feri" id="427" weight="12.0" />
+      <edge source="Le Pen" target="Nos" id="428" weight="54.0" />
+      <edge source="Le Pen" target="Wilder" id="429" weight="73.0" />
+      <edge source="Le Pen" target="Novotný" id="430" weight="29.0" />
+      <edge source="Le Pen" target="Blaško" id="431" weight="41.0" />
+      <edge source="Le Pen" target="Doležal" id="432" weight="31.0" />
+      <edge source="Le Pen" target="Holík" id="433" weight="18.0" />
+      <edge source="Le Pen" target="Brichta" id="434" weight="26.0" />
+      <edge source="Le Pen" target="Horák" id="435" weight="28.0" />
+      <edge source="Le Pen" target="Šlachta" id="436" weight="13.0" />
+      <edge source="Le Pen" target="Hahnova" id="437" weight="28.0" />
+      <edge source="Le Pen" target="Paul" id="438" weight="28.0" />
+      <edge source="Le Pen" target="Dopita" id="439" weight="29.0" />
+      <edge source="Le Pen" target="Atkinson" id="440" weight="41.0" />
+      <edge source="Le Pen" target="Henner" id="441" weight="28.0" />
+      <edge source="Le Pen" target="Schmeidler" id="442" weight="28.0" />
+      <edge source="Maláčová" target="Havlíček" id="443" weight="16.0" />
+      <edge source="Maláčová" target="Vojtěch" id="444" weight="21.0" />
+      <edge source="Maláčová" target="Petříček" id="445" weight="19.0" />
+      <edge source="Maláčová" target="Šafránková" id="446" weight="11.0" />
+      <edge source="Havel" target="Klaus" id="447" weight="33.0" />
+      <edge source="Havel" target="Bělobrádek" id="448" weight="11.0" />
+      <edge source="Havel" target="Masaryk" id="449" weight="26.0" />
+      <edge source="Havel" target="Schwarzenberg" id="450" weight="23.0" />
+      <edge source="Havel" target="Bakala" id="451" weight="11.0" />
+      <edge source="Klaus" target="Bartoš" id="452" weight="11.0" />
+      <edge source="Klaus" target="Foldyna" id="453" weight="13.0" />
+      <edge source="Klaus" target="Klaus ml." id="454" weight="13.0" />
+      <edge source="Havlíček" target="Vojtěch" id="455" weight="29.0" />
+      <edge source="Havlíček" target="Petříček" id="456" weight="12.0" />
+      <edge source="Havlíček" target="Dostál" id="457" weight="22.0" />
+      <edge source="Havlíček" target="Benešová" id="458" weight="16.0" />
+      <edge source="Havlíček" target="Brabec" id="459" weight="21.0" />
+      <edge source="Havlíček" target="Plaga" id="460" weight="12.0" />
+      <edge source="Havlíček" target="Kreml" id="461" weight="12.0" />
+      <edge source="Vojtěch" target="Petříček" id="462" weight="13.0" />
+      <edge source="Vojtěch" target="Dostál" id="463" weight="27.0" />
+      <edge source="Vojtěch" target="Prymula" id="464" weight="21.0" />
+      <edge source="Vojtěch" target="Ťok" id="465" weight="12.0" />
+      <edge source="Vojtěch" target="Brabec" id="466" weight="23.0" />
+      <edge source="Vojtěch" target="Plaga" id="467" weight="22.0" />
+      <edge source="Bělobrádek" target="Herman" id="468" weight="30.0" />
+      <edge source="Macron" target="Soros" id="469" weight="36.0" />
+      <edge source="Macron" target="Juncker" id="470" weight="73.0" />
+      <edge source="Macron" target="Wilderse" id="471" weight="24.0" />
+      <edge source="Macron" target="Wilder" id="472" weight="17.0" />
+      <edge source="Macron" target="Palacký" id="473" weight="12.0" />
+      <edge source="Masaryk" target="Beneš" id="474" weight="20.0" />
+      <edge source="Soros" target="Jourová" id="475" weight="19.0" />
+      <edge source="Soros" target="Juncker" id="476" weight="62.0" />
+      <edge source="Soros" target="Bakala" id="477" weight="15.0" />
+      <edge source="Soros" target="Wilder" id="478" weight="12.0" />
+      <edge source="Petříček" target="Blatný" id="479" weight="18.0" />
+      <edge source="Petříček" target="Poche" id="480" weight="13.0" />
+      <edge source="Bartoš" target="Wilderse" id="481" weight="12.0" />
+      <edge source="Bartoš" target="Rakušan" id="482" weight="12.0" />
+      <edge source="Bartoš" target="Foldyna" id="483" weight="13.0" />
+      <edge source="Bartoš" target="Šojdrová" id="484" weight="22.0" />
+      <edge source="Bartoš" target="Gazdík" id="485" weight="16.0" />
+      <edge source="Bartoš" target="Feri" id="486" weight="37.0" />
+      <edge source="Bartoš" target="Michálek" id="487" weight="12.0" />
+      <edge source="Bartoš" target="Výborný" id="488" weight="12.0" />
+      <edge source="Bartoš" target="Klaus ml." id="489" weight="16.0" />
+      <edge source="Bartoš" target="Kupka" id="490" weight="11.0" />
+      <edge source="Bartoš" target="Šlachta" id="491" weight="14.0" />
+      <edge source="Jourová" target="von der Leyen" id="492" weight="12.0" />
+      <edge source="David" target="Wilderse" id="493" weight="33.0" />
+      <edge source="David" target="Novák" id="494" weight="17.0" />
+      <edge source="David" target="Hrnčíř" id="495" weight="24.0" />
+      <edge source="David" target="Jakl" id="496" weight="17.0" />
+      <edge source="David" target="Nos" id="497" weight="39.0" />
+      <edge source="David" target="Křeček" id="498" weight="15.0" />
+      <edge source="David" target="Novotný" id="499" weight="39.0" />
+      <edge source="David" target="Blaško" id="500" weight="70.0" />
+      <edge source="David" target="Redl" id="501" weight="14.0" />
+      <edge source="David" target="Doležal" id="502" weight="29.0" />
+      <edge source="David" target="Horák" id="503" weight="24.0" />
+      <edge source="David" target="Hahnova" id="504" weight="38.0" />
+      <edge source="David" target="Paul" id="505" weight="38.0" />
+      <edge source="David" target="Dopita" id="506" weight="39.0" />
+      <edge source="David" target="Henner" id="507" weight="38.0" />
+      <edge source="David" target="Schmeidler" id="508" weight="38.0" />
+      <edge source="Juncker" target="Wilderse" id="509" weight="24.0" />
+      <edge source="Juncker" target="Wilder" id="510" weight="18.0" />
+      <edge source="Hitler" target="Stalin" id="511" weight="30.0" />
+      <edge source="Hitler" target="Gottwald" id="512" weight="12.0" />
+      <edge source="Moravec" target="Dvořák" id="513" weight="27.0" />
+      <edge source="Wilderse" target="Foldyna" id="514" weight="33.0" />
+      <edge source="Wilderse" target="Hrnčíř" id="515" weight="28.0" />
+      <edge source="Wilderse" target="Nos" id="516" weight="32.0" />
+      <edge source="Wilderse" target="Wilder" id="517" weight="29.0" />
+      <edge source="Wilderse" target="Novotný" id="518" weight="28.0" />
+      <edge source="Wilderse" target="Blaško" id="519" weight="28.0" />
+      <edge source="Wilderse" target="Doležal" id="520" weight="30.0" />
+      <edge source="Wilderse" target="Horák" id="521" weight="28.0" />
+      <edge source="Wilderse" target="Šlachta" id="522" weight="11.0" />
+      <edge source="Wilderse" target="Hahnova" id="523" weight="28.0" />
+      <edge source="Wilderse" target="Paul" id="524" weight="28.0" />
+      <edge source="Wilderse" target="Dopita" id="525" weight="29.0" />
+      <edge source="Wilderse" target="Atkinson" id="526" weight="19.0" />
+      <edge source="Wilderse" target="Henner" id="527" weight="28.0" />
+      <edge source="Wilderse" target="Schmeidler" id="528" weight="28.0" />
+      <edge source="Pekarová Adamová" target="Rakušan" id="529" weight="17.0" />
+      <edge source="Pekarová Adamová" target="Jurečka" id="530" weight="31.0" />
+      <edge source="Pekarová Adamová" target="Feri" id="531" weight="11.0" />
+      <edge source="Pekarová Adamová" target="Farský" id="532" weight="14.0" />
+      <edge source="Schwarzenberg" target="Bakala" id="533" weight="23.0" />
+      <edge source="Schwarzenberg" target="Pokorný" id="534" weight="14.0" />
+      <edge source="Johnson" target="Farage" id="535" weight="11.0" />
+      <edge source="Johnson" target="Corbyn" id="536" weight="15.0" />
+      <edge source="Staněk" target="Šmarda" id="537" weight="19.0" />
+      <edge source="Hřib" target="Koněv" id="538" weight="11.0" />
+      <edge source="Rakušan" target="Jurečka" id="539" weight="11.0" />
+      <edge source="Rakušan" target="Gazdík" id="540" weight="31.0" />
+      <edge source="Rakušan" target="Polčák" id="541" weight="29.0" />
+      <edge source="Rakušan" target="Pospíšil" id="542" weight="11.0" />
+      <edge source="Rakušan" target="Farský" id="543" weight="28.0" />
+      <edge source="Rakušan" target="Redl" id="544" weight="15.0" />
+      <edge source="Rakušan" target="Hlubuček" id="545" weight="14.0" />
+      <edge source="Foldyna" target="Feri" id="546" weight="12.0" />
+      <edge source="Foldyna" target="Klaus ml." id="547" weight="12.0" />
+      <edge source="Foldyna" target="Šlachta" id="548" weight="13.0" />
+      <edge source="Dostál" target="Ťok" id="549" weight="13.0" />
+      <edge source="Dostál" target="Brabec" id="550" weight="24.0" />
+      <edge source="Dostál" target="Plaga" id="551" weight="16.0" />
+      <edge source="Dostál" target="Němcová" id="552" weight="12.0" />
+      <edge source="Fiala_r" target="Nos" id="553" weight="52.0" />
+      <edge source="Fiala_r" target="Holík" id="554" weight="41.0" />
+      <edge source="Fiala_r" target="Brichta" id="555" weight="46.0" />
+      <edge source="Fiala_r" target="Bárta" id="556" weight="20.0" />
+      <edge source="Fiala_r" target="Atkinson" id="557" weight="20.0" />
+      <edge source="Ťok" target="Brabec" id="558" weight="18.0" />
+      <edge source="Dvořák" target="Lipovský" id="559" weight="16.0" />
+      <edge source="Brabec" target="Plaga" id="560" weight="14.0" />
+      <edge source="Brabec" target="Němcová" id="561" weight="11.0" />
+      <edge source="Brabec" target="Kreml" id="562" weight="11.0" />
+      <edge source="Koněv" target="Kolář" id="563" weight="26.0" />
+      <edge source="Šafránková" target="Hrnčíř" id="564" weight="18.0" />
+      <edge source="Bakala" target="Pokorný" id="565" weight="23.0" />
+      <edge source="Erdogan" target="Johansson" id="566" weight="13.0" />
+      <edge source="Šojdrová" target="Polčák" id="567" weight="28.0" />
+      <edge source="Šojdrová" target="Zdechovský" id="568" weight="45.0" />
+      <edge source="Šojdrová" target="Feri" id="569" weight="24.0" />
+      <edge source="Šojdrová" target="Pospíšil" id="570" weight="21.0" />
+      <edge source="Šojdrová" target="Charanzová" id="571" weight="29.0" />
+      <edge source="Šojdrová" target="Klaus ml." id="572" weight="15.0" />
+      <edge source="Šojdrová" target="Niedermayer" id="573" weight="29.0" />
+      <edge source="Šojdrová" target="Dlabajová" id="574" weight="27.0" />
+      <edge source="Šojdrová" target="Poche" id="575" weight="25.0" />
+      <edge source="Šojdrová" target="Konečný" id="576" weight="21.0" />
+      <edge source="Šojdrová" target="Ježek" id="577" weight="25.0" />
+      <edge source="Šojdrová" target="Šlachta" id="578" weight="12.0" />
+      <edge source="Šojdrová" target="Štětina" id="579" weight="21.0" />
+      <edge source="Šojdrová" target="Teličko" id="580" weight="20.0" />
+      <edge source="Šojdrová" target="Sehnalová" id="581" weight="18.0" />
+      <edge source="Gazdík" target="Polčák" id="582" weight="26.0" />
+      <edge source="Gazdík" target="Farský" id="583" weight="26.0" />
+      <edge source="Gazdík" target="Redl" id="584" weight="24.0" />
+      <edge source="Gazdík" target="Hlubuček" id="585" weight="20.0" />
+      <edge source="Polčák" target="Zdechovský" id="586" weight="27.0" />
+      <edge source="Polčák" target="Pospíšil" id="587" weight="31.0" />
+      <edge source="Polčák" target="Farský" id="588" weight="21.0" />
+      <edge source="Polčák" target="Redl" id="589" weight="13.0" />
+      <edge source="Polčák" target="Doležal" id="590" weight="11.0" />
+      <edge source="Polčák" target="Charanzová" id="591" weight="31.0" />
+      <edge source="Polčák" target="Niedermayer" id="592" weight="33.0" />
+      <edge source="Polčák" target="Hlubuček" id="593" weight="15.0" />
+      <edge source="Polčák" target="Dlabajová" id="594" weight="29.0" />
+      <edge source="Polčák" target="Poche" id="595" weight="28.0" />
+      <edge source="Polčák" target="Konečný" id="596" weight="20.0" />
+      <edge source="Polčák" target="Ježek" id="597" weight="27.0" />
+      <edge source="Polčák" target="Štětina" id="598" weight="26.0" />
+      <edge source="Polčák" target="Teličko" id="599" weight="23.0" />
+      <edge source="Polčák" target="Sehnalová" id="600" weight="19.0" />
+      <edge source="Novák" target="Jakl" id="601" weight="16.0" />
+      <edge source="Novák" target="Nos" id="602" weight="14.0" />
+      <edge source="Novák" target="Křeček" id="603" weight="14.0" />
+      <edge source="Novák" target="Novotný" id="604" weight="14.0" />
+      <edge source="Novák" target="Blaško" id="605" weight="14.0" />
+      <edge source="Novák" target="Redl" id="606" weight="14.0" />
+      <edge source="Novák" target="Hahnova" id="607" weight="14.0" />
+      <edge source="Novák" target="Paul" id="608" weight="14.0" />
+      <edge source="Novák" target="Dopita" id="609" weight="14.0" />
+      <edge source="Novák" target="Henner" id="610" weight="14.0" />
+      <edge source="Novák" target="Schmeidler" id="611" weight="14.0" />
+      <edge source="Hrnčíř" target="Nos" id="612" weight="35.0" />
+      <edge source="Hrnčíř" target="Novotný" id="613" weight="29.0" />
+      <edge source="Hrnčíř" target="Blaško" id="614" weight="29.0" />
+      <edge source="Hrnčíř" target="Doležal" id="615" weight="29.0" />
+      <edge source="Hrnčíř" target="Horák" id="616" weight="29.0" />
+      <edge source="Hrnčíř" target="Hahnova" id="617" weight="29.0" />
+      <edge source="Hrnčíř" target="Paul" id="618" weight="29.0" />
+      <edge source="Hrnčíř" target="Dopita" id="619" weight="29.0" />
+      <edge source="Hrnčíř" target="Henner" id="620" weight="29.0" />
+      <edge source="Hrnčíř" target="Schmeidler" id="621" weight="29.0" />
+      <edge source="Zdechovský" target="Pospíšil" id="622" weight="21.0" />
+      <edge source="Zdechovský" target="Charanzová" id="623" weight="27.0" />
+      <edge source="Zdechovský" target="Niedermayer" id="624" weight="27.0" />
+      <edge source="Zdechovský" target="Dlabajová" id="625" weight="28.0" />
+      <edge source="Zdechovský" target="Poche" id="626" weight="24.0" />
+      <edge source="Zdechovský" target="Konečný" id="627" weight="21.0" />
+      <edge source="Zdechovský" target="Ježek" id="628" weight="24.0" />
+      <edge source="Zdechovský" target="Štětina" id="629" weight="21.0" />
+      <edge source="Zdechovský" target="Teličko" id="630" weight="20.0" />
+      <edge source="Zdechovský" target="Sehnalová" id="631" weight="18.0" />
+      <edge source="Feri" target="Klaus ml." id="632" weight="18.0" />
+      <edge source="Feri" target="Šlachta" id="633" weight="16.0" />
+      <edge source="Pospíšil" target="Redl" id="634" weight="17.0" />
+      <edge source="Pospíšil" target="Charanzová" id="635" weight="23.0" />
+      <edge source="Pospíšil" target="Niedermayer" id="636" weight="26.0" />
+      <edge source="Pospíšil" target="Hlubuček" id="637" weight="13.0" />
+      <edge source="Pospíšil" target="Dlabajová" id="638" weight="22.0" />
+      <edge source="Pospíšil" target="Poche" id="639" weight="21.0" />
+      <edge source="Pospíšil" target="Konečný" id="640" weight="20.0" />
+      <edge source="Pospíšil" target="Ježek" id="641" weight="20.0" />
+      <edge source="Pospíšil" target="Štětina" id="642" weight="21.0" />
+      <edge source="Pospíšil" target="Teličko" id="643" weight="16.0" />
+      <edge source="Pospíšil" target="Sehnalová" id="644" weight="18.0" />
+      <edge source="Michálek" target="Peksa" id="645" weight="12.0" />
+      <edge source="Nos" target="Jakl" id="646" weight="14.0" />
+      <edge source="Nos" target="Křeček" id="647" weight="14.0" />
+      <edge source="Nos" target="Wilder" id="648" weight="11.0" />
+      <edge source="Nos" target="Novotný" id="649" weight="43.0" />
+      <edge source="Nos" target="Blaško" id="650" weight="43.0" />
+      <edge source="Nos" target="Redl" id="651" weight="14.0" />
+      <edge source="Nos" target="Doležal" id="652" weight="30.0" />
+      <edge source="Nos" target="Holík" id="653" weight="37.0" />
+      <edge source="Nos" target="Brichta" id="654" weight="46.0" />
+      <edge source="Nos" target="Horák" id="655" weight="29.0" />
+      <edge source="Nos" target="Hahnova" id="656" weight="43.0" />
+      <edge source="Nos" target="Bárta" id="657" weight="19.0" />
+      <edge source="Nos" target="Paul" id="658" weight="43.0" />
+      <edge source="Nos" target="Dopita" id="659" weight="44.0" />
+      <edge source="Nos" target="Atkinson" id="660" weight="30.0" />
+      <edge source="Nos" target="Henner" id="661" weight="43.0" />
+      <edge source="Nos" target="Schmeidler" id="662" weight="43.0" />
+      <edge source="Křeček" target="Jakl" id="663" weight="14.0" />
+      <edge source="Křeček" target="Novotný" id="664" weight="14.0" />
+      <edge source="Křeček" target="Blaško" id="665" weight="14.0" />
+      <edge source="Křeček" target="Redl" id="666" weight="15.0" />
+      <edge source="Křeček" target="Hahnova" id="667" weight="14.0" />
+      <edge source="Křeček" target="Paul" id="668" weight="14.0" />
+      <edge source="Křeček" target="Dopita" id="669" weight="14.0" />
+      <edge source="Křeček" target="Henner" id="670" weight="14.0" />
+      <edge source="Křeček" target="Schmeidler" id="671" weight="14.0" />
+      <edge source="Blaško" target="Jakl" id="672" weight="15.0" />
+      <edge source="Blaško" target="Novotný" id="673" weight="43.0" />
+      <edge source="Blaško" target="Redl" id="674" weight="14.0" />
+      <edge source="Blaško" target="Doležal" id="675" weight="31.0" />
+      <edge source="Blaško" target="Horák" id="676" weight="29.0" />
+      <edge source="Blaško" target="Hahnova" id="677" weight="43.0" />
+      <edge source="Blaško" target="Paul" id="678" weight="43.0" />
+      <edge source="Blaško" target="Dopita" id="679" weight="43.0" />
+      <edge source="Blaško" target="Henner" id="680" weight="43.0" />
+      <edge source="Blaško" target="Schmeidler" id="681" weight="43.0" />
+      <edge source="Herman" target="Beneš" id="682" weight="11.0" />
+      <edge source="Charanzová" target="Niedermayer" id="683" weight="32.0" />
+      <edge source="Charanzová" target="Dlabajová" id="684" weight="50.0" />
+      <edge source="Charanzová" target="Poche" id="685" weight="27.0" />
+      <edge source="Charanzová" target="Konečný" id="686" weight="19.0" />
+      <edge source="Charanzová" target="Ježek" id="687" weight="36.0" />
+      <edge source="Charanzová" target="Štětina" id="688" weight="24.0" />
+      <edge source="Charanzová" target="Teličko" id="689" weight="30.0" />
+      <edge source="Charanzová" target="Sehnalová" id="690" weight="19.0" />
+      <edge source="Klaus ml." target="Šlachta" id="691" weight="11.0" />
+      <edge source="Niedermayer" target="Dlabajová" id="692" weight="29.0" />
+      <edge source="Niedermayer" target="Poche" id="693" weight="27.0" />
+      <edge source="Niedermayer" target="Konečný" id="694" weight="19.0" />
+      <edge source="Niedermayer" target="Ježek" id="695" weight="27.0" />
+      <edge source="Niedermayer" target="Štětina" id="696" weight="25.0" />
+      <edge source="Niedermayer" target="Teličko" id="697" weight="23.0" />
+      <edge source="Niedermayer" target="Sehnalová" id="698" weight="19.0" />
+      <edge source="Dlabajová" target="Poche" id="699" weight="27.0" />
+      <edge source="Dlabajová" target="Konečný" id="700" weight="19.0" />
+      <edge source="Dlabajová" target="Ježek" id="701" weight="36.0" />
+      <edge source="Dlabajová" target="Štětina" id="702" weight="24.0" />
+      <edge source="Dlabajová" target="Teličko" id="703" weight="30.0" />
+      <edge source="Dlabajová" target="Sehnalová" id="704" weight="19.0" />
+      <edge source="Poche" target="Konečný" id="705" weight="17.0" />
+      <edge source="Poche" target="Ježek" id="706" weight="27.0" />
+      <edge source="Poche" target="Štětina" id="707" weight="24.0" />
+      <edge source="Poche" target="Teličko" id="708" weight="23.0" />
+      <edge source="Poche" target="Sehnalová" id="709" weight="19.0" />
+      <edge source="Konečný" target="Ježek" id="710" weight="18.0" />
+      <edge source="Konečný" target="Štětina" id="711" weight="18.0" />
+      <edge source="Konečný" target="Teličko" id="712" weight="13.0" />
+      <edge source="Konečný" target="Sehnalová" id="713" weight="17.0" />
+      <edge source="Ježek" target="Štětina" id="714" weight="24.0" />
+      <edge source="Ježek" target="Teličko" id="715" weight="30.0" />
+      <edge source="Ježek" target="Sehnalová" id="716" weight="19.0" />
+      <edge source="Štětina" target="Teličko" id="717" weight="22.0" />
+      <edge source="Štětina" target="Sehnalová" id="718" weight="19.0" />
+      <edge source="Teličko" target="Sehnalová" id="719" weight="15.0" />
+      <edge source="Wilder" target="Atkinson" id="720" weight="15.0" />
+      <edge source="Novotný" target="Jakl" id="721" weight="14.0" />
+      <edge source="Novotný" target="Redl" id="722" weight="14.0" />
+      <edge source="Novotný" target="Doležal" id="723" weight="29.0" />
+      <edge source="Novotný" target="Horák" id="724" weight="29.0" />
+      <edge source="Novotný" target="Hahnova" id="725" weight="43.0" />
+      <edge source="Novotný" target="Paul" id="726" weight="43.0" />
+      <edge source="Novotný" target="Dopita" id="727" weight="43.0" />
+      <edge source="Novotný" target="Henner" id="728" weight="43.0" />
+      <edge source="Novotný" target="Schmeidler" id="729" weight="43.0" />
+      <edge source="Doležal" target="Horák" id="730" weight="29.0" />
+      <edge source="Doležal" target="Hahnova" id="731" weight="29.0" />
+      <edge source="Doležal" target="Paul" id="732" weight="29.0" />
+      <edge source="Doležal" target="Dopita" id="733" weight="30.0" />
+      <edge source="Doležal" target="Henner" id="734" weight="29.0" />
+      <edge source="Doležal" target="Schmeidler" id="735" weight="29.0" />
+      <edge source="Holík" target="Brichta" id="736" weight="31.0" />
+      <edge source="Holík" target="Bárta" id="737" weight="11.0" />
+      <edge source="Holík" target="Atkinson" id="738" weight="13.0" />
+      <edge source="Brichta" target="Bárta" id="739" weight="19.0" />
+      <edge source="Brichta" target="Atkinson" id="740" weight="22.0" />
+      <edge source="Horák" target="Hahnova" id="741" weight="29.0" />
+      <edge source="Horák" target="Paul" id="742" weight="29.0" />
+      <edge source="Horák" target="Dopita" id="743" weight="29.0" />
+      <edge source="Horák" target="Henner" id="744" weight="29.0" />
+      <edge source="Horák" target="Schmeidler" id="745" weight="29.0" />
+      <edge source="Hahnova" target="Jakl" id="746" weight="14.0" />
+      <edge source="Hahnova" target="Redl" id="747" weight="14.0" />
+      <edge source="Hahnova" target="Paul" id="748" weight="43.0" />
+      <edge source="Hahnova" target="Dopita" id="749" weight="43.0" />
+      <edge source="Hahnova" target="Henner" id="750" weight="43.0" />
+      <edge source="Hahnova" target="Schmeidler" id="751" weight="43.0" />
+      <edge source="Paul" target="Jakl" id="752" weight="14.0" />
+      <edge source="Paul" target="Redl" id="753" weight="14.0" />
+      <edge source="Paul" target="Dopita" id="754" weight="43.0" />
+      <edge source="Paul" target="Henner" id="755" weight="43.0" />
+      <edge source="Paul" target="Schmeidler" id="756" weight="43.0" />
+      <edge source="Dopita" target="Jakl" id="757" weight="14.0" />
+      <edge source="Dopita" target="Redl" id="758" weight="14.0" />
+      <edge source="Dopita" target="Henner" id="759" weight="43.0" />
+      <edge source="Dopita" target="Schmeidler" id="760" weight="43.0" />
+      <edge source="Henner" target="Jakl" id="761" weight="14.0" />
+      <edge source="Henner" target="Redl" id="762" weight="14.0" />
+      <edge source="Henner" target="Schmeidler" id="763" weight="43.0" />
+      <edge source="Schmeidler" target="Jakl" id="764" weight="14.0" />
+      <edge source="Schmeidler" target="Redl" id="765" weight="14.0" />
+      <edge source="Redl" target="Jakl" id="766" weight="14.0" />
+      <edge source="Redl" target="Hlubuček" id="767" weight="21.0" />
+      <edge source="Jedlička" target="Palacký" id="768" weight="20.0" />
+      <edge source="Jedlička" target="Jandejsek" id="769" weight="21.0" />
+      <edge source="Palacký" target="Jandejsek" id="770" weight="20.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,400 @@
+﻿
+@{
+    ViewData["Title"] = "Length";
+    var histogramDistribuce = ViewBag.HistogramDistribuce;
+    var histogramIntervaly = ViewBag.HistogramIntervaly;
+
+    var histogramDistribuceFB = ViewBag.HistogramDistribuceFB;
+    var histogramIntervalyFB = ViewBag.HistogramIntervalyFB;
+
+    var histogramDistribuceTW = ViewBag.HistogramDistribuceTW;
+    var histogramIntervalyTW = ViewBag.HistogramIntervalyTW;
+}
+
+
+
+<script>
+    var heightValue = 420;
+    var widthValue = 510;
+    var config = {
+        displayModeBar: false, responsive: true
+    };
+    var biggerWidth = 750;
+    var currentPage = 1;
+    var rowsPerPage = 10;
+    var dataDistribuce = @Html.Raw(Json.Serialize(histogramDistribuce));
+    var dataIntervaly = @Html.Raw(Json.Serialize(histogramIntervaly));
+
+    var dataDistribuceFB = @Html.Raw(Json.Serialize(histogramDistribuceFB));
+    var dataIntervalyFB = @Html.Raw(Json.Serialize(histogramIntervalyFB));
+
+    var dataDistribuceTW = @Html.Raw(Json.Serialize(histogramDistribuceTW));
+    var dataIntervalyTW = @Html.Raw(Json.Serialize(histogramIntervalyTW));
+
+    var distribBox = @Html.Raw(Json.Serialize(ViewBag.distribbox));
+    var distribBoxFB = @Html.Raw(Json.Serialize(ViewBag.distribboxFB));
+    var distribBoxTW = @Html.Raw(Json.Serialize(ViewBag.distribboxTW));
+    var tableData = @Html.Raw(Json.Serialize(ViewBag.table));
+    var tableDataF = @Html.Raw(Json.Serialize(ViewBag.tableF));
+    var tableDataT = @Html.Raw(Json.Serialize(ViewBag.tableT));
+
+    var yearS;
+    function renderWordCountHistogram(data,id) {
+        var d=data[yearS] || data["all"]
+
+        var xValues = Object.keys(d);
+        var yValues = Object.values(d);
+
+        var trace = {
+            x: xValues,
+            y: yValues,
+            type: 'bar',
+            marker: {
+                color: 'rgb(55, 128, 191)', // Použití specifické barvy
+                opacity: 0.7
+            }
+        };
+
+        var layout = {
+            title: '',
+            xaxis: { title: 'Počet slov', type: 'log', tickvals: [10,20, 50, 100, 500, 1000] },
+            yaxis: { title: 'Počet příspěvků' }, margin: { t: 20, b: 70 },
+            autosize:true
+        };
+
+        Plotly.newPlot(id, [trace], layout,config);
+    }
+
+    
+    function renderIntervalHistogram(data,id) {
+        var d = data[yearS] || data["all"]
+
+        var xValues = Object.keys(d);
+        var yValues = Object.values(d);
+
+        var trace = {
+            x: xValues,
+            y: yValues,
+            type: 'bar',
+            marker: {
+                color: 'rgb(255, 127, 14)', // Použití jiné barvy pro intervaly
+                opacity: 0.7
+            }
+        };
+
+        var layout = {
+            title: '',
+            xaxis: { title: 'Počet slov',tickangle:45 },
+            yaxis: { title: 'Počet příspěvků' },margin:{t:20,b:70},
+            autosize: true
+        };
+
+        Plotly.newPlot(id, [trace], layout,config);
+    }
+
+    function renderBoxplots() {
+        
+        var db = distribBox[yearS] || distribBox["all"]
+        var dbf = distribBoxFB[yearS] || distribBoxFB["all"]
+        var dbt = distribBoxTW[yearS] || distribBoxTW["all"]
+        var data = [
+            {
+                y: db,
+                type: 'box',
+                name: 'Všechna vyjádření', boxmean: true
+               
+            },
+            {
+                y: dbf,
+                type: 'box',
+                name: 'Facebook', boxmean: true
+           
+            },
+            {
+                y: dbt,
+                type: 'box',
+                name: 'Twitter', boxmean: true
+                
+            }
+        ];
+
+      
+        var layout = {
+            title: '',
+            xaxis: {
+                title: ''
+            },
+            yaxis: {
+                title: 'Počet slov', type: 'log', tickvals: [10,20, 50, 100, 500, 1000,10000]
+            }, margin: { t: 20 },
+            autosize:true
+        };
+
+        
+        Plotly.newPlot('boxplot', data, layout,config);
+    }
+    
+    function fillTable(tableData) {
+       
+        var tableBody = $('#politicianTable tbody');
+        tableBody.empty(); // Vyprázdnit tělo tabulky před naplněním
+
+        tableData.forEach(function (item) {
+            // Vytvoříme nový řádek pro každý záznam
+            var row = $('<tr>');
+            row.append('<td>' + item.politicId + '</td>');
+            row.append('<td>' + item.numberOfStatements + '</td>');
+            row.append('<td>' + item.averageWordCount.toFixed(2) + '</td>'); // Průměr s 2 desetinnými místy
+            row.append('<td>' + item.medianWordCount + '</td>');
+            row.append('<td>' + item.maxWordCount + '</td>');
+            row.append('<td>' + item.numberOfLongStatements + '</td>');
+            tableBody.append(row);
+        });
+    }
+    function applyFilter(refresh=false) {
+        if (refresh) {
+            currentPage = 1;
+        }
+        var selectedServer = $('#serverFilter').val();
+        var sortBy = $('#sortBy').val();
+        var sortOrder = $('#sortOrder').val(); // Nový výběr pro řazení vzestupně/sestupně
+        var data;
+
+        // Vybereme správná data podle serveru
+        if (selectedServer === 'twitter') {
+            data = tableDataT;
+        } else if (selectedServer === 'facebook') {
+            data = tableDataF;
+        } else {
+            data = tableData;
+        }
+        data = data[yearS] || data["all"];
+
+        // Seřadíme data podle vybraného kritéria a směru
+        data.sort(function (a, b) {
+            if (a[sortBy] < b[sortBy]) return sortOrder === 'asc' ? -1 : 1;
+            if (a[sortBy] > b[sortBy]) return sortOrder === 'asc' ? 1 : -1;
+            return 0;
+        });
+
+        // Zavoláme funkci pro stránkování
+        paginateData(data);
+    }
+
+    function paginateData(data) {
+        
+        var start = (currentPage - 1) * rowsPerPage;
+        var end = start + rowsPerPage;
+        var pageData = data.slice(start, end);
+        fillTable(pageData); // Naplníme tabulku s aktuální stránkou
+        $('#pageNumber').text(currentPage); // Aktualizujeme číslo stránky
+
+        // Spočítáme celkový počet stránek a aktualizujeme
+        var totalPages = Math.ceil(data.length / rowsPerPage);
+        $('#totalPages').text(totalPages);
+        console.log(currentPage, totalPages)
+    }
+
+    // Funkce pro stránkování
+    function changePage(increment) {
+        var data;
+        var selectedServer = $('#serverFilter').val();
+
+        // Vybereme správná data podle serveru
+        if (selectedServer === 'twitter') {
+            data = tableDataT;
+        } else if (selectedServer === 'facebook') {
+            data = tableDataF;
+        } else {
+            data = tableData;
+        }
+        data = data[yearS] || data["all"];
+
+        var totalPages = Math.ceil(data.length / rowsPerPage);
+        currentPage += increment;
+
+        if (currentPage < 1) currentPage = 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+
+        applyFilter(); // Načteme data pro aktuální stránku
+    }
+    function updateStatistics(year) {
+        yearS=year
+        renderWordCountHistogram(dataDistribuce, "histogramChart")
+        renderIntervalHistogram(dataIntervaly, "histogramChartCategory")
+
+        renderWordCountHistogram(dataDistribuceFB, "histogramChartF")
+        renderIntervalHistogram(dataIntervalyFB, "histogramChartCategoryF")
+
+        renderWordCountHistogram(dataDistribuceTW, "histogramChartT")
+        renderIntervalHistogram(dataIntervalyTW, "histogramChartCategoryT")
+        renderBoxplots();
+        applyFilter(true);
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("yearFilter").addEventListener("change", function () {
+            const selectedYear = this.value;
+            updateStatistics(selectedYear);
+        });
+        $('#serverFilter, #sortBy, #sortOrder').change(function () {
+            applyFilter(true);
+        });
+        $('#prevPage').click(function () {
+            changePage(-1);
+        });
+
+        $('#nextPage').click(function () {
+            changePage(1);
+        });
+        renderWordCountHistogram(dataDistribuce, "histogramChart")
+        renderIntervalHistogram(dataIntervaly, "histogramChartCategory")
+
+        renderWordCountHistogram(dataDistribuceFB, "histogramChartF")
+        renderIntervalHistogram(dataIntervalyFB, "histogramChartCategoryF")
+
+        renderWordCountHistogram(dataDistribuceTW, "histogramChartT")
+        renderIntervalHistogram(dataIntervalyTW, "histogramChartCategoryT")
+        renderBoxplots();
+        applyFilter(true);
+
+    });
+</script>
+
+
+<div class="chart-card">
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza délky příspěvků</h2>
+        <p class="chart-subtitle">
+          Na této stránce je zobrazena analýza délky příspěvků. Lze zde vidět grafy zobrazující distribuci příspěvků dle jejich délky a také srovnání sociálních sítí Facebook a Twitter.
+          V tabulce jsou zobrazeny informace o délce příspěvků jednotlivých politiků jako průměr, medián či maximum. Politiky lze v tabulce filtrovat a řadit.
+        </p>
+    </div>
+    <p class="d-flex align-items-center">
+        <span class="me-2">Zobrazit statistiky pro rok:</span>
+        <select id="yearFilter" class="form-select w-auto">
+            <option value="">Všechny roky</option>
+            @for (int year = 2016; year <= 2022; year++)
+            {
+                <option value="@year.ToString()">@year</option>
+            }
+        </select>
+    </p>
+</div>
+<div id="sentiment" class="sentiment_page">
+    <div class="left-panel-sentiment">
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky</h3>
+                    <p class="chart-subtitle">Příspěvky na Facebooku i Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="histogramChart"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky (v intervalech)</h3>
+                    <p class="chart-subtitle">Příspěvky na Facebooku i Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartCategory"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky</h3>
+                    <p class="chart-subtitle">Příspěvky na Facebooku</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartF"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky (v intervalech)</h3>
+                    <p class="chart-subtitle">Příspěvky na Facebooku</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartCategoryF"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky</h3>
+                    <p class="chart-subtitle">Příspěvky na Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartT"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce příspěvků dle délky (v intervalech)</h3>
+                    <p class="chart-subtitle">Příspěvky na Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartCategoryT"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Rozložení délky příspěvků</h3>
+                    <p class="chart-subtitle">Srovnání všech příspěvků, na Facebooku a na Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="boxplot"></div>
+
+            </div>
+           
+        </div>
+        
+    </div>
+    <div class="right-panel-sentiment">
+        <div id="filter-panel" class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
+            <label for="serverFilter">Server: </label>
+            <select id="serverFilter" class="form-select">
+                <option value="all">Všechno</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+            </select>
+
+            <label for="sortBy">Řadit podle: </label>
+            <select id="sortBy" class="form-select">
+                <option value="numberOfStatements">Počet Vyjádření</option>
+                <option value="averageWordCount">Průměrný Počet Slov</option>
+                <option value="medianWordCount">Medián Počtu Slov</option>
+                <option value="maxWordCount">Maximální Počet Slov</option>
+                <option value="numberOfLongStatements">Počet Dlouhých Vyjádření</option>
+            </select>
+            <label for="sortOrder">Řadit: </label>
+
+            <select id="sortOrder" class="form-select">
+                <option value="desc">Sestupně</option>
+                <option value="asc">Vzestupně</option>
+               
+            </select>
+           
+        </div>
+        <table id="politicianTable" class="styled-table">
+            <thead>
+                <tr>
+                    <th>Politik</th>
+                    <th>Počet vyjádření</th>
+                    <th>Průměr</th>
+                    <th>Medián</th>
+                    <th>Maximum</th>
+                    <th>Počet dlouhých vyjádření</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+        <div id="pagination" class="pagination">
+            <button id="prevPage">Předchozí</button>
+            <span id="pageNumber">1</span> z <span id="totalPages">1</span>
+            <button id="nextPage">Další</button>
+        </div>
+
+    </div>
+</div>

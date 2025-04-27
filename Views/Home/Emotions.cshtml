@@ -1,6 +1,6 @@
-﻿
+﻿ 
 @{
-    ViewData["Title"] = "Emotions";
+    ViewData["Title"] = "Analýza emocí";
     
   
 
@@ -12,9 +12,10 @@
     var pieWidth = 300;
     var yearS;
     var biggerWidth = 750;
-    var config = {
-        displayModeBar: false
-    };
+    
+    var totalPages;
+    var currentPage = 1;
+    var rowsPerPage = 10;
     var emotionAll = @Html.Raw(Json.Serialize(ViewBag.emotionAll));
     var coocurence = @Html.Raw(Json.Serialize(ViewBag.CoOccurrenceData));
     var averageIntensities = @Html.Raw(Json.Serialize(ViewBag.AverageIntensities));
@@ -24,51 +25,90 @@
     var emotionnermix = @Html.Raw(Json.Serialize(ViewBag.emotionsNerMix));
     var emotionnernames = @Html.Raw(Json.Serialize(ViewBag.emotionsNerNames));
     var emotionStatsJS = @Html.Raw(Json.Serialize(ViewBag.politicStats));
+    var config = {
+        displayModeBar: false, responsive: true
+    };
     
-    
-    function drawEmotionDist(data,id) {
-
-
+    function drawEmotionDist(data, id) {
         var emotionData = data[yearS] || data["all"];
 
+        
+        var emotionMapping = {
+            'anger': 'Hněv',
+            'anticipation': 'Očekávání',
+            'disgust': 'Znechucení',
+            'fear': 'Strach',
+            'joy': 'Radost',
+            'love': 'Láska',
+            'optimism': 'Optimismus',
+            'pessimism': 'Pesimismus',
+            'sadness': 'Smutek',
+            'surprise': 'Překvapení',
+            'trust': 'Důvěra'
+        };
 
-        var emotions = emotionData.map(function (item) { return item.emotion; });
-        var counts = emotionData.map(function (item) { return item.count; });
-
+        var emotions = emotionData.map(item => emotionMapping[item.emotion] || item.emotion);
+        var counts = emotionData.map(item => item.count);
+       
 
         var data = [{
-            x: emotions,
-            y: counts,
-            type: 'bar'
+            x: counts,
+            y: emotions,
+            type: 'bar',
+            orientation: 'h',
+            text: counts.map(value => Math.round(value) + '%'), 
+            textposition: 'inside', 
+            insidetextanchor: 'middle', 
+            marker: { color: 'rgb(49,130,189)' } 
         }];
 
         var layout = {
             title: '',
-            font: {
-                size: 12
+            font: { size: 12 },
+            xaxis: { title: '' },
+            yaxis: {
+                title: '',
+                automargin: true,
+                tickpadding: 20,
+                ticks: 'outside'
             },
-            xaxis: { title: '', tickangle: -45 },
-            width: widthValue,
-            height: heightValue,
+            autosize:true,
             margin: {
-                l: 35,  
-                r: 0, 
-                t: 35, 
-                b: 60  
+                l: 50,
+                r: 10,
+                t: 0,
+                b: 60
             }
         };
 
-        
-
-            Plotly.newPlot(id, data, layout,config);
-        
+        Plotly.newPlot(id, data, layout, config);
     }
-    function drawCoocurence() {
 
+
+
+
+
+    function drawCoocurence() {
         let coOccurrenceData = coocurence[yearS] || coocurence["all"];
 
-        let emotions = Object.keys(coOccurrenceData);
-        let values = emotions.map(row => emotions.map(col => coOccurrenceData[row][col] || 0));
+        let emotionMapping = {
+            'anger': 'Hněv',
+            'anticipation': 'Očekávání',
+            'disgust': 'Znechucení',
+            'fear': 'Strach',
+            'joy': 'Radost',
+            'love': 'Láska',
+            'optimism': 'Optimismus',
+            'pessimism': 'Pesimismus',
+            'sadness': 'Smutek',
+            'surprise': 'Překvapení',
+            'trust': 'Důvěra'
+        };
+
+        let emotions = Object.keys(coOccurrenceData).map(emotion => emotionMapping[emotion] || emotion);
+        let values = Object.keys(coOccurrenceData).map(row =>
+            Object.keys(coOccurrenceData).map(col => coOccurrenceData[row][col] || 0)
+        );
 
         let data = [{
             z: values,
@@ -79,40 +119,63 @@
         }];
 
         let layout = {
-            title: 'Spoluvýskyt emocí',
-            xaxis: { title: '' },
+            title: '',
+            xaxis: { title: '', tickangle: 45 },
             yaxis: { title: '' },
-            width: heightValue,  // Nastavení šířky grafu
-            height: heightValue,
+            margin:{
+                t:0
+            },
+            autosize: true
         };
 
-        Plotly.newPlot('coocurence', data, layout,config);
+        Plotly.newPlot('coocurence', data, layout, config);
     }
 
-    function drawIntensityBar() {
-        var avgint = averageIntensities[yearS] || averageIntensities["all"]
-        var emotions = Object.keys(avgint);
-        var scores = emotions.map(emotion => avgint[emotion]);
 
+    function drawIntensityBar() {
+        var avgint = averageIntensities[yearS] || averageIntensities["all"];
+        var emotionMapping = {
+            'anger': 'Hněv',
+            'anticipation': 'Očekávání',
+            'disgust': 'Znechucení',
+            'fear': 'Strach',
+            'joy': 'Radost',
+            'love': 'Láska',
+            'optimism': 'Optimismus',
+            'pessimism': 'Pesimismus',
+            'sadness': 'Smutek',
+            'surprise': 'Překvapení',
+            'trust': 'Důvěra'
+        };
+
+        var emotions = Object.keys(avgint).map(emotion => emotionMapping[emotion] || emotion);
+        var scores = Object.keys(avgint).map(emotion => avgint[emotion].toFixed(2)); 
 
         var data = [{
             x: emotions,
             y: scores,
-            type: 'bar',  
-            marker: { color: 'rgb(49,130,189)' }
+            type: 'bar',
+            marker: { color: 'rgb(49,130,189)' },
+            text: scores, 
+            textposition: 'inside', 
+            insidetextanchor: 'middle' 
         }];
 
-        
         var layout = {
-            title: 'Průměrná intenzita emocí',
-            xaxis: { title: '' },
+            title: '',
+            xaxis: { title: '', tickangle: 45 },
             yaxis: { title: '' },
-            width:biggerWidth
+            margin: {
+                t: 0,l:20,r:30
+            },
+            autosize: true
         };
 
-       
-        Plotly.newPlot('intensityBar', data, layout,config);
+        Plotly.newPlot('intensityBar', data, layout, config);
     }
+
+
+
 
     function drawSentimentDensity(){
         var sentdata = sentimentData[yearS] || sentimentData["all"]
@@ -130,69 +193,68 @@
         };
 
         var traces = [];
-        var colorIndex = 0; // Index pro barvy
+        var colorIndex = 0; 
 
-        // Generování boxplotu pro každou emoci
+       
         for (var emotion in sentdata) {
             if (sentdata.hasOwnProperty(emotion)) {
                 var sentiments = sentdata[emotion];
 
                 var trace = {
-                    y: sentiments,  // Sentimenty pro tuto emoci
+                    y: sentiments,  
                     type: 'box',
                     name: emotion,
                   
                     marker: {
-                        color: colors[emotion],  // Barva pro danou emoci
+                        color: colors[emotion],  
                         line: {
-                            width: 1  // Šířka čáry boxu
+                            width: 1 
                             
                         },
                         size:3
                     },
-                    jitter: 0.05,  // Lehké rozptýlení bodů pro vizuální efekt
+                    jitter: 0.05,  
                    
                     
-                    whiskerwidth: 1.5,  // Šířka vousů (whiskers)
-                    width: 0.6,  // Šířka boxu
+                    whiskerwidth: 1.5, 
+                    width: 0.6, 
                     line: {
-                        width: 2  // Šířka čáry
+                        width: 2 
                     },
                    
-                    text: [emotion],  // Text pro emoci
-                    textposition: 'top center',  // Pozice textu nad boxem
-                    textfont: { size: 16 }  // Velikost písma
+                    text: [emotion], 
+                    textposition: 'top center',  
+                    textfont: { size: 16 }, 
+                        boxmean: true
                 };
 
                 traces.push(trace);
-                colorIndex++;  // Změna barvy pro další emoci
+                colorIndex++;  
             }
         }
 
-        // Layout pro graf
+        
         var layout = {
-            title: 'Rozložení sentimentu v emocích',
+            title: '',
             xaxis: {
-                title: 'Emoce',
-                tickangle: -45, // Otočení textu osy X pro lepší čitelnost
+                title: '',
+                tickangle: 45, 
                 tickmode: 'array'
                 
             },
             yaxis: {
                 title: 'Sentiment',
-                range: [-1, 1]  // Sentimenty mezi -1 a 1
+                range: [-1, 1] 
             },
-            showlegend: false,  // Skrytí legendy
-       
-            paper_bgcolor: 'rgb(255, 255, 255)',  // Bílé pozadí papíru
-            font: {
-                family: 'Arial, sans-serif',
-                size: 14,
-                color: 'rgb(0, 0, 0)'  // Barva písma
+            showlegend: false,  
+            autosize: true,
+            margin: {
+                t: 0,r:30,l:20
             }
+          
         };
 
-        // Vykreslení grafu
+      
         Plotly.newPlot('boxplotSentiment', traces, layout,config);
     }
     
@@ -216,8 +278,7 @@
             title: "",
             margin: { t: 5, r: 5, b: 5, l: 5 },
             showlegend: false,
-            width: pieWidth,
-            height: pieWidth
+            autosize: true
 
         };
 
@@ -228,15 +289,21 @@
         
     }
     
-    function filterAndSortTable() {
-        var emstats = emotionStatsJS[yearS] || emotionStatsJS["all"]
+    function filterAndSortTable(refreshpage=false) {
+        
+
+        if(refreshpage){
+            currentPage = 1;
+        }
+        var emstats = emotionStatsJS[yearS] || emotionStatsJS["all"];
         var originalData = [];
 
-        console.log(emstats)
+        console.log(emstats);
         emstats.forEach(politician => {
             Object.entries(politician.emotionStatistics).forEach(([key, value]) => {
                 originalData.push({
                     politician: politician.osobaId,
+                    count:politician.count,
                     emotion: key,
                     percentage: value.percentage,
                     averageIntensity: value.averageIntensity
@@ -247,13 +314,16 @@
         var emotionFilter = document.getElementById('emotionFilter').value;
         var sortBy = document.getElementById('sortBy').value;
         var sortOrder = document.getElementById('sortOrder').value;
+        var minPostCount = parseInt(document.getElementById('minPostCount').value) || 0; 
 
-        // Filtrování podle vybrané emoce
+        
         let filteredData = originalData.filter(data => {
-            return emotionFilter === "" || data.emotion === emotionFilter;
+            return (emotionFilter === "" || data.emotion === emotionFilter) && data.count >= minPostCount;
         });
-
-        // Seřazení podle vybraného kritéria
+        totalPages = Math.ceil(filteredData.length/rowsPerPage);
+        var totalp = document.getElementById('totalPages');
+        totalp.textContent = 'z ' + totalPages;
+        
         filteredData.sort((a, b) => {
             let comparison = 0;
 
@@ -268,20 +338,28 @@
             return sortOrder === 'asc' ? comparison : -comparison;
         });
 
-        // Aktualizace tabulky
-        const tableBody = document.querySelector("#emotionTable tbody");
-        tableBody.innerHTML = ""; // Vymazání tabulky
+      
+        var startIndex = (currentPage - 1) * rowsPerPage;
+        var endIndex = startIndex + rowsPerPage;
+        var pageData = filteredData.slice(startIndex, endIndex);
 
-        filteredData.forEach(data => {
+      
+        const tableBody = document.querySelector("#emotionTable tbody");
+        tableBody.innerHTML = ""; 
+
+        pageData.forEach(data => {
             const row = document.createElement("tr");
             row.innerHTML = `
-                    <td>${data.politician}</td>
-                    <td>${data.emotion}</td>
-                    <td>${data.percentage.toFixed(2)} %</td>
-                    <td>${data.averageIntensity.toFixed(2)}</td>
-                `;
+                <td>${data.politician}</td>
+                <td>${data.emotion}</td>
+                <td>${data.percentage.toFixed(2)} %</td>
+                <td>${data.averageIntensity.toFixed(2)}</td>
+            `;
             tableBody.appendChild(row);
         });
+
+        
+        document.getElementById('pageNumber').textContent = `Stránka ${currentPage}`;
     }
     function updateStatistics(selectedYear) {
         yearS = selectedYear;
@@ -293,19 +371,23 @@
         drawSentimentDensity();
         var emonermix = emotionnermix[yearS] || emotionnermix["all"]
         var emonernames = emotionnernames[yearS] || emotionnernames["all"]
-        for (var emotion in emonermix) {
-            var id = emotion + '-nermix'
-            drawPieChart(emonermix[emotion], id)
-        }
-        for (var emotion in emonernames) {
-            var id = emotion + '-nernames'
-            drawPieChart(emonernames[emotion], id)
-        }
-        filterAndSortTable();
+        var selectedEmotion = document.getElementById("emotionDropdown").value;
+
+        drawPieChart(emonermix[selectedEmotion], 'nermix')
+        drawPieChart(emonernames[selectedEmotion], 'nernames')
+        filterAndSortTable(true);
+    }
+    function showSelectedEmotion() {
+        var selectedEmotion = document.getElementById("emotionDropdown").value;
+        var emonermix = emotionnermix[yearS] || emotionnermix["all"]
+        var emonernames = emotionnernames[yearS] || emotionnernames["all"]
+        drawPieChart(emonermix[selectedEmotion], 'nermix')
+        drawPieChart(emonernames[selectedEmotion], 'nernames')
     }
 
    
     document.addEventListener("DOMContentLoaded", function () {
+        showSelectedEmotion();
         document.getElementById("yearFilter").addEventListener("change", function () {
             const selectedYear = this.value;
             updateStatistics(selectedYear);
@@ -316,126 +398,132 @@
         drawCoocurence();
         drawIntensityBar();
         drawSentimentDensity();
-
-        for (var emotion in emotionnermix["all"]) {
-            var id = emotion + '-nermix'
-            drawPieChart(emotionnermix["all"][emotion], id)
-        }
-        for (var emotion in emotionnernames["all"]) {
-            var id = emotion + '-nernames'
-            drawPieChart(emotionnernames["all"][emotion], id)
-        }
-
+        totalPages = Math.ceil((emotionStatsJS[yearS] || emotionStatsJS["all"]).length / rowsPerPage);
+        var selectedEmotion = document.getElementById("emotionDropdown").value;
+        var emonermix = emotionnermix[yearS] || emotionnermix["all"]
+        var emonernames = emotionnernames[yearS] || emotionnernames["all"]
+        drawPieChart(emonermix[selectedEmotion], 'nermix')
+        drawPieChart(emonernames[selectedEmotion], 'nernames')
        
+        document.getElementById('prevPage').addEventListener('click', function () {
+            if (currentPage > 1) {
+                currentPage--;
+                filterAndSortTable();
+            }
+        });
         
+        document.getElementById('nextPage').addEventListener('click', function () {
+           
+
+            if (currentPage < totalPages) {
+                currentPage++;
+                filterAndSortTable();
+            }
+        });
 
         
 
-        filterAndSortTable();
+        filterAndSortTable(true);
         
 
         
-        emotionFilter.addEventListener('change', filterAndSortTable);
-        sortBy.addEventListener('change', filterAndSortTable);
-        sortOrder.addEventListener('change', filterAndSortTable);
+        emotionFilter.addEventListener('change',()=> filterAndSortTable(true));
+        sortBy.addEventListener('change', ()=>filterAndSortTable(true));
+        sortOrder.addEventListener('change', ()=>filterAndSortTable(true));
+        minPostCount.addEventListener('change', () => filterAndSortTable(true));
+
     });
 </script>
-<h1>Analýza emocí ve vyjádřeních</h1>
-<div class="row justify-content-start mb-3">
-    <div class="col-md-4">
-        <select id="yearFilter" class="form-select">
-            <option value="">Všechna vyjádření</option>
-            @for (int year = 2016; year <= 2023; year++)
+<div class="chart-card" style="margin-bottom:15px;">
+
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza emocí v příspěvcích</h2>
+        <p class="chart-subtitle">
+Na této stránce je zobrazena analýza emocí v příspěvcích. Lze zde vidět nejčastěji vyskytující se emoce, srovnání sociálních sítí, spoluvýskyt emocí, jejich intenzita či spojení se sentimentem.
+Pro jednotlivé emoce si také lze zobrazit charakteristické entity.
+</p>
+
+        <p class="chart-subtitle">
+            V tabulce je pak zobrazeno jaké emoce používali konkrétní politici. Politiky v tabulce lze také řadit a filtrovat.
+        </p>
+
+    </div>
+
+    <p class="d-flex align-items-center">
+        <span class="me-2">Zobrazit statistiky pro rok:</span>
+        <select id="yearFilter" class="form-select w-auto">
+            <option value="">Všechny roky</option>
+            @for (int year = 2016; year <= 2022; year++)
             {
                 <option value="@year.ToString()">@year</option>
             }
         </select>
-    </div>
+    </p>
 </div>
+
 <div class="sentiment_page">
 <div class="left-panel-emotion">
-        <div class="card">
-            <div class="card-header">
-                <h3>Frekvence emocí ve vyjádřeních</h3>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Frekvence emocí</h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                <div class="chart-container" id="emoce_distribuce"></div>
+
             </div>
-            <div class="card-body">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Spoluvýskyt emocí</h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                <div class="chart-container" id="coocurence"></div>
+
+            </div>
+        </div>
+
         
-                <div class="block">
 
-                    <div id="emoce_distribuce" class="chart-container"></div>
+        <div class="chart-card">
+            <div class="chart-header">
+                <h3 class="chart-title">Emoce na soc.sítích</h3>
+                <p class="chart-subtitle">
+                    Srovnání použitých emocí na Facebooku a Twitteru
+                </p>
+            </div>
 
+
+            <div class="chart-row">
+                <div class="chart-column">
+                    <h4 class="chart-subtitle-title">Facebook</h4>
+                    <div class="chart-container-detail" id="emoce_distribuce_fb"></div>
                 </div>
-       
-            </div>
-
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <h3>Spoluvýskyt emocí</h3>
-            </div>
-            <div class="card-body">
-
-                <div class="block">
-
-                    <div id="coocurence" class="chart-container"></div>
-
-                </div>
-
-            </div>
-
-        </div>
-    <div class="card">
-        <div class="card-header">
-            <h3>Spoluvýskyt emocí</h3>
-        </div>
-        <div class="card-body">
-
-            <div class="block">
-
-                <div id="intensityBar" class="chart-container"></div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <h3>Emoce na platformách</h3>
-        </div>
-        <div class="card-body">
-            <div class="grid">
-            <div class="block">
-                <h4>Facebook</h4>
-                <div id="emoce_distribuce_fb" class="chart-container"></div>
-
-            </div>
-                <div class="block">
-                    <h4>Twitter</h4>
-                    <div id="emoce_distribuce_twitter" class="chart-container"></div>
-
+                <div class="chart-column">
+                    <h4 class="chart-subtitle-title">Twitter</h4>
+                    <div class="chart-container-detail" id="emoce_distribuce_twitter"></div>
                 </div>
             </div>
         </div>
 
-    </div>
-    <div class="card">
-        <div class="card-header">
-            <h3>Sentiment a emoce</h3>
-        </div>
-        <div class="card-body">
-          
-                <div class="block">
-                    
-                    <div id="boxplotSentiment" class="chart-container"></div>
-
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Intenzita emocí</h3>
+                    <p class="chart-subtitle">Průměrná intenzita emocí</p>
                 </div>
-                
-           
-        </div>
+                <div class="chart-container" id="intensityBar"></div>
 
-    </div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Sentiment a emoce</h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                <div class="chart-container" id="boxplotSentiment"></div>
+
+            </div>
+        </div>
+   
 
    
 </div>
@@ -454,7 +542,7 @@
                 <option value="pesimism">Pesimismus</option>
                 <option value="love">Láska</option>
                 <option value="surprise">Překvapení</option>
-                <!-- Přidejte více emocí podle potřeby -->
+      
             </select>
 
             <select id="sortBy" class="form-select">
@@ -467,6 +555,8 @@
                 <option value="asc">Vzestupně</option>
                 <option value="desc">Sestupně</option>
             </select>
+            <label for="minPostCount">Minimální počet příspěvků:</label>
+            <input type="number" id="minPostCount" class="form-select" placeholder="Zadejte počet">
         </div>
 
         <table id="emotionTable" class="table styled-table">
@@ -479,42 +569,63 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Řádky budou dynamicky generovány JavaScriptem -->
+             
             </tbody>
         </table>
-
-    <div class="card">
-        <div class="card-header">
-            <h3>Charakterictické entity</h3>
+        <div id="pagination" class="pagination">
+            <button id="prevPage">Předchozí</button>
+            <span id="pageNumber">Stránka 1</span>
+            <span id="totalPages">z 1</span> 
+            <button id="nextPage">Další</button>
         </div>
-        
-        <div class="card-body">
-            
-                @foreach (var emotion in ViewBag.emotionsNerMix["all"].Keys)
-                {
-                    <div class="emotion-card">
-                        <div class="emotion-card-header">
-                            <h4>@emotion</h4>
-                        </div>
-                        <div class="emotion-card-body">
-                            <div class="grid">
-                                <div class="chart-section">
-                                    <h5>Mix</h5>
-                                    <div class="chart-container-small" id="@emotion-nermix"></div>
-                                </div>
-                                <div class="chart-section">
-                                    <h5>Osoby</h5>
-                                    <div class="chart-container-small" id="@emotion-nernames"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
 
+
+        <div class="chart-card">
+            <div class="chart-header">
+                <h3 class="chart-title">Entity v emocích</h3>
+                <p class="chart-subtitle">Charakteristické entity pro emoci
+
+                <div class="year-selection" style="display: inline-block; margin-left: 10px;">
+                       
+                        <select id="emotionDropdown" onchange="showSelectedEmotion()" class="year-select">
+                            <option value="anger">Hněv</option>
+                            <option value="anticipation">Očekávání</option>
+                            <option value="disgust">Znechucení</option>
+                            <option value="fear">Strach</option>
+                            <option value="joy">Radost</option>
+                            <option value="love">Láska</option>
+                            <option value="optimism">Optimismus</option>
+                            <option value="pessimism">Pesimismus</option>
+                            <option value="sadness">Smutek</option>
+                            <option value="surprise">Překvapení</option>
+                            <option value="trust">Důvěra</option>
+                        </select>
+                    </div> 
+            </p>
+            </div>
+
+ 
+            <div class="chart-row1" >
+                <div class="chart-column">
+                    <h4 class="chart-subtitle-title">Mix typů entit</h4>
+                    <div class="chart-container-detail" id="nermix"></div>
+                </div>
+                <div class="chart-column">
+                    <h4 class="chart-subtitle-title">Osoby</h4>
+                    <div class="chart-container-detail" id="nernames"></div>
+                </div>
+            </div>
+                    
             
         </div>
+
        
-    </div>
+
+
+            
+        
+       
+   
 
         
 </div>

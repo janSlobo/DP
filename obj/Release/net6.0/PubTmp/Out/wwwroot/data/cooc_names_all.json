@@ -1,0 +1,4500 @@
+{
+    "nodes": [
+        {
+            "id": "Soukup"
+        },
+        {
+            "id": "Drahoš"
+        },
+        {
+            "id": "Sehnalová"
+        },
+        {
+            "id": "von der Leyen"
+        },
+        {
+            "id": "Szijjártó"
+        },
+        {
+            "id": "Dostál"
+        },
+        {
+            "id": "Brabec"
+        },
+        {
+            "id": "Stanjura"
+        },
+        {
+            "id": "Rakušan"
+        },
+        {
+            "id": "Síkela"
+        },
+        {
+            "id": "Stropnický"
+        },
+        {
+            "id": "Wilder"
+        },
+        {
+            "id": "Hahnova"
+        },
+        {
+            "id": "Vystrčil"
+        },
+        {
+            "id": "Pekarová Adamová"
+        },
+        {
+            "id": "Putin"
+        },
+        {
+            "id": "Soros"
+        },
+        {
+            "id": "Jurečka"
+        },
+        {
+            "id": "Ovčáček"
+        },
+        {
+            "id": "Trump"
+        },
+        {
+            "id": "Beneš"
+        },
+        {
+            "id": "Atkinson"
+        },
+        {
+            "id": "Juncker"
+        },
+        {
+            "id": "Arenberger"
+        },
+        {
+            "id": "Volný"
+        },
+        {
+            "id": "Kreml"
+        },
+        {
+            "id": "Lipovský"
+        },
+        {
+            "id": "Le Pen"
+        },
+        {
+            "id": "Petříček"
+        },
+        {
+            "id": "Prymula"
+        },
+        {
+            "id": "Výborný"
+        },
+        {
+            "id": "Schillerová"
+        },
+        {
+            "id": "Novák"
+        },
+        {
+            "id": "Válková"
+        },
+        {
+            "id": "David"
+        },
+        {
+            "id": "Holík"
+        },
+        {
+            "id": "Čižinský"
+        },
+        {
+            "id": "Timmermans"
+        },
+        {
+            "id": "Konečný"
+        },
+        {
+            "id": "Kolář"
+        },
+        {
+            "id": "Topolánek"
+        },
+        {
+            "id": "Bartoš"
+        },
+        {
+            "id": "Macron"
+        },
+        {
+            "id": "Havlíček"
+        },
+        {
+            "id": "Fiala"
+        },
+        {
+            "id": "Kubera"
+        },
+        {
+            "id": "Poche"
+        },
+        {
+            "id": "Merkelová"
+        },
+        {
+            "id": "Paul"
+        },
+        {
+            "id": "Metnar"
+        },
+        {
+            "id": "Okamura"
+        },
+        {
+            "id": "Gazdík"
+        },
+        {
+            "id": "Dlabajová"
+        },
+        {
+            "id": "Kalousek"
+        },
+        {
+            "id": "Černochová"
+        },
+        {
+            "id": "Blaško"
+        },
+        {
+            "id": "Vojtěch"
+        },
+        {
+            "id": "Pospíšil"
+        },
+        {
+            "id": "Klaus"
+        },
+        {
+            "id": "Toman"
+        },
+        {
+            "id": "Duka"
+        },
+        {
+            "id": "Brichta"
+        },
+        {
+            "id": "Vondráček"
+        },
+        {
+            "id": "Johansson"
+        },
+        {
+            "id": "Bárta"
+        },
+        {
+            "id": "Kupka"
+        },
+        {
+            "id": "Havel"
+        },
+        {
+            "id": "Doležal"
+        },
+        {
+            "id": "Zeman"
+        },
+        {
+            "id": "Herman"
+        },
+        {
+            "id": "Obama"
+        },
+        {
+            "id": "Maříková"
+        },
+        {
+            "id": "Staněk"
+        },
+        {
+            "id": "Salvini"
+        },
+        {
+            "id": "Hrnčíř"
+        },
+        {
+            "id": "Kovanda"
+        },
+        {
+            "id": "Makron"
+        },
+        {
+            "id": "Corbyn"
+        },
+        {
+            "id": "SVOBODA"
+        },
+        {
+            "id": "Plaga"
+        },
+        {
+            "id": "Zdechovský"
+        },
+        {
+            "id": "Farský"
+        },
+        {
+            "id": "Mynář"
+        },
+        {
+            "id": "Ježek"
+        },
+        {
+            "id": "Hitler"
+        },
+        {
+            "id": "Foldyna"
+        },
+        {
+            "id": "Faltýnek"
+        },
+        {
+            "id": "Dienstbier"
+        },
+        {
+            "id": "Fiala_p"
+        },
+        {
+            "id": "Chovanec"
+        },
+        {
+            "id": "Bělobrádek"
+        },
+        {
+            "id": "Horák"
+        },
+        {
+            "id": "Válek"
+        },
+        {
+            "id": "Schwarzenberg"
+        },
+        {
+            "id": "Štětina"
+        },
+        {
+            "id": "Sobotka"
+        },
+        {
+            "id": "Masaryk"
+        },
+        {
+            "id": "Nos"
+        },
+        {
+            "id": "Michálek"
+        },
+        {
+            "id": "Kobza"
+        },
+        {
+            "id": "Ťok"
+        },
+        {
+            "id": "Kalouskův"
+        },
+        {
+            "id": "Gottwald"
+        },
+        {
+            "id": "Pelikán"
+        },
+        {
+            "id": "Charanzová"
+        },
+        {
+            "id": "Polčák"
+        },
+        {
+            "id": "Rakoušan"
+        },
+        {
+            "id": "Křeček"
+        },
+        {
+            "id": "Novotný"
+        },
+        {
+            "id": "Niedermayer"
+        },
+        {
+            "id": "Šmarda"
+        },
+        {
+            "id": "Fiala_r"
+        },
+        {
+            "id": "Hamáček"
+        },
+        {
+            "id": "Peksa"
+        },
+        {
+            "id": "Šafránková"
+        },
+        {
+            "id": "Moravec"
+        },
+        {
+            "id": "Čaputová"
+        },
+        {
+            "id": "Teličko"
+        },
+        {
+            "id": "Farage"
+        },
+        {
+            "id": "Koněv"
+        },
+        {
+            "id": "Filip"
+        },
+        {
+            "id": "Biden"
+        },
+        {
+            "id": "Johnson"
+        },
+        {
+            "id": "Feri"
+        },
+        {
+            "id": "Maláčová"
+        },
+        {
+            "id": "Jourová"
+        },
+        {
+            "id": "Němcová"
+        },
+        {
+            "id": "Nováková"
+        },
+        {
+            "id": "Wilderse"
+        },
+        {
+            "id": "Dopita"
+        },
+        {
+            "id": "Erdogan"
+        },
+        {
+            "id": "Stalin"
+        },
+        {
+            "id": "Orbán"
+        },
+        {
+            "id": "Pokorný"
+        },
+        {
+            "id": "Babiš"
+        },
+        {
+            "id": "Dvořák"
+        },
+        {
+            "id": "Hlubuček"
+        },
+        {
+            "id": "kurz"
+        },
+        {
+            "id": "Blatný"
+        },
+        {
+            "id": "Benešová"
+        },
+        {
+            "id": "Redl"
+        },
+        {
+            "id": "Jandejsek"
+        },
+        {
+            "id": "Paroubek"
+        },
+        {
+            "id": "Nečas"
+        },
+        {
+            "id": "Hyťhová"
+        },
+        {
+            "id": "Henner"
+        },
+        {
+            "id": "Fischer"
+        },
+        {
+            "id": "Palacký"
+        },
+        {
+            "id": "Schmeidler"
+        },
+        {
+            "id": "Klaus ml."
+        },
+        {
+            "id": "Hřib"
+        },
+        {
+            "id": "Šojdrová"
+        },
+        {
+            "id": "Jedlička"
+        },
+        {
+            "id": "Šlachta"
+        },
+        {
+            "id": "Gott"
+        },
+        {
+            "id": "Bakala"
+        },
+        {
+            "id": "Zaorálek"
+        },
+        {
+            "id": "Jakl"
+        }
+    ],
+    "links": [
+        {
+            "source": "Babiš",
+            "target": "Okamura",
+            "weight": 360.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Zeman",
+            "weight": 589.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Hamáček",
+            "weight": 356.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Sobotka",
+            "weight": 540.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Fiala_p",
+            "weight": 118.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Kalousek",
+            "weight": 272.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Schillerová",
+            "weight": 163.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Salvini",
+            "weight": 83.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Putin",
+            "weight": 41.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Merkelová",
+            "weight": 126.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Trump",
+            "weight": 80.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Orbán",
+            "weight": 112.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Le Pen",
+            "weight": 91.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Fiala",
+            "weight": 47.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Maláčová",
+            "weight": 79.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Havel",
+            "weight": 48.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Klaus",
+            "weight": 75.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Havlíček",
+            "weight": 91.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Vojtěch",
+            "weight": 83.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Bělobrádek",
+            "weight": 203.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Macron",
+            "weight": 52.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Masaryk",
+            "weight": 24.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Soros",
+            "weight": 69.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Petříček",
+            "weight": 82.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Bartoš",
+            "weight": 76.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Jourová",
+            "weight": 89.0
+        },
+        {
+            "source": "Babiš",
+            "target": "David",
+            "weight": 30.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Juncker",
+            "weight": 45.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Hitler",
+            "weight": 20.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Moravec",
+            "weight": 39.0
+        },
+        {
+            "source": "Babiš",
+            "target": "von der Leyen",
+            "weight": 44.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Blatný",
+            "weight": 49.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Wilderse",
+            "weight": 40.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Pekarová Adamová",
+            "weight": 25.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Schwarzenberg",
+            "weight": 30.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Toman",
+            "weight": 15.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Johnson",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Staněk",
+            "weight": 39.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Gott",
+            "weight": 15.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Hřib",
+            "weight": 21.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Rakušan",
+            "weight": 19.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Foldyna",
+            "weight": 24.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Dostál",
+            "weight": 46.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Vystrčil",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Fiala_r",
+            "weight": 28.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Volný",
+            "weight": 21.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Prymula",
+            "weight": 41.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Benešová",
+            "weight": 49.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Ťok",
+            "weight": 43.0
+        },
+        {
+            "source": "Babiš",
+            "target": "SVOBODA",
+            "weight": 22.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Dvořák",
+            "weight": 24.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Faltýnek",
+            "weight": 47.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Brabec",
+            "weight": 26.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Koněv",
+            "weight": 11.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Šafránková",
+            "weight": 32.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Bakala",
+            "weight": 49.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Filip",
+            "weight": 33.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Erdogan",
+            "weight": 39.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Jurečka",
+            "weight": 27.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Šojdrová",
+            "weight": 42.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Zaorálek",
+            "weight": 37.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Biden",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Gazdík",
+            "weight": 20.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Polčák",
+            "weight": 17.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Plaga",
+            "weight": 21.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Němcová",
+            "weight": 19.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Novák",
+            "weight": 22.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Hrnčíř",
+            "weight": 23.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Zdechovský",
+            "weight": 19.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Feri",
+            "weight": 33.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Pospíšil",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Michálek",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Vondráček",
+            "weight": 13.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Nos",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Křeček",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Mynář",
+            "weight": 11.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Stanjura",
+            "weight": 24.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Kreml",
+            "weight": 18.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Farský",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Kovanda",
+            "weight": 37.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Duka",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Blaško",
+            "weight": 13.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Šmarda",
+            "weight": 33.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Metnar",
+            "weight": 26.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Makron",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Timmermans",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Nováková",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Herman",
+            "weight": 15.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Charanzová",
+            "weight": 35.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Klaus ml.",
+            "weight": 31.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Čižinský",
+            "weight": 11.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Niedermayer",
+            "weight": 13.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Stropnický",
+            "weight": 31.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Dlabajová",
+            "weight": 26.0
+        },
+        {
+            "source": "Babiš",
+            "target": "kurz",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Poche",
+            "weight": 36.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Černochová",
+            "weight": 12.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Pelikán",
+            "weight": 27.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Konečný",
+            "weight": 15.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Ježek",
+            "weight": 25.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Kalouskův",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Válková",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Chovanec",
+            "weight": 21.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Šlachta",
+            "weight": 26.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Arenberger",
+            "weight": 20.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Paroubek",
+            "weight": 11.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Štětina",
+            "weight": 16.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Teličko",
+            "weight": 22.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Szijjártó",
+            "weight": 17.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Hyťhová",
+            "weight": 11.0
+        },
+        {
+            "source": "Babiš",
+            "target": "Dienstbier",
+            "weight": 13.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Zeman",
+            "weight": 156.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Hamáček",
+            "weight": 55.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Sobotka",
+            "weight": 238.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Fiala_p",
+            "weight": 50.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Kalousek",
+            "weight": 59.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Schillerová",
+            "weight": 13.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Salvini",
+            "weight": 92.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Putin",
+            "weight": 28.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Merkelová",
+            "weight": 65.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Trump",
+            "weight": 46.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Orbán",
+            "weight": 41.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Le Pen",
+            "weight": 148.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Fiala",
+            "weight": 57.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Klaus",
+            "weight": 35.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Bělobrádek",
+            "weight": 30.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Macron",
+            "weight": 19.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Soros",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Petříček",
+            "weight": 11.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Bartoš",
+            "weight": 16.0
+        },
+        {
+            "source": "Okamura",
+            "target": "David",
+            "weight": 60.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Juncker",
+            "weight": 32.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Hitler",
+            "weight": 23.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Moravec",
+            "weight": 20.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Wilderse",
+            "weight": 62.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Soukup",
+            "weight": 45.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Pekarová Adamová",
+            "weight": 17.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Schwarzenberg",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Foldyna",
+            "weight": 22.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Fiala_r",
+            "weight": 96.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Volný",
+            "weight": 19.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Dvořák",
+            "weight": 17.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Šafránková",
+            "weight": 31.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Bakala",
+            "weight": 18.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Filip",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Erdogan",
+            "weight": 14.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Zaorálek",
+            "weight": 12.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Polčák",
+            "weight": 13.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Hrnčíř",
+            "weight": 31.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Nos",
+            "weight": 72.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Wilder",
+            "weight": 43.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Farský",
+            "weight": 11.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Novotný",
+            "weight": 18.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Blaško",
+            "weight": 17.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Doležal",
+            "weight": 19.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Maříková",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Pelikán",
+            "weight": 14.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Kobza",
+            "weight": 13.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Holík",
+            "weight": 43.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Brichta",
+            "weight": 48.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Horák",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Hahnova",
+            "weight": 16.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Bárta",
+            "weight": 21.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Paul",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Dopita",
+            "weight": 17.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Atkinson",
+            "weight": 41.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Henner",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Schmeidler",
+            "weight": 15.0
+        },
+        {
+            "source": "Okamura",
+            "target": "Dienstbier",
+            "weight": 14.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Hamáček",
+            "weight": 110.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Sobotka",
+            "weight": 99.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Fiala_p",
+            "weight": 34.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Kalousek",
+            "weight": 51.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Schillerová",
+            "weight": 29.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Salvini",
+            "weight": 24.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Putin",
+            "weight": 45.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Merkelová",
+            "weight": 35.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Trump",
+            "weight": 48.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Orbán",
+            "weight": 35.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Le Pen",
+            "weight": 29.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Maláčová",
+            "weight": 17.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Havel",
+            "weight": 59.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Klaus",
+            "weight": 86.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Havlíček",
+            "weight": 21.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Vojtěch",
+            "weight": 18.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Bělobrádek",
+            "weight": 22.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Macron",
+            "weight": 14.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Masaryk",
+            "weight": 20.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Petříček",
+            "weight": 35.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Bartoš",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Jourová",
+            "weight": 14.0
+        },
+        {
+            "source": "Zeman",
+            "target": "David",
+            "weight": 16.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Juncker",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Hitler",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Moravec",
+            "weight": 22.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Blatný",
+            "weight": 19.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Schwarzenberg",
+            "weight": 32.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Staněk",
+            "weight": 39.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Hřib",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Vystrčil",
+            "weight": 14.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Fiala_r",
+            "weight": 14.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Prymula",
+            "weight": 17.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Benešová",
+            "weight": 38.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Kubera",
+            "weight": 17.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Dvořák",
+            "weight": 18.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Bakala",
+            "weight": 19.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Filip",
+            "weight": 18.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Zaorálek",
+            "weight": 23.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Gazdík",
+            "weight": 13.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Polčák",
+            "weight": 13.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Čaputová",
+            "weight": 13.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Němcová",
+            "weight": 21.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Vondráček",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Mynář",
+            "weight": 26.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Šmarda",
+            "weight": 25.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Ovčáček",
+            "weight": 24.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Fischer",
+            "weight": 13.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Pelikán",
+            "weight": 12.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Drahoš",
+            "weight": 15.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Topolánek",
+            "weight": 15.0
+        },
+        {
+            "source": "Zeman",
+            "target": "Nečas",
+            "weight": 12.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Sobotka",
+            "weight": 35.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Fiala_p",
+            "weight": 16.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Kalousek",
+            "weight": 61.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Schillerová",
+            "weight": 36.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Salvini",
+            "weight": 26.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Putin",
+            "weight": 14.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Merkelová",
+            "weight": 38.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Trump",
+            "weight": 14.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Orbán",
+            "weight": 14.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Le Pen",
+            "weight": 23.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Maláčová",
+            "weight": 55.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Havel",
+            "weight": 15.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Klaus",
+            "weight": 20.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Havlíček",
+            "weight": 36.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Vojtěch",
+            "weight": 40.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Petříček",
+            "weight": 50.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Bartoš",
+            "weight": 44.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Jourová",
+            "weight": 12.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Blatný",
+            "weight": 29.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Wilderse",
+            "weight": 13.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Schwarzenberg",
+            "weight": 22.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Staněk",
+            "weight": 24.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Foldyna",
+            "weight": 19.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Dostál",
+            "weight": 12.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Prymula",
+            "weight": 18.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Benešová",
+            "weight": 19.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Šafránková",
+            "weight": 11.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Bakala",
+            "weight": 38.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Erdogan",
+            "weight": 13.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Šojdrová",
+            "weight": 40.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Zaorálek",
+            "weight": 15.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Gazdík",
+            "weight": 12.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Plaga",
+            "weight": 18.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Feri",
+            "weight": 27.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Šmarda",
+            "weight": 19.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Metnar",
+            "weight": 11.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Klaus ml.",
+            "weight": 25.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Maříková",
+            "weight": 30.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Poche",
+            "weight": 14.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Šlachta",
+            "weight": 17.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Arenberger",
+            "weight": 13.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Johansson",
+            "weight": 13.0
+        },
+        {
+            "source": "Hamáček",
+            "target": "Pokorný",
+            "weight": 16.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Fiala_p",
+            "weight": 18.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Kalousek",
+            "weight": 134.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Putin",
+            "weight": 14.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Merkelová",
+            "weight": 67.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Trump",
+            "weight": 21.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Orbán",
+            "weight": 17.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Le Pen",
+            "weight": 41.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Maláčová",
+            "weight": 14.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Havel",
+            "weight": 16.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Klaus",
+            "weight": 13.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Bělobrádek",
+            "weight": 194.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Juncker",
+            "weight": 27.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Schwarzenberg",
+            "weight": 26.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Fiala_r",
+            "weight": 35.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Bakala",
+            "weight": 68.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Erdogan",
+            "weight": 14.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Zaorálek",
+            "weight": 17.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Nos",
+            "weight": 26.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Makron",
+            "weight": 11.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Herman",
+            "weight": 11.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Stropnický",
+            "weight": 16.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Pelikán",
+            "weight": 17.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Holík",
+            "weight": 23.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Brichta",
+            "weight": 19.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Nečas",
+            "weight": 12.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Chovanec",
+            "weight": 14.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Atkinson",
+            "weight": 16.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Pokorný",
+            "weight": 25.0
+        },
+        {
+            "source": "Sobotka",
+            "target": "Dienstbier",
+            "weight": 18.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Kalousek",
+            "weight": 38.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Putin",
+            "weight": 12.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Orbán",
+            "weight": 16.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Le Pen",
+            "weight": 12.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Klaus",
+            "weight": 22.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Bělobrádek",
+            "weight": 21.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Bartoš",
+            "weight": 32.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Pekarová Adamová",
+            "weight": 44.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Hřib",
+            "weight": 14.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Rakušan",
+            "weight": 83.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Jurečka",
+            "weight": 26.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Gazdík",
+            "weight": 47.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Polčák",
+            "weight": 31.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Pospíšil",
+            "weight": 15.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Křeček",
+            "weight": 21.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Stanjura",
+            "weight": 33.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Farský",
+            "weight": 25.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Kovanda",
+            "weight": 16.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Kolář",
+            "weight": 16.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Redl",
+            "weight": 28.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Rakoušan",
+            "weight": 63.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Herman",
+            "weight": 15.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Válek",
+            "weight": 20.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Hlubuček",
+            "weight": 20.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Černochová",
+            "weight": 28.0
+        },
+        {
+            "source": "Fiala_p",
+            "target": "Síkela",
+            "weight": 16.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Schillerová",
+            "weight": 18.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Salvini",
+            "weight": 14.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Putin",
+            "weight": 13.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Merkelová",
+            "weight": 15.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Trump",
+            "weight": 13.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Le Pen",
+            "weight": 21.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Fiala",
+            "weight": 17.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Klaus",
+            "weight": 28.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Bělobrádek",
+            "weight": 78.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Macron",
+            "weight": 11.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Bartoš",
+            "weight": 47.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Wilderse",
+            "weight": 11.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Pekarová Adamová",
+            "weight": 11.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Schwarzenberg",
+            "weight": 26.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Foldyna",
+            "weight": 13.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Bakala",
+            "weight": 19.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Šojdrová",
+            "weight": 22.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Zaorálek",
+            "weight": 11.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Gazdík",
+            "weight": 17.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Feri",
+            "weight": 36.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Stanjura",
+            "weight": 11.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Klaus ml.",
+            "weight": 26.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Kalouskův",
+            "weight": 15.0
+        },
+        {
+            "source": "Kalousek",
+            "target": "Šlachta",
+            "weight": 17.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Trump",
+            "weight": 12.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Maláčová",
+            "weight": 43.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Havlíček",
+            "weight": 50.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Vojtěch",
+            "weight": 53.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Dostál",
+            "weight": 38.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Benešová",
+            "weight": 15.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Ťok",
+            "weight": 17.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Brabec",
+            "weight": 33.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Plaga",
+            "weight": 21.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Němcová",
+            "weight": 13.0
+        },
+        {
+            "source": "Schillerová",
+            "target": "Metnar",
+            "weight": 11.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Merkelová",
+            "weight": 84.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Trump",
+            "weight": 19.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Orbán",
+            "weight": 77.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Le Pen",
+            "weight": 312.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Macron",
+            "weight": 57.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Soros",
+            "weight": 51.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Bartoš",
+            "weight": 16.0
+        },
+        {
+            "source": "Salvini",
+            "target": "David",
+            "weight": 52.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Juncker",
+            "weight": 69.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Wilderse",
+            "weight": 178.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Foldyna",
+            "weight": 49.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Hrnčíř",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Feri",
+            "weight": 14.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Nos",
+            "weight": 30.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Wilder",
+            "weight": 62.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Novotný",
+            "weight": 29.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Blaško",
+            "weight": 41.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Makron",
+            "weight": 14.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Doležal",
+            "weight": 31.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Jedlička",
+            "weight": 19.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Klaus ml.",
+            "weight": 11.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Palacký",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Jandejsek",
+            "weight": 19.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Horák",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Šlachta",
+            "weight": 13.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Hahnova",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Paul",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Dopita",
+            "weight": 29.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Atkinson",
+            "weight": 18.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Henner",
+            "weight": 28.0
+        },
+        {
+            "source": "Salvini",
+            "target": "Schmeidler",
+            "weight": 28.0
+        },
+        {
+            "source": "Putin",
+            "target": "Merkelová",
+            "weight": 15.0
+        },
+        {
+            "source": "Putin",
+            "target": "Trump",
+            "weight": 35.0
+        },
+        {
+            "source": "Putin",
+            "target": "Orbán",
+            "weight": 20.0
+        },
+        {
+            "source": "Putin",
+            "target": "Le Pen",
+            "weight": 18.0
+        },
+        {
+            "source": "Putin",
+            "target": "Macron",
+            "weight": 12.0
+        },
+        {
+            "source": "Putin",
+            "target": "Dvořák",
+            "weight": 11.0
+        },
+        {
+            "source": "Putin",
+            "target": "Biden",
+            "weight": 16.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Trump",
+            "weight": 21.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Orbán",
+            "weight": 57.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Le Pen",
+            "weight": 73.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Bělobrádek",
+            "weight": 12.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Macron",
+            "weight": 110.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Soros",
+            "weight": 67.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Juncker",
+            "weight": 145.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Hitler",
+            "weight": 16.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "von der Leyen",
+            "weight": 28.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Wilderse",
+            "weight": 26.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Schwarzenberg",
+            "weight": 12.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Erdogan",
+            "weight": 20.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Wilder",
+            "weight": 16.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Makron",
+            "weight": 18.0
+        },
+        {
+            "source": "Merkelová",
+            "target": "Johansson",
+            "weight": 13.0
+        },
+        {
+            "source": "Trump",
+            "target": "Orbán",
+            "weight": 19.0
+        },
+        {
+            "source": "Trump",
+            "target": "Le Pen",
+            "weight": 29.0
+        },
+        {
+            "source": "Trump",
+            "target": "Klaus",
+            "weight": 11.0
+        },
+        {
+            "source": "Trump",
+            "target": "Macron",
+            "weight": 13.0
+        },
+        {
+            "source": "Trump",
+            "target": "Bartoš",
+            "weight": 11.0
+        },
+        {
+            "source": "Trump",
+            "target": "Moravec",
+            "weight": 14.0
+        },
+        {
+            "source": "Trump",
+            "target": "Dvořák",
+            "weight": 13.0
+        },
+        {
+            "source": "Trump",
+            "target": "Erdogan",
+            "weight": 12.0
+        },
+        {
+            "source": "Trump",
+            "target": "Biden",
+            "weight": 36.0
+        },
+        {
+            "source": "Trump",
+            "target": "Obama",
+            "weight": 25.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Le Pen",
+            "weight": 81.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Klaus",
+            "weight": 13.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Macron",
+            "weight": 47.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Soros",
+            "weight": 51.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Jourová",
+            "weight": 21.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Juncker",
+            "weight": 42.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Wilderse",
+            "weight": 27.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Pekarová Adamová",
+            "weight": 13.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Wilder",
+            "weight": 16.0
+        },
+        {
+            "source": "Orbán",
+            "target": "Palacký",
+            "weight": 13.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Klaus",
+            "weight": 12.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Macron",
+            "weight": 78.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Soros",
+            "weight": 29.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Bartoš",
+            "weight": 14.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "David",
+            "weight": 54.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Juncker",
+            "weight": 61.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Hitler",
+            "weight": 11.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Wilderse",
+            "weight": 210.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Foldyna",
+            "weight": 40.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Fiala_r",
+            "weight": 32.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Šojdrová",
+            "weight": 13.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Hrnčíř",
+            "weight": 28.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Feri",
+            "weight": 12.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Nos",
+            "weight": 54.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Wilder",
+            "weight": 73.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Novotný",
+            "weight": 29.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Blaško",
+            "weight": 41.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Makron",
+            "weight": 25.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Doležal",
+            "weight": 31.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Holík",
+            "weight": 18.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Brichta",
+            "weight": 26.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Horák",
+            "weight": 28.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Šlachta",
+            "weight": 13.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Hahnova",
+            "weight": 28.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Paul",
+            "weight": 28.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Dopita",
+            "weight": 29.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Atkinson",
+            "weight": 41.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Henner",
+            "weight": 28.0
+        },
+        {
+            "source": "Le Pen",
+            "target": "Schmeidler",
+            "weight": 28.0
+        },
+        {
+            "source": "Fiala",
+            "target": "Pekarová Adamová",
+            "weight": 11.0
+        },
+        {
+            "source": "Maláčová",
+            "target": "Havlíček",
+            "weight": 16.0
+        },
+        {
+            "source": "Maláčová",
+            "target": "Vojtěch",
+            "weight": 21.0
+        },
+        {
+            "source": "Maláčová",
+            "target": "Petříček",
+            "weight": 19.0
+        },
+        {
+            "source": "Maláčová",
+            "target": "Šafránková",
+            "weight": 11.0
+        },
+        {
+            "source": "Havel",
+            "target": "Klaus",
+            "weight": 33.0
+        },
+        {
+            "source": "Havel",
+            "target": "Bělobrádek",
+            "weight": 11.0
+        },
+        {
+            "source": "Havel",
+            "target": "Masaryk",
+            "weight": 26.0
+        },
+        {
+            "source": "Havel",
+            "target": "Schwarzenberg",
+            "weight": 23.0
+        },
+        {
+            "source": "Havel",
+            "target": "Bakala",
+            "weight": 11.0
+        },
+        {
+            "source": "Klaus",
+            "target": "Bartoš",
+            "weight": 11.0
+        },
+        {
+            "source": "Klaus",
+            "target": "Foldyna",
+            "weight": 13.0
+        },
+        {
+            "source": "Klaus",
+            "target": "Klaus ml.",
+            "weight": 13.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Vojtěch",
+            "weight": 29.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Petříček",
+            "weight": 12.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Dostál",
+            "weight": 22.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Benešová",
+            "weight": 16.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Brabec",
+            "weight": 21.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Plaga",
+            "weight": 12.0
+        },
+        {
+            "source": "Havlíček",
+            "target": "Kreml",
+            "weight": 12.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Petříček",
+            "weight": 13.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Dostál",
+            "weight": 27.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Prymula",
+            "weight": 21.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Ťok",
+            "weight": 12.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Brabec",
+            "weight": 23.0
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Plaga",
+            "weight": 22.0
+        },
+        {
+            "source": "Bělobrádek",
+            "target": "Herman",
+            "weight": 30.0
+        },
+        {
+            "source": "Macron",
+            "target": "Soros",
+            "weight": 36.0
+        },
+        {
+            "source": "Macron",
+            "target": "Juncker",
+            "weight": 73.0
+        },
+        {
+            "source": "Macron",
+            "target": "Wilderse",
+            "weight": 24.0
+        },
+        {
+            "source": "Macron",
+            "target": "Wilder",
+            "weight": 17.0
+        },
+        {
+            "source": "Macron",
+            "target": "Makron",
+            "weight": 32.0
+        },
+        {
+            "source": "Macron",
+            "target": "Palacký",
+            "weight": 12.0
+        },
+        {
+            "source": "Masaryk",
+            "target": "Beneš",
+            "weight": 20.0
+        },
+        {
+            "source": "Soros",
+            "target": "Jourová",
+            "weight": 19.0
+        },
+        {
+            "source": "Soros",
+            "target": "Juncker",
+            "weight": 62.0
+        },
+        {
+            "source": "Soros",
+            "target": "Bakala",
+            "weight": 15.0
+        },
+        {
+            "source": "Soros",
+            "target": "Wilder",
+            "weight": 12.0
+        },
+        {
+            "source": "Petříček",
+            "target": "Blatný",
+            "weight": 18.0
+        },
+        {
+            "source": "Petříček",
+            "target": "Poche",
+            "weight": 13.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Wilderse",
+            "weight": 12.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Rakušan",
+            "weight": 12.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Foldyna",
+            "weight": 13.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Šojdrová",
+            "weight": 22.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Gazdík",
+            "weight": 16.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Feri",
+            "weight": 37.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Michálek",
+            "weight": 12.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Výborný",
+            "weight": 12.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Klaus ml.",
+            "weight": 16.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Kupka",
+            "weight": 11.0
+        },
+        {
+            "source": "Bartoš",
+            "target": "Šlachta",
+            "weight": 14.0
+        },
+        {
+            "source": "Jourová",
+            "target": "von der Leyen",
+            "weight": 12.0
+        },
+        {
+            "source": "David",
+            "target": "Wilderse",
+            "weight": 33.0
+        },
+        {
+            "source": "David",
+            "target": "Novák",
+            "weight": 17.0
+        },
+        {
+            "source": "David",
+            "target": "Hrnčíř",
+            "weight": 24.0
+        },
+        {
+            "source": "David",
+            "target": "Jakl",
+            "weight": 17.0
+        },
+        {
+            "source": "David",
+            "target": "Nos",
+            "weight": 39.0
+        },
+        {
+            "source": "David",
+            "target": "Křeček",
+            "weight": 15.0
+        },
+        {
+            "source": "David",
+            "target": "Novotný",
+            "weight": 39.0
+        },
+        {
+            "source": "David",
+            "target": "Blaško",
+            "weight": 70.0
+        },
+        {
+            "source": "David",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "David",
+            "target": "Doležal",
+            "weight": 29.0
+        },
+        {
+            "source": "David",
+            "target": "Horák",
+            "weight": 24.0
+        },
+        {
+            "source": "David",
+            "target": "Hahnova",
+            "weight": 38.0
+        },
+        {
+            "source": "David",
+            "target": "Paul",
+            "weight": 38.0
+        },
+        {
+            "source": "David",
+            "target": "Dopita",
+            "weight": 39.0
+        },
+        {
+            "source": "David",
+            "target": "Henner",
+            "weight": 38.0
+        },
+        {
+            "source": "David",
+            "target": "Schmeidler",
+            "weight": 38.0
+        },
+        {
+            "source": "Juncker",
+            "target": "Wilderse",
+            "weight": 24.0
+        },
+        {
+            "source": "Juncker",
+            "target": "Wilder",
+            "weight": 18.0
+        },
+        {
+            "source": "Hitler",
+            "target": "Stalin",
+            "weight": 30.0
+        },
+        {
+            "source": "Hitler",
+            "target": "Gottwald",
+            "weight": 12.0
+        },
+        {
+            "source": "Moravec",
+            "target": "Dvořák",
+            "weight": 27.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Foldyna",
+            "weight": 33.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Hrnčíř",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Nos",
+            "weight": 32.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Wilder",
+            "weight": 29.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Novotný",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Blaško",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Doležal",
+            "weight": 30.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Horák",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Šlachta",
+            "weight": 11.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Hahnova",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Paul",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Dopita",
+            "weight": 29.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Atkinson",
+            "weight": 19.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Henner",
+            "weight": 28.0
+        },
+        {
+            "source": "Wilderse",
+            "target": "Schmeidler",
+            "weight": 28.0
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Rakušan",
+            "weight": 17.0
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Jurečka",
+            "weight": 31.0
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Feri",
+            "weight": 11.0
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Farský",
+            "weight": 14.0
+        },
+        {
+            "source": "Schwarzenberg",
+            "target": "Bakala",
+            "weight": 23.0
+        },
+        {
+            "source": "Schwarzenberg",
+            "target": "Pokorný",
+            "weight": 14.0
+        },
+        {
+            "source": "Johnson",
+            "target": "Farage",
+            "weight": 11.0
+        },
+        {
+            "source": "Johnson",
+            "target": "Corbyn",
+            "weight": 15.0
+        },
+        {
+            "source": "Staněk",
+            "target": "Šmarda",
+            "weight": 19.0
+        },
+        {
+            "source": "Hřib",
+            "target": "Koněv",
+            "weight": 11.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Jurečka",
+            "weight": 11.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Gazdík",
+            "weight": 31.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Polčák",
+            "weight": 29.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Pospíšil",
+            "weight": 11.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Farský",
+            "weight": 28.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Redl",
+            "weight": 15.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Rakoušan",
+            "weight": 37.0
+        },
+        {
+            "source": "Rakušan",
+            "target": "Hlubuček",
+            "weight": 14.0
+        },
+        {
+            "source": "Foldyna",
+            "target": "Feri",
+            "weight": 12.0
+        },
+        {
+            "source": "Foldyna",
+            "target": "Klaus ml.",
+            "weight": 12.0
+        },
+        {
+            "source": "Foldyna",
+            "target": "Šlachta",
+            "weight": 13.0
+        },
+        {
+            "source": "Dostál",
+            "target": "Ťok",
+            "weight": 13.0
+        },
+        {
+            "source": "Dostál",
+            "target": "Brabec",
+            "weight": 24.0
+        },
+        {
+            "source": "Dostál",
+            "target": "Plaga",
+            "weight": 16.0
+        },
+        {
+            "source": "Dostál",
+            "target": "Němcová",
+            "weight": 12.0
+        },
+        {
+            "source": "Fiala_r",
+            "target": "Nos",
+            "weight": 52.0
+        },
+        {
+            "source": "Fiala_r",
+            "target": "Holík",
+            "weight": 41.0
+        },
+        {
+            "source": "Fiala_r",
+            "target": "Brichta",
+            "weight": 46.0
+        },
+        {
+            "source": "Fiala_r",
+            "target": "Bárta",
+            "weight": 20.0
+        },
+        {
+            "source": "Fiala_r",
+            "target": "Atkinson",
+            "weight": 20.0
+        },
+        {
+            "source": "Beneš",
+            "target": "Herman",
+            "weight": 11.0
+        },
+        {
+            "source": "Ťok",
+            "target": "Brabec",
+            "weight": 18.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Šojdrová",
+            "weight": 37.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Polčák",
+            "weight": 26.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Zdechovský",
+            "weight": 37.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Pospíšil",
+            "weight": 18.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Charanzová",
+            "weight": 25.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Niedermayer",
+            "weight": 25.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Dlabajová",
+            "weight": 24.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Poche",
+            "weight": 24.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Konečný",
+            "weight": 19.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Ježek",
+            "weight": 25.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Štětina",
+            "weight": 22.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Teličko",
+            "weight": 20.0
+        },
+        {
+            "source": "SVOBODA",
+            "target": "Sehnalová",
+            "weight": 18.0
+        },
+        {
+            "source": "Dvořák",
+            "target": "Lipovský",
+            "weight": 16.0
+        },
+        {
+            "source": "Brabec",
+            "target": "Plaga",
+            "weight": 14.0
+        },
+        {
+            "source": "Brabec",
+            "target": "Němcová",
+            "weight": 11.0
+        },
+        {
+            "source": "Brabec",
+            "target": "Kreml",
+            "weight": 11.0
+        },
+        {
+            "source": "Koněv",
+            "target": "Kolář",
+            "weight": 26.0
+        },
+        {
+            "source": "Šafránková",
+            "target": "Hrnčíř",
+            "weight": 18.0
+        },
+        {
+            "source": "Bakala",
+            "target": "Pokorný",
+            "weight": 23.0
+        },
+        {
+            "source": "Erdogan",
+            "target": "Johansson",
+            "weight": 13.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Polčák",
+            "weight": 28.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Zdechovský",
+            "weight": 45.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Feri",
+            "weight": 24.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Pospíšil",
+            "weight": 21.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Charanzová",
+            "weight": 29.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Klaus ml.",
+            "weight": 15.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Niedermayer",
+            "weight": 29.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Dlabajová",
+            "weight": 27.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Poche",
+            "weight": 25.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Konečný",
+            "weight": 21.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Ježek",
+            "weight": 25.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Šlachta",
+            "weight": 12.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Štětina",
+            "weight": 21.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Teličko",
+            "weight": 20.0
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Sehnalová",
+            "weight": 18.0
+        },
+        {
+            "source": "Gazdík",
+            "target": "Polčák",
+            "weight": 26.0
+        },
+        {
+            "source": "Gazdík",
+            "target": "Farský",
+            "weight": 26.0
+        },
+        {
+            "source": "Gazdík",
+            "target": "Redl",
+            "weight": 24.0
+        },
+        {
+            "source": "Gazdík",
+            "target": "Rakoušan",
+            "weight": 18.0
+        },
+        {
+            "source": "Gazdík",
+            "target": "Hlubuček",
+            "weight": 20.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Zdechovský",
+            "weight": 27.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Pospíšil",
+            "weight": 31.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Farský",
+            "weight": 21.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Redl",
+            "weight": 13.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Rakoušan",
+            "weight": 20.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Doležal",
+            "weight": 11.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Charanzová",
+            "weight": 31.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Niedermayer",
+            "weight": 33.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Hlubuček",
+            "weight": 15.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Dlabajová",
+            "weight": 29.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Poche",
+            "weight": 28.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Konečný",
+            "weight": 20.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Ježek",
+            "weight": 27.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Štětina",
+            "weight": 26.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Teličko",
+            "weight": 23.0
+        },
+        {
+            "source": "Polčák",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Novák",
+            "target": "Jakl",
+            "weight": 16.0
+        },
+        {
+            "source": "Novák",
+            "target": "Nos",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Křeček",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Novotný",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Blaško",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Hahnova",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Paul",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Dopita",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Henner",
+            "weight": 14.0
+        },
+        {
+            "source": "Novák",
+            "target": "Schmeidler",
+            "weight": 14.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Nos",
+            "weight": 35.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Novotný",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Blaško",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Doležal",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Horák",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Hahnova",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Paul",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Dopita",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Henner",
+            "weight": 29.0
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Schmeidler",
+            "weight": 29.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Pospíšil",
+            "weight": 21.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Charanzová",
+            "weight": 27.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Niedermayer",
+            "weight": 27.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Dlabajová",
+            "weight": 28.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Poche",
+            "weight": 24.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Konečný",
+            "weight": 21.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Ježek",
+            "weight": 24.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Štětina",
+            "weight": 21.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Teličko",
+            "weight": 20.0
+        },
+        {
+            "source": "Zdechovský",
+            "target": "Sehnalová",
+            "weight": 18.0
+        },
+        {
+            "source": "Feri",
+            "target": "Klaus ml.",
+            "weight": 18.0
+        },
+        {
+            "source": "Feri",
+            "target": "Šlachta",
+            "weight": 16.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Nos",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Křeček",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Novotný",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Blaško",
+            "weight": 15.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Hahnova",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Paul",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Dopita",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Henner",
+            "weight": 14.0
+        },
+        {
+            "source": "Jakl",
+            "target": "Schmeidler",
+            "weight": 14.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Redl",
+            "weight": 17.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Charanzová",
+            "weight": 23.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Niedermayer",
+            "weight": 26.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Hlubuček",
+            "weight": 13.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Dlabajová",
+            "weight": 22.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Poche",
+            "weight": 21.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Konečný",
+            "weight": 20.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Ježek",
+            "weight": 20.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Štětina",
+            "weight": 21.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Teličko",
+            "weight": 16.0
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Sehnalová",
+            "weight": 18.0
+        },
+        {
+            "source": "Michálek",
+            "target": "Peksa",
+            "weight": 12.0
+        },
+        {
+            "source": "Nos",
+            "target": "Křeček",
+            "weight": 14.0
+        },
+        {
+            "source": "Nos",
+            "target": "Wilder",
+            "weight": 11.0
+        },
+        {
+            "source": "Nos",
+            "target": "Novotný",
+            "weight": 43.0
+        },
+        {
+            "source": "Nos",
+            "target": "Blaško",
+            "weight": 43.0
+        },
+        {
+            "source": "Nos",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "Nos",
+            "target": "Doležal",
+            "weight": 30.0
+        },
+        {
+            "source": "Nos",
+            "target": "Holík",
+            "weight": 37.0
+        },
+        {
+            "source": "Nos",
+            "target": "Brichta",
+            "weight": 46.0
+        },
+        {
+            "source": "Nos",
+            "target": "Horák",
+            "weight": 29.0
+        },
+        {
+            "source": "Nos",
+            "target": "Hahnova",
+            "weight": 43.0
+        },
+        {
+            "source": "Nos",
+            "target": "Bárta",
+            "weight": 19.0
+        },
+        {
+            "source": "Nos",
+            "target": "Paul",
+            "weight": 43.0
+        },
+        {
+            "source": "Nos",
+            "target": "Dopita",
+            "weight": 44.0
+        },
+        {
+            "source": "Nos",
+            "target": "Atkinson",
+            "weight": 30.0
+        },
+        {
+            "source": "Nos",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Nos",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Novotný",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Blaško",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Redl",
+            "weight": 15.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Hahnova",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Paul",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Dopita",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Henner",
+            "weight": 14.0
+        },
+        {
+            "source": "Křeček",
+            "target": "Schmeidler",
+            "weight": 14.0
+        },
+        {
+            "source": "Wilder",
+            "target": "Atkinson",
+            "weight": 15.0
+        },
+        {
+            "source": "Farský",
+            "target": "Rakoušan",
+            "weight": 13.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Blaško",
+            "weight": 43.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Doležal",
+            "weight": 29.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Horák",
+            "weight": 29.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Hahnova",
+            "weight": 43.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Paul",
+            "weight": 43.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Dopita",
+            "weight": 43.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Novotný",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Redl",
+            "weight": 14.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Doležal",
+            "weight": 31.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Horák",
+            "weight": 29.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Hahnova",
+            "weight": 43.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Paul",
+            "weight": 43.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Dopita",
+            "weight": 43.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Blaško",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Redl",
+            "target": "Rakoušan",
+            "weight": 16.0
+        },
+        {
+            "source": "Redl",
+            "target": "Hlubuček",
+            "weight": 21.0
+        },
+        {
+            "source": "Redl",
+            "target": "Hahnova",
+            "weight": 14.0
+        },
+        {
+            "source": "Redl",
+            "target": "Paul",
+            "weight": 14.0
+        },
+        {
+            "source": "Redl",
+            "target": "Dopita",
+            "weight": 14.0
+        },
+        {
+            "source": "Redl",
+            "target": "Henner",
+            "weight": 14.0
+        },
+        {
+            "source": "Redl",
+            "target": "Schmeidler",
+            "weight": 14.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Horák",
+            "weight": 29.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Hahnova",
+            "weight": 29.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Paul",
+            "weight": 29.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Dopita",
+            "weight": 30.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Henner",
+            "weight": 29.0
+        },
+        {
+            "source": "Doležal",
+            "target": "Schmeidler",
+            "weight": 29.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Niedermayer",
+            "weight": 32.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Dlabajová",
+            "weight": 50.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Poche",
+            "weight": 27.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Konečný",
+            "weight": 19.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Ježek",
+            "weight": 36.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Štětina",
+            "weight": 24.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Teličko",
+            "weight": 30.0
+        },
+        {
+            "source": "Charanzová",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Jedlička",
+            "target": "Palacký",
+            "weight": 20.0
+        },
+        {
+            "source": "Jedlička",
+            "target": "Jandejsek",
+            "weight": 21.0
+        },
+        {
+            "source": "Klaus ml.",
+            "target": "Šlachta",
+            "weight": 11.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Dlabajová",
+            "weight": 29.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Poche",
+            "weight": 27.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Konečný",
+            "weight": 19.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Ježek",
+            "weight": 27.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Štětina",
+            "weight": 25.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Teličko",
+            "weight": 23.0
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Poche",
+            "weight": 27.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Konečný",
+            "weight": 19.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Ježek",
+            "weight": 36.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Štětina",
+            "weight": 24.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Teličko",
+            "weight": 30.0
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Palacký",
+            "target": "Jandejsek",
+            "weight": 20.0
+        },
+        {
+            "source": "Poche",
+            "target": "Konečný",
+            "weight": 17.0
+        },
+        {
+            "source": "Poche",
+            "target": "Ježek",
+            "weight": 27.0
+        },
+        {
+            "source": "Poche",
+            "target": "Štětina",
+            "weight": 24.0
+        },
+        {
+            "source": "Poche",
+            "target": "Teličko",
+            "weight": 23.0
+        },
+        {
+            "source": "Poche",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Konečný",
+            "target": "Ježek",
+            "weight": 18.0
+        },
+        {
+            "source": "Konečný",
+            "target": "Štětina",
+            "weight": 18.0
+        },
+        {
+            "source": "Konečný",
+            "target": "Teličko",
+            "weight": 13.0
+        },
+        {
+            "source": "Konečný",
+            "target": "Sehnalová",
+            "weight": 17.0
+        },
+        {
+            "source": "Ježek",
+            "target": "Štětina",
+            "weight": 24.0
+        },
+        {
+            "source": "Ježek",
+            "target": "Teličko",
+            "weight": 30.0
+        },
+        {
+            "source": "Ježek",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Holík",
+            "target": "Brichta",
+            "weight": 31.0
+        },
+        {
+            "source": "Holík",
+            "target": "Bárta",
+            "weight": 11.0
+        },
+        {
+            "source": "Holík",
+            "target": "Atkinson",
+            "weight": 13.0
+        },
+        {
+            "source": "Brichta",
+            "target": "Bárta",
+            "weight": 19.0
+        },
+        {
+            "source": "Brichta",
+            "target": "Atkinson",
+            "weight": 22.0
+        },
+        {
+            "source": "Horák",
+            "target": "Hahnova",
+            "weight": 29.0
+        },
+        {
+            "source": "Horák",
+            "target": "Paul",
+            "weight": 29.0
+        },
+        {
+            "source": "Horák",
+            "target": "Dopita",
+            "weight": 29.0
+        },
+        {
+            "source": "Horák",
+            "target": "Henner",
+            "weight": 29.0
+        },
+        {
+            "source": "Horák",
+            "target": "Schmeidler",
+            "weight": 29.0
+        },
+        {
+            "source": "Hahnova",
+            "target": "Paul",
+            "weight": 43.0
+        },
+        {
+            "source": "Hahnova",
+            "target": "Dopita",
+            "weight": 43.0
+        },
+        {
+            "source": "Hahnova",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Hahnova",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Paul",
+            "target": "Dopita",
+            "weight": 43.0
+        },
+        {
+            "source": "Paul",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Paul",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Štětina",
+            "target": "Teličko",
+            "weight": 22.0
+        },
+        {
+            "source": "Štětina",
+            "target": "Sehnalová",
+            "weight": 19.0
+        },
+        {
+            "source": "Dopita",
+            "target": "Henner",
+            "weight": 43.0
+        },
+        {
+            "source": "Dopita",
+            "target": "Schmeidler",
+            "weight": 43.0
+        },
+        {
+            "source": "Teličko",
+            "target": "Sehnalová",
+            "weight": 15.0
+        },
+        {
+            "source": "Henner",
+            "target": "Schmeidler",
+            "weight": 43.0
+        }
+    ]
+}

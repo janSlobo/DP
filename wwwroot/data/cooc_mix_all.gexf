@@ -1,0 +1,3290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-24">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="SPD" label="SPD">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="EU" label="EU">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Babiš" label="Babiš">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sněmovna" label="Sněmovna">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="ANO" label="ANO">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Okamura" label="Okamura">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="ČSSD" label="ČSSD">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="ODS" label="ODS">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Poslanecká sněmovna" label="Poslanecká sněmovna">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Zeman" label="Zeman">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Senát" label="Senát">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="TOP 09" label="TOP 09">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="KDU-ČSL" label="KDU-ČSL">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="KSČM" label="KSČM">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Evropská komise" label="Evropská komise">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Piráti" label="Piráti">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="NATO" label="NATO">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Evropský parlament" label="Evropský parlament">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="STAN" label="STAN">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Hamáček" label="Hamáček">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Parlament" label="Parlament">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Sobotka" label="Sobotka">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Fiala_p" label="Fiala_p">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ČT" label="ČT">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Android" label="Android">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Kalousek" label="Kalousek">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Česká televize" label="Česká televize">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Schillerová" label="Schillerová">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="ČT 24" label="ČT 24">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Agrofert" label="Agrofert">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Salvini" label="Salvini">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="V 4" label="V 4">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Putin" label="Putin">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Merkelová" label="Merkelová">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Trump" label="Trump">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Orbán" label="Orbán">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Le Pen" label="Le Pen">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Evropská unie" label="Evropská unie">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="EP" label="EP">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Maláčová" label="Maláčová">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Havel" label="Havel">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ústavní soud" label="Ústavní soud">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="EET" label="EET">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="OSN" label="OSN">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Klaus" label="Klaus">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hrad" label="Hrad">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Evropská rada" label="Evropská rada">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="TV Barrandov" label="TV Barrandov">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Unie" label="Unie">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="HDP" label="HDP">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Spolu" label="Spolu">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OSVČ" label="OSVČ">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Havlíček" label="Havlíček">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Komise" label="Komise">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="ČEZ" label="ČEZ">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Vojtěch" label="Vojtěch">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Bělobrádek" label="Bělobrádek">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Macron" label="Macron">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Český rozhlas" label="Český rozhlas">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Ministerstvo financí" label="Ministerstvo financí">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Ministerstvo zdravotnictví" label="Ministerstvo zdravotnictví">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Masaryk" label="Masaryk">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="NKÚ" label="NKÚ">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Trikolóra" label="Trikolóra">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Soros" label="Soros">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Čapí hnízdo" label="Čapí hnízdo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Petříček" label="Petříček">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Bartoš" label="Bartoš">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Dukovany" label="Dukovany">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="David" label="David">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Jourová" label="Jourová">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Juncker" label="Juncker">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Nejvyšší kontrolní úřad" label="Nejvyšší kontrolní úřad">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Hitler" label="Hitler">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Události komentáře" label="Události komentáře">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Moravec" label="Moravec">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Brusel" label="Brusel">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="ČNB" label="ČNB">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="von der Leyen" label="von der Leyen">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Blatný" label="Blatný">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Islámský stát" label="Islámský stát">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Wilderse" label="Wilderse">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Rada" label="Rada">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="BIS" label="BIS">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hnutí Svoboda a přímá demokracie" label="Hnutí Svoboda a přímá demokracie">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Pekarová Adamová" label="Pekarová Adamová">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Schwarzenberg" label="Schwarzenberg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johnson" label="Johnson">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Hřib" label="Hřib">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Rakušan" label="Rakušan">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="OKD" label="OKD">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Foldyna" label="Foldyna">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="TV Prima" label="TV Prima">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Youtube" label="Youtube">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Volný" label="Volný">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Pirát" label="Pirát">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Fiala_r" label="Fiala_r">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="FB" label="FB">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Prymula" label="Prymula">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Beneš" label="Beneš">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Parlament České republiky" label="Parlament České republiky">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Ťok" label="Ťok">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Hnutí SPD" label="Hnutí SPD">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Partie" label="Partie">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Dvořák" label="Dvořák">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Svobodný" label="Svobodný">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Koněv" label="Koněv">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Otázky Václava Moravce" label="Otázky Václava Moravce">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Šafránková" label="Šafránková">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Bakala" label="Bakala">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Erdogan" label="Erdogan">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Jurečka" label="Jurečka">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Šojdrová" label="Šojdrová">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Zaorálek" label="Zaorálek">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="ENF" label="ENF">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Gazdík" label="Gazdík">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Polčák" label="Polčák">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Novák" label="Novák">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Hrnčíř" label="Hrnčíř">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Zdechovský" label="Zdechovský">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rada EU" label="Rada EU">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="AFD" label="AFD">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Evropa národů a svoboda" label="Evropa národů a svoboda">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Ministerstvo vnitra" label="Ministerstvo vnitra">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Varšavská smlouva" label="Varšavská smlouva">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Feri" label="Feri">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Policie" label="Policie">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Starostové a nezávislí" label="Starostové a nezávislí">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Jakl" label="Jakl">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Pospíšil" label="Pospíšil">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Identita a demokracie" label="Identita a demokracie">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Michálek" label="Michálek">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Rada ČT" label="Rada ČT">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Google" label="Google">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Nos" label="Nos">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Vláda" label="Vláda">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Facebook" label="Facebook">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Eurostat" label="Eurostat">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Křeček" label="Křeček">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="ID" label="ID">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Stanjura" label="Stanjura">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Eurozóna" label="Eurozóna">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Wilder" label="Wilder">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Výborný" label="Výborný">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Farský" label="Farský">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Novotný" label="Novotný">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Kovanda" label="Kovanda">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Duka" label="Duka">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Blaško" label="Blaško">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Kolář" label="Kolář">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Redl" label="Redl">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Metnar" label="Metnar">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Liga" label="Liga">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="EFTA" label="EFTA">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Armáda ČR" label="Armáda ČR">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Zelený" label="Zelený">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Herman" label="Herman">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ČRO" label="ČRO">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Doležal" label="Doležal">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Nejvyšší soud" label="Nejvyšší soud">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Válek" label="Válek">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Úřad práce" label="Úřad práce">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Charanzová" label="Charanzová">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Česká národní banka" label="Česká národní banka">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Bruselská elita" label="Bruselská elita">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Jedlička" label="Jedlička">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Klaus ml." label="Klaus ml.">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Úsvit" label="Úsvit">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Televize" label="Televize">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Ministerstvo práce a sociálních věcí" label="Ministerstvo práce a sociálních věcí">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Národní sdružení" label="Národní sdružení">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Niedermayer" label="Niedermayer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Stropnický" label="Stropnický">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Dlabajová" label="Dlabajová">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Maříková" label="Maříková">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="CVVM" label="CVVM">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Palacký" label="Palacký">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Poche" label="Poche">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="PS PČR" label="PS PČR">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Černochová" label="Černochová">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Agrární komora ČR" label="Agrární komora ČR">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Pelikán" label="Pelikán">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="SPO" label="SPO">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="ČSÚ" label="ČSÚ">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="FIDESZ" label="FIDESZ">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="CDU" label="CDU">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="STEM" label="STEM">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Národní fronta" label="Národní fronta">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Národní shromáždění" label="Národní shromáždění">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="MPO" label="MPO">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Senát Parlamentu ČR" label="Senát Parlamentu ČR">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Toman" label="Toman">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Úřad vlády" label="Úřad vlády">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="EK" label="EK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dostál" label="Dostál">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="UK" label="UK">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="OECD" label="OECD">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Benešová" label="Benešová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Brabec" label="Brabec">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Biden" label="Biden">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Zahradil" label="Zahradil">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Česká pošta" label="Česká pošta">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Timmermans" label="Timmermans">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="Brexit" label="Brexit">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="PS" label="PS">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Staněk" label="Staněk">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Prima" label="Prima">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="StB" label="StB">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Faltýnek" label="Faltýnek">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Filip" label="Filip">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Plaga" label="Plaga">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Kreml" label="Kreml">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Šmarda" label="Šmarda">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sputnik" label="Sputnik">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vondráček" label="Vondráček">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ministerstvo dopravy" label="Ministerstvo dopravy">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="KDU" label="KDU">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Dnešní aktuality" label="Dnešní aktuality">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Soukup" label="Soukup">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Aréna" label="Aréna">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Svobodné rádio" label="Svobodné rádio">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="MPSV" label="MPSV">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Vystrčil" label="Vystrčil">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Němcová" label="Němcová">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Občanská demokratická strana" label="Občanská demokratická strana">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Vondra" label="Vondra">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Mynář" label="Mynář">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ovčáček" label="Ovčáček">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kubera" label="Kubera">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Čižinský" label="Čižinský">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Hlubuček" label="Hlubuček">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="Lipovský" label="Lipovský">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Interview" label="Interview">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="ŘSD" label="ŘSD">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Ředitelství silnic a dálnic" label="Ředitelství silnic a dálnic">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="Stalin" label="Stalin">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="Koudelka" label="Koudelka">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="SPD" target="EU" id="0" weight="2715.0" />
+      <edge source="SPD" target="Babiš" id="1" weight="1702.0" />
+      <edge source="SPD" target="Sněmovna" id="2" weight="2006.0" />
+      <edge source="SPD" target="ANO" id="3" weight="1662.0" />
+      <edge source="SPD" target="Okamura" id="4" weight="1139.0" />
+      <edge source="SPD" target="ČSSD" id="5" weight="1814.0" />
+      <edge source="SPD" target="ODS" id="6" weight="991.0" />
+      <edge source="SPD" target="Poslanecká sněmovna" id="7" weight="1207.0" />
+      <edge source="SPD" target="Zeman" id="8" weight="390.0" />
+      <edge source="SPD" target="Senát" id="9" weight="289.0" />
+      <edge source="SPD" target="TOP 09" id="10" weight="844.0" />
+      <edge source="SPD" target="KDU-ČSL" id="11" weight="903.0" />
+      <edge source="SPD" target="KSČM" id="12" weight="1062.0" />
+      <edge source="SPD" target="Evropská komise" id="13" weight="642.0" />
+      <edge source="SPD" target="Piráti" id="14" weight="708.0" />
+      <edge source="SPD" target="NATO" id="15" weight="292.0" />
+      <edge source="SPD" target="Evropský parlament" id="16" weight="544.0" />
+      <edge source="SPD" target="STAN" id="17" weight="558.0" />
+      <edge source="SPD" target="Hamáček" id="18" weight="411.0" />
+      <edge source="SPD" target="Parlament" id="19" weight="405.0" />
+      <edge source="SPD" target="Sobotka" id="20" weight="589.0" />
+      <edge source="SPD" target="Fiala_p" id="21" weight="429.0" />
+      <edge source="SPD" target="ČT" id="22" weight="264.0" />
+      <edge source="SPD" target="Android" id="23" weight="815.0" />
+      <edge source="SPD" target="Kalousek" id="24" weight="257.0" />
+      <edge source="SPD" target="Česká televize" id="25" weight="439.0" />
+      <edge source="SPD" target="Schillerová" id="26" weight="80.0" />
+      <edge source="SPD" target="ČT 24" id="27" weight="79.0" />
+      <edge source="SPD" target="Agrofert" id="28" weight="42.0" />
+      <edge source="SPD" target="Salvini" id="29" weight="434.0" />
+      <edge source="SPD" target="V 4" id="30" weight="117.0" />
+      <edge source="SPD" target="Putin" id="31" weight="67.0" />
+      <edge source="SPD" target="Merkelová" id="32" weight="316.0" />
+      <edge source="SPD" target="Trump" id="33" weight="118.0" />
+      <edge source="SPD" target="Orbán" id="34" weight="211.0" />
+      <edge source="SPD" target="Le Pen" id="35" weight="434.0" />
+      <edge source="SPD" target="Evropská unie" id="36" weight="98.0" />
+      <edge source="SPD" target="EP" id="37" weight="47.0" />
+      <edge source="SPD" target="Maláčová" id="38" weight="103.0" />
+      <edge source="SPD" target="Havel" id="39" weight="54.0" />
+      <edge source="SPD" target="Ústavní soud" id="40" weight="90.0" />
+      <edge source="SPD" target="EET" id="41" weight="34.0" />
+      <edge source="SPD" target="OSN" id="42" weight="154.0" />
+      <edge source="SPD" target="Klaus" id="43" weight="102.0" />
+      <edge source="SPD" target="Hrad" id="44" weight="29.0" />
+      <edge source="SPD" target="Evropská rada" id="45" weight="25.0" />
+      <edge source="SPD" target="TV Barrandov" id="46" weight="95.0" />
+      <edge source="SPD" target="Unie" id="47" weight="102.0" />
+      <edge source="SPD" target="HDP" id="48" weight="82.0" />
+      <edge source="SPD" target="Spolu" id="49" weight="116.0" />
+      <edge source="SPD" target="OSVČ" id="50" weight="28.0" />
+      <edge source="SPD" target="Havlíček" id="51" weight="55.0" />
+      <edge source="SPD" target="Komise" id="52" weight="72.0" />
+      <edge source="SPD" target="ČEZ" id="53" weight="65.0" />
+      <edge source="SPD" target="Vojtěch" id="54" weight="62.0" />
+      <edge source="SPD" target="Bělobrádek" id="55" weight="201.0" />
+      <edge source="SPD" target="Macron" id="56" weight="131.0" />
+      <edge source="SPD" target="Český rozhlas" id="57" weight="137.0" />
+      <edge source="SPD" target="Ministerstvo financí" id="58" weight="28.0" />
+      <edge source="SPD" target="Ministerstvo zdravotnictví" id="59" weight="29.0" />
+      <edge source="SPD" target="Masaryk" id="60" weight="31.0" />
+      <edge source="SPD" target="NKÚ" id="61" weight="113.0" />
+      <edge source="SPD" target="Trikolóra" id="62" weight="103.0" />
+      <edge source="SPD" target="Soros" id="63" weight="170.0" />
+      <edge source="SPD" target="Čapí hnízdo" id="64" weight="30.0" />
+      <edge source="SPD" target="Petříček" id="65" weight="71.0" />
+      <edge source="SPD" target="Bartoš" id="66" weight="106.0" />
+      <edge source="SPD" target="Dukovany" id="67" weight="71.0" />
+      <edge source="SPD" target="David" id="68" weight="210.0" />
+      <edge source="SPD" target="Jourová" id="69" weight="74.0" />
+      <edge source="SPD" target="Juncker" id="70" weight="146.0" />
+      <edge source="SPD" target="Nejvyšší kontrolní úřad" id="71" weight="170.0" />
+      <edge source="SPD" target="Hitler" id="72" weight="68.0" />
+      <edge source="SPD" target="Události komentáře" id="73" weight="22.0" />
+      <edge source="SPD" target="Moravec" id="74" weight="58.0" />
+      <edge source="SPD" target="Brusel" id="75" weight="158.0" />
+      <edge source="SPD" target="ČNB" id="76" weight="34.0" />
+      <edge source="SPD" target="von der Leyen" id="77" weight="66.0" />
+      <edge source="SPD" target="Blatný" id="78" weight="49.0" />
+      <edge source="SPD" target="Islámský stát" id="79" weight="137.0" />
+      <edge source="SPD" target="Wilderse" id="80" weight="187.0" />
+      <edge source="SPD" target="Rada" id="81" weight="24.0" />
+      <edge source="SPD" target="BIS" id="82" weight="27.0" />
+      <edge source="SPD" target="Hnutí Svoboda a přímá demokracie" id="83" weight="213.0" />
+      <edge source="SPD" target="Pekarová Adamová" id="84" weight="55.0" />
+      <edge source="SPD" target="Schwarzenberg" id="85" weight="74.0" />
+      <edge source="SPD" target="Johnson" id="86" weight="21.0" />
+      <edge source="SPD" target="Hřib" id="87" weight="48.0" />
+      <edge source="SPD" target="Rakušan" id="88" weight="76.0" />
+      <edge source="SPD" target="OKD" id="89" weight="88.0" />
+      <edge source="SPD" target="Foldyna" id="90" weight="123.0" />
+      <edge source="SPD" target="TV Prima" id="91" weight="46.0" />
+      <edge source="SPD" target="Youtube" id="92" weight="56.0" />
+      <edge source="SPD" target="Volný" id="93" weight="56.0" />
+      <edge source="SPD" target="Pirát" id="94" weight="32.0" />
+      <edge source="SPD" target="Fiala_r" id="95" weight="150.0" />
+      <edge source="SPD" target="FB" id="96" weight="24.0" />
+      <edge source="SPD" target="Prymula" id="97" weight="22.0" />
+      <edge source="SPD" target="Beneš" id="98" weight="48.0" />
+      <edge source="SPD" target="Parlament České republiky" id="99" weight="22.0" />
+      <edge source="SPD" target="Ťok" id="100" weight="23.0" />
+      <edge source="SPD" target="Hnutí SPD" id="101" weight="103.0" />
+      <edge source="SPD" target="Partie" id="102" weight="21.0" />
+      <edge source="SPD" target="Dvořák" id="103" weight="65.0" />
+      <edge source="SPD" target="Svobodný" id="104" weight="133.0" />
+      <edge source="SPD" target="Koněv" id="105" weight="22.0" />
+      <edge source="SPD" target="Otázky Václava Moravce" id="106" weight="37.0" />
+      <edge source="SPD" target="Šafránková" id="107" weight="139.0" />
+      <edge source="SPD" target="Bakala" id="108" weight="100.0" />
+      <edge source="SPD" target="Erdogan" id="109" weight="65.0" />
+      <edge source="SPD" target="Jurečka" id="110" weight="42.0" />
+      <edge source="SPD" target="Šojdrová" id="111" weight="68.0" />
+      <edge source="SPD" target="Zaorálek" id="112" weight="33.0" />
+      <edge source="SPD" target="ENF" id="113" weight="121.0" />
+      <edge source="SPD" target="Gazdík" id="114" weight="48.0" />
+      <edge source="SPD" target="Polčák" id="115" weight="55.0" />
+      <edge source="SPD" target="Novák" id="116" weight="32.0" />
+      <edge source="SPD" target="Hrnčíř" id="117" weight="111.0" />
+      <edge source="SPD" target="Zdechovský" id="118" weight="35.0" />
+      <edge source="SPD" target="Rada EU" id="119" weight="21.0" />
+      <edge source="SPD" target="AFD" id="120" weight="83.0" />
+      <edge source="SPD" target="Evropa národů a svoboda" id="121" weight="110.0" />
+      <edge source="SPD" target="Ministerstvo vnitra" id="122" weight="44.0" />
+      <edge source="SPD" target="Varšavská smlouva" id="123" weight="24.0" />
+      <edge source="SPD" target="Feri" id="124" weight="60.0" />
+      <edge source="SPD" target="Policie" id="125" weight="22.0" />
+      <edge source="SPD" target="Starostové a nezávislí" id="126" weight="24.0" />
+      <edge source="SPD" target="Jakl" id="127" weight="58.0" />
+      <edge source="SPD" target="Pospíšil" id="128" weight="35.0" />
+      <edge source="SPD" target="Identita a demokracie" id="129" weight="101.0" />
+      <edge source="SPD" target="Michálek" id="130" weight="25.0" />
+      <edge source="SPD" target="Rada ČT" id="131" weight="50.0" />
+      <edge source="SPD" target="Google" id="132" weight="29.0" />
+      <edge source="SPD" target="Nos" id="133" weight="99.0" />
+      <edge source="SPD" target="Vláda" id="134" weight="49.0" />
+      <edge source="SPD" target="Facebook" id="135" weight="36.0" />
+      <edge source="SPD" target="Eurostat" id="136" weight="64.0" />
+      <edge source="SPD" target="Křeček" id="137" weight="61.0" />
+      <edge source="SPD" target="ID" id="138" weight="89.0" />
+      <edge source="SPD" target="Stanjura" id="139" weight="37.0" />
+      <edge source="SPD" target="Eurozóna" id="140" weight="44.0" />
+      <edge source="SPD" target="Wilder" id="141" weight="76.0" />
+      <edge source="SPD" target="Výborný" id="142" weight="22.0" />
+      <edge source="SPD" target="Farský" id="143" weight="33.0" />
+      <edge source="SPD" target="Novotný" id="144" weight="52.0" />
+      <edge source="SPD" target="Kovanda" id="145" weight="60.0" />
+      <edge source="SPD" target="Duka" id="146" weight="25.0" />
+      <edge source="SPD" target="Blaško" id="147" weight="83.0" />
+      <edge source="SPD" target="Kolář" id="148" weight="31.0" />
+      <edge source="SPD" target="Redl" id="149" weight="40.0" />
+      <edge source="SPD" target="Metnar" id="150" weight="21.0" />
+      <edge source="SPD" target="Liga" id="151" weight="56.0" />
+      <edge source="SPD" target="EFTA" id="152" weight="63.0" />
+      <edge source="SPD" target="Armáda ČR" id="153" weight="43.0" />
+      <edge source="SPD" target="Zelený" id="154" weight="26.0" />
+      <edge source="SPD" target="Herman" id="155" weight="34.0" />
+      <edge source="SPD" target="ČRO" id="156" weight="23.0" />
+      <edge source="SPD" target="Doležal" id="157" weight="55.0" />
+      <edge source="SPD" target="Nejvyšší soud" id="158" weight="30.0" />
+      <edge source="SPD" target="Válek" id="159" weight="21.0" />
+      <edge source="SPD" target="Úřad práce" id="160" weight="51.0" />
+      <edge source="SPD" target="Charanzová" id="161" weight="32.0" />
+      <edge source="SPD" target="Česká národní banka" id="162" weight="30.0" />
+      <edge source="SPD" target="Bruselská elita" id="163" weight="67.0" />
+      <edge source="SPD" target="Jedlička" id="164" weight="31.0" />
+      <edge source="SPD" target="Klaus ml." id="165" weight="47.0" />
+      <edge source="SPD" target="Úsvit" id="166" weight="53.0" />
+      <edge source="SPD" target="Televize" id="167" weight="31.0" />
+      <edge source="SPD" target="Ministerstvo práce a sociálních věcí" id="168" weight="31.0" />
+      <edge source="SPD" target="Národní sdružení" id="169" weight="64.0" />
+      <edge source="SPD" target="Niedermayer" id="170" weight="24.0" />
+      <edge source="SPD" target="Stropnický" id="171" weight="26.0" />
+      <edge source="SPD" target="Dlabajová" id="172" weight="31.0" />
+      <edge source="SPD" target="Maříková" id="173" weight="61.0" />
+      <edge source="SPD" target="CVVM" id="174" weight="39.0" />
+      <edge source="SPD" target="Palacký" id="175" weight="42.0" />
+      <edge source="SPD" target="Poche" id="176" weight="40.0" />
+      <edge source="SPD" target="PS PČR" id="177" weight="38.0" />
+      <edge source="SPD" target="Černochová" id="178" weight="35.0" />
+      <edge source="SPD" target="Agrární komora ČR" id="179" weight="59.0" />
+      <edge source="SPD" target="Pelikán" id="180" weight="30.0" />
+      <edge source="SPD" target="SPO" id="181" weight="61.0" />
+      <edge source="SPD" target="ČSÚ" id="182" weight="25.0" />
+      <edge source="SPD" target="FIDESZ" id="183" weight="35.0" />
+      <edge source="SPD" target="CDU" id="184" weight="21.0" />
+      <edge source="SPD" target="STEM" id="185" weight="42.0" />
+      <edge source="SPD" target="Národní fronta" id="186" weight="50.0" />
+      <edge source="SPD" target="Národní shromáždění" id="187" weight="53.0" />
+      <edge source="EU" target="Babiš" id="188" weight="1205.0" />
+      <edge source="EU" target="Sněmovna" id="189" weight="825.0" />
+      <edge source="EU" target="ANO" id="190" weight="823.0" />
+      <edge source="EU" target="Okamura" id="191" weight="510.0" />
+      <edge source="EU" target="ČSSD" id="192" weight="863.0" />
+      <edge source="EU" target="ODS" id="193" weight="625.0" />
+      <edge source="EU" target="Poslanecká sněmovna" id="194" weight="584.0" />
+      <edge source="EU" target="Zeman" id="195" weight="270.0" />
+      <edge source="EU" target="Senát" id="196" weight="219.0" />
+      <edge source="EU" target="TOP 09" id="197" weight="471.0" />
+      <edge source="EU" target="KDU-ČSL" id="198" weight="493.0" />
+      <edge source="EU" target="KSČM" id="199" weight="449.0" />
+      <edge source="EU" target="Evropská komise" id="200" weight="898.0" />
+      <edge source="EU" target="Piráti" id="201" weight="368.0" />
+      <edge source="EU" target="NATO" id="202" weight="559.0" />
+      <edge source="EU" target="Evropský parlament" id="203" weight="637.0" />
+      <edge source="EU" target="STAN" id="204" weight="319.0" />
+      <edge source="EU" target="Hamáček" id="205" weight="284.0" />
+      <edge source="EU" target="Parlament" id="206" weight="419.0" />
+      <edge source="EU" target="Sobotka" id="207" weight="330.0" />
+      <edge source="EU" target="Fiala_p" id="208" weight="240.0" />
+      <edge source="EU" target="ČT" id="209" weight="112.0" />
+      <edge source="EU" target="Android" id="210" weight="335.0" />
+      <edge source="EU" target="Kalousek" id="211" weight="146.0" />
+      <edge source="EU" target="Česká televize" id="212" weight="201.0" />
+      <edge source="EU" target="Schillerová" id="213" weight="92.0" />
+      <edge source="EU" target="ČT 24" id="214" weight="55.0" />
+      <edge source="EU" target="Agrofert" id="215" weight="111.0" />
+      <edge source="EU" target="Salvini" id="216" weight="345.0" />
+      <edge source="EU" target="V 4" id="217" weight="229.0" />
+      <edge source="EU" target="Putin" id="218" weight="108.0" />
+      <edge source="EU" target="Merkelová" id="219" weight="308.0" />
+      <edge source="EU" target="Trump" id="220" weight="118.0" />
+      <edge source="EU" target="Orbán" id="221" weight="230.0" />
+      <edge source="EU" target="Le Pen" id="222" weight="347.0" />
+      <edge source="EU" target="Evropská unie" id="223" weight="192.0" />
+      <edge source="EU" target="EP" id="224" weight="136.0" />
+      <edge source="EU" target="Maláčová" id="225" weight="52.0" />
+      <edge source="EU" target="Havel" id="226" weight="60.0" />
+      <edge source="EU" target="Ústavní soud" id="227" weight="41.0" />
+      <edge source="EU" target="EET" id="228" weight="31.0" />
+      <edge source="EU" target="OSN" id="229" weight="156.0" />
+      <edge source="EU" target="Klaus" id="230" weight="115.0" />
+      <edge source="EU" target="Hrad" id="231" weight="27.0" />
+      <edge source="EU" target="Evropská rada" id="232" weight="176.0" />
+      <edge source="EU" target="TV Barrandov" id="233" weight="37.0" />
+      <edge source="EU" target="Unie" id="234" weight="252.0" />
+      <edge source="EU" target="HDP" id="235" weight="145.0" />
+      <edge source="EU" target="Spolu" id="236" weight="85.0" />
+      <edge source="EU" target="Havlíček" id="237" weight="75.0" />
+      <edge source="EU" target="Komise" id="238" weight="168.0" />
+      <edge source="EU" target="ČEZ" id="239" weight="71.0" />
+      <edge source="EU" target="Vojtěch" id="240" weight="69.0" />
+      <edge source="EU" target="MPO" id="241" weight="23.0" />
+      <edge source="EU" target="Bělobrádek" id="242" weight="77.0" />
+      <edge source="EU" target="Senát Parlamentu ČR" id="243" weight="30.0" />
+      <edge source="EU" target="Macron" id="244" weight="163.0" />
+      <edge source="EU" target="Český rozhlas" id="245" weight="57.0" />
+      <edge source="EU" target="Ministerstvo financí" id="246" weight="40.0" />
+      <edge source="EU" target="Ministerstvo zdravotnictví" id="247" weight="38.0" />
+      <edge source="EU" target="Masaryk" id="248" weight="31.0" />
+      <edge source="EU" target="NKÚ" id="249" weight="54.0" />
+      <edge source="EU" target="Trikolóra" id="250" weight="70.0" />
+      <edge source="EU" target="Soros" id="251" weight="128.0" />
+      <edge source="EU" target="Čapí hnízdo" id="252" weight="34.0" />
+      <edge source="EU" target="Petříček" id="253" weight="68.0" />
+      <edge source="EU" target="Bartoš" id="254" weight="90.0" />
+      <edge source="EU" target="Dukovany" id="255" weight="87.0" />
+      <edge source="EU" target="David" id="256" weight="173.0" />
+      <edge source="EU" target="Jourová" id="257" weight="123.0" />
+      <edge source="EU" target="Juncker" id="258" weight="180.0" />
+      <edge source="EU" target="Nejvyšší kontrolní úřad" id="259" weight="69.0" />
+      <edge source="EU" target="Hitler" id="260" weight="58.0" />
+      <edge source="EU" target="Moravec" id="261" weight="34.0" />
+      <edge source="EU" target="Brusel" id="262" weight="181.0" />
+      <edge source="EU" target="ČNB" id="263" weight="32.0" />
+      <edge source="EU" target="von der Leyen" id="264" weight="133.0" />
+      <edge source="EU" target="Blatný" id="265" weight="39.0" />
+      <edge source="EU" target="Islámský stát" id="266" weight="99.0" />
+      <edge source="EU" target="Wilderse" id="267" weight="152.0" />
+      <edge source="EU" target="Rada" id="268" weight="65.0" />
+      <edge source="EU" target="BIS" id="269" weight="21.0" />
+      <edge source="EU" target="Hnutí Svoboda a přímá demokracie" id="270" weight="81.0" />
+      <edge source="EU" target="Pekarová Adamová" id="271" weight="36.0" />
+      <edge source="EU" target="Schwarzenberg" id="272" weight="42.0" />
+      <edge source="EU" target="Johnson" id="273" weight="76.0" />
+      <edge source="EU" target="Toman" id="274" weight="25.0" />
+      <edge source="EU" target="Úřad vlády" id="275" weight="29.0" />
+      <edge source="EU" target="Hřib" id="276" weight="32.0" />
+      <edge source="EU" target="Rakušan" id="277" weight="48.0" />
+      <edge source="EU" target="OKD" id="278" weight="28.0" />
+      <edge source="EU" target="Foldyna" id="279" weight="50.0" />
+      <edge source="EU" target="EK" id="280" weight="42.0" />
+      <edge source="EU" target="Dostál" id="281" weight="37.0" />
+      <edge source="EU" target="UK" id="282" weight="54.0" />
+      <edge source="EU" target="Youtube" id="283" weight="32.0" />
+      <edge source="EU" target="Volný" id="284" weight="21.0" />
+      <edge source="EU" target="Fiala_r" id="285" weight="85.0" />
+      <edge source="EU" target="Prymula" id="286" weight="29.0" />
+      <edge source="EU" target="OECD" id="287" weight="30.0" />
+      <edge source="EU" target="Beneš" id="288" weight="24.0" />
+      <edge source="EU" target="Benešová" id="289" weight="23.0" />
+      <edge source="EU" target="Ťok" id="290" weight="23.0" />
+      <edge source="EU" target="Hnutí SPD" id="291" weight="60.0" />
+      <edge source="EU" target="Dvořák" id="292" weight="24.0" />
+      <edge source="EU" target="Svobodný" id="293" weight="129.0" />
+      <edge source="EU" target="Brabec" id="294" weight="25.0" />
+      <edge source="EU" target="Otázky Václava Moravce" id="295" weight="21.0" />
+      <edge source="EU" target="Šafránková" id="296" weight="37.0" />
+      <edge source="EU" target="Bakala" id="297" weight="34.0" />
+      <edge source="EU" target="Erdogan" id="298" weight="85.0" />
+      <edge source="EU" target="Jurečka" id="299" weight="23.0" />
+      <edge source="EU" target="Šojdrová" id="300" weight="73.0" />
+      <edge source="EU" target="Zaorálek" id="301" weight="32.0" />
+      <edge source="EU" target="Biden" id="302" weight="24.0" />
+      <edge source="EU" target="ENF" id="303" weight="120.0" />
+      <edge source="EU" target="Gazdík" id="304" weight="35.0" />
+      <edge source="EU" target="Polčák" id="305" weight="46.0" />
+      <edge source="EU" target="Novák" id="306" weight="23.0" />
+      <edge source="EU" target="Hrnčíř" id="307" weight="55.0" />
+      <edge source="EU" target="Zdechovský" id="308" weight="43.0" />
+      <edge source="EU" target="Rada EU" id="309" weight="123.0" />
+      <edge source="EU" target="AFD" id="310" weight="49.0" />
+      <edge source="EU" target="Evropa národů a svoboda" id="311" weight="105.0" />
+      <edge source="EU" target="Zahradil" id="312" weight="42.0" />
+      <edge source="EU" target="Česká pošta" id="313" weight="26.0" />
+      <edge source="EU" target="Ministerstvo vnitra" id="314" weight="43.0" />
+      <edge source="EU" target="Feri" id="315" weight="43.0" />
+      <edge source="EU" target="Starostové a nezávislí" id="316" weight="26.0" />
+      <edge source="EU" target="Jakl" id="317" weight="23.0" />
+      <edge source="EU" target="Pospíšil" id="318" weight="37.0" />
+      <edge source="EU" target="Identita a demokracie" id="319" weight="63.0" />
+      <edge source="EU" target="Google" id="320" weight="34.0" />
+      <edge source="EU" target="Nos" id="321" weight="96.0" />
+      <edge source="EU" target="Vláda" id="322" weight="26.0" />
+      <edge source="EU" target="Facebook" id="323" weight="36.0" />
+      <edge source="EU" target="Eurostat" id="324" weight="71.0" />
+      <edge source="EU" target="Křeček" id="325" weight="22.0" />
+      <edge source="EU" target="ID" id="326" weight="46.0" />
+      <edge source="EU" target="Stanjura" id="327" weight="35.0" />
+      <edge source="EU" target="Eurozóna" id="328" weight="55.0" />
+      <edge source="EU" target="Wilder" id="329" weight="59.0" />
+      <edge source="EU" target="Novotný" id="330" weight="48.0" />
+      <edge source="EU" target="Kovanda" id="331" weight="47.0" />
+      <edge source="EU" target="Blaško" id="332" weight="72.0" />
+      <edge source="EU" target="Redl" id="333" weight="31.0" />
+      <edge source="EU" target="Timmermans" id="334" weight="38.0" />
+      <edge source="EU" target="Liga" id="335" weight="49.0" />
+      <edge source="EU" target="EFTA" id="336" weight="79.0" />
+      <edge source="EU" target="Armáda ČR" id="337" weight="34.0" />
+      <edge source="EU" target="Doležal" id="338" weight="48.0" />
+      <edge source="EU" target="Úřad práce" id="339" weight="30.0" />
+      <edge source="EU" target="Charanzová" id="340" weight="41.0" />
+      <edge source="EU" target="Česká národní banka" id="341" weight="21.0" />
+      <edge source="EU" target="Bruselská elita" id="342" weight="71.0" />
+      <edge source="EU" target="Jedlička" id="343" weight="65.0" />
+      <edge source="EU" target="Klaus ml." id="344" weight="44.0" />
+      <edge source="EU" target="Úsvit" id="345" weight="41.0" />
+      <edge source="EU" target="Národní sdružení" id="346" weight="61.0" />
+      <edge source="EU" target="Niedermayer" id="347" weight="29.0" />
+      <edge source="EU" target="Stropnický" id="348" weight="25.0" />
+      <edge source="EU" target="Dlabajová" id="349" weight="39.0" />
+      <edge source="EU" target="Maříková" id="350" weight="27.0" />
+      <edge source="EU" target="Palacký" id="351" weight="64.0" />
+      <edge source="EU" target="Poche" id="352" weight="33.0" />
+      <edge source="EU" target="PS PČR" id="353" weight="30.0" />
+      <edge source="EU" target="Agrární komora ČR" id="354" weight="57.0" />
+      <edge source="EU" target="SPO" id="355" weight="53.0" />
+      <edge source="EU" target="ČSÚ" id="356" weight="24.0" />
+      <edge source="EU" target="FIDESZ" id="357" weight="32.0" />
+      <edge source="EU" target="Brexit" id="358" weight="26.0" />
+      <edge source="EU" target="Národní fronta" id="359" weight="37.0" />
+      <edge source="EU" target="Národní shromáždění" id="360" weight="24.0" />
+      <edge source="Babiš" target="Sněmovna" id="361" weight="741.0" />
+      <edge source="Babiš" target="ANO" id="362" weight="1196.0" />
+      <edge source="Babiš" target="Okamura" id="363" weight="361.0" />
+      <edge source="Babiš" target="ČSSD" id="364" weight="1027.0" />
+      <edge source="Babiš" target="ODS" id="365" weight="570.0" />
+      <edge source="Babiš" target="Poslanecká sněmovna" id="366" weight="503.0" />
+      <edge source="Babiš" target="Zeman" id="367" weight="589.0" />
+      <edge source="Babiš" target="Senát" id="368" weight="148.0" />
+      <edge source="Babiš" target="TOP 09" id="369" weight="358.0" />
+      <edge source="Babiš" target="KDU-ČSL" id="370" weight="382.0" />
+      <edge source="Babiš" target="KSČM" id="371" weight="564.0" />
+      <edge source="Babiš" target="Evropská komise" id="372" weight="416.0" />
+      <edge source="Babiš" target="Piráti" id="373" weight="274.0" />
+      <edge source="Babiš" target="NATO" id="374" weight="129.0" />
+      <edge source="Babiš" target="Evropský parlament" id="375" weight="213.0" />
+      <edge source="Babiš" target="STAN" id="376" weight="195.0" />
+      <edge source="Babiš" target="Hamáček" id="377" weight="356.0" />
+      <edge source="Babiš" target="Parlament" id="378" weight="187.0" />
+      <edge source="Babiš" target="Sobotka" id="379" weight="540.0" />
+      <edge source="Babiš" target="Fiala_p" id="380" weight="118.0" />
+      <edge source="Babiš" target="ČT" id="381" weight="87.0" />
+      <edge source="Babiš" target="Android" id="382" weight="288.0" />
+      <edge source="Babiš" target="Kalousek" id="383" weight="272.0" />
+      <edge source="Babiš" target="Česká televize" id="384" weight="156.0" />
+      <edge source="Babiš" target="Schillerová" id="385" weight="163.0" />
+      <edge source="Babiš" target="ČT 24" id="386" weight="50.0" />
+      <edge source="Babiš" target="Agrofert" id="387" weight="216.0" />
+      <edge source="Babiš" target="Salvini" id="388" weight="83.0" />
+      <edge source="Babiš" target="V 4" id="389" weight="80.0" />
+      <edge source="Babiš" target="Putin" id="390" weight="41.0" />
+      <edge source="Babiš" target="Merkelová" id="391" weight="126.0" />
+      <edge source="Babiš" target="Trump" id="392" weight="80.0" />
+      <edge source="Babiš" target="Orbán" id="393" weight="112.0" />
+      <edge source="Babiš" target="Le Pen" id="394" weight="91.0" />
+      <edge source="Babiš" target="Evropská unie" id="395" weight="62.0" />
+      <edge source="Babiš" target="EP" id="396" weight="50.0" />
+      <edge source="Babiš" target="Maláčová" id="397" weight="79.0" />
+      <edge source="Babiš" target="Havel" id="398" weight="48.0" />
+      <edge source="Babiš" target="Ústavní soud" id="399" weight="64.0" />
+      <edge source="Babiš" target="EET" id="400" weight="76.0" />
+      <edge source="Babiš" target="OSN" id="401" weight="86.0" />
+      <edge source="Babiš" target="Klaus" id="402" weight="75.0" />
+      <edge source="Babiš" target="Hrad" id="403" weight="65.0" />
+      <edge source="Babiš" target="Evropská rada" id="404" weight="58.0" />
+      <edge source="Babiš" target="TV Barrandov" id="405" weight="58.0" />
+      <edge source="Babiš" target="Unie" id="406" weight="84.0" />
+      <edge source="Babiš" target="HDP" id="407" weight="57.0" />
+      <edge source="Babiš" target="Spolu" id="408" weight="67.0" />
+      <edge source="Babiš" target="Havlíček" id="409" weight="91.0" />
+      <edge source="Babiš" target="Komise" id="410" weight="68.0" />
+      <edge source="Babiš" target="ČEZ" id="411" weight="37.0" />
+      <edge source="Babiš" target="Vojtěch" id="412" weight="83.0" />
+      <edge source="Babiš" target="Bělobrádek" id="413" weight="203.0" />
+      <edge source="Babiš" target="Macron" id="414" weight="52.0" />
+      <edge source="Babiš" target="Český rozhlas" id="415" weight="51.0" />
+      <edge source="Babiš" target="Ministerstvo financí" id="416" weight="42.0" />
+      <edge source="Babiš" target="Ministerstvo zdravotnictví" id="417" weight="21.0" />
+      <edge source="Babiš" target="Masaryk" id="418" weight="24.0" />
+      <edge source="Babiš" target="NKÚ" id="419" weight="76.0" />
+      <edge source="Babiš" target="Trikolóra" id="420" weight="41.0" />
+      <edge source="Babiš" target="PS" id="421" weight="23.0" />
+      <edge source="Babiš" target="Soros" id="422" weight="70.0" />
+      <edge source="Babiš" target="Čapí hnízdo" id="423" weight="140.0" />
+      <edge source="Babiš" target="Petříček" id="424" weight="82.0" />
+      <edge source="Babiš" target="Bartoš" id="425" weight="76.0" />
+      <edge source="Babiš" target="Dukovany" id="426" weight="39.0" />
+      <edge source="Babiš" target="David" id="427" weight="30.0" />
+      <edge source="Babiš" target="Jourová" id="428" weight="89.0" />
+      <edge source="Babiš" target="Juncker" id="429" weight="45.0" />
+      <edge source="Babiš" target="Nejvyšší kontrolní úřad" id="430" weight="82.0" />
+      <edge source="Babiš" target="Moravec" id="431" weight="39.0" />
+      <edge source="Babiš" target="Brusel" id="432" weight="75.0" />
+      <edge source="Babiš" target="von der Leyen" id="433" weight="44.0" />
+      <edge source="Babiš" target="Blatný" id="434" weight="49.0" />
+      <edge source="Babiš" target="Islámský stát" id="435" weight="43.0" />
+      <edge source="Babiš" target="Wilderse" id="436" weight="40.0" />
+      <edge source="Babiš" target="Rada" id="437" weight="34.0" />
+      <edge source="Babiš" target="BIS" id="438" weight="21.0" />
+      <edge source="Babiš" target="Hnutí Svoboda a přímá demokracie" id="439" weight="79.0" />
+      <edge source="Babiš" target="Pekarová Adamová" id="440" weight="25.0" />
+      <edge source="Babiš" target="Schwarzenberg" id="441" weight="30.0" />
+      <edge source="Babiš" target="Staněk" id="442" weight="39.0" />
+      <edge source="Babiš" target="Prima" id="443" weight="25.0" />
+      <edge source="Babiš" target="Úřad vlády" id="444" weight="22.0" />
+      <edge source="Babiš" target="Hřib" id="445" weight="21.0" />
+      <edge source="Babiš" target="OKD" id="446" weight="39.0" />
+      <edge source="Babiš" target="Foldyna" id="447" weight="24.0" />
+      <edge source="Babiš" target="StB" id="448" weight="44.0" />
+      <edge source="Babiš" target="EK" id="449" weight="38.0" />
+      <edge source="Babiš" target="Dostál" id="450" weight="46.0" />
+      <edge source="Babiš" target="Volný" id="451" weight="22.0" />
+      <edge source="Babiš" target="Fiala_r" id="452" weight="28.0" />
+      <edge source="Babiš" target="Prymula" id="453" weight="41.0" />
+      <edge source="Babiš" target="Benešová" id="454" weight="49.0" />
+      <edge source="Babiš" target="Ťok" id="455" weight="43.0" />
+      <edge source="Babiš" target="Hnutí SPD" id="456" weight="45.0" />
+      <edge source="Babiš" target="Partie" id="457" weight="24.0" />
+      <edge source="Babiš" target="Dvořák" id="458" weight="24.0" />
+      <edge source="Babiš" target="Faltýnek" id="459" weight="47.0" />
+      <edge source="Babiš" target="Svobodný" id="460" weight="21.0" />
+      <edge source="Babiš" target="Brabec" id="461" weight="26.0" />
+      <edge source="Babiš" target="Šafránková" id="462" weight="32.0" />
+      <edge source="Babiš" target="Bakala" id="463" weight="49.0" />
+      <edge source="Babiš" target="Filip" id="464" weight="33.0" />
+      <edge source="Babiš" target="Erdogan" id="465" weight="40.0" />
+      <edge source="Babiš" target="Jurečka" id="466" weight="27.0" />
+      <edge source="Babiš" target="Šojdrová" id="467" weight="42.0" />
+      <edge source="Babiš" target="Zaorálek" id="468" weight="37.0" />
+      <edge source="Babiš" target="ENF" id="469" weight="23.0" />
+      <edge source="Babiš" target="Plaga" id="470" weight="21.0" />
+      <edge source="Babiš" target="Novák" id="471" weight="22.0" />
+      <edge source="Babiš" target="Hrnčíř" id="472" weight="23.0" />
+      <edge source="Babiš" target="Evropa národů a svoboda" id="473" weight="21.0" />
+      <edge source="Babiš" target="Ministerstvo vnitra" id="474" weight="24.0" />
+      <edge source="Babiš" target="Feri" id="475" weight="33.0" />
+      <edge source="Babiš" target="Starostové a nezávislí" id="476" weight="24.0" />
+      <edge source="Babiš" target="Kreml" id="477" weight="21.0" />
+      <edge source="Babiš" target="Identita a demokracie" id="478" weight="21.0" />
+      <edge source="Babiš" target="Vláda" id="479" weight="22.0" />
+      <edge source="Babiš" target="Stanjura" id="480" weight="24.0" />
+      <edge source="Babiš" target="Eurozóna" id="481" weight="41.0" />
+      <edge source="Babiš" target="Kovanda" id="482" weight="37.0" />
+      <edge source="Babiš" target="Šmarda" id="483" weight="33.0" />
+      <edge source="Babiš" target="Metnar" id="484" weight="26.0" />
+      <edge source="Babiš" target="Sputnik" id="485" weight="21.0" />
+      <edge source="Babiš" target="EFTA" id="486" weight="25.0" />
+      <edge source="Babiš" target="Charanzová" id="487" weight="35.0" />
+      <edge source="Babiš" target="Klaus ml." id="488" weight="31.0" />
+      <edge source="Babiš" target="Stropnický" id="489" weight="31.0" />
+      <edge source="Babiš" target="Dlabajová" id="490" weight="26.0" />
+      <edge source="Babiš" target="Poche" id="491" weight="36.0" />
+      <edge source="Babiš" target="Pelikán" id="492" weight="27.0" />
+      <edge source="Babiš" target="SPO" id="493" weight="30.0" />
+      <edge source="Sněmovna" target="ANO" id="494" weight="906.0" />
+      <edge source="Sněmovna" target="Okamura" id="495" weight="313.0" />
+      <edge source="Sněmovna" target="ČSSD" id="496" weight="893.0" />
+      <edge source="Sněmovna" target="ODS" id="497" weight="637.0" />
+      <edge source="Sněmovna" target="Poslanecká sněmovna" id="498" weight="518.0" />
+      <edge source="Sněmovna" target="Zeman" id="499" weight="170.0" />
+      <edge source="Sněmovna" target="Senát" id="500" weight="328.0" />
+      <edge source="Sněmovna" target="TOP 09" id="501" weight="520.0" />
+      <edge source="Sněmovna" target="KDU-ČSL" id="502" weight="537.0" />
+      <edge source="Sněmovna" target="KSČM" id="503" weight="536.0" />
+      <edge source="Sněmovna" target="Evropská komise" id="504" weight="165.0" />
+      <edge source="Sněmovna" target="Piráti" id="505" weight="459.0" />
+      <edge source="Sněmovna" target="NATO" id="506" weight="117.0" />
+      <edge source="Sněmovna" target="Evropský parlament" id="507" weight="110.0" />
+      <edge source="Sněmovna" target="STAN" id="508" weight="369.0" />
+      <edge source="Sněmovna" target="Hamáček" id="509" weight="204.0" />
+      <edge source="Sněmovna" target="Parlament" id="510" weight="162.0" />
+      <edge source="Sněmovna" target="Sobotka" id="511" weight="224.0" />
+      <edge source="Sněmovna" target="Fiala_p" id="512" weight="223.0" />
+      <edge source="Sněmovna" target="ČT" id="513" weight="115.0" />
+      <edge source="Sněmovna" target="Android" id="514" weight="226.0" />
+      <edge source="Sněmovna" target="Kalousek" id="515" weight="166.0" />
+      <edge source="Sněmovna" target="Česká televize" id="516" weight="187.0" />
+      <edge source="Sněmovna" target="Schillerová" id="517" weight="81.0" />
+      <edge source="Sněmovna" target="ČT 24" id="518" weight="45.0" />
+      <edge source="Sněmovna" target="Agrofert" id="519" weight="39.0" />
+      <edge source="Sněmovna" target="Salvini" id="520" weight="76.0" />
+      <edge source="Sněmovna" target="V 4" id="521" weight="42.0" />
+      <edge source="Sněmovna" target="Putin" id="522" weight="30.0" />
+      <edge source="Sněmovna" target="Merkelová" id="523" weight="58.0" />
+      <edge source="Sněmovna" target="Trump" id="524" weight="39.0" />
+      <edge source="Sněmovna" target="Orbán" id="525" weight="46.0" />
+      <edge source="Sněmovna" target="Le Pen" id="526" weight="92.0" />
+      <edge source="Sněmovna" target="Maláčová" id="527" weight="82.0" />
+      <edge source="Sněmovna" target="Havel" id="528" weight="26.0" />
+      <edge source="Sněmovna" target="Ústavní soud" id="529" weight="81.0" />
+      <edge source="Sněmovna" target="EET" id="530" weight="58.0" />
+      <edge source="Sněmovna" target="OSN" id="531" weight="38.0" />
+      <edge source="Sněmovna" target="Klaus" id="532" weight="44.0" />
+      <edge source="Sněmovna" target="Hrad" id="533" weight="26.0" />
+      <edge source="Sněmovna" target="TV Barrandov" id="534" weight="42.0" />
+      <edge source="Sněmovna" target="Unie" id="535" weight="26.0" />
+      <edge source="Sněmovna" target="HDP" id="536" weight="30.0" />
+      <edge source="Sněmovna" target="Spolu" id="537" weight="86.0" />
+      <edge source="Sněmovna" target="OSVČ" id="538" weight="37.0" />
+      <edge source="Sněmovna" target="Havlíček" id="539" weight="46.0" />
+      <edge source="Sněmovna" target="ČEZ" id="540" weight="38.0" />
+      <edge source="Sněmovna" target="Vojtěch" id="541" weight="55.0" />
+      <edge source="Sněmovna" target="Bělobrádek" id="542" weight="86.0" />
+      <edge source="Sněmovna" target="Macron" id="543" weight="22.0" />
+      <edge source="Sněmovna" target="Český rozhlas" id="544" weight="72.0" />
+      <edge source="Sněmovna" target="Ministerstvo financí" id="545" weight="31.0" />
+      <edge source="Sněmovna" target="Ministerstvo zdravotnictví" id="546" weight="36.0" />
+      <edge source="Sněmovna" target="NKÚ" id="547" weight="74.0" />
+      <edge source="Sněmovna" target="Trikolóra" id="548" weight="74.0" />
+      <edge source="Sněmovna" target="Petříček" id="549" weight="38.0" />
+      <edge source="Sněmovna" target="Bartoš" id="550" weight="73.0" />
+      <edge source="Sněmovna" target="Dukovany" id="551" weight="36.0" />
+      <edge source="Sněmovna" target="Nejvyšší kontrolní úřad" id="552" weight="112.0" />
+      <edge source="Sněmovna" target="Moravec" id="553" weight="41.0" />
+      <edge source="Sněmovna" target="Brusel" id="554" weight="29.0" />
+      <edge source="Sněmovna" target="Blatný" id="555" weight="41.0" />
+      <edge source="Sněmovna" target="Islámský stát" id="556" weight="35.0" />
+      <edge source="Sněmovna" target="Wilderse" id="557" weight="44.0" />
+      <edge source="Sněmovna" target="Hnutí Svoboda a přímá demokracie" id="558" weight="53.0" />
+      <edge source="Sněmovna" target="Pekarová Adamová" id="559" weight="64.0" />
+      <edge source="Sněmovna" target="Schwarzenberg" id="560" weight="34.0" />
+      <edge source="Sněmovna" target="Úřad vlády" id="561" weight="22.0" />
+      <edge source="Sněmovna" target="Hřib" id="562" weight="24.0" />
+      <edge source="Sněmovna" target="Rakušan" id="563" weight="60.0" />
+      <edge source="Sněmovna" target="OKD" id="564" weight="48.0" />
+      <edge source="Sněmovna" target="Foldyna" id="565" weight="65.0" />
+      <edge source="Sněmovna" target="TV Prima" id="566" weight="23.0" />
+      <edge source="Sněmovna" target="Volný" id="567" weight="25.0" />
+      <edge source="Sněmovna" target="Fiala_r" id="568" weight="62.0" />
+      <edge source="Sněmovna" target="Prymula" id="569" weight="24.0" />
+      <edge source="Sněmovna" target="Parlament České republiky" id="570" weight="33.0" />
+      <edge source="Sněmovna" target="Hnutí SPD" id="571" weight="51.0" />
+      <edge source="Sněmovna" target="Dvořák" id="572" weight="35.0" />
+      <edge source="Sněmovna" target="Faltýnek" id="573" weight="21.0" />
+      <edge source="Sněmovna" target="Otázky Václava Moravce" id="574" weight="29.0" />
+      <edge source="Sněmovna" target="Šafránková" id="575" weight="69.0" />
+      <edge source="Sněmovna" target="Bakala" id="576" weight="35.0" />
+      <edge source="Sněmovna" target="Filip" id="577" weight="22.0" />
+      <edge source="Sněmovna" target="Jurečka" id="578" weight="36.0" />
+      <edge source="Sněmovna" target="Šojdrová" id="579" weight="30.0" />
+      <edge source="Sněmovna" target="Zaorálek" id="580" weight="30.0" />
+      <edge source="Sněmovna" target="Gazdík" id="581" weight="23.0" />
+      <edge source="Sněmovna" target="Polčák" id="582" weight="27.0" />
+      <edge source="Sněmovna" target="Hrnčíř" id="583" weight="22.0" />
+      <edge source="Sněmovna" target="Ministerstvo vnitra" id="584" weight="31.0" />
+      <edge source="Sněmovna" target="Feri" id="585" weight="51.0" />
+      <edge source="Sněmovna" target="Starostové a nezávislí" id="586" weight="27.0" />
+      <edge source="Sněmovna" target="Identita a demokracie" id="587" weight="41.0" />
+      <edge source="Sněmovna" target="Michálek" id="588" weight="26.0" />
+      <edge source="Sněmovna" target="Rada ČT" id="589" weight="28.0" />
+      <edge source="Sněmovna" target="Vondráček" id="590" weight="27.0" />
+      <edge source="Sněmovna" target="Nos" id="591" weight="25.0" />
+      <edge source="Sněmovna" target="Vláda" id="592" weight="22.0" />
+      <edge source="Sněmovna" target="Křeček" id="593" weight="21.0" />
+      <edge source="Sněmovna" target="ID" id="594" weight="41.0" />
+      <edge source="Sněmovna" target="Stanjura" id="595" weight="29.0" />
+      <edge source="Sněmovna" target="Eurozóna" id="596" weight="33.0" />
+      <edge source="Sněmovna" target="Výborný" id="597" weight="22.0" />
+      <edge source="Sněmovna" target="Farský" id="598" weight="26.0" />
+      <edge source="Sněmovna" target="Klaus ml." id="599" weight="37.0" />
+      <edge source="Sněmovna" target="Úsvit" id="600" weight="48.0" />
+      <edge source="Sněmovna" target="Ministerstvo práce a sociálních věcí" id="601" weight="27.0" />
+      <edge source="Sněmovna" target="Maříková" id="602" weight="27.0" />
+      <edge source="Sněmovna" target="Černochová" id="603" weight="22.0" />
+      <edge source="Sněmovna" target="Národní shromáždění" id="604" weight="37.0" />
+      <edge source="ANO" target="Okamura" id="605" weight="242.0" />
+      <edge source="ANO" target="ČSSD" id="606" weight="1723.0" />
+      <edge source="ANO" target="ODS" id="607" weight="744.0" />
+      <edge source="ANO" target="Poslanecká sněmovna" id="608" weight="446.0" />
+      <edge source="ANO" target="Zeman" id="609" weight="201.0" />
+      <edge source="ANO" target="Senát" id="610" weight="152.0" />
+      <edge source="ANO" target="TOP 09" id="611" weight="503.0" />
+      <edge source="ANO" target="KDU-ČSL" id="612" weight="680.0" />
+      <edge source="ANO" target="KSČM" id="613" weight="1009.0" />
+      <edge source="ANO" target="Evropská komise" id="614" weight="218.0" />
+      <edge source="ANO" target="Piráti" id="615" weight="431.0" />
+      <edge source="ANO" target="NATO" id="616" weight="109.0" />
+      <edge source="ANO" target="Evropský parlament" id="617" weight="195.0" />
+      <edge source="ANO" target="STAN" id="618" weight="343.0" />
+      <edge source="ANO" target="Hamáček" id="619" weight="210.0" />
+      <edge source="ANO" target="Parlament" id="620" weight="174.0" />
+      <edge source="ANO" target="Sobotka" id="621" weight="226.0" />
+      <edge source="ANO" target="Fiala_p" id="622" weight="106.0" />
+      <edge source="ANO" target="ČT" id="623" weight="85.0" />
+      <edge source="ANO" target="Android" id="624" weight="195.0" />
+      <edge source="ANO" target="Kalousek" id="625" weight="138.0" />
+      <edge source="ANO" target="Česká televize" id="626" weight="134.0" />
+      <edge source="ANO" target="Schillerová" id="627" weight="144.0" />
+      <edge source="ANO" target="ČT 24" id="628" weight="27.0" />
+      <edge source="ANO" target="Agrofert" id="629" weight="59.0" />
+      <edge source="ANO" target="Salvini" id="630" weight="64.0" />
+      <edge source="ANO" target="V 4" id="631" weight="53.0" />
+      <edge source="ANO" target="Putin" id="632" weight="25.0" />
+      <edge source="ANO" target="Merkelová" id="633" weight="72.0" />
+      <edge source="ANO" target="Trump" id="634" weight="34.0" />
+      <edge source="ANO" target="Orbán" id="635" weight="62.0" />
+      <edge source="ANO" target="Le Pen" id="636" weight="90.0" />
+      <edge source="ANO" target="Evropská unie" id="637" weight="35.0" />
+      <edge source="ANO" target="EP" id="638" weight="36.0" />
+      <edge source="ANO" target="Maláčová" id="639" weight="73.0" />
+      <edge source="ANO" target="Havel" id="640" weight="27.0" />
+      <edge source="ANO" target="Ústavní soud" id="641" weight="75.0" />
+      <edge source="ANO" target="EET" id="642" weight="59.0" />
+      <edge source="ANO" target="OSN" id="643" weight="52.0" />
+      <edge source="ANO" target="Klaus" id="644" weight="40.0" />
+      <edge source="ANO" target="Hrad" id="645" weight="31.0" />
+      <edge source="ANO" target="TV Barrandov" id="646" weight="57.0" />
+      <edge source="ANO" target="Unie" id="647" weight="30.0" />
+      <edge source="ANO" target="HDP" id="648" weight="44.0" />
+      <edge source="ANO" target="Spolu" id="649" weight="46.0" />
+      <edge source="ANO" target="Havlíček" id="650" weight="76.0" />
+      <edge source="ANO" target="Komise" id="651" weight="37.0" />
+      <edge source="ANO" target="ČEZ" id="652" weight="29.0" />
+      <edge source="ANO" target="Vojtěch" id="653" weight="82.0" />
+      <edge source="ANO" target="Bělobrádek" id="654" weight="85.0" />
+      <edge source="ANO" target="Macron" id="655" weight="35.0" />
+      <edge source="ANO" target="Český rozhlas" id="656" weight="47.0" />
+      <edge source="ANO" target="Ministerstvo zdravotnictví" id="657" weight="22.0" />
+      <edge source="ANO" target="NKÚ" id="658" weight="65.0" />
+      <edge source="ANO" target="Trikolóra" id="659" weight="48.0" />
+      <edge source="ANO" target="PS" id="660" weight="29.0" />
+      <edge source="ANO" target="Soros" id="661" weight="51.0" />
+      <edge source="ANO" target="Čapí hnízdo" id="662" weight="28.0" />
+      <edge source="ANO" target="Petříček" id="663" weight="36.0" />
+      <edge source="ANO" target="Bartoš" id="664" weight="52.0" />
+      <edge source="ANO" target="David" id="665" weight="41.0" />
+      <edge source="ANO" target="Jourová" id="666" weight="87.0" />
+      <edge source="ANO" target="Juncker" id="667" weight="31.0" />
+      <edge source="ANO" target="Nejvyšší kontrolní úřad" id="668" weight="90.0" />
+      <edge source="ANO" target="Ministerstvo dopravy" id="669" weight="21.0" />
+      <edge source="ANO" target="Moravec" id="670" weight="26.0" />
+      <edge source="ANO" target="Brusel" id="671" weight="43.0" />
+      <edge source="ANO" target="von der Leyen" id="672" weight="27.0" />
+      <edge source="ANO" target="Blatný" id="673" weight="41.0" />
+      <edge source="ANO" target="Islámský stát" id="674" weight="32.0" />
+      <edge source="ANO" target="Wilderse" id="675" weight="32.0" />
+      <edge source="ANO" target="Hnutí Svoboda a přímá demokracie" id="676" weight="55.0" />
+      <edge source="ANO" target="Pekarová Adamová" id="677" weight="22.0" />
+      <edge source="ANO" target="Rakušan" id="678" weight="30.0" />
+      <edge source="ANO" target="OKD" id="679" weight="35.0" />
+      <edge source="ANO" target="Foldyna" id="680" weight="29.0" />
+      <edge source="ANO" target="TV Prima" id="681" weight="21.0" />
+      <edge source="ANO" target="Volný" id="682" weight="21.0" />
+      <edge source="ANO" target="Pirát" id="683" weight="26.0" />
+      <edge source="ANO" target="Fiala_r" id="684" weight="39.0" />
+      <edge source="ANO" target="Prymula" id="685" weight="21.0" />
+      <edge source="ANO" target="Ťok" id="686" weight="39.0" />
+      <edge source="ANO" target="Hnutí SPD" id="687" weight="31.0" />
+      <edge source="ANO" target="Partie" id="688" weight="21.0" />
+      <edge source="ANO" target="Faltýnek" id="689" weight="51.0" />
+      <edge source="ANO" target="Brabec" id="690" weight="21.0" />
+      <edge source="ANO" target="Šafránková" id="691" weight="38.0" />
+      <edge source="ANO" target="Bakala" id="692" weight="31.0" />
+      <edge source="ANO" target="Jurečka" id="693" weight="29.0" />
+      <edge source="ANO" target="Šojdrová" id="694" weight="46.0" />
+      <edge source="ANO" target="Zaorálek" id="695" weight="29.0" />
+      <edge source="ANO" target="Polčák" id="696" weight="46.0" />
+      <edge source="ANO" target="Plaga" id="697" weight="27.0" />
+      <edge source="ANO" target="Hrnčíř" id="698" weight="25.0" />
+      <edge source="ANO" target="Zdechovský" id="699" weight="25.0" />
+      <edge source="ANO" target="Feri" id="700" weight="36.0" />
+      <edge source="ANO" target="Starostové a nezávislí" id="701" weight="28.0" />
+      <edge source="ANO" target="Pospíšil" id="702" weight="22.0" />
+      <edge source="ANO" target="Identita a demokracie" id="703" weight="28.0" />
+      <edge source="ANO" target="Vondráček" id="704" weight="28.0" />
+      <edge source="ANO" target="KDU" id="705" weight="25.0" />
+      <edge source="ANO" target="Nos" id="706" weight="25.0" />
+      <edge source="ANO" target="Vláda" id="707" weight="24.0" />
+      <edge source="ANO" target="Eurostat" id="708" weight="21.0" />
+      <edge source="ANO" target="ID" id="709" weight="28.0" />
+      <edge source="ANO" target="Eurozóna" id="710" weight="34.0" />
+      <edge source="ANO" target="Farský" id="711" weight="23.0" />
+      <edge source="ANO" target="Metnar" id="712" weight="23.0" />
+      <edge source="ANO" target="Herman" id="713" weight="24.0" />
+      <edge source="ANO" target="Charanzová" id="714" weight="49.0" />
+      <edge source="ANO" target="Klaus ml." id="715" weight="33.0" />
+      <edge source="ANO" target="Úsvit" id="716" weight="29.0" />
+      <edge source="ANO" target="Niedermayer" id="717" weight="25.0" />
+      <edge source="ANO" target="Stropnický" id="718" weight="35.0" />
+      <edge source="ANO" target="Dlabajová" id="719" weight="40.0" />
+      <edge source="ANO" target="Poche" id="720" weight="33.0" />
+      <edge source="ANO" target="Pelikán" id="721" weight="33.0" />
+      <edge source="Okamura" target="ČSSD" id="722" weight="287.0" />
+      <edge source="Okamura" target="ODS" id="723" weight="150.0" />
+      <edge source="Okamura" target="Poslanecká sněmovna" id="724" weight="415.0" />
+      <edge source="Okamura" target="Zeman" id="725" weight="158.0" />
+      <edge source="Okamura" target="Senát" id="726" weight="59.0" />
+      <edge source="Okamura" target="TOP 09" id="727" weight="132.0" />
+      <edge source="Okamura" target="KDU-ČSL" id="728" weight="155.0" />
+      <edge source="Okamura" target="KSČM" id="729" weight="86.0" />
+      <edge source="Okamura" target="Evropská komise" id="730" weight="170.0" />
+      <edge source="Okamura" target="Piráti" id="731" weight="99.0" />
+      <edge source="Okamura" target="NATO" id="732" weight="45.0" />
+      <edge source="Okamura" target="Evropský parlament" id="733" weight="84.0" />
+      <edge source="Okamura" target="STAN" id="734" weight="85.0" />
+      <edge source="Okamura" target="Hamáček" id="735" weight="55.0" />
+      <edge source="Okamura" target="Parlament" id="736" weight="97.0" />
+      <edge source="Okamura" target="Sobotka" id="737" weight="240.0" />
+      <edge source="Okamura" target="Fiala_p" id="738" weight="50.0" />
+      <edge source="Okamura" target="ČT" id="739" weight="81.0" />
+      <edge source="Okamura" target="Android" id="740" weight="328.0" />
+      <edge source="Okamura" target="Kalousek" id="741" weight="59.0" />
+      <edge source="Okamura" target="Česká televize" id="742" weight="153.0" />
+      <edge source="Okamura" target="ČT 24" id="743" weight="165.0" />
+      <edge source="Okamura" target="Salvini" id="744" weight="92.0" />
+      <edge source="Okamura" target="Putin" id="745" weight="28.0" />
+      <edge source="Okamura" target="Merkelová" id="746" weight="65.0" />
+      <edge source="Okamura" target="Trump" id="747" weight="46.0" />
+      <edge source="Okamura" target="Orbán" id="748" weight="41.0" />
+      <edge source="Okamura" target="Le Pen" id="749" weight="148.0" />
+      <edge source="Okamura" target="OSN" id="750" weight="28.0" />
+      <edge source="Okamura" target="Klaus" id="751" weight="35.0" />
+      <edge source="Okamura" target="TV Barrandov" id="752" weight="70.0" />
+      <edge source="Okamura" target="Bělobrádek" id="753" weight="30.0" />
+      <edge source="Okamura" target="Český rozhlas" id="754" weight="47.0" />
+      <edge source="Okamura" target="NKÚ" id="755" weight="22.0" />
+      <edge source="Okamura" target="David" id="756" weight="60.0" />
+      <edge source="Okamura" target="Juncker" id="757" weight="32.0" />
+      <edge source="Okamura" target="Nejvyšší kontrolní úřad" id="758" weight="36.0" />
+      <edge source="Okamura" target="Dnešní aktuality" id="759" weight="247.0" />
+      <edge source="Okamura" target="Hitler" id="760" weight="23.0" />
+      <edge source="Okamura" target="Islámský stát" id="761" weight="22.0" />
+      <edge source="Okamura" target="Wilderse" id="762" weight="62.0" />
+      <edge source="Okamura" target="Soukup" id="763" weight="45.0" />
+      <edge source="Okamura" target="Hnutí Svoboda a přímá demokracie" id="764" weight="86.0" />
+      <edge source="Okamura" target="Prima" id="765" weight="49.0" />
+      <edge source="Okamura" target="OKD" id="766" weight="26.0" />
+      <edge source="Okamura" target="Foldyna" id="767" weight="22.0" />
+      <edge source="Okamura" target="Fiala_r" id="768" weight="96.0" />
+      <edge source="Okamura" target="Hnutí SPD" id="769" weight="27.0" />
+      <edge source="Okamura" target="Svobodný" id="770" weight="37.0" />
+      <edge source="Okamura" target="Šafránková" id="771" weight="31.0" />
+      <edge source="Okamura" target="ENF" id="772" weight="49.0" />
+      <edge source="Okamura" target="Hrnčíř" id="773" weight="31.0" />
+      <edge source="Okamura" target="Evropa národů a svoboda" id="774" weight="47.0" />
+      <edge source="Okamura" target="Nos" id="775" weight="72.0" />
+      <edge source="Okamura" target="Wilder" id="776" weight="43.0" />
+      <edge source="Okamura" target="Aréna" id="777" weight="22.0" />
+      <edge source="Okamura" target="Bruselská elita" id="778" weight="26.0" />
+      <edge source="Okamura" target="Svobodné rádio" id="779" weight="25.0" />
+      <edge source="Okamura" target="Úsvit" id="780" weight="36.0" />
+      <edge source="Okamura" target="Televize" id="781" weight="22.0" />
+      <edge source="Okamura" target="Národní sdružení" id="782" weight="26.0" />
+      <edge source="Okamura" target="SPO" id="783" weight="53.0" />
+      <edge source="Okamura" target="Národní fronta" id="784" weight="34.0" />
+      <edge source="ČSSD" target="ODS" id="785" weight="645.0" />
+      <edge source="ČSSD" target="Poslanecká sněmovna" id="786" weight="427.0" />
+      <edge source="ČSSD" target="Zeman" id="787" weight="260.0" />
+      <edge source="ČSSD" target="Senát" id="788" weight="140.0" />
+      <edge source="ČSSD" target="TOP 09" id="789" weight="522.0" />
+      <edge source="ČSSD" target="KDU-ČSL" id="790" weight="724.0" />
+      <edge source="ČSSD" target="KSČM" id="791" weight="1149.0" />
+      <edge source="ČSSD" target="Evropská komise" id="792" weight="194.0" />
+      <edge source="ČSSD" target="Piráti" id="793" weight="399.0" />
+      <edge source="ČSSD" target="NATO" id="794" weight="107.0" />
+      <edge source="ČSSD" target="Evropský parlament" id="795" weight="171.0" />
+      <edge source="ČSSD" target="STAN" id="796" weight="306.0" />
+      <edge source="ČSSD" target="Hamáček" id="797" weight="574.0" />
+      <edge source="ČSSD" target="Parlament" id="798" weight="148.0" />
+      <edge source="ČSSD" target="Sobotka" id="799" weight="311.0" />
+      <edge source="ČSSD" target="Fiala_p" id="800" weight="47.0" />
+      <edge source="ČSSD" target="ČT" id="801" weight="89.0" />
+      <edge source="ČSSD" target="Android" id="802" weight="214.0" />
+      <edge source="ČSSD" target="Kalousek" id="803" weight="152.0" />
+      <edge source="ČSSD" target="Česká televize" id="804" weight="157.0" />
+      <edge source="ČSSD" target="Schillerová" id="805" weight="75.0" />
+      <edge source="ČSSD" target="ČT 24" id="806" weight="37.0" />
+      <edge source="ČSSD" target="Agrofert" id="807" weight="45.0" />
+      <edge source="ČSSD" target="Salvini" id="808" weight="80.0" />
+      <edge source="ČSSD" target="V 4" id="809" weight="36.0" />
+      <edge source="ČSSD" target="Putin" id="810" weight="35.0" />
+      <edge source="ČSSD" target="Merkelová" id="811" weight="74.0" />
+      <edge source="ČSSD" target="Trump" id="812" weight="37.0" />
+      <edge source="ČSSD" target="Orbán" id="813" weight="47.0" />
+      <edge source="ČSSD" target="Le Pen" id="814" weight="98.0" />
+      <edge source="ČSSD" target="Evropská unie" id="815" weight="34.0" />
+      <edge source="ČSSD" target="Maláčová" id="816" weight="185.0" />
+      <edge source="ČSSD" target="Havel" id="817" weight="26.0" />
+      <edge source="ČSSD" target="Ústavní soud" id="818" weight="75.0" />
+      <edge source="ČSSD" target="EET" id="819" weight="45.0" />
+      <edge source="ČSSD" target="OSN" id="820" weight="55.0" />
+      <edge source="ČSSD" target="Klaus" id="821" weight="43.0" />
+      <edge source="ČSSD" target="Hrad" id="822" weight="30.0" />
+      <edge source="ČSSD" target="TV Barrandov" id="823" weight="57.0" />
+      <edge source="ČSSD" target="Unie" id="824" weight="24.0" />
+      <edge source="ČSSD" target="HDP" id="825" weight="38.0" />
+      <edge source="ČSSD" target="Spolu" id="826" weight="40.0" />
+      <edge source="ČSSD" target="Havlíček" id="827" weight="46.0" />
+      <edge source="ČSSD" target="Komise" id="828" weight="24.0" />
+      <edge source="ČSSD" target="Vojtěch" id="829" weight="49.0" />
+      <edge source="ČSSD" target="Bělobrádek" id="830" weight="100.0" />
+      <edge source="ČSSD" target="Macron" id="831" weight="27.0" />
+      <edge source="ČSSD" target="Český rozhlas" id="832" weight="60.0" />
+      <edge source="ČSSD" target="Ministerstvo financí" id="833" weight="24.0" />
+      <edge source="ČSSD" target="Ministerstvo zdravotnictví" id="834" weight="23.0" />
+      <edge source="ČSSD" target="NKÚ" id="835" weight="71.0" />
+      <edge source="ČSSD" target="Trikolóra" id="836" weight="69.0" />
+      <edge source="ČSSD" target="Soros" id="837" weight="37.0" />
+      <edge source="ČSSD" target="Čapí hnízdo" id="838" weight="30.0" />
+      <edge source="ČSSD" target="Petříček" id="839" weight="131.0" />
+      <edge source="ČSSD" target="Bartoš" id="840" weight="51.0" />
+      <edge source="ČSSD" target="David" id="841" weight="33.0" />
+      <edge source="ČSSD" target="Jourová" id="842" weight="23.0" />
+      <edge source="ČSSD" target="Juncker" id="843" weight="26.0" />
+      <edge source="ČSSD" target="Nejvyšší kontrolní úřad" id="844" weight="99.0" />
+      <edge source="ČSSD" target="Moravec" id="845" weight="33.0" />
+      <edge source="ČSSD" target="Brusel" id="846" weight="46.0" />
+      <edge source="ČSSD" target="Blatný" id="847" weight="40.0" />
+      <edge source="ČSSD" target="Islámský stát" id="848" weight="32.0" />
+      <edge source="ČSSD" target="Wilderse" id="849" weight="32.0" />
+      <edge source="ČSSD" target="Rada" id="850" weight="22.0" />
+      <edge source="ČSSD" target="BIS" id="851" weight="22.0" />
+      <edge source="ČSSD" target="Hnutí Svoboda a přímá demokracie" id="852" weight="63.0" />
+      <edge source="ČSSD" target="Schwarzenberg" id="853" weight="29.0" />
+      <edge source="ČSSD" target="Toman" id="854" weight="24.0" />
+      <edge source="ČSSD" target="Staněk" id="855" weight="46.0" />
+      <edge source="ČSSD" target="OKD" id="856" weight="70.0" />
+      <edge source="ČSSD" target="Foldyna" id="857" weight="52.0" />
+      <edge source="ČSSD" target="Fiala_r" id="858" weight="44.0" />
+      <edge source="ČSSD" target="Ťok" id="859" weight="25.0" />
+      <edge source="ČSSD" target="Hnutí SPD" id="860" weight="40.0" />
+      <edge source="ČSSD" target="Dvořák" id="861" weight="30.0" />
+      <edge source="ČSSD" target="Šafránková" id="862" weight="47.0" />
+      <edge source="ČSSD" target="Bakala" id="863" weight="64.0" />
+      <edge source="ČSSD" target="MPSV" id="864" weight="25.0" />
+      <edge source="ČSSD" target="Šojdrová" id="865" weight="58.0" />
+      <edge source="ČSSD" target="Zaorálek" id="866" weight="65.0" />
+      <edge source="ČSSD" target="Polčák" id="867" weight="27.0" />
+      <edge source="ČSSD" target="Hrnčíř" id="868" weight="25.0" />
+      <edge source="ČSSD" target="Zdechovský" id="869" weight="23.0" />
+      <edge source="ČSSD" target="Česká pošta" id="870" weight="24.0" />
+      <edge source="ČSSD" target="Ministerstvo vnitra" id="871" weight="26.0" />
+      <edge source="ČSSD" target="Feri" id="872" weight="33.0" />
+      <edge source="ČSSD" target="Starostové a nezávislí" id="873" weight="24.0" />
+      <edge source="ČSSD" target="Pospíšil" id="874" weight="23.0" />
+      <edge source="ČSSD" target="Identita a demokracie" id="875" weight="27.0" />
+      <edge source="ČSSD" target="Rada ČT" id="876" weight="24.0" />
+      <edge source="ČSSD" target="KDU" id="877" weight="23.0" />
+      <edge source="ČSSD" target="Nos" id="878" weight="26.0" />
+      <edge source="ČSSD" target="Vláda" id="879" weight="27.0" />
+      <edge source="ČSSD" target="ID" id="880" weight="25.0" />
+      <edge source="ČSSD" target="Eurozóna" id="881" weight="31.0" />
+      <edge source="ČSSD" target="Šmarda" id="882" weight="39.0" />
+      <edge source="ČSSD" target="Herman" id="883" weight="29.0" />
+      <edge source="ČSSD" target="Charanzová" id="884" weight="31.0" />
+      <edge source="ČSSD" target="Klaus ml." id="885" weight="34.0" />
+      <edge source="ČSSD" target="Úsvit" id="886" weight="33.0" />
+      <edge source="ČSSD" target="Ministerstvo práce a sociálních věcí" id="887" weight="23.0" />
+      <edge source="ČSSD" target="Niedermayer" id="888" weight="24.0" />
+      <edge source="ČSSD" target="Stropnický" id="889" weight="23.0" />
+      <edge source="ČSSD" target="Dlabajová" id="890" weight="31.0" />
+      <edge source="ČSSD" target="Maříková" id="891" weight="33.0" />
+      <edge source="ČSSD" target="Poche" id="892" weight="48.0" />
+      <edge source="ČSSD" target="Pelikán" id="893" weight="24.0" />
+      <edge source="ČSSD" target="SPO" id="894" weight="21.0" />
+      <edge source="ODS" target="Poslanecká sněmovna" id="895" weight="281.0" />
+      <edge source="ODS" target="Zeman" id="896" weight="183.0" />
+      <edge source="ODS" target="Senát" id="897" weight="250.0" />
+      <edge source="ODS" target="TOP 09" id="898" weight="850.0" />
+      <edge source="ODS" target="KDU-ČSL" id="899" weight="715.0" />
+      <edge source="ODS" target="KSČM" id="900" weight="352.0" />
+      <edge source="ODS" target="Evropská komise" id="901" weight="139.0" />
+      <edge source="ODS" target="Piráti" id="902" weight="579.0" />
+      <edge source="ODS" target="NATO" id="903" weight="102.0" />
+      <edge source="ODS" target="Evropský parlament" id="904" weight="128.0" />
+      <edge source="ODS" target="STAN" id="905" weight="563.0" />
+      <edge source="ODS" target="Hamáček" id="906" weight="104.0" />
+      <edge source="ODS" target="Parlament" id="907" weight="120.0" />
+      <edge source="ODS" target="Sobotka" id="908" weight="115.0" />
+      <edge source="ODS" target="Fiala_p" id="909" weight="482.0" />
+      <edge source="ODS" target="ČT" id="910" weight="80.0" />
+      <edge source="ODS" target="Android" id="911" weight="75.0" />
+      <edge source="ODS" target="Kalousek" id="912" weight="160.0" />
+      <edge source="ODS" target="Česká televize" id="913" weight="115.0" />
+      <edge source="ODS" target="Schillerová" id="914" weight="47.0" />
+      <edge source="ODS" target="ČT 24" id="915" weight="30.0" />
+      <edge source="ODS" target="Agrofert" id="916" weight="40.0" />
+      <edge source="ODS" target="Salvini" id="917" weight="63.0" />
+      <edge source="ODS" target="V 4" id="918" weight="30.0" />
+      <edge source="ODS" target="Putin" id="919" weight="23.0" />
+      <edge source="ODS" target="Merkelová" id="920" weight="26.0" />
+      <edge source="ODS" target="Trump" id="921" weight="23.0" />
+      <edge source="ODS" target="Orbán" id="922" weight="35.0" />
+      <edge source="ODS" target="Le Pen" id="923" weight="65.0" />
+      <edge source="ODS" target="Evropská unie" id="924" weight="30.0" />
+      <edge source="ODS" target="EP" id="925" weight="43.0" />
+      <edge source="ODS" target="Maláčová" id="926" weight="36.0" />
+      <edge source="ODS" target="Havel" id="927" weight="35.0" />
+      <edge source="ODS" target="Ústavní soud" id="928" weight="57.0" />
+      <edge source="ODS" target="EET" id="929" weight="33.0" />
+      <edge source="ODS" target="OSN" id="930" weight="23.0" />
+      <edge source="ODS" target="Klaus" id="931" weight="99.0" />
+      <edge source="ODS" target="Hrad" id="932" weight="24.0" />
+      <edge source="ODS" target="TV Barrandov" id="933" weight="28.0" />
+      <edge source="ODS" target="Unie" id="934" weight="30.0" />
+      <edge source="ODS" target="HDP" id="935" weight="34.0" />
+      <edge source="ODS" target="Spolu" id="936" weight="141.0" />
+      <edge source="ODS" target="Havlíček" id="937" weight="26.0" />
+      <edge source="ODS" target="ČEZ" id="938" weight="42.0" />
+      <edge source="ODS" target="Vojtěch" id="939" weight="29.0" />
+      <edge source="ODS" target="Bělobrádek" id="940" weight="56.0" />
+      <edge source="ODS" target="Macron" id="941" weight="23.0" />
+      <edge source="ODS" target="Český rozhlas" id="942" weight="41.0" />
+      <edge source="ODS" target="NKÚ" id="943" weight="41.0" />
+      <edge source="ODS" target="Trikolóra" id="944" weight="75.0" />
+      <edge source="ODS" target="PS" id="945" weight="30.0" />
+      <edge source="ODS" target="Čapí hnízdo" id="946" weight="25.0" />
+      <edge source="ODS" target="Petříček" id="947" weight="24.0" />
+      <edge source="ODS" target="Bartoš" id="948" weight="70.0" />
+      <edge source="ODS" target="Dukovany" id="949" weight="33.0" />
+      <edge source="ODS" target="David" id="950" weight="24.0" />
+      <edge source="ODS" target="Nejvyšší kontrolní úřad" id="951" weight="51.0" />
+      <edge source="ODS" target="Moravec" id="952" weight="32.0" />
+      <edge source="ODS" target="Wilderse" id="953" weight="38.0" />
+      <edge source="ODS" target="Hnutí Svoboda a přímá demokracie" id="954" weight="32.0" />
+      <edge source="ODS" target="Pekarová Adamová" id="955" weight="56.0" />
+      <edge source="ODS" target="Schwarzenberg" id="956" weight="26.0" />
+      <edge source="ODS" target="Hřib" id="957" weight="29.0" />
+      <edge source="ODS" target="Rakušan" id="958" weight="78.0" />
+      <edge source="ODS" target="OKD" id="959" weight="21.0" />
+      <edge source="ODS" target="Foldyna" id="960" weight="53.0" />
+      <edge source="ODS" target="TV Prima" id="961" weight="36.0" />
+      <edge source="ODS" target="Pirát" id="962" weight="33.0" />
+      <edge source="ODS" target="Vystrčil" id="963" weight="80.0" />
+      <edge source="ODS" target="Hnutí SPD" id="964" weight="30.0" />
+      <edge source="ODS" target="Partie" id="965" weight="23.0" />
+      <edge source="ODS" target="Otázky Václava Moravce" id="966" weight="22.0" />
+      <edge source="ODS" target="Šafránková" id="967" weight="24.0" />
+      <edge source="ODS" target="Bakala" id="968" weight="24.0" />
+      <edge source="ODS" target="Filip" id="969" weight="21.0" />
+      <edge source="ODS" target="Jurečka" id="970" weight="41.0" />
+      <edge source="ODS" target="Šojdrová" id="971" weight="27.0" />
+      <edge source="ODS" target="Gazdík" id="972" weight="40.0" />
+      <edge source="ODS" target="Polčák" id="973" weight="36.0" />
+      <edge source="ODS" target="Němcová" id="974" weight="24.0" />
+      <edge source="ODS" target="Zahradil" id="975" weight="51.0" />
+      <edge source="ODS" target="Feri" id="976" weight="46.0" />
+      <edge source="ODS" target="Starostové a nezávislí" id="977" weight="31.0" />
+      <edge source="ODS" target="Pospíšil" id="978" weight="29.0" />
+      <edge source="ODS" target="Identita a demokracie" id="979" weight="41.0" />
+      <edge source="ODS" target="KDU" id="980" weight="39.0" />
+      <edge source="ODS" target="Křeček" id="981" weight="25.0" />
+      <edge source="ODS" target="ID" id="982" weight="43.0" />
+      <edge source="ODS" target="Stanjura" id="983" weight="56.0" />
+      <edge source="ODS" target="Eurozóna" id="984" weight="35.0" />
+      <edge source="ODS" target="Občanská demokratická strana" id="985" weight="74.0" />
+      <edge source="ODS" target="Farský" id="986" weight="29.0" />
+      <edge source="ODS" target="Kolář" id="987" weight="23.0" />
+      <edge source="ODS" target="Redl" id="988" weight="29.0" />
+      <edge source="ODS" target="Herman" id="989" weight="21.0" />
+      <edge source="ODS" target="Klaus ml." id="990" weight="52.0" />
+      <edge source="ODS" target="Úsvit" id="991" weight="24.0" />
+      <edge source="ODS" target="Černochová" id="992" weight="46.0" />
+      <edge source="ODS" target="Vondra" id="993" weight="24.0" />
+      <edge source="ODS" target="STEM" id="994" weight="21.0" />
+      <edge source="ODS" target="Národní shromáždění" id="995" weight="32.0" />
+      <edge source="Poslanecká sněmovna" target="Zeman" id="996" weight="140.0" />
+      <edge source="Poslanecká sněmovna" target="Senát" id="997" weight="167.0" />
+      <edge source="Poslanecká sněmovna" target="TOP 09" id="998" weight="224.0" />
+      <edge source="Poslanecká sněmovna" target="KDU-ČSL" id="999" weight="286.0" />
+      <edge source="Poslanecká sněmovna" target="KSČM" id="1000" weight="143.0" />
+      <edge source="Poslanecká sněmovna" target="Evropská komise" id="1001" weight="275.0" />
+      <edge source="Poslanecká sněmovna" target="Piráti" id="1002" weight="136.0" />
+      <edge source="Poslanecká sněmovna" target="NATO" id="1003" weight="75.0" />
+      <edge source="Poslanecká sněmovna" target="Evropský parlament" id="1004" weight="68.0" />
+      <edge source="Poslanecká sněmovna" target="STAN" id="1005" weight="116.0" />
+      <edge source="Poslanecká sněmovna" target="Hamáček" id="1006" weight="76.0" />
+      <edge source="Poslanecká sněmovna" target="Parlament" id="1007" weight="156.0" />
+      <edge source="Poslanecká sněmovna" target="Sobotka" id="1008" weight="340.0" />
+      <edge source="Poslanecká sněmovna" target="Fiala_p" id="1009" weight="67.0" />
+      <edge source="Poslanecká sněmovna" target="ČT" id="1010" weight="62.0" />
+      <edge source="Poslanecká sněmovna" target="Android" id="1011" weight="812.0" />
+      <edge source="Poslanecká sněmovna" target="Kalousek" id="1012" weight="68.0" />
+      <edge source="Poslanecká sněmovna" target="Česká televize" id="1013" weight="137.0" />
+      <edge source="Poslanecká sněmovna" target="Schillerová" id="1014" weight="35.0" />
+      <edge source="Poslanecká sněmovna" target="V 4" id="1015" weight="40.0" />
+      <edge source="Poslanecká sněmovna" target="Merkelová" id="1016" weight="78.0" />
+      <edge source="Poslanecká sněmovna" target="Trump" id="1017" weight="45.0" />
+      <edge source="Poslanecká sněmovna" target="Orbán" id="1018" weight="36.0" />
+      <edge source="Poslanecká sněmovna" target="Le Pen" id="1019" weight="53.0" />
+      <edge source="Poslanecká sněmovna" target="Ústavní soud" id="1020" weight="47.0" />
+      <edge source="Poslanecká sněmovna" target="OSN" id="1021" weight="38.0" />
+      <edge source="Poslanecká sněmovna" target="Klaus" id="1022" weight="24.0" />
+      <edge source="Poslanecká sněmovna" target="Spolu" id="1023" weight="23.0" />
+      <edge source="Poslanecká sněmovna" target="Bělobrádek" id="1024" weight="94.0" />
+      <edge source="Poslanecká sněmovna" target="Senát Parlamentu ČR" id="1025" weight="23.0" />
+      <edge source="Poslanecká sněmovna" target="Český rozhlas" id="1026" weight="44.0" />
+      <edge source="Poslanecká sněmovna" target="Masaryk" id="1027" weight="21.0" />
+      <edge source="Poslanecká sněmovna" target="NKÚ" id="1028" weight="32.0" />
+      <edge source="Poslanecká sněmovna" target="Juncker" id="1029" weight="29.0" />
+      <edge source="Poslanecká sněmovna" target="Nejvyšší kontrolní úřad" id="1030" weight="47.0" />
+      <edge source="Poslanecká sněmovna" target="Islámský stát" id="1031" weight="30.0" />
+      <edge source="Poslanecká sněmovna" target="Hnutí Svoboda a přímá demokracie" id="1032" weight="214.0" />
+      <edge source="Poslanecká sněmovna" target="Pekarová Adamová" id="1033" weight="24.0" />
+      <edge source="Poslanecká sněmovna" target="Rakušan" id="1034" weight="26.0" />
+      <edge source="Poslanecká sněmovna" target="OKD" id="1035" weight="45.0" />
+      <edge source="Poslanecká sněmovna" target="Fiala_r" id="1036" weight="53.0" />
+      <edge source="Poslanecká sněmovna" target="Parlament České republiky" id="1037" weight="133.0" />
+      <edge source="Poslanecká sněmovna" target="Bakala" id="1038" weight="31.0" />
+      <edge source="Poslanecká sněmovna" target="ENF" id="1039" weight="21.0" />
+      <edge source="Poslanecká sněmovna" target="Vondráček" id="1040" weight="22.0" />
+      <edge source="Poslanecká sněmovna" target="Nos" id="1041" weight="33.0" />
+      <edge source="Poslanecká sněmovna" target="Úsvit" id="1042" weight="33.0" />
+      <edge source="Poslanecká sněmovna" target="SPO" id="1043" weight="33.0" />
+      <edge source="Zeman" target="Senát" id="1044" weight="113.0" />
+      <edge source="Zeman" target="TOP 09" id="1045" weight="104.0" />
+      <edge source="Zeman" target="KDU-ČSL" id="1046" weight="85.0" />
+      <edge source="Zeman" target="KSČM" id="1047" weight="102.0" />
+      <edge source="Zeman" target="Evropská komise" id="1048" weight="47.0" />
+      <edge source="Zeman" target="Piráti" id="1049" weight="77.0" />
+      <edge source="Zeman" target="NATO" id="1050" weight="71.0" />
+      <edge source="Zeman" target="Evropský parlament" id="1051" weight="39.0" />
+      <edge source="Zeman" target="STAN" id="1052" weight="60.0" />
+      <edge source="Zeman" target="Hamáček" id="1053" weight="110.0" />
+      <edge source="Zeman" target="Parlament" id="1054" weight="37.0" />
+      <edge source="Zeman" target="Sobotka" id="1055" weight="99.0" />
+      <edge source="Zeman" target="Fiala_p" id="1056" weight="34.0" />
+      <edge source="Zeman" target="ČT" id="1057" weight="58.0" />
+      <edge source="Zeman" target="Android" id="1058" weight="60.0" />
+      <edge source="Zeman" target="Kalousek" id="1059" weight="51.0" />
+      <edge source="Zeman" target="Česká televize" id="1060" weight="89.0" />
+      <edge source="Zeman" target="Schillerová" id="1061" weight="29.0" />
+      <edge source="Zeman" target="ČT 24" id="1062" weight="22.0" />
+      <edge source="Zeman" target="Salvini" id="1063" weight="24.0" />
+      <edge source="Zeman" target="Putin" id="1064" weight="45.0" />
+      <edge source="Zeman" target="Merkelová" id="1065" weight="35.0" />
+      <edge source="Zeman" target="Trump" id="1066" weight="48.0" />
+      <edge source="Zeman" target="Orbán" id="1067" weight="35.0" />
+      <edge source="Zeman" target="Le Pen" id="1068" weight="29.0" />
+      <edge source="Zeman" target="Havel" id="1069" weight="59.0" />
+      <edge source="Zeman" target="Ústavní soud" id="1070" weight="37.0" />
+      <edge source="Zeman" target="Klaus" id="1071" weight="86.0" />
+      <edge source="Zeman" target="Hrad" id="1072" weight="90.0" />
+      <edge source="Zeman" target="Havlíček" id="1073" weight="21.0" />
+      <edge source="Zeman" target="Bělobrádek" id="1074" weight="22.0" />
+      <edge source="Zeman" target="Český rozhlas" id="1075" weight="44.0" />
+      <edge source="Zeman" target="NKÚ" id="1076" weight="22.0" />
+      <edge source="Zeman" target="Čapí hnízdo" id="1077" weight="45.0" />
+      <edge source="Zeman" target="Petříček" id="1078" weight="35.0" />
+      <edge source="Zeman" target="Nejvyšší kontrolní úřad" id="1079" weight="27.0" />
+      <edge source="Zeman" target="Moravec" id="1080" weight="22.0" />
+      <edge source="Zeman" target="BIS" id="1081" weight="35.0" />
+      <edge source="Zeman" target="Schwarzenberg" id="1082" weight="32.0" />
+      <edge source="Zeman" target="Staněk" id="1083" weight="39.0" />
+      <edge source="Zeman" target="Benešová" id="1084" weight="38.0" />
+      <edge source="Zeman" target="Zaorálek" id="1085" weight="23.0" />
+      <edge source="Zeman" target="Němcová" id="1086" weight="21.0" />
+      <edge source="Zeman" target="Mynář" id="1087" weight="26.0" />
+      <edge source="Zeman" target="Šmarda" id="1088" weight="25.0" />
+      <edge source="Zeman" target="Ovčáček" id="1089" weight="24.0" />
+      <edge source="Zeman" target="SPO" id="1090" weight="26.0" />
+      <edge source="Senát" target="TOP 09" id="1091" weight="111.0" />
+      <edge source="Senát" target="KDU-ČSL" id="1092" weight="106.0" />
+      <edge source="Senát" target="KSČM" id="1093" weight="95.0" />
+      <edge source="Senát" target="Evropská komise" id="1094" weight="44.0" />
+      <edge source="Senát" target="Piráti" id="1095" weight="77.0" />
+      <edge source="Senát" target="NATO" id="1096" weight="47.0" />
+      <edge source="Senát" target="STAN" id="1097" weight="90.0" />
+      <edge source="Senát" target="Hamáček" id="1098" weight="36.0" />
+      <edge source="Senát" target="Parlament" id="1099" weight="49.0" />
+      <edge source="Senát" target="Sobotka" id="1100" weight="21.0" />
+      <edge source="Senát" target="Fiala_p" id="1101" weight="41.0" />
+      <edge source="Senát" target="ČT" id="1102" weight="30.0" />
+      <edge source="Senát" target="Česká televize" id="1103" weight="48.0" />
+      <edge source="Senát" target="Schillerová" id="1104" weight="35.0" />
+      <edge source="Senát" target="Havel" id="1105" weight="32.0" />
+      <edge source="Senát" target="Ústavní soud" id="1106" weight="71.0" />
+      <edge source="Senát" target="EET" id="1107" weight="31.0" />
+      <edge source="Senát" target="Senát Parlamentu ČR" id="1108" weight="73.0" />
+      <edge source="Senát" target="Český rozhlas" id="1109" weight="24.0" />
+      <edge source="Senát" target="NKÚ" id="1110" weight="23.0" />
+      <edge source="Senát" target="PS" id="1111" weight="25.0" />
+      <edge source="Senát" target="David" id="1112" weight="23.0" />
+      <edge source="Senát" target="Nejvyšší kontrolní úřad" id="1113" weight="26.0" />
+      <edge source="Senát" target="Vystrčil" id="1114" weight="88.0" />
+      <edge source="Senát" target="Kubera" id="1115" weight="84.0" />
+      <edge source="Senát" target="Novák" id="1116" weight="21.0" />
+      <edge source="Senát" target="Jakl" id="1117" weight="22.0" />
+      <edge source="Senát" target="Křeček" id="1118" weight="24.0" />
+      <edge source="TOP 09" target="KDU-ČSL" id="1119" weight="774.0" />
+      <edge source="TOP 09" target="KSČM" id="1120" weight="283.0" />
+      <edge source="TOP 09" target="Evropská komise" id="1121" weight="133.0" />
+      <edge source="TOP 09" target="Piráti" id="1122" weight="593.0" />
+      <edge source="TOP 09" target="NATO" id="1123" weight="67.0" />
+      <edge source="TOP 09" target="Evropský parlament" id="1124" weight="142.0" />
+      <edge source="TOP 09" target="STAN" id="1125" weight="666.0" />
+      <edge source="TOP 09" target="Hamáček" id="1126" weight="107.0" />
+      <edge source="TOP 09" target="Parlament" id="1127" weight="105.0" />
+      <edge source="TOP 09" target="Sobotka" id="1128" weight="95.0" />
+      <edge source="TOP 09" target="Fiala_p" id="1129" weight="204.0" />
+      <edge source="TOP 09" target="ČT" id="1130" weight="73.0" />
+      <edge source="TOP 09" target="Android" id="1131" weight="77.0" />
+      <edge source="TOP 09" target="Kalousek" id="1132" weight="214.0" />
+      <edge source="TOP 09" target="Česká televize" id="1133" weight="115.0" />
+      <edge source="TOP 09" target="ČT 24" id="1134" weight="25.0" />
+      <edge source="TOP 09" target="Agrofert" id="1135" weight="21.0" />
+      <edge source="TOP 09" target="Salvini" id="1136" weight="56.0" />
+      <edge source="TOP 09" target="V 4" id="1137" weight="36.0" />
+      <edge source="TOP 09" target="Putin" id="1138" weight="23.0" />
+      <edge source="TOP 09" target="Merkelová" id="1139" weight="38.0" />
+      <edge source="TOP 09" target="Trump" id="1140" weight="26.0" />
+      <edge source="TOP 09" target="Orbán" id="1141" weight="36.0" />
+      <edge source="TOP 09" target="Le Pen" id="1142" weight="66.0" />
+      <edge source="TOP 09" target="EP" id="1143" weight="24.0" />
+      <edge source="TOP 09" target="Havel" id="1144" weight="36.0" />
+      <edge source="TOP 09" target="Ústavní soud" id="1145" weight="33.0" />
+      <edge source="TOP 09" target="OSN" id="1146" weight="28.0" />
+      <edge source="TOP 09" target="Klaus" id="1147" weight="28.0" />
+      <edge source="TOP 09" target="Spolu" id="1148" weight="130.0" />
+      <edge source="TOP 09" target="Komise" id="1149" weight="26.0" />
+      <edge source="TOP 09" target="ČEZ" id="1150" weight="24.0" />
+      <edge source="TOP 09" target="Vojtěch" id="1151" weight="23.0" />
+      <edge source="TOP 09" target="Bělobrádek" id="1152" weight="48.0" />
+      <edge source="TOP 09" target="Český rozhlas" id="1153" weight="43.0" />
+      <edge source="TOP 09" target="NKÚ" id="1154" weight="25.0" />
+      <edge source="TOP 09" target="Trikolóra" id="1155" weight="56.0" />
+      <edge source="TOP 09" target="Soros" id="1156" weight="22.0" />
+      <edge source="TOP 09" target="Petříček" id="1157" weight="21.0" />
+      <edge source="TOP 09" target="Bartoš" id="1158" weight="72.0" />
+      <edge source="TOP 09" target="David" id="1159" weight="31.0" />
+      <edge source="TOP 09" target="Nejvyšší kontrolní úřad" id="1160" weight="43.0" />
+      <edge source="TOP 09" target="Moravec" id="1161" weight="25.0" />
+      <edge source="TOP 09" target="Wilderse" id="1162" weight="24.0" />
+      <edge source="TOP 09" target="Hnutí Svoboda a přímá demokracie" id="1163" weight="31.0" />
+      <edge source="TOP 09" target="Pekarová Adamová" id="1164" weight="111.0" />
+      <edge source="TOP 09" target="Schwarzenberg" id="1165" weight="78.0" />
+      <edge source="TOP 09" target="Hřib" id="1166" weight="43.0" />
+      <edge source="TOP 09" target="Rakušan" id="1167" weight="56.0" />
+      <edge source="TOP 09" target="OKD" id="1168" weight="26.0" />
+      <edge source="TOP 09" target="Foldyna" id="1169" weight="25.0" />
+      <edge source="TOP 09" target="TV Prima" id="1170" weight="29.0" />
+      <edge source="TOP 09" target="Pirát" id="1171" weight="27.0" />
+      <edge source="TOP 09" target="Hnutí SPD" id="1172" weight="28.0" />
+      <edge source="TOP 09" target="Dvořák" id="1173" weight="23.0" />
+      <edge source="TOP 09" target="Koněv" id="1174" weight="29.0" />
+      <edge source="TOP 09" target="Šafránková" id="1175" weight="23.0" />
+      <edge source="TOP 09" target="Bakala" id="1176" weight="43.0" />
+      <edge source="TOP 09" target="Jurečka" id="1177" weight="29.0" />
+      <edge source="TOP 09" target="Šojdrová" id="1178" weight="55.0" />
+      <edge source="TOP 09" target="Gazdík" id="1179" weight="32.0" />
+      <edge source="TOP 09" target="Polčák" id="1180" weight="54.0" />
+      <edge source="TOP 09" target="Zdechovský" id="1181" weight="30.0" />
+      <edge source="TOP 09" target="Feri" id="1182" weight="76.0" />
+      <edge source="TOP 09" target="Starostové a nezávislí" id="1183" weight="50.0" />
+      <edge source="TOP 09" target="Pospíšil" id="1184" weight="58.0" />
+      <edge source="TOP 09" target="Identita a demokracie" id="1185" weight="29.0" />
+      <edge source="TOP 09" target="Michálek" id="1186" weight="22.0" />
+      <edge source="TOP 09" target="Rada ČT" id="1187" weight="22.0" />
+      <edge source="TOP 09" target="ID" id="1188" weight="29.0" />
+      <edge source="TOP 09" target="Eurozóna" id="1189" weight="36.0" />
+      <edge source="TOP 09" target="Farský" id="1190" weight="24.0" />
+      <edge source="TOP 09" target="Kolář" id="1191" weight="44.0" />
+      <edge source="TOP 09" target="Redl" id="1192" weight="29.0" />
+      <edge source="TOP 09" target="Herman" id="1193" weight="26.0" />
+      <edge source="TOP 09" target="Válek" id="1194" weight="34.0" />
+      <edge source="TOP 09" target="Charanzová" id="1195" weight="29.0" />
+      <edge source="TOP 09" target="Klaus ml." id="1196" weight="30.0" />
+      <edge source="TOP 09" target="Úsvit" id="1197" weight="21.0" />
+      <edge source="TOP 09" target="Niedermayer" id="1198" weight="32.0" />
+      <edge source="TOP 09" target="Dlabajová" id="1199" weight="29.0" />
+      <edge source="TOP 09" target="Poche" id="1200" weight="29.0" />
+      <edge source="TOP 09" target="Černochová" id="1201" weight="22.0" />
+      <edge source="KDU-ČSL" target="KSČM" id="1202" weight="290.0" />
+      <edge source="KDU-ČSL" target="Evropská komise" id="1203" weight="141.0" />
+      <edge source="KDU-ČSL" target="Piráti" id="1204" weight="505.0" />
+      <edge source="KDU-ČSL" target="NATO" id="1205" weight="51.0" />
+      <edge source="KDU-ČSL" target="Evropský parlament" id="1206" weight="126.0" />
+      <edge source="KDU-ČSL" target="STAN" id="1207" weight="528.0" />
+      <edge source="KDU-ČSL" target="Hamáček" id="1208" weight="87.0" />
+      <edge source="KDU-ČSL" target="Parlament" id="1209" weight="110.0" />
+      <edge source="KDU-ČSL" target="Sobotka" id="1210" weight="163.0" />
+      <edge source="KDU-ČSL" target="Fiala_p" id="1211" weight="164.0" />
+      <edge source="KDU-ČSL" target="ČT" id="1212" weight="56.0" />
+      <edge source="KDU-ČSL" target="Android" id="1213" weight="136.0" />
+      <edge source="KDU-ČSL" target="Kalousek" id="1214" weight="133.0" />
+      <edge source="KDU-ČSL" target="Česká televize" id="1215" weight="96.0" />
+      <edge source="KDU-ČSL" target="ČT 24" id="1216" weight="22.0" />
+      <edge source="KDU-ČSL" target="Salvini" id="1217" weight="46.0" />
+      <edge source="KDU-ČSL" target="V 4" id="1218" weight="28.0" />
+      <edge source="KDU-ČSL" target="Merkelová" id="1219" weight="37.0" />
+      <edge source="KDU-ČSL" target="Orbán" id="1220" weight="30.0" />
+      <edge source="KDU-ČSL" target="Le Pen" id="1221" weight="77.0" />
+      <edge source="KDU-ČSL" target="Ústavní soud" id="1222" weight="33.0" />
+      <edge source="KDU-ČSL" target="EET" id="1223" weight="23.0" />
+      <edge source="KDU-ČSL" target="OSN" id="1224" weight="24.0" />
+      <edge source="KDU-ČSL" target="Klaus" id="1225" weight="26.0" />
+      <edge source="KDU-ČSL" target="TV Barrandov" id="1226" weight="21.0" />
+      <edge source="KDU-ČSL" target="Spolu" id="1227" weight="117.0" />
+      <edge source="KDU-ČSL" target="Komise" id="1228" weight="21.0" />
+      <edge source="KDU-ČSL" target="ČEZ" id="1229" weight="21.0" />
+      <edge source="KDU-ČSL" target="Vojtěch" id="1230" weight="21.0" />
+      <edge source="KDU-ČSL" target="Bělobrádek" id="1231" weight="115.0" />
+      <edge source="KDU-ČSL" target="Český rozhlas" id="1232" weight="31.0" />
+      <edge source="KDU-ČSL" target="NKÚ" id="1233" weight="33.0" />
+      <edge source="KDU-ČSL" target="Trikolóra" id="1234" weight="47.0" />
+      <edge source="KDU-ČSL" target="Bartoš" id="1235" weight="59.0" />
+      <edge source="KDU-ČSL" target="David" id="1236" weight="22.0" />
+      <edge source="KDU-ČSL" target="Nejvyšší kontrolní úřad" id="1237" weight="41.0" />
+      <edge source="KDU-ČSL" target="Islámský stát" id="1238" weight="25.0" />
+      <edge source="KDU-ČSL" target="Wilderse" id="1239" weight="23.0" />
+      <edge source="KDU-ČSL" target="Hnutí Svoboda a přímá demokracie" id="1240" weight="48.0" />
+      <edge source="KDU-ČSL" target="Pekarová Adamová" id="1241" weight="36.0" />
+      <edge source="KDU-ČSL" target="Hřib" id="1242" weight="26.0" />
+      <edge source="KDU-ČSL" target="Rakušan" id="1243" weight="52.0" />
+      <edge source="KDU-ČSL" target="OKD" id="1244" weight="25.0" />
+      <edge source="KDU-ČSL" target="Fiala_r" id="1245" weight="35.0" />
+      <edge source="KDU-ČSL" target="Hnutí SPD" id="1246" weight="26.0" />
+      <edge source="KDU-ČSL" target="Jurečka" id="1247" weight="67.0" />
+      <edge source="KDU-ČSL" target="Šojdrová" id="1248" weight="78.0" />
+      <edge source="KDU-ČSL" target="Gazdík" id="1249" weight="21.0" />
+      <edge source="KDU-ČSL" target="Polčák" id="1250" weight="40.0" />
+      <edge source="KDU-ČSL" target="Zdechovský" id="1251" weight="65.0" />
+      <edge source="KDU-ČSL" target="Feri" id="1252" weight="42.0" />
+      <edge source="KDU-ČSL" target="Starostové a nezávislí" id="1253" weight="31.0" />
+      <edge source="KDU-ČSL" target="Pospíšil" id="1254" weight="27.0" />
+      <edge source="KDU-ČSL" target="Identita a demokracie" id="1255" weight="26.0" />
+      <edge source="KDU-ČSL" target="Nos" id="1256" weight="24.0" />
+      <edge source="KDU-ČSL" target="ID" id="1257" weight="26.0" />
+      <edge source="KDU-ČSL" target="Eurozóna" id="1258" weight="33.0" />
+      <edge source="KDU-ČSL" target="Výborný" id="1259" weight="50.0" />
+      <edge source="KDU-ČSL" target="Herman" id="1260" weight="40.0" />
+      <edge source="KDU-ČSL" target="Charanzová" id="1261" weight="27.0" />
+      <edge source="KDU-ČSL" target="Klaus ml." id="1262" weight="25.0" />
+      <edge source="KDU-ČSL" target="Čižinský" id="1263" weight="22.0" />
+      <edge source="KDU-ČSL" target="Úsvit" id="1264" weight="23.0" />
+      <edge source="KDU-ČSL" target="Niedermayer" id="1265" weight="24.0" />
+      <edge source="KDU-ČSL" target="Dlabajová" id="1266" weight="29.0" />
+      <edge source="KDU-ČSL" target="Poche" id="1267" weight="24.0" />
+      <edge source="KSČM" target="Evropská komise" id="1268" weight="69.0" />
+      <edge source="KSČM" target="Piráti" id="1269" weight="226.0" />
+      <edge source="KSČM" target="NATO" id="1270" weight="65.0" />
+      <edge source="KSČM" target="Evropský parlament" id="1271" weight="101.0" />
+      <edge source="KSČM" target="STAN" id="1272" weight="180.0" />
+      <edge source="KSČM" target="Hamáček" id="1273" weight="140.0" />
+      <edge source="KSČM" target="Parlament" id="1274" weight="95.0" />
+      <edge source="KSČM" target="Sobotka" id="1275" weight="31.0" />
+      <edge source="KSČM" target="ČT" id="1276" weight="57.0" />
+      <edge source="KSČM" target="Android" id="1277" weight="34.0" />
+      <edge source="KSČM" target="Kalousek" id="1278" weight="66.0" />
+      <edge source="KSČM" target="Česká televize" id="1279" weight="71.0" />
+      <edge source="KSČM" target="Schillerová" id="1280" weight="55.0" />
+      <edge source="KSČM" target="Salvini" id="1281" weight="53.0" />
+      <edge source="KSČM" target="Merkelová" id="1282" weight="31.0" />
+      <edge source="KSČM" target="Le Pen" id="1283" weight="48.0" />
+      <edge source="KSČM" target="Maláčová" id="1284" weight="52.0" />
+      <edge source="KSČM" target="Ústavní soud" id="1285" weight="58.0" />
+      <edge source="KSČM" target="EET" id="1286" weight="26.0" />
+      <edge source="KSČM" target="Klaus" id="1287" weight="28.0" />
+      <edge source="KSČM" target="TV Barrandov" id="1288" weight="46.0" />
+      <edge source="KSČM" target="Spolu" id="1289" weight="27.0" />
+      <edge source="KSČM" target="Havlíček" id="1290" weight="22.0" />
+      <edge source="KSČM" target="Komise" id="1291" weight="23.0" />
+      <edge source="KSČM" target="Vojtěch" id="1292" weight="28.0" />
+      <edge source="KSČM" target="Český rozhlas" id="1293" weight="39.0" />
+      <edge source="KSČM" target="NKÚ" id="1294" weight="29.0" />
+      <edge source="KSČM" target="Trikolóra" id="1295" weight="48.0" />
+      <edge source="KSČM" target="Soros" id="1296" weight="25.0" />
+      <edge source="KSČM" target="Petříček" id="1297" weight="26.0" />
+      <edge source="KSČM" target="Bartoš" id="1298" weight="30.0" />
+      <edge source="KSČM" target="David" id="1299" weight="28.0" />
+      <edge source="KSČM" target="Nejvyšší kontrolní úřad" id="1300" weight="45.0" />
+      <edge source="KSČM" target="Brusel" id="1301" weight="33.0" />
+      <edge source="KSČM" target="Blatný" id="1302" weight="31.0" />
+      <edge source="KSČM" target="Wilderse" id="1303" weight="25.0" />
+      <edge source="KSČM" target="Foldyna" id="1304" weight="28.0" />
+      <edge source="KSČM" target="Hnutí SPD" id="1305" weight="27.0" />
+      <edge source="KSČM" target="Šafránková" id="1306" weight="40.0" />
+      <edge source="KSČM" target="Filip" id="1307" weight="46.0" />
+      <edge source="KSČM" target="Šojdrová" id="1308" weight="34.0" />
+      <edge source="KSČM" target="Hrnčíř" id="1309" weight="21.0" />
+      <edge source="KSČM" target="Feri" id="1310" weight="27.0" />
+      <edge source="KSČM" target="Starostové a nezávislí" id="1311" weight="21.0" />
+      <edge source="KSČM" target="Identita a demokracie" id="1312" weight="27.0" />
+      <edge source="KSČM" target="Vláda" id="1313" weight="22.0" />
+      <edge source="KSČM" target="ID" id="1314" weight="25.0" />
+      <edge source="KSČM" target="Klaus ml." id="1315" weight="24.0" />
+      <edge source="KSČM" target="Poche" id="1316" weight="26.0" />
+      <edge source="Evropská komise" target="Piráti" id="1317" weight="70.0" />
+      <edge source="Evropská komise" target="NATO" id="1318" weight="66.0" />
+      <edge source="Evropská komise" target="Evropský parlament" id="1319" weight="232.0" />
+      <edge source="Evropská komise" target="STAN" id="1320" weight="70.0" />
+      <edge source="Evropská komise" target="Hamáček" id="1321" weight="62.0" />
+      <edge source="Evropská komise" target="Parlament" id="1322" weight="141.0" />
+      <edge source="Evropská komise" target="Sobotka" id="1323" weight="121.0" />
+      <edge source="Evropská komise" target="Fiala_p" id="1324" weight="57.0" />
+      <edge source="Evropská komise" target="ČT" id="1325" weight="22.0" />
+      <edge source="Evropská komise" target="Android" id="1326" weight="203.0" />
+      <edge source="Evropská komise" target="Kalousek" id="1327" weight="40.0" />
+      <edge source="Evropská komise" target="Česká televize" id="1328" weight="58.0" />
+      <edge source="Evropská komise" target="Schillerová" id="1329" weight="39.0" />
+      <edge source="Evropská komise" target="Agrofert" id="1330" weight="94.0" />
+      <edge source="Evropská komise" target="Salvini" id="1331" weight="107.0" />
+      <edge source="Evropská komise" target="V 4" id="1332" weight="63.0" />
+      <edge source="Evropská komise" target="Merkelová" id="1333" weight="103.0" />
+      <edge source="Evropská komise" target="Orbán" id="1334" weight="66.0" />
+      <edge source="Evropská komise" target="Le Pen" id="1335" weight="102.0" />
+      <edge source="Evropská komise" target="Evropská unie" id="1336" weight="68.0" />
+      <edge source="Evropská komise" target="EP" id="1337" weight="29.0" />
+      <edge source="Evropská komise" target="OSN" id="1338" weight="39.0" />
+      <edge source="Evropská komise" target="Klaus" id="1339" weight="22.0" />
+      <edge source="Evropská komise" target="Evropská rada" id="1340" weight="75.0" />
+      <edge source="Evropská komise" target="Unie" id="1341" weight="89.0" />
+      <edge source="Evropská komise" target="HDP" id="1342" weight="76.0" />
+      <edge source="Evropská komise" target="Havlíček" id="1343" weight="32.0" />
+      <edge source="Evropská komise" target="Komise" id="1344" weight="98.0" />
+      <edge source="Evropská komise" target="ČEZ" id="1345" weight="25.0" />
+      <edge source="Evropská komise" target="Vojtěch" id="1346" weight="26.0" />
+      <edge source="Evropská komise" target="Bělobrádek" id="1347" weight="45.0" />
+      <edge source="Evropská komise" target="Macron" id="1348" weight="41.0" />
+      <edge source="Evropská komise" target="Ministerstvo financí" id="1349" weight="30.0" />
+      <edge source="Evropská komise" target="Soros" id="1350" weight="34.0" />
+      <edge source="Evropská komise" target="Petříček" id="1351" weight="22.0" />
+      <edge source="Evropská komise" target="Dukovany" id="1352" weight="32.0" />
+      <edge source="Evropská komise" target="David" id="1353" weight="55.0" />
+      <edge source="Evropská komise" target="Jourová" id="1354" weight="81.0" />
+      <edge source="Evropská komise" target="Juncker" id="1355" weight="91.0" />
+      <edge source="Evropská komise" target="Brusel" id="1356" weight="70.0" />
+      <edge source="Evropská komise" target="von der Leyen" id="1357" weight="142.0" />
+      <edge source="Evropská komise" target="Wilderse" id="1358" weight="52.0" />
+      <edge source="Evropská komise" target="Hnutí Svoboda a přímá demokracie" id="1359" weight="158.0" />
+      <edge source="Evropská komise" target="OKD" id="1360" weight="21.0" />
+      <edge source="Evropská komise" target="Dostál" id="1361" weight="29.0" />
+      <edge source="Evropská komise" target="Svobodný" id="1362" weight="53.0" />
+      <edge source="Evropská komise" target="Erdogan" id="1363" weight="24.0" />
+      <edge source="Evropská komise" target="ENF" id="1364" weight="55.0" />
+      <edge source="Evropská komise" target="Hrnčíř" id="1365" weight="29.0" />
+      <edge source="Evropská komise" target="Rada EU" id="1366" weight="22.0" />
+      <edge source="Evropská komise" target="Evropa národů a svoboda" id="1367" weight="48.0" />
+      <edge source="Evropská komise" target="Nos" id="1368" weight="34.0" />
+      <edge source="Evropská komise" target="Eurostat" id="1369" weight="35.0" />
+      <edge source="Evropská komise" target="Wilder" id="1370" weight="21.0" />
+      <edge source="Evropská komise" target="Novotný" id="1371" weight="26.0" />
+      <edge source="Evropská komise" target="Blaško" id="1372" weight="38.0" />
+      <edge source="Evropská komise" target="EFTA" id="1373" weight="54.0" />
+      <edge source="Evropská komise" target="Armáda ČR" id="1374" weight="27.0" />
+      <edge source="Evropská komise" target="Doležal" id="1375" weight="29.0" />
+      <edge source="Evropská komise" target="Úřad práce" id="1376" weight="26.0" />
+      <edge source="Evropská komise" target="Bruselská elita" id="1377" weight="34.0" />
+      <edge source="Evropská komise" target="Jedlička" id="1378" weight="64.0" />
+      <edge source="Evropská komise" target="Národní sdružení" id="1379" weight="39.0" />
+      <edge source="Evropská komise" target="Palacký" id="1380" weight="21.0" />
+      <edge source="Evropská komise" target="PS PČR" id="1381" weight="26.0" />
+      <edge source="Evropská komise" target="Agrární komora ČR" id="1382" weight="21.0" />
+      <edge source="Piráti" target="NATO" id="1383" weight="48.0" />
+      <edge source="Piráti" target="Evropský parlament" id="1384" weight="110.0" />
+      <edge source="Piráti" target="STAN" id="1385" weight="509.0" />
+      <edge source="Piráti" target="Hamáček" id="1386" weight="89.0" />
+      <edge source="Piráti" target="Parlament" id="1387" weight="81.0" />
+      <edge source="Piráti" target="Fiala_p" id="1388" weight="162.0" />
+      <edge source="Piráti" target="ČT" id="1389" weight="59.0" />
+      <edge source="Piráti" target="Android" id="1390" weight="26.0" />
+      <edge source="Piráti" target="Kalousek" id="1391" weight="88.0" />
+      <edge source="Piráti" target="Česká televize" id="1392" weight="95.0" />
+      <edge source="Piráti" target="Salvini" id="1393" weight="61.0" />
+      <edge source="Piráti" target="V 4" id="1394" weight="24.0" />
+      <edge source="Piráti" target="Merkelová" id="1395" weight="22.0" />
+      <edge source="Piráti" target="Orbán" id="1396" weight="29.0" />
+      <edge source="Piráti" target="Le Pen" id="1397" weight="62.0" />
+      <edge source="Piráti" target="Maláčová" id="1398" weight="21.0" />
+      <edge source="Piráti" target="Ústavní soud" id="1399" weight="31.0" />
+      <edge source="Piráti" target="Klaus" id="1400" weight="24.0" />
+      <edge source="Piráti" target="Spolu" id="1401" weight="106.0" />
+      <edge source="Piráti" target="ČEZ" id="1402" weight="27.0" />
+      <edge source="Piráti" target="Vojtěch" id="1403" weight="21.0" />
+      <edge source="Piráti" target="Český rozhlas" id="1404" weight="38.0" />
+      <edge source="Piráti" target="NKÚ" id="1405" weight="21.0" />
+      <edge source="Piráti" target="Trikolóra" id="1406" weight="55.0" />
+      <edge source="Piráti" target="Soros" id="1407" weight="23.0" />
+      <edge source="Piráti" target="Bartoš" id="1408" weight="166.0" />
+      <edge source="Piráti" target="David" id="1409" weight="23.0" />
+      <edge source="Piráti" target="Nejvyšší kontrolní úřad" id="1410" weight="34.0" />
+      <edge source="Piráti" target="Wilderse" id="1411" weight="38.0" />
+      <edge source="Piráti" target="Pekarová Adamová" id="1412" weight="36.0" />
+      <edge source="Piráti" target="Hřib" id="1413" weight="66.0" />
+      <edge source="Piráti" target="Rakušan" id="1414" weight="53.0" />
+      <edge source="Piráti" target="Foldyna" id="1415" weight="48.0" />
+      <edge source="Piráti" target="Pirát" id="1416" weight="34.0" />
+      <edge source="Piráti" target="Hnutí SPD" id="1417" weight="24.0" />
+      <edge source="Piráti" target="Šojdrová" id="1418" weight="31.0" />
+      <edge source="Piráti" target="Gazdík" id="1419" weight="26.0" />
+      <edge source="Piráti" target="Polčák" id="1420" weight="21.0" />
+      <edge source="Piráti" target="Feri" id="1421" weight="45.0" />
+      <edge source="Piráti" target="Starostové a nezávislí" id="1422" weight="24.0" />
+      <edge source="Piráti" target="Pospíšil" id="1423" weight="22.0" />
+      <edge source="Piráti" target="Identita a demokracie" id="1424" weight="36.0" />
+      <edge source="Piráti" target="Michálek" id="1425" weight="36.0" />
+      <edge source="Piráti" target="ID" id="1426" weight="39.0" />
+      <edge source="Piráti" target="Eurozóna" id="1427" weight="33.0" />
+      <edge source="Piráti" target="Farský" id="1428" weight="22.0" />
+      <edge source="Piráti" target="Redl" id="1429" weight="23.0" />
+      <edge source="Piráti" target="Zelený" id="1430" weight="25.0" />
+      <edge source="Piráti" target="Klaus ml." id="1431" weight="26.0" />
+      <edge source="Piráti" target="Národní shromáždění" id="1432" weight="32.0" />
+      <edge source="NATO" target="Evropský parlament" id="1433" weight="47.0" />
+      <edge source="NATO" target="STAN" id="1434" weight="39.0" />
+      <edge source="NATO" target="Hamáček" id="1435" weight="53.0" />
+      <edge source="NATO" target="Parlament" id="1436" weight="39.0" />
+      <edge source="NATO" target="Sobotka" id="1437" weight="34.0" />
+      <edge source="NATO" target="Fiala_p" id="1438" weight="29.0" />
+      <edge source="NATO" target="Android" id="1439" weight="39.0" />
+      <edge source="NATO" target="Kalousek" id="1440" weight="31.0" />
+      <edge source="NATO" target="Česká televize" id="1441" weight="33.0" />
+      <edge source="NATO" target="Schillerová" id="1442" weight="24.0" />
+      <edge source="NATO" target="Salvini" id="1443" weight="25.0" />
+      <edge source="NATO" target="V 4" id="1444" weight="57.0" />
+      <edge source="NATO" target="Putin" id="1445" weight="48.0" />
+      <edge source="NATO" target="Merkelová" id="1446" weight="29.0" />
+      <edge source="NATO" target="Trump" id="1447" weight="60.0" />
+      <edge source="NATO" target="Evropská unie" id="1448" weight="33.0" />
+      <edge source="NATO" target="Havel" id="1449" weight="36.0" />
+      <edge source="NATO" target="OSN" id="1450" weight="49.0" />
+      <edge source="NATO" target="Evropská rada" id="1451" weight="25.0" />
+      <edge source="NATO" target="Unie" id="1452" weight="39.0" />
+      <edge source="NATO" target="HDP" id="1453" weight="87.0" />
+      <edge source="NATO" target="Macron" id="1454" weight="37.0" />
+      <edge source="NATO" target="Brusel" id="1455" weight="22.0" />
+      <edge source="NATO" target="Islámský stát" id="1456" weight="49.0" />
+      <edge source="NATO" target="Erdogan" id="1457" weight="39.0" />
+      <edge source="NATO" target="Eurostat" id="1458" weight="25.0" />
+      <edge source="NATO" target="EFTA" id="1459" weight="25.0" />
+      <edge source="NATO" target="Jedlička" id="1460" weight="24.0" />
+      <edge source="NATO" target="Palacký" id="1461" weight="37.0" />
+      <edge source="NATO" target="Agrární komora ČR" id="1462" weight="23.0" />
+      <edge source="Evropský parlament" target="STAN" id="1463" weight="84.0" />
+      <edge source="Evropský parlament" target="Hamáček" id="1464" weight="74.0" />
+      <edge source="Evropský parlament" target="Parlament" id="1465" weight="106.0" />
+      <edge source="Evropský parlament" target="Sobotka" id="1466" weight="21.0" />
+      <edge source="Evropský parlament" target="Fiala_p" id="1467" weight="30.0" />
+      <edge source="Evropský parlament" target="Android" id="1468" weight="25.0" />
+      <edge source="Evropský parlament" target="Kalousek" id="1469" weight="38.0" />
+      <edge source="Evropský parlament" target="Česká televize" id="1470" weight="24.0" />
+      <edge source="Evropský parlament" target="Salvini" id="1471" weight="229.0" />
+      <edge source="Evropský parlament" target="V 4" id="1472" weight="23.0" />
+      <edge source="Evropský parlament" target="Merkelová" id="1473" weight="95.0" />
+      <edge source="Evropský parlament" target="Orbán" id="1474" weight="62.0" />
+      <edge source="Evropský parlament" target="Le Pen" id="1475" weight="218.0" />
+      <edge source="Evropský parlament" target="Evropská unie" id="1476" weight="117.0" />
+      <edge source="Evropský parlament" target="EP" id="1477" weight="50.0" />
+      <edge source="Evropský parlament" target="OSN" id="1478" weight="44.0" />
+      <edge source="Evropský parlament" target="Unie" id="1479" weight="77.0" />
+      <edge source="Evropský parlament" target="HDP" id="1480" weight="47.0" />
+      <edge source="Evropský parlament" target="Spolu" id="1481" weight="21.0" />
+      <edge source="Evropský parlament" target="Komise" id="1482" weight="70.0" />
+      <edge source="Evropský parlament" target="Macron" id="1483" weight="64.0" />
+      <edge source="Evropský parlament" target="Trikolóra" id="1484" weight="28.0" />
+      <edge source="Evropský parlament" target="Soros" id="1485" weight="49.0" />
+      <edge source="Evropský parlament" target="Bartoš" id="1486" weight="38.0" />
+      <edge source="Evropský parlament" target="David" id="1487" weight="96.0" />
+      <edge source="Evropský parlament" target="Jourová" id="1488" weight="26.0" />
+      <edge source="Evropský parlament" target="Juncker" id="1489" weight="78.0" />
+      <edge source="Evropský parlament" target="Brusel" id="1490" weight="44.0" />
+      <edge source="Evropský parlament" target="Wilderse" id="1491" weight="123.0" />
+      <edge source="Evropský parlament" target="Schwarzenberg" id="1492" weight="21.0" />
+      <edge source="Evropský parlament" target="Foldyna" id="1493" weight="30.0" />
+      <edge source="Evropský parlament" target="Pirát" id="1494" weight="25.0" />
+      <edge source="Evropský parlament" target="Svobodný" id="1495" weight="88.0" />
+      <edge source="Evropský parlament" target="Šojdrová" id="1496" weight="55.0" />
+      <edge source="Evropský parlament" target="ENF" id="1497" weight="73.0" />
+      <edge source="Evropský parlament" target="Polčák" id="1498" weight="30.0" />
+      <edge source="Evropský parlament" target="Hrnčíř" id="1499" weight="28.0" />
+      <edge source="Evropský parlament" target="Zdechovský" id="1500" weight="33.0" />
+      <edge source="Evropský parlament" target="AFD" id="1501" weight="25.0" />
+      <edge source="Evropský parlament" target="Evropa národů a svoboda" id="1502" weight="66.0" />
+      <edge source="Evropský parlament" target="Zahradil" id="1503" weight="21.0" />
+      <edge source="Evropský parlament" target="Feri" id="1504" weight="30.0" />
+      <edge source="Evropský parlament" target="Starostové a nezávislí" id="1505" weight="29.0" />
+      <edge source="Evropský parlament" target="Identita a demokracie" id="1506" weight="67.0" />
+      <edge source="Evropský parlament" target="Nos" id="1507" weight="26.0" />
+      <edge source="Evropský parlament" target="Eurostat" id="1508" weight="28.0" />
+      <edge source="Evropský parlament" target="ID" id="1509" weight="60.0" />
+      <edge source="Evropský parlament" target="Eurozóna" id="1510" weight="26.0" />
+      <edge source="Evropský parlament" target="Wilder" id="1511" weight="34.0" />
+      <edge source="Evropský parlament" target="Novotný" id="1512" weight="22.0" />
+      <edge source="Evropský parlament" target="Blaško" id="1513" weight="43.0" />
+      <edge source="Evropský parlament" target="Liga" id="1514" weight="24.0" />
+      <edge source="Evropský parlament" target="EFTA" id="1515" weight="48.0" />
+      <edge source="Evropský parlament" target="Armáda ČR" id="1516" weight="22.0" />
+      <edge source="Evropský parlament" target="Doležal" id="1517" weight="28.0" />
+      <edge source="Evropský parlament" target="Úřad práce" id="1518" weight="23.0" />
+      <edge source="Evropský parlament" target="Charanzová" id="1519" weight="31.0" />
+      <edge source="Evropský parlament" target="Bruselská elita" id="1520" weight="52.0" />
+      <edge source="Evropský parlament" target="Jedlička" id="1521" weight="37.0" />
+      <edge source="Evropský parlament" target="Klaus ml." id="1522" weight="22.0" />
+      <edge source="Evropský parlament" target="Národní sdružení" id="1523" weight="48.0" />
+      <edge source="Evropský parlament" target="Niedermayer" id="1524" weight="30.0" />
+      <edge source="Evropský parlament" target="Dlabajová" id="1525" weight="28.0" />
+      <edge source="Evropský parlament" target="Palacký" id="1526" weight="29.0" />
+      <edge source="Evropský parlament" target="Poche" id="1527" weight="24.0" />
+      <edge source="Evropský parlament" target="PS PČR" id="1528" weight="22.0" />
+      <edge source="Evropský parlament" target="Agrární komora ČR" id="1529" weight="22.0" />
+      <edge source="Evropský parlament" target="Národní shromáždění" id="1530" weight="37.0" />
+      <edge source="STAN" target="Hamáček" id="1531" weight="72.0" />
+      <edge source="STAN" target="Parlament" id="1532" weight="74.0" />
+      <edge source="STAN" target="Fiala_p" id="1533" weight="216.0" />
+      <edge source="STAN" target="ČT" id="1534" weight="54.0" />
+      <edge source="STAN" target="Kalousek" id="1535" weight="83.0" />
+      <edge source="STAN" target="Česká televize" id="1536" weight="71.0" />
+      <edge source="STAN" target="Salvini" id="1537" weight="34.0" />
+      <edge source="STAN" target="V 4" id="1538" weight="29.0" />
+      <edge source="STAN" target="Orbán" id="1539" weight="27.0" />
+      <edge source="STAN" target="Le Pen" id="1540" weight="38.0" />
+      <edge source="STAN" target="Ústavní soud" id="1541" weight="32.0" />
+      <edge source="STAN" target="OSN" id="1542" weight="22.0" />
+      <edge source="STAN" target="Spolu" id="1543" weight="92.0" />
+      <edge source="STAN" target="Bělobrádek" id="1544" weight="22.0" />
+      <edge source="STAN" target="Český rozhlas" id="1545" weight="30.0" />
+      <edge source="STAN" target="Trikolóra" id="1546" weight="45.0" />
+      <edge source="STAN" target="Bartoš" id="1547" weight="65.0" />
+      <edge source="STAN" target="Nejvyšší kontrolní úřad" id="1548" weight="25.0" />
+      <edge source="STAN" target="Pekarová Adamová" id="1549" weight="38.0" />
+      <edge source="STAN" target="Hřib" id="1550" weight="29.0" />
+      <edge source="STAN" target="Rakušan" id="1551" weight="132.0" />
+      <edge source="STAN" target="TV Prima" id="1552" weight="23.0" />
+      <edge source="STAN" target="Pirát" id="1553" weight="23.0" />
+      <edge source="STAN" target="Hnutí SPD" id="1554" weight="24.0" />
+      <edge source="STAN" target="Jurečka" id="1555" weight="25.0" />
+      <edge source="STAN" target="Šojdrová" id="1556" weight="39.0" />
+      <edge source="STAN" target="Gazdík" id="1557" weight="75.0" />
+      <edge source="STAN" target="Polčák" id="1558" weight="75.0" />
+      <edge source="STAN" target="Feri" id="1559" weight="40.0" />
+      <edge source="STAN" target="Starostové a nezávislí" id="1560" weight="33.0" />
+      <edge source="STAN" target="Pospíšil" id="1561" weight="31.0" />
+      <edge source="STAN" target="KDU" id="1562" weight="23.0" />
+      <edge source="STAN" target="Eurozóna" id="1563" weight="32.0" />
+      <edge source="STAN" target="Farský" id="1564" weight="52.0" />
+      <edge source="STAN" target="Redl" id="1565" weight="40.0" />
+      <edge source="STAN" target="Klaus ml." id="1566" weight="25.0" />
+      <edge source="STAN" target="Hlubuček" id="1567" weight="31.0" />
+      <edge source="Hamáček" target="Parlament" id="1568" weight="43.0" />
+      <edge source="Hamáček" target="Sobotka" id="1569" weight="35.0" />
+      <edge source="Hamáček" target="ČT" id="1570" weight="24.0" />
+      <edge source="Hamáček" target="Kalousek" id="1571" weight="61.0" />
+      <edge source="Hamáček" target="Česká televize" id="1572" weight="43.0" />
+      <edge source="Hamáček" target="Schillerová" id="1573" weight="36.0" />
+      <edge source="Hamáček" target="Salvini" id="1574" weight="26.0" />
+      <edge source="Hamáček" target="V 4" id="1575" weight="22.0" />
+      <edge source="Hamáček" target="Merkelová" id="1576" weight="38.0" />
+      <edge source="Hamáček" target="Le Pen" id="1577" weight="23.0" />
+      <edge source="Hamáček" target="Maláčová" id="1578" weight="55.0" />
+      <edge source="Hamáček" target="OSN" id="1579" weight="46.0" />
+      <edge source="Hamáček" target="Spolu" id="1580" weight="30.0" />
+      <edge source="Hamáček" target="Havlíček" id="1581" weight="36.0" />
+      <edge source="Hamáček" target="Komise" id="1582" weight="21.0" />
+      <edge source="Hamáček" target="Vojtěch" id="1583" weight="40.0" />
+      <edge source="Hamáček" target="Trikolóra" id="1584" weight="29.0" />
+      <edge source="Hamáček" target="Petříček" id="1585" weight="50.0" />
+      <edge source="Hamáček" target="Bartoš" id="1586" weight="44.0" />
+      <edge source="Hamáček" target="Nejvyšší kontrolní úřad" id="1587" weight="29.0" />
+      <edge source="Hamáček" target="Blatný" id="1588" weight="29.0" />
+      <edge source="Hamáček" target="Schwarzenberg" id="1589" weight="22.0" />
+      <edge source="Hamáček" target="Staněk" id="1590" weight="24.0" />
+      <edge source="Hamáček" target="OKD" id="1591" weight="25.0" />
+      <edge source="Hamáček" target="Bakala" id="1592" weight="38.0" />
+      <edge source="Hamáček" target="Šojdrová" id="1593" weight="40.0" />
+      <edge source="Hamáček" target="Ministerstvo vnitra" id="1594" weight="23.0" />
+      <edge source="Hamáček" target="Feri" id="1595" weight="27.0" />
+      <edge source="Hamáček" target="Eurozóna" id="1596" weight="26.0" />
+      <edge source="Hamáček" target="Klaus ml." id="1597" weight="25.0" />
+      <edge source="Hamáček" target="Maříková" id="1598" weight="30.0" />
+      <edge source="Parlament" target="Sobotka" id="1599" weight="69.0" />
+      <edge source="Parlament" target="Fiala_p" id="1600" weight="31.0" />
+      <edge source="Parlament" target="Android" id="1601" weight="69.0" />
+      <edge source="Parlament" target="Kalousek" id="1602" weight="25.0" />
+      <edge source="Parlament" target="Česká televize" id="1603" weight="40.0" />
+      <edge source="Parlament" target="Salvini" id="1604" weight="74.0" />
+      <edge source="Parlament" target="V 4" id="1605" weight="21.0" />
+      <edge source="Parlament" target="Merkelová" id="1606" weight="59.0" />
+      <edge source="Parlament" target="Orbán" id="1607" weight="36.0" />
+      <edge source="Parlament" target="Le Pen" id="1608" weight="83.0" />
+      <edge source="Parlament" target="EP" id="1609" weight="21.0" />
+      <edge source="Parlament" target="OSN" id="1610" weight="43.0" />
+      <edge source="Parlament" target="Evropská rada" id="1611" weight="26.0" />
+      <edge source="Parlament" target="Unie" id="1612" weight="36.0" />
+      <edge source="Parlament" target="Komise" id="1613" weight="70.0" />
+      <edge source="Parlament" target="Macron" id="1614" weight="24.0" />
+      <edge source="Parlament" target="Soros" id="1615" weight="22.0" />
+      <edge source="Parlament" target="David" id="1616" weight="42.0" />
+      <edge source="Parlament" target="Juncker" id="1617" weight="41.0" />
+      <edge source="Parlament" target="Brusel" id="1618" weight="22.0" />
+      <edge source="Parlament" target="Wilderse" id="1619" weight="46.0" />
+      <edge source="Parlament" target="Rada" id="1620" weight="21.0" />
+      <edge source="Parlament" target="Svobodný" id="1621" weight="48.0" />
+      <edge source="Parlament" target="Šojdrová" id="1622" weight="23.0" />
+      <edge source="Parlament" target="ENF" id="1623" weight="44.0" />
+      <edge source="Parlament" target="Polčák" id="1624" weight="32.0" />
+      <edge source="Parlament" target="Hrnčíř" id="1625" weight="26.0" />
+      <edge source="Parlament" target="Evropa národů a svoboda" id="1626" weight="40.0" />
+      <edge source="Parlament" target="Nos" id="1627" weight="27.0" />
+      <edge source="Parlament" target="Blaško" id="1628" weight="25.0" />
+      <edge source="Parlament" target="Armáda ČR" id="1629" weight="21.0" />
+      <edge source="Parlament" target="Charanzová" id="1630" weight="33.0" />
+      <edge source="Parlament" target="Bruselská elita" id="1631" weight="39.0" />
+      <edge source="Parlament" target="Národní sdružení" id="1632" weight="29.0" />
+      <edge source="Parlament" target="Dlabajová" id="1633" weight="31.0" />
+      <edge source="Sobotka" target="Android" id="1634" weight="275.0" />
+      <edge source="Sobotka" target="Kalousek" id="1635" weight="134.0" />
+      <edge source="Sobotka" target="Česká televize" id="1636" weight="69.0" />
+      <edge source="Sobotka" target="Merkelová" id="1637" weight="67.0" />
+      <edge source="Sobotka" target="Trump" id="1638" weight="21.0" />
+      <edge source="Sobotka" target="Le Pen" id="1639" weight="41.0" />
+      <edge source="Sobotka" target="Bělobrádek" id="1640" weight="194.0" />
+      <edge source="Sobotka" target="Juncker" id="1641" weight="27.0" />
+      <edge source="Sobotka" target="Islámský stát" id="1642" weight="25.0" />
+      <edge source="Sobotka" target="Hnutí Svoboda a přímá demokracie" id="1643" weight="83.0" />
+      <edge source="Sobotka" target="Schwarzenberg" id="1644" weight="26.0" />
+      <edge source="Sobotka" target="OKD" id="1645" weight="81.0" />
+      <edge source="Sobotka" target="Fiala_r" id="1646" weight="35.0" />
+      <edge source="Sobotka" target="Bakala" id="1647" weight="68.0" />
+      <edge source="Sobotka" target="Nos" id="1648" weight="26.0" />
+      <edge source="Sobotka" target="SPO" id="1649" weight="42.0" />
+      <edge source="Sobotka" target="Národní fronta" id="1650" weight="21.0" />
+      <edge source="Fiala_p" target="ČT" id="1651" weight="30.0" />
+      <edge source="Fiala_p" target="Kalousek" id="1652" weight="38.0" />
+      <edge source="Fiala_p" target="Česká televize" id="1653" weight="32.0" />
+      <edge source="Fiala_p" target="V 4" id="1654" weight="22.0" />
+      <edge source="Fiala_p" target="Klaus" id="1655" weight="22.0" />
+      <edge source="Fiala_p" target="Spolu" id="1656" weight="48.0" />
+      <edge source="Fiala_p" target="ČEZ" id="1657" weight="38.0" />
+      <edge source="Fiala_p" target="Bělobrádek" id="1658" weight="21.0" />
+      <edge source="Fiala_p" target="Bartoš" id="1659" weight="32.0" />
+      <edge source="Fiala_p" target="Dukovany" id="1660" weight="45.0" />
+      <edge source="Fiala_p" target="Pekarová Adamová" id="1661" weight="44.0" />
+      <edge source="Fiala_p" target="Rakušan" id="1662" weight="83.0" />
+      <edge source="Fiala_p" target="TV Prima" id="1663" weight="25.0" />
+      <edge source="Fiala_p" target="Jurečka" id="1664" weight="26.0" />
+      <edge source="Fiala_p" target="Gazdík" id="1665" weight="47.0" />
+      <edge source="Fiala_p" target="Polčák" id="1666" weight="31.0" />
+      <edge source="Fiala_p" target="Křeček" id="1667" weight="21.0" />
+      <edge source="Fiala_p" target="Stanjura" id="1668" weight="33.0" />
+      <edge source="Fiala_p" target="Farský" id="1669" weight="25.0" />
+      <edge source="Fiala_p" target="Redl" id="1670" weight="28.0" />
+      <edge source="Fiala_p" target="Černochová" id="1671" weight="28.0" />
+      <edge source="ČT" target="Kalousek" id="1672" weight="23.0" />
+      <edge source="ČT" target="Česká televize" id="1673" weight="208.0" />
+      <edge source="ČT" target="ČT 24" id="1674" weight="33.0" />
+      <edge source="ČT" target="Trump" id="1675" weight="24.0" />
+      <edge source="ČT" target="Český rozhlas" id="1676" weight="56.0" />
+      <edge source="ČT" target="NKÚ" id="1677" weight="44.0" />
+      <edge source="ČT" target="Nejvyšší kontrolní úřad" id="1678" weight="74.0" />
+      <edge source="ČT" target="Moravec" id="1679" weight="55.0" />
+      <edge source="ČT" target="Dvořák" id="1680" weight="83.0" />
+      <edge source="ČT" target="Otázky Václava Moravce" id="1681" weight="34.0" />
+      <edge source="ČT" target="Rada ČT" id="1682" weight="104.0" />
+      <edge source="ČT" target="Lipovský" id="1683" weight="44.0" />
+      <edge source="ČT" target="ČRO" id="1684" weight="38.0" />
+      <edge source="Android" target="Kalousek" id="1685" weight="42.0" />
+      <edge source="Android" target="Česká televize" id="1686" weight="58.0" />
+      <edge source="Android" target="Merkelová" id="1687" weight="56.0" />
+      <edge source="Android" target="Trump" id="1688" weight="25.0" />
+      <edge source="Android" target="Le Pen" id="1689" weight="29.0" />
+      <edge source="Android" target="Bělobrádek" id="1690" weight="71.0" />
+      <edge source="Android" target="Juncker" id="1691" weight="23.0" />
+      <edge source="Android" target="Nejvyšší kontrolní úřad" id="1692" weight="21.0" />
+      <edge source="Android" target="Hnutí Svoboda a přímá demokracie" id="1693" weight="209.0" />
+      <edge source="Android" target="OKD" id="1694" weight="24.0" />
+      <edge source="Android" target="Fiala_r" id="1695" weight="43.0" />
+      <edge source="Android" target="Nos" id="1696" weight="31.0" />
+      <edge source="Android" target="Úsvit" id="1697" weight="22.0" />
+      <edge source="Android" target="SPO" id="1698" weight="31.0" />
+      <edge source="Kalousek" target="Česká televize" id="1699" weight="58.0" />
+      <edge source="Kalousek" target="Le Pen" id="1700" weight="21.0" />
+      <edge source="Kalousek" target="Klaus" id="1701" weight="28.0" />
+      <edge source="Kalousek" target="Bělobrádek" id="1702" weight="78.0" />
+      <edge source="Kalousek" target="Český rozhlas" id="1703" weight="23.0" />
+      <edge source="Kalousek" target="Trikolóra" id="1704" weight="32.0" />
+      <edge source="Kalousek" target="Bartoš" id="1705" weight="47.0" />
+      <edge source="Kalousek" target="Hnutí Svoboda a přímá demokracie" id="1706" weight="22.0" />
+      <edge source="Kalousek" target="Schwarzenberg" id="1707" weight="26.0" />
+      <edge source="Kalousek" target="OKD" id="1708" weight="24.0" />
+      <edge source="Kalousek" target="Šojdrová" id="1709" weight="22.0" />
+      <edge source="Kalousek" target="Feri" id="1710" weight="36.0" />
+      <edge source="Kalousek" target="Eurozóna" id="1711" weight="31.0" />
+      <edge source="Kalousek" target="Klaus ml." id="1712" weight="26.0" />
+      <edge source="Česká televize" target="ČT 24" id="1713" weight="34.0" />
+      <edge source="Česká televize" target="Putin" id="1714" weight="21.0" />
+      <edge source="Česká televize" target="Trump" id="1715" weight="31.0" />
+      <edge source="Česká televize" target="Orbán" id="1716" weight="21.0" />
+      <edge source="Česká televize" target="Le Pen" id="1717" weight="27.0" />
+      <edge source="Česká televize" target="TV Barrandov" id="1718" weight="24.0" />
+      <edge source="Česká televize" target="Bělobrádek" id="1719" weight="22.0" />
+      <edge source="Česká televize" target="Český rozhlas" id="1720" weight="140.0" />
+      <edge source="Česká televize" target="NKÚ" id="1721" weight="52.0" />
+      <edge source="Česká televize" target="Soros" id="1722" weight="24.0" />
+      <edge source="Česká televize" target="Nejvyšší kontrolní úřad" id="1723" weight="91.0" />
+      <edge source="Česká televize" target="Události komentáře" id="1724" weight="21.0" />
+      <edge source="Česká televize" target="Moravec" id="1725" weight="60.0" />
+      <edge source="Česká televize" target="Dvořák" id="1726" weight="70.0" />
+      <edge source="Česká televize" target="Otázky Václava Moravce" id="1727" weight="38.0" />
+      <edge source="Česká televize" target="Bakala" id="1728" weight="21.0" />
+      <edge source="Česká televize" target="Rada ČT" id="1729" weight="41.0" />
+      <edge source="Schillerová" target="Maláčová" id="1730" weight="43.0" />
+      <edge source="Schillerová" target="EET" id="1731" weight="24.0" />
+      <edge source="Schillerová" target="HDP" id="1732" weight="26.0" />
+      <edge source="Schillerová" target="Havlíček" id="1733" weight="50.0" />
+      <edge source="Schillerová" target="Vojtěch" id="1734" weight="53.0" />
+      <edge source="Schillerová" target="Ministerstvo financí" id="1735" weight="35.0" />
+      <edge source="Schillerová" target="Dostál" id="1736" weight="38.0" />
+      <edge source="Schillerová" target="Brabec" id="1737" weight="33.0" />
+      <edge source="Schillerová" target="Plaga" id="1738" weight="21.0" />
+      <edge source="ČT 24" target="Události komentáře" id="1739" weight="88.0" />
+      <edge source="ČT 24" target="Moravec" id="1740" weight="22.0" />
+      <edge source="ČT 24" target="Interview" id="1741" weight="49.0" />
+      <edge source="Agrofert" target="Čapí hnízdo" id="1742" weight="29.0" />
+      <edge source="Salvini" target="Merkelová" id="1743" weight="84.0" />
+      <edge source="Salvini" target="Orbán" id="1744" weight="77.0" />
+      <edge source="Salvini" target="Le Pen" id="1745" weight="313.0" />
+      <edge source="Salvini" target="Evropská unie" id="1746" weight="23.0" />
+      <edge source="Salvini" target="Unie" id="1747" weight="27.0" />
+      <edge source="Salvini" target="HDP" id="1748" weight="21.0" />
+      <edge source="Salvini" target="Macron" id="1749" weight="57.0" />
+      <edge source="Salvini" target="Trikolóra" id="1750" weight="21.0" />
+      <edge source="Salvini" target="Soros" id="1751" weight="51.0" />
+      <edge source="Salvini" target="David" id="1752" weight="52.0" />
+      <edge source="Salvini" target="Juncker" id="1753" weight="69.0" />
+      <edge source="Salvini" target="Brusel" id="1754" weight="35.0" />
+      <edge source="Salvini" target="Wilderse" id="1755" weight="178.0" />
+      <edge source="Salvini" target="Foldyna" id="1756" weight="49.0" />
+      <edge source="Salvini" target="Svobodný" id="1757" weight="115.0" />
+      <edge source="Salvini" target="ENF" id="1758" weight="94.0" />
+      <edge source="Salvini" target="Hrnčíř" id="1759" weight="28.0" />
+      <edge source="Salvini" target="AFD" id="1760" weight="35.0" />
+      <edge source="Salvini" target="Evropa národů a svoboda" id="1761" weight="88.0" />
+      <edge source="Salvini" target="Identita a demokracie" id="1762" weight="74.0" />
+      <edge source="Salvini" target="Nos" id="1763" weight="30.0" />
+      <edge source="Salvini" target="Eurostat" id="1764" weight="27.0" />
+      <edge source="Salvini" target="ID" id="1765" weight="63.0" />
+      <edge source="Salvini" target="Wilder" id="1766" weight="62.0" />
+      <edge source="Salvini" target="Novotný" id="1767" weight="29.0" />
+      <edge source="Salvini" target="Blaško" id="1768" weight="41.0" />
+      <edge source="Salvini" target="Liga" id="1769" weight="72.0" />
+      <edge source="Salvini" target="EFTA" id="1770" weight="24.0" />
+      <edge source="Salvini" target="Armáda ČR" id="1771" weight="28.0" />
+      <edge source="Salvini" target="Doležal" id="1772" weight="31.0" />
+      <edge source="Salvini" target="Úřad práce" id="1773" weight="28.0" />
+      <edge source="Salvini" target="Bruselská elita" id="1774" weight="68.0" />
+      <edge source="Salvini" target="Národní sdružení" id="1775" weight="58.0" />
+      <edge source="Salvini" target="Palacký" id="1776" weight="28.0" />
+      <edge source="Salvini" target="PS PČR" id="1777" weight="28.0" />
+      <edge source="Salvini" target="Národní shromáždění" id="1778" weight="52.0" />
+      <edge source="V 4" target="Merkelová" id="1779" weight="26.0" />
+      <edge source="V 4" target="Orbán" id="1780" weight="77.0" />
+      <edge source="V 4" target="Evropská unie" id="1781" weight="22.0" />
+      <edge source="V 4" target="Evropská rada" id="1782" weight="54.0" />
+      <edge source="V 4" target="Jourová" id="1783" weight="21.0" />
+      <edge source="Putin" target="Trump" id="1784" weight="35.0" />
+      <edge source="Merkelová" target="Trump" id="1785" weight="21.0" />
+      <edge source="Merkelová" target="Orbán" id="1786" weight="57.0" />
+      <edge source="Merkelová" target="Le Pen" id="1787" weight="73.0" />
+      <edge source="Merkelová" target="Evropská unie" id="1788" weight="21.0" />
+      <edge source="Merkelová" target="OSN" id="1789" weight="25.0" />
+      <edge source="Merkelová" target="Macron" id="1790" weight="110.0" />
+      <edge source="Merkelová" target="Soros" id="1791" weight="67.0" />
+      <edge source="Merkelová" target="Juncker" id="1792" weight="145.0" />
+      <edge source="Merkelová" target="Brusel" id="1793" weight="24.0" />
+      <edge source="Merkelová" target="von der Leyen" id="1794" weight="28.0" />
+      <edge source="Merkelová" target="Islámský stát" id="1795" weight="22.0" />
+      <edge source="Merkelová" target="Wilderse" id="1796" weight="26.0" />
+      <edge source="Merkelová" target="Svobodný" id="1797" weight="42.0" />
+      <edge source="Merkelová" target="AFD" id="1798" weight="35.0" />
+      <edge source="Trump" target="Le Pen" id="1799" weight="29.0" />
+      <edge source="Trump" target="OSN" id="1800" weight="22.0" />
+      <edge source="Trump" target="Biden" id="1801" weight="36.0" />
+      <edge source="Orbán" target="Le Pen" id="1802" weight="82.0" />
+      <edge source="Orbán" target="Macron" id="1803" weight="47.0" />
+      <edge source="Orbán" target="Soros" id="1804" weight="51.0" />
+      <edge source="Orbán" target="Jourová" id="1805" weight="21.0" />
+      <edge source="Orbán" target="Juncker" id="1806" weight="42.0" />
+      <edge source="Orbán" target="Wilderse" id="1807" weight="27.0" />
+      <edge source="Orbán" target="FIDESZ" id="1808" weight="39.0" />
+      <edge source="Le Pen" target="Evropská unie" id="1809" weight="22.0" />
+      <edge source="Le Pen" target="Macron" id="1810" weight="78.0" />
+      <edge source="Le Pen" target="Soros" id="1811" weight="29.0" />
+      <edge source="Le Pen" target="David" id="1812" weight="54.0" />
+      <edge source="Le Pen" target="Juncker" id="1813" weight="61.0" />
+      <edge source="Le Pen" target="Brusel" id="1814" weight="24.0" />
+      <edge source="Le Pen" target="Wilderse" id="1815" weight="210.0" />
+      <edge source="Le Pen" target="Foldyna" id="1816" weight="40.0" />
+      <edge source="Le Pen" target="Fiala_r" id="1817" weight="32.0" />
+      <edge source="Le Pen" target="Svobodný" id="1818" weight="105.0" />
+      <edge source="Le Pen" target="ENF" id="1819" weight="120.0" />
+      <edge source="Le Pen" target="Hrnčíř" id="1820" weight="28.0" />
+      <edge source="Le Pen" target="AFD" id="1821" weight="37.0" />
+      <edge source="Le Pen" target="Evropa národů a svoboda" id="1822" weight="111.0" />
+      <edge source="Le Pen" target="Identita a demokracie" id="1823" weight="74.0" />
+      <edge source="Le Pen" target="Nos" id="1824" weight="54.0" />
+      <edge source="Le Pen" target="ID" id="1825" weight="65.0" />
+      <edge source="Le Pen" target="Wilder" id="1826" weight="73.0" />
+      <edge source="Le Pen" target="Novotný" id="1827" weight="29.0" />
+      <edge source="Le Pen" target="Blaško" id="1828" weight="41.0" />
+      <edge source="Le Pen" target="Liga" id="1829" weight="26.0" />
+      <edge source="Le Pen" target="Armáda ČR" id="1830" weight="28.0" />
+      <edge source="Le Pen" target="Doležal" id="1831" weight="31.0" />
+      <edge source="Le Pen" target="Úřad práce" id="1832" weight="28.0" />
+      <edge source="Le Pen" target="Bruselská elita" id="1833" weight="69.0" />
+      <edge source="Le Pen" target="Národní sdružení" id="1834" weight="65.0" />
+      <edge source="Le Pen" target="PS PČR" id="1835" weight="28.0" />
+      <edge source="Le Pen" target="SPO" id="1836" weight="21.0" />
+      <edge source="Le Pen" target="Národní fronta" id="1837" weight="46.0" />
+      <edge source="Le Pen" target="Národní shromáždění" id="1838" weight="53.0" />
+      <edge source="Evropská unie" target="Unie" id="1839" weight="31.0" />
+      <edge source="EP" target="Unie" id="1840" weight="23.0" />
+      <edge source="EP" target="Komise" id="1841" weight="25.0" />
+      <edge source="Maláčová" target="Vojtěch" id="1842" weight="21.0" />
+      <edge source="Maláčová" target="MPSV" id="1843" weight="36.0" />
+      <edge source="Havel" target="Klaus" id="1844" weight="33.0" />
+      <edge source="Havel" target="Masaryk" id="1845" weight="26.0" />
+      <edge source="Havel" target="Schwarzenberg" id="1846" weight="23.0" />
+      <edge source="Ústavní soud" target="Nejvyšší soud" id="1847" weight="21.0" />
+      <edge source="OSN" target="Komise" id="1848" weight="27.0" />
+      <edge source="Klaus" target="Trikolóra" id="1849" weight="51.0" />
+      <edge source="Evropská rada" target="Komise" id="1850" weight="21.0" />
+      <edge source="Evropská rada" target="von der Leyen" id="1851" weight="25.0" />
+      <edge source="TV Barrandov" target="Soukup" id="1852" weight="38.0" />
+      <edge source="TV Barrandov" target="Aréna" id="1853" weight="70.0" />
+      <edge source="Unie" target="HDP" id="1854" weight="44.0" />
+      <edge source="Unie" target="Komise" id="1855" weight="40.0" />
+      <edge source="Unie" target="Brusel" id="1856" weight="28.0" />
+      <edge source="Unie" target="UK" id="1857" weight="21.0" />
+      <edge source="Unie" target="EFTA" id="1858" weight="39.0" />
+      <edge source="Unie" target="Jedlička" id="1859" weight="33.0" />
+      <edge source="HDP" target="Eurostat" id="1860" weight="37.0" />
+      <edge source="HDP" target="EFTA" id="1861" weight="42.0" />
+      <edge source="HDP" target="Jedlička" id="1862" weight="43.0" />
+      <edge source="HDP" target="Agrární komora ČR" id="1863" weight="23.0" />
+      <edge source="Spolu" target="Bartoš" id="1864" weight="26.0" />
+      <edge source="Spolu" target="Pekarová Adamová" id="1865" weight="28.0" />
+      <edge source="Spolu" target="Feri" id="1866" weight="30.0" />
+      <edge source="Havlíček" target="Vojtěch" id="1867" weight="29.0" />
+      <edge source="Havlíček" target="Dostál" id="1868" weight="22.0" />
+      <edge source="Havlíček" target="Brabec" id="1869" weight="21.0" />
+      <edge source="Komise" target="Jourová" id="1870" weight="23.0" />
+      <edge source="Komise" target="von der Leyen" id="1871" weight="33.0" />
+      <edge source="Komise" target="Rada" id="1872" weight="34.0" />
+      <edge source="ČEZ" target="Dukovany" id="1873" weight="44.0" />
+      <edge source="Vojtěch" target="Dostál" id="1874" weight="27.0" />
+      <edge source="Vojtěch" target="Prymula" id="1875" weight="21.0" />
+      <edge source="Vojtěch" target="Brabec" id="1876" weight="23.0" />
+      <edge source="Vojtěch" target="Plaga" id="1877" weight="22.0" />
+      <edge source="Bělobrádek" target="Hnutí Svoboda a přímá demokracie" id="1878" weight="52.0" />
+      <edge source="Bělobrádek" target="Herman" id="1879" weight="30.0" />
+      <edge source="Macron" target="Soros" id="1880" weight="36.0" />
+      <edge source="Macron" target="Juncker" id="1881" weight="73.0" />
+      <edge source="Macron" target="Brusel" id="1882" weight="23.0" />
+      <edge source="Macron" target="Wilderse" id="1883" weight="24.0" />
+      <edge source="Český rozhlas" target="Nejvyšší kontrolní úřad" id="1884" weight="50.0" />
+      <edge source="Český rozhlas" target="Dvořák" id="1885" weight="23.0" />
+      <edge source="NKÚ" target="Nejvyšší kontrolní úřad" id="1886" weight="118.0" />
+      <edge source="NKÚ" target="Dvořák" id="1887" weight="25.0" />
+      <edge source="Trikolóra" target="Foldyna" id="1888" weight="21.0" />
+      <edge source="Trikolóra" target="Feri" id="1889" weight="23.0" />
+      <edge source="Trikolóra" target="Eurozóna" id="1890" weight="26.0" />
+      <edge source="Trikolóra" target="Klaus ml." id="1891" weight="37.0" />
+      <edge source="Soros" target="Juncker" id="1892" weight="62.0" />
+      <edge source="Soros" target="Svobodný" id="1893" weight="26.0" />
+      <edge source="Bartoš" target="Šojdrová" id="1894" weight="22.0" />
+      <edge source="Bartoš" target="Feri" id="1895" weight="37.0" />
+      <edge source="Bartoš" target="Starostové a nezávislí" id="1896" weight="21.0" />
+      <edge source="Bartoš" target="Eurozóna" id="1897" weight="25.0" />
+      <edge source="David" target="Wilderse" id="1898" weight="33.0" />
+      <edge source="David" target="Svobodný" id="1899" weight="30.0" />
+      <edge source="David" target="ENF" id="1900" weight="31.0" />
+      <edge source="David" target="Hrnčíř" id="1901" weight="24.0" />
+      <edge source="David" target="Evropa národů a svoboda" id="1902" weight="27.0" />
+      <edge source="David" target="Identita a demokracie" id="1903" weight="23.0" />
+      <edge source="David" target="Nos" id="1904" weight="39.0" />
+      <edge source="David" target="Novotný" id="1905" weight="39.0" />
+      <edge source="David" target="Blaško" id="1906" weight="70.0" />
+      <edge source="David" target="Armáda ČR" id="1907" weight="24.0" />
+      <edge source="David" target="Doležal" id="1908" weight="29.0" />
+      <edge source="David" target="Úřad práce" id="1909" weight="24.0" />
+      <edge source="David" target="Bruselská elita" id="1910" weight="27.0" />
+      <edge source="David" target="Národní sdružení" id="1911" weight="27.0" />
+      <edge source="David" target="PS PČR" id="1912" weight="24.0" />
+      <edge source="Juncker" target="Wilderse" id="1913" weight="24.0" />
+      <edge source="Juncker" target="Svobodný" id="1914" weight="41.0" />
+      <edge source="Nejvyšší kontrolní úřad" target="Moravec" id="1915" weight="27.0" />
+      <edge source="Nejvyšší kontrolní úřad" target="Dvořák" id="1916" weight="32.0" />
+      <edge source="Hitler" target="Stalin" id="1917" weight="30.0" />
+      <edge source="Moravec" target="Dvořák" id="1918" weight="27.0" />
+      <edge source="Moravec" target="Otázky Václava Moravce" id="1919" weight="155.0" />
+      <edge source="Brusel" target="EFTA" id="1920" weight="23.0" />
+      <edge source="Islámský stát" target="Erdogan" id="1921" weight="24.0" />
+      <edge source="Wilderse" target="Foldyna" id="1922" weight="33.0" />
+      <edge source="Wilderse" target="Svobodný" id="1923" weight="91.0" />
+      <edge source="Wilderse" target="ENF" id="1924" weight="77.0" />
+      <edge source="Wilderse" target="Hrnčíř" id="1925" weight="28.0" />
+      <edge source="Wilderse" target="Evropa národů a svoboda" id="1926" weight="74.0" />
+      <edge source="Wilderse" target="Identita a demokracie" id="1927" weight="35.0" />
+      <edge source="Wilderse" target="Nos" id="1928" weight="32.0" />
+      <edge source="Wilderse" target="ID" id="1929" weight="35.0" />
+      <edge source="Wilderse" target="Wilder" id="1930" weight="29.0" />
+      <edge source="Wilderse" target="Novotný" id="1931" weight="28.0" />
+      <edge source="Wilderse" target="Blaško" id="1932" weight="28.0" />
+      <edge source="Wilderse" target="Armáda ČR" id="1933" weight="28.0" />
+      <edge source="Wilderse" target="Doležal" id="1934" weight="30.0" />
+      <edge source="Wilderse" target="Úřad práce" id="1935" weight="28.0" />
+      <edge source="Wilderse" target="Bruselská elita" id="1936" weight="68.0" />
+      <edge source="Wilderse" target="Národní sdružení" id="1937" weight="49.0" />
+      <edge source="Wilderse" target="PS PČR" id="1938" weight="28.0" />
+      <edge source="Wilderse" target="Národní shromáždění" id="1939" weight="44.0" />
+      <edge source="BIS" target="Koudelka" id="1940" weight="30.0" />
+      <edge source="Pekarová Adamová" target="Jurečka" id="1941" weight="31.0" />
+      <edge source="Schwarzenberg" target="Bakala" id="1942" weight="23.0" />
+      <edge source="Rakušan" target="Gazdík" id="1943" weight="31.0" />
+      <edge source="Rakušan" target="Polčák" id="1944" weight="29.0" />
+      <edge source="Rakušan" target="Farský" id="1945" weight="28.0" />
+      <edge source="OKD" target="Bakala" id="1946" weight="70.0" />
+      <edge source="Foldyna" target="Identita a demokracie" id="1947" weight="36.0" />
+      <edge source="Foldyna" target="ID" id="1948" weight="36.0" />
+      <edge source="Foldyna" target="Národní shromáždění" id="1949" weight="37.0" />
+      <edge source="TV Prima" target="Partie" id="1950" weight="68.0" />
+      <edge source="Fiala_r" target="Nos" id="1951" weight="52.0" />
+      <edge source="Fiala_r" target="Úsvit" id="1952" weight="22.0" />
+      <edge source="Fiala_r" target="SPO" id="1953" weight="30.0" />
+      <edge source="Fiala_r" target="Národní fronta" id="1954" weight="25.0" />
+      <edge source="Partie" target="Prima" id="1955" weight="61.0" />
+      <edge source="Dvořák" target="Rada ČT" id="1956" weight="32.0" />
+      <edge source="Svobodný" target="ENF" id="1957" weight="60.0" />
+      <edge source="Svobodný" target="Hrnčíř" id="1958" weight="28.0" />
+      <edge source="Svobodný" target="Evropa národů a svoboda" id="1959" weight="59.0" />
+      <edge source="Svobodný" target="Nos" id="1960" weight="28.0" />
+      <edge source="Svobodný" target="Wilder" id="1961" weight="25.0" />
+      <edge source="Svobodný" target="Novotný" id="1962" weight="28.0" />
+      <edge source="Svobodný" target="Blaško" id="1963" weight="28.0" />
+      <edge source="Svobodný" target="Armáda ČR" id="1964" weight="28.0" />
+      <edge source="Svobodný" target="Doležal" id="1965" weight="28.0" />
+      <edge source="Svobodný" target="Úřad práce" id="1966" weight="28.0" />
+      <edge source="Svobodný" target="Bruselská elita" id="1967" weight="68.0" />
+      <edge source="Svobodný" target="Národní sdružení" id="1968" weight="45.0" />
+      <edge source="Svobodný" target="PS PČR" id="1969" weight="28.0" />
+      <edge source="Koněv" target="Kolář" id="1970" weight="26.0" />
+      <edge source="Šojdrová" target="Polčák" id="1971" weight="28.0" />
+      <edge source="Šojdrová" target="Zdechovský" id="1972" weight="45.0" />
+      <edge source="Šojdrová" target="Feri" id="1973" weight="24.0" />
+      <edge source="Šojdrová" target="Pospíšil" id="1974" weight="21.0" />
+      <edge source="Šojdrová" target="Charanzová" id="1975" weight="29.0" />
+      <edge source="Šojdrová" target="Niedermayer" id="1976" weight="29.0" />
+      <edge source="Šojdrová" target="Dlabajová" id="1977" weight="27.0" />
+      <edge source="Šojdrová" target="Poche" id="1978" weight="25.0" />
+      <edge source="ENF" target="Hrnčíř" id="1979" weight="26.0" />
+      <edge source="ENF" target="Evropa národů a svoboda" id="1980" weight="104.0" />
+      <edge source="ENF" target="Nos" id="1981" weight="29.0" />
+      <edge source="ENF" target="Wilder" id="1982" weight="33.0" />
+      <edge source="ENF" target="Novotný" id="1983" weight="26.0" />
+      <edge source="ENF" target="Blaško" id="1984" weight="30.0" />
+      <edge source="ENF" target="Armáda ČR" id="1985" weight="26.0" />
+      <edge source="ENF" target="Doležal" id="1986" weight="27.0" />
+      <edge source="ENF" target="Úřad práce" id="1987" weight="26.0" />
+      <edge source="ENF" target="Bruselská elita" id="1988" weight="43.0" />
+      <edge source="ENF" target="Národní sdružení" id="1989" weight="43.0" />
+      <edge source="ENF" target="PS PČR" id="1990" weight="26.0" />
+      <edge source="Gazdík" target="Polčák" id="1991" weight="26.0" />
+      <edge source="Gazdík" target="Farský" id="1992" weight="26.0" />
+      <edge source="Gazdík" target="Redl" id="1993" weight="24.0" />
+      <edge source="Polčák" target="Zdechovský" id="1994" weight="27.0" />
+      <edge source="Polčák" target="Pospíšil" id="1995" weight="31.0" />
+      <edge source="Polčák" target="Farský" id="1996" weight="21.0" />
+      <edge source="Polčák" target="Charanzová" id="1997" weight="31.0" />
+      <edge source="Polčák" target="Niedermayer" id="1998" weight="33.0" />
+      <edge source="Polčák" target="Dlabajová" id="1999" weight="29.0" />
+      <edge source="Polčák" target="Poche" id="2000" weight="28.0" />
+      <edge source="Hrnčíř" target="Evropa národů a svoboda" id="2001" weight="26.0" />
+      <edge source="Hrnčíř" target="Nos" id="2002" weight="35.0" />
+      <edge source="Hrnčíř" target="Novotný" id="2003" weight="29.0" />
+      <edge source="Hrnčíř" target="Blaško" id="2004" weight="29.0" />
+      <edge source="Hrnčíř" target="Armáda ČR" id="2005" weight="29.0" />
+      <edge source="Hrnčíř" target="Doležal" id="2006" weight="29.0" />
+      <edge source="Hrnčíř" target="Úřad práce" id="2007" weight="29.0" />
+      <edge source="Hrnčíř" target="Bruselská elita" id="2008" weight="26.0" />
+      <edge source="Hrnčíř" target="Národní sdružení" id="2009" weight="26.0" />
+      <edge source="Hrnčíř" target="PS PČR" id="2010" weight="29.0" />
+      <edge source="Zdechovský" target="Pospíšil" id="2011" weight="21.0" />
+      <edge source="Zdechovský" target="Charanzová" id="2012" weight="27.0" />
+      <edge source="Zdechovský" target="Niedermayer" id="2013" weight="27.0" />
+      <edge source="Zdechovský" target="Dlabajová" id="2014" weight="28.0" />
+      <edge source="Zdechovský" target="Poche" id="2015" weight="24.0" />
+      <edge source="Evropa národů a svoboda" target="Nos" id="2016" weight="33.0" />
+      <edge source="Evropa národů a svoboda" target="Wilder" id="2017" weight="28.0" />
+      <edge source="Evropa národů a svoboda" target="Novotný" id="2018" weight="26.0" />
+      <edge source="Evropa národů a svoboda" target="Blaško" id="2019" weight="27.0" />
+      <edge source="Evropa národů a svoboda" target="Armáda ČR" id="2020" weight="26.0" />
+      <edge source="Evropa národů a svoboda" target="Doležal" id="2021" weight="27.0" />
+      <edge source="Evropa národů a svoboda" target="Úřad práce" id="2022" weight="26.0" />
+      <edge source="Evropa národů a svoboda" target="Bruselská elita" id="2023" weight="43.0" />
+      <edge source="Evropa národů a svoboda" target="Národní sdružení" id="2024" weight="45.0" />
+      <edge source="Evropa národů a svoboda" target="PS PČR" id="2025" weight="26.0" />
+      <edge source="Feri" target="Eurozóna" id="2026" weight="25.0" />
+      <edge source="Pospíšil" target="Charanzová" id="2027" weight="23.0" />
+      <edge source="Pospíšil" target="Niedermayer" id="2028" weight="26.0" />
+      <edge source="Pospíšil" target="Dlabajová" id="2029" weight="22.0" />
+      <edge source="Pospíšil" target="Poche" id="2030" weight="21.0" />
+      <edge source="Identita a demokracie" target="ID" id="2031" weight="87.0" />
+      <edge source="Identita a demokracie" target="Národní shromáždění" id="2032" weight="43.0" />
+      <edge source="Rada ČT" target="Lipovský" id="2033" weight="35.0" />
+      <edge source="Google" target="Facebook" id="2034" weight="51.0" />
+      <edge source="Nos" target="Novotný" id="2035" weight="43.0" />
+      <edge source="Nos" target="Blaško" id="2036" weight="43.0" />
+      <edge source="Nos" target="Armáda ČR" id="2037" weight="29.0" />
+      <edge source="Nos" target="Doležal" id="2038" weight="30.0" />
+      <edge source="Nos" target="Úřad práce" id="2039" weight="29.0" />
+      <edge source="Nos" target="Bruselská elita" id="2040" weight="26.0" />
+      <edge source="Nos" target="Národní sdružení" id="2041" weight="27.0" />
+      <edge source="Nos" target="PS PČR" id="2042" weight="30.0" />
+      <edge source="Nos" target="SPO" id="2043" weight="31.0" />
+      <edge source="Nos" target="Národní fronta" id="2044" weight="22.0" />
+      <edge source="Eurostat" target="EFTA" id="2045" weight="22.0" />
+      <edge source="Eurostat" target="Jedlička" id="2046" weight="21.0" />
+      <edge source="Eurostat" target="Agrární komora ČR" id="2047" weight="23.0" />
+      <edge source="ID" target="Národní shromáždění" id="2048" weight="43.0" />
+      <edge source="Eurozóna" target="Klaus ml." id="2049" weight="21.0" />
+      <edge source="Novotný" target="Blaško" id="2050" weight="43.0" />
+      <edge source="Novotný" target="Armáda ČR" id="2051" weight="29.0" />
+      <edge source="Novotný" target="Doležal" id="2052" weight="29.0" />
+      <edge source="Novotný" target="Úřad práce" id="2053" weight="29.0" />
+      <edge source="Novotný" target="Bruselská elita" id="2054" weight="26.0" />
+      <edge source="Novotný" target="Národní sdružení" id="2055" weight="26.0" />
+      <edge source="Novotný" target="PS PČR" id="2056" weight="29.0" />
+      <edge source="Blaško" target="Armáda ČR" id="2057" weight="29.0" />
+      <edge source="Blaško" target="Doležal" id="2058" weight="31.0" />
+      <edge source="Blaško" target="Úřad práce" id="2059" weight="29.0" />
+      <edge source="Blaško" target="Bruselská elita" id="2060" weight="26.0" />
+      <edge source="Blaško" target="Národní sdružení" id="2061" weight="26.0" />
+      <edge source="Blaško" target="PS PČR" id="2062" weight="29.0" />
+      <edge source="Redl" target="Hlubuček" id="2063" weight="21.0" />
+      <edge source="EFTA" target="Jedlička" id="2064" weight="38.0" />
+      <edge source="Armáda ČR" target="Doležal" id="2065" weight="29.0" />
+      <edge source="Armáda ČR" target="Úřad práce" id="2066" weight="29.0" />
+      <edge source="Armáda ČR" target="Bruselská elita" id="2067" weight="26.0" />
+      <edge source="Armáda ČR" target="Národní sdružení" id="2068" weight="26.0" />
+      <edge source="Armáda ČR" target="PS PČR" id="2069" weight="29.0" />
+      <edge source="Doležal" target="Úřad práce" id="2070" weight="29.0" />
+      <edge source="Doležal" target="Bruselská elita" id="2071" weight="26.0" />
+      <edge source="Doležal" target="Národní sdružení" id="2072" weight="27.0" />
+      <edge source="Doležal" target="PS PČR" id="2073" weight="29.0" />
+      <edge source="Úřad práce" target="Bruselská elita" id="2074" weight="26.0" />
+      <edge source="Úřad práce" target="Národní sdružení" id="2075" weight="26.0" />
+      <edge source="Úřad práce" target="PS PČR" id="2076" weight="29.0" />
+      <edge source="Charanzová" target="Niedermayer" id="2077" weight="32.0" />
+      <edge source="Charanzová" target="Dlabajová" id="2078" weight="50.0" />
+      <edge source="Charanzová" target="Poche" id="2079" weight="27.0" />
+      <edge source="Bruselská elita" target="Národní sdružení" id="2080" weight="35.0" />
+      <edge source="Bruselská elita" target="PS PČR" id="2081" weight="26.0" />
+      <edge source="Jedlička" target="Agrární komora ČR" id="2082" weight="21.0" />
+      <edge source="Národní sdružení" target="PS PČR" id="2083" weight="26.0" />
+      <edge source="Niedermayer" target="Dlabajová" id="2084" weight="29.0" />
+      <edge source="Niedermayer" target="Poche" id="2085" weight="27.0" />
+      <edge source="Dlabajová" target="Poche" id="2086" weight="27.0" />
+      <edge source="Dostál" target="Brabec" id="2087" weight="24.0" />
+      <edge source="Ministerstvo dopravy" target="Ředitelství silnic a dálnic" id="2088" weight="33.0" />
+      <edge source="ŘSD" target="Ředitelství silnic a dálnic" id="2089" weight="74.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,9 +1,9 @@
 ﻿
 @{
     ViewData["Title"] = "View";
-    var histogramData = ViewBag.histogramData as Dictionary<string, List<HistogramData>>;
-    var histogramDataF = ViewBag.histogramData_F as Dictionary<string, List<HistogramData>>;
-    var histogramDataT = ViewBag.histogramData_T as Dictionary<string, List<HistogramData>>;
+    var histogramData = ViewBag.histogramData as Dictionary<string, List<StatementCountDistribution>>;
+    var histogramDataF = ViewBag.histogramData_F as Dictionary<string, List<StatementCountDistribution>>;
+    var histogramDataT = ViewBag.histogramData_T as Dictionary<string, List<StatementCountDistribution>>;
     var maxminweek = ViewBag.maxminweek as Dictionary<string, Tuple<dynamic, dynamic>>;
     var politicCounts = ViewBag.politicCountsAll as Dictionary<int, Dictionary<string, int>>;
 
@@ -13,7 +13,9 @@
     var widthValue = 510;
 
     var biggerWidth = 750;
-
+    var config = {
+        displayModeBar: false, responsive: true
+    };
     var histogramData = @Html.Raw(Json.Serialize(histogramData));
     var histogramDataF = @Html.Raw(Json.Serialize(histogramDataF));
     var histogramDataT = @Html.Raw(Json.Serialize(histogramDataT));
@@ -67,13 +69,15 @@
        
     }
 
-    
+    var currentPage = 1;
+    var rowsPerPage = 15;
+    var tableData = [];
+
     function renderTableForYear(year) {
         var sortBy = document.getElementById('sortBy').value;
         var order = document.getElementById('order').value;
         var server = document.getElementById('server').value;
 
-        // Výběr správného datového setu podle serveru
         var data = [];
         if (server === 'all') {
             data = @Html.Raw(Json.Serialize(ViewBag.politicCountsAll));
@@ -83,20 +87,17 @@
             data = @Html.Raw(Json.Serialize(ViewBag.politicCountsFacebook));
         }
 
-        dataY = data[year] || data["all"]
+        dataY = data[year] || data["all"];
 
-        // Převod dat pro daný rok do formátu pro tabulku
-        var tableData = [];
-        for (var osobaId in dataY) {
-            tableData.push({
-                year: year,
-                osobaId: osobaId,
-                count: dataY[osobaId]
-            });
-        }
+     
+        tableData = Object.keys(dataY).map(osobaId => ({
+            year: year,
+            osobaId: osobaId,
+            count: dataY[osobaId]
+        }));
 
-        // Řazení podle zvolených kritérií
-        tableData.sort(function (a, b) {
+    
+        tableData.sort((a, b) => {
             if (sortBy === 'name') {
                 return order === 'asc' ? a.osobaId.localeCompare(b.osobaId) : b.osobaId.localeCompare(a.osobaId);
             } else if (sortBy === 'count') {
@@ -105,21 +106,46 @@
             return 0;
         });
 
-        // Vymazání stávajících řádků v tabulce
+      
+        currentPage = 1;
+        renderTablePage();
+    }
+    function renderTablePage() {
         var tbody = document.getElementById('statementsTable').getElementsByTagName('tbody')[0];
         tbody.innerHTML = '';
 
-        // Přidání nových řádků podle seřazených dat
-        tableData.forEach(function (item) {
+        var start = (currentPage - 1) * rowsPerPage;
+        var end = start + rowsPerPage;
+        var pageData = tableData.slice(start, end);
+
+        pageData.forEach(item => {
             var row = tbody.insertRow();
-            
             var cellOsobaId = row.insertCell(0);
             var cellCount = row.insertCell(1);
 
-           
             cellOsobaId.textContent = item.osobaId;
             cellCount.textContent = item.count;
         });
+
+        updatePagination();
+    }
+    function updatePagination() {
+        var pageInfo = document.getElementById('pageInfo');
+        pageInfo.textContent = `Strana ${currentPage} z ${Math.ceil(tableData.length / rowsPerPage)}`;
+    }
+
+    function prevPage() {
+        if (currentPage > 1) {
+            currentPage--;
+            renderTablePage();
+        }
+    }
+
+    function nextPage() {
+        if (currentPage < Math.ceil(tableData.length / rowsPerPage)) {
+            currentPage++;
+            renderTablePage();
+        }
     }
     function showHistograms(year) {
         
@@ -152,20 +178,19 @@
 
 
             var layout = {
-                title: 'Distribuce počtu vyjádření',
+                title: '',
                 xaxis: {
-                    title: 'Počet vyjádření',type:'log'
+                    title: 'Počet příspěvků',type:'log'
                 },
                 yaxis: {
                     title: 'Počet osob',
                 },
-                showlegend: false,
-                width:widthValue,
-                heightValue:heightValue
+                showlegend: false, margin: { t: 20 },
+                autosize:true
             };
 
 
-            Plotly.newPlot(id, data, layout);
+            Plotly.newPlot(id, data, layout,config);
         }
         showHist(statementCounts, numOfPeople, "histogramChart")
         showHist(statementCountsF, numOfPeopleF, "histogramChartF")
@@ -175,7 +200,7 @@
        
 
         function showCategoryHist(statementCounts, numOfPeople, id) {
-            // Definujeme kategorie
+        
             var categories = {
                 "0-10": 0,
                 "11-50": 0,
@@ -184,7 +209,7 @@
                 ">500": 0
             };
 
-            // Kategorizujeme data
+         
             for (let i = 0; i < statementCounts.length; i++) {
                 let count = statementCounts[i];
                 let people = numOfPeople[i];
@@ -196,7 +221,7 @@
                 else categories[">500"] += people;
             }
 
-            // Připravíme data pro graf
+          
             var categoryNames = Object.keys(categories);
             var categoryValues = Object.values(categories);
 
@@ -211,15 +236,14 @@
             }];
 
             var layout = {
-                title: 'Distribuce vyjádření podle kategorií',
-                xaxis: { title: 'Kategorie počtu vyjádření' },
+                title: '',
+                xaxis: { title: 'Počet příspěvků' },
                 yaxis: { title: 'Počet osob' },
                 showlegend: false,
-                width: widthValue,
-                heightValue: heightValue
+                autosize: true, margin: { t: 20 }
             };
 
-            Plotly.newPlot(id, data, layout);
+            Plotly.newPlot(id, data, layout,config);
         }
 
 
@@ -236,7 +260,7 @@
             var months = data.map(entry => entry.month);
             var counts = data.map(entry => entry.count);
             var trace = {
-                x: months.map(m => new Date(2023, m - 1, 1).toLocaleString('cs-CZ', { month: 'long' })), // Převod čísla měsíce na název
+                x: months.map(m => new Date(2023, m - 1, 1).toLocaleString('cs-CZ', { month: 'long' })), 
                 y: counts,
                 type: 'scatter',
                 mode: 'lines+markers',
@@ -244,18 +268,17 @@
             };
 
             var layout = {
-                title: `Vývoj počtu příspěvků v roce ${year}`,
+                title: ``,
                 xaxis: { title: 'Měsíc', tickangle: 45 },
                 yaxis: { title: 'Počet příspěvků' },
-                width: widthValue,
-                heightValue: heightValue,
+                autosize:true,
                 margin: {
                     b: 65,
-                    l: 50
+                    l: 50,t:20
                 },
             };
 
-            Plotly.newPlot('monthlyChart', [trace], layout);
+            Plotly.newPlot('monthlyChart', [trace], layout,config);
         }
 
         drawMonthlyCount(year);
@@ -284,13 +307,12 @@
             var dataForYear = dayofweekCount[year] || dayofweekCount["all"];
           
 
-            // Seznam dnů v týdnu pro osy X
             const daysOfWeek = ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek", "Sobota", "Neděle"];
 
-            // Data pro graf
+     
             var counts = daysOfWeek.map(day => dataForYear[day] || 0);
 
-            // Vytvoření grafu
+       
             const trace = {
                 x: daysOfWeek,
                 y: counts,
@@ -298,18 +320,17 @@
             };
 
             const layout = {
-                title: `Aktivita ve dnech v týdnu `,
+                title: ``,
                 xaxis: {
                     title: 'Den v týdnu'
                 },
                 yaxis: {
                     title: 'Počet příspěvků'
                 },
-                width:widthValue,
-                height:heightValue
+                autosize: true, margin: { t: 20 }
             };
 
-            Plotly.newPlot('dayofweek', [trace], layout);
+            Plotly.newPlot('dayofweek', [trace], layout,config);
         }
         plotPostsByWeekday(year)
 
@@ -323,16 +344,16 @@
                 let { weekInMonth: weekInMonthMax, monthName: monthMax } = getWeekInMonth(year, max.week);
                 let { weekInMonth: weekInMonthMin, monthName: monthMin } = getWeekInMonth(year, min.week);
 
-                // Zobrazení informací o týdnech
+         
                 document.getElementById('max-week-info').innerText = `Týden ${max.week} (${weekInMonthMax}. týden v měsíci ${monthMax}) - ${max.count} příspěvků`;
                 document.getElementById('min-week-info').innerText = `Týden ${min.week} (${weekInMonthMin}. týden v měsíci ${monthMin}) - ${min.count} příspěvků`;
 
-                // Přidání barev pro vizuální zvýraznění
+           
                 document.getElementById('max-week').classList.add('active');
                 document.getElementById('min-week').classList.add('inactive');
             } else {
-                document.getElementById('max-week-info').innerText = 'Není dostupný';
-                document.getElementById('min-week-info').innerText = 'Není dostupný';
+                document.getElementById('max-week-info').innerText = 'Informace je dostupná pouze pro konkrétní rok.';
+                document.getElementById('min-week-info').innerText = 'Informace je dostupná pouze pro konkrétní rok.';
             }
         }
         showWeekInfo(year)
@@ -352,7 +373,7 @@
        
         renderTableForYear();
 
-        // Použití filtrů při změně výběru
+
         document.getElementById('sortBy').addEventListener('change', function () {
             var year = document.getElementById("yearFilter").value;
             renderTableForYear(year);
@@ -368,32 +389,42 @@
 
     });
 </script>
-<h1>Analýza frekvence vyjádření</h1>
 
-<div class="row justify-content-start mb-3">
-    <div class="col-md-4">
-        <select id="yearFilter" class="form-select">
-            <option value="">Všechna vyjádření</option>
-            @for (int year = 2016; year <= 2023; year++)
+<div class="chart-card">
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza frekvence vyjádření</h2>
+        <p class="chart-subtitle">
+            Na této stránce je zobrazeny statistiky týkající se frekvence příspěvků. 
+            Součástí statistik je porovnání počtu příspěvků na sociálních sítích Facebook a Twitter a počet příspěvků v různých časových obdobích (roky, měsíce, týdny a dny). Na pravé straně lze vidět tabulku obsahující všechny politiky a informaci o tom kolik měli příspěvků. Politiky lze v tabulce řadit abecedně a dle počtu příspěvků a také filtrovat podle zvolené sociální sítě.  
+        </p>
+        </div>
+    <p class="d-flex align-items-center">
+        <span class="me-2">Zobrazit statistiky entit pro rok:</span>
+        <select id="yearFilter" class="form-select w-auto">
+            <option value="">Všechny roky</option>
+            @for (int year = 2016; year <= 2022; year++)
             {
                 <option value="@year.ToString()">@year</option>
             }
         </select>
-    </div>
+    </p>
 </div>
+
 
 <div class="sentiment_page">
     <div class="left-panel-count">
-<div class="card">
-    <div class="card-header">
-        <h3>Základní informace</h3>
-    </div>
-    <div class="card-body">
+        <div class="chart-card">
+            <div class="chart-header">
+                <h3 class="chart-title">Základní informace</h3>
+             
+            </div>
+    
+    
                 <div class="container">
                     <div class="row justify-content-center g-4" style="margin-bottom: 20px;">
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="stat-box">
-                                <p class="stat-label">Počet vyjádření</p>
+                                <p class="stat-label">Počet příspěvků</p>
                                 <p class="stat-number" id="totalStatements">0</p>
                             </div>
                         </div>
@@ -405,23 +436,23 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="stat-box">
-                                <p class="stat-label">Průměrný počet vyjádření</p>
+                                <p class="stat-label">Průměrný počet příspěvků</p>
                                 <p class="stat-number" id="avgStatementsPerPerson">0</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="stat-box">
-                                <p class="stat-label">Medián počtu vyjádření</p>
+                                <p class="stat-label">Medián počtu příspěvků</p>
                                 <p class="stat-number" id="medianStatementsPerPerson">0</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Nový řádek pro další stat boxy -->
+                
                     <div class="row justify-content-center g-4" style="margin-bottom: 20px;">
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="stat-boxTW">
-                                <p class="stat-labelS">Počet vyjádření Twitter</p>
+                                <p class="stat-labelS">Počet příspěvků na Twitteru</p>
                                 <p class="stat-numberS" id="totalStatementsTW">0</p>
                             </div>
                         </div>
@@ -433,7 +464,7 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="stat-boxFB">
-                                <p class="stat-labelS">Počet vyjádření Facebook </p>
+                                <p class="stat-labelS">Počet příspěvků na Facebooku </p>
                                 <p class="stat-numberS" id="totalStatementsFB">0</p>
                             </div>
                         </div>
@@ -446,78 +477,112 @@
                     </div>
                 </div>
 
-    </div>
+   
 </div>
 
-<div class="card">
-    <div class="card-header">
-        <h3>Distribuce počtu vyjádření</h3>
-    </div>
-    <div class="card-body">
-        <div class="block">
-            <h4>Všechna platformy</h4>
-            <div class="grid">
-                <div id="histogramChart" class="chart-container"></div>
-                <div id="histogramChartCategory" class="chart-container"></div>
-
-            </div>
-        </div>
-       
-        <div class="block">
-            <h4>Facebook</h4>
-
-            <div class="grid">
-                <div id="histogramChartF" class="chart-container"></div>
-                <div id="histogramChartCategoryF" class="chart-container"></div>
-
-            </div>
-        </div>
-        <div class="block">
-            <h4>Twitter</h4>
-            <div class="grid">
-                <div id="histogramChartT" class="chart-container"></div>
-                <div id="histogramChartCategoryT" class="chart-container"></div>
-
-            </div>
-        </div>
-    </div>
-</div>
-        <div class="card">
-            <div class="card-header">
-                <h3>Časové trendy</h3>
-            </div>
-            <div class="card-body">
-                <div class="block">
-                   
-                    <div id="monthlyChart" class="chart-container"></div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce politiků dle počtu příspěvků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Facebooku i Twitteru</p>
                 </div>
-                <div class="block">
+                <div class="chart-container-m" id="histogramChart"></div>
 
-                    <div id="dayofweek" class="chart-container"></div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce politiků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Facebooku i Twitteru rozdělená do intervalů</p>
                 </div>
-               <div class="block">
-                    <div class="week-info-container">
-                        
-                        <div id="week-info">
-                            <div class="week-card" id="max-week">
-                                <h4>Nejaktivnější týden</h4>
-                                <p><span id="max-week-info"></span></p>
-                            </div>
-                            <div class="week-card" id="min-week">
-                                <h4>Nejméně aktivní týden</h4>
-                                <p><span id="min-week-info"></span></p>
-                            </div>
+                <div class="chart-container-m" id="histogramChartCategory"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce politiků dle počtu příspěvků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Facebooku </p>
+                </div>
+                <div class="chart-container-m" id="histogramChartF"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">
+                        Distribuce politiků dle počtu příspěvků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Facebooku rozdělená do intervalů</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartCategoryF"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce politiků dle počtu příspěvků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Twitteru</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartT"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Distribuce politiků dle počtu příspěvků</h3>
+                    <p class="chart-subtitle">Distribuce politiků na Twitteru rozdělená do intervalů</p>
+                </div>
+                <div class="chart-container-m" id="histogramChartCategoryT"></div>
+
+            </div>
+        </div>
+        <div class="myrow2">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Vývoj počtu příspěvků</h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                <div class="chart-container-m" id="monthlyChart"></div>
+
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Aktivita ve dnech v týdnu</h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                <div class="chart-container-m" id="dayofweek"></div>
+
+            </div>
+        </div>
+        
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title"></h3>
+                    <p class="chart-subtitle"></p>
+                </div>
+                
+                <div class="week-info-container">
+
+                    <div id="week-info">
+                        <div class="week-card" id="max-week">
+                            <h4>Nejaktivnější týden</h4>
+                            <p><span id="max-week-info"></span></p>
+                        </div>
+                        <div class="week-card" id="min-week">
+                            <h4>Nejméně aktivní týden</h4>
+                            <p><span id="min-week-info"></span></p>
                         </div>
                     </div>
-               </div>
+                </div>
             </div>
-        </div>
+           
+        
+      
         
 
     </div> 
     <div class="right-panel-count">
         
-            <!-- Filtry -->
+    
             <div id="filter-panel" class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
                 <label for="sortBy">Řadit podle:</label>
             <select id="sortBy" class="form-select">
@@ -539,19 +604,24 @@
                 </select>
             </div>
 
-            <!-- Tabulka -->
+
         <table id="statementsTable" class="table styled-table">
             <thead>
                 <tr>
                   
                     <th>Osoba</th>
-                    <th>Počet vyjádření</th>
+                    <th>Počet příspěvků</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Tabulka bude vykreslena pomocí JavaScriptu -->
+         
             </tbody>
-            </table>
+        </table>
+        <div id="pagination" class="pagination">
+            <button onclick="prevPage()">Předchozí</button>
+            <span id="pageInfo"></span>
+            <button onclick="nextPage()">Další</button>
+        </div>
         
     </div>
 </div>

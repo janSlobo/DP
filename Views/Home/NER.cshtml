@@ -6,11 +6,775 @@
     var entitySentimentsTable = ViewBag.EntitySentiments as Dictionary<string,List<EntitySentimentData>>;
    
 }
-<script>
-    var heightValue = 420;
-    var widthValue = 450;
+<style>
+    .svg1 {
+        width: 1800px;
+        height: 900px;
+        background: #f8f8f8;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 
-    var biggerWidth = 750;
+        .svg1 .node {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+        .svg1 .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+        .svg1 .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: black;
+            pointer-events: none;
+        }
+
+    .slider-container {
+        background: white;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .slider-label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .slider-value {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px;
+        color: #007acc;
+    }
+
+    input[type=range] {
+        width: 100%;
+    }
+</style>
+<script>
+    function debounce(fn, delay) {
+        let timeout;
+        return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => fn.apply(this, args), delay);
+        };
+    }
+    function show_w2v_names_graph(coloring, minWeight) {
+        fetch("/data/w2v_ps_net.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#w2v_names_svg").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                     
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama";
+
+                        });
+
+                        console.log(links)
+                        const filteredLinks = links.filter(d => d.weight >= minWeight);
+                        console.log(filteredLinks)
+                        const filteredNodes = nodes.filter(node =>
+                            filteredLinks.some(link => link.source === node.id || link.target === node.id)
+                        );
+                        const nodeDegrees = {};
+                        filteredLinks.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+
+
+                        const simulation = d3.forceSimulation(filteredNodes)
+                            .force("link", d3.forceLink(filteredLinks)
+                                .id(d => d.id)
+                                .distance(300)
+                                .strength(0.1))
+                            .force("charge", d3.forceManyBody().strength(-1100))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(150))
+                            .force("x", d3.forceX(width / 2).strength(0.03))
+                            .force("y", d3.forceY(height / 2).strength(0.03))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                filteredNodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                simulation.stop();
+                            });
+
+                        const weightScale = d3.scaleLinear()
+                            .domain([d3.min(filteredLinks, d => d.weight), d3.max(filteredLinks, d => d.weight)])
+                            .range([0.5, 10]);
+
+
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(filteredLinks)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke", "#999")
+                            .attr("stroke-opacity", 0.6)
+                            .attr("stroke-width", d => weightScale(d.weight));
+
+
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(filteredNodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 0.5))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+
+
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(filteredNodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(filteredNodes, d => d.x);
+                            const xMax = d3.max(filteredNodes, d => d.x);
+                            const yMin = d3.min(filteredNodes, d => d.y);
+                            const yMax = d3.max(filteredNodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            if (!event.active) simulation.alphaTarget(0);
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    function show_w2v_mix_graph(coloring, minWeight) {
+        fetch("/data/w2v_mix_net.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#w2v_mix_svg").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama";
+
+                        });
+
+
+                        const filteredLinks = links.filter(d => d.weight >= minWeight);
+
+                        const filteredNodes = nodes.filter(node =>
+                            filteredLinks.some(link => link.source === node.id || link.target === node.id)
+                        );
+                        const nodeDegrees = {};
+                        filteredLinks.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+
+
+                        const simulation = d3.forceSimulation(filteredNodes)
+                            .force("link", d3.forceLink(filteredLinks)
+                                .id(d => d.id)
+                                .distance(300)
+                                .strength(0.1))
+                            .force("charge", d3.forceManyBody().strength(-1100))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(150))
+                            .force("x", d3.forceX(width / 2).strength(0.03))
+                            .force("y", d3.forceY(height / 2).strength(0.03))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                filteredNodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                simulation.stop();
+                            });
+
+                        const weightScale = d3.scaleLinear()
+                            .domain([d3.min(filteredLinks, d => d.weight), d3.max(filteredLinks, d => d.weight)])
+                            .range([0.5, 10]);
+
+
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(filteredLinks)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke", "#999")
+                            .attr("stroke-opacity", 0.6)
+                            .attr("stroke-width", d => weightScale(d.weight));
+
+
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(filteredNodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 0.5))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+
+
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(filteredNodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(filteredNodes, d => d.x);
+                            const xMax = d3.max(filteredNodes, d => d.x);
+                            const yMin = d3.min(filteredNodes, d => d.y);
+                            const yMax = d3.max(filteredNodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            if (!event.active) simulation.alphaTarget(0);
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    function show_coo_names_graph(coloring,minWeight) {
+        fetch("/data/cooc_names_all.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#coo_name_svg").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama"; 
+
+                        });
+                        
+
+                        const filteredLinks = links.filter(d => d.weight >= minWeight);
+
+                        const filteredNodes = nodes.filter(node =>
+                            filteredLinks.some(link => link.source === node.id || link.target === node.id)
+                        );
+                        const nodeDegrees = {};
+                        filteredLinks.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+                       
+
+                        const simulation = d3.forceSimulation(filteredNodes)
+                            .force("link", d3.forceLink(filteredLinks)
+                                .id(d => d.id)
+                                .distance(300)
+                                .strength(0.1))
+                            .force("charge", d3.forceManyBody().strength(-1100))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(150))
+                            .force("x", d3.forceX(width / 2).strength(0.03))
+                            .force("y", d3.forceY(height / 2).strength(0.03))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                filteredNodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                simulation.stop();
+                            });
+
+                        const weightScale = d3.scaleLinear()
+                            .domain([d3.min(filteredLinks, d => d.weight), d3.max(filteredLinks, d => d.weight)])
+                            .range([0.5, 10]);  
+
+
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(filteredLinks)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke", "#999") 
+                            .attr("stroke-opacity", 0.6)  
+                            .attr("stroke-width", d => weightScale(d.weight));
+
+
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(filteredNodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 0.5))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+                       
+
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(filteredNodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(filteredNodes, d => d.x);
+                            const xMax = d3.max(filteredNodes, d => d.x);
+                            const yMin = d3.min(filteredNodes, d => d.y);
+                            const yMax = d3.max(filteredNodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            if (!event.active) simulation.alphaTarget(0);  
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    function show_coo_mix_graph(coloring, minWeight) {
+        fetch("/data/cooc_mix_all.json")
+            .then(response => response.json())
+            .then(graphData => {
+                const width = 1800, height = 900;
+                const svg = d3.select("#coo_mix_svg").attr("width", width).attr("height", height);
+                svg.selectAll("*").remove();
+
+                const nodes = graphData.nodes;
+                const links = graphData.links;
+
+
+                
+                fetch(coloring)
+                    .then(response => response.text())
+                    .then(csvData => {
+                        const skupiny = parseCSV(csvData);
+                        console.log(skupiny)
+                        const nodeById = {};
+                        nodes.forEach(node => nodeById[node.id] = node);
+
+                        nodes.forEach(node => {
+                            node.group = skupiny[node.id] || "neznama"; 
+
+                        });
+                       
+
+                        const filteredLinks = links.filter(d => d.weight >= minWeight);
+
+                      
+                        const filteredNodes = nodes.filter(node =>
+                            filteredLinks.some(link => link.source === node.id || link.target === node.id)
+                        );
+                        const nodeDegrees = {};
+                        filteredLinks.forEach(link => {
+                            nodeDegrees[link.source] = (nodeDegrees[link.source] || 0) + link.weight;
+                            nodeDegrees[link.target] = (nodeDegrees[link.target] || 0) + link.weight;
+                        });
+
+                        const simulation = d3.forceSimulation(filteredNodes)
+                            .force("link", d3.forceLink(filteredLinks)
+                                .id(d => d.id)
+                                .distance(400)
+                                .strength(0.1))
+                            .force("charge", d3.forceManyBody().strength(-1200))
+                            .force("center", d3.forceCenter(width / 2, height / 2))
+                            .force("collision", d3.forceCollide(200))
+                            .force("x", d3.forceX(width / 2).strength(0.03))
+                            .force("y", d3.forceY(height / 2).strength(0.03))
+                            .on("tick", ticked)
+                            .on("end", () => {
+                                console.log("Simulace skončila, uzly zmrazeny");
+
+                                filteredNodes.forEach(d => {
+                                    d.fx = d.x;
+                                    d.fy = d.y;
+                                });
+
+                                simulation.stop();
+                            });
+
+
+
+
+                        const weightScale = d3.scaleLinear()
+                            .domain([d3.min(filteredLinks, d => d.weight), d3.max(filteredLinks, d => d.weight)])
+                            .range([0.5, 10]); 
+
+
+                  
+                        const link = svg.append("g")
+                            .selectAll("line")
+                            .data(filteredLinks)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .attr("stroke", "#999") 
+                            .attr("stroke-opacity", 0.6)  
+                            .attr("stroke-width", d => weightScale(d.weight));
+
+
+                        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                        const node = svg.append("g")
+                            .selectAll("circle")
+                            .data(filteredNodes)
+                            .enter().append("circle")
+                            .attr("class", "node")
+                            .attr("r", d => Math.max(10, Math.sqrt(nodeDegrees[d.id]) * 0.2))
+                            .style("fill", d => colorScale(d.group))
+                            .call(d3.drag()
+                                .on("start", dragStart)
+                                .on("drag", dragged)
+                                .on("end", dragEnd));
+
+
+                        const labels = svg.append("g")
+                            .selectAll("text")
+                            .data(filteredNodes)
+                            .enter().append("text")
+                            .attr("class", "label")
+                            .attr("dx", 12)
+                            .attr("dy", 4)
+                            .text(d => d.id);
+
+                        function ticked() {
+                            link
+                                .attr("x1", d => d.source.x)
+                                .attr("y1", d => d.source.y)
+                                .attr("x2", d => d.target.x)
+                                .attr("y2", d => d.target.y);
+
+                            node
+                                .attr("cx", d => d.x)
+                                .attr("cy", d => d.y);
+
+                            labels
+                                .attr("x", d => d.x)
+                                .attr("y", d => d.y);
+
+                            const xMin = d3.min(filteredNodes, d => d.x);
+                            const xMax = d3.max(filteredNodes, d => d.x);
+                            const yMin = d3.min(filteredNodes, d => d.y);
+                            const yMax = d3.max(filteredNodes, d => d.y);
+
+                            const padding = 50;
+                            const scaleX = d3.scaleLinear()
+                                .domain([xMin - padding, xMax + padding])
+                                .range([0, width]);
+
+                            const scaleY = d3.scaleLinear()
+                                .domain([yMin - padding, yMax + padding])
+                                .range([0, height]);
+
+                            node.attr("cx", d => scaleX(d.x)).attr("cy", d => scaleY(d.y));
+                            labels.attr("x", d => scaleX(d.x)).attr("y", d => scaleY(d.y));
+                            link
+                                .attr("x1", d => scaleX(d.source.x))
+                                .attr("y1", d => scaleY(d.source.y))
+                                .attr("x2", d => scaleX(d.target.x))
+                                .attr("y2", d => scaleY(d.target.y));
+                        }
+
+                        function dragStart(event, d) {
+                            if (!event.active) simulation.alphaTarget(0.3).restart();
+                            d.fx = d.x;
+                            d.fy = d.y;
+                        }
+
+                        function dragged(event, d) {
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+                        function dragEnd(event, d) {
+                            if (!event.active) simulation.alphaTarget(0);  
+                            d.fx = event.x;
+                            d.fy = event.y;
+                        }
+
+
+
+                    })
+                    .catch(error => console.error("Chyba při načítání souboru se skupinami:", error));
+
+                function parseCSV(data) {
+                    const rows = data.split("\n");
+                    const skupiny = {};
+                    rows.forEach(row => {
+                        const [id, organizace] = row.split(",");
+                        if (id && organizace) {
+                            skupiny[id.trim()] = organizace.trim();
+                        }
+                    });
+                    return skupiny;
+                }
+            })
+            .catch(error => console.error("Chyba při načítání dat:", error));
+    }
+    
+    var heightValue = 400;
+    var widthValue = 450;
+    var biggerWidth1 = 850;
+    var biggerWidth = 720;
+    let currentPage = 1;
+    let rowsPerPage = 12;
+    var config = {
+        displayModeBar: false, responsive: true
+    };
+
     var data_er = @Html.Raw(Json.Serialize(ViewBag.PoliticianRatios));
     var entityTypes = @Html.Raw(Json.Serialize(ViewBag.entityTypes));
     var typeCounts = @Html.Raw(Json.Serialize(ViewBag.typeCounts));
@@ -22,22 +786,23 @@
     function updateStatistics(selectedYear){
         yearS = selectedYear.toString();
         populateCategoryFilter();
-        createCheckbox();
-        updateChartER();
+   
         showEntTypeBar();
         populateSelect();
-        updateChart();
+        updateBarChart();
+        updateBoxPlot();
         createSelect();
-        updateTable();
+        updateTable(true);
         updateChartCounts();
     }
     function populateCategoryFilter() {
-        var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"]
+        var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"];
         var select = document.getElementById("categoryFilter");
+
+        select.innerHTML = '';
 
         var categories = Object.keys(groupedEntitiesY);
 
-        // Přidání jednotlivých kategorií do <select>
         categories.forEach(category => {
             var option = document.createElement("option");
             option.value = category;
@@ -45,6 +810,7 @@
             select.appendChild(option);
         });
     }
+
     function createCheckbox() {
         var data_ery=data_er[yearS] || data_er["all"]
         var politicians = Object.keys(data_ery);
@@ -66,7 +832,7 @@
 
             div.appendChild(checkbox);
             div.appendChild(label);
-            listForm.appendChild(div); // Přidáno do formuláře místo divu
+            listForm.appendChild(div);
         });
     }
     function updateChartER() {
@@ -91,17 +857,18 @@
             y: selectedRatios,
             type: 'bar'
         }], {
-            title: 'Míra výskytu entit ve vyjádřeních',
+            title: '',
             xaxis: { title: '' },
             yaxis: { title: 'Poměr entit k počtu slov' },
-            width: biggerWidth,
-            height: heightValue,
+            autosize:true,
             margin: {
-                b: 70,
-                l: 40,
-                t: 50
+                b: 110,
+                l: 60,
+                t: 50,
+                r:60
             }
-        });
+            
+        },config);
     }
     function showEntTypeBar() {
         var entityTypesY = entityTypes[yearS] || entityTypes["all"]
@@ -113,50 +880,56 @@
         }];
 
         var layout = {
-            title: 'Nejčastější typy entit',
-            xaxis: { title: 'Typ' },
+            title: '',
+            xaxis: { tickangle: 45 },
             yaxis: { title: 'Počet výskytů' },
-            width: biggerWidth,
-            height: heightValue,
+            autosize:true,
             margin: {
-                b: 70,
-                l: 30,
-                t: 50
+                b: 110,
+                l: 50,
+                t: 10
             }
+          
         };
 
-        Plotly.newPlot('entitytype_bar', data, layout);
+        Plotly.newPlot('entitytype_bar', data, layout,config);
     }
     function populateSelect() {
         var alltypesy=allTypes[yearS] || allTypes["all"]
-        var select = document.getElementById("entityTypeSelect");
-
-        // Vymazání existujících možností (pokud by bylo nutné)
+        var select = document.getElementById("entityTypeSelectBar");
+        var select1 = document.getElementById("entityTypeSelectBox");
         select.innerHTML = '';
 
-        // Naplnění možností
         alltypesy.forEach(type => {
             var option = document.createElement("option");
             option.value = type;
             option.textContent = type;
             select.appendChild(option);
         });
+
+        select1.innerHTML = '';
+
+        alltypesy.forEach(type => {
+            var option = document.createElement("option");
+            option.value = type;
+            option.textContent = type;
+            select1.appendChild(option);
+        });
     }
-    function updateChart() {
-        var selectedEntityType = document.getElementById('entityTypeSelect').value;
-        var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"]
+    function updateBarChart() {
+        var selectedEntityType = document.getElementById('entityTypeSelectBar').value;
+        var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"];
 
         var filteredData = entitySentimentsY.filter(function (item) {
             return item.entityType === selectedEntityType;
         });
-
+        filteredData=filteredData.slice(0,30)
         filteredData.sort(function (a, b) {
             return a.averageSentiment - b.averageSentiment;
         });
 
         var entityNames = filteredData.map(function (item) { return item.entityName; });
         var averageSentiments = filteredData.map(function (item) { return item.averageSentiment; });
-
 
         var trace = {
             x: entityNames,
@@ -165,46 +938,50 @@
         };
 
         var layout = {
-            title: 'Průměrný sentiment nejzmiňovanějších entit',
+            title: '',
             xaxis: { title: '', tickangle: -45 },
             yaxis: { title: '' },
-            width: biggerWidth,
-            height: heightValue,
+           autosize:true,
             margin: {
-                b: 70,
-                l: 30,
-                t: 50
-            },
+                b: 110,
+                l: 60,
+                t: 10
+            }
         };
 
-        Plotly.newPlot('sentimentBarplot', [trace], layout);
+        Plotly.newPlot('sentimentBarplot', [trace], layout,config);
+    }
 
-        //boxplot
+    function updateBoxPlot() {
+        var selectedEntityType = document.getElementById('entityTypeSelectBox').value;
+        var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"];
 
-
+        var filteredData = entitySentimentsY.filter(function (item) {
+            return item.entityType === selectedEntityType;
+        });
+        filteredData = filteredData.slice(0,30)
         var boxTraces = filteredData.map(function (item) {
             return {
                 y: item.sentiments,
                 type: 'box',
-                name: item.entityName
+                name: item.entityName,
+                boxmean: true
             };
         });
 
         var boxLayout = {
-            title: 'Rozsah sentimentu příspěvků s entitami',
+            title: '',
             xaxis: { title: '', tickangle: -45 },
             yaxis: { title: '' },
-            width: biggerWidth,
-            height: heightValue,
+            autosize:true,
             margin: {
-                b: 70,
-                l: 30,
-                t: 50
+                b: 110,
+                l: 50,
+                t: 10
             }
         };
 
-        Plotly.newPlot('sentimentboxEntity', boxTraces, boxLayout);
-
+        Plotly.newPlot('sentimentboxEntity', boxTraces, boxLayout,config);
     }
     function createSelect() {
         var nercountsy = nerCounts[yearS] || nerCounts["all"];
@@ -216,34 +993,32 @@
             typeSelect.appendChild(option);
         });
     }
-    function updateTable() {
+    function updateTable(resetPage = false) {
+     
+        if (resetPage) {
+            currentPage = 1;
+        }
+
         var entitySentimentsY = entitySentiments[yearS] || entitySentiments["all"]
         var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"]
         const categoryFilter = document.getElementById('categoryFilter');
         const sortBy = document.getElementById('sortBy');
         const sortOrder = document.getElementById('sortOrder');
         const tableBody = document.getElementById('entityTableBody');
-
-
-
+        const pageNumber = document.getElementById('pageNumber');
+        const totalPagesElem = document.getElementById('totalPages');
+        const nextPageButton = document.getElementById('nextPage');
+        const prevPageButton = document.getElementById('prevPage');
 
         let filteredEntities = groupedEntitiesY;
 
-        // Filtrace podle kategorie
         const selectedCategory = categoryFilter.value;
-
-
-        const headerCell = document.getElementById('entityTableHead'); // Nahraď 'yourThId' skutečným id
-        if (headerCell) {
-            headerCell.textContent = selectedCategory;
-        }
         if (selectedCategory) {
             filteredEntities = Object.fromEntries(
                 Object.entries(groupedEntitiesY).filter(([key]) => key === selectedCategory)
             );
         }
 
-        // Třídění
         const sortByValue = sortBy.value;
         const sortOrderValue = sortOrder.value === 'asc' ? 1 : -1;
 
@@ -270,42 +1045,64 @@
             };
         });
 
+        const totalItems = sortedEntities.reduce((acc, { entities }) => acc + entities.length, 0);
+        const totalPages = Math.ceil(totalItems / rowsPerPage);
 
+        const startIndex = (currentPage - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+
+        const paginatedEntities = sortedEntities.map(({ entityType, entities }) => {
+            return {
+                entityType: entityType,
+                entities: entities.slice(startIndex, endIndex)
+            };
+        });
 
         tableBody.innerHTML = '';
 
-        const maxEntitiesCount = Math.max(...sortedEntities.map(item => item.entities.length));
+        paginatedEntities.forEach(({ entityType, entities }) => {
+            entities.forEach(entity => {
+                let row = document.createElement('tr');
 
-        for (let i = 0; i < maxEntitiesCount; i++) {
-            let row = document.createElement('tr');
+                let nameCell = document.createElement('td');
+                nameCell.innerHTML = `<strong>${entity.key || '-'}</strong>`;
 
-            sortedEntities.forEach(({ entityType, entities }) => {
-                let cell = document.createElement('td');
+                let countCell = document.createElement('td');
+                countCell.textContent = entity.value || '-';
+                countCell.style.textAlign = 'left';
 
-                const entity = entities[i] || {};
-                const sentiment = entitySentimentsY.find(x => x.entityName === entity.key && x.entityType === entityType)?.averageSentiment || '-';
-                console.log(sentiment)
+                let sentimentCell = document.createElement('td');
+                const sentimentObj = entitySentimentsY.find(x => x.entityName === entity.key && x.entityType === entityType);
+                const sentiment = sentimentObj?.averageSentiment != null
+                    ? sentimentObj.averageSentiment.toFixed(2)
+                    : '-';
 
-                if (entity.key) {
-                    cell.innerHTML = `<strong>${entity.key}</strong>:<p>Počet výskytů: ${entity.value}</p><p>Prům. sentiment: ${sentiment}</p>`;
+                sentimentCell.textContent = sentiment;
+                sentimentCell.style.textAlign = 'left';
 
-                } else {
-                    cell.textContent = '-';
-                }
-                row.appendChild(cell);
+                row.appendChild(nameCell);
+                row.appendChild(countCell);
+                row.appendChild(sentimentCell);
+                tableBody.appendChild(row);
             });
+        });
 
-            tableBody.appendChild(row);
-        }
+
+        pageNumber.textContent = currentPage;
+        totalPagesElem.textContent = totalPages;
+
+        nextPageButton.disabled = currentPage >= totalPages;
+        prevPageButton.disabled = currentPage <= 1;
     }
     function updateChartCounts() {
         var nercountsy = nerCounts[yearS] || nerCounts["all"];
+        
         var selectedType = document.getElementById('typeSelect').value;
 
         console.log(selectedType)
         if (selectedType && nercountsy[selectedType]) {
 
-            var entities = nercountsy[selectedType];
+            var entities = nercountsy[selectedType].slice(0,30);
             var entityNames = entities.map(function (e) { return e.key; });
             var entityCounts = entities.map(function (e) { return e.value; });
 
@@ -317,19 +1114,22 @@
             };
 
             var layout = {
-                title: 'Frekvence entit typu ' + selectedType,
+              
                 xaxis: {
-                    title: ''
+                    title: '', tickangle: -45
                 },
                 yaxis: {
-                    title: ''
+                    title: 'Počet výskytů'
                 },
-                width: biggerWidth,
-                height: heightValue
+                autosize:true,
+                margin: {
+                b: 110,t:10
+
+                }
             };
 
 
-            Plotly.newPlot('barplotCounts', [trace], layout);
+            Plotly.newPlot('barplotCounts', [trace], layout,config);
         }
     }
     function showNerGraphs() {
@@ -337,8 +1137,8 @@
 
 
         populateCategoryFilter();
-        createCheckbox();
-        updateChartER();
+       // createCheckbox();
+       // updateChartER();
 
         showEntTypeBar()
 
@@ -350,14 +1150,20 @@
         populateSelect();
 
 
-        document.getElementById('entityTypeSelect').value = document.getElementById('entityTypeSelect').options[0].value;
-        updateChart();
+        document.getElementById('entityTypeSelectBar').value = document.getElementById('entityTypeSelectBar').options[0].value;
+        updateBarChart();
 
 
-        document.getElementById('entityTypeSelect').addEventListener('change', function () {
-            updateChart();
+        document.getElementById('entityTypeSelectBar').addEventListener('change', function () {
+            updateBarChart();
         });
+        document.getElementById('entityTypeSelectBox').value = document.getElementById('entityTypeSelectBox').options[0].value;
+        updateBoxPlot();
 
+
+        document.getElementById('entityTypeSelectBox').addEventListener('change', function () {
+            updateBoxPlot();
+        });
         
 
         createSelect();
@@ -371,160 +1177,384 @@
 
       
 
-        updateTable();
-        categoryFilter.addEventListener('change', updateTable);
-        sortBy.addEventListener('change', updateTable);
-        sortOrder.addEventListener('change', updateTable);
+        updateTable(true);
+        categoryFilter.addEventListener('change', () => updateTable(true));
+        sortBy.addEventListener('change', () => updateTable(true));
+        sortOrder.addEventListener('change', () => updateTable(true));
+
 
         
         
     }
 
+
+    function hide() {
+        document.getElementById("stats").style.display = "none";
+        document.getElementById("coo_name").style.display = "none";
+        document.getElementById("coo_mix").style.display = "none";
+        document.getElementById("w2v_names").style.display = "none";
+        document.getElementById("w2v_mix").style.display = "none";
+    }
     document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("yearFilter").addEventListener("change", function () {
             const selectedYear = this.value;
             updateStatistics(selectedYear);
         });
         showNerGraphs()
+        document.getElementById('prevPage').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+            }
+        });
+        var groupedEntitiesY = groupedEntities[yearS] || groupedEntities["all"]
+        document.getElementById('nextPage').addEventListener('click', () => {
+           
+         
+                currentPage++;
+                updateTable(); 
+            
+        });
+
+        document.getElementById("statsB").addEventListener("click", function () {
+            hide();
+            document.getElementById("stats").style.display = "block";
+
+        });
+        document.getElementById("coo_nameB").addEventListener("click", function () {
+            hide();
+            document.getElementById("coo_name").style.display = "flex";
+
+        });
+        document.getElementById("coo_mixB").addEventListener("click", function () {
+            hide();
+            document.getElementById("coo_mix").style.display = "flex";
+
+        });
+        document.getElementById("w2v_namesB").addEventListener("click", function () {
+            hide();
+            document.getElementById("w2v_names").style.display = "flex";
+
+        });
+        document.getElementById("w2v_mixB").addEventListener("click", function () {
+            hide();
+            document.getElementById("w2v_mix").style.display = "flex";
+
+        });
+        show_coo_names_graph("/data/cooc_names_all_community.csv",10);
+        show_coo_mix_graph("/data/cooc_mix_all_community.csv", 20);
+        show_w2v_names_graph("/data/w2v_ps_net_community.csv", 0.6)
+        show_w2v_mix_graph("/data/w2v_mix_net_community.csv", 0.6)
+       // show_coo_names_n_graph("/data/coocurence_net_names_jc_communities.csv");
+       // show_coo_mix_n_graph("/data/coocurence_net_names_jc_communities.csv")
 
 
+        document.getElementById("slider_mix").addEventListener("input", debounce(function () {
+            document.getElementById('sliderValueMix').textContent = this.value;
+            show_coo_mix_graph("/data/cooc_mix_all_community.csv", this.value);
+
+
+        },200));
+        document.getElementById("slider_names").addEventListener("input", debounce(function () {
+            document.getElementById('sliderValueNames').textContent = this.value;
+            show_coo_names_graph("/data/cooc_names_all_community.csv", this.value);
+
+
+        }, 200));
+        document.getElementById("slider_namesW").addEventListener("input", debounce(function () {
+            document.getElementById('sliderValueNamesW').textContent = this.value;
+            show_w2v_names_graph("/data/w2v_ps_net_community.csv", this.value)
+
+
+
+        }, 200));
+        document.getElementById("slider_mixW").addEventListener("input", debounce(function () {
+            document.getElementById('sliderValueMixW').textContent = this.value;
+            show_w2v_mix_graph("/data/w2v_mix_net_community.csv", this.value)
+
+
+        }, 200));
     });
 
 
       
 </script>
-<h1>Analýza výskytu entit ve vyjádřeních</h1>
-<div class="row justify-content-start mb-3">
-    <div class="col-md-4">
-        <select id="yearFilter" class="form-select">
-            <option value="">Všechna vyjádření</option>
-            @for (int year = 2016; year <= 2023; year++)
-            {
-                <option value="@year.ToString()">@year</option>
-            }
-        </select>
+
+<div class="chart-card" style="margin-bottom:15px;">
+
+    <div class="chart-header">
+        <h2 class="chart-title">Analýza zmiňovaných entit</h2>
+        <p class="chart-subtitle">
+            Na této stránce jsou zobrazeny základní statistiky týkající se entit zmiňovaných v příspěvcích.
+        </p>
+       
+        <p class="chart-subtitle">
+            Lze zde vidět nejzmiňovanější typy entit, nejzmiňovanějších entity v jednotlivých typech či použitý sentiment. Tyto informace jsou také souhrně zobrazeny v tabulce, kterou lze filtrovat a řadit.
+        </p>
+        <p class="chart-subtitle">
+            Kromě statistik si lze zobrazit také sítě spoluvýskytu entit či sítě vytvořené pomocí Word2Vec.
+        </p>
+        
+    </div>
+
+    <div class="mini-navbar">
+     
+        <div class="navbar-buttons">
+            <button class="nav-btn" id="statsB">Statistiky entit</button>
+            <button class="nav-btn" id="coo_mixB">Síť spoluvýskytu entit (Kombinace typů)</button>
+            <button class="nav-btn" id="coo_nameB">Síť spoluvýskytu entit (Osoby)</button>
+
+            <button class="nav-btn" id="w2v_namesB">Síť entit dle podobnosti Word2Vec (Osoby)</button>
+            <button class="nav-btn" id="w2v_mixB">Síť entit dle podobnosti Word2Vec (Kombinace typů)</button>
+        </div>
     </div>
 </div>
-<div id="ner" class="sentiment_page">
 
-    <div class="left-panel-ner">
-        <div class="card">
-            <div class="card-header">
-                <h3>Nejzmiňovanější entity</h3>
-            </div>
-            <div class="card-body">
 
-                <div class="block">
+<div id="stats">
+    
+    <div class="chart-card">
 
-                    <div id="entitytype_bar" class="chart-container"></div>
+    <div class="chart-header">
+            <h3 class="chart-title">Statistiky</h3>
+     
+        <p class="d-flex align-items-center">
+            <span class="me-2">Zobrazit statistiky entit pro rok:</span>
+            <select id="yearFilter" class="form-select w-auto">
+                <option value="">Všechny roky</option>
+                @for (int year = 2016; year <= 2022; year++)
+                {
+                    <option value="@year.ToString()">@year</option>
+                }
+            </select>
+        </p>
+
+
+
+    </div></div>
+    
+    <div id="ner" class="sentiment_page">
+
+        <div class="left-panel-ner">
+
+            <div class="chart-card-bg_full">
+                <div class="chart-header">
+                    <h3 class="chart-title">Nejzmiňovanější typy entit</h3>
+                    <p class="chart-subtitle"></p>
                 </div>
+                <div id="entitytype_bar" class="chart-container"></div>
 
-                <div class="block">
-                    <div class="dropdown-time">
-                        <label for="typeSelect">Vyberte typ:</label>
-                        <select id="typeSelect" class="form-select">
+            </div>
+            <div class="chart-card-bg_full">
+                <div class="chart-header">
+                    <h3 class="chart-title">Nejzmiňovanější entity</h3>
+
+                    <div class="typeselect">
+                        <label for="typeSelect" style="white-space: nowrap;">Vyberte typ:</label>
+                        <select id="typeSelect" class="form-select" style="flex: 1; min-width: 200px;">
                             <option value="">--Vyberte typ--</option>
-                        
                         </select>
                     </div>
-                    
-                    <div id="barplotCounts"></div>
+
                 </div>
+
+                <div id="barplotCounts" class="chart-container"></div>
+
             </div>
+
+
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                <h3>Sentiment ve zmínkách</h3>
-            </div>
-            <div class="card-body">
-                <div class="dropdown-time">
-                    <label for="entityTypeSelect">Vyberte typ:</label>
-                    <select id="entityTypeSelect" onchange="updateChart()" class="form-select">
 
-                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="right-panel-ner">
+            <div class="table-container_right">
+                <div id="filter-panel" class="d-flex gap-2 align-items-center p-3 border filter-panel">
+                    <label for="categoryFilter" class="form-label mb-0">Kategorie:</label>
+                    <select id="categoryFilter" class="form-select"></select>
+
+                    <label for="sortBy" class="form-label mb-0">Řadit dle:</label>
+                    <select id="sortBy" class="form-select">
+                        <option value="alphabetical">Abecedně</option>
+                        <option value="sentiment">Sentiment</option>
+                        <option value="count">Počet výskytů</option>
+                    </select>
+
+
+                    <select id="sortOrder" class="form-select">
+                        <option value="asc">Vzestupně</option>
+                        <option value="desc">Sestupně</option>
                     </select>
                 </div>
-                <div class="block">
 
-                    <div id="sentimentBarplot" class="chart-container"></div>
-                    
-                </div>
-                <div class="block">
-                    <div id="sentimentboxEntity" class="chart-container"></div>
-                </div>
+
+                <table id="entityTable" class="table styled-table">
+                    <thead>
+                        <tr>
+                            <th>Entita</th>
+                            <th>Počet výskytů</th>
+                            <th>Prům. sentiment</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="entityTableBody"></tbody>
+                </table>
             </div>
 
-        </div>
-
-
-        <div class="card">
-            <div class="card-header">
-                <h3>Politici a entity</h3>
+            <div id="pagination" class="pagination">
+                <button id="prevPage">Předchozí</button>
+                <span id="pageNumber">1</span> z <span id="totalPages">1</span>
+                <button id="nextPage">Další</button>
             </div>
-            <div class="card-body">
 
-                <div class="block">
-                   
-                    <div class="row">
-                        <div class="col-md-auto">
 
-                            <form id="politician-list-er" class="form-group custom-form" style="max-height: 400px; overflow-y: auto;">
-                            </form>
 
-                        </div>
-
-                        <div class="col-md-8 ">
-                            <div id="entity_ratio" class="chart-container"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-
-   
- 
-
-        
-  
-
-    
-  
-
-
-
-  
-    
-   
-    
-    <div class="right-panel-ner">
-        <div id="filter-panel" class="d-flex gap-2 align-items-center p-3 border rounded bg-light filter-panel">
-            <!-- Filtry -->
-            <select id="categoryFilter" class="form-select">
-                <option value="">Vyber kategorii</option>
-              
-            </select>
-
-            <select id="sortBy" class="form-select">
-                <option value="alphabetical">Abecedně</option>
-                <option value="sentiment">Sentiment</option>
-                <option value="count">Počet výskytů</option>
-            </select>
-
-            <select id="sortOrder" class="form-select">
-                <option value="asc">Vzestupně</option>
-                <option value="desc">Sestupně</option>
-            </select>
-        </div>
-
-        <table id="entityTable" class="table styled-table">
-            <thead>
-                <tr id="entityTableHeadRow"></tr>
-            </thead>
-            <tbody id="entityTableBody"></tbody>
-        </table>
 
     </div>
+    <div class="bottom-panel">
+        <div class="chart-card-bg">
+            <div class="chart-header">
+                <h3 class="chart-title">Sentiment v entitách</h3>
+                <p class="chart-subtitle">Průměrný sentiment příspěvků obsahující jednotlivé entity</p>
+                <div class="dropdown-time">
+                    <label for="entityTypeSelectBar">Vyberte typ:</label>
+                    <select id="entityTypeSelectBar" onchange="updateBarChart()" class="form-select">
+                    </select>
+                </div>
 
+            </div>
+            <div class="chart-container1">
+                <div id="sentimentBarplot" class="chart-container"></div>
+            </div>
+        </div>
+        <div class="chart-card-bg">
+            <div class="chart-header">
+                <h3 class="chart-title">Sentiment v entitách</h3>
+                <p class="chart-subtitle">Rozložení sentimentu příspěvků obsahující jednotlivé entity</p>
+                <div class="dropdown-time">
+                    <label for="entityTypeSelectBox">Vyberte typ:</label>
+                    <select id="entityTypeSelectBox" onchange="updateBoxPlot()" class="form-select">
+                    </select>
+                </div>
+
+            </div>
+            <div class="chart-container1">
+                <div id="sentimentboxEntity" class="chart-container"></div>
+            </div>
+        </div>
+
+
+
+        <!--
+        <div class="chart-card-bg">
+            <div class="chart-header">
+                <h3 class="chart-title">Míra užití entit politiky</h3>
+                <p class="chart-subtitle">Podíl počtu entit k celkovému počtu slov (v %) </p>
+
+
+            </div>
+
+            <div class="graphrow">
+                <div class="form-container1">
+                    <h3 class="form-header">Vyberte politiky:</h3>
+                    <form id="politician-list-er" class="form-group custom-form">
+                    </form>
+                </div>
+
+                <div class="chart-container1">
+                    <div id="entity_ratio" class="chart-container"></div>
+                </div>
+            </div>
+
+        </div>-->
+    </div>
 </div>
+<div id="coo_name" class="export-container" style="display: none;">
+
+   
+    <div class="g-header">
+        <h3>Síť spoluvýskytu entit (Osoby) </h3>
+        <div class="slider-container">
+            <div class="slider-label">
+                Minimální váha hrany:
+                <span id="sliderValueNames" class="slider-value">10</span>
+            </div>
+            <input type="range" min="10" max="100" value="10" id="slider_names">
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "cooc_names_all.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="coo_name_svg" class="svg1"></svg>
+</div>
+
+
+<div id="coo_mix" class="export-container" style="display: none;">
+    <div class="g-header">
+        <h3>Síť spoluvýskytu entit (MIX) </h3>
+        <div class="slider-container">
+            <div class="slider-label">
+                Minimální váha hrany:
+                <span id="sliderValueMix" class="slider-value">20</span>
+            </div>
+            <input type="range" min="20" max="100" value="20" id="slider_mix">
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "cooc_mix_all.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="coo_mix_svg" class="svg1"></svg>
+</div>
+
+<div id="w2v_names" class="export-container" style="display: none;">
+    <div class="g-header">
+        <h3>Síť entit dle podobnosti Word2Vec (Osoby) </h3>
+        <div class="slider-container">
+            <div class="slider-label">
+                Minimální váha hrany:
+                <span id="sliderValueNamesW" class="slider-value">0.6</span>
+            </div>
+            <input type="range" min="0.6" max="1" step="0.01" value="0.6" id="slider_namesW">
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "w2v_ps_net.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="w2v_names_svg" class="svg1"></svg>
+</div>
+<div id="w2v_mix" class="export-container" style="display: none;">
+    <div class="g-header">
+        <h3>Síť entit dle podobnosti Word2Vec (kombinace typů)</h3>
+        <div class="slider-container">
+            <div class="slider-label">
+                Minimální váha hrany:
+                <span id="sliderValueMixW" class="slider-value">0.6</span>
+            </div>
+            <input type="range" min="0.6" max="1" step="0.01" value="0.6" id="slider_mixW">
+        </div>
+        <a href="@Url.Action("ExportGexf", "Home", new { fileName = "w2v_mix_net.gexf" })"
+           class="btn mybtn">
+            Exportovat (.gexf)
+        </a>
+    </div>
+    <svg id="w2v_mix_svg" class="svg1"></svg>
+</div>
+
+

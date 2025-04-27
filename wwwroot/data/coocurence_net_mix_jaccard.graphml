@@ -1,0 +1,1456 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d0" for="node" attr.name="community" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="Sobotka">
+      <data key="d0">0</data>
+    </node>
+    <node id="Bělobrádek">
+      <data key="d0">0</data>
+    </node>
+    <node id="Le Pen">
+      <data key="d0">1</data>
+    </node>
+    <node id="Svobodný">
+      <data key="d0">1</data>
+    </node>
+    <node id="Dukovany">
+      <data key="d0">2</data>
+    </node>
+    <node id="Temelín">
+      <data key="d0">2</data>
+    </node>
+    <node id="David">
+      <data key="d0">5</data>
+    </node>
+    <node id="Novotný">
+      <data key="d0">5</data>
+    </node>
+    <node id="Prostějov">
+      <data key="d0">1</data>
+    </node>
+    <node id="Opava">
+      <data key="d0">5</data>
+    </node>
+    <node id="Šumperk">
+      <data key="d0">5</data>
+    </node>
+    <node id="Hahnova">
+      <data key="d0">5</data>
+    </node>
+    <node id="Dopita">
+      <data key="d0">5</data>
+    </node>
+    <node id="HENNER">
+      <data key="d0">5</data>
+    </node>
+    <node id="Paul">
+      <data key="d0">5</data>
+    </node>
+    <node id="Schmeidler">
+      <data key="d0">1</data>
+    </node>
+    <node id="Macron">
+      <data key="d0">6</data>
+    </node>
+    <node id="Juncker">
+      <data key="d0">6</data>
+    </node>
+    <node id="Svoboda">
+      <data key="d0">7</data>
+    </node>
+    <node id="Národní sdružení">
+      <data key="d0">1</data>
+    </node>
+    <node id="Národní shromáždění">
+      <data key="d0">7</data>
+    </node>
+    <node id="Rassemblement national">
+      <data key="d0">7</data>
+    </node>
+    <node id="Wilderse">
+      <data key="d0">7</data>
+    </node>
+    <node id="TV Prima">
+      <data key="d0">8</data>
+    </node>
+    <node id="Partie">
+      <data key="d0">8</data>
+    </node>
+    <node id="Moravec">
+      <data key="d0">9</data>
+    </node>
+    <node id="Otázky Václava Moravce">
+      <data key="d0">9</data>
+    </node>
+    <node id="Trikolóra">
+      <data key="d0">10</data>
+    </node>
+    <node id="Klaus ml.">
+      <data key="d0">10</data>
+    </node>
+    <node id="Legum">
+      <data key="d0">1</data>
+    </node>
+    <node id="ENF">
+      <data key="d0">11</data>
+    </node>
+    <node id="Evropa národů a svoboda">
+      <data key="d0">11</data>
+    </node>
+    <node id="Jihlava">
+      <data key="d0">1</data>
+    </node>
+    <node id="Chomutov">
+      <data key="d0">5</data>
+    </node>
+    <node id="Jihlavy">
+      <data key="d0">1</data>
+    </node>
+    <node id="PS PČR">
+      <data key="d0">1</data>
+    </node>
+    <node id="Horák">
+      <data key="d0">1</data>
+    </node>
+    <node id="Opavy">
+      <data key="d0">5</data>
+    </node>
+    <node id="Příbram">
+      <data key="d0">1</data>
+    </node>
+    <node id="Blansko">
+      <data key="d0">1</data>
+    </node>
+    <node id="Trutnov">
+      <data key="d0">5</data>
+    </node>
+    <node id="Prostějova">
+      <data key="d0">1</data>
+    </node>
+    <node id="Armáda ČR">
+      <data key="d0">5</data>
+    </node>
+    <node id="Liberec">
+      <data key="d0">5</data>
+    </node>
+    <node id="Doležal">
+      <data key="d0">1</data>
+    </node>
+    <node id="Úřad práce">
+      <data key="d0">1</data>
+    </node>
+    <node id="Polčák">
+      <data key="d0">12</data>
+    </node>
+    <node id="Poche">
+      <data key="d0">12</data>
+    </node>
+    <node id="Feri">
+      <data key="d0">13</data>
+    </node>
+    <node id="Eurozóna">
+      <data key="d0">13</data>
+    </node>
+    <node id="Eurostat">
+      <data key="d0">14</data>
+    </node>
+    <node id="Hannan">
+      <data key="d0">14</data>
+    </node>
+    <node id="Nos">
+      <data key="d0">1</data>
+    </node>
+    <node id="Hrnčíř">
+      <data key="d0">1</data>
+    </node>
+    <node id="Atkinson">
+      <data key="d0">15</data>
+    </node>
+    <node id="Bárta">
+      <data key="d0">1</data>
+    </node>
+    <node id="Šojdrová">
+      <data key="d0">12</data>
+    </node>
+    <node id="Zdechovský">
+      <data key="d0">12</data>
+    </node>
+    <node id="Ježek">
+      <data key="d0">12</data>
+    </node>
+    <node id="Niedermayer">
+      <data key="d0">12</data>
+    </node>
+    <node id="Teličko">
+      <data key="d0">12</data>
+    </node>
+    <node id="Karlovy Vary">
+      <data key="d0">5</data>
+    </node>
+    <node id="Blaško">
+      <data key="d0">5</data>
+    </node>
+    <node id="Facebook">
+      <data key="d0">3</data>
+    </node>
+    <node id="Google">
+      <data key="d0">3</data>
+    </node>
+    <node id="Starostové a nezávislí">
+      <data key="d0">13</data>
+    </node>
+    <node id="Pospíšil">
+      <data key="d0">12</data>
+    </node>
+    <node id="Charanzová">
+      <data key="d0">12</data>
+    </node>
+    <node id="Dlabajová">
+      <data key="d0">12</data>
+    </node>
+    <node id="Zlín">
+      <data key="d0">5</data>
+    </node>
+    <node id="Jakl">
+      <data key="d0">5</data>
+    </node>
+    <node id="Jedlička">
+      <data key="d0">14</data>
+    </node>
+    <node id="Konzervativní strana">
+      <data key="d0">14</data>
+    </node>
+    <node id="Agrární komora ČR">
+      <data key="d0">4</data>
+    </node>
+    <node id="Palacký">
+      <data key="d0">4</data>
+    </node>
+    <node id="Jandejsek">
+      <data key="d0">4</data>
+    </node>
+    <node id="SPO">
+      <data key="d0">15</data>
+    </node>
+    <node id="Brichta">
+      <data key="d0">15</data>
+    </node>
+    <node id="Mnichově">
+      <data key="d0">4</data>
+    </node>
+    <node id="České Budějovice">
+      <data key="d0">5</data>
+    </node>
+    <node id="Litoměřice">
+      <data key="d0">5</data>
+    </node>
+    <node id="Teplice">
+      <data key="d0">5</data>
+    </node>
+    <edge source="Sobotka" target="Bělobrádek">
+      <data key="d1">0.17061143984220908</data>
+    </edge>
+    <edge source="Le Pen" target="Svobodný">
+      <data key="d1">0.18294849023090587</data>
+    </edge>
+    <edge source="Svobodný" target="Národní sdružení">
+      <data key="d1">0.23076923076923078</data>
+    </edge>
+    <edge source="Svobodný" target="Legum">
+      <data key="d1">0.19642857142857142</data>
+    </edge>
+    <edge source="Dukovany" target="Temelín">
+      <data key="d1">0.19435736677115986</data>
+    </edge>
+    <edge source="David" target="Novotný">
+      <data key="d1">0.15579710144927536</data>
+    </edge>
+    <edge source="David" target="Prostějov">
+      <data key="d1">0.15808823529411764</data>
+    </edge>
+    <edge source="David" target="Opava">
+      <data key="d1">0.16538461538461538</data>
+    </edge>
+    <edge source="David" target="Šumperk">
+      <data key="d1">0.16602316602316602</data>
+    </edge>
+    <edge source="David" target="Hahnova">
+      <data key="d1">0.16996047430830039</data>
+    </edge>
+    <edge source="David" target="Dopita">
+      <data key="d1">0.176</data>
+    </edge>
+    <edge source="David" target="HENNER">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="David" target="Paul">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="David" target="Schmeidler">
+      <data key="d1">0.17269076305220885</data>
+    </edge>
+    <edge source="Novotný" target="Evropa národů a svoboda">
+      <data key="d1">0.15476190476190477</data>
+    </edge>
+    <edge source="Novotný" target="Hrnčíř">
+      <data key="d1">0.21641791044776118</data>
+    </edge>
+    <edge source="Novotný" target="Armáda ČR">
+      <data key="d1">0.25217391304347825</data>
+    </edge>
+    <edge source="Novotný" target="Doležal">
+      <data key="d1">0.25663716814159293</data>
+    </edge>
+    <edge source="Novotný" target="Úřad práce">
+      <data key="d1">0.2636363636363636</data>
+    </edge>
+    <edge source="Novotný" target="Národní sdružení">
+      <data key="d1">0.24074074074074073</data>
+    </edge>
+    <edge source="Novotný" target="Legum">
+      <data key="d1">0.20952380952380953</data>
+    </edge>
+    <edge source="Novotný" target="Opava">
+      <data key="d1">0.22772277227722773</data>
+    </edge>
+    <edge source="Novotný" target="Chomutov">
+      <data key="d1">0.5121951219512195</data>
+    </edge>
+    <edge source="Novotný" target="Šumperk">
+      <data key="d1">0.5375</data>
+    </edge>
+    <edge source="Novotný" target="Horák">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Novotný" target="Hahnova">
+      <data key="d1">0.581081081081081</data>
+    </edge>
+    <edge source="Novotný" target="Opavy">
+      <data key="d1">0.19791666666666666</data>
+    </edge>
+    <edge source="Novotný" target="HENNER">
+      <data key="d1">0.25555555555555554</data>
+    </edge>
+    <edge source="Novotný" target="Paul">
+      <data key="d1">0.6142857142857143</data>
+    </edge>
+    <edge source="Novotný" target="Příbram">
+      <data key="d1">0.3493975903614458</data>
+    </edge>
+    <edge source="Novotný" target="Blansko">
+      <data key="d1">0.35365853658536583</data>
+    </edge>
+    <edge source="Novotný" target="Trutnov">
+      <data key="d1">0.37037037037037035</data>
+    </edge>
+    <edge source="Prostějov" target="Evropa národů a svoboda">
+      <data key="d1">0.15853658536585366</data>
+    </edge>
+    <edge source="Prostějov" target="Hrnčíř">
+      <data key="d1">0.2230769230769231</data>
+    </edge>
+    <edge source="Prostějov" target="Blaško">
+      <data key="d1">0.16260162601626016</data>
+    </edge>
+    <edge source="Prostějov" target="Doležal">
+      <data key="d1">0.26605504587155965</data>
+    </edge>
+    <edge source="Prostějov" target="Úřad práce">
+      <data key="d1">0.27358490566037735</data>
+    </edge>
+    <edge source="Prostějov" target="Národní sdružení">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Prostějov" target="Legum">
+      <data key="d1">0.21782178217821782</data>
+    </edge>
+    <edge source="Prostějov" target="Jihlava">
+      <data key="d1">0.3118279569892473</data>
+    </edge>
+    <edge source="Prostějov" target="Šumperk">
+      <data key="d1">0.5866666666666667</data>
+    </edge>
+    <edge source="Prostějov" target="Jihlavy">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Prostějov" target="PS PČR">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Prostějov" target="Horák">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Prostějov" target="Dopita">
+      <data key="d1">0.6323529411764706</data>
+    </edge>
+    <edge source="Prostějov" target="Příbram">
+      <data key="d1">0.3670886075949367</data>
+    </edge>
+    <edge source="Prostějov" target="Blansko">
+      <data key="d1">0.38961038961038963</data>
+    </edge>
+    <edge source="Prostějov" target="Trutnov">
+      <data key="d1">0.3717948717948718</data>
+    </edge>
+    <edge source="Opava" target="ENF">
+      <data key="d1">0.15853658536585366</data>
+    </edge>
+    <edge source="Opava" target="Evropa národů a svoboda">
+      <data key="d1">0.17105263157894737</data>
+    </edge>
+    <edge source="Opava" target="Hrnčíř">
+      <data key="d1">0.2457627118644068</data>
+    </edge>
+    <edge source="Opava" target="Blaško">
+      <data key="d1">0.25961538461538464</data>
+    </edge>
+    <edge source="Opava" target="Armáda ČR">
+      <data key="d1">0.1743119266055046</data>
+    </edge>
+    <edge source="Opava" target="Liberec">
+      <data key="d1">0.15315315315315314</data>
+    </edge>
+    <edge source="Opava" target="Doležal">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Opava" target="Úřad práce">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="Opava" target="Národní sdružení">
+      <data key="d1">0.2826086956521739</data>
+    </edge>
+    <edge source="Opava" target="Legum">
+      <data key="d1">0.24719101123595505</data>
+    </edge>
+    <edge source="Opava" target="Chomutov">
+      <data key="d1">0.6363636363636364</data>
+    </edge>
+    <edge source="Opava" target="Šumperk">
+      <data key="d1">0.6984126984126984</data>
+    </edge>
+    <edge source="Opava" target="Horák">
+      <data key="d1">0.3918918918918919</data>
+    </edge>
+    <edge source="Opava" target="Hahnova">
+      <data key="d1">0.7413793103448276</data>
+    </edge>
+    <edge source="Opava" target="Opavy">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="Opava" target="Paul">
+      <data key="d1">0.7962962962962963</data>
+    </edge>
+    <edge source="Opava" target="Příbram">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Opava" target="Blansko">
+      <data key="d1">0.46153846153846156</data>
+    </edge>
+    <edge source="Opava" target="Trutnov">
+      <data key="d1">0.4393939393939394</data>
+    </edge>
+    <edge source="Šumperk" target="ENF">
+      <data key="d1">0.15950920245398773</data>
+    </edge>
+    <edge source="Šumperk" target="Evropa národů a svoboda">
+      <data key="d1">0.17218543046357615</data>
+    </edge>
+    <edge source="Šumperk" target="Nos">
+      <data key="d1">0.38738738738738737</data>
+    </edge>
+    <edge source="Šumperk" target="Hrnčíř">
+      <data key="d1">0.24786324786324787</data>
+    </edge>
+    <edge source="Šumperk" target="Karlovy Vary">
+      <data key="d1">0.19166666666666668</data>
+    </edge>
+    <edge source="Šumperk" target="Blaško">
+      <data key="d1">0.4942528735632184</data>
+    </edge>
+    <edge source="Šumperk" target="Armáda ČR">
+      <data key="d1">0.29591836734693877</data>
+    </edge>
+    <edge source="Šumperk" target="Liberec">
+      <data key="d1">0.29591836734693877</data>
+    </edge>
+    <edge source="Šumperk" target="Doležal">
+      <data key="d1">0.3020833333333333</data>
+    </edge>
+    <edge source="Šumperk" target="Úřad práce">
+      <data key="d1">0.3118279569892473</data>
+    </edge>
+    <edge source="Šumperk" target="Národní sdružení">
+      <data key="d1">0.2857142857142857</data>
+    </edge>
+    <edge source="Šumperk" target="Legum">
+      <data key="d1">0.25</data>
+    </edge>
+    <edge source="Šumperk" target="Jihlava">
+      <data key="d1">0.379746835443038</data>
+    </edge>
+    <edge source="Šumperk" target="Chomutov">
+      <data key="d1">0.6461538461538462</data>
+    </edge>
+    <edge source="Šumperk" target="Jihlavy">
+      <data key="d1">0.38666666666666666</data>
+    </edge>
+    <edge source="Šumperk" target="PS PČR">
+      <data key="d1">0.38666666666666666</data>
+    </edge>
+    <edge source="Šumperk" target="Horák">
+      <data key="d1">0.3972602739726027</data>
+    </edge>
+    <edge source="Šumperk" target="Litoměřice">
+      <data key="d1">0.16091954022988506</data>
+    </edge>
+    <edge source="Šumperk" target="Hahnova">
+      <data key="d1">0.7543859649122807</data>
+    </edge>
+    <edge source="Šumperk" target="Dopita">
+      <data key="d1">0.7818181818181819</data>
+    </edge>
+    <edge source="Šumperk" target="Opavy">
+      <data key="d1">0.42028985507246375</data>
+    </edge>
+    <edge source="Šumperk" target="Teplice">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Šumperk" target="Paul">
+      <data key="d1">0.8113207547169812</data>
+    </edge>
+    <edge source="Šumperk" target="Příbram">
+      <data key="d1">0.4393939393939394</data>
+    </edge>
+    <edge source="Šumperk" target="Blansko">
+      <data key="d1">0.49206349206349204</data>
+    </edge>
+    <edge source="Šumperk" target="Trutnov">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Šumperk" target="Jakl">
+      <data key="d1">0.17721518987341772</data>
+    </edge>
+    <edge source="Šumperk" target="Prostějova">
+      <data key="d1">0.453125</data>
+    </edge>
+    <edge source="Hahnova" target="ENF">
+      <data key="d1">0.16560509554140126</data>
+    </edge>
+    <edge source="Hahnova" target="Evropa národů a svoboda">
+      <data key="d1">0.1793103448275862</data>
+    </edge>
+    <edge source="Hahnova" target="Karlovy Vary">
+      <data key="d1">0.20175438596491227</data>
+    </edge>
+    <edge source="Hahnova" target="Blaško">
+      <data key="d1">0.2653061224489796</data>
+    </edge>
+    <edge source="Hahnova" target="Armáda ČR">
+      <data key="d1">0.18627450980392157</data>
+    </edge>
+    <edge source="Hahnova" target="Liberec">
+      <data key="d1">0.31521739130434784</data>
+    </edge>
+    <edge source="Hahnova" target="Doležal">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Hahnova" target="Úřad práce">
+      <data key="d1">0.3333333333333333</data>
+    </edge>
+    <edge source="Hahnova" target="Národní sdružení">
+      <data key="d1">0.3058823529411765</data>
+    </edge>
+    <edge source="Hahnova" target="Legum">
+      <data key="d1">0.2682926829268293</data>
+    </edge>
+    <edge source="Hahnova" target="Jihlava">
+      <data key="d1">0.3918918918918919</data>
+    </edge>
+    <edge source="Hahnova" target="Chomutov">
+      <data key="d1">0.7413793103448276</data>
+    </edge>
+    <edge source="Hahnova" target="Jihlavy">
+      <data key="d1">0.42028985507246375</data>
+    </edge>
+    <edge source="Hahnova" target="Horák">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Hahnova" target="Litoměřice">
+      <data key="d1">0.1728395061728395</data>
+    </edge>
+    <edge source="Hahnova" target="Opavy">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="Hahnova" target="HENNER">
+      <data key="d1">0.9148936170212766</data>
+    </edge>
+    <edge source="Hahnova" target="Paul">
+      <data key="d1">0.9148936170212766</data>
+    </edge>
+    <edge source="Hahnova" target="Příbram">
+      <data key="d1">0.48333333333333334</data>
+    </edge>
+    <edge source="Hahnova" target="Blansko">
+      <data key="d1">0.4915254237288136</data>
+    </edge>
+    <edge source="Hahnova" target="Trutnov">
+      <data key="d1">0.4915254237288136</data>
+    </edge>
+    <edge source="Dopita" target="ENF">
+      <data key="d1">0.17532467532467533</data>
+    </edge>
+    <edge source="Dopita" target="Evropa národů a svoboda">
+      <data key="d1">0.19014084507042253</data>
+    </edge>
+    <edge source="Dopita" target="Karlovy Vary">
+      <data key="d1">0.20535714285714285</data>
+    </edge>
+    <edge source="Dopita" target="Blaško">
+      <data key="d1">0.18446601941747573</data>
+    </edge>
+    <edge source="Dopita" target="Liberec">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Dopita" target="Úřad práce">
+      <data key="d1">0.3411764705882353</data>
+    </edge>
+    <edge source="Dopita" target="Národní sdružení">
+      <data key="d1">0.32926829268292684</data>
+    </edge>
+    <edge source="Dopita" target="Legum">
+      <data key="d1">0.275</data>
+    </edge>
+    <edge source="Dopita" target="Jihlava">
+      <data key="d1">0.4027777777777778</data>
+    </edge>
+    <edge source="Dopita" target="Jihlavy">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Dopita" target="Horák">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Dopita" target="Opavy">
+      <data key="d1">0.47540983606557374</data>
+    </edge>
+    <edge source="Dopita" target="HENNER">
+      <data key="d1">0.9555555555555556</data>
+    </edge>
+    <edge source="Dopita" target="Paul">
+      <data key="d1">0.9555555555555556</data>
+    </edge>
+    <edge source="Dopita" target="Příbram">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge source="Dopita" target="Blansko">
+      <data key="d1">0.5087719298245614</data>
+    </edge>
+    <edge source="Dopita" target="Trutnov">
+      <data key="d1">0.5087719298245614</data>
+    </edge>
+    <edge source="Dopita" target="Prostějova">
+      <data key="d1">0.5178571428571429</data>
+    </edge>
+    <edge source="HENNER" target="ENF">
+      <data key="d1">0.16993464052287582</data>
+    </edge>
+    <edge source="HENNER" target="Evropa národů a svoboda">
+      <data key="d1">0.18439716312056736</data>
+    </edge>
+    <edge source="HENNER" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="HENNER" target="Karlovy Vary">
+      <data key="d1">0.20909090909090908</data>
+    </edge>
+    <edge source="HENNER" target="Blaško">
+      <data key="d1">0.5584415584415584</data>
+    </edge>
+    <edge source="HENNER" target="Armáda ČR">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="HENNER" target="Národní sdružení">
+      <data key="d1">0.32098765432098764</data>
+    </edge>
+    <edge source="HENNER" target="Legum">
+      <data key="d1">0.28205128205128205</data>
+    </edge>
+    <edge source="HENNER" target="České Budějovice">
+      <data key="d1">0.16470588235294117</data>
+    </edge>
+    <edge source="HENNER" target="Jihlava">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="HENNER" target="Chomutov">
+      <data key="d1">0.7636363636363637</data>
+    </edge>
+    <edge source="HENNER" target="Jihlavy">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="HENNER" target="PS PČR">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="HENNER" target="Horák">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="HENNER" target="Litoměřice">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="HENNER" target="Teplice">
+      <data key="d1">0.1891891891891892</data>
+    </edge>
+    <edge source="HENNER" target="Paul">
+      <data key="d1">0.16216216216216217</data>
+    </edge>
+    <edge source="HENNER" target="Schmeidler">
+      <data key="d1">0.1780821917808219</data>
+    </edge>
+    <edge source="HENNER" target="Blansko">
+      <data key="d1">0.5272727272727272</data>
+    </edge>
+    <edge source="HENNER" target="Trutnov">
+      <data key="d1">0.5272727272727272</data>
+    </edge>
+    <edge source="HENNER" target="Jakl">
+      <data key="d1">0.2028985507246377</data>
+    </edge>
+    <edge source="Paul" target="ENF">
+      <data key="d1">0.16993464052287582</data>
+    </edge>
+    <edge source="Paul" target="Evropa národů a svoboda">
+      <data key="d1">0.18439716312056736</data>
+    </edge>
+    <edge source="Paul" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="Paul" target="Karlovy Vary">
+      <data key="d1">0.20909090909090908</data>
+    </edge>
+    <edge source="Paul" target="Blaško">
+      <data key="d1">0.5584415584415584</data>
+    </edge>
+    <edge source="Paul" target="Armáda ČR">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Paul" target="Liberec">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Paul" target="Národní sdružení">
+      <data key="d1">0.32098765432098764</data>
+    </edge>
+    <edge source="Paul" target="Legum">
+      <data key="d1">0.28205128205128205</data>
+    </edge>
+    <edge source="Paul" target="České Budějovice">
+      <data key="d1">0.16470588235294117</data>
+    </edge>
+    <edge source="Paul" target="Jihlava">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="Paul" target="Chomutov">
+      <data key="d1">0.7636363636363637</data>
+    </edge>
+    <edge source="Paul" target="Jihlavy">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Paul" target="PS PČR">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Paul" target="Litoměřice">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Paul" target="Opavy">
+      <data key="d1">0.4915254237288136</data>
+    </edge>
+    <edge source="Paul" target="Blansko">
+      <data key="d1">0.5272727272727272</data>
+    </edge>
+    <edge source="Paul" target="Jakl">
+      <data key="d1">0.2028985507246377</data>
+    </edge>
+    <edge source="Paul" target="Prostějova">
+      <data key="d1">0.5370370370370371</data>
+    </edge>
+    <edge source="Schmeidler" target="ENF">
+      <data key="d1">0.16993464052287582</data>
+    </edge>
+    <edge source="Schmeidler" target="Evropa národů a svoboda">
+      <data key="d1">0.18439716312056736</data>
+    </edge>
+    <edge source="Schmeidler" target="Hrnčíř">
+      <data key="d1">0.27102803738317754</data>
+    </edge>
+    <edge source="Schmeidler" target="Karlovy Vary">
+      <data key="d1">0.20909090909090908</data>
+    </edge>
+    <edge source="Schmeidler" target="Armáda ČR">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Schmeidler" target="Liberec">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Schmeidler" target="Doležal">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Schmeidler" target="Úřad práce">
+      <data key="d1">0.3493975903614458</data>
+    </edge>
+    <edge source="Schmeidler" target="Národní sdružení">
+      <data key="d1">0.32098765432098764</data>
+    </edge>
+    <edge source="Schmeidler" target="Legum">
+      <data key="d1">0.28205128205128205</data>
+    </edge>
+    <edge source="Schmeidler" target="Jihlava">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="Schmeidler" target="Jihlavy">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Schmeidler" target="PS PČR">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Schmeidler" target="Horák">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="Schmeidler" target="Opavy">
+      <data key="d1">0.4915254237288136</data>
+    </edge>
+    <edge source="Schmeidler" target="Příbram">
+      <data key="d1">0.5178571428571429</data>
+    </edge>
+    <edge source="Schmeidler" target="Blansko">
+      <data key="d1">0.5272727272727272</data>
+    </edge>
+    <edge source="Schmeidler" target="Prostějova">
+      <data key="d1">0.5370370370370371</data>
+    </edge>
+    <edge source="Macron" target="Juncker">
+      <data key="d1">0.15625</data>
+    </edge>
+    <edge source="Svoboda" target="Národní sdružení">
+      <data key="d1">0.15546218487394958</data>
+    </edge>
+    <edge source="Svoboda" target="Národní shromáždění">
+      <data key="d1">0.2081447963800905</data>
+    </edge>
+    <edge source="Svoboda" target="Rassemblement national">
+      <data key="d1">0.19248826291079812</data>
+    </edge>
+    <edge source="Národní sdružení" target="Wilderse">
+      <data key="d1">0.19004524886877827</data>
+    </edge>
+    <edge source="Národní sdružení" target="Nos">
+      <data key="d1">0.1956521739130435</data>
+    </edge>
+    <edge source="Národní sdružení" target="Hrnčíř">
+      <data key="d1">0.1984732824427481</data>
+    </edge>
+    <edge source="Národní sdružení" target="Blaško">
+      <data key="d1">0.22608695652173913</data>
+    </edge>
+    <edge source="Národní sdružení" target="Armáda ČR">
+      <data key="d1">0.23214285714285715</data>
+    </edge>
+    <edge source="Národní sdružení" target="Liberec">
+      <data key="d1">0.23214285714285715</data>
+    </edge>
+    <edge source="Národní sdružení" target="Doležal">
+      <data key="d1">0.24770642201834864</data>
+    </edge>
+    <edge source="Národní sdružení" target="Úřad práce">
+      <data key="d1">0.24299065420560748</data>
+    </edge>
+    <edge source="Národní sdružení" target="Jihlava">
+      <data key="d1">0.2765957446808511</data>
+    </edge>
+    <edge source="Národní sdružení" target="Chomutov">
+      <data key="d1">0.2826086956521739</data>
+    </edge>
+    <edge source="Národní sdružení" target="Jihlavy">
+      <data key="d1">0.29213483146067415</data>
+    </edge>
+    <edge source="Národní sdružení" target="PS PČR">
+      <data key="d1">0.29213483146067415</data>
+    </edge>
+    <edge source="Národní sdružení" target="Horák">
+      <data key="d1">0.2988505747126437</data>
+    </edge>
+    <edge source="Národní sdružení" target="Opavy">
+      <data key="d1">0.3132530120481928</data>
+    </edge>
+    <edge source="Národní sdružení" target="Příbram">
+      <data key="d1">0.325</data>
+    </edge>
+    <edge source="Národní sdružení" target="Blansko">
+      <data key="d1">0.3291139240506329</data>
+    </edge>
+    <edge source="Národní sdružení" target="Trutnov">
+      <data key="d1">0.3291139240506329</data>
+    </edge>
+    <edge source="Národní sdružení" target="Prostějova">
+      <data key="d1">0.3333333333333333</data>
+    </edge>
+    <edge source="Národní shromáždění" target="Legum">
+      <data key="d1">0.15306122448979592</data>
+    </edge>
+    <edge source="Národní shromáždění" target="Rassemblement national">
+      <data key="d1">0.7068965517241379</data>
+    </edge>
+    <edge source="Rassemblement national" target="Wilderse">
+      <data key="d1">0.17475728155339806</data>
+    </edge>
+    <edge source="Rassemblement national" target="Legum">
+      <data key="d1">0.19047619047619047</data>
+    </edge>
+    <edge source="TV Prima" target="Partie">
+      <data key="d1">0.2591093117408907</data>
+    </edge>
+    <edge source="Moravec" target="Otázky Václava Moravce">
+      <data key="d1">0.66875</data>
+    </edge>
+    <edge source="Trikolóra" target="Klaus ml.">
+      <data key="d1">0.20108695652173914</data>
+    </edge>
+    <edge source="Legum" target="Nos">
+      <data key="d1">0.16176470588235295</data>
+    </edge>
+    <edge source="Legum" target="Hrnčíř">
+      <data key="d1">0.171875</data>
+    </edge>
+    <edge source="Legum" target="Blaško">
+      <data key="d1">0.19642857142857142</data>
+    </edge>
+    <edge source="Legum" target="Armáda ČR">
+      <data key="d1">0.2018348623853211</data>
+    </edge>
+    <edge source="Legum" target="Liberec">
+      <data key="d1">0.2018348623853211</data>
+    </edge>
+    <edge source="Legum" target="Doležal">
+      <data key="d1">0.205607476635514</data>
+    </edge>
+    <edge source="Legum" target="Úřad práce">
+      <data key="d1">0.21153846153846154</data>
+    </edge>
+    <edge source="Legum" target="Jihlava">
+      <data key="d1">0.24175824175824176</data>
+    </edge>
+    <edge source="Legum" target="Chomutov">
+      <data key="d1">0.24719101123595505</data>
+    </edge>
+    <edge source="Legum" target="Jihlavy">
+      <data key="d1">0.2558139534883721</data>
+    </edge>
+    <edge source="Legum" target="PS PČR">
+      <data key="d1">0.2558139534883721</data>
+    </edge>
+    <edge source="Legum" target="Horák">
+      <data key="d1">0.2619047619047619</data>
+    </edge>
+    <edge source="Legum" target="Opavy">
+      <data key="d1">0.275</data>
+    </edge>
+    <edge source="Legum" target="Příbram">
+      <data key="d1">0.2857142857142857</data>
+    </edge>
+    <edge source="Legum" target="Blansko">
+      <data key="d1">0.2894736842105263</data>
+    </edge>
+    <edge source="Legum" target="Trutnov">
+      <data key="d1">0.2894736842105263</data>
+    </edge>
+    <edge source="Legum" target="Prostějova">
+      <data key="d1">0.29333333333333333</data>
+    </edge>
+    <edge source="ENF" target="Evropa národů a svoboda">
+      <data key="d1">0.6993464052287581</data>
+    </edge>
+    <edge source="ENF" target="Jihlava">
+      <data key="d1">0.1566265060240964</data>
+    </edge>
+    <edge source="ENF" target="Chomutov">
+      <data key="d1">0.15853658536585366</data>
+    </edge>
+    <edge source="ENF" target="Jihlavy">
+      <data key="d1">0.16149068322981366</data>
+    </edge>
+    <edge source="ENF" target="PS PČR">
+      <data key="d1">0.16149068322981366</data>
+    </edge>
+    <edge source="ENF" target="Horák">
+      <data key="d1">0.16352201257861634</data>
+    </edge>
+    <edge source="ENF" target="Opavy">
+      <data key="d1">0.16774193548387098</data>
+    </edge>
+    <edge source="ENF" target="Příbram">
+      <data key="d1">0.17105263157894737</data>
+    </edge>
+    <edge source="ENF" target="Blansko">
+      <data key="d1">0.17218543046357615</data>
+    </edge>
+    <edge source="ENF" target="Trutnov">
+      <data key="d1">0.17218543046357615</data>
+    </edge>
+    <edge source="ENF" target="Prostějova">
+      <data key="d1">0.17333333333333334</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Armáda ČR">
+      <data key="d1">0.1511627906976744</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Liberec">
+      <data key="d1">0.1511627906976744</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Doležal">
+      <data key="d1">0.15976331360946747</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Úřad práce">
+      <data key="d1">0.15568862275449102</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Jihlava">
+      <data key="d1">0.16883116883116883</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Chomutov">
+      <data key="d1">0.17105263157894737</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Jihlavy">
+      <data key="d1">0.174496644295302</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="PS PČR">
+      <data key="d1">0.174496644295302</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Horák">
+      <data key="d1">0.17687074829931973</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Opavy">
+      <data key="d1">0.18181818181818182</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Příbram">
+      <data key="d1">0.18571428571428572</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Blansko">
+      <data key="d1">0.18705035971223022</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Trutnov">
+      <data key="d1">0.18705035971223022</data>
+    </edge>
+    <edge source="Evropa národů a svoboda" target="Prostějova">
+      <data key="d1">0.18840579710144928</data>
+    </edge>
+    <edge source="Jihlava" target="Nos">
+      <data key="d1">0.23622047244094488</data>
+    </edge>
+    <edge source="Jihlava" target="Hrnčíř">
+      <data key="d1">0.24166666666666667</data>
+    </edge>
+    <edge source="Jihlava" target="Blaško">
+      <data key="d1">0.27884615384615385</data>
+    </edge>
+    <edge source="Jihlava" target="Armáda ČR">
+      <data key="d1">0.2871287128712871</data>
+    </edge>
+    <edge source="Jihlava" target="Chomutov">
+      <data key="d1">0.35802469135802467</data>
+    </edge>
+    <edge source="Jihlava" target="Jihlavy">
+      <data key="d1">0.4266666666666667</data>
+    </edge>
+    <edge source="Jihlava" target="PS PČR">
+      <data key="d1">0.3717948717948718</data>
+    </edge>
+    <edge source="Jihlava" target="Blansko">
+      <data key="d1">0.44776119402985076</data>
+    </edge>
+    <edge source="Jihlava" target="Prostějova">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Chomutov" target="Karlovy Vary">
+      <data key="d1">0.19008264462809918</data>
+    </edge>
+    <edge source="Chomutov" target="Blaško">
+      <data key="d1">0.24761904761904763</data>
+    </edge>
+    <edge source="Chomutov" target="Armáda ČR">
+      <data key="d1">0.1743119266055046</data>
+    </edge>
+    <edge source="Chomutov" target="Liberec">
+      <data key="d1">0.29292929292929293</data>
+    </edge>
+    <edge source="Chomutov" target="Doležal">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Chomutov" target="Jihlavy">
+      <data key="d1">0.3815789473684211</data>
+    </edge>
+    <edge source="Chomutov" target="Horák">
+      <data key="d1">0.3918918918918919</data>
+    </edge>
+    <edge source="Chomutov" target="Litoměřice">
+      <data key="d1">0.1590909090909091</data>
+    </edge>
+    <edge source="Chomutov" target="Opavy">
+      <data key="d1">0.4142857142857143</data>
+    </edge>
+    <edge source="Chomutov" target="Příbram">
+      <data key="d1">0.43283582089552236</data>
+    </edge>
+    <edge source="Chomutov" target="Blansko">
+      <data key="d1">0.4393939393939394</data>
+    </edge>
+    <edge source="Chomutov" target="Trutnov">
+      <data key="d1">0.4393939393939394</data>
+    </edge>
+    <edge source="Jihlavy" target="Nos">
+      <data key="d1">0.23577235772357724</data>
+    </edge>
+    <edge source="Jihlavy" target="Hrnčíř">
+      <data key="d1">0.25217391304347825</data>
+    </edge>
+    <edge source="Jihlavy" target="Blaško">
+      <data key="d1">0.29292929292929293</data>
+    </edge>
+    <edge source="Jihlavy" target="Armáda ČR">
+      <data key="d1">0.3020833333333333</data>
+    </edge>
+    <edge source="Jihlavy" target="PS PČR">
+      <data key="d1">0.3972602739726027</data>
+    </edge>
+    <edge source="Jihlavy" target="Blansko">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="Jihlavy" target="Prostějova">
+      <data key="d1">0.46774193548387094</data>
+    </edge>
+    <edge source="PS PČR" target="Hrnčíř">
+      <data key="d1">0.25217391304347825</data>
+    </edge>
+    <edge source="PS PČR" target="Karlovy Vary">
+      <data key="d1">0.19491525423728814</data>
+    </edge>
+    <edge source="PS PČR" target="Doležal">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="PS PČR" target="Úřad práce">
+      <data key="d1">0.31868131868131866</data>
+    </edge>
+    <edge source="PS PČR" target="Horák">
+      <data key="d1">0.4084507042253521</data>
+    </edge>
+    <edge source="PS PČR" target="Příbram">
+      <data key="d1">0.453125</data>
+    </edge>
+    <edge source="PS PČR" target="Blansko">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="PS PČR" target="Trutnov">
+      <data key="d1">0.4603174603174603</data>
+    </edge>
+    <edge source="PS PČR" target="Prostějova">
+      <data key="d1">0.46774193548387094</data>
+    </edge>
+    <edge source="Horák" target="Hrnčíř">
+      <data key="d1">0.25663716814159293</data>
+    </edge>
+    <edge source="Horák" target="Blaško">
+      <data key="d1">0.29896907216494845</data>
+    </edge>
+    <edge source="Horák" target="Armáda ČR">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="Horák" target="Liberec">
+      <data key="d1">0.30851063829787234</data>
+    </edge>
+    <edge source="Horák" target="Doležal">
+      <data key="d1">0.31521739130434784</data>
+    </edge>
+    <edge source="Horák" target="Úřad práce">
+      <data key="d1">0.3258426966292135</data>
+    </edge>
+    <edge source="Horák" target="Opavy">
+      <data key="d1">0.4461538461538462</data>
+    </edge>
+    <edge source="Horák" target="Příbram">
+      <data key="d1">0.46774193548387094</data>
+    </edge>
+    <edge source="Horák" target="Blansko">
+      <data key="d1">0.47540983606557374</data>
+    </edge>
+    <edge source="Horák" target="Prostějova">
+      <data key="d1">0.48333333333333334</data>
+    </edge>
+    <edge source="Opavy" target="Nos">
+      <data key="d1">0.24786324786324787</data>
+    </edge>
+    <edge source="Opavy" target="Hrnčíř">
+      <data key="d1">0.26605504587155965</data>
+    </edge>
+    <edge source="Opavy" target="Blaško">
+      <data key="d1">0.18446601941747573</data>
+    </edge>
+    <edge source="Opavy" target="Armáda ČR">
+      <data key="d1">0.19</data>
+    </edge>
+    <edge source="Opavy" target="Liberec">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Opavy" target="Doležal">
+      <data key="d1">0.32954545454545453</data>
+    </edge>
+    <edge source="Opavy" target="Úřad práce">
+      <data key="d1">0.3411764705882353</data>
+    </edge>
+    <edge source="Opavy" target="Příbram">
+      <data key="d1">0.5</data>
+    </edge>
+    <edge source="Opavy" target="Blansko">
+      <data key="d1">0.5087719298245614</data>
+    </edge>
+    <edge source="Opavy" target="Trutnov">
+      <data key="d1">0.5087719298245614</data>
+    </edge>
+    <edge source="Příbram" target="Nos">
+      <data key="d1">0.1721311475409836</data>
+    </edge>
+    <edge source="Příbram" target="Hrnčíř">
+      <data key="d1">0.27358490566037735</data>
+    </edge>
+    <edge source="Příbram" target="Blaško">
+      <data key="d1">0.32222222222222224</data>
+    </edge>
+    <edge source="Příbram" target="Armáda ČR">
+      <data key="d1">0.3333333333333333</data>
+    </edge>
+    <edge source="Příbram" target="Doležal">
+      <data key="d1">0.3411764705882353</data>
+    </edge>
+    <edge source="Příbram" target="Úřad práce">
+      <data key="d1">0.35365853658536583</data>
+    </edge>
+    <edge source="Příbram" target="Blansko">
+      <data key="d1">0.5370370370370371</data>
+    </edge>
+    <edge source="Příbram" target="Trutnov">
+      <data key="d1">0.5370370370370371</data>
+    </edge>
+    <edge source="Příbram" target="Prostějova">
+      <data key="d1">0.5471698113207547</data>
+    </edge>
+    <edge source="Blansko" target="Nos">
+      <data key="d1">0.25663716814159293</data>
+    </edge>
+    <edge source="Blansko" target="Hrnčíř">
+      <data key="d1">0.2761904761904762</data>
+    </edge>
+    <edge source="Blansko" target="Karlovy Vary">
+      <data key="d1">0.21296296296296297</data>
+    </edge>
+    <edge source="Blansko" target="Liberec">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Blansko" target="Doležal">
+      <data key="d1">0.34523809523809523</data>
+    </edge>
+    <edge source="Blansko" target="Úřad práce">
+      <data key="d1">0.35802469135802467</data>
+    </edge>
+    <edge source="Blansko" target="Trutnov">
+      <data key="d1">0.5471698113207547</data>
+    </edge>
+    <edge source="Blansko" target="Prostějova">
+      <data key="d1">0.5576923076923077</data>
+    </edge>
+    <edge source="Trutnov" target="Hrnčíř">
+      <data key="d1">0.2761904761904762</data>
+    </edge>
+    <edge source="Trutnov" target="Karlovy Vary">
+      <data key="d1">0.21296296296296297</data>
+    </edge>
+    <edge source="Trutnov" target="Blaško">
+      <data key="d1">0.3258426966292135</data>
+    </edge>
+    <edge source="Trutnov" target="Armáda ČR">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Trutnov" target="Liberec">
+      <data key="d1">0.3372093023255814</data>
+    </edge>
+    <edge source="Trutnov" target="Prostějova">
+      <data key="d1">0.5576923076923077</data>
+    </edge>
+    <edge source="Prostějova" target="Nos">
+      <data key="d1">0.25892857142857145</data>
+    </edge>
+    <edge source="Prostějova" target="Hrnčíř">
+      <data key="d1">0.27884615384615385</data>
+    </edge>
+    <edge source="Prostějova" target="Doležal">
+      <data key="d1">0.3493975903614458</data>
+    </edge>
+    <edge source="Prostějova" target="Úřad práce">
+      <data key="d1">0.3625</data>
+    </edge>
+    <edge source="Armáda ČR" target="Nos">
+      <data key="d1">0.19863013698630136</data>
+    </edge>
+    <edge source="Armáda ČR" target="Karlovy Vary">
+      <data key="d1">0.17985611510791366</data>
+    </edge>
+    <edge source="Armáda ČR" target="Blaško">
+      <data key="d1">0.23770491803278687</data>
+    </edge>
+    <edge source="Armáda ČR" target="Liberec">
+      <data key="d1">0.24369747899159663</data>
+    </edge>
+    <edge source="Armáda ČR" target="Doležal">
+      <data key="d1">0.24786324786324787</data>
+    </edge>
+    <edge source="Armáda ČR" target="Úřad práce">
+      <data key="d1">0.2543859649122807</data>
+    </edge>
+    <edge source="Liberec" target="Nos">
+      <data key="d1">0.19863013698630136</data>
+    </edge>
+    <edge source="Liberec" target="Hrnčíř">
+      <data key="d1">0.21014492753623187</data>
+    </edge>
+    <edge source="Liberec" target="Blaško">
+      <data key="d1">0.23770491803278687</data>
+    </edge>
+    <edge source="Doležal" target="Hrnčíř">
+      <data key="d1">0.21323529411764705</data>
+    </edge>
+    <edge source="Doležal" target="Blaško">
+      <data key="d1">0.2627118644067797</data>
+    </edge>
+    <edge source="Doležal" target="Úřad práce">
+      <data key="d1">0.25892857142857145</data>
+    </edge>
+    <edge source="Úřad práce" target="Hrnčíř">
+      <data key="d1">0.21804511278195488</data>
+    </edge>
+    <edge source="Úřad práce" target="Blaško">
+      <data key="d1">0.24786324786324787</data>
+    </edge>
+    <edge source="Polčák" target="Poche">
+      <data key="d1">0.17647058823529413</data>
+    </edge>
+    <edge source="Poche" target="Šojdrová">
+      <data key="d1">0.15384615384615385</data>
+    </edge>
+    <edge source="Poche" target="Pospíšil">
+      <data key="d1">0.1559633027522936</data>
+    </edge>
+    <edge source="Feri" target="Eurozóna">
+      <data key="d1">0.15723270440251572</data>
+    </edge>
+    <edge source="Eurozóna" target="Starostové a nezávislí">
+      <data key="d1">0.17543859649122806</data>
+    </edge>
+    <edge source="Eurostat" target="Hannan">
+      <data key="d1">0.1652892561983471</data>
+    </edge>
+    <edge source="Hannan" target="Jedlička">
+      <data key="d1">0.5522388059701493</data>
+    </edge>
+    <edge source="Hannan" target="Konzervativní strana">
+      <data key="d1">0.7358490566037735</data>
+    </edge>
+    <edge source="Nos" target="Hrnčíř">
+      <data key="d1">0.22012578616352202</data>
+    </edge>
+    <edge source="Nos" target="Atkinson">
+      <data key="d1">0.26548672566371684</data>
+    </edge>
+    <edge source="Nos" target="Bárta">
+      <data key="d1">0.15702479338842976</data>
+    </edge>
+    <edge source="Atkinson" target="Brichta">
+      <data key="d1">0.3013698630136986</data>
+    </edge>
+    <edge source="Šojdrová" target="Zdechovský">
+      <data key="d1">0.20689655172413793</data>
+    </edge>
+    <edge source="Šojdrová" target="Ježek">
+      <data key="d1">0.16129032258064516</data>
+    </edge>
+    <edge source="Šojdrová" target="Niedermayer">
+      <data key="d1">0.20689655172413793</data>
+    </edge>
+    <edge source="Šojdrová" target="Teličko">
+      <data key="d1">0.16666666666666666</data>
+    </edge>
+    <edge source="Ježek" target="Pospíšil">
+      <data key="d1">0.15384615384615385</data>
+    </edge>
+    <edge source="Ježek" target="Charanzová">
+      <data key="d1">0.4246575342465753</data>
+    </edge>
+    <edge source="Ježek" target="Dlabajová">
+      <data key="d1">0.4492753623188406</data>
+    </edge>
+    <edge source="Ježek" target="Niedermayer">
+      <data key="d1">0.323943661971831</data>
+    </edge>
+    <edge source="Ježek" target="Teličko">
+      <data key="d1">0.49206349206349204</data>
+    </edge>
+    <edge source="Niedermayer" target="Pospíšil">
+      <data key="d1">0.22105263157894736</data>
+    </edge>
+    <edge source="Niedermayer" target="Charanzová">
+      <data key="d1">0.35135135135135137</data>
+    </edge>
+    <edge source="Niedermayer" target="Dlabajová">
+      <data key="d1">0.352112676056338</data>
+    </edge>
+    <edge source="Teličko" target="Charanzová">
+      <data key="d1">0.4492753623188406</data>
+    </edge>
+    <edge source="Teličko" target="Dlabajová">
+      <data key="d1">0.47692307692307695</data>
+    </edge>
+    <edge source="Karlovy Vary" target="Blaško">
+      <data key="d1">0.1597222222222222</data>
+    </edge>
+    <edge source="Facebook" target="Google">
+      <data key="d1">0.35</data>
+    </edge>
+    <edge source="Pospíšil" target="Charanzová">
+      <data key="d1">0.17757009345794392</data>
+    </edge>
+    <edge source="Pospíšil" target="Dlabajová">
+      <data key="d1">0.17307692307692307</data>
+    </edge>
+    <edge source="Charanzová" target="Dlabajová">
+      <data key="d1">0.65625</data>
+    </edge>
+    <edge source="Zlín" target="Jakl">
+      <data key="d1">0.15053763440860216</data>
+    </edge>
+    <edge source="Jakl" target="Litoměřice">
+      <data key="d1">0.1891891891891892</data>
+    </edge>
+    <edge source="Jakl" target="Teplice">
+      <data key="d1">0.19718309859154928</data>
+    </edge>
+    <edge source="Jedlička" target="Konzervativní strana">
+      <data key="d1">0.4567901234567901</data>
+    </edge>
+    <edge source="Agrární komora ČR" target="Palacký">
+      <data key="d1">0.2</data>
+    </edge>
+    <edge source="Agrární komora ČR" target="Jandejsek">
+      <data key="d1">0.676056338028169</data>
+    </edge>
+    <edge source="Palacký" target="Jandejsek">
+      <data key="d1">0.21505376344086022</data>
+    </edge>
+    <edge source="Palacký" target="Mnichově">
+      <data key="d1">0.16853932584269662</data>
+    </edge>
+    <edge source="SPO" target="Brichta">
+      <data key="d1">0.21052631578947367</data>
+    </edge>
+  </graph>
+</graphml>

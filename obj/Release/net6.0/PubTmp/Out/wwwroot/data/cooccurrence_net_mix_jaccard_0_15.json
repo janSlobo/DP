@@ -1,0 +1,2257 @@
+{
+    "nodes": [
+        {
+            "id": "Eurozóna"
+        },
+        {
+            "id": "SPO"
+        },
+        {
+            "id": "Schmeidler"
+        },
+        {
+            "id": "Legum"
+        },
+        {
+            "id": "TV Prima"
+        },
+        {
+            "id": "Prostějova"
+        },
+        {
+            "id": "Doležal"
+        },
+        {
+            "id": "Prostějov"
+        },
+        {
+            "id": "Eurostat"
+        },
+        {
+            "id": "České Budějovice"
+        },
+        {
+            "id": "Teplice"
+        },
+        {
+            "id": "Atkinson"
+        },
+        {
+            "id": "Teličko"
+        },
+        {
+            "id": "Nos"
+        },
+        {
+            "id": "Hahnova"
+        },
+        {
+            "id": "Dlabajová"
+        },
+        {
+            "id": "Charanzová"
+        },
+        {
+            "id": "Jedlička"
+        },
+        {
+            "id": "Dopita"
+        },
+        {
+            "id": "Bárta"
+        },
+        {
+            "id": "Hannan"
+        },
+        {
+            "id": "Moravec"
+        },
+        {
+            "id": "Opavy"
+        },
+        {
+            "id": "Google"
+        },
+        {
+            "id": "Niedermayer"
+        },
+        {
+            "id": "Otázky Václava Moravce"
+        },
+        {
+            "id": "Rassemblement national"
+        },
+        {
+            "id": "Jihlava"
+        },
+        {
+            "id": "Úřad práce"
+        },
+        {
+            "id": "Klaus ml."
+        },
+        {
+            "id": "Jakl"
+        },
+        {
+            "id": "Karlovy Vary"
+        },
+        {
+            "id": "Le Pen"
+        },
+        {
+            "id": "Dukovany"
+        },
+        {
+            "id": "Brichta"
+        },
+        {
+            "id": "Wilderse"
+        },
+        {
+            "id": "Hrnčíř"
+        },
+        {
+            "id": "Chomutov"
+        },
+        {
+            "id": "Blaško"
+        },
+        {
+            "id": "Zdechovský"
+        },
+        {
+            "id": "Litoměřice"
+        },
+        {
+            "id": "Juncker"
+        },
+        {
+            "id": "David"
+        },
+        {
+            "id": "Polčák"
+        },
+        {
+            "id": "Šumperk"
+        },
+        {
+            "id": "HENNER"
+        },
+        {
+            "id": "Poche"
+        },
+        {
+            "id": "Zlín"
+        },
+        {
+            "id": "ENF"
+        },
+        {
+            "id": "Národní sdružení"
+        },
+        {
+            "id": "Starostové a nezávislí"
+        },
+        {
+            "id": "Palacký"
+        },
+        {
+            "id": "Paul"
+        },
+        {
+            "id": "Opava"
+        },
+        {
+            "id": "Facebook"
+        },
+        {
+            "id": "Národní shromáždění"
+        },
+        {
+            "id": "Šojdrová"
+        },
+        {
+            "id": "Armáda ČR"
+        },
+        {
+            "id": "Bělobrádek"
+        },
+        {
+            "id": "Horák"
+        },
+        {
+            "id": "Trutnov"
+        },
+        {
+            "id": "Temelín"
+        },
+        {
+            "id": "Konzervativní strana"
+        },
+        {
+            "id": "Svobodný"
+        },
+        {
+            "id": "Partie"
+        },
+        {
+            "id": "Příbram"
+        },
+        {
+            "id": "Pospíšil"
+        },
+        {
+            "id": "Sobotka"
+        },
+        {
+            "id": "Ježek"
+        },
+        {
+            "id": "Mnichově"
+        },
+        {
+            "id": "Liberec"
+        },
+        {
+            "id": "Jandejsek"
+        },
+        {
+            "id": "Macron"
+        },
+        {
+            "id": "Trikolóra"
+        },
+        {
+            "id": "Feri"
+        },
+        {
+            "id": "Agrární komora ČR"
+        },
+        {
+            "id": "PS PČR"
+        },
+        {
+            "id": "Blansko"
+        },
+        {
+            "id": "Svoboda"
+        },
+        {
+            "id": "Jihlavy"
+        },
+        {
+            "id": "Novotný"
+        },
+        {
+            "id": "Evropa národů a svoboda"
+        }
+    ],
+    "links": [
+        {
+            "source": "Sobotka",
+            "target": "Bělobrádek",
+            "weight": 0.17061143984220908
+        },
+        {
+            "source": "Le Pen",
+            "target": "Svobodný",
+            "weight": 0.18294849023090587
+        },
+        {
+            "source": "Dukovany",
+            "target": "Temelín",
+            "weight": 0.19435736677115986
+        },
+        {
+            "source": "David",
+            "target": "Novotný",
+            "weight": 0.15579710144927536
+        },
+        {
+            "source": "David",
+            "target": "Prostějov",
+            "weight": 0.15808823529411764
+        },
+        {
+            "source": "David",
+            "target": "Opava",
+            "weight": 0.16538461538461538
+        },
+        {
+            "source": "David",
+            "target": "Šumperk",
+            "weight": 0.16602316602316602
+        },
+        {
+            "source": "David",
+            "target": "Hahnova",
+            "weight": 0.16996047430830039
+        },
+        {
+            "source": "David",
+            "target": "Dopita",
+            "weight": 0.176
+        },
+        {
+            "source": "David",
+            "target": "HENNER",
+            "weight": 0.17269076305220885
+        },
+        {
+            "source": "David",
+            "target": "Paul",
+            "weight": 0.17269076305220885
+        },
+        {
+            "source": "David",
+            "target": "Schmeidler",
+            "weight": 0.17269076305220885
+        },
+        {
+            "source": "Macron",
+            "target": "Juncker",
+            "weight": 0.15625
+        },
+        {
+            "source": "Svoboda",
+            "target": "Národní sdružení",
+            "weight": 0.15546218487394958
+        },
+        {
+            "source": "Svoboda",
+            "target": "Národní shromáždění",
+            "weight": 0.2081447963800905
+        },
+        {
+            "source": "Svoboda",
+            "target": "Rassemblement national",
+            "weight": 0.19248826291079812
+        },
+        {
+            "source": "Wilderse",
+            "target": "Národní sdružení",
+            "weight": 0.19004524886877827
+        },
+        {
+            "source": "Wilderse",
+            "target": "Rassemblement national",
+            "weight": 0.17475728155339806
+        },
+        {
+            "source": "TV Prima",
+            "target": "Partie",
+            "weight": 0.2591093117408907
+        },
+        {
+            "source": "Moravec",
+            "target": "Otázky Václava Moravce",
+            "weight": 0.66875
+        },
+        {
+            "source": "Trikolóra",
+            "target": "Klaus ml.",
+            "weight": 0.20108695652173914
+        },
+        {
+            "source": "Svobodný",
+            "target": "Národní sdružení",
+            "weight": 0.23076923076923078
+        },
+        {
+            "source": "Svobodný",
+            "target": "Legum",
+            "weight": 0.19642857142857142
+        },
+        {
+            "source": "ENF",
+            "target": "Evropa národů a svoboda",
+            "weight": 0.6993464052287581
+        },
+        {
+            "source": "ENF",
+            "target": "Jihlava",
+            "weight": 0.1566265060240964
+        },
+        {
+            "source": "ENF",
+            "target": "Opava",
+            "weight": 0.15853658536585366
+        },
+        {
+            "source": "ENF",
+            "target": "Chomutov",
+            "weight": 0.15853658536585366
+        },
+        {
+            "source": "ENF",
+            "target": "Šumperk",
+            "weight": 0.15950920245398773
+        },
+        {
+            "source": "ENF",
+            "target": "Jihlavy",
+            "weight": 0.16149068322981366
+        },
+        {
+            "source": "ENF",
+            "target": "PS PČR",
+            "weight": 0.16149068322981366
+        },
+        {
+            "source": "ENF",
+            "target": "Horák",
+            "weight": 0.16352201257861634
+        },
+        {
+            "source": "ENF",
+            "target": "Hahnova",
+            "weight": 0.16560509554140126
+        },
+        {
+            "source": "ENF",
+            "target": "Dopita",
+            "weight": 0.17532467532467533
+        },
+        {
+            "source": "ENF",
+            "target": "Opavy",
+            "weight": 0.16774193548387098
+        },
+        {
+            "source": "ENF",
+            "target": "HENNER",
+            "weight": 0.16993464052287582
+        },
+        {
+            "source": "ENF",
+            "target": "Paul",
+            "weight": 0.16993464052287582
+        },
+        {
+            "source": "ENF",
+            "target": "Schmeidler",
+            "weight": 0.16993464052287582
+        },
+        {
+            "source": "ENF",
+            "target": "Příbram",
+            "weight": 0.17105263157894737
+        },
+        {
+            "source": "ENF",
+            "target": "Blansko",
+            "weight": 0.17218543046357615
+        },
+        {
+            "source": "ENF",
+            "target": "Trutnov",
+            "weight": 0.17218543046357615
+        },
+        {
+            "source": "ENF",
+            "target": "Prostějova",
+            "weight": 0.17333333333333334
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Armáda ČR",
+            "weight": 0.1511627906976744
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Liberec",
+            "weight": 0.1511627906976744
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Doležal",
+            "weight": 0.15976331360946747
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Novotný",
+            "weight": 0.15476190476190477
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Úřad práce",
+            "weight": 0.15568862275449102
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Prostějov",
+            "weight": 0.15853658536585366
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Jihlava",
+            "weight": 0.16883116883116883
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Opava",
+            "weight": 0.17105263157894737
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Chomutov",
+            "weight": 0.17105263157894737
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Šumperk",
+            "weight": 0.17218543046357615
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Jihlavy",
+            "weight": 0.174496644295302
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "PS PČR",
+            "weight": 0.174496644295302
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Horák",
+            "weight": 0.17687074829931973
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Hahnova",
+            "weight": 0.1793103448275862
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Dopita",
+            "weight": 0.19014084507042253
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Opavy",
+            "weight": 0.18181818181818182
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "HENNER",
+            "weight": 0.18439716312056736
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Paul",
+            "weight": 0.18439716312056736
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Schmeidler",
+            "weight": 0.18439716312056736
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Příbram",
+            "weight": 0.18571428571428572
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Blansko",
+            "weight": 0.18705035971223022
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Trutnov",
+            "weight": 0.18705035971223022
+        },
+        {
+            "source": "Evropa národů a svoboda",
+            "target": "Prostějova",
+            "weight": 0.18840579710144928
+        },
+        {
+            "source": "Polčák",
+            "target": "Poche",
+            "weight": 0.17647058823529413
+        },
+        {
+            "source": "Feri",
+            "target": "Eurozóna",
+            "weight": 0.15723270440251572
+        },
+        {
+            "source": "Eurostat",
+            "target": "Hannan",
+            "weight": 0.1652892561983471
+        },
+        {
+            "source": "Nos",
+            "target": "Hrnčíř",
+            "weight": 0.22012578616352202
+        },
+        {
+            "source": "Nos",
+            "target": "Armáda ČR",
+            "weight": 0.19863013698630136
+        },
+        {
+            "source": "Nos",
+            "target": "Liberec",
+            "weight": 0.19863013698630136
+        },
+        {
+            "source": "Nos",
+            "target": "Národní sdružení",
+            "weight": 0.1956521739130435
+        },
+        {
+            "source": "Nos",
+            "target": "Legum",
+            "weight": 0.16176470588235295
+        },
+        {
+            "source": "Nos",
+            "target": "Jihlava",
+            "weight": 0.23622047244094488
+        },
+        {
+            "source": "Nos",
+            "target": "Šumperk",
+            "weight": 0.38738738738738737
+        },
+        {
+            "source": "Nos",
+            "target": "Jihlavy",
+            "weight": 0.23577235772357724
+        },
+        {
+            "source": "Nos",
+            "target": "Opavy",
+            "weight": 0.24786324786324787
+        },
+        {
+            "source": "Nos",
+            "target": "Atkinson",
+            "weight": 0.26548672566371684
+        },
+        {
+            "source": "Nos",
+            "target": "Příbram",
+            "weight": 0.1721311475409836
+        },
+        {
+            "source": "Nos",
+            "target": "Blansko",
+            "weight": 0.25663716814159293
+        },
+        {
+            "source": "Nos",
+            "target": "Prostějova",
+            "weight": 0.25892857142857145
+        },
+        {
+            "source": "Nos",
+            "target": "Bárta",
+            "weight": 0.15702479338842976
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Zdechovský",
+            "weight": 0.20689655172413793
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Poche",
+            "weight": 0.15384615384615385
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Ježek",
+            "weight": 0.16129032258064516
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Niedermayer",
+            "weight": 0.20689655172413793
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Teličko",
+            "weight": 0.16666666666666666
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Liberec",
+            "weight": 0.21014492753623187
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Doležal",
+            "weight": 0.21323529411764705
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Novotný",
+            "weight": 0.21641791044776118
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Úřad práce",
+            "weight": 0.21804511278195488
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Prostějov",
+            "weight": 0.2230769230769231
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Národní sdružení",
+            "weight": 0.1984732824427481
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Legum",
+            "weight": 0.171875
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Jihlava",
+            "weight": 0.24166666666666667
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Opava",
+            "weight": 0.2457627118644068
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Šumperk",
+            "weight": 0.24786324786324787
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Jihlavy",
+            "weight": 0.25217391304347825
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "PS PČR",
+            "weight": 0.25217391304347825
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Horák",
+            "weight": 0.25663716814159293
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Opavy",
+            "weight": 0.26605504587155965
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "HENNER",
+            "weight": 0.27102803738317754
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Paul",
+            "weight": 0.27102803738317754
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Schmeidler",
+            "weight": 0.27102803738317754
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Příbram",
+            "weight": 0.27358490566037735
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Blansko",
+            "weight": 0.2761904761904762
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Trutnov",
+            "weight": 0.2761904761904762
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Prostějova",
+            "weight": 0.27884615384615385
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Blaško",
+            "weight": 0.1597222222222222
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Armáda ČR",
+            "weight": 0.17985611510791366
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Chomutov",
+            "weight": 0.19008264462809918
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Šumperk",
+            "weight": 0.19166666666666668
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "PS PČR",
+            "weight": 0.19491525423728814
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Hahnova",
+            "weight": 0.20175438596491227
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Dopita",
+            "weight": 0.20535714285714285
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "HENNER",
+            "weight": 0.20909090909090908
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Paul",
+            "weight": 0.20909090909090908
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Schmeidler",
+            "weight": 0.20909090909090908
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Blansko",
+            "weight": 0.21296296296296297
+        },
+        {
+            "source": "Karlovy Vary",
+            "target": "Trutnov",
+            "weight": 0.21296296296296297
+        },
+        {
+            "source": "Facebook",
+            "target": "Google",
+            "weight": 0.35
+        },
+        {
+            "source": "Eurozóna",
+            "target": "Starostové a nezávislí",
+            "weight": 0.17543859649122806
+        },
+        {
+            "source": "Blaško",
+            "target": "Armáda ČR",
+            "weight": 0.23770491803278687
+        },
+        {
+            "source": "Blaško",
+            "target": "Liberec",
+            "weight": 0.23770491803278687
+        },
+        {
+            "source": "Blaško",
+            "target": "Doležal",
+            "weight": 0.2627118644067797
+        },
+        {
+            "source": "Blaško",
+            "target": "Úřad práce",
+            "weight": 0.24786324786324787
+        },
+        {
+            "source": "Blaško",
+            "target": "Prostějov",
+            "weight": 0.16260162601626016
+        },
+        {
+            "source": "Blaško",
+            "target": "Národní sdružení",
+            "weight": 0.22608695652173913
+        },
+        {
+            "source": "Blaško",
+            "target": "Legum",
+            "weight": 0.19642857142857142
+        },
+        {
+            "source": "Blaško",
+            "target": "Jihlava",
+            "weight": 0.27884615384615385
+        },
+        {
+            "source": "Blaško",
+            "target": "Opava",
+            "weight": 0.25961538461538464
+        },
+        {
+            "source": "Blaško",
+            "target": "Chomutov",
+            "weight": 0.24761904761904763
+        },
+        {
+            "source": "Blaško",
+            "target": "Šumperk",
+            "weight": 0.4942528735632184
+        },
+        {
+            "source": "Blaško",
+            "target": "Jihlavy",
+            "weight": 0.29292929292929293
+        },
+        {
+            "source": "Blaško",
+            "target": "Horák",
+            "weight": 0.29896907216494845
+        },
+        {
+            "source": "Blaško",
+            "target": "Hahnova",
+            "weight": 0.2653061224489796
+        },
+        {
+            "source": "Blaško",
+            "target": "Dopita",
+            "weight": 0.18446601941747573
+        },
+        {
+            "source": "Blaško",
+            "target": "Opavy",
+            "weight": 0.18446601941747573
+        },
+        {
+            "source": "Blaško",
+            "target": "HENNER",
+            "weight": 0.5584415584415584
+        },
+        {
+            "source": "Blaško",
+            "target": "Paul",
+            "weight": 0.5584415584415584
+        },
+        {
+            "source": "Blaško",
+            "target": "Příbram",
+            "weight": 0.32222222222222224
+        },
+        {
+            "source": "Blaško",
+            "target": "Trutnov",
+            "weight": 0.3258426966292135
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Liberec",
+            "weight": 0.24369747899159663
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Doležal",
+            "weight": 0.24786324786324787
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Novotný",
+            "weight": 0.25217391304347825
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Úřad práce",
+            "weight": 0.2543859649122807
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Národní sdružení",
+            "weight": 0.23214285714285715
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Legum",
+            "weight": 0.2018348623853211
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Jihlava",
+            "weight": 0.2871287128712871
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Opava",
+            "weight": 0.1743119266055046
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Chomutov",
+            "weight": 0.1743119266055046
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Šumperk",
+            "weight": 0.29591836734693877
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Jihlavy",
+            "weight": 0.3020833333333333
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Horák",
+            "weight": 0.30851063829787234
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Hahnova",
+            "weight": 0.18627450980392157
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Opavy",
+            "weight": 0.19
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "HENNER",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Paul",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Schmeidler",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Příbram",
+            "weight": 0.3333333333333333
+        },
+        {
+            "source": "Armáda ČR",
+            "target": "Trutnov",
+            "weight": 0.3372093023255814
+        },
+        {
+            "source": "Liberec",
+            "target": "Národní sdružení",
+            "weight": 0.23214285714285715
+        },
+        {
+            "source": "Liberec",
+            "target": "Legum",
+            "weight": 0.2018348623853211
+        },
+        {
+            "source": "Liberec",
+            "target": "Opava",
+            "weight": 0.15315315315315314
+        },
+        {
+            "source": "Liberec",
+            "target": "Chomutov",
+            "weight": 0.29292929292929293
+        },
+        {
+            "source": "Liberec",
+            "target": "Šumperk",
+            "weight": 0.29591836734693877
+        },
+        {
+            "source": "Liberec",
+            "target": "Horák",
+            "weight": 0.30851063829787234
+        },
+        {
+            "source": "Liberec",
+            "target": "Hahnova",
+            "weight": 0.31521739130434784
+        },
+        {
+            "source": "Liberec",
+            "target": "Dopita",
+            "weight": 0.32222222222222224
+        },
+        {
+            "source": "Liberec",
+            "target": "Opavy",
+            "weight": 0.16666666666666666
+        },
+        {
+            "source": "Liberec",
+            "target": "Paul",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Liberec",
+            "target": "Schmeidler",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Liberec",
+            "target": "Blansko",
+            "weight": 0.3372093023255814
+        },
+        {
+            "source": "Liberec",
+            "target": "Trutnov",
+            "weight": 0.3372093023255814
+        },
+        {
+            "source": "Doležal",
+            "target": "Novotný",
+            "weight": 0.25663716814159293
+        },
+        {
+            "source": "Doležal",
+            "target": "Úřad práce",
+            "weight": 0.25892857142857145
+        },
+        {
+            "source": "Doležal",
+            "target": "Prostějov",
+            "weight": 0.26605504587155965
+        },
+        {
+            "source": "Doležal",
+            "target": "Národní sdružení",
+            "weight": 0.24770642201834864
+        },
+        {
+            "source": "Doležal",
+            "target": "Legum",
+            "weight": 0.205607476635514
+        },
+        {
+            "source": "Doležal",
+            "target": "Opava",
+            "weight": 0.29896907216494845
+        },
+        {
+            "source": "Doležal",
+            "target": "Chomutov",
+            "weight": 0.29896907216494845
+        },
+        {
+            "source": "Doležal",
+            "target": "Šumperk",
+            "weight": 0.3020833333333333
+        },
+        {
+            "source": "Doležal",
+            "target": "PS PČR",
+            "weight": 0.30851063829787234
+        },
+        {
+            "source": "Doležal",
+            "target": "Horák",
+            "weight": 0.31521739130434784
+        },
+        {
+            "source": "Doležal",
+            "target": "Hahnova",
+            "weight": 0.32222222222222224
+        },
+        {
+            "source": "Doležal",
+            "target": "Opavy",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Doležal",
+            "target": "Schmeidler",
+            "weight": 0.3372093023255814
+        },
+        {
+            "source": "Doležal",
+            "target": "Příbram",
+            "weight": 0.3411764705882353
+        },
+        {
+            "source": "Doležal",
+            "target": "Blansko",
+            "weight": 0.34523809523809523
+        },
+        {
+            "source": "Doležal",
+            "target": "Prostějova",
+            "weight": 0.3493975903614458
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Charanzová",
+            "weight": 0.17757009345794392
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Poche",
+            "weight": 0.1559633027522936
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Dlabajová",
+            "weight": 0.17307692307692307
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Ježek",
+            "weight": 0.15384615384615385
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Niedermayer",
+            "weight": 0.22105263157894736
+        },
+        {
+            "source": "Novotný",
+            "target": "Úřad práce",
+            "weight": 0.2636363636363636
+        },
+        {
+            "source": "Novotný",
+            "target": "Národní sdružení",
+            "weight": 0.24074074074074073
+        },
+        {
+            "source": "Novotný",
+            "target": "Legum",
+            "weight": 0.20952380952380953
+        },
+        {
+            "source": "Novotný",
+            "target": "Opava",
+            "weight": 0.22772277227722773
+        },
+        {
+            "source": "Novotný",
+            "target": "Chomutov",
+            "weight": 0.5121951219512195
+        },
+        {
+            "source": "Novotný",
+            "target": "Šumperk",
+            "weight": 0.5375
+        },
+        {
+            "source": "Novotný",
+            "target": "Horák",
+            "weight": 0.32222222222222224
+        },
+        {
+            "source": "Novotný",
+            "target": "Hahnova",
+            "weight": 0.581081081081081
+        },
+        {
+            "source": "Novotný",
+            "target": "Opavy",
+            "weight": 0.19791666666666666
+        },
+        {
+            "source": "Novotný",
+            "target": "HENNER",
+            "weight": 0.25555555555555554
+        },
+        {
+            "source": "Novotný",
+            "target": "Paul",
+            "weight": 0.6142857142857143
+        },
+        {
+            "source": "Novotný",
+            "target": "Příbram",
+            "weight": 0.3493975903614458
+        },
+        {
+            "source": "Novotný",
+            "target": "Blansko",
+            "weight": 0.35365853658536583
+        },
+        {
+            "source": "Novotný",
+            "target": "Trutnov",
+            "weight": 0.37037037037037035
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Prostějov",
+            "weight": 0.27358490566037735
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Národní sdružení",
+            "weight": 0.24299065420560748
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Legum",
+            "weight": 0.21153846153846154
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Opava",
+            "weight": 0.30851063829787234
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Šumperk",
+            "weight": 0.3118279569892473
+        },
+        {
+            "source": "Úřad práce",
+            "target": "PS PČR",
+            "weight": 0.31868131868131866
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Horák",
+            "weight": 0.3258426966292135
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Hahnova",
+            "weight": 0.3333333333333333
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Dopita",
+            "weight": 0.3411764705882353
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Opavy",
+            "weight": 0.3411764705882353
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Schmeidler",
+            "weight": 0.3493975903614458
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Příbram",
+            "weight": 0.35365853658536583
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Blansko",
+            "weight": 0.35802469135802467
+        },
+        {
+            "source": "Úřad práce",
+            "target": "Prostějova",
+            "weight": 0.3625
+        },
+        {
+            "source": "Zlín",
+            "target": "Jakl",
+            "weight": 0.15053763440860216
+        },
+        {
+            "source": "Prostějov",
+            "target": "Národní sdružení",
+            "weight": 0.25
+        },
+        {
+            "source": "Prostějov",
+            "target": "Legum",
+            "weight": 0.21782178217821782
+        },
+        {
+            "source": "Prostějov",
+            "target": "Jihlava",
+            "weight": 0.3118279569892473
+        },
+        {
+            "source": "Prostějov",
+            "target": "Šumperk",
+            "weight": 0.5866666666666667
+        },
+        {
+            "source": "Prostějov",
+            "target": "Jihlavy",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Prostějov",
+            "target": "PS PČR",
+            "weight": 0.32954545454545453
+        },
+        {
+            "source": "Prostějov",
+            "target": "Horák",
+            "weight": 0.3372093023255814
+        },
+        {
+            "source": "Prostějov",
+            "target": "Dopita",
+            "weight": 0.6323529411764706
+        },
+        {
+            "source": "Prostějov",
+            "target": "Příbram",
+            "weight": 0.3670886075949367
+        },
+        {
+            "source": "Prostějov",
+            "target": "Blansko",
+            "weight": 0.38961038961038963
+        },
+        {
+            "source": "Prostějov",
+            "target": "Trutnov",
+            "weight": 0.3717948717948718
+        },
+        {
+            "source": "Jedlička",
+            "target": "Konzervativní strana",
+            "weight": 0.4567901234567901
+        },
+        {
+            "source": "Jedlička",
+            "target": "Hannan",
+            "weight": 0.5522388059701493
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Jihlava",
+            "weight": 0.2765957446808511
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Opava",
+            "weight": 0.2826086956521739
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Chomutov",
+            "weight": 0.2826086956521739
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Šumperk",
+            "weight": 0.2857142857142857
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Jihlavy",
+            "weight": 0.29213483146067415
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "PS PČR",
+            "weight": 0.29213483146067415
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Horák",
+            "weight": 0.2988505747126437
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Hahnova",
+            "weight": 0.3058823529411765
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Dopita",
+            "weight": 0.32926829268292684
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Opavy",
+            "weight": 0.3132530120481928
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "HENNER",
+            "weight": 0.32098765432098764
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Paul",
+            "weight": 0.32098765432098764
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Schmeidler",
+            "weight": 0.32098765432098764
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Příbram",
+            "weight": 0.325
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Blansko",
+            "weight": 0.3291139240506329
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Trutnov",
+            "weight": 0.3291139240506329
+        },
+        {
+            "source": "Národní sdružení",
+            "target": "Prostějova",
+            "weight": 0.3333333333333333
+        },
+        {
+            "source": "Agrární komora ČR",
+            "target": "Palacký",
+            "weight": 0.2
+        },
+        {
+            "source": "Agrární komora ČR",
+            "target": "Jandejsek",
+            "weight": 0.676056338028169
+        },
+        {
+            "source": "SPO",
+            "target": "Brichta",
+            "weight": 0.21052631578947367
+        },
+        {
+            "source": "Palacký",
+            "target": "Jandejsek",
+            "weight": 0.21505376344086022
+        },
+        {
+            "source": "Palacký",
+            "target": "Mnichově",
+            "weight": 0.16853932584269662
+        },
+        {
+            "source": "Legum",
+            "target": "Národní shromáždění",
+            "weight": 0.15306122448979592
+        },
+        {
+            "source": "Legum",
+            "target": "Jihlava",
+            "weight": 0.24175824175824176
+        },
+        {
+            "source": "Legum",
+            "target": "Opava",
+            "weight": 0.24719101123595505
+        },
+        {
+            "source": "Legum",
+            "target": "Chomutov",
+            "weight": 0.24719101123595505
+        },
+        {
+            "source": "Legum",
+            "target": "Šumperk",
+            "weight": 0.25
+        },
+        {
+            "source": "Legum",
+            "target": "Jihlavy",
+            "weight": 0.2558139534883721
+        },
+        {
+            "source": "Legum",
+            "target": "PS PČR",
+            "weight": 0.2558139534883721
+        },
+        {
+            "source": "Legum",
+            "target": "Horák",
+            "weight": 0.2619047619047619
+        },
+        {
+            "source": "Legum",
+            "target": "Hahnova",
+            "weight": 0.2682926829268293
+        },
+        {
+            "source": "Legum",
+            "target": "Dopita",
+            "weight": 0.275
+        },
+        {
+            "source": "Legum",
+            "target": "Opavy",
+            "weight": 0.275
+        },
+        {
+            "source": "Legum",
+            "target": "Rassemblement national",
+            "weight": 0.19047619047619047
+        },
+        {
+            "source": "Legum",
+            "target": "HENNER",
+            "weight": 0.28205128205128205
+        },
+        {
+            "source": "Legum",
+            "target": "Paul",
+            "weight": 0.28205128205128205
+        },
+        {
+            "source": "Legum",
+            "target": "Schmeidler",
+            "weight": 0.28205128205128205
+        },
+        {
+            "source": "Legum",
+            "target": "Příbram",
+            "weight": 0.2857142857142857
+        },
+        {
+            "source": "Legum",
+            "target": "Blansko",
+            "weight": 0.2894736842105263
+        },
+        {
+            "source": "Legum",
+            "target": "Trutnov",
+            "weight": 0.2894736842105263
+        },
+        {
+            "source": "Legum",
+            "target": "Prostějova",
+            "weight": 0.29333333333333333
+        },
+        {
+            "source": "České Budějovice",
+            "target": "HENNER",
+            "weight": 0.16470588235294117
+        },
+        {
+            "source": "České Budějovice",
+            "target": "Paul",
+            "weight": 0.16470588235294117
+        },
+        {
+            "source": "Národní shromáždění",
+            "target": "Rassemblement national",
+            "weight": 0.7068965517241379
+        },
+        {
+            "source": "Jihlava",
+            "target": "Chomutov",
+            "weight": 0.35802469135802467
+        },
+        {
+            "source": "Jihlava",
+            "target": "Šumperk",
+            "weight": 0.379746835443038
+        },
+        {
+            "source": "Jihlava",
+            "target": "Jihlavy",
+            "weight": 0.4266666666666667
+        },
+        {
+            "source": "Jihlava",
+            "target": "PS PČR",
+            "weight": 0.3717948717948718
+        },
+        {
+            "source": "Jihlava",
+            "target": "Hahnova",
+            "weight": 0.3918918918918919
+        },
+        {
+            "source": "Jihlava",
+            "target": "Dopita",
+            "weight": 0.4027777777777778
+        },
+        {
+            "source": "Jihlava",
+            "target": "HENNER",
+            "weight": 0.4142857142857143
+        },
+        {
+            "source": "Jihlava",
+            "target": "Paul",
+            "weight": 0.4142857142857143
+        },
+        {
+            "source": "Jihlava",
+            "target": "Schmeidler",
+            "weight": 0.4142857142857143
+        },
+        {
+            "source": "Jihlava",
+            "target": "Blansko",
+            "weight": 0.44776119402985076
+        },
+        {
+            "source": "Jihlava",
+            "target": "Prostějova",
+            "weight": 0.43283582089552236
+        },
+        {
+            "source": "Charanzová",
+            "target": "Dlabajová",
+            "weight": 0.65625
+        },
+        {
+            "source": "Charanzová",
+            "target": "Ježek",
+            "weight": 0.4246575342465753
+        },
+        {
+            "source": "Charanzová",
+            "target": "Niedermayer",
+            "weight": 0.35135135135135137
+        },
+        {
+            "source": "Charanzová",
+            "target": "Teličko",
+            "weight": 0.4492753623188406
+        },
+        {
+            "source": "Opava",
+            "target": "Chomutov",
+            "weight": 0.6363636363636364
+        },
+        {
+            "source": "Opava",
+            "target": "Šumperk",
+            "weight": 0.6984126984126984
+        },
+        {
+            "source": "Opava",
+            "target": "Horák",
+            "weight": 0.3918918918918919
+        },
+        {
+            "source": "Opava",
+            "target": "Hahnova",
+            "weight": 0.7413793103448276
+        },
+        {
+            "source": "Opava",
+            "target": "Opavy",
+            "weight": 0.4142857142857143
+        },
+        {
+            "source": "Opava",
+            "target": "Paul",
+            "weight": 0.7962962962962963
+        },
+        {
+            "source": "Opava",
+            "target": "Příbram",
+            "weight": 0.43283582089552236
+        },
+        {
+            "source": "Opava",
+            "target": "Blansko",
+            "weight": 0.46153846153846156
+        },
+        {
+            "source": "Opava",
+            "target": "Trutnov",
+            "weight": 0.4393939393939394
+        },
+        {
+            "source": "Chomutov",
+            "target": "Šumperk",
+            "weight": 0.6461538461538462
+        },
+        {
+            "source": "Chomutov",
+            "target": "Jihlavy",
+            "weight": 0.3815789473684211
+        },
+        {
+            "source": "Chomutov",
+            "target": "Horák",
+            "weight": 0.3918918918918919
+        },
+        {
+            "source": "Chomutov",
+            "target": "Litoměřice",
+            "weight": 0.1590909090909091
+        },
+        {
+            "source": "Chomutov",
+            "target": "Hahnova",
+            "weight": 0.7413793103448276
+        },
+        {
+            "source": "Chomutov",
+            "target": "Opavy",
+            "weight": 0.4142857142857143
+        },
+        {
+            "source": "Chomutov",
+            "target": "HENNER",
+            "weight": 0.7636363636363637
+        },
+        {
+            "source": "Chomutov",
+            "target": "Paul",
+            "weight": 0.7636363636363637
+        },
+        {
+            "source": "Chomutov",
+            "target": "Příbram",
+            "weight": 0.43283582089552236
+        },
+        {
+            "source": "Chomutov",
+            "target": "Blansko",
+            "weight": 0.4393939393939394
+        },
+        {
+            "source": "Chomutov",
+            "target": "Trutnov",
+            "weight": 0.4393939393939394
+        },
+        {
+            "source": "Šumperk",
+            "target": "Jihlavy",
+            "weight": 0.38666666666666666
+        },
+        {
+            "source": "Šumperk",
+            "target": "PS PČR",
+            "weight": 0.38666666666666666
+        },
+        {
+            "source": "Šumperk",
+            "target": "Horák",
+            "weight": 0.3972602739726027
+        },
+        {
+            "source": "Šumperk",
+            "target": "Litoměřice",
+            "weight": 0.16091954022988506
+        },
+        {
+            "source": "Šumperk",
+            "target": "Hahnova",
+            "weight": 0.7543859649122807
+        },
+        {
+            "source": "Šumperk",
+            "target": "Dopita",
+            "weight": 0.7818181818181819
+        },
+        {
+            "source": "Šumperk",
+            "target": "Opavy",
+            "weight": 0.42028985507246375
+        },
+        {
+            "source": "Šumperk",
+            "target": "Teplice",
+            "weight": 0.16666666666666666
+        },
+        {
+            "source": "Šumperk",
+            "target": "Paul",
+            "weight": 0.8113207547169812
+        },
+        {
+            "source": "Šumperk",
+            "target": "Příbram",
+            "weight": 0.4393939393939394
+        },
+        {
+            "source": "Šumperk",
+            "target": "Blansko",
+            "weight": 0.49206349206349204
+        },
+        {
+            "source": "Šumperk",
+            "target": "Trutnov",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Šumperk",
+            "target": "Jakl",
+            "weight": 0.17721518987341772
+        },
+        {
+            "source": "Šumperk",
+            "target": "Prostějova",
+            "weight": 0.453125
+        },
+        {
+            "source": "Brichta",
+            "target": "Atkinson",
+            "weight": 0.3013698630136986
+        },
+        {
+            "source": "Konzervativní strana",
+            "target": "Hannan",
+            "weight": 0.7358490566037735
+        },
+        {
+            "source": "Jihlavy",
+            "target": "PS PČR",
+            "weight": 0.3972602739726027
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Hahnova",
+            "weight": 0.42028985507246375
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Dopita",
+            "weight": 0.43283582089552236
+        },
+        {
+            "source": "Jihlavy",
+            "target": "HENNER",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Paul",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Schmeidler",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Blansko",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "Jihlavy",
+            "target": "Prostějova",
+            "weight": 0.46774193548387094
+        },
+        {
+            "source": "PS PČR",
+            "target": "Horák",
+            "weight": 0.4084507042253521
+        },
+        {
+            "source": "PS PČR",
+            "target": "HENNER",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "PS PČR",
+            "target": "Paul",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "PS PČR",
+            "target": "Schmeidler",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "PS PČR",
+            "target": "Příbram",
+            "weight": 0.453125
+        },
+        {
+            "source": "PS PČR",
+            "target": "Blansko",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "PS PČR",
+            "target": "Trutnov",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "PS PČR",
+            "target": "Prostějova",
+            "weight": 0.46774193548387094
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Ježek",
+            "weight": 0.4492753623188406
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Niedermayer",
+            "weight": 0.352112676056338
+        },
+        {
+            "source": "Dlabajová",
+            "target": "Teličko",
+            "weight": 0.47692307692307695
+        },
+        {
+            "source": "Horák",
+            "target": "Hahnova",
+            "weight": 0.43283582089552236
+        },
+        {
+            "source": "Horák",
+            "target": "Dopita",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Horák",
+            "target": "Opavy",
+            "weight": 0.4461538461538462
+        },
+        {
+            "source": "Horák",
+            "target": "HENNER",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "Horák",
+            "target": "Schmeidler",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "Horák",
+            "target": "Příbram",
+            "weight": 0.46774193548387094
+        },
+        {
+            "source": "Horák",
+            "target": "Blansko",
+            "weight": 0.47540983606557374
+        },
+        {
+            "source": "Horák",
+            "target": "Prostějova",
+            "weight": 0.48333333333333334
+        },
+        {
+            "source": "Ježek",
+            "target": "Niedermayer",
+            "weight": 0.323943661971831
+        },
+        {
+            "source": "Ježek",
+            "target": "Teličko",
+            "weight": 0.49206349206349204
+        },
+        {
+            "source": "Litoměřice",
+            "target": "Hahnova",
+            "weight": 0.1728395061728395
+        },
+        {
+            "source": "Litoměřice",
+            "target": "HENNER",
+            "weight": 0.18181818181818182
+        },
+        {
+            "source": "Litoměřice",
+            "target": "Paul",
+            "weight": 0.18181818181818182
+        },
+        {
+            "source": "Litoměřice",
+            "target": "Jakl",
+            "weight": 0.1891891891891892
+        },
+        {
+            "source": "Hahnova",
+            "target": "Opavy",
+            "weight": 0.4603174603174603
+        },
+        {
+            "source": "Hahnova",
+            "target": "HENNER",
+            "weight": 0.9148936170212766
+        },
+        {
+            "source": "Hahnova",
+            "target": "Paul",
+            "weight": 0.9148936170212766
+        },
+        {
+            "source": "Hahnova",
+            "target": "Příbram",
+            "weight": 0.48333333333333334
+        },
+        {
+            "source": "Hahnova",
+            "target": "Blansko",
+            "weight": 0.4915254237288136
+        },
+        {
+            "source": "Hahnova",
+            "target": "Trutnov",
+            "weight": 0.4915254237288136
+        },
+        {
+            "source": "Dopita",
+            "target": "Opavy",
+            "weight": 0.47540983606557374
+        },
+        {
+            "source": "Dopita",
+            "target": "HENNER",
+            "weight": 0.9555555555555556
+        },
+        {
+            "source": "Dopita",
+            "target": "Paul",
+            "weight": 0.9555555555555556
+        },
+        {
+            "source": "Dopita",
+            "target": "Příbram",
+            "weight": 0.5
+        },
+        {
+            "source": "Dopita",
+            "target": "Blansko",
+            "weight": 0.5087719298245614
+        },
+        {
+            "source": "Dopita",
+            "target": "Trutnov",
+            "weight": 0.5087719298245614
+        },
+        {
+            "source": "Dopita",
+            "target": "Prostějova",
+            "weight": 0.5178571428571429
+        },
+        {
+            "source": "Opavy",
+            "target": "Paul",
+            "weight": 0.4915254237288136
+        },
+        {
+            "source": "Opavy",
+            "target": "Schmeidler",
+            "weight": 0.4915254237288136
+        },
+        {
+            "source": "Opavy",
+            "target": "Příbram",
+            "weight": 0.5
+        },
+        {
+            "source": "Opavy",
+            "target": "Blansko",
+            "weight": 0.5087719298245614
+        },
+        {
+            "source": "Opavy",
+            "target": "Trutnov",
+            "weight": 0.5087719298245614
+        },
+        {
+            "source": "Teplice",
+            "target": "HENNER",
+            "weight": 0.1891891891891892
+        },
+        {
+            "source": "Teplice",
+            "target": "Jakl",
+            "weight": 0.19718309859154928
+        },
+        {
+            "source": "HENNER",
+            "target": "Paul",
+            "weight": 0.16216216216216217
+        },
+        {
+            "source": "HENNER",
+            "target": "Schmeidler",
+            "weight": 0.1780821917808219
+        },
+        {
+            "source": "HENNER",
+            "target": "Blansko",
+            "weight": 0.5272727272727272
+        },
+        {
+            "source": "HENNER",
+            "target": "Trutnov",
+            "weight": 0.5272727272727272
+        },
+        {
+            "source": "HENNER",
+            "target": "Jakl",
+            "weight": 0.2028985507246377
+        },
+        {
+            "source": "Paul",
+            "target": "Blansko",
+            "weight": 0.5272727272727272
+        },
+        {
+            "source": "Paul",
+            "target": "Jakl",
+            "weight": 0.2028985507246377
+        },
+        {
+            "source": "Paul",
+            "target": "Prostějova",
+            "weight": 0.5370370370370371
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Příbram",
+            "weight": 0.5178571428571429
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Blansko",
+            "weight": 0.5272727272727272
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Prostějova",
+            "weight": 0.5370370370370371
+        },
+        {
+            "source": "Příbram",
+            "target": "Blansko",
+            "weight": 0.5370370370370371
+        },
+        {
+            "source": "Příbram",
+            "target": "Trutnov",
+            "weight": 0.5370370370370371
+        },
+        {
+            "source": "Příbram",
+            "target": "Prostějova",
+            "weight": 0.5471698113207547
+        },
+        {
+            "source": "Blansko",
+            "target": "Trutnov",
+            "weight": 0.5471698113207547
+        },
+        {
+            "source": "Blansko",
+            "target": "Prostějova",
+            "weight": 0.5576923076923077
+        },
+        {
+            "source": "Trutnov",
+            "target": "Prostějova",
+            "weight": 0.5576923076923077
+        }
+    ]
+}

@@ -1,0 +1,931 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var stCount = ViewBag.st_count as Dictionary<string, int>;
+    var server_count = ViewBag.server_count;
+    var politic_id = ViewBag.politic_id;
+}
+@using PoliticStatements.Models
+<script>
+   // var allPieChartData = @Html.Raw(Json.Serialize(ViewBag.allpiecharts));
+   // console.log(allPieChartData)
+   // var sentHist = @Html.Raw(Json.Serialize(ViewBag.sentHist));
+   // var emotionData = @Html.Raw(Json.Serialize(ViewBag.emotionData));
+
+    var piechartAll = @Html.Raw(Json.Serialize(ViewBag.piechartAll));
+    var sentimentAll = @Html.Raw(Json.Serialize(ViewBag.sentimentAll));
+    var emotionAll = @Html.Raw(Json.Serialize(ViewBag.emotionAll));
+    var piechartAll_names = @Html.Raw(Json.Serialize(ViewBag.piechartAll_names));
+
+
+    var neg_names = @Html.Raw(Json.Serialize(ViewBag.neg_names));
+    var neg_mix = @Html.Raw(Json.Serialize(ViewBag.neg_mix));
+
+
+    var pos_names = @Html.Raw(Json.Serialize(ViewBag.pos_names));
+    var pos_mix = @Html.Raw(Json.Serialize(ViewBag.pos_mix));
+
+    var emotionnermix = @Html.Raw(Json.Serialize(ViewBag.emotionsNerMix));
+    var emotionnernames = @Html.Raw(Json.Serialize(ViewBag.emotionsNerNames));
+    var stCountYears = @Html.Raw(Json.Serialize(ViewBag.st_count_years));
+    var server_count = @Html.Raw(Json.Serialize(ViewBag.server_count));
+    var sentimentDataTime = @Html.Raw(Json.Serialize(ViewBag.time_sentiment))
+    var sentimentDataTimeavg = @Html.Raw(Json.Serialize(ViewBag.time_sentimentavg))
+        var sentimentDataQ = @Html.Raw(Json.Serialize(ViewBag.time_sentiment_q))
+        var emotionDataQ = @Html.Raw(Json.Serialize(ViewBag.EmotionStatsQ));
+    var emotionDataH = @Html.Raw(Json.Serialize(ViewBag.EmotionStatsH));
+    var ngramData = @Html.Raw(Json.Serialize(ViewBag.unique_ngrams));
+    var simWords = @Html.Raw(Json.Serialize(ViewBag.simWords));
+    //var sentiment_half_pe = @Html.Raw(Json.Serialize(ViewBag.sentiment_half_pe));
+    //var year_count_pe = @Html.Raw(Json.Serialize(ViewBag.year_count_pe));
+    var similarities = @Html.Raw(Json.Serialize(ViewBag.top_sim));
+    var similarities_ST = @Html.Raw(Json.Serialize(ViewBag.top_sim_ST));
+    var politic_id = @Html.Raw(Json.Serialize(ViewBag.politic_id));
+    console.log(similarities_ST)
+    var heightValue = 320;
+    var widthValue = 430;
+    var config = {
+        displayModeBar: false  ,responsive:true
+    };
+    function drawPieChart(data, id, politicId, entity) {
+        if (data) {
+            var chartData = {
+                labels: data.map(function (e) { return e.entityText; }),
+                values: data.map(function (e) { return e.frequency; }),
+                type: 'pie',
+                marker: {
+                    colors: ['#FF5733', '#33FF57', '#3357FF', '#FF33A8', '#FFFF33']
+                },
+                textinfo: 'label',
+                textposition: 'inside',
+                hoverinfo: 'label+value'
+
+            };
+
+            var layout = {
+                title: "",
+                margin: { t: 10, r: 10, b: 10, l: 10 },
+                showlegend: false,
+                autosize: true
+
+            };
+
+
+            if (politicId != "" && entity != "") {
+                var chartId = 'chart-' + politicId + '-' + entity;
+                Plotly.newPlot(chartId, [chartData], layout, config);
+            } else {
+
+                Plotly.newPlot(id, [chartData], layout, config);
+            }
+        
+    }else {
+        var targetId = (politicId != "" && entity != "") ? 'chart-' + politicId + '-' + entity : id;
+        var container = document.getElementById(targetId);
+        if (container) {
+            container.innerHTML = "<div style='text-align:center; padding: 20px; color: #777;'>Data nejsou dostupná</div>";
+        }
+    }
+    }
+
+
+
+    function drawHistogram(data, id, politicId, entity) {
+
+
+        var histogramData = data
+
+
+        var trace = {
+            x: histogramData,
+            type: 'histogram',
+            xbins: { size: 0.2 },
+            marker: {
+                color: 'rgba(55, 128, 191, 0.7)',
+                line: {
+                    color: 'rgba(55, 128, 191, 1)',
+                    width: 1
+                }
+            }
+
+        };
+
+        var layout = {
+            title: '',
+            xaxis: { title: '', range: [-1, 1] },
+            autosize: true,
+            innerWidth: null,
+            margin: {
+                l: 35,
+                r: 5,
+                t: 0,
+                b: 45
+            }
+        };
+
+        if (politicId != "" && entity != "") {
+            var chartId = 'hist-' + politicId + '-' + entity;
+            Plotly.newPlot(chartId, [trace], layout, config);
+        } else {
+
+            Plotly.newPlot(id, [trace], layout, config);
+        }
+
+
+
+    }
+    function drawEmotionDist(data, id, politicId, entity) {
+
+        var emotionData = data;
+        var emotionMapping = {
+            'anger': 'Hněv',
+            'anticipation': 'Očekávání',
+            'disgust': 'Znechucení',
+            'fear': 'Strach',
+            'joy': 'Radost',
+            'love': 'Láska',
+            'optimism': 'Optimismus',
+            'pessimism': 'Pesimismus',
+            'sadness': 'Smutek',
+            'surprise': 'Překvapení',
+            'trust': 'Důvěra'
+        };
+
+       
+        var emotions = emotionData.map(function (item) {
+            return emotionMapping[item.emotion] || item.emotion;  
+        });
+
+        var counts = emotionData.map(function (item) { return item.count; });
+
+        var data = [{
+            x: counts,
+            y: emotions,
+            type: 'bar',
+            orientation: 'h'
+        }];
+
+        var layout = {
+            title: '',
+            font: {
+                size: 12
+            },
+            yaxis: {
+                title: '',
+                automargin: true,
+                tickpadding: 20,
+                ticks: 'outside'
+            },
+            autosize: true,
+            margin: {
+                l: 80,
+                r: 50,
+                t: 0,
+                b: 50
+            }
+        };
+
+        if (politicId != "" && entity != "") {
+            var chartId = 'emotion-' + politicId + '-' + entity;
+            Plotly.newPlot(chartId, data, layout);
+        } else {
+            Plotly.newPlot(id, data, layout);
+        }
+    }
+
+
+    function sentimentYearsPE(politicId, entity) {
+        const data = sentiment_half_pe[politicId][entity];
+
+        const periods = Object.keys(data);
+        const sentiments = Object.values(data);
+
+        const trace = {
+            x: periods,
+            y: sentiments,
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: {
+                color: 'rgba(100, 150, 255, 0.7)',
+                width: 2
+            }
+        };
+
+        const layout = {
+            title: `Vývoj sentimentu`,
+            xaxis: { title: '', tickangle: -45 },
+            yaxis: { title: 'Průměrný sentiment' },
+            autosize: true,
+            margin: {
+                l: 50,
+                r: 15,
+                t: 45,
+                b: 60
+            }
+        };
+
+        Plotly.newPlot('sentiment_time_PE_' + politicId + entity, [trace], layout, config);
+    }
+    function countYearsPE(politicId, entity) {
+
+        var entityData = year_count_pe[politicId][entity];
+        var years = Object.keys(entityData);
+        var counts = Object.values(entityData);
+
+        var trace = {
+            x: years,
+            y: counts,
+            type: 'bar'
+        };
+
+        var layout = {
+            title: ``,
+            xaxis: { title: '',type:'category' },
+            yaxis: { title: '' },
+            autosize:true,
+
+            margin: {
+                l: 35,
+                r: 35,
+                t: 45,
+                b: 45
+            }
+        };
+
+        Plotly.newPlot('count_years_PE_' + politicId + entity, [trace], layout, config);
+
+    }
+
+    function plotPoliticianData(politicianId) {
+        var containerId = 'count_years_' + politicianId;
+        var container = document.getElementById(containerId);
+        container.innerHTML = ''; 
+
+        if (stCountYears[politicianId]) {
+            var yearData = stCountYears[politicianId];
+            var years = Object.keys(yearData);
+
+            
+             
+                var count = yearData[years[0]];
+
+                container.innerHTML = `
+                    <div style="text-align:center; padding: 18px; font-size: 24px; font-weight: bold; color: #377fcf; border: 1px solid #ccc; border-radius: 10px; background: #f7faff;">
+                            <span style="font-size: 30px; color:#124E66;">${count}</span> příspěvků
+                    </div>
+                `;
+            
+        }
+    }
+
+
+    function server_bar(politic_id) {
+        var data = server_count[politic_id];
+        console.log(data)
+
+        var facebookCount = data.facebook;
+        var twitterCount = data.twitter;
+        var retweetCount = data.retweets;
+        var normalTweetCount = data.normalTweets;
+
+
+        var chartData = [
+            {
+                x: ['Facebook'],
+                y: [facebookCount],
+                type: 'bar',
+                name: 'Facebook',
+                marker: {
+                    color: '#3b5998',
+                }
+            },
+            {
+                x: ['Twitter'],
+                y: [normalTweetCount],
+                type: 'bar',
+                name: 'Normální tweety',
+                marker: {
+                    color: '#1da1f2',
+                }
+            },
+            {
+                x: ['Twitter'],
+                y: [retweetCount],
+                type: 'bar',
+                name: 'Retweety',
+                marker: {
+                    color: '#ff5733',
+                }
+            }
+
+        ];
+
+
+        var layout = {
+            title: {
+                text: '',
+
+            },
+            xaxis: {
+                title: '',
+            },
+            yaxis: {
+                title: '',
+
+            },
+            autosize:true,
+            margin: {
+                l: 35,
+                r: 25,
+                t: 0,
+                b: 45
+            },
+            barmode: 'stack',
+            showlegend: true,
+
+        };
+
+
+        Plotly.newPlot('server_count_' + politic_id, chartData, layout, config);
+    }
+
+
+    function sentimentYears(politician) {
+        if (sentimentDataTime) { 
+            const data = sentimentDataTime[politician];
+
+            const periods = Object.keys(data);
+            const sentiments = Object.values(data);
+
+            const trace = {
+                x: periods,
+                y: sentiments,
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: {
+                    color: 'rgba(100, 150, 255, 0.7)',
+                    width: 2,
+                }
+            };
+
+            const layout = {
+                title: ``,
+                xaxis: { title: 'Pololetí', tickangle: -45 },
+                yaxis: { title: 'Průměrný sentiment' },
+                autosize: true,
+                margin: {
+                    l: 50,
+                    r: 20,
+                    t: 35,
+                    b: 90
+                }
+            };
+
+            Plotly.newPlot('sentiment_time_' + politician, [trace], layout, config);
+        }
+    }
+    function sentimentYearsavg(politician) {
+        if (sentimentDataTimeavg) {
+            const data = sentimentDataTimeavg[politician];
+
+            const periods = Object.keys(data);
+            const sentiments = Object.values(data);
+
+            const trace = {
+                x: periods,
+                y: sentiments,
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: {
+                    color: 'rgba(100, 150, 255, 0.7)',
+                    width: 2,
+                }
+            };
+
+            const layout = {
+                title: ``,
+                xaxis: { title: 'Pololetí', tickangle: -45 },
+                yaxis: { title: 'Průměrný sentiment' },
+                autosize: true,
+                margin: {
+                    l: 50,
+                    r: 20,
+                    t: 35,
+                    b: 90
+                }
+            };
+
+            Plotly.newPlot('sentiment_time_avg_' + politician, [trace], layout, config);
+        }
+    }
+    function sentimentQ(year, politicianId) {
+        if (sentimentDataQ) {
+            var dataForYear = sentimentDataQ[politicianId][year];
+            if (dataForYear) {
+                var quarters = [1, 2, 3, 4];
+                var sentiments = quarters.map(function (quarter) {
+                    return dataForYear[quarter] || 0;
+                });
+                console.log(sentiments)
+                const plotData = [{
+                    type: 'scatter',
+                    mode: 'lines+markers',
+                    x: quarters,
+                    y: sentiments,
+                    marker: { color: 'blue' }
+                }];
+
+
+                const layout = {
+                    title: ``,
+                    xaxis: {
+                        title: 'Čtvrtletí',
+                        tickvals: quarters,
+                        ticktext: ['Q1', 'Q2', 'Q3', 'Q4'],
+                        domain: [0.9, 0.1]
+                    },
+
+                    autosize: true,
+                    margin: {
+                        l: 50,
+                        r: 20,
+                        t: 25,
+                        b: 55
+                    }
+                };
+
+                Plotly.newPlot('sentimentQ_' + politicianId, plotData, layout, config);
+            }
+        }
+    }
+
+    function emotionQ(politicianId) {
+        console.log(politicianId)
+        var year =  2019;
+
+
+        var selectedStats = emotionDataQ[politicianId][year];
+
+
+        var emotions = selectedStats.map(function (stat) { return stat.emotion; });
+        var percentages = selectedStats.map(function (stat) { return stat.percentagePerQuarter; });
+
+
+        var traces = emotions.map(function (emotion, index) {
+            return {
+                x: ['Q1', 'Q2', 'Q3', 'Q4'],
+                y: percentages[index],
+                mode: 'lines+markers',
+                name: emotion
+            };
+        });
+
+
+        var layout = {
+
+            xaxis: { title: '' },
+            yaxis: { title: '' },
+            showlegend: true,
+            autosize: true,
+            margin: {
+                l: 30,
+                r: 0,
+                t: 45,
+                b: 45
+            }
+        };
+
+        Plotly.newPlot('emotionQ_' + politicianId, traces, layout, config);
+    }
+
+    function emotionH(politicianId) {
+        var selectedStats = emotionDataH[politicianId];
+
+        var emotions = {};
+
+
+        Object.keys(selectedStats).forEach(halfYear => {
+            selectedStats[halfYear].forEach(stat => {
+                if (!emotions[stat.emotion]) {
+                    emotions[stat.emotion] = { x: [], y: [] };
+                }
+                emotions[stat.emotion].x.push(halfYear);
+                emotions[stat.emotion].y.push(stat.percentage.toFixed(1));
+            });
+        });
+
+
+        var traces = Object.keys(emotions).map(emotion => ({
+            x: emotions[emotion].x,
+            y: emotions[emotion].y,
+            mode: 'lines+markers',
+            name: emotion
+        }));
+
+
+        var layout = {
+            title: '',
+            xaxis: { title: '', tickangle: -45 },
+            yaxis: { title: '', range: [0, 100] },
+            autosize: true,
+
+            margin: {
+                l: 30,
+                r: 0,
+                t: 45,
+                b: 60
+            }
+        };
+
+
+        Plotly.newPlot('emotionH_' + politicianId, traces, layout, config);
+    }
+
+    function renderNgrams(politicId) {
+        const container = document.getElementById("ngram-container");
+        container.innerHTML = "";
+
+        if (!ngramData[politicId]) {
+            const containerdiv = document.getElementById("ngramdiv");
+            containerdiv.style.display = "none";
+
+            return;
+        }
+
+
+        const ngramList = ngramData[politicId].map(ngram =>
+            `<span class="ngram">${ngram}</span>`
+        ).join(" ");
+
+
+        container.innerHTML = `
+
+                    <div class="ngram-box">${ngramList}</div>
+                `;
+    }
+    function showsimWords(politicId, entity) {
+
+        var ngrams = simWords[politicId][entity];
+
+        var container = document.getElementById('simwords_' + politicId + entity);
+        container.innerHTML = '';
+
+        if (ngrams) {
+            ngrams.forEach(ngram => {
+
+                var ngramDiv = document.createElement('div');
+                ngramDiv.className = 'ngram';
+                ngramDiv.textContent = ngram;
+                container.appendChild(ngramDiv);
+            });
+        } else {
+            container.innerHTML = '<p>No n-grams found for this politicid and entity.</p>';
+        }
+    }
+
+    function showEntityCard(politic, entity) {
+        document.querySelectorAll('.entity-card').forEach(card => card.style.display = 'none');
+        document.getElementById('card-' + politic + '-' + entity).style.display = 'block';
+
+        var entities = allPieChartData[politic];
+        if (entities.hasOwnProperty(entity)) {
+            var data = entities[entity];
+            drawPieChart(data, "", politic, entity);
+        }
+        var histData = sentHist[politic][entity]
+        drawHistogram(histData, "", politic, entity);
+        var eData = emotionData[politic][entity]
+        drawEmotionDist(eData, "", politic, entity)
+        showsimWords(politic, entity)
+        sentimentYearsPE(politic, entity)
+        countYearsPE(politic, entity)
+
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+
+        drawEmotionDist(emotionAll, "emotionAll", "", "")
+        drawHistogram(sentimentAll, "sentimentAll", "", "")
+        drawPieChart(piechartAll, "nerAll", "", "")
+        drawPieChart(piechartAll_names, "nerNames", "", "")
+
+        drawPieChart(neg_names, "neg_names", "", "")
+        drawPieChart(neg_mix, "neg_mix", "", "")
+
+        drawPieChart(pos_names, "pos_names", "", "")
+        drawPieChart(pos_mix, "pos_mix", "", "")
+
+
+
+        var emotion = document.getElementById("emotion_select").value;
+
+        console.log(emotion)
+        drawPieChart(emotionnermix[emotion], "emotion-nermix", "", "")
+        drawPieChart(emotionnernames[emotion], "emotion-nernames", "", "")
+
+
+        document.getElementById("emotion_select").addEventListener('change', function () {
+            console.log(this.value)
+            drawPieChart(emotionnermix[this.value], "emotion-nermix", "", "")
+            drawPieChart(emotionnernames[this.value], "emotion-nernames", "", "")
+        });
+
+       
+           
+        //var entities = allPieChartData[politicId];
+        showSimilarPoliticians(politic_id,true)
+        showSimilarPoliticians(politic_id,false)
+        plotPoliticianData(politic_id)
+        server_bar(politic_id)
+        //sentimentYears(politicId)
+        //sentimentYearsavg(politicId)
+        sentimentQ(2019, politic_id)
+        emotionQ(politic_id)
+        //emotionH(politicId)
+        renderNgrams(politic_id)
+                
+                
+            
+        
+
+
+    });
+
+
+    
+
+    function showSimilarPoliticians(politik,ST) {
+        var datasim;
+        if (ST) {
+            datasim = similarities_ST;
+        } else {
+            datasim = similarities;
+        }
+        if (!datasim[politik] && ST) {
+            document.getElementById("similarPoliticians_ST").innerHTML = "<div class='alert alert-warning'>Data pro tohoto politika nejsou dostupná.</div>";
+            return;
+        }
+        if (!datasim[politik] && !ST) {
+            document.getElementById("similarPoliticians").innerHTML = "<div class='alert alert-warning'>Data pro tohoto politika nejsou dostupná.</div>";
+            return;
+        }
+        var container;
+        if (ST) {
+            container = document.getElementById("similarPoliticians_ST");
+        } else {
+            container = document.getElementById("similarPoliticians");
+        }
+        container.innerHTML = ``;
+
+        let row = document.createElement("div");
+        row.className = "row mt-3";
+
+        datasim[politik].forEach(item => {
+            let col = document.createElement("div");
+            col.className = "col-md-4";
+
+            col.innerHTML = `
+                        <div class="card shadow-sm border-primary mb-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark">${item.name}</h5>
+                                <p class="card-text text-muted">Similarita: <strong>${(item.similarity * 100).toFixed(2)}%</strong></p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: ${(item.similarity * 100).toFixed(0)}%;" aria-valuenow="${(item.similarity * 100).toFixed(0)}" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+            row.appendChild(col);
+        });
+
+        container.appendChild(row);
+    }
+
+
+
+
+</script>
+
+    
+        
+        <div class="chart-card">
+    <h3 class="mb-3 text-start">Profil politika @politic_id</h3>
+            <p class="text-muted mb-4">
+                Profil zobrazuje informace o příspěvcích na sociálních sítích v roce 2019, jejich četnost, sentiment a emoce, styl vyjadřování a zmíněné subjekty.
+            </p>
+        </div>
+    <div class="sentiment_page">
+        <div class="left-panel-sentiment">
+            
+            <div class="myrow2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Počet příspěvků v roce 2019</h3>
+                       
+                    </div>
+                <div class="chart-container-detail" id="count_years_@politic_id"></div>
+
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Počet příspěvků na sociálních sítích</h3>
+                        <p class="chart-subtitle">Srovnání příspěvků na Facebooku, Twitteru a retweetovaných příspěvků</p>
+                    </div>
+                <div class="chart-container-detail" id="server_count_@politic_id"></div>
+
+                </div>
+            </div>
+           
+            <div class="myrow2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Rozložení sentimentu v příspěvcích</h3>
+                        <p class="chart-subtitle"></p>
+                    </div>
+                    <div class="chart-container-detail" id="sentimentAll"></div>
+
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Vývoj sentimentu v čase</h3>
+                        <p class="chart-subtitle">
+                            Průměrný sentiment v příspěvcích za rok 2019
+                            
+                        </p>
+
+
+                    </div>
+                <div class="chart-container-detail" id="sentimentQ_@politic_id"></div>
+
+                </div>
+            </div>
+           
+        
+            <div class="myrow2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Vývoj emocí</h3>
+                        <p class="chart-subtitle">
+                            Vývoj použitých emocí v roce 2019
+                            
+                        </p>
+                    </div>
+                <div class="chart-container-detail" id="emotionQ_@politic_id"></div>
+
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Emoce vyjádřené v příspěvcích</h3>
+                        <p class="chart-subtitle"></p>
+                    </div>
+                    <div class="chart-container-detail" id="emotionAll"></div>
+
+                </div>
+            </div>
+
+
+          
+                <div class="chart-card" id="ngramdiv">
+                    <h3>Časté fráze politika @politic_id</h3>
+                    <div id="ngram-container"></div>
+                </div>
+        
+         
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Podobnost mezi politiky</h3>
+                        <p class="chart-subtitle">Politici s nejpodobnějším stylem a obsahem příspěvků (dle častých n-gramů)</p>
+                    </div>
+                    <div id="similarPoliticians" class="mt-4"></div>
+
+                </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3 class="chart-title">Podobnost mezi politiky</h3>
+                    <p class="chart-subtitle">Politici s nejpodobnějším stylem a obsahem příspěvků (dle SentenceTransformer)</p>
+                </div>
+                <div id="similarPoliticians_ST" class="mt-4"></div>
+
+            </div>
+            
+
+        </div>
+
+
+        <div class="right-panel-sentiment">
+          
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Entity v příspěvcích</h3>
+                        <p class="chart-subtitle">
+                            Nejčastější entity zmiňované v příspěvcích
+                        </p>
+                    </div>
+
+
+                    <div class="chart-row">
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Mix typů entit</h4>
+                            <div class="chart-container-detail" id="nerAll"></div>
+                        </div>
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Osoby</h4>
+                            <div class="chart-container-detail" id="nerNames"></div>
+                        </div>
+                    </div>
+                </div>
+         
+    
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Zmiňované entity v emocích</h3>
+                        <p class="chart-subtitle">
+                            Charakteristické entity pro emoci:
+                            <div class="year-selection" style="display: inline-block; margin-left: 10px;">
+                                <select id="emotion_select" class="year-select">
+                                    <option value="anger">Hněv</option>
+                                    <option value="anticipation">Očekávání</option>
+                                    <option value="disgust">Znechucení</option>
+                                    <option value="fear">Strach</option>
+                                    <option value="joy">Radost</option>
+                                    <option value="love">Láska</option>
+                                    <option value="optimism">Optimismus</option>
+                                    <option value="pessimism">Pesimismus</option>
+                                    <option value="sadness">Smutek</option>
+                                    <option value="surprise">Překvapení</option>
+                                    <option value="trust">Důvěra</option>
+                                </select>
+                            </div>
+                        </p>
+                    </div>
+
+
+                    <div class="chart-row">
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Mix kategorií</h4>
+                            <div class="chart-container-detail" id="emotion-nermix"></div>
+                        </div>
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Osoby</h4>
+                            <div class="chart-container-detail" id="emotion-nernames"></div>
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Entity v negativních příspěvcích</h3>
+                        <p class="chart-subtitle">
+                            Příspěvky se sentimentem &lt; -0.5
+                        </p>
+                    </div>
+
+
+                    <div class="chart-row">
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Mix typů entit</h4>
+                            <div class="chart-container-detail" id="neg_mix"></div>
+                        </div>
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Konkrétní názvy entit</h4>
+                            <div class="chart-container-detail" id="neg_names"></div>
+                        </div>
+                    </div>
+                </div>
+         
+         
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3 class="chart-title">Entity v pozitivních příspěvcích</h3>
+                        <p class="chart-subtitle">
+                            Příspěvky se sentimentem &gt; 0.5
+                        </p>
+                    </div>
+
+
+                    <div class="chart-row">
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Mix typů entit</h4>
+                            <div class="chart-container-detail" id="pos_mix"></div>
+                        </div>
+                        <div class="chart-column">
+                            <h4 class="chart-subtitle-title">Konkrétní názvy entit</h4>
+                            <div class="chart-container-detail" id="pos_names"></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+        </div>
+
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
