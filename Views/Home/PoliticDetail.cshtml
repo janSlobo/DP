@@ -45,34 +45,36 @@
     };
     function drawPieChart(data, id, politicId, entity) {
 
-        var chartData = {
-            labels: data.map(function (e) { return e.entityText; }),
-            values: data.map(function (e) { return e.frequency; }),
-            type: 'pie',
-            marker: {
-                colors: ['#FF5733', '#33FF57', '#3357FF', '#FF33A8', '#FFFF33']
-            },
-            textinfo: 'label', 
-            textposition: 'inside', 
-            hoverinfo: 'label+value'
+        if (data) {
+            var chartData = {
+                labels: data.map(function (e) { return e.entityText; }),
+                values: data.map(function (e) { return e.frequency; }),
+                type: 'pie',
+                marker: {
+                    colors: ['#FF5733', '#33FF57', '#3357FF', '#FF33A8', '#FFFF33']
+                },
+                textinfo: 'label',
+                textposition: 'inside',
+                hoverinfo: 'label+value'
 
-        };
+            };
 
-        var layout = {
-            title: "",
-            margin: { t: 10, r: 10, b: 10, l: 10 },
-            showlegend: false,
-            autosize: true
+            var layout = {
+                title: "",
+                margin: { t: 10, r: 10, b: 10, l: 10 },
+                showlegend: false,
+                autosize: true
 
-        };
+            };
 
 
-        if (politicId != "" && entity != "") {
-            var chartId = 'chart-' + politicId + '-' + entity;
-            Plotly.newPlot(chartId, [chartData], layout, config);
-        } else {
+            if (politicId != "" && entity != "") {
+                var chartId = 'chart-' + politicId + '-' + entity;
+                Plotly.newPlot(chartId, [chartData], layout, config);
+            } else {
 
-            Plotly.newPlot(id, [chartData], layout, config);
+                Plotly.newPlot(id, [chartData], layout, config);
+            }
         }
     }
 
@@ -105,14 +107,17 @@
         var layout = {
             title: '',
             xaxis: {
-                title: '',
+                title: 'Sentiment',
                 range: [-1, 1],
                 tickvals: binEdges,  
                 ticktext: binEdges.map(v => v.toFixed(1))
+            },yaxis: {
+                title: 'Počet příspěvků'
+               
             },
             autosize: true,
             margin: {
-                l: 35,
+                l: 55,
                 r: 5,
                 t: 0,
                 b: 45
@@ -484,37 +489,38 @@
 
 
         var selectedStats = emotionDataQ[politicianId][year];
+        if (selectedStats) { 
+
+            var emotions = selectedStats.map(function (stat) { return stat.emotion; });
+            var percentages = selectedStats.map(function (stat) { return stat.percentagePerQuarter; });
 
 
-        var emotions = selectedStats.map(function (stat) { return stat.emotion; });
-        var percentages = selectedStats.map(function (stat) { return stat.percentagePerQuarter; });
+            var traces = emotions.map(function (emotion, index) {
+                return {
+                    x: ['Q1', 'Q2', 'Q3', 'Q4'],
+                    y: percentages[index],
+                    mode: 'lines+markers',
+                    name: emotion
+                };
+            });
 
 
-        var traces = emotions.map(function (emotion, index) {
-            return {
-                x: ['Q1', 'Q2', 'Q3', 'Q4'],
-                y: percentages[index],
-                mode: 'lines+markers',
-                name: emotion
+            var layout = {
+
+                xaxis: { title: '' },
+                yaxis: { title: '' },
+                showlegend: true,
+                autosize: true,
+                margin: {
+                    l: 30,
+                    r: 0,
+                    t: 45,
+                    b: 45
+                }
             };
-        });
 
-
-        var layout = {
-         
-            xaxis: { title: '' },
-            yaxis: { title: '' },
-            showlegend: true,
-            autosize: true,
-            margin: {
-                l: 30,
-                r: 0,
-                t: 45,
-                b: 45
-            }
-        };
-
-        Plotly.newPlot('emotionQ_' + politicianId, traces, layout, config);
+            Plotly.newPlot('emotionQ_' + politicianId, traces, layout, config);
+        }
     }
 
     function emotionH(politicianId) {
@@ -612,7 +618,7 @@
                 container.appendChild(ngramDiv);
             });
         } else {
-            container.innerHTML = '<p>No n-grams found for this politicid and entity.</p>';
+            container.innerHTML = '<p>Související slova nejsou dostupná z důvodu malého počtu dat.</p>';
         }
     }
 
@@ -809,7 +815,7 @@
                                     <option value="2020">2020</option>
                                     <option value="2021">2021</option>
                                     <option value="2022">2022</option>
-                                    <option value="2023">2023</option>
+                                   
                                 </select>
                             </div>
                         </p>
@@ -849,7 +855,7 @@
                             <div class="year-selection" style="display: inline-block; margin-left: 10px;">
                                 <select id="yearSelect" class="year-select" onchange="emotionQ('@politicId')">
                                    
-                                    @foreach (var year in new int[] { 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 })
+                                    @foreach (var year in new int[] { 2016, 2017, 2018, 2019, 2020, 2021, 2022 })
                                     {
                                         <option value="@year">@year</option>
                                     }

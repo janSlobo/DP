@@ -214,7 +214,7 @@ namespace PoliticStatements.Controllers
 
             Dictionary<string, double[]> p_counts = new Dictionary<string, double[]>();
 
-            p_counts["all"] = st.Select(s => s.Sentiment).ToArray();
+            p_counts["all"] = st.Select(s => s.SentimentBert).ToArray();
             ViewBag.polaritycounts = p_counts;
 
             Dictionary<int, int> st_count_years = st
@@ -678,12 +678,12 @@ namespace PoliticStatements.Controllers
                     allPieChartData[kvp.Key][topentities[kvp.Key][i]] = res;
 
 
-                    sentimentHist[kvp.Key][topentities[kvp.Key][i]] = kvp.Value[i].Select(s => s.Sentiment).ToArray();
+                    sentimentHist[kvp.Key][topentities[kvp.Key][i]] = kvp.Value[i].Select(s => s.SentimentBert).ToArray();
 
                     var emotionDistribution = emotionAnalysis.PrepareEmotionDistribution(kvp.Value[i]);
                     emotionData[kvp.Key][topentities[kvp.Key][i]] = emotionDistribution;
 
-                    var time_sentiment_pe = sentimentAnalysis.CalculateMedianSentimentByHalfYear(kvp.Value[i],5)[kvp.Key];
+                    var time_sentiment_pe = sentimentAnalysis.CalculateMedianSentimentByHalfYear(kvp.Value[i],0)[kvp.Key];
 
 
                     if (!sentiment_half_pe[kvp.Key].ContainsKey(topentities[kvp.Key][i]))
@@ -816,13 +816,13 @@ namespace PoliticStatements.Controllers
 
             ViewBag.EmotionStatsH = emotionStatsH;
 
-            Dictionary<string, int> st_count = st
+            Dictionary<string, int> st_count = st_rt
             .GroupBy(s => s.osobaid.politic_id)
             .ToDictionary(g => g.Key, g => g.Count());
 
             ViewBag.st_count = st_count;
 
-            Dictionary<string, Dictionary<int, int>> st_count_years = st
+            Dictionary<string, Dictionary<int, int>> st_count_years = st_rt
                 .GroupBy(s => s.osobaid.politic_id)
                 .ToDictionary(
                     g => g.Key,
@@ -1158,7 +1158,7 @@ namespace PoliticStatements.Controllers
 
             var tasks = new List<Task>();
 
-            for (int i = 2016; i < 2022; i++)
+            for (int i = 2016; i <= 2022; i++)
             {
                 var year = i;
                 tasks.Add(Task.Run(() =>
@@ -1221,7 +1221,7 @@ namespace PoliticStatements.Controllers
             Dictionary<string, List<PoliticianEmotionData>> emostats = new Dictionary<string, List<PoliticianEmotionData>>();
 
             tasks.Clear();
-            for (int i = 2016; i < 2022; i++)
+            for (int i = 2016; i <= 2022; i++)
             {
                 var year = i;
                 tasks.Add(Task.Run(() =>
@@ -1293,7 +1293,7 @@ namespace PoliticStatements.Controllers
         {
             
             var st = _statementData.Statements;
-            var st_noRT = st.Where(x => !x.RT).ToList();
+            
 
             List<string> types = new List<string> { "io", "gc", "P", "ps", "gu", "ic", "ms", "op", "oa", "if" };
            
@@ -1302,33 +1302,32 @@ namespace PoliticStatements.Controllers
             Dictionary<string, List<int>> typecounts = new Dictionary<string, List<int>>();
             Dictionary<string, List<EntitySentimentData>> entsentdata = new Dictionary<string, List<EntitySentimentData>>();
             Dictionary<string, List<string>> allt = new Dictionary<string, List<string>>();
-            Dictionary<string, Dictionary<string, double>> entratio = new Dictionary<string, Dictionary<string, double>>();
             for (int i = 2016; i <= 2022; i++)
             {
                 
 
                 var yearlySt = st.Where(x => x.datum.Value.Year == i).ToList();
-                var st_noRT_y = yearlySt.Where(x => !x.RT).ToList();
-                var groupedEntitiesy = nerAnalysis.GetTopEntitiesByType(yearlySt, types);
+                var min = (i == 2019) ? 40 : 5;
+                var groupedEntitiesy = nerAnalysis.GetTopEntitiesByType(yearlySt, types,min);
                 nercountypes[i.ToString()] = groupedEntitiesy;
                 var (entityTypesy, typeCountsy) = nerAnalysis.GetTopEntityTypes(yearlySt);
                 enttypes[i.ToString()] = entityTypesy;
                 typecounts[i.ToString()] = typeCountsy;
 
-                var entitySentimentDatay = nerAnalysis.CalculateAverageSentimentType(yearlySt, types);
+                var entitySentimentDatay = nerAnalysis.CalculateAverageSentimentType(yearlySt, types,min);
                 entsentdata[i.ToString()] = entitySentimentDatay;
                 allt[i.ToString()]= entitySentimentDatay
                 .Select(x => x.EntityType)
                 .Distinct()
                 .ToList();
-                entratio[i.ToString()]= nerAnalysis.CalculateEntityToWordRatio(st_noRT_y);
+                
             }
-            var entity_ratio = nerAnalysis.CalculateEntityToWordRatio(st_noRT);
-            entratio["all"] = entity_ratio;
-            ViewBag.PoliticianRatios = entratio;
+           
+          
+       
 
 
-            var groupedEntities = nerAnalysis.GetTopEntitiesByType(st, types);
+            var groupedEntities = nerAnalysis.GetTopEntitiesByType(st, types,40);
             nercountypes["all"] = groupedEntities;
             ViewBag.nercounts_types = nercountypes;
 
@@ -1341,7 +1340,7 @@ namespace PoliticStatements.Controllers
             ViewBag.TypeCounts = typecounts;
 
 
-            var entitySentimentData = nerAnalysis.CalculateAverageSentimentType(st, types);
+            var entitySentimentData = nerAnalysis.CalculateAverageSentimentType(st, types,40);
             entsentdata["all"] = entitySentimentData;
             ViewBag.EntitySentiments = entsentdata;
 

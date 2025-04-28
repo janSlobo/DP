@@ -11,7 +11,6 @@ dominik-feri,miroslav-kalousek,0.03642,jiri-pospisil,0.03552,mikulas-ferjencik,0
 frantisek-kopriva,michaela-sojdrova,0.02235,veronika-vrecionova,0.01767,tomio-okamura,0.01696,mikulas-peksa,0.01654,petr-fiala,0.01515,pavel-telicka,0.01482
 hana-zakova,tomas-czernin,0.03749,lukas-wagenknecht,0.03497,milos-vystrcil,0.03222,herbert-pavera,0.03140,renata-chmelova,0.02765,jana-vildumetzova,0.02485
 helena-langsadlova,petr-fiala,0.01931,ludek-niedermayer,0.01837,marketa-adamova,0.01654,jan-bartosek,0.01557,jiri-pospisil,0.01389,miroslav-kalousek,0.01378
-herbert-pavera,lukas-wagenknecht,0.03747,milos-vystrcil,0.03153,hana-zakova,0.03140,tomas-czernin,0.03026,renata-chmelova,0.02740,tomas-golan,0.02184
 ivan-bartos,lukas-wagenknecht,0.05408,mikulas-peksa,0.03297,vit-rakusan,0.03287,mikulas-ferjencik,0.03110,petr-fiala,0.02959,martin-kupka,0.02906
 jakub-janda,andrej-babis,0.01538,vit-rakusan,0.01502,radek-vondracek,0.01335,pavel-telicka,0.01147,marek-zenisek,0.01120,ladislav-oklestek,0.01059
 jan-bartosek,vit-rakusan,0.04520,marek-vyborny,0.04284,petr-fiala,0.04070,alena-schillerova,0.03520,jiri-drahos,0.03155,alena-gajduskova,0.03107
@@ -24,12 +23,10 @@ jan-skopecek,petr-fiala,0.06230,vojtech-munzar,0.04741,alena-schillerova,0.04453
 jan-zahradil,mikulas-peksa,0.02630,ludek-niedermayer,0.02568,marketa-gregorova,0.02449,michaela-sojdrova,0.02357,marek-zenisek,0.02324,tomas-prouza,0.02018
 jana-cernochova,petr-fiala,0.02460,barbora-koranova,0.02394,vit-rakusan,0.02027,jiri-drahos,0.01781,andrej-babis,0.01676,jan-hamacek,0.01617
 jana-vildumetzova,andrej-babis,0.03164,alena-schillerova,0.03046,ladislav-oklestek,0.02614,hana-zakova,0.02485,barbora-koranova,0.02384,alena-gajduskova,0.02343
-jaroslav-foldyna,barbora-koranova,0.00648,miluse-horska,0.00444,herbert-pavera,0.00440,katerina-valachova,0.00378,jiri-drahos,0.00325,tomas-golan,0.00323
 jaroslav-polacek,jiri-pospisil,0.04934,marketa-adamova,0.02706,lukas-wagenknecht,0.02308,tomas-czernin,0.02085,petr-fiala,0.02077,miroslav-kalousek,0.02055
 jiri-dolejs,alena-gajduskova,0.01176,miroslav-kalousek,0.00961,miluse-horska,0.00949,marek-zenisek,0.00920,vit-rakusan,0.00877,martin-kolovratnik,0.00824
 jiri-drahos,jiri-pospisil,0.04353,vit-rakusan,0.03916,petr-fiala,0.03870,jan-bartosek,0.03155,ludek-niedermayer,0.02995,tomas-golan,0.02884
 jiri-pospisil,petr-fiala,0.07196,marketa-adamova,0.06251,vit-rakusan,0.05550,tomas-golan,0.05336,lukas-wagenknecht,0.05123,jaroslav-polacek,0.04934
-jiri-vosecky,renata-chmelova,0.03523,milos-vystrcil,0.02179,herbert-pavera,0.01692,tomas-czernin,0.01649,lukas-wagenknecht,0.01375,hana-zakova,0.01260
 karel-havlicek,andrej-babis,0.02959,alena-schillerova,0.01936,martin-kolovratnik,0.01693,marian-jurecka,0.01639,vit-rakusan,0.01634,adam-vojtech,0.01508
 katerina-valachova,alena-gajduskova,0.05064,jan-hamacek,0.03368,marek-vyborny,0.03364,alena-schillerova,0.03175,barbora-koranova,0.02815,andrej-babis,0.02266
 ladislav-oklestek,jana-vildumetzova,0.02614,marek-vyborny,0.01482,zuzana-majerova-zahradnikova,0.01476,andrej-babis,0.01358,lukas-wagenknecht,0.01251,jan-hamacek,0.01203
@@ -55,7 +52,6 @@ mikulas-ferjencik,petr-fiala,0.03628,vlastimil-valek,0.03117,marketa-adamova,0.0
 mikulas-peksa,michaela-sojdrova,0.05506,veronika-vrecionova,0.05468,jiri-pospisil,0.04642,lukas-wagenknecht,0.04571,petr-fiala,0.04559,pavel-telicka,0.04531
 milos-vystrcil,hana-zakova,0.03222,tomas-czernin,0.03193,herbert-pavera,0.03153,lukas-wagenknecht,0.03065,renata-chmelova,0.03043,tomas-golan,0.02685
 milos-zeman,radek-vondracek,0.02047,vit-rakusan,0.01728,jana-vildumetzova,0.01631,jiri-drahos,0.01594,miroslav-kalousek,0.01514,pavel-telicka,0.01347
-miloslava-vostra,alena-schillerova,0.04105,jan-bartosek,0.03048,petr-fiala,0.02996,vit-rakusan,0.02537,jan-skopecek,0.02227,andrej-babis,0.01867
 miluse-horska,vit-rakusan,0.02176,petr-fiala,0.02051,pavel-fischer,0.01910,jan-bartosek,0.01897,ludek-niedermayer,0.01826,jiri-pospisil,0.01818
 miroslav-antl,milos-vystrcil,0.01376,hana-zakova,0.01355,tomas-golan,0.00853,lukas-wagenknecht,0.00723,martin-kolovratnik,0.00649,herbert-pavera,0.00608
 miroslav-kalousek,marketa-adamova,0.09093,marek-zenisek,0.06967,vit-rakusan,0.06670,petr-fiala,0.06336,ludek-niedermayer,0.05673,jiri-pospisil,0.04835
@@ -71,7 +67,6 @@ petr-fiala,vit-rakusan,0.07316,jiri-pospisil,0.07196,veronika-vrecionova,0.06994
 petr-gazdik,vit-rakusan,0.01945,marian-jurecka,0.01607,ludek-niedermayer,0.01329,vera-kovarova,0.01266,marketa-adamova,0.01214,lukas-wagenknecht,0.01203
 petr-hladik,adam-vojtech,0.03224,andrej-babis,0.03001,alena-schillerova,0.02540,jan-bartosek,0.02137,ludek-niedermayer,0.02029,vit-rakusan,0.01885
 petr-hlubucek,zdenek-hrib,0.02264,petr-hladik,0.01558,andrej-babis,0.01433,vit-rakusan,0.01299,jan-cizinsky,0.01271,pavel-poc,0.01117
-radek-koten,tomio-okamura,0.03159,radim-fiala,0.02834,jan-hrncir,0.02331,radek-vondracek,0.01283,alena-schillerova,0.01187,radek-rozvoral,0.01132
 radek-rozvoral,jan-hrncir,0.03349,tomio-okamura,0.02132,radim-fiala,0.02047,veronika-vrecionova,0.01435,olga-sehnalova,0.01349,radek-koten,0.01132
 radek-vondracek,marek-novak,0.13394,zuzana-majerova-zahradnikova,0.03651,vit-rakusan,0.02774,tomas-golan,0.02766,andrej-babis,0.02707,petr-fiala,0.02653
 radim-fiala,jan-hrncir,0.11715,tomio-okamura,0.10940,petr-fiala,0.03898,ludek-niedermayer,0.02970,veronika-vrecionova,0.02866,radek-koten,0.02834

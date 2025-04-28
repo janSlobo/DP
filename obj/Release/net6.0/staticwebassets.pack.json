@@ -1213,6 +1213,30 @@
       "PackagePath": "staticwebassets\\data\\unique_ngrams_all_2019_4.csv"
     },
     {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_mix_net.gexf",
+      "PackagePath": "staticwebassets\\data\\w2v_mix_net.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_mix_net.json",
+      "PackagePath": "staticwebassets\\data\\w2v_mix_net.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_mix_net_community.csv",
+      "PackagePath": "staticwebassets\\data\\w2v_mix_net_community.csv"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_ps_net.gexf",
+      "PackagePath": "staticwebassets\\data\\w2v_ps_net.gexf"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_ps_net.json",
+      "PackagePath": "staticwebassets\\data\\w2v_ps_net.json"
+    },
+    {
+      "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\data\\w2v_ps_net_community.csv",
+      "PackagePath": "staticwebassets\\data\\w2v_ps_net_community.csv"
+    },
+    {
       "Id": "C:\\Users\\HONZA\\Desktop\\PoliticStatements\\PoliticStatements\\PoliticStatements\\PoliticStatements\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

@@ -82,7 +82,7 @@
         var targetId = (politicId != "" && entity != "") ? 'chart-' + politicId + '-' + entity : id;
         var container = document.getElementById(targetId);
         if (container) {
-            container.innerHTML = "<div style='text-align:center; padding: 20px; color: #777;'>Data nejsou dostupná</div>";
+            container.innerHTML = "<div style='text-align:center; padding: 20px; color: #777;'>Entity neexistují.</div>";
         }
     }
     }
@@ -111,11 +111,11 @@
 
         var layout = {
             title: '',
-            xaxis: { title: '', range: [-1, 1] },
+            xaxis: { title: 'Sentiment', range: [-1, 1] },yaxis: { title: 'Počet příspěvků' },
             autosize: true,
             innerWidth: null,
             margin: {
-                l: 35,
+                l: 55,
                 r: 5,
                 t: 0,
                 b: 45
@@ -886,7 +886,7 @@
                             <div class="chart-container-detail" id="neg_mix"></div>
                         </div>
                         <div class="chart-column">
-                            <h4 class="chart-subtitle-title">Konkrétní názvy entit</h4>
+                            <h4 class="chart-subtitle-title">Osoby</h4>
                             <div class="chart-container-detail" id="neg_names"></div>
                         </div>
                     </div>
@@ -908,7 +908,7 @@
                             <div class="chart-container-detail" id="pos_mix"></div>
                         </div>
                         <div class="chart-column">
-                            <h4 class="chart-subtitle-title">Konkrétní názvy entit</h4>
+                            <h4 class="chart-subtitle-title">Osoby</h4>
                             <div class="chart-container-detail" id="pos_names"></div>
                         </div>
                     </div>

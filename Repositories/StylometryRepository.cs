@@ -218,18 +218,20 @@ namespace PoliticStatements.Repositories
         {
             var result = new Dictionary<string, Dictionary<string, List<string>>>();
 
-
             var files = Directory.GetFiles(folderPath, "*_slova.csv");
 
             foreach (var file in files)
             {
                 string fileName = Path.GetFileNameWithoutExtension(file);
-                string[] parts = fileName.Split('_');
 
-                if (parts.Length < 3) continue;
+                int firstUnderscore = fileName.IndexOf('_');
+                int lastUnderscore = fileName.LastIndexOf('_');
 
-                string politician = parts[0];
-                string entity = parts[1];
+                if (firstUnderscore == -1 || lastUnderscore == -1 || firstUnderscore == lastUnderscore)
+                    continue; 
+
+                string politician = fileName.Substring(0, firstUnderscore);
+                string entity = fileName.Substring(firstUnderscore + 1, lastUnderscore - firstUnderscore - 1);
 
                 if (!result.ContainsKey(politician))
                 {
@@ -240,7 +242,6 @@ namespace PoliticStatements.Repositories
                 {
                     result[politician][entity] = new List<string>();
                 }
-
 
                 var lines = File.ReadAllLines(file).Skip(1);
 
@@ -257,5 +258,7 @@ namespace PoliticStatements.Repositories
 
             return result;
         }
+
+
     }
 }

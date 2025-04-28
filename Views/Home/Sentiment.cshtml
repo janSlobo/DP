@@ -107,7 +107,7 @@
                 margin: {
                     l: 55,
                     r: 25,
-                    t: 50,
+                    t: 0,
                     b: 55
                 }
             };
@@ -228,38 +228,40 @@
         renderTable();
     }
     function showpolaritycountsm(year) {
-        polaritycountsMY = polaritycountsM[year] || polaritycountsM["all"]
-
-        var trace = {
-            x: polaritycountsMY,
-            type: 'histogram',
-            xbins: { size: 0.2 },
-            marker: {
-                color: 'rgba(55, 128, 191, 0.7)',
-                line: {
-                    color: 'rgba(55, 128, 191, 1)',
-                    width: 1
+        polaritycountsMY = polaritycountsM[year] || polaritycountsM["all"];
+        if (polaritycountsMY && polaritycountsMY.length > 0) {
+            var trace = {
+                x: polaritycountsMY,
+                type: 'histogram',
+                xbins: { size: 0.2 },
+                marker: {
+                    color: 'rgba(55, 128, 191, 0.7)',
+                    line: {
+                        color: 'rgba(55, 128, 191, 1)',
+                        width: 1
+                    }
                 }
-            }
+            };
 
-        };
+            var layout = {
+                title: '',
+                xaxis: { title: '', range: [-1, 1] },
+                autosize: true,
+                innerWidth: null,
+                margin: {
+                    l: 35,
+                    r: 5,
+                    t: 20,
+                    b: 45
+                }
+            };
 
-        var layout = {
-            title: '',
-            xaxis: { title: '', range: [-1, 1] },
-            autosize:true,
-            innerWidth: null,
-            margin: {
-                l: 35,
-                r: 5,
-                t: 20,
-                b: 45
-            }
-        };
-
-
-        Plotly.newPlot('polaritybarM', [trace], layout,config);
+            Plotly.newPlot('polaritybarM', [trace], layout, config);
+        } else {
+            document.getElementById('polaritybarM').innerHTML = "<div style='text-align:center; font-size:23px; padding:20px;'>Žádné zmínky pro tento rok</div>";
+        }
     }
+
     function showpolaritycounts(year) {
         polaritycountsY = polaritycounts[year] || polaritycounts["all"];
 
@@ -460,7 +462,7 @@
            autosize:true,
             showlegend: false,
             margin:{
-                r:20
+                r:20,t:0
             }
         };
 
@@ -766,7 +768,11 @@
         if (selectedIndices.length === 0) {
             document.getElementById('sentimentboxM').style.display = "none";
             document.getElementById('sentimentboxM_message').style.display = "block";
-
+            console.log(politicianDataY)
+            if (year==2020 || year==2021 ||year==2022) {
+                console.log('ano')
+                document.getElementById('sentimentboxM_message').innerHTML = "Žádné zmínky pro tento rok";
+            }
             return;
         }
         document.getElementById('sentimentboxM_message').style.display = "none";
@@ -1139,7 +1145,7 @@
             <div class="chart-card">
                 <div class="chart-header">
                     <h3 class="chart-title">Vývoj sentimentu v čase</h3>
-                    <p class="chart-subtitle">Průměrný sentiment obě pololetí každého roku </p>
+                   
                 </div>
                 <div class="chart-container-m" id="sentimenttime"></div>
 
@@ -1262,7 +1268,7 @@
 
     <div class="chart-card-bg">
         <div class="chart-header">
-            <h3 class="chart-title">Rozsah sentimentu v příspěvcích politiků </h3>
+            <h3 class="chart-title">Rozložení sentimentu v příspěvcích politiků </h3>
             <p class="chart-subtitle">Pro politiky vybrané ze seznamu je zobrazeno rozložení jejich příspěvků dle sentimentu </p>
         </div>
         <div class="graphrow">

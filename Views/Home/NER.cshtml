@@ -986,6 +986,11 @@
     function createSelect() {
         var nercountsy = nerCounts[yearS] || nerCounts["all"];
         var typeSelect = document.getElementById('typeSelect');
+
+        
+        typeSelect.innerHTML = "";
+
+      
         Object.keys(nercountsy).forEach(function (type) {
             var option = document.createElement('option');
             option.value = type;
@@ -993,6 +998,7 @@
             typeSelect.appendChild(option);
         });
     }
+
     function updateTable(resetPage = false) {
      
         if (resetPage) {
@@ -1352,7 +1358,7 @@
                     <div class="typeselect">
                         <label for="typeSelect" style="white-space: nowrap;">Vyberte typ:</label>
                         <select id="typeSelect" class="form-select" style="flex: 1; min-width: 200px;">
-                            <option value="">--Vyberte typ--</option>
+                            
                         </select>
                     </div>
 

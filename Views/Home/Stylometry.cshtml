@@ -424,11 +424,9 @@
     function showTable(reset=false) {
         var tbody = document.querySelector("#politicianTable tbody");
 
-        // Get selected criteria and order
         var sortCriteria = document.querySelector("#sortCriteria").value;
         var sortOrder = document.querySelector("#sortOrder").value;
 
-        // Sort the data based on selected criteria
         avg_sentence.sort((a, b) => {
             let valueA, valueB;
 
@@ -447,7 +445,6 @@
                 valueB = st_count[b.name];
             }
 
-            // Sort ascending or descending
             if (sortOrder === "asc") {
                 return valueA > valueB ? 1 : (valueA < valueB ? -1 : 0);
             } else {
@@ -461,15 +458,12 @@
         }
         
 
-        // Paginate the data
         var startIndex = (currentPage - 1) * itemsPerPage;
         var endIndex = startIndex + itemsPerPage;
         var paginatedData = avg_sentence.slice(startIndex, endIndex);
 
-        // Clear existing rows
         tbody.innerHTML = "";
 
-        // Populate the table with paginated data
         paginatedData.forEach(politician => {
             var row = document.createElement("tr");
             row.innerHTML = `
@@ -481,7 +475,6 @@
             tbody.appendChild(row);
         });
 
-        // Update page number display
         document.getElementById("pageNumber").textContent = `Stránka ${currentPage}`;
         var totalPages = Math.ceil(avg_sentence.length / itemsPerPage);
         document.getElementById("totalPages").textContent = totalPages;
@@ -490,16 +483,13 @@
     function changePage(direction) {
         var totalPages = Math.ceil(avg_sentence.length / itemsPerPage);
 
-        // Change the current page
         currentPage += direction;
         console.log(currentPage,totalPages)
-        // Ensure currentPage is within the valid range
         if (currentPage < 1) currentPage = 1;
         if (currentPage > totalPages) currentPage = totalPages;
 
         
 
-        // Show the table for the new page
         showTable(true);
     }
     function getSelectedPoliticians() {
@@ -510,7 +500,6 @@
         var dataDict = slovnidruhy;
         var selectedPoliticians = getSelectedPoliticians();
 
-        // Pokud nejsou vybráni žádní politici, zobrazíme placeholder
         if (selectedPoliticians.length === 0) {
             document.getElementById('slovnidruhy').style.display = "none";
             document.getElementById('slovnidruhy_message').style.display = "block";
@@ -520,14 +509,12 @@
         document.getElementById('slovnidruhy_message').style.display = "none";
         document.getElementById('slovnidruhy').style.display = "block";
 
-        // Získáme unikátní slovní druhy
         var slovniDruhy = new Set();
         Object.values(dataDict).forEach(politikData => {
             Object.keys(politikData).forEach(druh => slovniDruhy.add(druh));
         });
         slovniDruhy = Array.from(slovniDruhy);
 
-        // Vytvoříme datové série (traces) pro každý slovní druh
         var traces = slovniDruhy.map(druh => ({
             x: selectedPoliticians,
             y: selectedPoliticians.map(politik => dataDict[politik]?.[druh] || 0),
@@ -539,14 +526,13 @@
             marker: { opacity: 0.9 }
         }));
 
-        // Vykreslení grafu
         var layout = {
             title: "",
             barmode: "stack",
             xaxis: { title: "", tickangle: 45 },
             yaxis: { title: "Zastoupení sl. druhu (v %)" },
             legend: { x: 1.05, y: 1 }, 
-            margin: { l: 80, r: 100, t: 0, b: 105 }, autosize:true
+            margin: { l: 80, r: 100, t: 10, b: 95 }, autosize:true
         };
 
         Plotly.react("slovnidruhy", traces, layout,config);
@@ -554,15 +540,13 @@
     function showSentenceBoxplots() {
         var traceData = [];
 
-        // Funkce pro nahrazení nulových hodnot malou konstantou
         function adjustDataForLogScale(data) {
-            return data.filter(value => value !== 0);  // Nahrazení 0 hodnotou 1e-5
+            return data.filter(value => value !== 0); 
         }
 
         for (var key in sentencelengths) {
             var checkbox = document.querySelector(`input[value="${key}"]`);
             if (checkbox.checked) {
-                // Úprava dat, aby obsahovala malou konstantu místo nuly
                 var adjustedData = adjustDataForLogScale(sentencelengths[key]);
 
                 traceData.push({
@@ -589,9 +573,9 @@
             yaxis: {
                 title: "Počet slov",
                 showgrid: true,
-                type: 'log',  // Logaritmické měřítko
-                tickvals: [1, 5, 10, 20, 50, 100, 500],  // Zahrnutí malé hodnoty pro zobrazení 0
-                ticktext: ['1','5', '10', '20', '50', '100', '500']  // Ruční texty pro hodnoty na ose Y
+                type: 'log',  
+                tickvals: [1, 5, 10, 20, 50, 100, 500],  
+                ticktext: ['1','5', '10', '20', '50', '100', '500'] 
             },
             boxmode: "overlay",
           

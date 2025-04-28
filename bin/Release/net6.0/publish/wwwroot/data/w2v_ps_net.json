@@ -1,0 +1,6539 @@
+{
+    "nodes": [
+        {
+            "id": "Salvini"
+        },
+        {
+            "id": "Kupka"
+        },
+        {
+            "id": "Navrátil"
+        },
+        {
+            "id": "Zdechovský"
+        },
+        {
+            "id": "Pospíšil"
+        },
+        {
+            "id": "Farage"
+        },
+        {
+            "id": "Zelenskyj"
+        },
+        {
+            "id": "Jelínek"
+        },
+        {
+            "id": "Kubiš"
+        },
+        {
+            "id": "Šabatový"
+        },
+        {
+            "id": "Poc"
+        },
+        {
+            "id": "Doležal"
+        },
+        {
+            "id": "Macron"
+        },
+        {
+            "id": "Brichta"
+        },
+        {
+            "id": "Scheinherr"
+        },
+        {
+            "id": "Šídlo"
+        },
+        {
+            "id": "Biden"
+        },
+        {
+            "id": "Hamáček"
+        },
+        {
+            "id": "Švarc"
+        },
+        {
+            "id": "Wagenknecht"
+        },
+        {
+            "id": "Maláčová"
+        },
+        {
+            "id": "Vystrčil"
+        },
+        {
+            "id": "Lenin"
+        },
+        {
+            "id": "Fridrich"
+        },
+        {
+            "id": "Jourová"
+        },
+        {
+            "id": "Le Pen"
+        },
+        {
+            "id": "Marx"
+        },
+        {
+            "id": "Vokřál"
+        },
+        {
+            "id": "Šojdrová"
+        },
+        {
+            "id": "Kováčik"
+        },
+        {
+            "id": "Hlubuček"
+        },
+        {
+            "id": "Soros"
+        },
+        {
+            "id": "Stropnický"
+        },
+        {
+            "id": "Nováková"
+        },
+        {
+            "id": "Švejk"
+        },
+        {
+            "id": "Šafránková"
+        },
+        {
+            "id": "Boček"
+        },
+        {
+            "id": "Petříček"
+        },
+        {
+            "id": "Vícha"
+        },
+        {
+            "id": "Horákovou"
+        },
+        {
+            "id": "Ťok"
+        },
+        {
+            "id": "Juncker"
+        },
+        {
+            "id": "Chvojka"
+        },
+        {
+            "id": "Danka"
+        },
+        {
+            "id": "Toman"
+        },
+        {
+            "id": "Baťa"
+        },
+        {
+            "id": "Teličko"
+        },
+        {
+            "id": "Winton"
+        },
+        {
+            "id": "Valachová"
+        },
+        {
+            "id": "Bobošíková"
+        },
+        {
+            "id": "Goláň"
+        },
+        {
+            "id": "Gazdík"
+        },
+        {
+            "id": "Hilšer"
+        },
+        {
+            "id": "Gregorová"
+        },
+        {
+            "id": "Poche"
+        },
+        {
+            "id": "Topolánek"
+        },
+        {
+            "id": "Conte"
+        },
+        {
+            "id": "Bek"
+        },
+        {
+            "id": "Klaus ml."
+        },
+        {
+            "id": "Semínko"
+        },
+        {
+            "id": "Stoltenberg"
+        },
+        {
+            "id": "Shehadeh"
+        },
+        {
+            "id": "Richterová"
+        },
+        {
+            "id": "Michel"
+        },
+        {
+            "id": "Dlabajová"
+        },
+        {
+            "id": "Diallo"
+        },
+        {
+            "id": "Obama"
+        },
+        {
+            "id": "Prymula"
+        },
+        {
+            "id": "Lipovský"
+        },
+        {
+            "id": "Koudelku"
+        },
+        {
+            "id": "Červíček"
+        },
+        {
+            "id": "Pekarová Adamová"
+        },
+        {
+            "id": "Zahradil"
+        },
+        {
+            "id": "Hampl"
+        },
+        {
+            "id": "Šmucler"
+        },
+        {
+            "id": "von der Leyen"
+        },
+        {
+            "id": "Baxa"
+        },
+        {
+            "id": "Bakalář"
+        },
+        {
+            "id": "Wilderse"
+        },
+        {
+            "id": "Vaňková"
+        },
+        {
+            "id": "Tabery"
+        },
+        {
+            "id": "Valenta"
+        },
+        {
+            "id": "Marvanová"
+        },
+        {
+            "id": "Kremlíka"
+        },
+        {
+            "id": "Peksa"
+        },
+        {
+            "id": "Jakl"
+        },
+        {
+            "id": "Čunek"
+        },
+        {
+            "id": "Veleba"
+        },
+        {
+            "id": "Rakušan"
+        },
+        {
+            "id": "Gerloch"
+        },
+        {
+            "id": "Arenberger"
+        },
+        {
+            "id": "Zahradníček"
+        },
+        {
+            "id": "Grosse"
+        },
+        {
+            "id": "Havel"
+        },
+        {
+            "id": "Sáblíková"
+        },
+        {
+            "id": "Hus"
+        },
+        {
+            "id": "Benda"
+        },
+        {
+            "id": "Rašín"
+        },
+        {
+            "id": "Gabčík"
+        },
+        {
+            "id": "Kohlíček"
+        },
+        {
+            "id": "Růžička"
+        },
+        {
+            "id": "Asad"
+        },
+        {
+            "id": "Jágr"
+        },
+        {
+            "id": "Onderka"
+        },
+        {
+            "id": "kurz"
+        },
+        {
+            "id": "Šmarda"
+        },
+        {
+            "id": "Sáňka"
+        },
+        {
+            "id": "Jermanová"
+        },
+        {
+            "id": "Plagu"
+        },
+        {
+            "id": "Filip"
+        },
+        {
+            "id": "Juříček"
+        },
+        {
+            "id": "Grospič"
+        },
+        {
+            "id": "Opat"
+        },
+        {
+            "id": "Pavla"
+        },
+        {
+            "id": "Husák"
+        },
+        {
+            "id": "Kiska"
+        },
+        {
+            "id": "Kolaja"
+        },
+        {
+            "id": "Udženija"
+        },
+        {
+            "id": "Danna"
+        },
+        {
+            "id": "Kovář"
+        },
+        {
+            "id": "Čížek"
+        },
+        {
+            "id": "Mitterwald"
+        },
+        {
+            "id": "Kolář"
+        },
+        {
+            "id": "Kobza"
+        },
+        {
+            "id": "Kramář"
+        },
+        {
+            "id": "Gajdůšková"
+        },
+        {
+            "id": "Hannan"
+        },
+        {
+            "id": "Sassoli"
+        },
+        {
+            "id": "Masaryk"
+        },
+        {
+            "id": "Švehla"
+        },
+        {
+            "id": "Pík"
+        },
+        {
+            "id": "Sehnalová"
+        },
+        {
+            "id": "Dopita"
+        },
+        {
+            "id": "Klaus"
+        },
+        {
+            "id": "Zábranský"
+        },
+        {
+            "id": "Putin"
+        },
+        {
+            "id": "Schillerová"
+        },
+        {
+            "id": "Vyhnánek"
+        },
+        {
+            "id": "Zelenský"
+        },
+        {
+            "id": "Janeček"
+        },
+        {
+            "id": "Corbyn"
+        },
+        {
+            "id": "Čunka"
+        },
+        {
+            "id": "Michálek"
+        },
+        {
+            "id": "Pokorný"
+        },
+        {
+            "id": "Gottovi"
+        },
+        {
+            "id": "Fischer"
+        },
+        {
+            "id": "Krpálek"
+        },
+        {
+            "id": "Holík"
+        },
+        {
+            "id": "Lukeš"
+        },
+        {
+            "id": "Hrnčíř"
+        },
+        {
+            "id": "Pošarová"
+        },
+        {
+            "id": "Wollner"
+        },
+        {
+            "id": "Metnar"
+        },
+        {
+            "id": "Michalik"
+        },
+        {
+            "id": "Merkelová"
+        },
+        {
+            "id": "Pithart"
+        },
+        {
+            "id": "Matovič"
+        },
+        {
+            "id": "Polčák"
+        },
+        {
+            "id": "Marksová"
+        },
+        {
+            "id": "Kurzem"
+        },
+        {
+            "id": "Szijjártó"
+        },
+        {
+            "id": "Navalnyj"
+        },
+        {
+            "id": "Kulhánek"
+        },
+        {
+            "id": "Pavel"
+        },
+        {
+            "id": "Skopeček"
+        },
+        {
+            "id": "Zeman"
+        },
+        {
+            "id": "Kněžínek"
+        },
+        {
+            "id": "Henner"
+        },
+        {
+            "id": "David"
+        },
+        {
+            "id": "Adam"
+        },
+        {
+            "id": "Komenského"
+        },
+        {
+            "id": "Faltýnek"
+        },
+        {
+            "id": "Schmeidler"
+        },
+        {
+            "id": "Kalousek"
+        },
+        {
+            "id": "Rozner"
+        },
+        {
+            "id": "Šlachta"
+        },
+        {
+            "id": "Staněk"
+        },
+        {
+            "id": "Churchill"
+        },
+        {
+            "id": "Erdogan"
+        },
+        {
+            "id": "Prouza"
+        },
+        {
+            "id": "Stehlík"
+        },
+        {
+            "id": "Dienstbier"
+        },
+        {
+            "id": "Klaus ml"
+        },
+        {
+            "id": "Hubáčková"
+        },
+        {
+            "id": "Ježek"
+        },
+        {
+            "id": "Bělobrádek"
+        },
+        {
+            "id": "Mayová"
+        },
+        {
+            "id": "Horáčka"
+        },
+        {
+            "id": "Lhoťan"
+        },
+        {
+            "id": "Hitler"
+        },
+        {
+            "id": "Běrský"
+        },
+        {
+            "id": "Bartošek"
+        },
+        {
+            "id": "Atkinson"
+        },
+        {
+            "id": "Rychetský"
+        },
+        {
+            "id": "Půta"
+        },
+        {
+            "id": "Hřib"
+        },
+        {
+            "id": "Kalouskův"
+        },
+        {
+            "id": "Pupava"
+        },
+        {
+            "id": "Čermák"
+        },
+        {
+            "id": "Pelikán"
+        },
+        {
+            "id": "Opletal"
+        },
+        {
+            "id": "Bradáčová"
+        },
+        {
+            "id": "Palach"
+        },
+        {
+            "id": "Bakala"
+        },
+        {
+            "id": "Mynář"
+        },
+        {
+            "id": "Vácha"
+        },
+        {
+            "id": "Stanjura"
+        },
+        {
+            "id": "Soukup"
+        },
+        {
+            "id": "Nečas"
+        },
+        {
+            "id": "Ovčáček"
+        },
+        {
+            "id": "Hofer"
+        },
+        {
+            "id": "Lukašenko"
+        },
+        {
+            "id": "Havlíček"
+        },
+        {
+            "id": "Fico"
+        },
+        {
+            "id": "Hyťhová"
+        },
+        {
+            "id": "Síkela"
+        },
+        {
+            "id": "Vondrák"
+        },
+        {
+            "id": "Štěpánek"
+        },
+        {
+            "id": "Vojtěch"
+        },
+        {
+            "id": "Herman"
+        },
+        {
+            "id": "Bašta"
+        },
+        {
+            "id": "Sobotka"
+        },
+        {
+            "id": "Bartoška"
+        },
+        {
+            "id": "Redl"
+        },
+        {
+            "id": "Vondra"
+        },
+        {
+            "id": "Vildumetzová"
+        },
+        {
+            "id": "Hašek"
+        },
+        {
+            "id": "Koten"
+        },
+        {
+            "id": "Nacher"
+        },
+        {
+            "id": "Heydrich"
+        },
+        {
+            "id": "Vašíček"
+        },
+        {
+            "id": "Blažek"
+        },
+        {
+            "id": "Johnsonovi"
+        },
+        {
+            "id": "Weber"
+        },
+        {
+            "id": "Kolovratník"
+        },
+        {
+            "id": "Clintonová"
+        },
+        {
+            "id": "Štěpán"
+        },
+        {
+            "id": "Dušek"
+        },
+        {
+            "id": "Klausovi"
+        },
+        {
+            "id": "Šarocha"
+        },
+        {
+            "id": "Foldyna"
+        },
+        {
+            "id": "Farský"
+        },
+        {
+            "id": "Ryšavý"
+        },
+        {
+            "id": "Trump"
+        },
+        {
+            "id": "Schubert"
+        },
+        {
+            "id": "Dzurilla"
+        },
+        {
+            "id": "Zikmund"
+        },
+        {
+            "id": "Mitrofanov"
+        },
+        {
+            "id": "Brabec"
+        },
+        {
+            "id": "Charanzová"
+        },
+        {
+            "id": "Smoljak"
+        },
+        {
+            "id": "Čaputová"
+        },
+        {
+            "id": "Jurečka"
+        },
+        {
+            "id": "Jedlička"
+        },
+        {
+            "id": "Paroubek"
+        },
+        {
+            "id": "Tusk"
+        },
+        {
+            "id": "Pellegrini"
+        },
+        {
+            "id": "Ondráček"
+        },
+        {
+            "id": "Vondráček"
+        },
+        {
+            "id": "May"
+        },
+        {
+            "id": "Rath"
+        },
+        {
+            "id": "Rozvoral"
+        },
+        {
+            "id": "Niedermayer"
+        },
+        {
+            "id": "Hahnova"
+        },
+        {
+            "id": "Chovanec"
+        },
+        {
+            "id": "Orbán"
+        },
+        {
+            "id": "Vitásková"
+        },
+        {
+            "id": "Moravec"
+        },
+        {
+            "id": "Decroix"
+        },
+        {
+            "id": "Hlaváček"
+        },
+        {
+            "id": "Gottwald"
+        },
+        {
+            "id": "Prchal"
+        },
+        {
+            "id": "Zaorálek"
+        },
+        {
+            "id": "Scruton"
+        },
+        {
+            "id": "Středula"
+        },
+        {
+            "id": "Štětina"
+        },
+        {
+            "id": "Halík"
+        },
+        {
+            "id": "Jarošová"
+        },
+        {
+            "id": "Novotného"
+        },
+        {
+            "id": "Bojko"
+        },
+        {
+            "id": "Piketty"
+        },
+        {
+            "id": "Timmermans"
+        },
+        {
+            "id": "Blatný"
+        },
+        {
+            "id": "Chramostová"
+        },
+        {
+            "id": "Bláha"
+        },
+        {
+            "id": "Keller"
+        },
+        {
+            "id": "Kreml"
+        },
+        {
+            "id": "Rusnok"
+        },
+        {
+            "id": "Jarolím"
+        },
+        {
+            "id": "Drahoš"
+        },
+        {
+            "id": "Kovanda"
+        },
+        {
+            "id": "Morawiecki"
+        },
+        {
+            "id": "Beran"
+        },
+        {
+            "id": "Vostenak"
+        },
+        {
+            "id": "Lipavský"
+        },
+        {
+            "id": "Nos"
+        },
+        {
+            "id": "Kroupa"
+        },
+        {
+            "id": "Czernin"
+        },
+        {
+            "id": "Kingem"
+        },
+        {
+            "id": "Kraus"
+        },
+        {
+            "id": "Babiš"
+        },
+        {
+            "id": "Dickfeld"
+        },
+        {
+            "id": "Paul"
+        },
+        {
+            "id": "Ferjenčík"
+        },
+        {
+            "id": "Čižinský"
+        },
+        {
+            "id": "Kuberův"
+        },
+        {
+            "id": "Blaško"
+        },
+        {
+            "id": "Špidla"
+        },
+        {
+            "id": "Krejčíř"
+        },
+        {
+            "id": "Hnilička"
+        },
+        {
+            "id": "Janda"
+        }
+    ],
+    "links": [
+        {
+            "source": "Bakalář",
+            "target": "Navalnyj",
+            "weight": 0.7707302965922607
+        },
+        {
+            "source": "Bakalář",
+            "target": "Vostenak",
+            "weight": 0.6758701956253218
+        },
+        {
+            "source": "Bakalář",
+            "target": "Dopita",
+            "weight": 0.6562516113056
+        },
+        {
+            "source": "Bakalář",
+            "target": "Juříček",
+            "weight": 0.650852115276538
+        },
+        {
+            "source": "Bakalář",
+            "target": "Schmeidler",
+            "weight": 0.6487219494669867
+        },
+        {
+            "source": "Bakalář",
+            "target": "Semínko",
+            "weight": 0.6089744784950715
+        },
+        {
+            "source": "Bakalář",
+            "target": "Fridrich",
+            "weight": 0.792346855122565
+        },
+        {
+            "source": "Navalnyj",
+            "target": "Semínko",
+            "weight": 0.7150107763801965
+        },
+        {
+            "source": "Navalnyj",
+            "target": "Heydrich",
+            "weight": 0.6596261409372689
+        },
+        {
+            "source": "Navalnyj",
+            "target": "Scruton",
+            "weight": 0.6429002481565836
+        },
+        {
+            "source": "Navalnyj",
+            "target": "Stoltenberg",
+            "weight": 0.6222831818199409
+        },
+        {
+            "source": "Vostenak",
+            "target": "Hahnova",
+            "weight": 0.7348412229202702
+        },
+        {
+            "source": "Vostenak",
+            "target": "Mitterwald",
+            "weight": 0.8509866786054819
+        },
+        {
+            "source": "Vostenak",
+            "target": "Vašíček",
+            "weight": 0.8507600214489943
+        },
+        {
+            "source": "Vostenak",
+            "target": "Pošarová",
+            "weight": 0.8274093315523158
+        },
+        {
+            "source": "Vostenak",
+            "target": "Dickfeld",
+            "weight": 0.825335949621061
+        },
+        {
+            "source": "Vostenak",
+            "target": "Schubert",
+            "weight": 0.8219195816839605
+        },
+        {
+            "source": "Vostenak",
+            "target": "Běrský",
+            "weight": 0.7814407168315901
+        },
+        {
+            "source": "Vostenak",
+            "target": "Lukeš",
+            "weight": 0.7300560646536753
+        },
+        {
+            "source": "Vostenak",
+            "target": "Schmeidler",
+            "weight": 0.7808282822640741
+        },
+        {
+            "source": "Vostenak",
+            "target": "Pupava",
+            "weight": 0.7841410698485569
+        },
+        {
+            "source": "Dopita",
+            "target": "Hahnova",
+            "weight": 0.6927632729982539
+        },
+        {
+            "source": "Dopita",
+            "target": "Čermák",
+            "weight": 0.8766786999920207
+        },
+        {
+            "source": "Dopita",
+            "target": "Vašíček",
+            "weight": 0.8694077014451812
+        },
+        {
+            "source": "Dopita",
+            "target": "Schmeidler",
+            "weight": 0.8682997071576822
+        },
+        {
+            "source": "Dopita",
+            "target": "Dickfeld",
+            "weight": 0.8621965032973505
+        },
+        {
+            "source": "Dopita",
+            "target": "Schubert",
+            "weight": 0.8574877962445691
+        },
+        {
+            "source": "Dopita",
+            "target": "Tabery",
+            "weight": 0.6282669351848721
+        },
+        {
+            "source": "Dopita",
+            "target": "Pavel",
+            "weight": 0.6778166288381821
+        },
+        {
+            "source": "Dopita",
+            "target": "Mitterwald",
+            "weight": 0.8422745017382934
+        },
+        {
+            "source": "Dopita",
+            "target": "Henner",
+            "weight": 0.7445147906918683
+        },
+        {
+            "source": "Dopita",
+            "target": "Janeček",
+            "weight": 0.6496483450626689
+        },
+        {
+            "source": "Dopita",
+            "target": "Vícha",
+            "weight": 0.7382902131159068
+        },
+        {
+            "source": "Dopita",
+            "target": "Jelínek",
+            "weight": 0.8163347330866891
+        },
+        {
+            "source": "Dopita",
+            "target": "Pošarová",
+            "weight": 0.7818837214253077
+        },
+        {
+            "source": "Dopita",
+            "target": "Zahradníček",
+            "weight": 0.7573357782271446
+        },
+        {
+            "source": "Dopita",
+            "target": "Pupava",
+            "weight": 0.8362282928837919
+        },
+        {
+            "source": "Dopita",
+            "target": "Paul",
+            "weight": 0.6624709366443097
+        },
+        {
+            "source": "Juříček",
+            "target": "Kobza",
+            "weight": 0.7391006341223859
+        },
+        {
+            "source": "Juříček",
+            "target": "Bojko",
+            "weight": 0.6731826883904407
+        },
+        {
+            "source": "Juříček",
+            "target": "Blažek",
+            "weight": 0.7619448434561574
+        },
+        {
+            "source": "Juříček",
+            "target": "Grospič",
+            "weight": 0.6797156367961709
+        },
+        {
+            "source": "Juříček",
+            "target": "Horáčka",
+            "weight": 0.7331050253792427
+        },
+        {
+            "source": "Juříček",
+            "target": "Kolovratník",
+            "weight": 0.7188940639057916
+        },
+        {
+            "source": "Juříček",
+            "target": "Koten",
+            "weight": 0.7165800079388512
+        },
+        {
+            "source": "Juříček",
+            "target": "Gajdůšková",
+            "weight": 0.686791948868134
+        },
+        {
+            "source": "Juříček",
+            "target": "Kovář",
+            "weight": 0.6948418464523123
+        },
+        {
+            "source": "Juříček",
+            "target": "Vitásková",
+            "weight": 0.6225570035143287
+        },
+        {
+            "source": "Juříček",
+            "target": "Paroubek",
+            "weight": 0.7505677209972024
+        },
+        {
+            "source": "Juříček",
+            "target": "Wagenknecht",
+            "weight": 0.7326360245759757
+        },
+        {
+            "source": "Juříček",
+            "target": "Michálek",
+            "weight": 0.6457808029824612
+        },
+        {
+            "source": "Juříček",
+            "target": "Kohlíček",
+            "weight": 0.7559996148194731
+        },
+        {
+            "source": "Juříček",
+            "target": "Wollner",
+            "weight": 0.6053727688580899
+        },
+        {
+            "source": "Juříček",
+            "target": "Rozner",
+            "weight": 0.6934416914138299
+        },
+        {
+            "source": "Juříček",
+            "target": "Šlachta",
+            "weight": 0.6055042716238523
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Tabery",
+            "weight": 0.6239060550831641
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Vácha",
+            "weight": 0.7189090130859231
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Švarc",
+            "weight": 0.751375488799733
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Nováková",
+            "weight": 0.6118698929441078
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Vašíček",
+            "weight": 0.8112433007634896
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Čermák",
+            "weight": 0.8683501478212042
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Štěpánek",
+            "weight": 0.7765484197896821
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Vícha",
+            "weight": 0.7239342682137899
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Lukeš",
+            "weight": 0.7374776346994693
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Danna",
+            "weight": 0.7003782290041383
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Dickfeld",
+            "weight": 0.7850155900541635
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Schubert",
+            "weight": 0.7782842619195736
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Jelínek",
+            "weight": 0.7621870162087034
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Zahradníček",
+            "weight": 0.7492585076093705
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Fridrich",
+            "weight": 0.756655570987467
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Blaško",
+            "weight": 0.6839841379085562
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Krpálek",
+            "weight": 0.6779541040633742
+        },
+        {
+            "source": "Schmeidler",
+            "target": "Paul",
+            "weight": 0.6362463849440145
+        },
+        {
+            "source": "Beran",
+            "target": "Lukeš",
+            "weight": 0.635346494798748
+        },
+        {
+            "source": "Beran",
+            "target": "Dušek",
+            "weight": 0.6199713764900288
+        },
+        {
+            "source": "Beran",
+            "target": "Švarc",
+            "weight": 0.6109816005165086
+        },
+        {
+            "source": "Beran",
+            "target": "Čermák",
+            "weight": 0.6102763259911245
+        },
+        {
+            "source": "Lukeš",
+            "target": "Vašíček",
+            "weight": 0.7639728927465438
+        },
+        {
+            "source": "Lukeš",
+            "target": "Čermák",
+            "weight": 0.7553771690140957
+        },
+        {
+            "source": "Lukeš",
+            "target": "Schubert",
+            "weight": 0.7453264573228412
+        },
+        {
+            "source": "Lukeš",
+            "target": "Zahradníček",
+            "weight": 0.722358390951499
+        },
+        {
+            "source": "Dušek",
+            "target": "Šmucler",
+            "weight": 0.6475630707065633
+        },
+        {
+            "source": "Dušek",
+            "target": "Goláň",
+            "weight": 0.7029413138609047
+        },
+        {
+            "source": "Dušek",
+            "target": "Červíček",
+            "weight": 0.6869604554166981
+        },
+        {
+            "source": "Dušek",
+            "target": "Půta",
+            "weight": 0.6815066517001854
+        },
+        {
+            "source": "Dušek",
+            "target": "Hilšer",
+            "weight": 0.6798908205828402
+        },
+        {
+            "source": "Dušek",
+            "target": "Čermák",
+            "weight": 0.6757559068386011
+        },
+        {
+            "source": "Dušek",
+            "target": "Navrátil",
+            "weight": 0.6213183132724571
+        },
+        {
+            "source": "Švarc",
+            "target": "Gabčík",
+            "weight": 0.792230691106614
+        },
+        {
+            "source": "Švarc",
+            "target": "Kubiš",
+            "weight": 0.7916657190477853
+        },
+        {
+            "source": "Švarc",
+            "target": "Štěpánek",
+            "weight": 0.7731542287163925
+        },
+        {
+            "source": "Švarc",
+            "target": "Mitterwald",
+            "weight": 0.731887142160753
+        },
+        {
+            "source": "Švarc",
+            "target": "Opletal",
+            "weight": 0.6565229320196022
+        },
+        {
+            "source": "Švarc",
+            "target": "Boček",
+            "weight": 0.678489697471078
+        },
+        {
+            "source": "Švarc",
+            "target": "Horákovou",
+            "weight": 0.6097110022210249
+        },
+        {
+            "source": "Čermák",
+            "target": "Kobza",
+            "weight": 0.7246016009095075
+        },
+        {
+            "source": "Čermák",
+            "target": "Holík",
+            "weight": 0.7182890552705832
+        },
+        {
+            "source": "Čermák",
+            "target": "Vašíček",
+            "weight": 0.8115912701320428
+        },
+        {
+            "source": "Čermák",
+            "target": "Mitterwald",
+            "weight": 0.8132372708391591
+        },
+        {
+            "source": "Čermák",
+            "target": "Henner",
+            "weight": 0.7385497201336951
+        },
+        {
+            "source": "Čermák",
+            "target": "Schubert",
+            "weight": 0.8758808955996232
+        },
+        {
+            "source": "Čermák",
+            "target": "Dickfeld",
+            "weight": 0.8746493841547166
+        },
+        {
+            "source": "Čermák",
+            "target": "Rozvoral",
+            "weight": 0.8222928364907686
+        },
+        {
+            "source": "Čermák",
+            "target": "Běrský",
+            "weight": 0.8195471436064309
+        },
+        {
+            "source": "Čermák",
+            "target": "David",
+            "weight": 0.6305848777795603
+        },
+        {
+            "source": "Čermák",
+            "target": "Vícha",
+            "weight": 0.7066759247582703
+        },
+        {
+            "source": "Čermák",
+            "target": "Hrnčíř",
+            "weight": 0.687571426700496
+        },
+        {
+            "source": "Čermák",
+            "target": "Danna",
+            "weight": 0.6841716860759746
+        },
+        {
+            "source": "Čermák",
+            "target": "Jelínek",
+            "weight": 0.797331735061708
+        },
+        {
+            "source": "Čermák",
+            "target": "Zahradníček",
+            "weight": 0.7668695680960104
+        },
+        {
+            "source": "Čermák",
+            "target": "Pupava",
+            "weight": 0.8159512260976675
+        },
+        {
+            "source": "Čermák",
+            "target": "Blaško",
+            "weight": 0.6989533045647115
+        },
+        {
+            "source": "Čermák",
+            "target": "Paul",
+            "weight": 0.6397993435765258
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Chovanec",
+            "weight": 0.7704972746734305
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Poche",
+            "weight": 0.7532731049404184
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Topolánek",
+            "weight": 0.7275533557595795
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Stropnický",
+            "weight": 0.7081511297181672
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Kněžínek",
+            "weight": 0.6994695621405802
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Petříček",
+            "weight": 0.6962351993373844
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Chvojka",
+            "weight": 0.6289465485394716
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Šabatový",
+            "weight": 0.6377673146237225
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Špidla",
+            "weight": 0.6648925923493036
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Herman",
+            "weight": 0.6471388326160404
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Šmarda",
+            "weight": 0.6510406579546285
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Sobotka",
+            "weight": 0.6588402499373662
+        },
+        {
+            "source": "Dienstbier",
+            "target": "Šlachta",
+            "weight": 0.6148291099784782
+        },
+        {
+            "source": "Chovanec",
+            "target": "Metnar",
+            "weight": 0.6960468009662805
+        },
+        {
+            "source": "Chovanec",
+            "target": "Petříček",
+            "weight": 0.7514189021264985
+        },
+        {
+            "source": "Chovanec",
+            "target": "Horáčka",
+            "weight": 0.7477343087603583
+        },
+        {
+            "source": "Chovanec",
+            "target": "Valachová",
+            "weight": 0.6811381504102583
+        },
+        {
+            "source": "Chovanec",
+            "target": "Hamáček",
+            "weight": 0.6581216441840954
+        },
+        {
+            "source": "Chovanec",
+            "target": "Staněk",
+            "weight": 0.7076992663385998
+        },
+        {
+            "source": "Chovanec",
+            "target": "Šmarda",
+            "weight": 0.7203659740323239
+        },
+        {
+            "source": "Chovanec",
+            "target": "Sobotka",
+            "weight": 0.6247191471795205
+        },
+        {
+            "source": "Chovanec",
+            "target": "Pelikán",
+            "weight": 0.7260085040505339
+        },
+        {
+            "source": "Chovanec",
+            "target": "Fico",
+            "weight": 0.6660420559987065
+        },
+        {
+            "source": "Chovanec",
+            "target": "Stropnický",
+            "weight": 0.7779019405695715
+        },
+        {
+            "source": "Chovanec",
+            "target": "Zaorálek",
+            "weight": 0.7726857477185416
+        },
+        {
+            "source": "Poche",
+            "target": "Petříček",
+            "weight": 0.7387477925969924
+        },
+        {
+            "source": "Poche",
+            "target": "Lipavský",
+            "weight": 0.7321731669029881
+        },
+        {
+            "source": "Poche",
+            "target": "Kohlíček",
+            "weight": 0.8307220172126044
+        },
+        {
+            "source": "Poche",
+            "target": "Marksová",
+            "weight": 0.662075617950263
+        },
+        {
+            "source": "Poche",
+            "target": "Šojdrová",
+            "weight": 0.7006648033154484
+        },
+        {
+            "source": "Poche",
+            "target": "Poc",
+            "weight": 0.8134644196883871
+        },
+        {
+            "source": "Poche",
+            "target": "Teličko",
+            "weight": 0.8128532397104584
+        },
+        {
+            "source": "Poche",
+            "target": "Onderka",
+            "weight": 0.8039441478256363
+        },
+        {
+            "source": "Poche",
+            "target": "Zdechovský",
+            "weight": 0.7554077198456756
+        },
+        {
+            "source": "Poche",
+            "target": "Sehnalová",
+            "weight": 0.6619975410238506
+        },
+        {
+            "source": "Poche",
+            "target": "Hamáček",
+            "weight": 0.6072145694175715
+        },
+        {
+            "source": "Poche",
+            "target": "Bartoška",
+            "weight": 0.7294507093175433
+        },
+        {
+            "source": "Poche",
+            "target": "Herman",
+            "weight": 0.6841708645247473
+        },
+        {
+            "source": "Poche",
+            "target": "Prouza",
+            "weight": 0.620440850566287
+        },
+        {
+            "source": "Poche",
+            "target": "Pelikán",
+            "weight": 0.7153216193576425
+        },
+        {
+            "source": "Poche",
+            "target": "Keller",
+            "weight": 0.8651839799354826
+        },
+        {
+            "source": "Poche",
+            "target": "Charanzová",
+            "weight": 0.6869577632364601
+        },
+        {
+            "source": "Topolánek",
+            "target": "Kalouskův",
+            "weight": 0.6043563795813433
+        },
+        {
+            "source": "Topolánek",
+            "target": "Ryšavý",
+            "weight": 0.6294270341364148
+        },
+        {
+            "source": "Topolánek",
+            "target": "Grospič",
+            "weight": 0.6826101785373506
+        },
+        {
+            "source": "Topolánek",
+            "target": "Kalousek",
+            "weight": 0.7695860302664919
+        },
+        {
+            "source": "Topolánek",
+            "target": "Nečas",
+            "weight": 0.7460274617229833
+        },
+        {
+            "source": "Topolánek",
+            "target": "Udženija",
+            "weight": 0.7322732877139704
+        },
+        {
+            "source": "Topolánek",
+            "target": "Hašek",
+            "weight": 0.7265944546640172
+        },
+        {
+            "source": "Topolánek",
+            "target": "Stanjura",
+            "weight": 0.6463762817109691
+        },
+        {
+            "source": "Topolánek",
+            "target": "Faltýnek",
+            "weight": 0.6517386682926563
+        },
+        {
+            "source": "Topolánek",
+            "target": "Špidla",
+            "weight": 0.6897511188930279
+        },
+        {
+            "source": "Topolánek",
+            "target": "Šmarda",
+            "weight": 0.6582752399430917
+        },
+        {
+            "source": "Topolánek",
+            "target": "Paroubek",
+            "weight": 0.7822933245094419
+        },
+        {
+            "source": "Topolánek",
+            "target": "Rusnok",
+            "weight": 0.6007377475801401
+        },
+        {
+            "source": "Stropnický",
+            "target": "Kněžínek",
+            "weight": 0.7561833355139784
+        },
+        {
+            "source": "Stropnický",
+            "target": "Plagu",
+            "weight": 0.6265900622749865
+        },
+        {
+            "source": "Stropnický",
+            "target": "Petříček",
+            "weight": 0.7276357986524811
+        },
+        {
+            "source": "Stropnický",
+            "target": "Zaorálek",
+            "weight": 0.73183840296779
+        },
+        {
+            "source": "Stropnický",
+            "target": "Arenberger",
+            "weight": 0.6513121643381476
+        },
+        {
+            "source": "Stropnický",
+            "target": "Pelikán",
+            "weight": 0.7531518451867503
+        },
+        {
+            "source": "Stropnický",
+            "target": "Metnar",
+            "weight": 0.7487249392248305
+        },
+        {
+            "source": "Stropnický",
+            "target": "Ťok",
+            "weight": 0.6816281074875438
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Metnar",
+            "weight": 0.6294600264385568
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Pelikán",
+            "weight": 0.7898026573901735
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Staněk",
+            "weight": 0.7526379087480466
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Kremlíka",
+            "weight": 0.7142089839343079
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Plagu",
+            "weight": 0.6712451845671513
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Arenberger",
+            "weight": 0.6899433270816833
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Prymula",
+            "weight": 0.6215389238495942
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Blatný",
+            "weight": 0.6085906198432279
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Faltýnek",
+            "weight": 0.687789361021952
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Babiš",
+            "weight": 0.6022186124634249
+        },
+        {
+            "source": "Kněžínek",
+            "target": "Ťok",
+            "weight": 0.6776288626087457
+        },
+        {
+            "source": "Hřib",
+            "target": "Hlubuček",
+            "weight": 0.6355629405641409
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Gazdík",
+            "weight": 0.7114943098594941
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Scheinherr",
+            "weight": 0.685615190225265
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Vokřál",
+            "weight": 0.7046682378897278
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Redl",
+            "weight": 0.6461891401967454
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Rakušan",
+            "weight": 0.6634796213104149
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Kraus",
+            "weight": 0.6482004499314344
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Janeček",
+            "weight": 0.6542376032966593
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Kolář",
+            "weight": 0.6079152173838552
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Hlaváček",
+            "weight": 0.6904956194808854
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Marvanová",
+            "weight": 0.6821984984134591
+        },
+        {
+            "source": "Hlubuček",
+            "target": "Vyhnánek",
+            "weight": 0.6590578938725233
+        },
+        {
+            "source": "Kurzem",
+            "target": "Pellegrini",
+            "weight": 0.6805755505735657
+        },
+        {
+            "source": "Kurzem",
+            "target": "kurz",
+            "weight": 0.677000929049626
+        },
+        {
+            "source": "Kurzem",
+            "target": "Morawiecki",
+            "weight": 0.6632884201180759
+        },
+        {
+            "source": "Kurzem",
+            "target": "Michel",
+            "weight": 0.6103833466299637
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Danka",
+            "weight": 0.7017072463957689
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Szijjártó",
+            "weight": 0.6783660450777461
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Babiš",
+            "weight": 0.621323908918056
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Kiska",
+            "weight": 0.79542084258605
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Fico",
+            "weight": 0.7444129552515101
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Matovič",
+            "weight": 0.8568701760351052
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Kramář",
+            "weight": 0.7235398215817456
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Michel",
+            "weight": 0.6978721108207008
+        },
+        {
+            "source": "Pellegrini",
+            "target": "Orbán",
+            "weight": 0.6886223007240359
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Matovič",
+            "weight": 0.8539325205467869
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Kingem",
+            "weight": 0.6218514384038428
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Szijjártó",
+            "weight": 0.6777298023849555
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Kramář",
+            "weight": 0.7015922304606599
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Conte",
+            "weight": 0.629436112995318
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Fico",
+            "weight": 0.7177569113660003
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Stoltenberg",
+            "weight": 0.6658625350069938
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Kiska",
+            "weight": 0.8080357193075755
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Danka",
+            "weight": 0.751307255653408
+        },
+        {
+            "source": "Morawiecki",
+            "target": "Michel",
+            "weight": 0.7127692520123261
+        },
+        {
+            "source": "Michel",
+            "target": "Matovič",
+            "weight": 0.7595215749163268
+        },
+        {
+            "source": "Michel",
+            "target": "Szijjártó",
+            "weight": 0.6187380995472005
+        },
+        {
+            "source": "Michel",
+            "target": "Mayová",
+            "weight": 0.6735642744566597
+        },
+        {
+            "source": "Michel",
+            "target": "von der Leyen",
+            "weight": 0.6492071221767111
+        },
+        {
+            "source": "Michel",
+            "target": "Weber",
+            "weight": 0.7127353454887673
+        },
+        {
+            "source": "Michel",
+            "target": "Conte",
+            "weight": 0.6997818361961817
+        },
+        {
+            "source": "Michel",
+            "target": "Timmermans",
+            "weight": 0.672531321838341
+        },
+        {
+            "source": "Michel",
+            "target": "Stoltenberg",
+            "weight": 0.6550189079079871
+        },
+        {
+            "source": "Zábranský",
+            "target": "Adam",
+            "weight": 0.7314303165123793
+        },
+        {
+            "source": "Zábranský",
+            "target": "Vyhnánek",
+            "weight": 0.727556936595534
+        },
+        {
+            "source": "Zábranský",
+            "target": "Hlaváček",
+            "weight": 0.7275228342205678
+        },
+        {
+            "source": "Zábranský",
+            "target": "Marvanová",
+            "weight": 0.7244100632591187
+        },
+        {
+            "source": "Zábranský",
+            "target": "Hubáčková",
+            "weight": 0.6925895284455738
+        },
+        {
+            "source": "Zábranský",
+            "target": "Pekarová Adamová",
+            "weight": 0.6744672951489109
+        },
+        {
+            "source": "Adam",
+            "target": "Scheinherr",
+            "weight": 0.7282051247386299
+        },
+        {
+            "source": "Adam",
+            "target": "Vojtěch",
+            "weight": 0.7999766327680227
+        },
+        {
+            "source": "Adam",
+            "target": "Hlaváček",
+            "weight": 0.6466963120761154
+        },
+        {
+            "source": "Adam",
+            "target": "Jurečka",
+            "weight": 0.6359211272150805
+        },
+        {
+            "source": "Vyhnánek",
+            "target": "Scheinherr",
+            "weight": 0.69203465840792
+        },
+        {
+            "source": "Vyhnánek",
+            "target": "Dzurilla",
+            "weight": 0.6498597095710416
+        },
+        {
+            "source": "Vyhnánek",
+            "target": "Janeček",
+            "weight": 0.6656547978909331
+        },
+        {
+            "source": "Vyhnánek",
+            "target": "Hlaváček",
+            "weight": 0.71254624801973
+        },
+        {
+            "source": "Vyhnánek",
+            "target": "Červíček",
+            "weight": 0.6806583245604237
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Benda",
+            "weight": 0.7209552966258626
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Scheinherr",
+            "weight": 0.6918594306887823
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Vokřál",
+            "weight": 0.7328560246719364
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Kolovratník",
+            "weight": 0.6707978314052975
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Jarolím",
+            "weight": 0.7684760452793434
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Čižinský",
+            "weight": 0.6248283224260281
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Červíček",
+            "weight": 0.8084819036648427
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Štěpánek",
+            "weight": 0.7877063168145506
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Udženija",
+            "weight": 0.761343883915524
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Goláň",
+            "weight": 0.7608318537788402
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Peksa",
+            "weight": 0.643586509388873
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Kolaja",
+            "weight": 0.8149113503319327
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Gregorová",
+            "weight": 0.7301777045824894
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Vondra",
+            "weight": 0.7116415252532221
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Niedermayer",
+            "weight": 0.703036001091253
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Decroix",
+            "weight": 0.7217658041838332
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Hubáčková",
+            "weight": 0.6818091111690768
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Marvanová",
+            "weight": 0.709626777017144
+        },
+        {
+            "source": "Hlaváček",
+            "target": "Vaňková",
+            "weight": 0.720957721701337
+        },
+        {
+            "source": "Marvanová",
+            "target": "Scheinherr",
+            "weight": 0.6725749856097667
+        },
+        {
+            "source": "Marvanová",
+            "target": "Lipovský",
+            "weight": 0.6276226549881366
+        },
+        {
+            "source": "Marvanová",
+            "target": "Richterová",
+            "weight": 0.6889116734132824
+        },
+        {
+            "source": "Marvanová",
+            "target": "Hilšer",
+            "weight": 0.6768780951115306
+        },
+        {
+            "source": "Hubáčková",
+            "target": "Decroix",
+            "weight": 0.6752443601230667
+        },
+        {
+            "source": "Hubáčková",
+            "target": "Richterová",
+            "weight": 0.670042724936731
+        },
+        {
+            "source": "Hubáčková",
+            "target": "Vaňková",
+            "weight": 0.667384570196686
+        },
+        {
+            "source": "Hahnova",
+            "target": "Schubert",
+            "weight": 0.7256318988938802
+        },
+        {
+            "source": "Hahnova",
+            "target": "Vašíček",
+            "weight": 0.6904066166453044
+        },
+        {
+            "source": "Hahnova",
+            "target": "Pupava",
+            "weight": 0.6864879297744526
+        },
+        {
+            "source": "Schubert",
+            "target": "Bašta",
+            "weight": 0.6451186454931285
+        },
+        {
+            "source": "Schubert",
+            "target": "Doležal",
+            "weight": 0.6819540987735038
+        },
+        {
+            "source": "Schubert",
+            "target": "Vašíček",
+            "weight": 0.7987970347888381
+        },
+        {
+            "source": "Schubert",
+            "target": "Mitterwald",
+            "weight": 0.7914021124292269
+        },
+        {
+            "source": "Schubert",
+            "target": "Henner",
+            "weight": 0.7569413019741601
+        },
+        {
+            "source": "Schubert",
+            "target": "Běrský",
+            "weight": 0.7708589421961745
+        },
+        {
+            "source": "Schubert",
+            "target": "David",
+            "weight": 0.6081199982919644
+        },
+        {
+            "source": "Schubert",
+            "target": "Pošarová",
+            "weight": 0.7408585247184649
+        },
+        {
+            "source": "Schubert",
+            "target": "Pupava",
+            "weight": 0.8404814724945029
+        },
+        {
+            "source": "Schubert",
+            "target": "Atkinson",
+            "weight": 0.6500800807483674
+        },
+        {
+            "source": "Schubert",
+            "target": "Paul",
+            "weight": 0.6688093227810624
+        },
+        {
+            "source": "Vašíček",
+            "target": "Tabery",
+            "weight": 0.6296886263929696
+        },
+        {
+            "source": "Vašíček",
+            "target": "Dickfeld",
+            "weight": 0.796131035681968
+        },
+        {
+            "source": "Vašíček",
+            "target": "Běrský",
+            "weight": 0.7898677919589695
+        },
+        {
+            "source": "Pupava",
+            "target": "Pošarová",
+            "weight": 0.7302141141445534
+        },
+        {
+            "source": "Pupava",
+            "target": "Mitterwald",
+            "weight": 0.7593982148774291
+        },
+        {
+            "source": "Pupava",
+            "target": "Dickfeld",
+            "weight": 0.8524094918424102
+        },
+        {
+            "source": "Kobza",
+            "target": "Holík",
+            "weight": 0.770001266129971
+        },
+        {
+            "source": "Kobza",
+            "target": "Veleba",
+            "weight": 0.7390454143076843
+        },
+        {
+            "source": "Kobza",
+            "target": "Jelínek",
+            "weight": 0.7338370134664072
+        },
+        {
+            "source": "Kobza",
+            "target": "Doležal",
+            "weight": 0.6959129681106382
+        },
+        {
+            "source": "Kobza",
+            "target": "Foldyna",
+            "weight": 0.6198789834404471
+        },
+        {
+            "source": "Kobza",
+            "target": "David",
+            "weight": 0.6145001608073881
+        },
+        {
+            "source": "Kobza",
+            "target": "Hrnčíř",
+            "weight": 0.6933241949346513
+        },
+        {
+            "source": "Kobza",
+            "target": "Rozvoral",
+            "weight": 0.7714612285678318
+        },
+        {
+            "source": "Holík",
+            "target": "Nos",
+            "weight": 0.6709720115435346
+        },
+        {
+            "source": "Holík",
+            "target": "Rozvoral",
+            "weight": 0.7946187434114762
+        },
+        {
+            "source": "Holík",
+            "target": "Veleba",
+            "weight": 0.7612621422349417
+        },
+        {
+            "source": "Holík",
+            "target": "Jelínek",
+            "weight": 0.7165957346236298
+        },
+        {
+            "source": "Holík",
+            "target": "Bašta",
+            "weight": 0.6573203948886
+        },
+        {
+            "source": "Veleba",
+            "target": "Udženija",
+            "weight": 0.7958300342529859
+        },
+        {
+            "source": "Veleba",
+            "target": "Bojko",
+            "weight": 0.6977102050731355
+        },
+        {
+            "source": "Veleba",
+            "target": "Brichta",
+            "weight": 0.7244135509224715
+        },
+        {
+            "source": "Veleba",
+            "target": "Doležal",
+            "weight": 0.6810783253081676
+        },
+        {
+            "source": "Veleba",
+            "target": "Bartošek",
+            "weight": 0.790250924000955
+        },
+        {
+            "source": "Veleba",
+            "target": "Koten",
+            "weight": 0.7101167915287288
+        },
+        {
+            "source": "Veleba",
+            "target": "Valenta",
+            "weight": 0.707556243129543
+        },
+        {
+            "source": "Veleba",
+            "target": "Jelínek",
+            "weight": 0.7963239074391
+        },
+        {
+            "source": "Veleba",
+            "target": "Rozvoral",
+            "weight": 0.7691537257748887
+        },
+        {
+            "source": "Veleba",
+            "target": "Hrnčíř",
+            "weight": 0.7081631723738318
+        },
+        {
+            "source": "Veleba",
+            "target": "Rozner",
+            "weight": 0.6777413213975465
+        },
+        {
+            "source": "Jelínek",
+            "target": "Pavel",
+            "weight": 0.6625780230265003
+        },
+        {
+            "source": "Jelínek",
+            "target": "Hyťhová",
+            "weight": 0.6983534706696343
+        },
+        {
+            "source": "Jelínek",
+            "target": "Doležal",
+            "weight": 0.6882485987408345
+        },
+        {
+            "source": "Jelínek",
+            "target": "Čížek",
+            "weight": 0.7317561465811375
+        },
+        {
+            "source": "Jelínek",
+            "target": "Hampl",
+            "weight": 0.7147811349837515
+        },
+        {
+            "source": "Jelínek",
+            "target": "Koten",
+            "weight": 0.7259931414899409
+        },
+        {
+            "source": "Jelínek",
+            "target": "Jarošová",
+            "weight": 0.7141904718325189
+        },
+        {
+            "source": "Jelínek",
+            "target": "Vícha",
+            "weight": 0.7015613217987173
+        },
+        {
+            "source": "Jelínek",
+            "target": "Goláň",
+            "weight": 0.7757882630454931
+        },
+        {
+            "source": "Nečas",
+            "target": "Paroubek",
+            "weight": 0.6883190691490773
+        },
+        {
+            "source": "Nečas",
+            "target": "Špidla",
+            "weight": 0.6540113467897289
+        },
+        {
+            "source": "Nečas",
+            "target": "Stanjura",
+            "weight": 0.6391164299103597
+        },
+        {
+            "source": "Nečas",
+            "target": "Rusnok",
+            "weight": 0.6346830442226573
+        },
+        {
+            "source": "Nečas",
+            "target": "Kalousek",
+            "weight": 0.6300587312394046
+        },
+        {
+            "source": "Paroubek",
+            "target": "Rath",
+            "weight": 0.7021305241761285
+        },
+        {
+            "source": "Paroubek",
+            "target": "Skopeček",
+            "weight": 0.7182278692030141
+        },
+        {
+            "source": "Paroubek",
+            "target": "Grospič",
+            "weight": 0.7302488759489629
+        },
+        {
+            "source": "Paroubek",
+            "target": "Prchal",
+            "weight": 0.6008474210097966
+        },
+        {
+            "source": "Paroubek",
+            "target": "Stanjura",
+            "weight": 0.6456366228183408
+        },
+        {
+            "source": "Paroubek",
+            "target": "Czernin",
+            "weight": 0.7162104330622534
+        },
+        {
+            "source": "Paroubek",
+            "target": "Kalousek",
+            "weight": 0.682863071870439
+        },
+        {
+            "source": "Paroubek",
+            "target": "Bělobrádek",
+            "weight": 0.7180838084346206
+        },
+        {
+            "source": "Paroubek",
+            "target": "Kraus",
+            "weight": 0.7112685930321098
+        },
+        {
+            "source": "Paroubek",
+            "target": "Špidla",
+            "weight": 0.6688124526906446
+        },
+        {
+            "source": "Paroubek",
+            "target": "Goláň",
+            "weight": 0.7676231086807167
+        },
+        {
+            "source": "Paroubek",
+            "target": "Kohlíček",
+            "weight": 0.7437966768909513
+        },
+        {
+            "source": "Paroubek",
+            "target": "Hašek",
+            "weight": 0.7416692405271259
+        },
+        {
+            "source": "Paroubek",
+            "target": "Soukup",
+            "weight": 0.6039188811032408
+        },
+        {
+            "source": "Paroubek",
+            "target": "Drahoš",
+            "weight": 0.6873039695490135
+        },
+        {
+            "source": "Špidla",
+            "target": "Kalousek",
+            "weight": 0.6348438886566463
+        },
+        {
+            "source": "Špidla",
+            "target": "Grosse",
+            "weight": 0.666689536397263
+        },
+        {
+            "source": "Špidla",
+            "target": "Sobotka",
+            "weight": 0.6556714800192613
+        },
+        {
+            "source": "Špidla",
+            "target": "Rusnok",
+            "weight": 0.625119230863452
+        },
+        {
+            "source": "Stanjura",
+            "target": "Skopeček",
+            "weight": 0.7157374603242944
+        },
+        {
+            "source": "Stanjura",
+            "target": "Kalousek",
+            "weight": 0.6971602369829237
+        },
+        {
+            "source": "Stanjura",
+            "target": "Lipavský",
+            "weight": 0.6539401315035954
+        },
+        {
+            "source": "Stanjura",
+            "target": "Onderka",
+            "weight": 0.6523681167334249
+        },
+        {
+            "source": "Stanjura",
+            "target": "Schillerová",
+            "weight": 0.6415709025797177
+        },
+        {
+            "source": "Stanjura",
+            "target": "Síkela",
+            "weight": 0.6007949254711715
+        },
+        {
+            "source": "Rusnok",
+            "target": "Čunek",
+            "weight": 0.6052434853716026
+        },
+        {
+            "source": "Rusnok",
+            "target": "Rychetský",
+            "weight": 0.60018162157689
+        },
+        {
+            "source": "Kalousek",
+            "target": "Kalouskův",
+            "weight": 0.6494307931366476
+        },
+        {
+            "source": "Kalousek",
+            "target": "Čunek",
+            "weight": 0.6476828060570374
+        },
+        {
+            "source": "Winton",
+            "target": "Heydrich",
+            "weight": 0.6365735461331944
+        },
+        {
+            "source": "Winton",
+            "target": "Gabčík",
+            "weight": 0.625742898723932
+        },
+        {
+            "source": "Winton",
+            "target": "Kubiš",
+            "weight": 0.6169208067661893
+        },
+        {
+            "source": "Winton",
+            "target": "Zikmund",
+            "weight": 0.616789878825314
+        },
+        {
+            "source": "Winton",
+            "target": "Chramostová",
+            "weight": 0.6648212470348788
+        },
+        {
+            "source": "Heydrich",
+            "target": "Gabčík",
+            "weight": 0.7933613348294571
+        },
+        {
+            "source": "Heydrich",
+            "target": "Pík",
+            "weight": 0.7460679312080608
+        },
+        {
+            "source": "Heydrich",
+            "target": "Kubiš",
+            "weight": 0.7448982094133187
+        },
+        {
+            "source": "Heydrich",
+            "target": "Opletal",
+            "weight": 0.6919810067483275
+        },
+        {
+            "source": "Heydrich",
+            "target": "Boček",
+            "weight": 0.6778048668929939
+        },
+        {
+            "source": "Heydrich",
+            "target": "Fridrich",
+            "weight": 0.6929435167038017
+        },
+        {
+            "source": "Gabčík",
+            "target": "Pík",
+            "weight": 0.8067651519972544
+        },
+        {
+            "source": "Gabčík",
+            "target": "Opletal",
+            "weight": 0.75801217614096
+        },
+        {
+            "source": "Gabčík",
+            "target": "Boček",
+            "weight": 0.7284640947816046
+        },
+        {
+            "source": "Gabčík",
+            "target": "Palach",
+            "weight": 0.6334843721102709
+        },
+        {
+            "source": "Gabčík",
+            "target": "Opat",
+            "weight": 0.6247516227306644
+        },
+        {
+            "source": "Gabčík",
+            "target": "Švehla",
+            "weight": 0.6357620976498929
+        },
+        {
+            "source": "Gabčík",
+            "target": "Rašín",
+            "weight": 0.6457917929492271
+        },
+        {
+            "source": "Kubiš",
+            "target": "Pík",
+            "weight": 0.7830729989344396
+        },
+        {
+            "source": "Kubiš",
+            "target": "Hus",
+            "weight": 0.6205775890000887
+        },
+        {
+            "source": "Kubiš",
+            "target": "Opletal",
+            "weight": 0.7070687269703166
+        },
+        {
+            "source": "Kubiš",
+            "target": "Štěpánek",
+            "weight": 0.7003637216812997
+        },
+        {
+            "source": "Kubiš",
+            "target": "Zikmund",
+            "weight": 0.6562772593859117
+        },
+        {
+            "source": "Kubiš",
+            "target": "Chramostová",
+            "weight": 0.6796159186760695
+        },
+        {
+            "source": "Kubiš",
+            "target": "Boček",
+            "weight": 0.6847832510304052
+        },
+        {
+            "source": "Zikmund",
+            "target": "Scruton",
+            "weight": 0.6547465213709648
+        },
+        {
+            "source": "Zikmund",
+            "target": "Hus",
+            "weight": 0.6005802306612863
+        },
+        {
+            "source": "Zikmund",
+            "target": "Chramostová",
+            "weight": 0.6500130103430376
+        },
+        {
+            "source": "Zikmund",
+            "target": "Pík",
+            "weight": 0.618368187658351
+        },
+        {
+            "source": "Zikmund",
+            "target": "Rašín",
+            "weight": 0.6106541601669411
+        },
+        {
+            "source": "Metnar",
+            "target": "Zaorálek",
+            "weight": 0.7226398113138871
+        },
+        {
+            "source": "Metnar",
+            "target": "Vojtěch",
+            "weight": 0.6517376364281342
+        },
+        {
+            "source": "Metnar",
+            "target": "Petříček",
+            "weight": 0.6380301189030594
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Petříček",
+            "weight": 0.759760215665762
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Šmarda",
+            "weight": 0.6893957550946431
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Onderka",
+            "weight": 0.6854007749616176
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Hamáček",
+            "weight": 0.6185931623594794
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Staněk",
+            "weight": 0.6827297866197991
+        },
+        {
+            "source": "Zaorálek",
+            "target": "Pelikán",
+            "weight": 0.679780637868876
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Pekarová Adamová",
+            "weight": 0.6892376601565141
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Filip",
+            "weight": 0.72886903108238
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Arenberger",
+            "weight": 0.6945624381088233
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Prymula",
+            "weight": 0.6871077763842123
+        },
+        {
+            "source": "Vojtěch",
+            "target": "Blatný",
+            "weight": 0.667261756216967
+        },
+        {
+            "source": "Petříček",
+            "target": "Lipavský",
+            "weight": 0.6894153268134534
+        },
+        {
+            "source": "Petříček",
+            "target": "Síkela",
+            "weight": 0.602157990813064
+        },
+        {
+            "source": "Petříček",
+            "target": "Prouza",
+            "weight": 0.6439657476879747
+        },
+        {
+            "source": "Jedlička",
+            "target": "Kovanda",
+            "weight": 0.6527362901051134
+        },
+        {
+            "source": "Jedlička",
+            "target": "Hannan",
+            "weight": 0.638571177140234
+        },
+        {
+            "source": "Kovanda",
+            "target": "Piketty",
+            "weight": 0.6109724799832189
+        },
+        {
+            "source": "Hannan",
+            "target": "Piketty",
+            "weight": 0.6084935869258504
+        },
+        {
+            "source": "Hannan",
+            "target": "Kolaja",
+            "weight": 0.6133319730098071
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Jurečka",
+            "weight": 0.7101125657411864
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Farský",
+            "weight": 0.6454785297424877
+        },
+        {
+            "source": "Pekarová Adamová",
+            "target": "Udženija",
+            "weight": 0.6427859986532416
+        },
+        {
+            "source": "Jurečka",
+            "target": "Gazdík",
+            "weight": 0.6682832791795281
+        },
+        {
+            "source": "Jurečka",
+            "target": "Maláčová",
+            "weight": 0.6453193336198619
+        },
+        {
+            "source": "Jurečka",
+            "target": "Marksová",
+            "weight": 0.6731115950368212
+        },
+        {
+            "source": "Jurečka",
+            "target": "Onderka",
+            "weight": 0.7031298568914107
+        },
+        {
+            "source": "Jurečka",
+            "target": "Udženija",
+            "weight": 0.6780461026407698
+        },
+        {
+            "source": "Jurečka",
+            "target": "Farský",
+            "weight": 0.6687311986760796
+        },
+        {
+            "source": "Farský",
+            "target": "Bojko",
+            "weight": 0.6788535992767155
+        },
+        {
+            "source": "Farský",
+            "target": "Rakušan",
+            "weight": 0.6704095169895427
+        },
+        {
+            "source": "Farský",
+            "target": "Michalik",
+            "weight": 0.7005155850427057
+        },
+        {
+            "source": "Farský",
+            "target": "Polčák",
+            "weight": 0.7083124707779712
+        },
+        {
+            "source": "Farský",
+            "target": "Zahradil",
+            "weight": 0.6354489532602755
+        },
+        {
+            "source": "Farský",
+            "target": "Gazdík",
+            "weight": 0.7459558319851165
+        },
+        {
+            "source": "Farský",
+            "target": "Bartošek",
+            "weight": 0.7433054434905254
+        },
+        {
+            "source": "Farský",
+            "target": "Onderka",
+            "weight": 0.7312418066434592
+        },
+        {
+            "source": "Farský",
+            "target": "Kolaja",
+            "weight": 0.7295429600854287
+        },
+        {
+            "source": "Farský",
+            "target": "Udženija",
+            "weight": 0.7191084609680477
+        },
+        {
+            "source": "Farský",
+            "target": "Michálek",
+            "weight": 0.6401401797007799
+        },
+        {
+            "source": "Udženija",
+            "target": "Bartošek",
+            "weight": 0.8003794132754242
+        },
+        {
+            "source": "Udženija",
+            "target": "Onderka",
+            "weight": 0.7930871042712477
+        },
+        {
+            "source": "Udženija",
+            "target": "Hilšer",
+            "weight": 0.7929038840267947
+        },
+        {
+            "source": "Udženija",
+            "target": "Štěpánek",
+            "weight": 0.7881114554452406
+        },
+        {
+            "source": "Udženija",
+            "target": "Bojko",
+            "weight": 0.6978705476412473
+        },
+        {
+            "source": "Udženija",
+            "target": "Benda",
+            "weight": 0.726966064421934
+        },
+        {
+            "source": "Udženija",
+            "target": "Vondrák",
+            "weight": 0.7339863817727597
+        },
+        {
+            "source": "Udženija",
+            "target": "Skopeček",
+            "weight": 0.7341256054857527
+        },
+        {
+            "source": "Udženija",
+            "target": "Blažek",
+            "weight": 0.7859293451662475
+        },
+        {
+            "source": "Udženija",
+            "target": "Lipavský",
+            "weight": 0.7601439884407233
+        },
+        {
+            "source": "Udženija",
+            "target": "Šmucler",
+            "weight": 0.6146550809316998
+        },
+        {
+            "source": "Udženija",
+            "target": "Horáčka",
+            "weight": 0.7272871861807888
+        },
+        {
+            "source": "Udženija",
+            "target": "Baxa",
+            "weight": 0.76806099496464
+        },
+        {
+            "source": "Udženija",
+            "target": "Štětina",
+            "weight": 0.707238682687726
+        },
+        {
+            "source": "Udženija",
+            "target": "Ondráček",
+            "weight": 0.7102942958706887
+        },
+        {
+            "source": "Udženija",
+            "target": "Goláň",
+            "weight": 0.8055504953490746
+        },
+        {
+            "source": "Udženija",
+            "target": "Richterová",
+            "weight": 0.7091649582236557
+        },
+        {
+            "source": "Udženija",
+            "target": "Valenta",
+            "weight": 0.7148858046875006
+        },
+        {
+            "source": "Udženija",
+            "target": "Ovčáček",
+            "weight": 0.6297464377441314
+        },
+        {
+            "source": "Udženija",
+            "target": "Středula",
+            "weight": 0.6279511297564879
+        },
+        {
+            "source": "Udženija",
+            "target": "Vondra",
+            "weight": 0.7429742674358594
+        },
+        {
+            "source": "Udženija",
+            "target": "Vystrčil",
+            "weight": 0.6370093784180613
+        },
+        {
+            "source": "Udženija",
+            "target": "Danna",
+            "weight": 0.6704850724358481
+        },
+        {
+            "source": "Udženija",
+            "target": "Růžička",
+            "weight": 0.7557693841504806
+        },
+        {
+            "source": "Udženija",
+            "target": "Drahoš",
+            "weight": 0.6974882901051617
+        },
+        {
+            "source": "Nos",
+            "target": "Brichta",
+            "weight": 0.6818681956567081
+        },
+        {
+            "source": "Pelikán",
+            "target": "Plagu",
+            "weight": 0.6439820995049612
+        },
+        {
+            "source": "Pelikán",
+            "target": "Šabatový",
+            "weight": 0.6024260100599244
+        },
+        {
+            "source": "Pelikán",
+            "target": "Sobotka",
+            "weight": 0.6360779171562816
+        },
+        {
+            "source": "Pelikán",
+            "target": "Šlachta",
+            "weight": 0.6029863314603712
+        },
+        {
+            "source": "Staněk",
+            "target": "Toman",
+            "weight": 0.6103427040670923
+        },
+        {
+            "source": "Staněk",
+            "target": "Arenberger",
+            "weight": 0.663850056903549
+        },
+        {
+            "source": "Staněk",
+            "target": "Kremlíka",
+            "weight": 0.6571628713828989
+        },
+        {
+            "source": "Staněk",
+            "target": "Prymula",
+            "weight": 0.6129500152172308
+        },
+        {
+            "source": "Staněk",
+            "target": "Blatný",
+            "weight": 0.625458917879526
+        },
+        {
+            "source": "Staněk",
+            "target": "Hnilička",
+            "weight": 0.6006703605463851
+        },
+        {
+            "source": "Staněk",
+            "target": "Ťok",
+            "weight": 0.6567453880610192
+        },
+        {
+            "source": "Kremlíka",
+            "target": "Brabec",
+            "weight": 0.6662890142640508
+        },
+        {
+            "source": "Kremlíka",
+            "target": "Vildumetzová",
+            "weight": 0.6630373825148971
+        },
+        {
+            "source": "Kremlíka",
+            "target": "Havlíček",
+            "weight": 0.6620764797657613
+        },
+        {
+            "source": "Kremlíka",
+            "target": "Dzurilla",
+            "weight": 0.6050521708365958
+        },
+        {
+            "source": "Kremlíka",
+            "target": "Síkela",
+            "weight": 0.6276153784850025
+        },
+        {
+            "source": "Plagu",
+            "target": "Ťok",
+            "weight": 0.6714744989435095
+        },
+        {
+            "source": "Plagu",
+            "target": "Valachová",
+            "weight": 0.6708169608644954
+        },
+        {
+            "source": "Plagu",
+            "target": "Brabec",
+            "weight": 0.6020578621564794
+        },
+        {
+            "source": "Ťok",
+            "target": "Schillerová",
+            "weight": 0.6100589190915926
+        },
+        {
+            "source": "Ťok",
+            "target": "Faltýnek",
+            "weight": 0.641525531459316
+        },
+        {
+            "source": "Valachová",
+            "target": "Maláčová",
+            "weight": 0.6593132783002217
+        },
+        {
+            "source": "Valachová",
+            "target": "Keller",
+            "weight": 0.6734867155392353
+        },
+        {
+            "source": "Valachová",
+            "target": "Bartoška",
+            "weight": 0.667267213397793
+        },
+        {
+            "source": "Valachová",
+            "target": "Kohlíček",
+            "weight": 0.6655019352813693
+        },
+        {
+            "source": "Valachová",
+            "target": "Gajdůšková",
+            "weight": 0.7112109111748551
+        },
+        {
+            "source": "Rychetský",
+            "target": "Baxa",
+            "weight": 0.7686432174152488
+        },
+        {
+            "source": "Rychetský",
+            "target": "Kováčik",
+            "weight": 0.7092879119211178
+        },
+        {
+            "source": "Rychetský",
+            "target": "Wagenknecht",
+            "weight": 0.7048816956405441
+        },
+        {
+            "source": "Rychetský",
+            "target": "Šarocha",
+            "weight": 0.6855817193937597
+        },
+        {
+            "source": "Rychetský",
+            "target": "Mynář",
+            "weight": 0.6850631536588017
+        },
+        {
+            "source": "Rychetský",
+            "target": "Vitásková",
+            "weight": 0.6265915398412032
+        },
+        {
+            "source": "Rychetský",
+            "target": "Bradáčová",
+            "weight": 0.658264437568801
+        },
+        {
+            "source": "Rychetský",
+            "target": "Pavla",
+            "weight": 0.6436459030793314
+        },
+        {
+            "source": "Baxa",
+            "target": "Rath",
+            "weight": 0.7037479879523335
+        },
+        {
+            "source": "Baxa",
+            "target": "Lipavský",
+            "weight": 0.7306808498911449
+        },
+        {
+            "source": "Baxa",
+            "target": "Horáčka",
+            "weight": 0.7284100521772351
+        },
+        {
+            "source": "Baxa",
+            "target": "Čunek",
+            "weight": 0.7447058409232937
+        },
+        {
+            "source": "Baxa",
+            "target": "Goláň",
+            "weight": 0.7796515411120746
+        },
+        {
+            "source": "Baxa",
+            "target": "Wagenknecht",
+            "weight": 0.7607844628645879
+        },
+        {
+            "source": "Baxa",
+            "target": "Blažek",
+            "weight": 0.7522758773705575
+        },
+        {
+            "source": "Baxa",
+            "target": "Mynář",
+            "weight": 0.6151044795724999
+        },
+        {
+            "source": "Baxa",
+            "target": "Valenta",
+            "weight": 0.7037172907958752
+        },
+        {
+            "source": "Baxa",
+            "target": "Ovčáček",
+            "weight": 0.6111843682655907
+        },
+        {
+            "source": "Baxa",
+            "target": "Čunka",
+            "weight": 0.7468543332594719
+        },
+        {
+            "source": "Baxa",
+            "target": "Vitásková",
+            "weight": 0.6457590320396978
+        },
+        {
+            "source": "Baxa",
+            "target": "Bradáčová",
+            "weight": 0.6696719223064556
+        },
+        {
+            "source": "Baxa",
+            "target": "Gerloch",
+            "weight": 0.7396046546151703
+        },
+        {
+            "source": "Baxa",
+            "target": "Kupka",
+            "weight": 0.6831911358221999
+        },
+        {
+            "source": "Baxa",
+            "target": "Hašek",
+            "weight": 0.6931878681164254
+        },
+        {
+            "source": "Baxa",
+            "target": "Šarocha",
+            "weight": 0.669861399234451
+        },
+        {
+            "source": "Baxa",
+            "target": "Kováčik",
+            "weight": 0.7068234102409774
+        },
+        {
+            "source": "Baxa",
+            "target": "Pavla",
+            "weight": 0.6908275080514436
+        },
+        {
+            "source": "Kováčik",
+            "target": "Koudelku",
+            "weight": 0.644445510590731
+        },
+        {
+            "source": "Kováčik",
+            "target": "Vondráček",
+            "weight": 0.7051140417902333
+        },
+        {
+            "source": "Kováčik",
+            "target": "Blažek",
+            "weight": 0.6723798095615107
+        },
+        {
+            "source": "Kováčik",
+            "target": "Goláň",
+            "weight": 0.6629864180596308
+        },
+        {
+            "source": "Kováčik",
+            "target": "Štěpánek",
+            "weight": 0.6628839670096882
+        },
+        {
+            "source": "Kováčik",
+            "target": "Pavla",
+            "weight": 0.6279019567575042
+        },
+        {
+            "source": "Wagenknecht",
+            "target": "Bradáčová",
+            "weight": 0.6758374459871005
+        },
+        {
+            "source": "Wagenknecht",
+            "target": "Bek",
+            "weight": 0.7317954106253707
+        },
+        {
+            "source": "Wagenknecht",
+            "target": "Šarocha",
+            "weight": 0.708131788773739
+        },
+        {
+            "source": "Wagenknecht",
+            "target": "Kolaja",
+            "weight": 0.7056749622552707
+        },
+        {
+            "source": "Wagenknecht",
+            "target": "Gerloch",
+            "weight": 0.6779916479299676
+        },
+        {
+            "source": "Šarocha",
+            "target": "Mynář",
+            "weight": 0.6741028487563842
+        },
+        {
+            "source": "Šarocha",
+            "target": "Vitásková",
+            "weight": 0.6544705965827562
+        },
+        {
+            "source": "Mynář",
+            "target": "Zeman",
+            "weight": 0.6624467361891105
+        },
+        {
+            "source": "Mynář",
+            "target": "Bradáčová",
+            "weight": 0.6593162511737103
+        },
+        {
+            "source": "Mynář",
+            "target": "Vitásková",
+            "weight": 0.6152506124585359
+        },
+        {
+            "source": "Havel",
+            "target": "Klaus",
+            "weight": 0.6564088282251412
+        },
+        {
+            "source": "Havel",
+            "target": "Pithart",
+            "weight": 0.6391644754092535
+        },
+        {
+            "source": "Havel",
+            "target": "Husák",
+            "weight": 0.6235144451528052
+        },
+        {
+            "source": "Havel",
+            "target": "Klaus ml",
+            "weight": 0.6171261609808143
+        },
+        {
+            "source": "Havel",
+            "target": "Klaus ml.",
+            "weight": 0.6171261609808143
+        },
+        {
+            "source": "Havel",
+            "target": "Klausovi",
+            "weight": 0.602170055715212
+        },
+        {
+            "source": "Havel",
+            "target": "Scruton",
+            "weight": 0.6760919366421807
+        },
+        {
+            "source": "Klaus",
+            "target": "Klausovi",
+            "weight": 0.8264965865115103
+        },
+        {
+            "source": "Klaus",
+            "target": "Klaus ml.",
+            "weight": 0.9658805013071207
+        },
+        {
+            "source": "Klaus",
+            "target": "Pithart",
+            "weight": 0.6549090156648666
+        },
+        {
+            "source": "Klaus",
+            "target": "Hampl",
+            "weight": 0.6106541091121329
+        },
+        {
+            "source": "Klaus",
+            "target": "Klaus ml",
+            "weight": 0.9658805013071207
+        },
+        {
+            "source": "Pithart",
+            "target": "Navrátil",
+            "weight": 0.6284751139493938
+        },
+        {
+            "source": "Pithart",
+            "target": "Klaus ml.",
+            "weight": 0.6476919016183442
+        },
+        {
+            "source": "Pithart",
+            "target": "Klaus ml",
+            "weight": 0.6476919016183442
+        },
+        {
+            "source": "Pithart",
+            "target": "Štěpánek",
+            "weight": 0.7132720134491197
+        },
+        {
+            "source": "Pithart",
+            "target": "Goláň",
+            "weight": 0.7110472621415888
+        },
+        {
+            "source": "Pithart",
+            "target": "Kulhánek",
+            "weight": 0.710775105525419
+        },
+        {
+            "source": "Pithart",
+            "target": "Růžička",
+            "weight": 0.7042885247976576
+        },
+        {
+            "source": "Pithart",
+            "target": "Vondra",
+            "weight": 0.7010761802312497
+        },
+        {
+            "source": "Husák",
+            "target": "Švejk",
+            "weight": 0.617294288121346
+        },
+        {
+            "source": "Husák",
+            "target": "Gottwald",
+            "weight": 0.6612611161217803
+        },
+        {
+            "source": "Husák",
+            "target": "Mitrofanov",
+            "weight": 0.6186880435419454
+        },
+        {
+            "source": "Husák",
+            "target": "Švehla",
+            "weight": 0.6530605714942854
+        },
+        {
+            "source": "Husák",
+            "target": "Ovčáček",
+            "weight": 0.655515489481649
+        },
+        {
+            "source": "Husák",
+            "target": "Pík",
+            "weight": 0.6374353164066632
+        },
+        {
+            "source": "Klaus ml",
+            "target": "Klausovi",
+            "weight": 0.869657447144588
+        },
+        {
+            "source": "Klaus ml",
+            "target": "Hampl",
+            "weight": 0.6526722914891648
+        },
+        {
+            "source": "Klaus ml",
+            "target": "Skopeček",
+            "weight": 0.6286966421852936
+        },
+        {
+            "source": "Klaus ml.",
+            "target": "Klausovi",
+            "weight": 0.869657447144588
+        },
+        {
+            "source": "Klaus ml.",
+            "target": "Hampl",
+            "weight": 0.6526722914891648
+        },
+        {
+            "source": "Klaus ml.",
+            "target": "Skopeček",
+            "weight": 0.6286966421852936
+        },
+        {
+            "source": "Gazdík",
+            "target": "Polčák",
+            "weight": 0.7416461603328665
+        },
+        {
+            "source": "Gazdík",
+            "target": "Rakušan",
+            "weight": 0.7308860954910636
+        },
+        {
+            "source": "Gazdík",
+            "target": "Michalik",
+            "weight": 0.7214770258198795
+        },
+        {
+            "source": "Gazdík",
+            "target": "Redl",
+            "weight": 0.6120423455672048
+        },
+        {
+            "source": "Polčák",
+            "target": "Pospíšil",
+            "weight": 0.7342562634603775
+        },
+        {
+            "source": "Polčák",
+            "target": "Rakušan",
+            "weight": 0.6227589083474093
+        },
+        {
+            "source": "Polčák",
+            "target": "Michalik",
+            "weight": 0.6783750002059926
+        },
+        {
+            "source": "Polčák",
+            "target": "Zdechovský",
+            "weight": 0.6653885176246312
+        },
+        {
+            "source": "Polčák",
+            "target": "Kolaja",
+            "weight": 0.647879195267762
+        },
+        {
+            "source": "Rakušan",
+            "target": "Michalik",
+            "weight": 0.6927701956773994
+        },
+        {
+            "source": "Rakušan",
+            "target": "Lipavský",
+            "weight": 0.6291964240931547
+        },
+        {
+            "source": "Michalik",
+            "target": "Grosse",
+            "weight": 0.6274165060161819
+        },
+        {
+            "source": "Michalik",
+            "target": "Krejčíř",
+            "weight": 0.6581286809980266
+        },
+        {
+            "source": "Michalik",
+            "target": "Redl",
+            "weight": 0.6380118316199692
+        },
+        {
+            "source": "Michalik",
+            "target": "Pospíšil",
+            "weight": 0.7514020845539657
+        },
+        {
+            "source": "Michalik",
+            "target": "Vokřál",
+            "weight": 0.6980478480927574
+        },
+        {
+            "source": "Michalik",
+            "target": "Půta",
+            "weight": 0.6944425871399618
+        },
+        {
+            "source": "Bartošek",
+            "target": "Bojko",
+            "weight": 0.7196126553525288
+        },
+        {
+            "source": "Bartošek",
+            "target": "Skopeček",
+            "weight": 0.7627535661173235
+        },
+        {
+            "source": "Bartošek",
+            "target": "Bobošíková",
+            "weight": 0.7261610378899889
+        },
+        {
+            "source": "Bartošek",
+            "target": "Šídlo",
+            "weight": 0.6867669751548721
+        },
+        {
+            "source": "Bartošek",
+            "target": "Čižinský",
+            "weight": 0.6583748206758515
+        },
+        {
+            "source": "Bartošek",
+            "target": "Goláň",
+            "weight": 0.7561580408657611
+        },
+        {
+            "source": "Bartošek",
+            "target": "Kohlíček",
+            "weight": 0.7530873134661772
+        },
+        {
+            "source": "Bartošek",
+            "target": "Peksa",
+            "weight": 0.6137606084767905
+        },
+        {
+            "source": "Bartošek",
+            "target": "Richterová",
+            "weight": 0.7173214866929233
+        },
+        {
+            "source": "Bartošek",
+            "target": "Chvojka",
+            "weight": 0.7020912663331832
+        },
+        {
+            "source": "Bartošek",
+            "target": "Onderka",
+            "weight": 0.8014111335590328
+        },
+        {
+            "source": "Onderka",
+            "target": "Rath",
+            "weight": 0.6657881450900468
+        },
+        {
+            "source": "Onderka",
+            "target": "Blažek",
+            "weight": 0.7559063211215065
+        },
+        {
+            "source": "Onderka",
+            "target": "Lipavský",
+            "weight": 0.7417812472295479
+        },
+        {
+            "source": "Onderka",
+            "target": "Kohlíček",
+            "weight": 0.796666148558251
+        },
+        {
+            "source": "Onderka",
+            "target": "Marksová",
+            "weight": 0.6792815172060577
+        },
+        {
+            "source": "Onderka",
+            "target": "Bláha",
+            "weight": 0.682759130324692
+        },
+        {
+            "source": "Onderka",
+            "target": "Nováková",
+            "weight": 0.6042137185589269
+        },
+        {
+            "source": "Onderka",
+            "target": "Sehnalová",
+            "weight": 0.6837004625415877
+        },
+        {
+            "source": "Onderka",
+            "target": "Poc",
+            "weight": 0.8096063254005222
+        },
+        {
+            "source": "Onderka",
+            "target": "Bělobrádek",
+            "weight": 0.696810984433411
+        },
+        {
+            "source": "Onderka",
+            "target": "Hamáček",
+            "weight": 0.6247868572819347
+        },
+        {
+            "source": "Onderka",
+            "target": "Bartoška",
+            "weight": 0.7415063634302809
+        },
+        {
+            "source": "Onderka",
+            "target": "Středula",
+            "weight": 0.6802581692531072
+        },
+        {
+            "source": "Onderka",
+            "target": "Kovář",
+            "weight": 0.6977623226725549
+        },
+        {
+            "source": "Onderka",
+            "target": "Herman",
+            "weight": 0.6537523018495646
+        },
+        {
+            "source": "Onderka",
+            "target": "Prouza",
+            "weight": 0.6153575103916827
+        },
+        {
+            "source": "Onderka",
+            "target": "Keller",
+            "weight": 0.8185634488118212
+        },
+        {
+            "source": "Onderka",
+            "target": "Pokorný",
+            "weight": 0.6356999615446266
+        },
+        {
+            "source": "Onderka",
+            "target": "Filip",
+            "weight": 0.716678824654389
+        },
+        {
+            "source": "Onderka",
+            "target": "Vildumetzová",
+            "weight": 0.7439917563079933
+        },
+        {
+            "source": "Hilšer",
+            "target": "Benda",
+            "weight": 0.7458785834592787
+        },
+        {
+            "source": "Hilšer",
+            "target": "Kuberův",
+            "weight": 0.6531826304558651
+        },
+        {
+            "source": "Hilšer",
+            "target": "Fischer",
+            "weight": 0.6630923089678299
+        },
+        {
+            "source": "Hilšer",
+            "target": "Smoljak",
+            "weight": 0.7148810514254758
+        },
+        {
+            "source": "Hilšer",
+            "target": "Šídlo",
+            "weight": 0.6828311746690583
+        },
+        {
+            "source": "Hilšer",
+            "target": "Hampl",
+            "weight": 0.7403102349655662
+        },
+        {
+            "source": "Hilšer",
+            "target": "Goláň",
+            "weight": 0.8074822474920972
+        },
+        {
+            "source": "Hilšer",
+            "target": "Richterová",
+            "weight": 0.6917583039142801
+        },
+        {
+            "source": "Hilšer",
+            "target": "Valenta",
+            "weight": 0.7223662920118907
+        },
+        {
+            "source": "Hilšer",
+            "target": "Lipovský",
+            "weight": 0.6501417690708255
+        },
+        {
+            "source": "Hilšer",
+            "target": "Vystrčil",
+            "weight": 0.6178735912606556
+        },
+        {
+            "source": "Hilšer",
+            "target": "Gerloch",
+            "weight": 0.6704989760241428
+        },
+        {
+            "source": "Hilšer",
+            "target": "Nacher",
+            "weight": 0.6361130638199526
+        },
+        {
+            "source": "Hilšer",
+            "target": "Růžička",
+            "weight": 0.7565920488686492
+        },
+        {
+            "source": "Hilšer",
+            "target": "Červíček",
+            "weight": 0.7893445955864989
+        },
+        {
+            "source": "Hilšer",
+            "target": "Vácha",
+            "weight": 0.7771649838803009
+        },
+        {
+            "source": "Hilšer",
+            "target": "Czernin",
+            "weight": 0.7749265815515861
+        },
+        {
+            "source": "Hilšer",
+            "target": "Štěpánek",
+            "weight": 0.757091504531113
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Benda",
+            "weight": 0.7347625032847723
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Blažek",
+            "weight": 0.767700817512896
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Vácha",
+            "weight": 0.7208647062192544
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Štětina",
+            "weight": 0.7000574194213924
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Hampl",
+            "weight": 0.7134032779878934
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Růžička",
+            "weight": 0.7925274332064781
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Zahradníček",
+            "weight": 0.7885976769963072
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Kraus",
+            "weight": 0.6693537353810356
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Navrátil",
+            "weight": 0.6167739594107219
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Stehlík",
+            "weight": 0.7040395464825507
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Kroupa",
+            "weight": 0.6549039344265404
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Štěpán",
+            "weight": 0.6069395980345447
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Fridrich",
+            "weight": 0.7488835499521863
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Pokorný",
+            "weight": 0.6394154703507795
+        },
+        {
+            "source": "Štěpánek",
+            "target": "Pavla",
+            "weight": 0.6428298870980836
+        },
+        {
+            "source": "Bojko",
+            "target": "Michálek",
+            "weight": 0.6078251761157779
+        },
+        {
+            "source": "Klausovi",
+            "target": "Hampl",
+            "weight": 0.6014622114012154
+        },
+        {
+            "source": "Hampl",
+            "target": "Benda",
+            "weight": 0.7426354072975027
+        },
+        {
+            "source": "Hampl",
+            "target": "Červíček",
+            "weight": 0.7140688882643876
+        },
+        {
+            "source": "Hampl",
+            "target": "Goláň",
+            "weight": 0.8177868731197349
+        },
+        {
+            "source": "Janda",
+            "target": "Vácha",
+            "weight": 0.6432982376617503
+        },
+        {
+            "source": "Janda",
+            "target": "Kolaja",
+            "weight": 0.6326001917358474
+        },
+        {
+            "source": "Janda",
+            "target": "Goláň",
+            "weight": 0.6261843085422508
+        },
+        {
+            "source": "Janda",
+            "target": "Hašek",
+            "weight": 0.6197168905830774
+        },
+        {
+            "source": "Janda",
+            "target": "Gregorová",
+            "weight": 0.6111867736507574
+        },
+        {
+            "source": "Vácha",
+            "target": "Tabery",
+            "weight": 0.6253741968914093
+        },
+        {
+            "source": "Vácha",
+            "target": "Goláň",
+            "weight": 0.7332353753793184
+        },
+        {
+            "source": "Vácha",
+            "target": "Drahoš",
+            "weight": 0.7045613644930636
+        },
+        {
+            "source": "Vácha",
+            "target": "Benda",
+            "weight": 0.6998428875218815
+        },
+        {
+            "source": "Vácha",
+            "target": "Kroupa",
+            "weight": 0.6658054188808388
+        },
+        {
+            "source": "Kolaja",
+            "target": "Pospíšil",
+            "weight": 0.7388828739399285
+        },
+        {
+            "source": "Kolaja",
+            "target": "Bobošíková",
+            "weight": 0.7153321308410052
+        },
+        {
+            "source": "Kolaja",
+            "target": "Čižinský",
+            "weight": 0.6294368450035415
+        },
+        {
+            "source": "Kolaja",
+            "target": "Peksa",
+            "weight": 0.6705834014046376
+        },
+        {
+            "source": "Kolaja",
+            "target": "Vondra",
+            "weight": 0.7778471454434636
+        },
+        {
+            "source": "Kolaja",
+            "target": "Keller",
+            "weight": 0.7745724848011488
+        },
+        {
+            "source": "Kolaja",
+            "target": "Poc",
+            "weight": 0.765183480030987
+        },
+        {
+            "source": "Kolaja",
+            "target": "Niedermayer",
+            "weight": 0.7487490600307037
+        },
+        {
+            "source": "Kolaja",
+            "target": "Bek",
+            "weight": 0.7000177539146997
+        },
+        {
+            "source": "Kolaja",
+            "target": "David",
+            "weight": 0.6181738719269038
+        },
+        {
+            "source": "Kolaja",
+            "target": "Kovář",
+            "weight": 0.6992049493357665
+        },
+        {
+            "source": "Kolaja",
+            "target": "Danna",
+            "weight": 0.677567953272626
+        },
+        {
+            "source": "Kolaja",
+            "target": "Ferjenčík",
+            "weight": 0.6177546186048809
+        },
+        {
+            "source": "Kolaja",
+            "target": "Decroix",
+            "weight": 0.7351493888089512
+        },
+        {
+            "source": "Kolaja",
+            "target": "Atkinson",
+            "weight": 0.6549790836638351
+        },
+        {
+            "source": "Kolaja",
+            "target": "Blaško",
+            "weight": 0.6714058503152198
+        },
+        {
+            "source": "Goláň",
+            "target": "Kuberův",
+            "weight": 0.6311086308952856
+        },
+        {
+            "source": "Goláň",
+            "target": "Skopeček",
+            "weight": 0.7355231657935735
+        },
+        {
+            "source": "Goláň",
+            "target": "Fischer",
+            "weight": 0.6835723128277279
+        },
+        {
+            "source": "Goláň",
+            "target": "Horáčka",
+            "weight": 0.738793705202212
+        },
+        {
+            "source": "Goláň",
+            "target": "Pavel",
+            "weight": 0.672638968322713
+        },
+        {
+            "source": "Goláň",
+            "target": "Doležal",
+            "weight": 0.6905748565079879
+        },
+        {
+            "source": "Goláň",
+            "target": "Šídlo",
+            "weight": 0.688641004225182
+        },
+        {
+            "source": "Goláň",
+            "target": "Jarolím",
+            "weight": 0.7583744539001209
+        },
+        {
+            "source": "Goláň",
+            "target": "Ondráček",
+            "weight": 0.6797809215918942
+        },
+        {
+            "source": "Goláň",
+            "target": "Czernin",
+            "weight": 0.7603232963736898
+        },
+        {
+            "source": "Goláň",
+            "target": "Nováková",
+            "weight": 0.6101674970281692
+        },
+        {
+            "source": "Goláň",
+            "target": "Růžička",
+            "weight": 0.8021248453531308
+        },
+        {
+            "source": "Goláň",
+            "target": "Červíček",
+            "weight": 0.8002017451250382
+        },
+        {
+            "source": "Goláň",
+            "target": "Bek",
+            "weight": 0.6773457581661597
+        },
+        {
+            "source": "Goláň",
+            "target": "Půta",
+            "weight": 0.7705193669419561
+        },
+        {
+            "source": "Goláň",
+            "target": "Středula",
+            "weight": 0.6388454752502983
+        },
+        {
+            "source": "Goláň",
+            "target": "Prouza",
+            "weight": 0.6172306396361243
+        },
+        {
+            "source": "Goláň",
+            "target": "Stehlík",
+            "weight": 0.718437388280267
+        },
+        {
+            "source": "Goláň",
+            "target": "Kroupa",
+            "weight": 0.66548967391764
+        },
+        {
+            "source": "Goláň",
+            "target": "Gerloch",
+            "weight": 0.6666886373439473
+        },
+        {
+            "source": "Goláň",
+            "target": "Kupka",
+            "weight": 0.6974165459867676
+        },
+        {
+            "source": "Goláň",
+            "target": "Nacher",
+            "weight": 0.628579884866955
+        },
+        {
+            "source": "Goláň",
+            "target": "Pavla",
+            "weight": 0.6856605326831249
+        },
+        {
+            "source": "Hašek",
+            "target": "Šmucler",
+            "weight": 0.6008549421764979
+        },
+        {
+            "source": "Hašek",
+            "target": "Prchal",
+            "weight": 0.612779416663438
+        },
+        {
+            "source": "Hašek",
+            "target": "Jágr",
+            "weight": 0.6132891491548299
+        },
+        {
+            "source": "Hašek",
+            "target": "Šídlo",
+            "weight": 0.6802461671171353
+        },
+        {
+            "source": "Hašek",
+            "target": "Půta",
+            "weight": 0.7015415833442437
+        },
+        {
+            "source": "Hašek",
+            "target": "Drahoš",
+            "weight": 0.6993140775473669
+        },
+        {
+            "source": "Hašek",
+            "target": "Čunek",
+            "weight": 0.690954690762608
+        },
+        {
+            "source": "Hašek",
+            "target": "Pokorný",
+            "weight": 0.68904701015961
+        },
+        {
+            "source": "Gregorová",
+            "target": "Pospíšil",
+            "weight": 0.7303975174457366
+        },
+        {
+            "source": "Gregorová",
+            "target": "Decroix",
+            "weight": 0.7539559973604527
+        },
+        {
+            "source": "Gregorová",
+            "target": "Červíček",
+            "weight": 0.7230815423810854
+        },
+        {
+            "source": "Gregorová",
+            "target": "Dlabajová",
+            "weight": 0.7126932925796217
+        },
+        {
+            "source": "Lipavský",
+            "target": "Kulhánek",
+            "weight": 0.7116290598035213
+        },
+        {
+            "source": "Lipavský",
+            "target": "Bek",
+            "weight": 0.684564738977128
+        },
+        {
+            "source": "Benda",
+            "target": "Ferjenčík",
+            "weight": 0.6116825389942326
+        },
+        {
+            "source": "Benda",
+            "target": "Nacher",
+            "weight": 0.6452111233430667
+        },
+        {
+            "source": "Lukašenko",
+            "target": "Asad",
+            "weight": 0.6877144937406185
+        },
+        {
+            "source": "Lukašenko",
+            "target": "Kreml",
+            "weight": 0.6192246484827528
+        },
+        {
+            "source": "Lukašenko",
+            "target": "Obama",
+            "weight": 0.6004281008998611
+        },
+        {
+            "source": "Lukašenko",
+            "target": "Putin",
+            "weight": 0.7041810881080216
+        },
+        {
+            "source": "Asad",
+            "target": "Putin",
+            "weight": 0.683236627809683
+        },
+        {
+            "source": "Asad",
+            "target": "Zelenský",
+            "weight": 0.6417991113342919
+        },
+        {
+            "source": "Asad",
+            "target": "Clintonová",
+            "weight": 0.6474111225430216
+        },
+        {
+            "source": "Asad",
+            "target": "Stoltenberg",
+            "weight": 0.6927304105181479
+        },
+        {
+            "source": "Asad",
+            "target": "Kreml",
+            "weight": 0.6860165469374132
+        },
+        {
+            "source": "Asad",
+            "target": "Zelenskyj",
+            "weight": 0.6779894344590963
+        },
+        {
+            "source": "Asad",
+            "target": "Obama",
+            "weight": 0.6753396501714269
+        },
+        {
+            "source": "Kreml",
+            "target": "Zelenskyj",
+            "weight": 0.6521857014420421
+        },
+        {
+            "source": "Kreml",
+            "target": "Stoltenberg",
+            "weight": 0.6306113987073367
+        },
+        {
+            "source": "Kreml",
+            "target": "Trump",
+            "weight": 0.6179219817446022
+        },
+        {
+            "source": "Obama",
+            "target": "Biden",
+            "weight": 0.7066339463980359
+        },
+        {
+            "source": "Obama",
+            "target": "Putin",
+            "weight": 0.67715882335562
+        },
+        {
+            "source": "Obama",
+            "target": "Zelenský",
+            "weight": 0.6791520580387091
+        },
+        {
+            "source": "Obama",
+            "target": "Trump",
+            "weight": 0.7832633120659226
+        },
+        {
+            "source": "Obama",
+            "target": "Zeman",
+            "weight": 0.627010369898134
+        },
+        {
+            "source": "Obama",
+            "target": "Zelenskyj",
+            "weight": 0.6245970506224173
+        },
+        {
+            "source": "Biden",
+            "target": "Zelenský",
+            "weight": 0.688953460362285
+        },
+        {
+            "source": "Biden",
+            "target": "Clintonová",
+            "weight": 0.6650238856605324
+        },
+        {
+            "source": "Biden",
+            "target": "Putin",
+            "weight": 0.6622311965880714
+        },
+        {
+            "source": "Biden",
+            "target": "Zelenskyj",
+            "weight": 0.6129985648162655
+        },
+        {
+            "source": "Zelenský",
+            "target": "Putin",
+            "weight": 0.6879401126402703
+        },
+        {
+            "source": "Zelenský",
+            "target": "Trump",
+            "weight": 0.6730195384492714
+        },
+        {
+            "source": "Zelenský",
+            "target": "Clintonová",
+            "weight": 0.6162063921774259
+        },
+        {
+            "source": "Clintonová",
+            "target": "Trump",
+            "weight": 0.6637071598831443
+        },
+        {
+            "source": "Putin",
+            "target": "Trump",
+            "weight": 0.7173184577151305
+        },
+        {
+            "source": "Putin",
+            "target": "Zelenskyj",
+            "weight": 0.6591921178501585
+        },
+        {
+            "source": "Zelenskyj",
+            "target": "Erdogan",
+            "weight": 0.6145974429064265
+        },
+        {
+            "source": "Zelenskyj",
+            "target": "Trump",
+            "weight": 0.6699034016480625
+        },
+        {
+            "source": "Johnsonovi",
+            "target": "May",
+            "weight": 0.7553991849270426
+        },
+        {
+            "source": "Johnsonovi",
+            "target": "Farage",
+            "weight": 0.6769617052059376
+        },
+        {
+            "source": "Johnsonovi",
+            "target": "Corbyn",
+            "weight": 0.6628024495187032
+        },
+        {
+            "source": "Johnsonovi",
+            "target": "Tusk",
+            "weight": 0.6258129434871867
+        },
+        {
+            "source": "Johnsonovi",
+            "target": "Mayová",
+            "weight": 0.7706950529635971
+        },
+        {
+            "source": "May",
+            "target": "Corbyn",
+            "weight": 0.6769491949963012
+        },
+        {
+            "source": "May",
+            "target": "Farage",
+            "weight": 0.6882687451590961
+        },
+        {
+            "source": "May",
+            "target": "Tusk",
+            "weight": 0.6659515021319378
+        },
+        {
+            "source": "Farage",
+            "target": "Tusk",
+            "weight": 0.772352645262243
+        },
+        {
+            "source": "Farage",
+            "target": "Mayová",
+            "weight": 0.7721847746020881
+        },
+        {
+            "source": "Farage",
+            "target": "Hofer",
+            "weight": 0.6821757319632122
+        },
+        {
+            "source": "Farage",
+            "target": "Weber",
+            "weight": 0.6817325478334858
+        },
+        {
+            "source": "Farage",
+            "target": "Timmermans",
+            "weight": 0.6807532069707684
+        },
+        {
+            "source": "Corbyn",
+            "target": "Mayová",
+            "weight": 0.6710032242184629
+        },
+        {
+            "source": "Corbyn",
+            "target": "Tusk",
+            "weight": 0.638510149160473
+        },
+        {
+            "source": "Corbyn",
+            "target": "Timmermans",
+            "weight": 0.6317661459987263
+        },
+        {
+            "source": "Tusk",
+            "target": "Sassoli",
+            "weight": 0.6833005477264487
+        },
+        {
+            "source": "Tusk",
+            "target": "Juncker",
+            "weight": 0.6921336716710937
+        },
+        {
+            "source": "Tusk",
+            "target": "Matovič",
+            "weight": 0.7279084727433377
+        },
+        {
+            "source": "Tusk",
+            "target": "Mayová",
+            "weight": 0.7487769600364974
+        },
+        {
+            "source": "Tusk",
+            "target": "Weber",
+            "weight": 0.7625924686556093
+        },
+        {
+            "source": "Tusk",
+            "target": "Macron",
+            "weight": 0.654363740527481
+        },
+        {
+            "source": "Tusk",
+            "target": "Conte",
+            "weight": 0.6508471606235409
+        },
+        {
+            "source": "Tusk",
+            "target": "Timmermans",
+            "weight": 0.7357779391536812
+        },
+        {
+            "source": "Tusk",
+            "target": "Hofer",
+            "weight": 0.6325223759821736
+        },
+        {
+            "source": "Tusk",
+            "target": "Stoltenberg",
+            "weight": 0.6611349496843053
+        },
+        {
+            "source": "Tusk",
+            "target": "Merkelová",
+            "weight": 0.6234654380838918
+        },
+        {
+            "source": "Tusk",
+            "target": "Orbán",
+            "weight": 0.6055037248168447
+        },
+        {
+            "source": "Vondrák",
+            "target": "Červíček",
+            "weight": 0.7710050822916119
+        },
+        {
+            "source": "Vondrák",
+            "target": "Půta",
+            "weight": 0.7684686820158155
+        },
+        {
+            "source": "Vondrák",
+            "target": "Jermanová",
+            "weight": 0.7644078237900785
+        },
+        {
+            "source": "Vondrák",
+            "target": "Vildumetzová",
+            "weight": 0.7448798877223388
+        },
+        {
+            "source": "Vondrák",
+            "target": "Vokřál",
+            "weight": 0.7329276895854956
+        },
+        {
+            "source": "Vondrák",
+            "target": "Bláha",
+            "weight": 0.7155348055557978
+        },
+        {
+            "source": "Vondrák",
+            "target": "Čunka",
+            "weight": 0.7762624626588825
+        },
+        {
+            "source": "Červíček",
+            "target": "Vokřál",
+            "weight": 0.7279276191054589
+        },
+        {
+            "source": "Červíček",
+            "target": "Čunek",
+            "weight": 0.7529978758108792
+        },
+        {
+            "source": "Červíček",
+            "target": "Smoljak",
+            "weight": 0.6704520008902435
+        },
+        {
+            "source": "Červíček",
+            "target": "Kolovratník",
+            "weight": 0.678797606660897
+        },
+        {
+            "source": "Červíček",
+            "target": "Čížek",
+            "weight": 0.6959743798349035
+        },
+        {
+            "source": "Červíček",
+            "target": "Czernin",
+            "weight": 0.7706464465579665
+        },
+        {
+            "source": "Červíček",
+            "target": "Sáblíková",
+            "weight": 0.6317225152971734
+        },
+        {
+            "source": "Červíček",
+            "target": "Bek",
+            "weight": 0.6756918300019517
+        },
+        {
+            "source": "Červíček",
+            "target": "Stehlík",
+            "weight": 0.6734895307076607
+        },
+        {
+            "source": "Červíček",
+            "target": "Decroix",
+            "weight": 0.7765446366479091
+        },
+        {
+            "source": "Červíček",
+            "target": "Kupka",
+            "weight": 0.7331048335772536
+        },
+        {
+            "source": "Červíček",
+            "target": "Jarolím",
+            "weight": 0.8230042668933564
+        },
+        {
+            "source": "Červíček",
+            "target": "Čunka",
+            "weight": 0.8034901767157712
+        },
+        {
+            "source": "Červíček",
+            "target": "Kulhánek",
+            "weight": 0.7978930312644285
+        },
+        {
+            "source": "Červíček",
+            "target": "Růžička",
+            "weight": 0.74296121345367
+        },
+        {
+            "source": "Červíček",
+            "target": "Vildumetzová",
+            "weight": 0.7153416896064169
+        },
+        {
+            "source": "Půta",
+            "target": "Pospíšil",
+            "weight": 0.7244472150481728
+        },
+        {
+            "source": "Půta",
+            "target": "Čunek",
+            "weight": 0.736706074015472
+        },
+        {
+            "source": "Půta",
+            "target": "Štětina",
+            "weight": 0.6897217682380895
+        },
+        {
+            "source": "Půta",
+            "target": "Kolovratník",
+            "weight": 0.6936748992275783
+        },
+        {
+            "source": "Půta",
+            "target": "Jarolím",
+            "weight": 0.7767302751359156
+        },
+        {
+            "source": "Půta",
+            "target": "Čížek",
+            "weight": 0.7039278256265427
+        },
+        {
+            "source": "Půta",
+            "target": "Čunka",
+            "weight": 0.7930199855790081
+        },
+        {
+            "source": "Půta",
+            "target": "Kulhánek",
+            "weight": 0.731483048757486
+        },
+        {
+            "source": "Půta",
+            "target": "Vildumetzová",
+            "weight": 0.8053652886314869
+        },
+        {
+            "source": "Půta",
+            "target": "Vaňková",
+            "weight": 0.7717203819967026
+        },
+        {
+            "source": "Půta",
+            "target": "Decroix",
+            "weight": 0.7165268939055094
+        },
+        {
+            "source": "Půta",
+            "target": "Jermanová",
+            "weight": 0.7395995763282802
+        },
+        {
+            "source": "Jermanová",
+            "target": "Čunek",
+            "weight": 0.7622352600981875
+        },
+        {
+            "source": "Jermanová",
+            "target": "Bláha",
+            "weight": 0.7331276256905388
+        },
+        {
+            "source": "Jermanová",
+            "target": "Faltýnek",
+            "weight": 0.6382668520148104
+        },
+        {
+            "source": "Jermanová",
+            "target": "Vondráček",
+            "weight": 0.7124770445709521
+        },
+        {
+            "source": "Jermanová",
+            "target": "Vildumetzová",
+            "weight": 0.7668180593865451
+        },
+        {
+            "source": "Vildumetzová",
+            "target": "Čížek",
+            "weight": 0.6959409842475524
+        },
+        {
+            "source": "Vildumetzová",
+            "target": "Brabec",
+            "weight": 0.6282169797648639
+        },
+        {
+            "source": "Vildumetzová",
+            "target": "Horáčka",
+            "weight": 0.7015461396781079
+        },
+        {
+            "source": "Scruton",
+            "target": "Růžička",
+            "weight": 0.6740174914851853
+        },
+        {
+            "source": "Scruton",
+            "target": "Churchill",
+            "weight": 0.6711572145077436
+        },
+        {
+            "source": "Scruton",
+            "target": "Kiska",
+            "weight": 0.6558939998752489
+        },
+        {
+            "source": "Scruton",
+            "target": "Gottovi",
+            "weight": 0.6168775389444073
+        },
+        {
+            "source": "Scruton",
+            "target": "Švejk",
+            "weight": 0.6322546680795871
+        },
+        {
+            "source": "Scruton",
+            "target": "Gottwald",
+            "weight": 0.6520619783939996
+        },
+        {
+            "source": "Scruton",
+            "target": "Mitrofanov",
+            "weight": 0.6098612457167665
+        },
+        {
+            "source": "Scruton",
+            "target": "Chramostová",
+            "weight": 0.6533241300802819
+        },
+        {
+            "source": "Scruton",
+            "target": "Fridrich",
+            "weight": 0.7042359777567768
+        },
+        {
+            "source": "Růžička",
+            "target": "Kuberův",
+            "weight": 0.705339586360764
+        },
+        {
+            "source": "Růžička",
+            "target": "Jágr",
+            "weight": 0.6149073134140721
+        },
+        {
+            "source": "Růžička",
+            "target": "Ondráček",
+            "weight": 0.6914546093019396
+        },
+        {
+            "source": "Růžička",
+            "target": "Czernin",
+            "weight": 0.7340584758531161
+        },
+        {
+            "source": "Růžička",
+            "target": "Nováková",
+            "weight": 0.6081288617430889
+        },
+        {
+            "source": "Růžička",
+            "target": "Stehlík",
+            "weight": 0.7142259931264593
+        },
+        {
+            "source": "Růžička",
+            "target": "Vystrčil",
+            "weight": 0.6207875519123477
+        },
+        {
+            "source": "Růžička",
+            "target": "Koudelku",
+            "weight": 0.6065193815721875
+        },
+        {
+            "source": "Růžička",
+            "target": "Vondráček",
+            "weight": 0.6919661068227074
+        },
+        {
+            "source": "Růžička",
+            "target": "Blažek",
+            "weight": 0.7522474223101115
+        },
+        {
+            "source": "Růžička",
+            "target": "Filip",
+            "weight": 0.6728678700651239
+        },
+        {
+            "source": "Kiska",
+            "target": "Danka",
+            "weight": 0.6968721215978168
+        },
+        {
+            "source": "Kiska",
+            "target": "Matovič",
+            "weight": 0.7706049835585503
+        },
+        {
+            "source": "Kiska",
+            "target": "Kramář",
+            "weight": 0.6578001084750446
+        },
+        {
+            "source": "Kiska",
+            "target": "Zeman",
+            "weight": 0.651452337385779
+        },
+        {
+            "source": "Kiska",
+            "target": "Čaputová",
+            "weight": 0.6818710727837558
+        },
+        {
+            "source": "Kiska",
+            "target": "Fico",
+            "weight": 0.6729512751052273
+        },
+        {
+            "source": "Gottovi",
+            "target": "Chramostová",
+            "weight": 0.6821791685266139
+        },
+        {
+            "source": "Kuberův",
+            "target": "Fischer",
+            "weight": 0.6639970353044419
+        },
+        {
+            "source": "Kuberův",
+            "target": "Ondráček",
+            "weight": 0.6303713265513378
+        },
+        {
+            "source": "Fischer",
+            "target": "Drahoš",
+            "weight": 0.6607936150036084
+        },
+        {
+            "source": "Fischer",
+            "target": "Vystrčil",
+            "weight": 0.6580434814829502
+        },
+        {
+            "source": "Ondráček",
+            "target": "Novotného",
+            "weight": 0.6105347797044509
+        },
+        {
+            "source": "Ondráček",
+            "target": "Jágr",
+            "weight": 0.6044219812902353
+        },
+        {
+            "source": "Ondráček",
+            "target": "Vondráček",
+            "weight": 0.6805038745194427
+        },
+        {
+            "source": "Ondráček",
+            "target": "Filip",
+            "weight": 0.6789904111550927
+        },
+        {
+            "source": "Švejk",
+            "target": "Gottwald",
+            "weight": 0.6128073674044282
+        },
+        {
+            "source": "Gottwald",
+            "target": "Lenin",
+            "weight": 0.6238320070788701
+        },
+        {
+            "source": "Gottwald",
+            "target": "Marx",
+            "weight": 0.6161512191704807
+        },
+        {
+            "source": "Gottwald",
+            "target": "Pík",
+            "weight": 0.7076311279020245
+        },
+        {
+            "source": "Rath",
+            "target": "Krejčíř",
+            "weight": 0.7017023150431119
+        },
+        {
+            "source": "Rath",
+            "target": "Horáčka",
+            "weight": 0.6815583793219896
+        },
+        {
+            "source": "Rath",
+            "target": "Grosse",
+            "weight": 0.609334622364171
+        },
+        {
+            "source": "Rath",
+            "target": "Faltýnek",
+            "weight": 0.6400355615117194
+        },
+        {
+            "source": "Rath",
+            "target": "Bradáčová",
+            "weight": 0.6472708670177985
+        },
+        {
+            "source": "Krejčíř",
+            "target": "Pospíšil",
+            "weight": 0.67758777514663
+        },
+        {
+            "source": "Krejčíř",
+            "target": "Horáčka",
+            "weight": 0.6533511576578634
+        },
+        {
+            "source": "Krejčíř",
+            "target": "Kraus",
+            "weight": 0.6439342295595986
+        },
+        {
+            "source": "Horáčka",
+            "target": "Blažek",
+            "weight": 0.7823012042217128
+        },
+        {
+            "source": "Horáčka",
+            "target": "Šmucler",
+            "weight": 0.6361864880119461
+        },
+        {
+            "source": "Horáčka",
+            "target": "Bobošíková",
+            "weight": 0.7101399138897281
+        },
+        {
+            "source": "Horáčka",
+            "target": "Redl",
+            "weight": 0.6136053327391817
+        },
+        {
+            "source": "Horáčka",
+            "target": "Kraus",
+            "weight": 0.6879573862698856
+        },
+        {
+            "source": "Horáčka",
+            "target": "Šabatový",
+            "weight": 0.6026938751802344
+        },
+        {
+            "source": "Horáčka",
+            "target": "Bartoška",
+            "weight": 0.7245334005564351
+        },
+        {
+            "source": "Horáčka",
+            "target": "Kolář",
+            "weight": 0.6164508230776262
+        },
+        {
+            "source": "Horáčka",
+            "target": "Kroupa",
+            "weight": 0.692578348882338
+        },
+        {
+            "source": "Horáčka",
+            "target": "Fico",
+            "weight": 0.6604756589549903
+        },
+        {
+            "source": "Skopeček",
+            "target": "Maláčová",
+            "weight": 0.6054657850678009
+        },
+        {
+            "source": "Skopeček",
+            "target": "Prouza",
+            "weight": 0.6154123769732062
+        },
+        {
+            "source": "Skopeček",
+            "target": "Zahradil",
+            "weight": 0.660472356438805
+        },
+        {
+            "source": "Semínko",
+            "target": "Fridrich",
+            "weight": 0.602148112011889
+        },
+        {
+            "source": "Fridrich",
+            "target": "Kingem",
+            "weight": 0.6035838022372169
+        },
+        {
+            "source": "Fridrich",
+            "target": "Švehla",
+            "weight": 0.6963405619426314
+        },
+        {
+            "source": "Fridrich",
+            "target": "Janeček",
+            "weight": 0.6674480633247056
+        },
+        {
+            "source": "Fridrich",
+            "target": "Marx",
+            "weight": 0.6355320497481385
+        },
+        {
+            "source": "Timmermans",
+            "target": "von der Leyen",
+            "weight": 0.657989689891975
+        },
+        {
+            "source": "Timmermans",
+            "target": "Sassoli",
+            "weight": 0.6382623186412373
+        },
+        {
+            "source": "Timmermans",
+            "target": "Jourová",
+            "weight": 0.6371454833801208
+        },
+        {
+            "source": "Lenin",
+            "target": "Marx",
+            "weight": 0.6782638393659817
+        },
+        {
+            "source": "Marx",
+            "target": "Hitler",
+            "weight": 0.6451599446569806
+        },
+        {
+            "source": "Blažek",
+            "target": "Grospič",
+            "weight": 0.6804709157501978
+        },
+        {
+            "source": "Blažek",
+            "target": "Šmucler",
+            "weight": 0.612248435526064
+        },
+        {
+            "source": "Blažek",
+            "target": "Štětina",
+            "weight": 0.6788773738447954
+        },
+        {
+            "source": "Blažek",
+            "target": "Bláha",
+            "weight": 0.7008312017506352
+        },
+        {
+            "source": "Blažek",
+            "target": "Nováková",
+            "weight": 0.6190322252451056
+        },
+        {
+            "source": "Blažek",
+            "target": "Richterová",
+            "weight": 0.706313777175986
+        },
+        {
+            "source": "Blažek",
+            "target": "Valenta",
+            "weight": 0.7222443952687113
+        },
+        {
+            "source": "Blažek",
+            "target": "Bek",
+            "weight": 0.6845283151943508
+        },
+        {
+            "source": "Blažek",
+            "target": "Navrátil",
+            "weight": 0.6373589773652456
+        },
+        {
+            "source": "Blažek",
+            "target": "Janeček",
+            "weight": 0.688283576881207
+        },
+        {
+            "source": "Blažek",
+            "target": "Kovář",
+            "weight": 0.6960873659249974
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Brichta",
+            "weight": 0.6460432988973036
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Hyťhová",
+            "weight": 0.7120713486640188
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Šafránková",
+            "weight": 0.6216050727317504
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Koten",
+            "weight": 0.750936941855107
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Jarošová",
+            "weight": 0.7021054004545108
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Henner",
+            "weight": 0.7746777520363168
+        },
+        {
+            "source": "Rozvoral",
+            "target": "Rozner",
+            "weight": 0.6610388936240696
+        },
+        {
+            "source": "Drahoš",
+            "target": "Smoljak",
+            "weight": 0.664205716429434
+        },
+        {
+            "source": "Drahoš",
+            "target": "Zeman",
+            "weight": 0.6151452096536704
+        },
+        {
+            "source": "Drahoš",
+            "target": "Vystrčil",
+            "weight": 0.6274615201093425
+        },
+        {
+            "source": "Drahoš",
+            "target": "Čunka",
+            "weight": 0.7017741477346499
+        },
+        {
+            "source": "Ryšavý",
+            "target": "Prchal",
+            "weight": 0.6529929742268099
+        },
+        {
+            "source": "Ryšavý",
+            "target": "Mitrofanov",
+            "weight": 0.6435858411186313
+        },
+        {
+            "source": "Ryšavý",
+            "target": "Ovčáček",
+            "weight": 0.6227598242907644
+        },
+        {
+            "source": "Mitrofanov",
+            "target": "Šídlo",
+            "weight": 0.6971417022267443
+        },
+        {
+            "source": "Mitrofanov",
+            "target": "Ovčáček",
+            "weight": 0.6264337216270572
+        },
+        {
+            "source": "Mitrofanov",
+            "target": "Vondra",
+            "weight": 0.6501642979961705
+        },
+        {
+            "source": "Ovčáček",
+            "target": "Šídlo",
+            "weight": 0.6514399642993078
+        },
+        {
+            "source": "Ovčáček",
+            "target": "Lipovský",
+            "weight": 0.609076385804417
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Niedermayer",
+            "weight": 0.7454049303721596
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Redl",
+            "weight": 0.6634367657428494
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Zdechovský",
+            "weight": 0.6769762580933798
+        },
+        {
+            "source": "Pospíšil",
+            "target": "Čižinský",
+            "weight": 0.6368015456919718
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Zdechovský",
+            "weight": 0.67391878416646
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Kohlíček",
+            "weight": 0.7330390678218583
+        },
+        {
+            "source": "Niedermayer",
+            "target": "Keller",
+            "weight": 0.7219435067474574
+        },
+        {
+            "source": "Kulhánek",
+            "target": "Vokřál",
+            "weight": 0.7161783667422149
+        },
+        {
+            "source": "Kulhánek",
+            "target": "Čunek",
+            "weight": 0.7437142574907963
+        },
+        {
+            "source": "Kulhánek",
+            "target": "Čunka",
+            "weight": 0.7490350634037847
+        },
+        {
+            "source": "Kulhánek",
+            "target": "Vaňková",
+            "weight": 0.7710448556669327
+        },
+        {
+            "source": "Kulhánek",
+            "target": "Jarolím",
+            "weight": 0.7554376692237448
+        },
+        {
+            "source": "Grospič",
+            "target": "Rozner",
+            "weight": 0.7000045392635933
+        },
+        {
+            "source": "Grospič",
+            "target": "Pík",
+            "weight": 0.6688466471323112
+        },
+        {
+            "source": "Rozner",
+            "target": "Koten",
+            "weight": 0.7022691290676831
+        },
+        {
+            "source": "Bašta",
+            "target": "Dickfeld",
+            "weight": 0.6305967708847409
+        },
+        {
+            "source": "Bašta",
+            "target": "Foldyna",
+            "weight": 0.6202971272410749
+        },
+        {
+            "source": "Bašta",
+            "target": "Jakl",
+            "weight": 0.6104397535035644
+        },
+        {
+            "source": "Dickfeld",
+            "target": "Mitterwald",
+            "weight": 0.8102663389635795
+        },
+        {
+            "source": "Dickfeld",
+            "target": "Běrský",
+            "weight": 0.788995167729087
+        },
+        {
+            "source": "Dickfeld",
+            "target": "Pošarová",
+            "weight": 0.7519136446291247
+        },
+        {
+            "source": "Dickfeld",
+            "target": "Atkinson",
+            "weight": 0.6566889640485006
+        },
+        {
+            "source": "Dickfeld",
+            "target": "Blaško",
+            "weight": 0.7397082069810719
+        },
+        {
+            "source": "Sassoli",
+            "target": "Keller",
+            "weight": 0.6938004664028145
+        },
+        {
+            "source": "Sassoli",
+            "target": "Weber",
+            "weight": 0.6832768630741928
+        },
+        {
+            "source": "Sassoli",
+            "target": "Conte",
+            "weight": 0.6739776170643257
+        },
+        {
+            "source": "Sassoli",
+            "target": "Atkinson",
+            "weight": 0.6623122608455834
+        },
+        {
+            "source": "Keller",
+            "target": "Šojdrová",
+            "weight": 0.6555024367624158
+        },
+        {
+            "source": "Keller",
+            "target": "Ježek",
+            "weight": 0.7766762486074248
+        },
+        {
+            "source": "Keller",
+            "target": "Sehnalová",
+            "weight": 0.6790507190517215
+        },
+        {
+            "source": "Keller",
+            "target": "Bělobrádek",
+            "weight": 0.7046632207665009
+        },
+        {
+            "source": "Keller",
+            "target": "Dlabajová",
+            "weight": 0.7568478704029826
+        },
+        {
+            "source": "Keller",
+            "target": "Chvojka",
+            "weight": 0.6407091383085575
+        },
+        {
+            "source": "Keller",
+            "target": "Vondra",
+            "weight": 0.7045646393636412
+        },
+        {
+            "source": "Keller",
+            "target": "Teličko",
+            "weight": 0.8167615615445266
+        },
+        {
+            "source": "Keller",
+            "target": "Herman",
+            "weight": 0.6594767873465326
+        },
+        {
+            "source": "Keller",
+            "target": "Zahradil",
+            "weight": 0.6317252786948863
+        },
+        {
+            "source": "Keller",
+            "target": "Poc",
+            "weight": 0.8477686273497856
+        },
+        {
+            "source": "Keller",
+            "target": "Charanzová",
+            "weight": 0.7285098466373123
+        },
+        {
+            "source": "Weber",
+            "target": "Juncker",
+            "weight": 0.6269629157881256
+        },
+        {
+            "source": "Weber",
+            "target": "von der Leyen",
+            "weight": 0.6504054506864559
+        },
+        {
+            "source": "Weber",
+            "target": "Vondra",
+            "weight": 0.7039501823773041
+        },
+        {
+            "source": "Weber",
+            "target": "Zahradil",
+            "weight": 0.6739776112675612
+        },
+        {
+            "source": "Conte",
+            "target": "Szijjártó",
+            "weight": 0.6429172714509441
+        },
+        {
+            "source": "Atkinson",
+            "target": "Brichta",
+            "weight": 0.6334225502452827
+        },
+        {
+            "source": "Atkinson",
+            "target": "Danna",
+            "weight": 0.6894683187709665
+        },
+        {
+            "source": "Atkinson",
+            "target": "Le Pen",
+            "weight": 0.704786260013805
+        },
+        {
+            "source": "Hofer",
+            "target": "Wilderse",
+            "weight": 0.701888482411864
+        },
+        {
+            "source": "Hofer",
+            "target": "Salvini",
+            "weight": 0.6392258351688238
+        },
+        {
+            "source": "Hofer",
+            "target": "Matovič",
+            "weight": 0.6794388061387301
+        },
+        {
+            "source": "Hofer",
+            "target": "Le Pen",
+            "weight": 0.7368796690413706
+        },
+        {
+            "source": "Maláčová",
+            "target": "Gajdůšková",
+            "weight": 0.6888898627706421
+        },
+        {
+            "source": "Maláčová",
+            "target": "Marksová",
+            "weight": 0.6633883235234407
+        },
+        {
+            "source": "Gajdůšková",
+            "target": "Šafránková",
+            "weight": 0.7263147034443983
+        },
+        {
+            "source": "Gajdůšková",
+            "target": "Schillerová",
+            "weight": 0.6723992663322035
+        },
+        {
+            "source": "Gajdůšková",
+            "target": "Hyťhová",
+            "weight": 0.6909299390566788
+        },
+        {
+            "source": "Gajdůšková",
+            "target": "Středula",
+            "weight": 0.6452953044388451
+        },
+        {
+            "source": "Marksová",
+            "target": "Teličko",
+            "weight": 0.6680122591165158
+        },
+        {
+            "source": "Bobošíková",
+            "target": "Kohlíček",
+            "weight": 0.7128927194017521
+        },
+        {
+            "source": "Bobošíková",
+            "target": "Kroupa",
+            "weight": 0.7121924060177393
+        },
+        {
+            "source": "Bobošíková",
+            "target": "Tabery",
+            "weight": 0.6340206475766312
+        },
+        {
+            "source": "Bobošíková",
+            "target": "Moravec",
+            "weight": 0.6246407317280068
+        },
+        {
+            "source": "Bobošíková",
+            "target": "Wollner",
+            "weight": 0.6314556884504046
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Poc",
+            "weight": 0.8359799709890909
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Ježek",
+            "weight": 0.7839936575614842
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Teličko",
+            "weight": 0.7819533996379795
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Šojdrová",
+            "weight": 0.6398163742889682
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Bělobrádek",
+            "weight": 0.6918616164789815
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Dlabajová",
+            "weight": 0.7342404233521457
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Chvojka",
+            "weight": 0.6346719521365503
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Kovář",
+            "weight": 0.6986335569493399
+        },
+        {
+            "source": "Kohlíček",
+            "target": "Filip",
+            "weight": 0.6844475320664881
+        },
+        {
+            "source": "Kroupa",
+            "target": "Šídlo",
+            "weight": 0.6588282345410149
+        },
+        {
+            "source": "Kroupa",
+            "target": "Wollner",
+            "weight": 0.6065684945688267
+        },
+        {
+            "source": "Brichta",
+            "target": "Danna",
+            "weight": 0.6630296061384527
+        },
+        {
+            "source": "Danna",
+            "target": "Le Pen",
+            "weight": 0.6260814403408055
+        },
+        {
+            "source": "Vokřál",
+            "target": "Vaňková",
+            "weight": 0.7438105617427272
+        },
+        {
+            "source": "Wilderse",
+            "target": "Salvini",
+            "weight": 0.6852554797358549
+        },
+        {
+            "source": "Salvini",
+            "target": "Le Pen",
+            "weight": 0.6577671629321123
+        },
+        {
+            "source": "Danka",
+            "target": "Matovič",
+            "weight": 0.7123473904068857
+        },
+        {
+            "source": "Danka",
+            "target": "Kramář",
+            "weight": 0.6501173057494715
+        },
+        {
+            "source": "Danka",
+            "target": "Fico",
+            "weight": 0.6400245381668592
+        },
+        {
+            "source": "Matovič",
+            "target": "Fico",
+            "weight": 0.7943048680042456
+        },
+        {
+            "source": "Matovič",
+            "target": "Kingem",
+            "weight": 0.6162674152897436
+        },
+        {
+            "source": "Matovič",
+            "target": "Kramář",
+            "weight": 0.6443591783249236
+        },
+        {
+            "source": "Matovič",
+            "target": "Čaputová",
+            "weight": 0.6369707404255243
+        },
+        {
+            "source": "Matovič",
+            "target": "Stoltenberg",
+            "weight": 0.6564997866301394
+        },
+        {
+            "source": "Matovič",
+            "target": "Orbán",
+            "weight": 0.6979206641643609
+        },
+        {
+            "source": "Kramář",
+            "target": "Rašín",
+            "weight": 0.6488757550588296
+        },
+        {
+            "source": "Fico",
+            "target": "Babiš",
+            "weight": 0.6047327442749427
+        },
+        {
+            "source": "Fico",
+            "target": "Čaputová",
+            "weight": 0.6092758833548004
+        },
+        {
+            "source": "Grosse",
+            "target": "Kraus",
+            "weight": 0.6215114158259479
+        },
+        {
+            "source": "Poc",
+            "target": "Zdechovský",
+            "weight": 0.7175188870155793
+        },
+        {
+            "source": "Poc",
+            "target": "Ježek",
+            "weight": 0.7905680010344133
+        },
+        {
+            "source": "Poc",
+            "target": "Sehnalová",
+            "weight": 0.7173260475802671
+        },
+        {
+            "source": "Poc",
+            "target": "Teličko",
+            "weight": 0.7857735754669399
+        },
+        {
+            "source": "Poc",
+            "target": "Dlabajová",
+            "weight": 0.7835707932737642
+        },
+        {
+            "source": "Poc",
+            "target": "Charanzová",
+            "weight": 0.7508621555783311
+        },
+        {
+            "source": "Ježek",
+            "target": "Pavel",
+            "weight": 0.704371970877456
+        },
+        {
+            "source": "Ježek",
+            "target": "Dlabajová",
+            "weight": 0.7781017188700109
+        },
+        {
+            "source": "Ježek",
+            "target": "Charanzová",
+            "weight": 0.7630647923662267
+        },
+        {
+            "source": "Teličko",
+            "target": "Pavel",
+            "weight": 0.6776444947932859
+        },
+        {
+            "source": "Teličko",
+            "target": "Štětina",
+            "weight": 0.6759498197538472
+        },
+        {
+            "source": "Teličko",
+            "target": "Šojdrová",
+            "weight": 0.6692588378830048
+        },
+        {
+            "source": "Teličko",
+            "target": "Zdechovský",
+            "weight": 0.7002567137627497
+        },
+        {
+            "source": "Teličko",
+            "target": "Sehnalová",
+            "weight": 0.6522767216283626
+        },
+        {
+            "source": "Teličko",
+            "target": "Dlabajová",
+            "weight": 0.7949080678515438
+        },
+        {
+            "source": "Teličko",
+            "target": "Charanzová",
+            "weight": 0.7884000903141745
+        },
+        {
+            "source": "Novotného",
+            "target": "Zahradníček",
+            "weight": 0.6281983062163125
+        },
+        {
+            "source": "Zahradníček",
+            "target": "Opletal",
+            "weight": 0.6405713977194875
+        },
+        {
+            "source": "Zahradníček",
+            "target": "Horákovou",
+            "weight": 0.6075909648461025
+        },
+        {
+            "source": "Trump",
+            "target": "Erdogan",
+            "weight": 0.6034439689763743
+        },
+        {
+            "source": "Trump",
+            "target": "Zeman",
+            "weight": 0.6478869612043371
+        },
+        {
+            "source": "Čunek",
+            "target": "Čunka",
+            "weight": 0.8030567950412597
+        },
+        {
+            "source": "Pík",
+            "target": "Boček",
+            "weight": 0.7390449296392664
+        },
+        {
+            "source": "Pík",
+            "target": "Opat",
+            "weight": 0.6033522021142568
+        },
+        {
+            "source": "Pík",
+            "target": "Švehla",
+            "weight": 0.6570893811200846
+        },
+        {
+            "source": "Pík",
+            "target": "Chramostová",
+            "weight": 0.6502198168582599
+        },
+        {
+            "source": "Pík",
+            "target": "Opletal",
+            "weight": 0.6420192923119853
+        },
+        {
+            "source": "Pík",
+            "target": "Rašín",
+            "weight": 0.6474895428814131
+        },
+        {
+            "source": "Opletal",
+            "target": "Palach",
+            "weight": 0.6201201588484809
+        },
+        {
+            "source": "Opletal",
+            "target": "Komenského",
+            "weight": 0.6192154175632117
+        },
+        {
+            "source": "Boček",
+            "target": "Krpálek",
+            "weight": 0.66490348694655
+        },
+        {
+            "source": "Hyťhová",
+            "target": "Jarošová",
+            "weight": 0.7341893459649441
+        },
+        {
+            "source": "Hyťhová",
+            "target": "Hrnčíř",
+            "weight": 0.7272547576375461
+        },
+        {
+            "source": "Hyťhová",
+            "target": "Koten",
+            "weight": 0.7072754863074922
+        },
+        {
+            "source": "Jarošová",
+            "target": "Šafránková",
+            "weight": 0.7145164713843473
+        },
+        {
+            "source": "Jarošová",
+            "target": "Koten",
+            "weight": 0.6825244423729716
+        },
+        {
+            "source": "Jarošová",
+            "target": "Hrnčíř",
+            "weight": 0.6782171690213408
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Šafránková",
+            "weight": 0.6845666511290586
+        },
+        {
+            "source": "Hrnčíř",
+            "target": "Koten",
+            "weight": 0.7103565342716921
+        },
+        {
+            "source": "Koten",
+            "target": "Kolovratník",
+            "weight": 0.6761072128098299
+        },
+        {
+            "source": "Koten",
+            "target": "Šafránková",
+            "weight": 0.6590794040957023
+        },
+        {
+            "source": "Koten",
+            "target": "Nacher",
+            "weight": 0.6431139916572289
+        },
+        {
+            "source": "Smoljak",
+            "target": "Decroix",
+            "weight": 0.6847249986380416
+        },
+        {
+            "source": "Smoljak",
+            "target": "David",
+            "weight": 0.6485593625261573
+        },
+        {
+            "source": "Smoljak",
+            "target": "Jarolím",
+            "weight": 0.7808551970874622
+        },
+        {
+            "source": "Decroix",
+            "target": "Jarolím",
+            "weight": 0.7848429743787642
+        },
+        {
+            "source": "Decroix",
+            "target": "Sáblíková",
+            "weight": 0.6314987131082589
+        },
+        {
+            "source": "David",
+            "target": "Blaško",
+            "weight": 0.6430830216307987
+        },
+        {
+            "source": "Kolovratník",
+            "target": "Schillerová",
+            "weight": 0.6020216663445984
+        },
+        {
+            "source": "Mitterwald",
+            "target": "Pošarová",
+            "weight": 0.772775904321035
+        },
+        {
+            "source": "Mitterwald",
+            "target": "Henner",
+            "weight": 0.7371488520441977
+        },
+        {
+            "source": "Lhoťan",
+            "target": "Sáňka",
+            "weight": 0.6685030076552525
+        },
+        {
+            "source": "Lhoťan",
+            "target": "Diallo",
+            "weight": 0.6322060438360164
+        },
+        {
+            "source": "Sáňka",
+            "target": "Shehadeh",
+            "weight": 0.6559716496375173
+        },
+        {
+            "source": "Sáňka",
+            "target": "Diallo",
+            "weight": 0.6164792347124173
+        },
+        {
+            "source": "Juncker",
+            "target": "Macron",
+            "weight": 0.7155265339542726
+        },
+        {
+            "source": "Juncker",
+            "target": "Soros",
+            "weight": 0.6200096248907143
+        },
+        {
+            "source": "Juncker",
+            "target": "Merkelová",
+            "weight": 0.7402889809466643
+        },
+        {
+            "source": "Hus",
+            "target": "Palach",
+            "weight": 0.6459013951161076
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Dlabajová",
+            "weight": 0.6504952894447779
+        },
+        {
+            "source": "Šojdrová",
+            "target": "Zdechovský",
+            "weight": 0.7492985337379457
+        },
+        {
+            "source": "Jarolím",
+            "target": "Čižinský",
+            "weight": 0.6624989556037675
+        },
+        {
+            "source": "Jarolím",
+            "target": "Czernin",
+            "weight": 0.7411737585693333
+        },
+        {
+            "source": "Stoltenberg",
+            "target": "Erdogan",
+            "weight": 0.6737257611170716
+        },
+        {
+            "source": "Stoltenberg",
+            "target": "Opat",
+            "weight": 0.6216875093242292
+        },
+        {
+            "source": "Čížek",
+            "target": "Vaňková",
+            "weight": 0.701167223890552
+        },
+        {
+            "source": "Vaňková",
+            "target": "Richterová",
+            "weight": 0.6955819592891574
+        },
+        {
+            "source": "Vaňková",
+            "target": "Kupka",
+            "weight": 0.7058360559860466
+        },
+        {
+            "source": "Vaňková",
+            "target": "Čunka",
+            "weight": 0.7307944185428228
+        },
+        {
+            "source": "Bláha",
+            "target": "Pokorný",
+            "weight": 0.6979609880583164
+        },
+        {
+            "source": "Bláha",
+            "target": "Středula",
+            "weight": 0.6288264023588552
+        },
+        {
+            "source": "Pokorný",
+            "target": "Vondráček",
+            "weight": 0.6812835726930718
+        },
+        {
+            "source": "Pokorný",
+            "target": "Bakala",
+            "weight": 0.6043671808853406
+        },
+        {
+            "source": "Bartoška",
+            "target": "Bělobrádek",
+            "weight": 0.6784241213133482
+        },
+        {
+            "source": "Bartoška",
+            "target": "Kovář",
+            "weight": 0.7253032953126066
+        },
+        {
+            "source": "Bartoška",
+            "target": "Herman",
+            "weight": 0.7184738081558639
+        },
+        {
+            "source": "Šmarda",
+            "target": "Prymula",
+            "weight": 0.6183003125808003
+        },
+        {
+            "source": "Šmarda",
+            "target": "Zeman",
+            "weight": 0.6303396619739698
+        },
+        {
+            "source": "Šmarda",
+            "target": "Blatný",
+            "weight": 0.607556969774688
+        },
+        {
+            "source": "Šmarda",
+            "target": "Čunka",
+            "weight": 0.6546365164426877
+        },
+        {
+            "source": "Chramostová",
+            "target": "Rašín",
+            "weight": 0.6111954955459513
+        },
+        {
+            "source": "Vondráček",
+            "target": "Faltýnek",
+            "weight": 0.7125100643935097
+        },
+        {
+            "source": "Vondráček",
+            "target": "Filip",
+            "weight": 0.6752873599361409
+        },
+        {
+            "source": "Filip",
+            "target": "Koudelku",
+            "weight": 0.6201527471267105
+        },
+        {
+            "source": "Zeman",
+            "target": "Babiš",
+            "weight": 0.6110866469130984
+        },
+        {
+            "source": "Bradáčová",
+            "target": "Vitásková",
+            "weight": 0.6322555775806514
+        },
+        {
+            "source": "Czernin",
+            "target": "Stehlík",
+            "weight": 0.6599178785243228
+        },
+        {
+            "source": "Szijjártó",
+            "target": "Orbán",
+            "weight": 0.6282092878018797
+        },
+        {
+            "source": "Peksa",
+            "target": "Ferjenčík",
+            "weight": 0.6246709080446716
+        },
+        {
+            "source": "Peksa",
+            "target": "Lipovský",
+            "weight": 0.6016959280470258
+        },
+        {
+            "source": "Lipovský",
+            "target": "Richterová",
+            "weight": 0.6004267758632185
+        },
+        {
+            "source": "Sáblíková",
+            "target": "Hnilička",
+            "weight": 0.6169687368055388
+        },
+        {
+            "source": "Sáblíková",
+            "target": "Krpálek",
+            "weight": 0.6477389027956939
+        },
+        {
+            "source": "Vondra",
+            "target": "Zahradil",
+            "weight": 0.7182618390356806
+        },
+        {
+            "source": "Arenberger",
+            "target": "Blatný",
+            "weight": 0.7137540551060068
+        },
+        {
+            "source": "Arenberger",
+            "target": "Prymula",
+            "weight": 0.7309145526427737
+        },
+        {
+            "source": "Valenta",
+            "target": "Gerloch",
+            "weight": 0.6577860948128489
+        },
+        {
+            "source": "Valenta",
+            "target": "Halík",
+            "weight": 0.601886878427267
+        },
+        {
+            "source": "Henner",
+            "target": "Vícha",
+            "weight": 0.7333928585753019
+        },
+        {
+            "source": "Henner",
+            "target": "Blaško",
+            "weight": 0.6714274388570515
+        },
+        {
+            "source": "Čunka",
+            "target": "Kupka",
+            "weight": 0.7080261535380118
+        },
+        {
+            "source": "Bělobrádek",
+            "target": "Sobotka",
+            "weight": 0.6715989369885347
+        },
+        {
+            "source": "Švehla",
+            "target": "Masaryk",
+            "weight": 0.6447288762617983
+        },
+        {
+            "source": "Masaryk",
+            "target": "Baťa",
+            "weight": 0.6041671488568956
+        },
+        {
+            "source": "Masaryk",
+            "target": "Komenského",
+            "weight": 0.6002969152368959
+        },
+        {
+            "source": "Brabec",
+            "target": "Havlíček",
+            "weight": 0.6422564564740225
+        },
+        {
+            "source": "Havlíček",
+            "target": "Dzurilla",
+            "weight": 0.6599305307775747
+        },
+        {
+            "source": "Hamáček",
+            "target": "Chvojka",
+            "weight": 0.6570313517367659
+        },
+        {
+            "source": "Šabatový",
+            "target": "Halík",
+            "weight": 0.6033919861013278
+        },
+        {
+            "source": "Kovář",
+            "target": "Nacher",
+            "weight": 0.6581094724021617
+        },
+        {
+            "source": "Baťa",
+            "target": "Komenského",
+            "weight": 0.6018214893327286
+        },
+        {
+            "source": "Navrátil",
+            "target": "Janeček",
+            "weight": 0.6349927104673325
+        },
+        {
+            "source": "Navrátil",
+            "target": "Krpálek",
+            "weight": 0.6476797457588722
+        },
+        {
+            "source": "Janeček",
+            "target": "Koudelku",
+            "weight": 0.6370346105495629
+        },
+        {
+            "source": "Janeček",
+            "target": "Štěpán",
+            "weight": 0.603506505198231
+        },
+        {
+            "source": "Stehlík",
+            "target": "Koudelku",
+            "weight": 0.6246412580145133
+        },
+        {
+            "source": "Krpálek",
+            "target": "Paul",
+            "weight": 0.6667345097410187
+        }
+    ]
+}

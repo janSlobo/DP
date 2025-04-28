@@ -160,7 +160,7 @@ namespace PoliticStatements.Services
     List<Statement> st_emotion,
     List<Statement> st_all,
     List<string> nertypes,
-    int mincount = 100,
+    int mincount = 20,
     string currentEntity = "")
         {
             var entityFrequencyEmotion = new Dictionary<string, int>();
